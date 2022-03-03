@@ -41,7 +41,7 @@ librarysearch <- function(datamatrix,
     
     #Modify Spectra objects
     query <- addProcessing(query, norm_int)
-    query <- filterIntensity(query, intensity = low_int)
+    query <- replaceIntensitiesBelow(query, threshold = in_thresh, value = 0)
     
     library <- addProcessing(library, norm_int)
     

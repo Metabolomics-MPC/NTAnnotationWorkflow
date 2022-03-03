@@ -5,7 +5,7 @@
 
 #' Remove fragments below x% of base peak intensity
 low_int <- function(x, ...) {
-    x > max(x, na.rm = TRUE) * (paste(int_tresh) / 100 )
+    x > max(x, na.rm = TRUE) * (int_tresh / 100 )
 }
 
 #' Normalize intensities
