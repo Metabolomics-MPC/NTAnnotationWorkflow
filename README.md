@@ -6,5 +6,5 @@ with a spectral library annotation with the MetaboAnnotation package (see https:
 
 ## Usage
 
-Example workflow can be found in ´R/workflow.R`
+Example workflow can be found in `R/workflow.R`
 
