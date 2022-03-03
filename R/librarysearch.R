@@ -45,14 +45,14 @@ librarysearch <- function(datamatrix,
     
     library <- addProcessing(library, norm_int)
     
-    prm <- MatchForwardReverseParam(ppm = mz_ppm, requirePrecursor = TRUE,
+    prm <- MatchForwardReverseParam(ppm = mz_ppm,
                                     THRESHFUN = function(x) which(x >= dp_tresh))
     
     #Perform library search with the MetaboAnnotation package
     mtch <- matchSpectra(query, library, param = prm)
     
     #Get annotations
-    mtches_df <- as.data.frame(spectraData(mtch[whichQuery(mtch)], columns = c( "scanIndex", "score", "target_name", "target_precursorMz","precursorMz", "target_rtime", "target_splash")))
+    mtches_df <- as.data.frame(spectraData(mtch[whichQuery(mtch)], columns = c( "scanIndex", "score", "target_name", "target_precursorMz", "target_rtime", "target_splash")))
     mtches_df$scanIndex <- as.numeric(mtches_df$scanIndex)
     mtches_df$target_rtime <- mtches_df$target_rtime /60
     

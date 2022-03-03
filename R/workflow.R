@@ -4,10 +4,10 @@
 # Store Annotations in Signal Intensity matrix #
 ################################################
 ### Set variables => Change for your option  ###
-mbank_dir <- "~/Nextcloud/Cloud/9_HGMU/Share/20210203_SF5_MassBankRecords/pos" #Directory with mbank records to annotate
-datamatrix <- "~/Nextcloud/Cloud/9_HGMU/Share/Slaw_test/Pos/openms/datamatrix_opt.csv" #Slaw file with the MS1 data matrix
-fused_mgf <- "~/Nextcloud/Cloud/9_HGMU/Share/Slaw_test/Pos/openms/fused_mgf_opt.mgf" #Slaw fused mgf output
-output <- "~/Nextcloud/Cloud/9_HGMU/Share/Slaw_test/Pos/openms/data_annotated_opt_rt.csv" #File with the annotated features
+mbank_dir <- "../testdata/library/" #Directory with mbank records to annotate
+datamatrix <- "../testdata/output_slaw/datamatrix_opt.csv" #Slaw file with the MS1 data matrix
+fused_mgf <- "../testdata/output_slaw/fused_mgf_opt.mgf" #Slaw fused mgf output
+output <- "../testoutput/datamatrix_annotated.csv" #File with the annotated features
 
 plot_boxplot <- TRUE #Shall boxplot of Signal Intensities be produced for the matches?
 plot_PCA <- TRUE #Shall t-SNE/PCA plot be generated for the produced matches?
