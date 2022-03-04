@@ -4,10 +4,10 @@
 # Store Annotations in Signal Intensity matrix #
 ################################################
 ### Set variables => Change for your option  ###
-mbank_dir <- "../testdata/library/" #Directory with mbank records to annotate
+mbank_dir <- "~/Nextcloud/Cloud/9_HGMU/Share/20210203_SF5_MassBankRecords/neg/" #"../testdata/library/" #Directory with mbank records to annotate
 datamatrix <- "../testdata/output_slaw/datamatrix_opt.csv" #Slaw file with the MS1 data matrix
 fused_mgf <- "../testdata/output_slaw/fused_mgf_opt.mgf" #Slaw fused mgf output
-output <- "../testoutput/datamatrix_annotated.csv" #File with the annotated features
+output <- "../testoutput/" #File with the annotated features
 
 plot_boxplot <- TRUE #Shall boxplot of Signal Intensities be produced for the matches?
 plot_PCA <- TRUE #Shall t-SNE/PCA plot be generated for the produced matches?
@@ -46,8 +46,8 @@ source("librarysearch.R")
 ################################################
 ### Workflow ###################################
 ################################################
-mtch <- librarysearch(datamatrix, fused_mgf, library_dir, output)
-data_f <- read.csv(output)
+mtch <- librarysearch(datamatrix, fused_mgf, library_dir, output, plot_headtail=TRUE)
+data_f <- read.csv(paste0(output,"/datamatrix_annotated.csv"))
 
 #Truncate for further calculations
 data_f <- data_f[which(!data_f$target_splash==""),]
@@ -72,6 +72,7 @@ if(plot_boxplot){
             labs(title=paste0(data_f$target_name[i])) +
             theme_classic()
         print(p)
+        ggsave(paste0(output, "/", i, "_boxplot.png"))
     }
 }
 
@@ -80,6 +81,9 @@ if(plot_PCA){
     data_log <- log2(int_matrix)
     is.na(data_log)<-sapply(data_log, is.infinite)
     data_log[is.na(data_log)]<-0
-    tsne(data_log, perplex=3, dotsize= 3,labels= group, seed=2000) 
+    png(paste0(output, "/tsne.png"))
+    tsne(data_log, perplex=3, dotsize= 3,labels= group, seed=2000)
+    ggsave(paste0(output, "/tsne.png"))
     pca(data_log, labels = group)
+    ggsave(paste0(output, "/pca.png"))
 }

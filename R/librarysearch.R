@@ -3,7 +3,7 @@
 #' @param datmatrix Slaw file with the MS1 data matrix
 #' @param fused_mgf Slaw fused mgf output
 #' @param library_dir Directory with MassBank records to annotate
-#' @param output Name and filepath for the output generated (Slaw matrix with with the annotated features)
+#' @param output Directory where output will be stored (Slaw matrix with with the annotated features)
 #' @param annotated_only Shall the output be trucated to only trunctuated features? Default TRUE
 #' @param dp_tresh Threshold for dot product score, default 0.4
 #' @param mz_ppm Mass window used for spectra matching in ppm, default 5
@@ -11,11 +11,9 @@
 #' @param compare_rt Shall annotations be compared on retention times in MassBank records? Use this only if your experminet is performed with the same LC method than your library.
 #' @param rt_thresh_min Retention time window, Annotations +- in min of the library will be retained
 #' @param plot_headtail Shall be head-tail plots be produced for the spectra matches? Default FALSE
-#' @param png_dir Directory where plots will be stored
 #' 
 #' @return the match object 
 #' The annotated output will be stored in the 
-
 librarysearch <- function(datamatrix, 
                           fused_mgf, 
                           library_dir, 
@@ -26,8 +24,7 @@ librarysearch <- function(datamatrix,
                           int_tresh=5,
                           compare_rt=FALSE,
                           rt_thresh_min=0.02,
-                          plot_headtail=FALSE,
-                          png_dir="."){
+                          plot_headtail=FALSE){
     
     #Load MassBank Records
     fls <- list.files(path=mbank_dir, pattern=".txt$", full.names = T)
@@ -77,14 +74,17 @@ librarysearch <- function(datamatrix,
     }
     
     #Save output
-    write.csv(data_fi, file=output)
+    write.csv(data_fi, file=paste0(output,"datamatrix_annotated.csv"))
+    
+    #Sace object
+    saveRDS(mtch, paste0(output,"librarysearch.rds"))
     
     #Plot head-tail plots of annotations
     if(plot_headtail){
         mtch_sub <- mtch[whichQuery(mtch)]
-        for(i in 1:length(mtch_sub@matches)){
-            png(paste0(png_dir, "/", i, ".png"))
-            plotSpectraMirror(mtch_sub[i], main=paste0(round(mtch_sub@matches$score[i],2), " for ", library[mtch_sub@matches$target_idx[i]]$name))
+        for(i in 1:nrow(mtch_sub@matches)){
+            png(paste0(output, "/", i, ".png"))
+            plotSpectraMirror(mtch_sub[i], main=paste0(round(mtch_sub@matches$score[i],2), " for ", data_f$target_name[i]))
             dev.off()
         }
     }
