@@ -31,7 +31,7 @@ color_scheme <- c("blank", "QC", "TR") #Patterns in sample names used for colori
     if (!require("Spectra")) BiocManager::install("Spectra")
     library(Spectra)
     
-    if (!require("SummarizedExperiment")) BiocManager::install("SummarizedExperiment")
+    if (!require("QFeatures")) BiocManager::install("QFeatures")
     library(Spectra)
     
     if (!require("purrr")) install.packages("purrr")
