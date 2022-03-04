@@ -4,7 +4,7 @@
 # Store Annotations in Signal Intensity matrix #
 ################################################
 ### Set variables => Change for your option  ###
-mbank_dir <- "~/Nextcloud/Cloud/9_HGMU/Share/20210203_SF5_MassBankRecords/neg/" #"../testdata/library/" #Directory with mbank records to annotate
+mbank_dir <- "../testdata/library/" #Directory with mbank records to annotate
 datamatrix <- "../testdata/output_slaw/datamatrix_opt.csv" #Slaw file with the MS1 data matrix
 fused_mgf <- "../testdata/output_slaw/fused_mgf_opt.mgf" #Slaw fused mgf output
 output <- "../testoutput/" #File with the annotated features
@@ -16,16 +16,22 @@ color_scheme <- c("blank", "QC", "TR") #Patterns in sample names used for colori
 ### Load or install packages ###################
 ################################################
 {
+    if (!require("BiocManager", quietly = TRUE))
+        install.packages("BiocManager")
+    
     if (!require("MetaboAnnotation")) devtools::install_github("rformassspectrometry/MetaboAnnotation")
     library(MetaboAnnotation)
     
-    if (!require("MsBackendMassbank")) devtools::install_github("rformassspectrometry/MsBackendMassbank")
+    if (!require("MsBackendMassbank")) BiocManager::install("MsBackendMassbank")
     library(MsBackendMassbank)
     
-    if (!require("MsBackendMgf")) devtools::install_github("rformassspectrometry/MsBackendMgf")
+    if (!require("MsBackendMgf")) BiocManager::install("MsBackendMgf")
     library(MsBackendMassbank)
     
-    if (!require("Spectra")) devtools::install_github("rformassspectrometry/Spectra")
+    if (!require("Spectra")) BiocManager::install("Spectra")
+    library(Spectra)
+    
+    if (!require("SummarizedExperiment")) BiocManager::install("SummarizedExperiment")
     library(Spectra)
     
     if (!require("purrr")) install.packages("purrr")
