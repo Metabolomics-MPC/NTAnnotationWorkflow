@@ -7,7 +7,7 @@
 mbank_dir <- "../testdata/library/" #Directory with mbank records to annotate
 datamatrix <- "../testdata/output_slaw/datamatrix_opt.csv" #Slaw file with the MS1 data matrix
 fused_mgf <- "../testdata/output_slaw/fused_mgf_opt.mgf" #Slaw fused mgf output
-output <- "../testoutput/datamatrix_annotated.csv" #File with the annotated features
+output <- "../testoutput/" #File with the annotated features
 
 plot_boxplot <- TRUE #Shall boxplot of Signal Intensities be produced for the matches?
 plot_PCA <- TRUE #Shall t-SNE/PCA plot be generated for the produced matches?
@@ -16,17 +16,23 @@ color_scheme <- c("blank", "QC", "TR") #Patterns in sample names used for colori
 ### Load or install packages ###################
 ################################################
 {
+    if (!require("BiocManager", quietly = TRUE))
+        install.packages("BiocManager")
+    
     if (!require("MetaboAnnotation")) devtools::install_github("rformassspectrometry/MetaboAnnotation")
     library(MetaboAnnotation)
     
-    if (!require("MsBackendMassbank")) devtools::install_github("rformassspectrometry/MsBackendMassbank")
+    if (!require("MsBackendMassbank")) BiocManager::install("MsBackendMassbank")
     library(MsBackendMassbank)
     
-    if (!require("MsBackendMgf")) devtools::install_github("rformassspectrometry/MsBackendMgf")
+    if (!require("MsBackendMgf")) BiocManager::install("MsBackendMgf")
     library(MsBackendMassbank)
     
-    if (!require("Spectra")) devtools::install_github("rformassspectrometry/Spectra")
+    if (!require("Spectra")) BiocManager::install("Spectra")
     library(Spectra)
+    
+    if (!require("QFeatures")) BiocManager::install("QFeatures")
+    library(QFeatures)
     
     if (!require("purrr")) install.packages("purrr")
     library(purrr)
@@ -43,11 +49,13 @@ color_scheme <- c("blank", "QC", "TR") #Patterns in sample names used for colori
 ################################################
 source("helperfunctions.R")
 source("librarysearch.R")
+source("librarysearch_se.R")
+source("slaw2summarizedExperiment.R")
 ################################################
 ### Workflow ###################################
 ################################################
-mtch <- librarysearch(datamatrix, fused_mgf, library_dir, output)
-data_f <- read.csv(output)
+mtch <- librarysearch(datamatrix, fused_mgf, library_dir, output, plot_headtail=TRUE)
+data_f <- read.csv(paste0(output,"/datamatrix_annotated.csv"))
 
 #Truncate for further calculations
 data_f <- data_f[which(!data_f$target_splash==""),]
@@ -72,6 +80,7 @@ if(plot_boxplot){
             labs(title=paste0(data_f$target_name[i])) +
             theme_classic()
         print(p)
+        ggsave(paste0(output, "/", i, "_boxplot.png"))
     }
 }
 
@@ -80,6 +89,9 @@ if(plot_PCA){
     data_log <- log2(int_matrix)
     is.na(data_log)<-sapply(data_log, is.infinite)
     data_log[is.na(data_log)]<-0
-    tsne(data_log, perplex=3, dotsize= 3,labels= group, seed=2000) 
+    png(paste0(output, "/tsne.png"))
+    tsne(data_log, perplex=3, dotsize= 3,labels= group, seed=2000)
+    ggsave(paste0(output, "/tsne.png"))
     pca(data_log, labels = group)
+    ggsave(paste0(output, "/pca.png"))
 }
