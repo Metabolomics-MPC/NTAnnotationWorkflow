@@ -2,7 +2,16 @@
 #'
 #' @param project_dir Path to project directory
 #' 
-MS2_export <- function(project_dir){
+#' @returns A Spectra object containing the MS2 data 
+MS2_export <- function(settings){
     
+    #Get filename from settings
+    fused_mgf <- settings$fused_mgf
     
+    #Load Fused MGF file
+    query <- Spectra(fused_mgf, source = MsBackendMgf(), backend = MsBackendDataFrame())
+    
+    #Generate IDX variable
+    query@backend@spectraData$scanIndex <- 1:length(query)
+    return(query)
 }
