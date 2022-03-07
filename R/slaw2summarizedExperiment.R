@@ -4,15 +4,19 @@
 #' @param group A vector defining different groups of samples
 #' 
 #' @return SummarizedExperiment Object
-slaw2summarizedExperiment <- function(datamatrix, group){
+slaw2summarizedExperiment <- function(datamatrix, group=NULL){
     #Read in the data
     data <- read.delim(datamatrix)
     #Define columns for assay
     int_begin <- grep("^intensity", colnames(data))[1]
     #Start QFeature object of class SummarizedExperiment
-    x <- readQFeatures(data, ecol= int_begin:ncol(data), name="intensity", colData=group)
+    x <- readQFeatures(data, ecol= int_begin:ncol(data), name="slaw", colData=group)
     #Add group information of samples
-    x@colData <- DataFrame(name= sub(".csv","", sub("intensity_","",colnames(data)[int_begin:ncol(data)])), group=group)
+    if(!is.null(group)){
+        x@colData <- DataFrame(name= sub(".csv","", sub("intensity_","",colnames(data)[int_begin:ncol(data)])), group=group)
+    }else{
+        x@colData <- DataFrame(name= sub(".csv","", sub("intensity_","",colnames(data)[int_begin:ncol(data)])))
+    }   
        
     return(x)  
 }
@@ -23,9 +27,7 @@ slaw2summarizedExperiment <- function(datamatrix, group){
 #' @param fused_mgf Path to a fused mgf file
 #' 
 #' @return SummarizedExperiment Object
-fusedMGF2experiment(experiment, fused_mgf){
-    
-    #TODO
-    
-    return(experiment)
-}
+#fusedMGF2experiment(experiment, fused_mgf){
+#    #TODO
+#    return(experiment)
+#}

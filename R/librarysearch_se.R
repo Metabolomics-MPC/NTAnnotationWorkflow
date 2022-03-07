@@ -1,6 +1,6 @@
 #' Function for performing library search on Slaw Output (see \code{\link[Slaw on github]{https://github.com/zamboni-lab/SLAW}})
 #'
-#' @param datmatrix Slaw file with the MS1 data matrix
+#' @param datamatrix datmatrix Slaw file with the MS1 data matrix 
 #' @param fused_mgf Slaw fused mgf output
 #' @param library_dir Directory with MassBank records to annotate
 #' @param output Directory where output will be stored (Slaw matrix with with the annotated features)
@@ -12,9 +12,9 @@
 #' @param rt_thresh_min Retention time window, Annotations +- in min of the library will be retained
 #' @param plot_headtail Shall be head-tail plots be produced for the spectra matches? Default FALSE
 #' 
-#' @return the match object 
+#' @return A QFeatures - SummarizedExperiment 
 #' The annotated output will be stored in the 
-librarysearch <- function(datamatrix, 
+librarysearch_se <- function(datamatrix, 
                           fused_mgf, 
                           library_dir, 
                           output, 
@@ -42,32 +42,38 @@ librarysearch <- function(datamatrix,
     
     library <- addProcessing(library, norm_int)
     
+    #Perform library search with the MetaboAnnotation package
     prm <- MatchForwardReverseParam(ppm = mz_ppm,
                                     THRESHFUN = function(x) which(x >= dp_tresh))
-    
-    #Perform library search with the MetaboAnnotation package
     mtch <- matchSpectra(query, library, param = prm)
     
     #Get annotations
-    mtches_df <- as.data.frame(spectraData(mtch[whichQuery(mtch)], columns = c( "scanIndex", "score", "target_name", "target_precursorMz", "target_rtime", "target_splash")))
-    mtches_df$scanIndex <- as.numeric(mtches_df$scanIndex)
+    mtches_df <- as.data.frame(spectraData(mtch[whichQuery(mtch)]))
+    
+    #Convert RT
     mtches_df$target_rtime <- mtches_df$target_rtime /60
-    
-    #Load MS1 file
-    data <- slaw2summarizedExperiment(datamatrix)
-    ms2_id <- data$ms2_id
-    ms2_id[which(ms2_id=="")] <- 0
-    data$scanIndex <- as.numeric(unlist(map(strsplit(ms2_id, "_"),  1)))
-    
-    #Add annotations revealed from library search
-    data_f <- full_join(mtches_df, data, by="scanIndex")
+    mtches_df$rtime <- mtches_df$rtime /60
     
     #Retention time comparison
     if(compare_rt){
-        rt_logical <- data_f$rt < data_f$target_rtime + rt_thresh_min & data_f$rt > data_f$target_rtime - rt_thresh_min
-        data_f <- data_f[-which(!rt_logical),]
+        rt_logical <- mtches_df$rtime < mtches_df$target_rtime + rt_thresh_min & mtches_df$rtime > mtches_df$target_rtime - rt_thresh_min
+        mtches_df <- mtches_df[-which(!rt_logical),]
     }
     
+    #Load MS1 file
+    se <- slaw2summarizedExperiment(datamatrix)
+    #Extract ms2_id info and extract ms2 scanIndex in fused_mgf 
+    ms2_id <- rowData(se)[[1]]$ms2_id
+    ms2_id[which(ms2_id=="")] <- 0
+    scanIndex <- as.numeric(unlist(map(strsplit(ms2_id, "_"),  1)))
+    
+    #Add annotations revealed from library search to summarizedExperiment
+    librarySearch <- data.frame(scanIndex)
+    librarySearch <- DataFrame(full_join( librarySearch, mtches_df, by="scanIndex"))
+    
+    #Generate output dataframe from summarizedExperiment
+    data_f <- cbind(rowData(se)@listData[[1]],  rowData(se)@listData[[2]],assay(se))
+       
     #Truncate for output
     if(annotated_only){
         data_fi <- data_f[which(!data_f$target_splash==""),]
@@ -78,7 +84,7 @@ librarysearch <- function(datamatrix,
     #Save output
     write.csv(data_fi, file=paste0(output,"datamatrix_annotated.csv"))
     
-    #Save object
+    #Save mtch object
     saveRDS(mtch, paste0(output,"librarysearch.rds"))
     
     #Plot head-tail plots of annotations
@@ -90,4 +96,6 @@ librarysearch <- function(datamatrix,
             dev.off()
         }
     }
+    
+    return(se)
 }

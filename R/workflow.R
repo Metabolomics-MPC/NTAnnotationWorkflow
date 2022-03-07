@@ -32,7 +32,7 @@ color_scheme <- c("blank", "QC", "TR") #Patterns in sample names used for colori
     library(Spectra)
     
     if (!require("QFeatures")) BiocManager::install("QFeatures")
-    library(Spectra)
+    library(QFeatures)
     
     if (!require("purrr")) install.packages("purrr")
     library(purrr)
@@ -49,6 +49,8 @@ color_scheme <- c("blank", "QC", "TR") #Patterns in sample names used for colori
 ################################################
 source("helperfunctions.R")
 source("librarysearch.R")
+source("librarysearch_se.R")
+source("slaw2summarizedExperiment.R")
 ################################################
 ### Workflow ###################################
 ################################################
