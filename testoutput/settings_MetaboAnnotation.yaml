@@ -1,0 +1,19 @@
+MS1_data: testdata/output_slaw/datamatrix_opt.csv
+fused_mgf: testdata/output_slaw/fused_mgf_opt.mgf
+samplegroup: yes
+pattern:
+- blank
+- QC
+- TR
+MS1_lib_ext: ''
+MS1_lib_inhouse: ''
+MS2_lib_ext: ''
+MS2_lib_inhouse: testdata/library
+MS2_lib_ext_format: msp
+MS2_lib_inhouse_format: mbank
+annotated_only: yes
+dp_tresh: 0.4
+mz_ppm: 5
+int_tresh: 5
+rt_thresh_min: 0.02
+plot_headtail: no

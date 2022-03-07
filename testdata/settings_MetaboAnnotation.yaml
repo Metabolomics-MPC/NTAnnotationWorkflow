@@ -1,7 +1,7 @@
-MS1_data: 	"testdata/output_slaw/datamatrix_opt.csv" # File in projectdirectory that will be used as MS1 data matrix
-fused_mgf:	"testdata/output_slaw/fused_mgf_opt.mgf" # File in projectdirectory that will be used as MS2 data
+MS1_data: 	"testdata/output_slaw/datamatrix_opt.csv" # File in projectdirectory that will be used as MS1 data matrix in negative mode
+fused_mgf:	"testdata/output_slaw/fused_mgf_opt.mgf" # File in projectdirectory that will be used as MS2 data in negative mode
 samplegroup:	TRUE
-pattern:	c("blank", "QC", "TR")
+pattern:	["blank", "QC", "TR"]
 MS1_lib_ext:	"" #Absolute filepath to directory with MS1 annotation files containing m/z values
 MS1_lib_inhouse:	"" #Absolute filepath to directory with MS1 annotation files containing m/z and rt values
 MS2_lib_ext:	"" #Absolute filepath to directory with external spectral library
@@ -13,5 +13,5 @@ dp_tresh:	0.4 # Threshold for dot product score
 mz_ppm:	5 # Mass window used for spectra matching in ppm
 int_tresh:	5 # Percentage of base peak intensity as threshold that will be removed from Spectra
 rt_thresh_min:	0.02 # RT threshold used for annotation
-plot_headtail: FALSE	# Shall heat-tail plots be produced and stored in output directory?
+plot_headtail: FALSE	# Shall head-tail plots be produced and stored in output directory?
  
