@@ -48,3 +48,5 @@ se <- MS2Annotation(se, query, output_dir, settings)
 # ==============================================================================
 source("R/05_Report.R")
 #ReportMetaboAnnotation(se, output_dir, settings)
+
+message("Workflow sucessfully finished :)")

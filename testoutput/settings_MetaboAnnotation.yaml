@@ -7,7 +7,7 @@ pattern:
 - TR
 MS1_lib_ext: ''
 MS1_lib_inhouse: ''
-MS2_lib_ext: ''
+MS2_lib_ext: testdata/library_extern
 MS2_lib_inhouse: testdata/library
 MS2_lib_ext_format: msp
 MS2_lib_inhouse_format: mbank
@@ -15,5 +15,5 @@ annotated_only: yes
 dp_tresh: 0.4
 mz_ppm: 5
 int_tresh: 5
-rt_thresh_min: 0.02
+rt_thresh_min: 0.3
 plot_headtail: no

@@ -36,7 +36,7 @@ librarysearch_se <- function(se,
     
     #Load MSP file
     if(library_format=="msp"){
-        fls <- list.files(path=library_dir, pattern=".msp$", full.names = T)
+        fls <- list.files(path=library_dir, pattern=".msp$|.MSP$", full.names = T)
         library <- Spectra(fls, source = MsBackendMsp(), backend = MsBackendDataFrame())
     }
     
@@ -49,8 +49,9 @@ librarysearch_se <- function(se,
     #Perform library search with the MetaboAnnotation package
     prm <- MatchForwardReverseParam(ppm = mz_ppm,
                                     THRESHFUN = function(x) which(x >= dp_tresh))
-    message("Performing library seach, this can take time")
+    message("Performing library search ", output_name, ", this can take time ...")
     mtch <- matchSpectra(query, library, param = prm)
+    message("Library search finished")
     
     #Get annotations
     mtches_df <- as.data.frame(spectraData(mtch[whichQuery(mtch)]))
@@ -66,14 +67,14 @@ librarysearch_se <- function(se,
     }
     
     #Add annotations revealed from library search to summarizedExperiment
-    librarySearch <- data.frame(rowData(se)[[1]])
+    librarySearch <- data.frame(scanIndex=rowData(se)[[1]]$scanIndex)
     librarySearch <- DataFrame(full_join(librarySearch, mtches_df, by="scanIndex"))
     
     #Store library search annotations in SummarizedExperiment
-    rowData(se)[[2]] <- librarySearch
+    rowData(se)[[length(rowData(se))+1]] <- librarySearch
     
     #Generate output dataframe from SummarizedExperiment
-    data_f <- data.frame(cbind(librarySearch, assay(se)))
+    data_f <- data.frame(cbind(librarySearch,rowData(se)[[1]], assay(se)))
        
     #Truncate for output
     if(annotated_only){

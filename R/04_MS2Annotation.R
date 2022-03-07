@@ -22,6 +22,7 @@ MS2Annotation <- function(se, query, output_dir, settings){
                            rt_thresh_min=settings$rt_thresh_min,
                            plot_headtail=settings$plot_headtail)
     }
+    
     #Perform in-house library search with RT
     if(nchar(settings$MS2_lib_inhouse)>0){
         se <- librarysearch_se(se, query, 
@@ -37,5 +38,6 @@ MS2Annotation <- function(se, query, output_dir, settings){
                            rt_thresh_min=settings$rt_thresh_min,
                            plot_headtail=settings$plot_headtail)
     }
+    
     return(se)   
 }

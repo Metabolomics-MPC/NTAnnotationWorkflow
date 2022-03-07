@@ -12,6 +12,7 @@ annotated_only:	TRUE # Shall the output only contain annotated Features?
 dp_tresh:	0.4 # Threshold for dot product score
 mz_ppm:	5 # Mass window used for spectra matching in ppm
 int_tresh:	5 # Percentage of base peak intensity as threshold that will be removed from Spectra
-rt_thresh_min:	0.02 # RT threshold used for annotation
+rt_thresh_min:	0.3 # RT threshold used for annotation
 plot_headtail: FALSE	# Shall head-tail plots be produced and stored in output directory?
- 
+plot_boxplot:	FALSE	# Shall boxplots generated for annotated features?
+plot_pca: FALSE	#Shall pca and t-sne be generated for output? 
