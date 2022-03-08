@@ -1,6 +1,6 @@
 #' Function for setting up project folder and reading in settings file
 #'
-#' @param project_dir Path to project directory
+#' @param output_dir Path to output directory
 #' @param settings_yaml Path to a yaml file which should be used and copied to project directory
 #' 
 #' @return settings
@@ -47,6 +47,8 @@ prepare_setup <- function(output_dir, settings_yaml){
     
     # Load all helperfunctions
     source("R/helperfunctions.R")
+    source("R/librarysearch_se.R")
+    source("R/slaw2summarizedExperiment.R")
     
     # Read in settings of yaml file
     settings <- read_yaml(settings_yaml)

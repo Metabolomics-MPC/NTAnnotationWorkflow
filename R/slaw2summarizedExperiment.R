@@ -20,14 +20,3 @@ slaw2summarizedExperiment <- function(datamatrix, group=NULL){
        
     return(x)  
 }
-
-#' Function for adding a fused mgf to a SummarizedExperiment class
-#'
-#' @param experiment SummarizedExperiment, containing "ms_id" in slaw format
-#' @param fused_mgf Path to a fused mgf file
-#' 
-#' @return SummarizedExperiment Object
-#fusedMGF2experiment(experiment, fused_mgf){
-#    #TODO
-#    return(experiment)
-#}

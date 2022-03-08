@@ -1,10 +1,10 @@
 #' Function for performing library search on Slaw Output (see \code{\link[Slaw on github]{https://github.com/zamboni-lab/SLAW}})
 #'
-#' @param datamatrix datmatrix Slaw file with the MS1 data matrix 
-#' @param fused_mgf Slaw fused mgf output
+#' @param se SummarizedExperiment 
+#' @param query Slaw fused mgf output
 #' @param library_dir Directory with MassBank records to annotate
 #' @param output Directory where output will be stored (Slaw matrix with with the annotated features)
-#' @param annotated_only Shall the output be trucated to only trunctuated features? Default TRUE
+#' @param annotated_only Shall the output be trucated to only truncated features? Default TRUE
 #' @param dp_tresh Threshold for dot product score, default 0.4
 #' @param mz_ppm Mass window used for spectra matching in ppm, default 5
 #' @param int_tresh Percentage of base peak intensity as threshold that will be removed from Spectra, default 5
@@ -14,10 +14,12 @@
 #' 
 #' @return A QFeatures - SummarizedExperiment 
 #' The annotated output will be stored in the 
-librarysearch_se <- function(datamatrix, 
-                          fused_mgf, 
-                          library_dir, 
-                          output, 
+librarysearch_se <- function(se, 
+                          query, 
+                          library_dir,
+                          library_format,
+                          output_dir,
+                          output_name,
                           annotated_only=TRUE, 
                           dp_tresh=0.4, 
                           mz_ppm=5,
@@ -27,14 +29,16 @@ librarysearch_se <- function(datamatrix,
                           plot_headtail=FALSE){
     
     #Load MassBank Records
-    fls <- list.files(path=mbank_dir, pattern=".txt$", full.names = T)
-    library <- Spectra(fls, source = MsBackendMassbank(), backend = MsBackendDataFrame())
+    if(library_format=="mbank"){
+        fls <- list.files(path=library_dir, pattern=".txt$", full.names = T)
+        library <- Spectra(fls, source = MsBackendMassbank(), backend = MsBackendDataFrame())
+    }
     
-    #Load Fused MGF file
-    query <- Spectra(fused_mgf, source = MsBackendMgf(), backend = MsBackendDataFrame())
-    
-    #Generate IDX variable
-    query@backend@spectraData$scanIndex <- 1:length(query)
+    #Load MSP file
+    if(library_format=="msp"){
+        fls <- list.files(path=library_dir, pattern=".msp$|.MSP$", full.names = T)
+        library <- Spectra(fls, source = MsBackendMsp(), backend = MsBackendDataFrame())
+    }
     
     #Modify Spectra objects
     query <- addProcessing(query, norm_int)
@@ -45,14 +49,16 @@ librarysearch_se <- function(datamatrix,
     #Perform library search with the MetaboAnnotation package
     prm <- MatchForwardReverseParam(ppm = mz_ppm,
                                     THRESHFUN = function(x) which(x >= dp_tresh))
+    message("Performing library search ", output_name, ", this can take time ...")
     mtch <- matchSpectra(query, library, param = prm)
+    message("Library search finished")
     
     #Get annotations
     mtches_df <- as.data.frame(spectraData(mtch[whichQuery(mtch)]))
     
     #Convert RT
-    mtches_df$target_rtime <- mtches_df$target_rtime /60
-    mtches_df$rtime <- mtches_df$rtime /60
+    mtches_df$target_rtime <- mtches_df$target_rtime/60
+    mtches_df$rtime <- mtches_df$rtime/60
     
     #Retention time comparison
     if(compare_rt){
@@ -60,19 +66,15 @@ librarysearch_se <- function(datamatrix,
         mtches_df <- mtches_df[-which(!rt_logical),]
     }
     
-    #Load MS1 file
-    se <- slaw2summarizedExperiment(datamatrix)
-    #Extract ms2_id info and extract ms2 scanIndex in fused_mgf 
-    ms2_id <- rowData(se)[[1]]$ms2_id
-    ms2_id[which(ms2_id=="")] <- 0
-    scanIndex <- as.numeric(unlist(map(strsplit(ms2_id, "_"),  1)))
-    
     #Add annotations revealed from library search to summarizedExperiment
-    librarySearch <- data.frame(scanIndex)
-    librarySearch <- DataFrame(full_join( librarySearch, mtches_df, by="scanIndex"))
+    librarySearch <- data.frame(scanIndex=rowData(se)[[1]]$scanIndex)
+    librarySearch <- DataFrame(full_join(librarySearch, mtches_df, by="scanIndex"))
     
-    #Generate output dataframe from summarizedExperiment
-    data_f <- cbind(rowData(se)@listData[[1]],  rowData(se)@listData[[2]],assay(se))
+    #Store library search annotations in SummarizedExperiment
+    rowData(se)[[length(rowData(se))+1]] <- librarySearch
+    
+    #Generate output dataframe from SummarizedExperiment
+    data_f <- data.frame(cbind(librarySearch,rowData(se)[[1]], assay(se)))
        
     #Truncate for output
     if(annotated_only){
@@ -82,16 +84,16 @@ librarysearch_se <- function(datamatrix,
     }
     
     #Save output
-    write.csv(data_fi, file=paste0(output,"datamatrix_annotated.csv"))
+    write.csv(data_fi, file=paste0(output_dir, "/", output_name, "_datamatrix_annotated.csv"))
     
     #Save mtch object
-    saveRDS(mtch, paste0(output,"librarysearch.rds"))
+    saveRDS(mtch, paste0(output_dir,"/", output_name, "_librarysearch.rds"))
     
     #Plot head-tail plots of annotations
     if(plot_headtail){
         mtch_sub <- mtch[whichQuery(mtch)]
         for(i in 1:nrow(mtch_sub@matches)){
-            png(paste0(output, "/", i, ".png"))
+            png(paste0(output_dir, "/", output_name, "_", i, ".png"))
             plotSpectraMirror(mtch_sub[i], main=paste0(round(mtch_sub@matches$score[i],2), " for ", data_f$target_name[i]))
             dev.off()
         }

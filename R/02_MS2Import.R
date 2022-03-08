@@ -13,5 +13,7 @@ MS2_export <- function(settings){
     
     #Generate IDX variable
     query@backend@spectraData$scanIndex <- 1:length(query)
+    
+    
     return(query)
 }
