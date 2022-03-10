@@ -1,10 +1,9 @@
 #' Function for generating SummarizedExperiment from data in project directory 
 #'
-#' @param output_dir Filepath to output directory
 #' @param settings Settings parameter list
 #' 
 #' @returns A QFeature SummarizedExperiment
-MS1_export <- function(output_dir, settings){
+MS1_export <- function(settings){
     message("Load MS1 data")
     #get name of data used from settingsfile and read in the data
     data <- read.delim(settings$MS1_data)
@@ -33,7 +32,7 @@ MS1_export <- function(output_dir, settings){
     rowData(se)[[1]]$scanIndex <- as.numeric(unlist(map(strsplit(ms2_id, "_"),  1)))
     
     #Store Summarized experiment in project_dir
-    saveRDS(se, file=paste0(output_dir, "/SummarizedExperiment.rds"))
+    saveRDS(se, file=paste0(settings$output_dir, "/SummarizedExperiment.rds"))
     
     return(se)  
 }
