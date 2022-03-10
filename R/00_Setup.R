@@ -52,11 +52,18 @@ prepare_setup <- function(settings_yaml){
     # Read in settings of yaml file
     settings <- read_yaml(settings_yaml)
     
+    # check if file contains single ion mode or two ion modes
+    if(!is.null(settings$pos)){
+        if(!dir.exists(settings$pos$output_dir)) dir.create(settings$pos$output_dir)
+        write_yaml(settings$pos, paste0(settings$pos$output_dir, "/settings_MetaboAnnotation.yaml"))
+        if(!dir.exists(settings$neg$output_dir)) dir.create(settings$neg$output_dir)
+        write_yaml(settings$neg, paste0(settings$neg$output_dir, "/settings_MetaboAnnotation.yaml"))
+    }else{
     # Generate output directory in project folder
     if(!dir.exists(settings$output_dir)) dir.create(settings$output_dir)
     
     # Store yaml file in output directory
     write_yaml(settings, paste0(settings$output_dir, "/settings_MetaboAnnotation.yaml"))
-        
+    }    
     return(settings)
 }
