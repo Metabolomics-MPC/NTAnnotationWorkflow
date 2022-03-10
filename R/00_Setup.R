@@ -1,10 +1,9 @@
 #' Function for setting up project folder and reading in settings file
 #'
-#' @param output_dir Path to output directory
 #' @param settings_yaml Path to a yaml file which should be used and copied to project directory
 #' 
 #' @return settings
-prepare_setup <- function(output_dir, settings_yaml){
+prepare_setup <- function(settings_yaml){
     
     # Load all required packages
     {
@@ -54,10 +53,10 @@ prepare_setup <- function(output_dir, settings_yaml){
     settings <- read_yaml(settings_yaml)
     
     # Generate output directory in project folder
-    if(!dir.exists(output_dir)) dir.create(output_dir)
+    if(!dir.exists(settings$output_dir)) dir.create(settings$output_dir)
     
     # Store yaml file in output directory
-    write_yaml(settings, paste0(output_dir, "/settings_MetaboAnnotation.yaml"))
+    write_yaml(settings, paste0(settings$output_dir, "/settings_MetaboAnnotation.yaml"))
         
     return(settings)
 }

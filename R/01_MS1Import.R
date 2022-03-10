@@ -5,7 +5,7 @@
 #' 
 #' @returns A QFeature SummarizedExperiment
 MS1_export <- function(output_dir, settings){
-
+    message("Load MS1 data")
     #get name of data used from settingsfile and read in the data
     data <- read.delim(settings$MS1_data)
     #Define columns for assay

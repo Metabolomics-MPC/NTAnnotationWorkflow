@@ -9,6 +9,7 @@ MS2_export <- function(settings){
     fused_mgf <- settings$fused_mgf
     
     #Load Fused MGF file
+    message("Load MS2 data")
     query <- Spectra(fused_mgf, source = MsBackendMgf(), backend = MsBackendDataFrame())
     
     #Generate IDX variable

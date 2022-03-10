@@ -1,5 +1,6 @@
-MS1_data: testdata/output_slaw/datamatrix_opt.csv
-fused_mgf: testdata/output_slaw/fused_mgf_opt.mgf
+output_dir: testoutput
+MS1_data: testdata/output_slaw_pos/datamatrix_opt.csv
+fused_mgf: testdata/output_slaw_pos/fused_mgf_opt.mgf
 samplegroup: yes
 pattern:
 - blank
@@ -8,12 +9,14 @@ pattern:
 MS1_lib_ext: ''
 MS1_lib_inhouse: ''
 MS2_lib_ext: testdata/library_extern
-MS2_lib_inhouse: testdata/library
-MS2_lib_ext_format: msp
-MS2_lib_inhouse_format: mbank
+MS2_lib_inhouse: testdata/library_inhouse
+MS2_lib_ext_regex: Pos
+MS2_lib_inhouse_regex: Pos
 annotated_only: yes
 dp_tresh: 0.4
 mz_ppm: 5
 int_tresh: 5
-rt_thresh_min: 0.3
+rt_thresh_min: 5
 plot_headtail: no
+plot_boxplot: no
+plot_pca: no
