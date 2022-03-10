@@ -1,10 +1,9 @@
 #' Function for generating further evaluation of all annotated features
 #'
 #' @param se QFeature SummarizedExperiment
-#' @param output_dir Filepath to output directory
 #' @param settings Settings parameter list
 #' 
-ReportMetaboAnnotation <- function(se, output_dir, settings){
+ReportMetaboAnnotation <- function(se, settings){
     if(settings$plot_headtail){
         #load in mtch objects inhouse/extern what exists
         

@@ -24,32 +24,38 @@ settings <- suppressPackageStartupMessages(prepare_setup(output_dir, settings_ya
 # 1. Read MS1 data
 # ==============================================================================
 source("R/01_MS1Import.R")
-se <- MS1_export(output_dir, settings)
+se_pos <- MS1_export(settings$pos)
+se_neg <- MS1_export(settings$neg)
 
 # ==============================================================================
 # 2. Read MS2 data
 # ==============================================================================
 source("R/02_MS2Import.R")
-query <- MS2_export(settings)
+query_pos <- MS2_export(settings$pos)
+query_neg <- MS2_export(settings$neg)
 
 # ==============================================================================
 # 3. Annotate MS1 data
 # ==============================================================================
 source("R/03_MS1Annotation.R")
-#se <- MS1Annotation(se, output_dir, settings)
+#se_pos <- MS1Annotation(se_pos, settings$pos)
+#se_neg <- MS1Annotation(se_neg, settings$neg)
 
 # ==============================================================================
 # 4. Annotate MS2 data
 # ==============================================================================
 source("R/04_MS2Annotation.R")
-se <- MS2Annotation(se, query, output_dir, settings)
+se_pos <- MS2Annotation(se_pos, query_pos, settings$pos)
+se_neg <- MS2Annotation(se_neg, query_neg, settings$neg)
 
 #Store annotated SummarizedExperiment in output_dir
-saveRDS(se, file=paste0(output_dir, "/SummarizedExperiment_annotated.rds"))
+saveRDS(se_pos, file=paste0(settings$pos$output_dir, "/SummarizedExperiment_annotated.rds"))
+saveRDS(se_neg, file=paste0(settings$neg$output_dir, "/SummarizedExperiment_annotated.rds"))
 # ==============================================================================
 # 5. Generate Output Report
 # ==============================================================================
 #source("R/05_Report.R")
-#ReportMetaboAnnotation(se, output_dir, settings)
+#ReportMetaboAnnotation(se_pos, settings)
+#ReportMetaboAnnotation(se_neg, settings)
 
 message("Workflow sucessfully finished :)")

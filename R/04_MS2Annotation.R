@@ -2,17 +2,16 @@
 #'
 #' @param se QFeature SummarizedExperiment
 #' @param query Spectra object containing MS2
-#' @param output_dir Filepath to output directory
 #' @param settings Settings parameter list
 #' 
-MS2Annotation <- function(se, query, output_dir, settings){
+MS2Annotation <- function(se, query, settings){
     
     #Perform external library search without RT
     if(nchar(settings$MS2_lib_ext)>0){
         se <- librarysearch_se(se, query, 
                            library_dir=settings$MS2_lib_ext, 
                            library_regex = settings$MS2_lib_ext_regex,
-                           output_dir = output_dir,
+                           output_dir = settings$output_dir,
                            output_name = "extern",
                            annotated_only=settings$annotated_only, 
                            dp_tresh=settings$dp_tresh, 
@@ -27,7 +26,7 @@ MS2Annotation <- function(se, query, output_dir, settings){
         se <- librarysearch_se(se, query, 
                            library_dir=settings$MS2_lib_inhouse, 
                            library_regex = settings$MS2_lib_inhouse_regex,
-                           output_dir = output_dir,
+                           output_dir = settings$output_dir,
                            output_name = "inhouse",
                            annotated_only=settings$annotated_only, 
                            dp_tresh=settings$dp_tresh, 
