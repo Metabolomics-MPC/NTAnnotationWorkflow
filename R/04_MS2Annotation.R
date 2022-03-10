@@ -11,7 +11,7 @@ MS2Annotation <- function(se, query, output_dir, settings){
     if(nchar(settings$MS2_lib_ext)>0){
         se <- librarysearch_se(se, query, 
                            library_dir=settings$MS2_lib_ext, 
-                           library_format = settings$MS2_lib_ext_format,
+                           library_regex = settings$MS2_lib_ext_regex,
                            output_dir = output_dir,
                            output_name = "extern",
                            annotated_only=settings$annotated_only, 
@@ -19,15 +19,14 @@ MS2Annotation <- function(se, query, output_dir, settings){
                            mz_ppm=settings$mz_ppm,
                            int_tresh=settings$int_tresh,
                            compare_rt=FALSE,
-                           rt_thresh_min=settings$rt_thresh_min,
-                           plot_headtail=settings$plot_headtail)
+                           rt_thresh_min=settings$rt_thresh_min)
     }
     
     #Perform in-house library search with RT
     if(nchar(settings$MS2_lib_inhouse)>0){
         se <- librarysearch_se(se, query, 
                            library_dir=settings$MS2_lib_inhouse, 
-                           library_format = settings$MS2_lib_inhouse_format,
+                           library_regex = settings$MS2_lib_inhouse_regex,
                            output_dir = output_dir,
                            output_name = "inhouse",
                            annotated_only=settings$annotated_only, 
@@ -35,8 +34,7 @@ MS2Annotation <- function(se, query, output_dir, settings){
                            mz_ppm=settings$mz_ppm,
                            int_tresh=settings$int_tresh,
                            compare_rt=TRUE,
-                           rt_thresh_min=settings$rt_thresh_min,
-                           plot_headtail=settings$plot_headtail)
+                           rt_thresh_min=settings$rt_thresh_min)
     }
     
     return(se)   
