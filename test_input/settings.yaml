@@ -1,0 +1,84 @@
+# ==============================================================================
+# data input
+#
+# Formating according to SLAW output format
+# ==============================================================================
+# positive mode data
+MS1_data_pos: "test_input/output_slaw_pos/datamatrix_opt.csv" # File in projectdirectory that will be used as MS1 data matrix in positive mode
+MS2_data_pos:	"test_input/output_slaw_pos/fused_mgf_opt.mgf" # File in projectdirectory that will be used as MS2 data in positive mode
+
+# negative mode data
+MS1_data_neg: "test_input/output_slaw_neg/datamatrix_opt.csv" # File in projectdirectory that will be used as MS1 data matrix in negative mode
+MS2_data_neg:	"test_input/output_slaw_neg/fused_mgf_opt.mgf" # File in projectdirectory that will be used as MS2 data in negative mode
+
+# ==============================================================================
+# general MS settings
+#
+# Settings used for MS1 and MS2 processing and annotation
+# Adduct namings according to MetaboCoreUitls are used
+# ==============================================================================
+tolerance: 0.000 # absolute allowed tolerance
+ppm: 5 # relative allowed tolerance
+adducts_pos: ["[M+H]+","[M+Na]+"]
+adducts_neg: ["[M-H]-"]
+
+# ==============================================================================
+# MS2 settings
+#
+# Settings specific to MS2 processing and annotation
+# ==============================================================================
+dp_tresh:	0.4 # Threshold for dot product score
+int_tresh: 5 # Percentage of base peak intensity as threshold that will be removed from Spectra
+
+# ==============================================================================
+# chromatographic settings
+#
+# Settings for use of retention time and/or indexing
+# ==============================================================================
+toleranceRt: 10 # RT threshold used for annotation
+
+# ==============================================================================
+# Path to compound (MS1) and MS2 libraries
+#
+# Path to folders containing compound databases or MS2 libraries in .msp or .mb
+# format.
+# ==============================================================================
+# MS1 settings
+MS1_lib_ext: "test_library/MS1_external"
+MS1_lib_inhouse: "test_library/MS1_inhouse"
+
+# library settings, in-house libraries
+MS2_lib_pos: "test_library/MS2_inhouse_pos"
+MS2_lib_neg: "test_library/MS2_inhouse_neg"
+
+# library settings, external
+MS2_lib_pos_ext: "test_library/MS2_external_pos"
+MS2_lib_neg_ext: "test_library/MS2_external_neg"
+
+# ==============================================================================
+# Sample grouping
+#
+# Data of study design and sample grouping
+# ==============================================================================
+samplegroup:	TRUE
+studydesign_pos: "test_input/output_slaw_pos/studydesign.csv"
+studydesign_neg: "test_input/output_slaw_neg/studydesign.csv"
+
+# ==============================================================================
+# data output
+#
+# Directory and type of output
+# ==============================================================================
+output_dir:	"test_output"
+save_rds: TRUE
+save_tsv: TRUE
+
+# ==============================================================================
+# Statistical and further analysis
+#
+# Directory and type of output
+# ==============================================================================
+annotated_only:	TRUE # Shall the output only contain annotated Features? 
+plot_headtail: FALSE	# Shall head-tail plots be produced and stored in output directory?
+plot_boxplot:	FALSE	# Shall boxplots generated for annotated features?
+plot_pca: FALSE	#Shall pca and t-sne be generated for output? 
