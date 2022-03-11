@@ -13,9 +13,10 @@ perform_ms1_annotation <- function(se,
                                    outputdir = NA,
                                    ionmode = "",
                                    saveRds = TRUE,
-                                   saveTsv = FALSE) {
+                                   saveTsv = FALSE,
+                                   BPPARAM = SerialParam()) {
   
-  # build param object based on RT selectoin
+  # build param object based on RT selection
   if(is.na(toleranceRt)) {
     
     param <- Mass2MzParam(adducts = adducts,
@@ -55,7 +56,8 @@ perform_ms1_annotation <- function(se,
     # perform annotation
     se_match <- matchMz(rowData(se)[[1]],
                         ms1_lib_data,
-                        param = param)
+                        param = param,
+                        BPPARAM = BPPARAM)
     
     # save results in a rds file
     if(saveRds && class(param) == "Mass2MzParam") {
@@ -80,7 +82,7 @@ perform_ms1_annotation <- function(se,
       
     }
     
-    # save results in a rds file
+    # save results in a tsv file
     if(saveTsv && class(param) == "Mass2MzParam") {
       
       write.table(matchedData(se_match),
@@ -88,7 +90,9 @@ perform_ms1_annotation <- function(se,
                          "/Annotation_MS1_external/",
                          ionmode,
                          "_",
-                         basename(ms1_library)))
+                         str_replace(basename(ms1_library), ".tsv$", ""),
+                         "_ms1annotation.tsv"),
+                  sep = "\t", row.names = FALSE)
       
     } else if(saveTsv && class(param) == "Mass2MzRtParam") {
       
@@ -97,7 +101,9 @@ perform_ms1_annotation <- function(se,
                          "/Annotation_MS1_inhouse/",
                          ionmode,
                          "_",
-                         basename(ms1_library)))
+                         str_replace(basename(ms1_library), ".tsv$", ""),
+                         "_ms1annotation.tsv"),
+                  sep = "\t", row.names = FALSE)
       
     }
   }

@@ -27,11 +27,36 @@ settings <- read_yaml(settings_yaml)
 # setup output directory with all subfolder ------------------------------------
 if(!dir.exists(settings$output_dir)) dir.create(settings$output_dir)
 
+if(!dir.exists(paste0(settings$output_dir, "/QFeatures_MS1"))) {
+  dir.create(paste0(settings$output_dir, "/QFeatures_MS1"))
+}
+
 if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS1_external"))) {
   dir.create(paste0(settings$output_dir, "/Annotation_MS1_external"))
 }
+
 if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS1_inhouse"))) {
   dir.create(paste0(settings$output_dir, "/Annotation_MS1_inhouse"))
+}
+
+if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS2_external"))) {
+  dir.create(paste0(settings$output_dir, "/Annotation_MS2_external"))
+}
+
+if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS2_inhouse"))) {
+  dir.create(paste0(settings$output_dir, "/Annotation_MS2_inhouse"))
+}
+
+# setup parallel backend -------------------------------------------------------
+if(is.na(settings$cores) | settings$cores == 1) {
+  BPParam <- SerialParam()
+} else {
+  
+  if(.Platform$OS.type == "windows") {
+    BPParam <- SnowParam(workers = settings$cores)
+  } else {
+    BPParam <- MulticoreParam(workers = settings$cores)
+  }
 }
 
 # Store yaml file in output directory
@@ -47,12 +72,18 @@ source("R/01_MS1Import.R")
 ms1_pos_se <- import_ms1(settings$MS1_data_pos,
                          samplegroup = TRUE,
                          studydesign_file = settings$studydesign_pos,
-                         prefix = "POS")
+                         prefix = "pos",
+                         outputdir = settings$output_dir,
+                         saveRds = settings$save_rds,
+                         saveTsv = settings$save_tsv)
 
 ms1_neg_se <- import_ms1(settings$MS1_data_neg,
                          samplegroup = TRUE,
                          studydesign_file = settings$studydesign_neg,
-                         prefix = "NEG")
+                         prefix = "neg",
+                         outputdir = settings$output_dir,
+                         saveRds = settings$save_rds,
+                         saveTsv = settings$save_tsv)
 
 # ==============================================================================
 # 2. Read MS2 data
@@ -94,7 +125,8 @@ if(!is.na(ms1_pos_se)) {
                            outputdir = settings$output_dir,
                            ionmode = "pos",
                            saveRds = settings$save_rds,
-                           saveTsv = settings$save_tsv)
+                           saveTsv = settings$save_tsv,
+                           BPPARAM = BPParam)
     
   }
 
@@ -110,12 +142,13 @@ if(!is.na(ms1_pos_se)) {
                            outputdir = settings$output_dir,
                            ionmode = "pos",
                            saveRds = settings$save_rds,
-                           saveTsv = settings$save_tsv)
+                           saveTsv = settings$save_tsv,
+                           BPPARAM = BPParam)
     
   }
 }
 
-# perform MS1 annotation for positive mode data --------------------------------
+# perform MS1 annotation for negative mode data --------------------------------
 if(!is.na(ms1_pos_se)) {
   
   # perform annotation with in-house libraries
@@ -130,7 +163,8 @@ if(!is.na(ms1_pos_se)) {
                            outputdir = settings$output_dir,
                            ionmode = "neg",
                            saveRds = settings$save_rds,
-                           saveTsv = settings$save_tsv)
+                           saveTsv = settings$save_tsv,
+                           BPPARAM = BPParam)
     
   }
   
@@ -146,31 +180,98 @@ if(!is.na(ms1_pos_se)) {
                            outputdir = settings$output_dir,
                            ionmode = "neg",
                            saveRds = settings$save_rds,
-                           saveTsv = settings$save_tsv)
+                           saveTsv = settings$save_tsv,
+                           BPPARAM = BPParam)
     
   }
 }
 
-# # ==============================================================================
-# # 4. Annotate MS2 data
-# # ==============================================================================
-# # source required functions ----------------------------------------------------
-# source("R/04_MS2Annotation.R")
-# 
-# # perform MS2 annotation  for positive mode data -------------------------------
-# if(!is.na(ms2_pos_spectra)) {
-#   
-# }
-# 
-# # perform MS2 annotation  for positive mode data -------------------------------
-# if(!is.na(ms2_neg_spectra)) {
-#   
-# }
-# 
-# se <- MS2Annotation(se, query, output_dir, settings)
-# 
-# #Store annotated SummarizedExperiment in output_dir
-# saveRDS(se, file=paste0(output_dir, "/SummarizedExperiment_annotated.rds"))
+# ==============================================================================
+# 4. Annotate MS2 data
+# ==============================================================================
+# source required functions ----------------------------------------------------
+source("R/04_MS2Annotation.R")
+
+#perform MS2 annotation for positive mode --------------------------------------
+if(!is.na(ms2_pos_spectra)) {
+  
+  # perform annotation with in-house libraries
+  if(length(list.files(settings$MS2_lib_pos))) {
+    
+    perform_ms2_annotation(ms2_pos_spectra,
+                           settings$MS2_lib_pos,
+                           tolerance = settings$tolerance,
+                           ppm = settings$ppm,
+                           toleranceRt = settings$toleranceRt,
+                           dpTresh = settings$dp_tresh,
+                           relIntTresh = settings$int_tresh,
+                           outputdir = settings$output_dir,
+                           ionmode = "pos",
+                           saveRds = settings$save_rds,
+                           saveTsv = settings$save_tsv,
+                           BPPARAM = BPParam)
+    
+  }
+  
+  # perform annotation with external libraries
+  if(length(list.files(settings$MS2_lib_pos_ext))) {
+    
+    perform_ms2_annotation(ms2_pos_spectra,
+                           settings$MS2_lib_pos_ext,
+                           tolerance = settings$tolerance,
+                           ppm = settings$ppm,
+                           toleranceRt = NA,
+                           dpTresh = settings$dp_tresh,
+                           relIntTresh = settings$int_tresh,
+                           outputdir = settings$output_dir,
+                           ionmode = "pos",
+                           saveRds = settings$save_rds,
+                           saveTsv = settings$save_tsv,
+                           BPPARAM = BPParam)
+    
+  }
+}
+
+#perform MS2 annotation for negative mode --------------------------------------
+if(!is.na(ms2_neg_spectra)) {
+  
+  # perform annotation with in-house libraries
+  if(length(list.files(settings$MS2_lib_neg))) {
+    
+    perform_ms2_annotation(ms2_neg_spectra,
+                           settings$MS2_lib_neg,
+                           tolerance = settings$tolerance,
+                           ppm = settings$ppm,
+                           toleranceRt = settings$toleranceRt,
+                           dpTresh = settings$dp_tresh,
+                           relIntTresh = settings$int_tresh,
+                           outputdir = settings$output_dir,
+                           ionmode = "neg",
+                           saveRds = settings$save_rds,
+                           saveTsv = settings$save_tsv,
+                           BPPARAM = BPParam)
+    
+  }
+  
+  # perform annotation with external libraries
+  if(length(list.files(settings$MS2_lib_neg_ext))) {
+    
+    perform_ms2_annotation(ms2_neg_spectra,
+                           settings$MS2_lib_neg_ext,
+                           tolerance = settings$tolerance,
+                           ppm = settings$ppm,
+                           toleranceRt = NA,
+                           dpTresh = settings$dp_tresh,
+                           relIntTresh = settings$int_tresh,
+                           outputdir = settings$output_dir,
+                           ionmode = "neg",
+                           saveRds = settings$save_rds,
+                           saveTsv = settings$save_tsv,
+                           BPPARAM = BPParam)
+    
+  }
+}
+
 # # ==============================================================================
 # # 5. Generate Output Report
 # # ==============================================================================

@@ -6,7 +6,10 @@
 import_ms1 <- function(ms1_file,
                        samplegroup = FALSE,
                        studydesign_file = NA,
-                       prefix = ""){
+                       prefix = "",
+                       outputdir = "",
+                       saveRds = TRUE,
+                       saveTsv = FALSE){
   
   message("Load MS1 data...")
   
@@ -39,9 +42,21 @@ import_ms1 <- function(ms1_file,
       studydesgin <- rep("sample", ncol(data)-int_begin)
       
     }
+    
+    if(saveRds) {
+      
+      saveRDS(se,
+              paste0(outputdir,
+                     "/QFeatures_MS1/",
+                     prefix,
+                     "_",
+                     str_replace(basename(ms1_file), ".tsv$|.csv$", ""),
+                     "_qfeatures.rds"))
+      
+    }
 
     message("... complete")
-    return(se) 
+    return(se)
     
   } else {
     

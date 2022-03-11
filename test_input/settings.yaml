@@ -1,4 +1,11 @@
 # ==============================================================================
+# general parameter
+#
+# General parameter settings such as number of cores
+# ==============================================================================
+cores: 1
+
+# ==============================================================================
 # data input
 #
 # Formating according to SLAW output format
@@ -78,7 +85,7 @@ save_tsv: TRUE
 #
 # Directory and type of output
 # ==============================================================================
-annotated_only:	TRUE # Shall the output only contain annotated Features? 
-plot_headtail: FALSE	# Shall head-tail plots be produced and stored in output directory?
-plot_boxplot:	FALSE	# Shall boxplots generated for annotated features?
-plot_pca: FALSE	#Shall pca and t-sne be generated for output? 
+#annotated_only:	TRUE # Shall the output only contain annotated Features? 
+#plot_headtail: FALSE	# Shall head-tail plots be produced and stored in output directory?
+#plot_boxplot:	FALSE	# Shall boxplots generated for annotated features?
+#plot_pca: FALSE	#Shall pca and t-sne be generated for output? 
