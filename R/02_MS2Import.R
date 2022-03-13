@@ -3,18 +3,34 @@
 #' @param project_dir Path to project directory
 #' 
 #' @returns A Spectra object containing the MS2 data 
-MS2_export <- function(settings){
+import_ms2 <- function(ms2_file){
+  
+  #Load Fused MGF file
+  message("Load MS2 data...")
+  
+  if(file.exists(ms2_file)) {
     
-    #Get filename from settings
-    fused_mgf <- settings$fused_mgf
+    if(grepl(".mgf$", ms2_file)) {
+      
+      ms2_spectra <- Spectra(ms2_file,
+                             source = MsBackendMgf(),
+                             backend = MsBackendDataFrame())
+      
+    } else if(grepl(".msp$", ms2_file)) {
+      
+      ms2_spectra <- Spectra(ms2_file,
+                             source = MsBackendMsp(),
+                             backend = MsBackendDataFrame())
+      
+    }
     
-    #Load Fused MGF file
-    message("Load MS2 data")
-    query <- Spectra(fused_mgf, source = MsBackendMgf(), backend = MsBackendDataFrame())
+    message("... complete")
+    return(ms2_spectra)
     
-    #Generate IDX variable
-    query@backend@spectraData$scanIndex <- 1:length(query)
+  } else {
     
-    
-    return(query)
+    message("...data not found!")
+    return(NA)
+  
+  }
 }

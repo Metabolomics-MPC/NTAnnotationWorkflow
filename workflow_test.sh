@@ -1,4 +1,4 @@
 #!/bin/bash
 
-Rscript workflow.R "testdata/settings_MetaboAnnotation.yaml"
+Rscript MetaboliteAnnotationWorkflow.R "test_input/settings.yaml"
 

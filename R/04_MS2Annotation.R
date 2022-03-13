@@ -2,39 +2,122 @@
 #'
 #' @param se QFeature SummarizedExperiment
 #' @param query Spectra object containing MS2
+#' @param output_dir Filepath to output directory
 #' @param settings Settings parameter list
 #' 
-MS2Annotation <- function(se, query, settings){
+perform_ms2_annotation <- function(spectra,
+                                   libpath,
+                                   tolerance = 0.000,
+                                   ppm = 5,
+                                   toleranceRt = NA,
+                                   dpTresh = 0.6,
+                                   relIntTresh = 1,
+                                   outputdir,
+                                   ionmode = "",
+                                   saveRds = TRUE,
+                                   saveTsv = FALSE,
+                                   BPPARAM = SerialParam()) {
+  
+  # build param object based on RT selection
+  if(is.na(toleranceRt)) {
     
-    #Perform external library search without RT
-    if(nchar(settings$MS2_lib_ext)>0){
-        se <- librarysearch_se(se, query, 
-                           library_dir=settings$MS2_lib_ext, 
-                           library_regex = settings$MS2_lib_ext_regex,
-                           output_dir = settings$output_dir,
-                           output_name = "extern",
-                           annotated_only=settings$annotated_only, 
-                           dp_tresh=settings$dp_tresh, 
-                           mz_ppm=settings$mz_ppm,
-                           int_tresh=settings$int_tresh,
-                           compare_rt=FALSE,
-                           rt_thresh_min=settings$rt_thresh_min)
+    param <- MatchForwardReverseParam(tolerance = tolerance,
+                                      ppm = ppm,
+                                      toleranceRt = Inf,
+                                      requirePrecursor = TRUE,
+                                      TRESHFUN = function(x) which(x >= dpTresh))
+    
+  } else {
+    
+    param <- MatchForwardReverseParam(tolerance = tolerance,
+                                      ppm = ppm,
+                                      toleranceRt = toleranceRt,
+                                      requirePrecursor = TRUE,
+                                      TRESHFUN = function(x) which(x >= dpTresh))
+    
+  }
+  
+  # modify query spectra
+  spectra <- addProcessing(spectra, norm_int)
+  spectra <- replaceIntensitiesBelow(spectra, threshold = relIntTresh, value = 0)
+  
+  # perform matching for each library in libpath
+  ms2_libraries <- list.files(libpath, full.names = TRUE)
+  
+  for(ms2_library in ms2_libraries) {
+    
+    print(ms2_library)
+    
+    # read library data and modify spectra
+    if(grepl(".mb$", ms2_library)) {
+      
+      ms2_lib_data <- Spectra(ms2_library,
+                              source = MsBackendMassbank(),
+                              backend = MsBackendDataFrame())
+      
+    } else if(grepl(".msp$", ms2_library)) {
+      
+      ms2_lib_data <- Spectra(ms2_library,
+                              source = MsBackendMsp(),
+                              backend = MsBackendDataFrame())
+      
     }
     
-    #Perform in-house library search with RT
-    if(nchar(settings$MS2_lib_inhouse)>0){
-        se <- librarysearch_se(se, query, 
-                           library_dir=settings$MS2_lib_inhouse, 
-                           library_regex = settings$MS2_lib_inhouse_regex,
-                           output_dir = settings$output_dir,
-                           output_name = "inhouse",
-                           annotated_only=settings$annotated_only, 
-                           dp_tresh=settings$dp_tresh, 
-                           mz_ppm=settings$mz_ppm,
-                           int_tresh=settings$int_tresh,
-                           compare_rt=TRUE,
-                           rt_thresh_min=settings$rt_thresh_min)
+    # modify library spectra
+    ms2_lib_data <- addProcessing(ms2_lib_data, norm_int)
+    
+    # perform annotation
+    spectra_match <- matchSpectra(spectra,
+                                  ms2_lib_data,
+                                  param = param,
+                                  BPPARAM = BPPARAM)
+    
+    # save results in a rds file
+    if(saveRds && is.na(toleranceRt)) {
+      
+      saveRDS(spectra_match,
+              paste0(outputdir,
+                     "/Annotation_MS2_external/",
+                     ionmode,
+                     "_",
+                     str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                     "_ms2annotation.rds"))
+      
+    } else if(saveRds && !is.na(toleranceRt)) {
+      
+      saveRDS(spectra_match,
+              paste0(outputdir,
+                     "/Annotation_MS2_inhouse/",
+                     ionmode,
+                     "_",
+                     str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                     "_ms2annotation.rds"))
+      
     }
     
-    return(se)   
+    # save results in a tsv file
+    if(saveTsv && is.na(toleranceRt)) {
+      
+      write.table(matchedData(spectra_match),
+                  paste0(outputdir,
+                         "/Annotation_MS2_external/",
+                         ionmode,
+                         "_",
+                         str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                         "_ms2annotation.tsv"),
+                  sep = "\t", row.names = FALSE)
+      
+    } else if(saveTsv && !is.na(toleranceRt)) {
+      
+      write.table(matchedData(spectra_match),
+                  paste0(outputdir,
+                         "/Annotation_MS2_inhouse/",
+                         ionmode,
+                         "_",
+                         str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                         "_ms2annotation.tsv"),
+                  sep = "\t", row.names = FALSE)
+      
+    }
+  }
 }

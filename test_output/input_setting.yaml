@@ -1,0 +1,26 @@
+cores: 1
+MS1_data_pos: test_input/output_slaw_pos/datamatrix_opt.csv
+MS2_data_pos: test_input/output_slaw_pos/fused_mgf_opt.mgf
+MS1_data_neg: test_input/output_slaw_neg/datamatrix_opt.csv
+MS2_data_neg: test_input/output_slaw_neg/fused_mgf_opt.mgf
+tolerance: 0.0
+ppm: 5
+adducts_pos:
+- '[M+H]+'
+- '[M+Na]+'
+adducts_neg: '[M-H]-'
+dp_tresh: 0.4
+int_tresh: 5
+toleranceRt: 10
+MS1_lib_ext: test_library/MS1_external
+MS1_lib_inhouse: test_library/MS1_inhouse
+MS2_lib_pos: test_library/MS2_inhouse_pos
+MS2_lib_neg: test_library/MS2_inhouse_neg
+MS2_lib_pos_ext: test_library/MS2_external_pos
+MS2_lib_neg_ext: test_library/MS2_external_neg
+samplegroup: yes
+studydesign_pos: test_input/output_slaw_pos/studydesign.csv
+studydesign_neg: test_input/output_slaw_neg/studydesign.csv
+output_dir: test_output
+save_rds: yes
+save_tsv: yes
