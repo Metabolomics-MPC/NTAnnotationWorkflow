@@ -96,13 +96,13 @@ ms2_pos_spectra <- import_ms2(settings$MS2_data_pos)
 ms2_neg_spectra <- import_ms2(settings$MS2_data_neg)
 
 # add MS1 ID to spectra --------------------------------------------------------
-if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
+#if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
   
-}
+#}
 
-if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
+#if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
   
-}
+#}
 
 # ==============================================================================
 # 3. Annotate MS1 data
@@ -111,7 +111,7 @@ if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
 source("R/03_MS1Annotation.R")
 
 # perform MS1 annotation for positive mode data --------------------------------
-if(!is.na(ms1_pos_se)) {
+if(!is.null(ms1_pos_se)) {
   
   # perform annotation with in-house libraries
   if(length(list.files(settings$MS1_lib_inhouse))) {
@@ -149,7 +149,7 @@ if(!is.na(ms1_pos_se)) {
 }
 
 # perform MS1 annotation for negative mode data --------------------------------
-if(!is.na(ms1_pos_se)) {
+if(!is.null(ms1_neg_se)) {
   
   # perform annotation with in-house libraries
   if(length(list.files(settings$MS1_lib_inhouse))) {
@@ -193,7 +193,7 @@ if(!is.na(ms1_pos_se)) {
 source("R/04_MS2Annotation.R")
 
 #perform MS2 annotation for positive mode --------------------------------------
-if(!is.na(ms2_pos_spectra)) {
+if(!is.null(ms2_pos_spectra)) {
   
   # perform annotation with in-house libraries
   if(length(list.files(settings$MS2_lib_pos))) {
@@ -228,12 +228,12 @@ if(!is.na(ms2_pos_spectra)) {
                            saveRds = settings$save_rds,
                            saveTsv = settings$save_tsv,
                            BPPARAM = BPParam)
-    
+      
   }
 }
 
 #perform MS2 annotation for negative mode --------------------------------------
-if(!is.na(ms2_neg_spectra)) {
+if(!is.null(ms2_neg_spectra)) {
   
   # perform annotation with in-house libraries
   if(length(list.files(settings$MS2_lib_neg))) {
@@ -278,4 +278,4 @@ if(!is.na(ms2_neg_spectra)) {
 # #source("R/05_Report.R")
 # #ReportMetaboAnnotation(se, output_dir, settings)
 # 
-# message("Workflow sucessfully finished :)")
+message("Workflow sucessfully finished")

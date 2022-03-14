@@ -17,7 +17,8 @@ perform_ms2_annotation <- function(spectra,
                                    saveRds = TRUE,
                                    saveTsv = FALSE,
                                    BPPARAM = SerialParam()) {
-  
+
+  message("MS2 Annotation in ", ionmode)
   # build param object based on RT selection
   if(is.na(toleranceRt)) {
     
