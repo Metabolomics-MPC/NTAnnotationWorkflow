@@ -1,10 +1,12 @@
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly=TRUE)
 #
 # This is a Shiny web application. You can run the application by clicking
 # the 'Run App' button above.
 #
 ##########################################################################
 # Define which object to load => CHANGE!
-filename <- "~/git/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.rds"
+filename <- args[1] #"~/git/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.rds"
 ##########################################################################
 library(shiny)
 library(plotly)
