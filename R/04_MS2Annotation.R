@@ -25,7 +25,7 @@ perform_ms2_annotation <- function(spectra,
     param <- MatchForwardReverseParam(tolerance = tolerance,
                                       ppm = ppm,
                                       toleranceRt = Inf,
-                                      requirePrecursor = TRUE,
+                                      #requirePrecursor = TRUE,
                                       TRESHFUN = function(x) which(x >= dpTresh))
     
   } else {
@@ -72,6 +72,9 @@ perform_ms2_annotation <- function(spectra,
                                   ms2_lib_data,
                                   param = param,
                                   BPPARAM = BPPARAM)
+    
+    # print number of matches
+    print(spectra_match)
     
     # save results in a rds file
     if(saveRds && is.na(toleranceRt)) {

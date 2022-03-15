@@ -24,8 +24,8 @@ MS2_data_neg:	"test_input/output_slaw_neg/fused_mgf_opt.mgf" # File in projectdi
 # Settings used for MS1 and MS2 processing and annotation
 # Adduct namings according to MetaboCoreUitls are used
 # ==============================================================================
-tolerance: 0.000 # absolute allowed tolerance
-ppm: 5 # relative allowed tolerance
+tolerance: 0 # absolute allowed tolerance
+ppm: 50 # relative allowed tolerance
 adducts_pos: ["[M+H]+","[M+Na]+"]
 adducts_neg: ["[M-H]-"]
 
@@ -34,7 +34,7 @@ adducts_neg: ["[M-H]-"]
 #
 # Settings specific to MS2 processing and annotation
 # ==============================================================================
-dp_tresh:	0.4 # Threshold for dot product score
+dp_tresh:	0.0 # Threshold for dot product score
 int_tresh: 5 # Percentage of base peak intensity as threshold that will be removed from Spectra
 
 # ==============================================================================
@@ -42,7 +42,7 @@ int_tresh: 5 # Percentage of base peak intensity as threshold that will be remov
 #
 # Settings for use of retention time and/or indexing
 # ==============================================================================
-toleranceRt: 10 # RT threshold used for annotation
+toleranceRt: 30 # RT threshold used for annotation
 
 # ==============================================================================
 # Path to compound (MS1) and MS2 libraries

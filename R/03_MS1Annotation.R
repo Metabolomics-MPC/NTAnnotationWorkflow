@@ -62,6 +62,9 @@ perform_ms1_annotation <- function(se,
                         param = param,
                         BPPARAM = BPPARAM)
     
+    # print number of matches
+    print(se_match)
+    
     # save results in a rds file
     if(saveRds && class(param) == "Mass2MzParam") {
       
