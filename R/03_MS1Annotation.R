@@ -15,7 +15,8 @@ perform_ms1_annotation <- function(se,
                                    saveRds = TRUE,
                                    saveTsv = FALSE,
                                    BPPARAM = SerialParam()) {
-  
+    
+  message("MS1 Annotation in ", ionmode)
   # build param object based on RT selection
   if(is.na(toleranceRt)) {
     
@@ -37,6 +38,8 @@ perform_ms1_annotation <- function(se,
   
   for(ms1_library in ms1_libraries) {
     
+    print(ms1_library)
+      
     # read library data and perform some sanity checks
     ms1_lib_data <- read.delim(ms1_libraries)
     
@@ -58,6 +61,9 @@ perform_ms1_annotation <- function(se,
                         ms1_lib_data,
                         param = param,
                         BPPARAM = BPPARAM)
+    
+    # print number of matches
+    print(se_match)
     
     # save results in a rds file
     if(saveRds && class(param) == "Mass2MzParam") {
