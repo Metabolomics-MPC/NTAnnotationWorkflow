@@ -1,5 +1,6 @@
 name	sampleType
-intensity_blank.csv	blank
+intensity_blank_1.csv	blank
+intensity_blank_2.csv	blank
 intensity_QC_001.csv	QC
 intensity_QC_002.csv	QC
 intensity_QC_003.csv	QC
