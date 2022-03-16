@@ -96,13 +96,13 @@ ms2_pos_spectra <- import_ms2(settings$MS2_data_pos)
 ms2_neg_spectra <- import_ms2(settings$MS2_data_neg)
 
 # add MS1 ID to spectra --------------------------------------------------------
-#if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
-  
-#}
+if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
+    ms2_pos_spectra <- addFeatureID(ms2_pos_spectra, ms1_pos_se)
+  }
 
-#if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
-  
-#}
+if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
+    ms2_neg_spectra <- addFeatureID(ms2_pos_spectra, ms1_neg_se)
+}
 
 # ==============================================================================
 # 3. Annotate MS1 data
