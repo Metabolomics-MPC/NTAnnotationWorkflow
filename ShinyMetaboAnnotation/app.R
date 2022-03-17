@@ -74,11 +74,19 @@ names(l_choices) <- paste0(seq(1, length(mtch_sub)),
                            " - MZ",
                            round(query(mtch_sub)$precursorMz,4),
                            "@RT",
-                           round(query(mtch_sub)$rtime, 0),
-                           " - ",
-                           rep(T, length(mtch_sub)))
+                           round(query(mtch_sub)$rtime, 0))
 
+# create boolean values
+boolean_values <- list()
+for(i in 1:length(mtch_sub)) {
+  x <- mtch_sub[i]
+  target_length <- length(x@target[x@matches$target_idx])
+  boolean_values[[i]] <- rep(TRUE, length(x@target[x@matches$target_idx]))
+  
+}
 
+print(boolean_values)
+print(unlist(boolean_values))
 
 #######################################################################
 # Define UI for application
@@ -120,8 +128,8 @@ ui <- fluidPage(
 # Define server logic
 server <- function(input, output) {
   # define storage places for reactive values that change during the shiny application run
-  v <- reactiveValues(i = 0)
-  r <- reactiveValues(veri_logical=rep(T, length=length(mtch_sub)))
+  v <- reactiveValues(i = 1)
+  r <- reactiveValues(veri_logical = boolean_values)
   id <- reactiveValues(target_idx = 1L)
   
   # selection in list
@@ -163,8 +171,9 @@ server <- function(input, output) {
              "Reverse Score" = "reverse_score",
              "Presence Ratio" = "presence_ratio")
     
+    # create dynamic table
     output$dynamic <- DT::renderDT(DT::datatable(bind_cols(mtch_tbl,
-                                                       hit = r$veri_logical[v$i]),
+                                                           hit = r$veri_logical[[v$i]]),
                                              selection = "single"),
                                    server = TRUE,
                                    options = list(pageLength = 10))
@@ -178,7 +187,7 @@ server <- function(input, output) {
                        selected=r$veri_logical[v$i])
   })
   
-  
+  # row selection
   observeEvent(input$dynamic_rows_selected, {
     
     # change index to selection
@@ -199,95 +208,35 @@ server <- function(input, output) {
     observe(output$plot <-  renderPlotly(plotly_headtail(x, id$target_idx)))
     
   })
-  
-  # # Go forward with next button
-  # observeEvent(input$b_next, {
-  # 
-  #   # only react if you are inside the length of the matched object
-  #   if(v$i %in% 0:(length(mtch_sub)-1)){
-  # 
-  #     # increase index
-  #     v$i <- v$i + 1
-  # 
-  #     # chose new match
-  #     x <- mtch_sub[v$i]
-  # 
-  #     # change to new text
-  #     observe(output$t_number <- renderText(HTML(paste0("<b>", v$i, "/", length(mtch_sub), " ", x$target_name, "</b>"))))
-  #     observe(output$t_formula <- renderText(HTML(paste0("Formula: ", x$target_formula, " InchiKey: ", x$target_inchikey))))
-  #     observe(output$t_query <- renderText(HTML(paste0("Query: ", round(x$precursorMz,5), " @ ", round(x$rtime/60,2)))))
-  #     observe(output$t_library <- renderText(HTML(paste0("Library: ", round(x$target_precursorMz,4), " @ ", round(x$target_rtime/60,2)))))
-  #     observe(output$t_score <- renderText(HTML(paste0("Score: ", round(x$score, 3), " Reverse: ", round(x$reverse_score, 3)))))
-  # 
-  #     # render new plotly plot
-  #     output$plot <-  renderPlotly(plotly_headtail(mtch_sub[v$i],
-  #                                                  id))
-  # 
-  #     # change preselection in input table to new value => works, but somehow slows down the process
-  #     #updateSelectInput(session = getDefaultReactiveDomain(), inputId = 'selection', selected=v$i)
-  # 
-  #     # change the button to the previous selected verification value
-  #     updateRadioButtons(inputId="veri",
-  #                        choices = list("True match" = T, "False match" = F),
-  #                        selected=r$veri_logical[v$i])
-  #   }
-  # })
-  # 
-  # # Go back with button
-  # observeEvent(input$b_back, {
-  #   # only react if you are inside the length of the matched object
-  #   if(v$i %in% 2:length(mtch_sub)){
-  # 
-  #     # dercrease index
-  #     v$i <- v$i - 1
-  # 
-  #     # chose new match
-  #     x <- mtch_sub[v$i]
-  # 
-  #     # change to new text
-  #     observe(output$t_number <- renderText(HTML(paste0("<b>", v$i, "/", length(mtch_sub), " ", x$target_name, "</b>"))))
-  #     observe(output$t_formula <- renderText(HTML(paste0("Formula: ", x$target_formula, " InchiKey: ", x$target_inchikey))))
-  #     observe(output$t_query <- renderText(HTML(paste0("Query: ", round(x$precursorMz,5), " @ ", round(x$rtime/60,2)))))
-  #     observe(output$t_library <- renderText(HTML(paste0("Library: ", round(x$target_precursorMz,4), " @ ", round(x$target_rtime/60,2)))))
-  #     observe(output$t_score <- renderText(HTML(paste0("Score: ", round(x$score, 3), " Reverse: ", round(x$reverse_score, 3)))))
-  # 
-  #     # render new plotly plot
-  #     output$plot <-  renderPlotly(plotly_headtail(x))
-  # 
-  #     # change preselection in input table to new value => works, but somehow slows down the process
-  #     # updateSelectInput(session = getDefaultReactiveDomain(), inputId = 'selection', selected=v$i)
-  # 
-  #     # change the button to the previous selected verification value
-  #     updateRadioButtons(inputId="veri",
-  #                        choices = list("True match" = T, "False match" = F),
-  #                        selected=r$veri_logical[v$i])
-  #   }
-  # })
-  
-  
-  
+
   # Define what to do if click on radio button
-  observeEvent(input$veri,{
+  observeEvent(input$veri, {
+    
     # store value in logical vector
-    r$veri_logical[v$i] <- input$veri
+    r$veri_logical[[v$i]][id$target_idx] <- as.logical(input$veri)
     # update the names of the list
     names(l_choices) <- paste0(seq(1, length(mtch_sub)),
                                " - MZ",
-                               round(query(mtch_sub)$precursorMz,4),
+                               round(query(mtch_sub)$precursorMz, 4),
                                "@RT",
-                               round(query(mtch_sub)$rtime, 0),
-                               " - ",
-                               r$veri_logical)
+                               round(query(mtch_sub)$rtime, 0))
+    
     # update the list
-    updateSelectInput(session = getDefaultReactiveDomain(), choices = l_choices, inputId = 'selection', selected=v$i)
+    updateSelectInput(
+      session = getDefaultReactiveDomain(),
+      choices = l_choices,
+      inputId = 'selection',
+      selected = v$i
+    )
   })
   
   #Store Result
-  observeEvent(input$b_store,{
-    # subset the match object
-    mtch_subII <- mtch_sub[which(r$veri_logical == TRUE)]
-    # store as RDS with changed name
-    saveRDS(mtch_subII, paste0(str_replace(filename, ".rds$", "_verified.rds")))
+  observeEvent(input$b_store, {
+    # # subset the match object
+    # mtch_subII <- mtch_sub[which(r$veri_logical == TRUE)]
+    # # store as RDS with changed name
+    # saveRDS(mtch_subII, paste0(str_replace(filename, ".rds$", "_verified.rds")))
+    print(r$veri_logical)
   })
 }
 #######################################################################
