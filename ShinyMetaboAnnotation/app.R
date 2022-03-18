@@ -25,49 +25,98 @@ library(DT)
 #######################################################################
 # define plot function
 #' Function for generating a plotly headtail plot for one query in mtch object
-# plotly_headtail <- function(x, target_idx = 1L){
-plotly_headtail <- function(query_spectrum, target_spectrum){
-  
-  # # isolate query and target spectra
-  # query_spectrum <- query(x)
-  # target_spectra <- x@target[x@matches$target_idx]
-  # 
-  # # get corresponding target spectrum
-  # target_spectrum <- target_spectra[target_idx]
+plotly_headtail <- function(query_spectrum, target_spectrum ){
   
   # create data frames for plotting
   top <- data.frame(mz = unlist(mz(query_spectrum)),
                     int = unlist(intensity(query_spectrum)))
-  top <- top[-which(top[,2]==0),]
-  
-  bottom <- data.frame(mz = unlist(mz(target_spectrum)),
-                       int = unlist(intensity(target_spectrum)))
+
+
   
   # create layout
   layout <- list(
-    title = "", 
+    title = "",
     xaxis = list(title = "m/z",
                  zeroline=TRUE,
                  range=c(0, max(top$mz)),
                  nticks=8,
-                 autorange = TRUE), 
+                 autorange = TRUE),
     yaxis = list(title = "Signal Intensity [%]",
                  zeroline=TRUE,
                  tickmode='array',
                  tickvals=c(-100, -50, 0, 50, 100),
                  ticktext=c('100','50', '0', '50', '100'))
   )
-  
+
   # create plot
-  p <- plot_ly(top,x=~mz, y=~int, showlegend=F, type='bar',
-               marker = list(size = 3, color= 'red'),  hoverinfo='none')
-  p <- add_markers(p, type="scatter", x=top$mz, y=top$int, hovertemplate = paste('<br>mz:', '%{x}', '<br>int: %{y}<br>'), hoverlabel = list(namelength=0))
-  p <- add_trace(p, type="bar", x=bottom$mz, y=-bottom$int, marker=list(color='blue'), hoverinfo='none')
-  p <- add_markers(p, x=bottom$mz, y=-bottom$int, type='scatter', marker=list(color='blue'), hovertemplate = paste('<br>mz:', '%{x}', '<br>int: %{y}<br>'), hoverlabel = list(namelength=0))
-  p <- layout(p, title=layout$title, xaxis=layout$xaxis, yaxis=layout$yaxis)
-  p <- add_annotations(p, type='text', x=c(15,15), y=c(100,-100), text=c("query", "library"), textfont=list(color=c('red', 'blue')), showarrow=F)
-  p <- p %>%  layout(hovermode = "x", hoverdistance=1)
+  p <- plot_ly(
+    top,
+    x =  ~ mz,
+    y =  ~ int,
+    showlegend = F,
+    type = 'bar',
+    marker = list(size = 3, color = 'red'),
+    hoverinfo = 'none'
+  )
   
+  p <-
+    add_markers(
+      p,
+      type = "scatter",
+      x = top$mz,
+      y = top$int,
+      hovertemplate = paste('<br>mz:', '%{x}', '<br>int: %{y}<br>'),
+      hoverlabel = list(namelength = 0)
+    )
+  
+  if(length(target_spectrum) > 0) {
+    
+    bottom <- data.frame(mz = unlist(mz(target_spectrum)),
+                         int = unlist(intensity(target_spectrum)))
+    
+    p <-
+      add_trace(
+        p,
+        type = "bar",
+        x = bottom$mz,
+        y = -bottom$int,
+        marker = list(color = 'blue'),
+        hoverinfo = 'none'
+      )
+    
+    p <-
+      add_markers(
+        p,
+        x = bottom$mz,
+        y = -bottom$int,
+        type = 'scatter',
+        marker = list(color = 'blue'),
+        hovertemplate = paste('<br>mz:', '%{x}', '<br>int: %{y}<br>'),
+        hoverlabel = list(namelength = 0)
+      )
+  }
+
+  p <-
+    layout(
+      p,
+      title = layout$title,
+      xaxis = layout$xaxis,
+      yaxis = layout$yaxis
+    )
+  
+  p <-
+    add_annotations(
+      p,
+      type = 'text',
+      x = c(15, 15),
+      y = c(100, -100),
+      text = c("query", "library"),
+      textfont = list(color = c('red', 'blue')),
+      showarrow = F
+    )
+  
+  p <- p %>% layout(hovermode = "x", hoverdistance = 1)
+
   # return plot
   p
 }
@@ -98,6 +147,9 @@ print(mtch_sub)
 print(boolean_values)
 print(unlist(boolean_values))
 
+# set serial processing (for windows)
+register(SerialParam())
+
 #######################################################################
 # Define UI for application
 ui <- fluidPage(
@@ -122,8 +174,8 @@ ui <- fluidPage(
     mainPanel(
       DT::dataTableOutput("dynamic"),
       radioButtons("veri",
-                   label = "Hit",
-                   choices = list("True match" = T, "False match" = F), 
+                   label = "Hit correct?",
+                   choices = list("Yes" = T, "No" = F), 
                    selected = T),
       plotlyOutput("plot")
     )
@@ -185,7 +237,17 @@ server <- function(input, output) {
     # update reactiveValues containing spectra
     specs$match <- x
     specs$query <- query(x)
+    specs$target <- Spectra()
     
+    # render new plotly plot
+    observe(output$plot <-  renderPlotly(plotly_headtail(specs$query, specs$target)))
+    
+    print(r$veri_logical[v$i][input$dynamic_rows_selected])
+    
+    # change the button to the previous selected verification value
+    updateRadioButtons(inputId="veri",
+                       choices = list("Yes" = T, "No" = F), 
+                       selected = r$veri_logical[v$i][id$target_idx])
   })
   
   # row selection
@@ -199,15 +261,16 @@ server <- function(input, output) {
     
     # update reactiveValues containing spectra
     specs$target <- x@target[x@matches$target_idx][input$dynamic_rows_selected]
+
+    # render new plotly plot
+    observe(output$plot <-  renderPlotly(plotly_headtail(specs$query, specs$target)))
+    
+    print(r$veri_logical[v$i][input$dynamic_rows_selected])
     
     # change the button to the previous selected verification value
     updateRadioButtons(inputId="veri",
-                       choices = list("True match" = T, "False match" = F), 
+                       choices = list("Yes" = T, "No" = F),
                        selected = r$veri_logical[v$i][input$dynamic_rows_selected])
-    
-    # render new plotly plot
-    # observe(output$plot <-  renderPlotly(plotly_headtail(x, id$target_idx)))
-    observe(output$plot <-  renderPlotly(plotly_headtail(specs$query, specs$target)))
     
   })
 
