@@ -20,14 +20,15 @@ library(DT)
 #######################################################################
 # define plot function
 #' Function for generating a plotly headtail plot for one query in mtch object
-plotly_headtail <- function(x, target_idx = 1L){
+# plotly_headtail <- function(x, target_idx = 1L){
+plotly_headtail <- function(query_spectrum, target_spectrum){
   
-  # isolate query and target spectra
-  query_spectrum <- query(x)
-  target_spectra <- x@target[x@matches$target_idx]
-
-  # get corresponding target spectrum
-  target_spectrum <- target_spectra[target_idx]
+  # # isolate query and target spectra
+  # query_spectrum <- query(x)
+  # target_spectra <- x@target[x@matches$target_idx]
+  # 
+  # # get corresponding target spectrum
+  # target_spectrum <- target_spectra[target_idx]
   
   # create data frames for plotting
   top <- data.frame(mz = unlist(mz(query_spectrum)),
@@ -52,6 +53,7 @@ plotly_headtail <- function(x, target_idx = 1L){
                  ticktext=c('100','50', '0', '50', '100'))
   )
   
+  # create plot
   p <- plot_ly(top,x=~mz, y=~int, showlegend=F, type='bar',
                marker = list(size = 3, color= 'red'),  hoverinfo='none')
   p <- add_markers(p, type="scatter", x=top$mz, y=top$int, hovertemplate = paste('<br>mz:', '%{x}', '<br>int: %{y}<br>'), hoverlabel = list(namelength=0))
@@ -60,7 +62,9 @@ plotly_headtail <- function(x, target_idx = 1L){
   p <- layout(p, title=layout$title, xaxis=layout$xaxis, yaxis=layout$yaxis)
   p <- add_annotations(p, type='text', x=c(15,15), y=c(100,-100), text=c("query", "library"), textfont=list(color=c('red', 'blue')), showarrow=F)
   p <- p %>%  layout(hovermode = "x", hoverdistance=1)
-  return(p)
+  
+  # return plot
+  p
 }
 
 #######################################################################
@@ -82,7 +86,6 @@ for(i in 1:length(mtch_sub)) {
   x <- mtch_sub[i]
   target_length <- length(x@target[x@matches$target_idx])
   boolean_values[[i]] <- rep(TRUE, length(x@target[x@matches$target_idx]))
-  
 }
 
 print(mtch_sub)
@@ -105,22 +108,16 @@ ui <- fluidPage(
       selectInput('selection', 'Features:', choices=l_choices , multiple=TRUE, selectize=FALSE, size=25),
       # actionButton("b_back", "back", width='275px'),
       # actionButton("b_next", "next", width='275px'),
-      actionButton("b_close", "load new object", width='275px'),
+      # actionButton("b_close", "load new object", width='275px'),
       actionButton("b_store", "store verification", width='275px')
-      
     ),
     # define main window with text, plotly plot and buttons
     mainPanel(
       DT::dataTableOutput("dynamic"),
       radioButtons("veri",
-                   label="",
+                   label = "Hit",
                    choices = list("True match" = T, "False match" = F), 
-                   selected=T),
-      # htmlOutput("t_number"),
-      # htmlOutput("t_formula"),
-      # htmlOutput("t_query"),
-      # htmlOutput("t_library"),
-      # htmlOutput("t_score"),
+                   selected = T),
       plotlyOutput("plot")
     )
   )
@@ -132,6 +129,9 @@ server <- function(input, output) {
   v <- reactiveValues(i = 1)
   r <- reactiveValues(veri_logical = boolean_values)
   id <- reactiveValues(target_idx = 1L)
+  specs <- reactiveValues(match = MatchedSpectra(),
+                          query = Spectra(),
+                          target = Spectra())
   
   # selection in list
   observeEvent(input$selection, {
@@ -141,14 +141,7 @@ server <- function(input, output) {
     
     # filter MatchedSpectra based on index from selection
     x <- mtch_sub[v$i]
-    
-    # # change to new text
-    # observe(output$t_number <- renderText(HTML(paste0("<b>", v$i, "/", length(mtch_sub), " ", x$target_name, "</b>"))))
-    # observe(output$t_formula <- renderText(HTML(paste0("Formula: ", x$target_formula, " InchiKey: ", x$target_inchikey))))
-    # observe(output$t_query <- renderText(HTML(paste0("Query: ", round(x$precursorMz,5), " @ ", round(x$rtime/60,2)))))
-    # observe(output$t_library <- renderText(HTML(paste0("Library: ", round(x$target_precursorMz,4), " @ ", round(x$target_rtime/60,2)))))
-    # observe(output$t_score <- renderText(HTML(paste0("Score: ", round(x$score, 3), " Reverse: ", round(x$reverse_score, 3)))))
-    
+
     # table with matches
     mtch_tbl <- matchedData(x) %>% 
       as_tibble() %>% 
@@ -182,31 +175,32 @@ server <- function(input, output) {
     id$target_idx <- input$dynamic_rows_selected
     output$row <- renderPrint(input$dynamic_rows_selected)
     
-    # change the button to the previous selected verification value
-    updateRadioButtons(inputId="veri",
-                       choices = list("True match" = T, "False match" = F), 
-                       selected=r$veri_logical[v$i])
+    # update reactiveValues containing spectra
+    specs$match <- x
+    specs$query <- query(x)
+    
   })
   
   # row selection
   observeEvent(input$dynamic_rows_selected, {
     
     # change index to selection
-    v$i <- as.numeric(input$selection)
-    
     # filter MatchedSpectra based on index from selection
+    v$i <- as.numeric(input$selection)
     x <- mtch_sub[v$i]
-    
     id$target_idx <- input$dynamic_rows_selected
     
-    # change index to selection
-    v$i <- as.numeric(input$selection)
+    # update reactiveValues containing spectra
+    specs$target <- x@target[x@matches$target_idx][input$dynamic_rows_selected]
     
-    # filter MatchedSpectra based on index from selection
-    x <- mtch_sub[v$i]
+    # change the button to the previous selected verification value
+    updateRadioButtons(inputId="veri",
+                       choices = list("True match" = T, "False match" = F), 
+                       selected = r$veri_logical[v$i][input$dynamic_rows_selected])
     
     # render new plotly plot
-    observe(output$plot <-  renderPlotly(plotly_headtail(x, id$target_idx)))
+    # observe(output$plot <-  renderPlotly(plotly_headtail(x, id$target_idx)))
+    observe(output$plot <-  renderPlotly(plotly_headtail(specs$query, specs$target)))
     
   })
 
@@ -215,20 +209,7 @@ server <- function(input, output) {
     
     # store value in logical vector
     r$veri_logical[[v$i]][id$target_idx] <- as.logical(input$veri)
-    # update the names of the list
-    names(l_choices) <- paste0(seq(1, length(mtch_sub)),
-                               " - MZ",
-                               round(query(mtch_sub)$precursorMz, 4),
-                               "@RT",
-                               round(query(mtch_sub)$rtime, 0))
-    
-    # update the list
-    updateSelectInput(
-      session = getDefaultReactiveDomain(),
-      choices = l_choices,
-      inputId = 'selection',
-      selected = v$i
-    )
+
   })
   
   #Store Result
