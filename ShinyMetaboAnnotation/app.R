@@ -85,6 +85,7 @@ for(i in 1:length(mtch_sub)) {
   
 }
 
+print(mtch_sub)
 print(boolean_values)
 print(unlist(boolean_values))
 
@@ -232,11 +233,18 @@ server <- function(input, output) {
   
   #Store Result
   observeEvent(input$b_store, {
-    # # subset the match object
-    # mtch_subII <- mtch_sub[which(r$veri_logical == TRUE)]
-    # # store as RDS with changed name
-    # saveRDS(mtch_subII, paste0(str_replace(filename, ".rds$", "_verified.rds")))
+    
+    # subset the match object
     print(r$veri_logical)
+    filter_idx <- mtch_sub@matches[which(unlist(r$veri_logical)),]
+    print(filter_idx)
+    print(filterMatches(mtch_sub, index = as.integer(row.names(filter_idx))))
+    mtch_sub_verified <- filterMatches(mtch_sub,
+                                       index = as.integer(row.names(filter_idx)))
+    
+    # save as new rds
+    saveRDS(mtch_sub_verified, paste0(str_replace(filename, ".rds$", "_verified.rds")))
+    
   })
 }
 #######################################################################
