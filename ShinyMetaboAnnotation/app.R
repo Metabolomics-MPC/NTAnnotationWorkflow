@@ -72,6 +72,7 @@ plotly_headtail <- function(query_spectrum, target_spectrum){
 mtch <- readRDS(filename)
 #get querry matches
 mtch_sub <- mtch[whichQuery(mtch)]
+mtch_sub <- pruneTarget(mtch_sub)
 #generate choices name for list on side
 l_choices <- as.list(seq(1, length(mtch_sub)))
 names(l_choices) <- paste0(seq(1, length(mtch_sub)),
