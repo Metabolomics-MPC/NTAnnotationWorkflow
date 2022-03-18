@@ -8,7 +8,7 @@
 # Define which object to load => CHANGE!
 #filename <- args[1] #"~/git/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.rds"
 #filename <- "E:/04_BGC/Project Data/Bio-Chemoinformatics/R/Projects/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.rds"
-filename <- "E:/04_BGC/Project Data/Bio-Chemoinformatics/R/Projects/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_external/pos_MSDIal_MSMS-Public-Pos-VS15_ms2annotation.rds"
+filename <- "~/git/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_external/pos_MSDIal_MSMS-Public-Pos-VS15_ms2annotation.rds"
 ##########################################################################
 library(shiny)
 library(plotly)
@@ -16,6 +16,7 @@ library(Spectra)
 library(stringr)
 library(MetaboAnnotation)
 library(tidyverse)
+library(tibble)
 #######################################################################
 # define plot function
 #' Function for generating a plotly headtail plot for one query in mtch object
@@ -71,14 +72,14 @@ ui <- fluidPage(
   titlePanel(
     # title with logos
     div("ShinyMetaboAnnotation",
-        img(src='hmgu.png', width = "250px", align = "right"),
-        img(src='ufz.png', width = "250px", align = "right"),
+        img(src='hmgu.png', width = "180px", align = "right"),
+        img(src='ufz.png', width = "180px", align = "right"),
         class = "pull-right")
   ),
   sidebarLayout(
     # define sidebar with list of matches and true match false match buttons
     sidebarPanel(
-      selectInput('selection', 'matches:', choices=l_choices , multiple=TRUE, selectize=FALSE, size=25),
+      selectInput('selection', 'matches:', choices=l_choices , multiple=TRUE, selectize=FALSE, size=10),
       actionButton("b_back", "back", width='275px'),
       actionButton("b_next", "next", width='275px'),
       actionButton("b_close", "load new object", width='275px'),
@@ -87,18 +88,18 @@ ui <- fluidPage(
     ),
     # define main window with text, plotly plot and buttons
     mainPanel(
-      DT::dataTableOutput("dynamic"),
-      verbatimTextOutput("row"),
-      radioButtons("veri",
-                   label="",
-                   choices = list("True match" = T, "False match" = F), 
-                   selected=T),
       htmlOutput("t_number"),
       htmlOutput("t_formula"),
       htmlOutput("t_query"),
       htmlOutput("t_library"),
       htmlOutput("t_score"),
-      plotlyOutput("plot")
+      plotlyOutput("plot"),
+      DT::dataTableOutput("dynamic"),
+      verbatimTextOutput("row"),
+      radioButtons("veri",
+                   label="",
+                   choices = list("True match" = T, "False match" = F), 
+                   selected=T)
     )
   )
 )
