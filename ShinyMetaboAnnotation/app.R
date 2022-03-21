@@ -6,13 +6,11 @@
 #
 ##########################################################################
 # Define which object to load => CHANGE!
-#filename <- args[1] #"~/git/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.rds"
-
-filename <- "E:/04_BGC/Project Data/Bio-Chemoinformatics/R/Projects/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.rds"
+#filename <- args[1] 
+#filename <- "E:/04_BGC/Project Data/Bio-Chemoinformatics/R/Projects/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.rds"
 #filename <- "E:/04_BGC/Project Data/Bio-Chemoinformatics/R/Projects/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_external/pos_MSDIal_MSMS-Public-Pos-VS15_ms2annotation.rds"
 
-#filename <- "E:/04_BGC/Project Data/Bio-Chemoinformatics/R/Projects/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.rds"
-#filename <- "~/git/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_external/pos_MSDIal_MSMS-Public-Pos-VS15_ms2annotation.rds"
+filename <- "~/git/MetaboliteAnnotationWorkflow/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.rds"
 
 ##########################################################################
 library(shiny)
@@ -31,8 +29,6 @@ plotly_headtail <- function(query_spectrum, target_spectrum ){
   top <- data.frame(mz = unlist(mz(query_spectrum)),
                     int = unlist(intensity(query_spectrum)))
 
-
-  
   # create layout
   layout <- list(
     title = "",
@@ -120,7 +116,6 @@ plotly_headtail <- function(query_spectrum, target_spectrum ){
   # return plot
   p
 }
-
 #######################################################################
 #load matched object
 mtch <- readRDS(filename)
@@ -133,7 +128,7 @@ names(l_choices) <- paste0(seq(1, length(mtch_sub)),
                            " - MZ",
                            round(query(mtch_sub)$precursorMz,4),
                            "@RT",
-                           round(query(mtch_sub)$rtime, 0))
+                           round(query(mtch_sub)$rtime/60, 2), " min")
 
 # create boolean values
 boolean_values <- list()
@@ -163,21 +158,18 @@ ui <- fluidPage(
   sidebarLayout(
     # define sidebar with list of matches and true match false match buttons
     sidebarPanel(
-      selectInput('selection', 'Features:', choices=l_choices , multiple=TRUE, selectize=FALSE, size=25),
-      # actionButton("b_back", "back", width='275px'),
-      # actionButton("b_next", "next", width='275px'),
-      # actionButton("b_close", "load new object", width='275px'),
-
-      actionButton("b_store", "store verification", width='275px')
-    ),
-    # define main window with text, plotly plot and buttons
-    mainPanel(
-      DT::dataTableOutput("dynamic"),
+      selectInput('selection', 'Features:', choices=l_choices , multiple=TRUE, selectize=FALSE),
       radioButtons("veri",
                    label = "Hit correct?",
                    choices = list("Yes" = T, "No" = F), 
                    selected = T),
-      plotlyOutput("plot")
+      actionButton("b_store", "store verification", width='275px')
+      # actionButton("b_close", "load new object", width='275px')
+    ),
+    # define main window with text, plotly plot
+    mainPanel(
+      plotlyOutput("plot"),
+      DT::dataTableOutput("dynamic")
     )
   )
 )
@@ -226,10 +218,10 @@ server <- function(input, output) {
     
     # create dynamic table
     output$dynamic <- DT::renderDT(DT::datatable(bind_cols(mtch_tbl,
-                                                           hit = r$veri_logical[[v$i]]),
+                                                           Hit = r$veri_logical[[v$i]]),
                                              selection = "single"),
-                                   server = TRUE,
-                                   options = list(pageLength = 10))
+                                   server = TRUE)
+                                   #options = list(pageLength = 10))
     
     id$target_idx <- input$dynamic_rows_selected
     output$row <- renderPrint(input$dynamic_rows_selected)
@@ -237,10 +229,10 @@ server <- function(input, output) {
     # update reactiveValues containing spectra
     specs$match <- x
     specs$query <- query(x)
-    specs$target <- Spectra()
+    specs$target <- target(x)
     
     # render new plotly plot
-    observe(output$plot <-  renderPlotly(plotly_headtail(specs$query, specs$target)))
+    observe(output$plot <-  renderPlotly(plotly_headtail(specs$query, specs$target[1])))
     
     print(r$veri_logical[v$i][input$dynamic_rows_selected])
     
@@ -250,7 +242,7 @@ server <- function(input, output) {
                        selected = r$veri_logical[v$i][id$target_idx])
   })
   
-  # row selection
+  # Define what happens if a row in DT is selected
   observeEvent(input$dynamic_rows_selected, {
     
     # change index to selection
