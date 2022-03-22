@@ -12,10 +12,10 @@
   if (!require("MsBackendMgf")) BiocManager::install("MsBackendMgf")
   library(MsBackendMgf)
   
-  if (!require("MsBackendMsp")) BiocManager::install("MsBackendMsp")
+  if (!require("MsBackendMsp")) devtools::install_github("rformassspectrometry/MsBackendMsp")
   library(MsBackendMsp)
   
-  if (!require("Spectra")) BiocManager::install("Spectra")
+  if (!require("Spectra")) devtools::install_github("rformassspectrometry/Spectra")
   library(Spectra)
   
   if (!require("QFeatures")) BiocManager::install("QFeatures")
