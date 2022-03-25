@@ -53,16 +53,20 @@ perform_ms2_annotation <- function(spectra,
     # read library data and modify spectra
     if(grepl(".mb$", ms2_library)) {
       
-      ms2_lib_data <- Spectra(ms2_library,
+       ms2_lib_data <- Spectra(ms2_library,
                               source = MsBackendMassbank(),
                               backend = MsBackendDataFrame())
       
     } else if(grepl(".msp$", ms2_library)) {
       
-      ms2_lib_data <- Spectra(ms2_library,
+       ms2_lib_data <- Spectra(ms2_library,
                               source = MsBackendMsp(),
                               backend = MsBackendDataFrame())
       
+    } else if(grepl(".rds$", ms2_library)){
+        
+        ms2_lib_data <- readRDS(ms2_library)
+        
     }
     
     # modify library spectra
@@ -98,7 +102,7 @@ perform_ms2_annotation <- function(spectra,
                      str_replace(basename(ms2_library), ".msp$|.mb$", ""),
                      "_ms2annotation.rds"))
       
-    }
+    } 
     
     # save results in a tsv file
     if(saveTsv && is.na(toleranceRt)) {
