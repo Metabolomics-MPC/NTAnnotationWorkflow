@@ -1,6 +1,6 @@
 # ==============================================================================
 # Metabolomics, Lipidomics and Exposomics LC-MS Annotation Workflow 
-# perfoming on two ion modes
+# performing on two ion modes
 #
 # Authors:
 # - Carolin Huber, UFZ
@@ -12,8 +12,8 @@
 # get project directory to work on
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
-#settings_yaml <- args[1]
-settings_yaml <- "test_input/settings.yaml"
+settings_yaml <- args[1]
+#settings_yaml <- "test_input/settings.yaml"
 
 # ==============================================================================
 # 0. Setup 
@@ -60,7 +60,7 @@ if(is.na(settings$cores) | settings$cores == 1) {
 }
 
 # Store yaml file in output directory
-write_yaml(settings, paste0(settings$output_dir, "/input_setting.yaml"))
+write_yaml(settings, paste0(settings$output_dir, "/input_settings.yaml"))
 
 # ==============================================================================
 # 1. Read MS1 data
@@ -97,10 +97,12 @@ ms2_neg_spectra <- import_ms2(settings$MS2_data_neg)
 
 # add MS1 ID to spectra --------------------------------------------------------
 if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
+    
     ms2_pos_spectra <- addFeatureID(ms2_pos_spectra, ms1_pos_se)
   }
 
 if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
+    
     ms2_neg_spectra <- addFeatureID(ms2_pos_spectra, ms1_neg_se)
 }
 
@@ -119,9 +121,9 @@ if(!is.null(ms1_pos_se)) {
     perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_inhouse,
                            adducts = settings$adducts_pos,
-                           tolerance = settings$tolerance,
-                           ppm = settings$ppm,
-                           toleranceRt = settings$toleranceRt,
+                           tolerance = settings$tolerance_MS1,
+                           ppm = settings$ppm_MS1,
+                           toleranceRt = settings$toleranceRt_MS1,
                            outputdir = settings$output_dir,
                            ionmode = "pos",
                            saveRds = settings$save_rds,
@@ -136,8 +138,8 @@ if(!is.null(ms1_pos_se)) {
     perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_ext,
                            adducts = settings$adducts_pos,
-                           tolerance = settings$tolerance,
-                           ppm = settings$ppm,
+                           tolerance = settings$tolerance_MS1,
+                           ppm = settings$ppm_MS1,
                            toleranceRt = NA,
                            outputdir = settings$output_dir,
                            ionmode = "pos",
@@ -157,9 +159,9 @@ if(!is.null(ms1_neg_se)) {
     perform_ms1_annotation(ms1_neg_se,
                            settings$MS1_lib_inhouse,
                            adducts = settings$adducts_neg,
-                           tolerance = settings$tolerance,
-                           ppm = settings$ppm,
-                           toleranceRt = settings$toleranceRt,
+                           tolerance = settings$tolerance_MS1,
+                           ppm = settings$ppm_MS1,
+                           toleranceRt = settings$toleranceRt_MS1,
                            outputdir = settings$output_dir,
                            ionmode = "neg",
                            saveRds = settings$save_rds,
@@ -174,8 +176,8 @@ if(!is.null(ms1_neg_se)) {
     perform_ms1_annotation(ms1_neg_se,
                            settings$MS1_lib_ext,
                            adducts = settings$adducts_neg,
-                           tolerance = settings$tolerance,
-                           ppm = settings$ppm,
+                           tolerance = settings$tolerance_MS1,
+                           ppm = settings$ppm_MS1,
                            toleranceRt = NA,
                            outputdir = settings$output_dir,
                            ionmode = "neg",
@@ -200,9 +202,9 @@ if(!is.null(ms2_pos_spectra)) {
     
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos,
-                           tolerance = settings$tolerance,
-                           ppm = settings$ppm,
-                           toleranceRt = settings$toleranceRt,
+                           tolerance = settings$tolerance_MS2,
+                           ppm = settings$ppm_MS2,
+                           toleranceRt = settings$toleranceRt_MS2,
                            dpTresh = settings$dp_tresh,
                            relIntTresh = settings$int_tresh,
                            outputdir = settings$output_dir,
@@ -218,8 +220,8 @@ if(!is.null(ms2_pos_spectra)) {
     
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos_ext,
-                           tolerance = settings$tolerance,
-                           ppm = settings$ppm,
+                           tolerance = settings$tolerance_MS2,
+                           ppm = settings$ppm_MS2,
                            toleranceRt = NA,
                            dpTresh = settings$dp_tresh,
                            relIntTresh = settings$int_tresh,
@@ -240,9 +242,9 @@ if(!is.null(ms2_neg_spectra)) {
     
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg,
-                           tolerance = settings$tolerance,
-                           ppm = settings$ppm,
-                           toleranceRt = settings$toleranceRt,
+                           tolerance = settings$tolerance_MS2,
+                           ppm = settings$ppm_MS2,
+                           toleranceRt = settings$toleranceRt_MS2,
                            dpTresh = settings$dp_tresh,
                            relIntTresh = settings$int_tresh,
                            outputdir = settings$output_dir,
@@ -258,8 +260,8 @@ if(!is.null(ms2_neg_spectra)) {
     
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg_ext,
-                           tolerance = settings$tolerance,
-                           ppm = settings$ppm,
+                           tolerance = settings$tolerance_MS2,
+                           ppm = settings$ppm_MS2,
                            toleranceRt = NA,
                            dpTresh = settings$dp_tresh,
                            relIntTresh = settings$int_tresh,
