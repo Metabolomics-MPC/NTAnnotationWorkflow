@@ -25,8 +25,8 @@ perform_ms2_annotation <- function(spectra,
     param <- MatchForwardReverseParam(tolerance = tolerance,
                                       ppm = ppm,
                                       toleranceRt = Inf,
-                                      #requirePrecursor = TRUE,
-                                      TRESHFUN = function(x) which(x >= dpTresh))
+                                      requirePrecursor = TRUE,
+                                      THRESHFUN = function(x) which(x >= dpTresh))
     
   } else {
     
@@ -34,7 +34,7 @@ perform_ms2_annotation <- function(spectra,
                                       ppm = ppm,
                                       toleranceRt = toleranceRt,
                                       requirePrecursor = TRUE,
-                                      TRESHFUN = function(x) which(x >= dpTresh))
+                                      THRESHFUN = function(x) which(x >= dpTresh))
     
   }
   
