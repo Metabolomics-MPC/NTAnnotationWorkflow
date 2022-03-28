@@ -32,7 +32,7 @@ import_ms1 <- function(ms1_file,
                         name ="slaw")
     
     #get group information
-    if(samplegroup & !is.na(studydesign_file)){
+    if(samplegroup & !is.null(studydesign_file)){
       
       studydesign <- read.delim(studydesign_file, row.names = 1)
       se@colData <- DataFrame(studydesign)

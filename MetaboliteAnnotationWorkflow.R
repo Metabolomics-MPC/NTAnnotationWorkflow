@@ -116,7 +116,7 @@ source("R/03_MS1Annotation.R")
 if(!is.null(ms1_pos_se)) {
   
   # perform annotation with in-house libraries
-  if(length(list.files(settings$MS1_lib_inhouse))) {
+  if(length(list.files(settings$MS1_lib_inhouse))>0) {
     
     perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_inhouse,
@@ -133,7 +133,7 @@ if(!is.null(ms1_pos_se)) {
   }
 
   # perform annotation with external libraries
-  if(length(list.files(settings$MS1_lib_ext))) {
+  if(length(list.files(settings$MS1_lib_ext))>0) {
     
     perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_ext,
@@ -198,7 +198,7 @@ source("R/04_MS2Annotation.R")
 if(!is.null(ms2_pos_spectra)) {
   
   # perform annotation with in-house libraries
-  if(length(list.files(settings$MS2_lib_pos))) {
+  if(length(list.files(settings$MS2_lib_pos))>0) {
     
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos,
@@ -216,7 +216,7 @@ if(!is.null(ms2_pos_spectra)) {
   }
   
   # perform annotation with external libraries
-  if(length(list.files(settings$MS2_lib_pos_ext))) {
+  if(length(list.files(settings$MS2_lib_pos_ext))>0) {
     
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos_ext,
@@ -238,7 +238,7 @@ if(!is.null(ms2_pos_spectra)) {
 if(!is.null(ms2_neg_spectra)) {
   
   # perform annotation with in-house libraries
-  if(length(list.files(settings$MS2_lib_neg))) {
+  if(length(list.files(settings$MS2_lib_neg))>0) {
     
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg,
@@ -256,7 +256,7 @@ if(!is.null(ms2_neg_spectra)) {
   }
   
   # perform annotation with external libraries
-  if(length(list.files(settings$MS2_lib_neg_ext))) {
+  if(length(list.files(settings$MS2_lib_neg_ext))>0) {
     
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg_ext,
