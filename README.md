@@ -60,3 +60,17 @@ In the output directory following directories will be created:
 ```Rscript ShinyMetaboAnnotation/app.R [matchedObject.rds]```
 
 The used MatchedObject can be either defined by the commandline argument or later loaded in later in the Shiny application.
+Alternatively, the application can be opened in RStudio and using the `run application` button in the top of the source.
+
+![Example](ShinyMetaboAnnotation/www/shiny_example.png)
+
+By clicking on the `Browse...` button, a rds file containing a MatchedSpectra Object can be loaded.
+
+The side panel contains all features with matches revealed from the MS2 query data, defined by mass and retention time. By clicking on the side panel entry, the spectra will be loaded. The table on the bottom contains all matches revealed. Note that the library spectra will only be loaded if clicking on the table row for selection.
+
+On the bottom, you can select if you verify the match or if it is a false positive. 
+
+If you have finalized your selection either click on the `save verification` button if you have uploaded the file by commandline. This will generate a new MatchedSpectra Object only containing the TRUE annotations in a `*_verified.rds` file.
+
+If you have uploaded the Object though the `Browse...` button, please note that you should use the `Select file location`button for stroage.
+
