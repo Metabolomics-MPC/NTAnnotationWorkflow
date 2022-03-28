@@ -13,8 +13,7 @@ perform_ms1_annotation <- function(se,
                                    outputdir = NA,
                                    ionmode = "",
                                    saveRds = TRUE,
-                                   saveTsv = FALSE,
-                                   BPPARAM = SerialParam()) {
+                                   saveTsv = FALSE) {
     
   message("MS1 Annotation in ", ionmode)
   # build param object based on RT selection
@@ -59,8 +58,7 @@ perform_ms1_annotation <- function(se,
     # perform annotation
     se_match <- matchMz(rowData(se)[[1]],
                         ms1_lib_data,
-                        param = param,
-                        BPPARAM = BPPARAM)
+                        param = param)
     
     # print number of matches
     print(se_match)
