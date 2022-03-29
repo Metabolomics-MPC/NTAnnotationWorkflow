@@ -19,7 +19,16 @@ MS1_data_neg: "test_input/output_slaw_neg/datamatrix_opt.csv" # File in projectd
 MS2_data_neg:	"test_input/output_slaw_neg/fused_mgf_opt.mgf" # File in projectdirectory that will be used as MS2 data in negative mode
 
 # ==============================================================================
-# general MS settings
+# Sample grouping
+#
+# Data of study design and sample grouping
+# ==============================================================================
+samplegroup:	TRUE
+studydesign_pos: "test_input/output_slaw_pos/studydesign.csv"
+studydesign_neg: "test_input/output_slaw_neg/studydesign.csv"
+
+# ==============================================================================
+# MS1 settings
 #
 # Settings used for MS1 and MS2 processing and annotation
 # Adduct namings according to MetaboCoreUitls are used
@@ -53,26 +62,17 @@ toleranceRt_MS2: 30 # RT threshold used for annotation
 # Path to folders containing compound databases or MS2 libraries in .msp or .mb
 # format.
 # ==============================================================================
-# MS1 settings
+# MS1 libraries
 MS1_lib_ext: "test_library/MS1_external"
 MS1_lib_inhouse: "test_library/MS1_inhouse"
 
-# library settings, in-house libraries
+# MS2 libraries, in-house libraries
 MS2_lib_pos: "test_library/MS2_inhouse_pos"
 MS2_lib_neg: "test_library/MS2_inhouse_neg"
 
-# library settings, external
+# MS2 libraries, external
 MS2_lib_pos_ext: "test_library/MS2_external_pos"
 MS2_lib_neg_ext: "test_library/MS2_external_neg"
-
-# ==============================================================================
-# Sample grouping
-#
-# Data of study design and sample grouping
-# ==============================================================================
-samplegroup:	TRUE
-studydesign_pos: "test_input/output_slaw_pos/studydesign.csv"
-studydesign_neg: "test_input/output_slaw_neg/studydesign.csv"
 
 # ==============================================================================
 # data output
