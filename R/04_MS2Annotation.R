@@ -19,6 +19,7 @@ perform_ms2_annotation <- function(spectra,
                                    BPPARAM = SerialParam()) {
 
   message("MS2 Annotation in ", ionmode)
+  
   # build param object based on RT selection
   if(is.na(toleranceRt)) {
     
@@ -40,7 +41,6 @@ perform_ms2_annotation <- function(spectra,
   
   # modify query spectra
   spectra <- addProcessing(spectra, norm_int)
-  #spectra <- replaceIntensitiesBelow(spectra, threshold = relIntTresh, value = 0)
   spectra <- filterIntensity(spectra, intensity = c(relIntTresh, Inf))
 
   # perform matching for each library in libpath

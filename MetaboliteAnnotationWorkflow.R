@@ -12,8 +12,14 @@
 # get project directory to work on
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
-settings_yaml <- args[1]
-#settings_yaml <- "test_input/settings.yaml"
+
+# check if args is supplied, else run demote data
+if(is.na(args[1])) {
+  message("Running demo data!")
+  settings_yaml <- "test_input/settings.yaml"
+} else {
+  settings_yaml <- args[1]
+}
 
 # ==============================================================================
 # 0. Setup 
@@ -23,6 +29,9 @@ source("R/00_Setup.R")
 
 # Read in settings of yaml file ------------------------------------------------
 settings <- read_yaml(settings_yaml)
+
+# validate settings ------------------------------------------------------------
+settings <- validateSettings(settings)
 
 # setup output directory with all subfolder ------------------------------------
 if(!dir.exists(settings$output_dir)) dir.create(settings$output_dir)
@@ -97,12 +106,10 @@ ms2_neg_spectra <- import_ms2(settings$MS2_data_neg)
 
 # add MS1 ID to spectra --------------------------------------------------------
 if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
-    
     ms2_pos_spectra <- addFeatureID(ms2_pos_spectra, ms1_pos_se)
-  }
+}
 
 if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
-    
     ms2_neg_spectra <- addFeatureID(ms2_pos_spectra, ms1_neg_se)
 }
 
@@ -116,7 +123,7 @@ source("R/03_MS1Annotation.R")
 if(!is.null(ms1_pos_se)) {
   
   # perform annotation with in-house libraries
-  if(length(list.files(settings$MS1_lib_inhouse))>0) {
+  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
     
     perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_inhouse,
@@ -127,13 +134,12 @@ if(!is.null(ms1_pos_se)) {
                            outputdir = settings$output_dir,
                            ionmode = "pos",
                            saveRds = settings$save_rds,
-                           saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           saveTsv = settings$save_tsv)
     
   }
 
   # perform annotation with external libraries
-  if(length(list.files(settings$MS1_lib_ext))>0) {
+  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
     
     perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_ext,
@@ -144,8 +150,7 @@ if(!is.null(ms1_pos_se)) {
                            outputdir = settings$output_dir,
                            ionmode = "pos",
                            saveRds = settings$save_rds,
-                           saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           saveTsv = settings$save_tsv)
     
   }
 }
@@ -154,7 +159,7 @@ if(!is.null(ms1_pos_se)) {
 if(!is.null(ms1_neg_se)) {
   
   # perform annotation with in-house libraries
-  if(length(list.files(settings$MS1_lib_inhouse))) {
+  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
     
     perform_ms1_annotation(ms1_neg_se,
                            settings$MS1_lib_inhouse,
@@ -165,13 +170,12 @@ if(!is.null(ms1_neg_se)) {
                            outputdir = settings$output_dir,
                            ionmode = "neg",
                            saveRds = settings$save_rds,
-                           saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           saveTsv = settings$save_tsv)
     
   }
   
   # perform annotation with external libraries
-  if(length(list.files(settings$MS1_lib_ext))) {
+  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
     
     perform_ms1_annotation(ms1_neg_se,
                            settings$MS1_lib_ext,
@@ -182,8 +186,7 @@ if(!is.null(ms1_neg_se)) {
                            outputdir = settings$output_dir,
                            ionmode = "neg",
                            saveRds = settings$save_rds,
-                           saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           saveTsv = settings$save_tsv)
     
   }
 }
@@ -198,7 +201,7 @@ source("R/04_MS2Annotation.R")
 if(!is.null(ms2_pos_spectra)) {
   
   # perform annotation with in-house libraries
-  if(length(list.files(settings$MS2_lib_pos))>0) {
+  if(!is.na(settings$MS2_lib_pos) && length(list.files(settings$MS2_lib_pos))) {
     
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos,
@@ -216,7 +219,7 @@ if(!is.null(ms2_pos_spectra)) {
   }
   
   # perform annotation with external libraries
-  if(length(list.files(settings$MS2_lib_pos_ext))>0) {
+  if(!is.na(settings$MS2_lib_pos_ext) && length(list.files(settings$MS2_lib_pos_ext))) {
     
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos_ext,
@@ -238,7 +241,7 @@ if(!is.null(ms2_pos_spectra)) {
 if(!is.null(ms2_neg_spectra)) {
   
   # perform annotation with in-house libraries
-  if(length(list.files(settings$MS2_lib_neg))>0) {
+  if(!is.na(settings$MS2_lib_neg) && length(list.files(settings$MS2_lib_neg))) {
     
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg,
@@ -256,7 +259,7 @@ if(!is.null(ms2_neg_spectra)) {
   }
   
   # perform annotation with external libraries
-  if(length(list.files(settings$MS2_lib_neg_ext))>0) {
+  if(!is.na(settings$MS2_lib_neg_ext) && length(list.files(settings$MS2_lib_neg_ext))) {
     
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg_ext,

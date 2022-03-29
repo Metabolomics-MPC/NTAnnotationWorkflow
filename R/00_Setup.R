@@ -42,5 +42,4 @@
 
 # Load all helperfunctions
 source("R/helperfunctions.R")
-source("R/librarysearch_se.R")
-source("R/slaw2summarizedExperiment.R")
+#source("R/slaw2summarizedExperiment.R")
