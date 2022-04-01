@@ -78,21 +78,27 @@ write_yaml(settings, paste0(settings$output_dir, "/input_settings.yaml"))
 source("R/01_MS1Import.R")
 
 # read positive and negative mode MS1 data -------------------------------------
-ms1_pos_se <- import_ms1(settings$MS1_data_pos,
-                         samplegroup = TRUE,
-                         studydesign_file = settings$studydesign_pos,
-                         prefix = "pos",
-                         outputdir = settings$output_dir,
-                         saveRds = settings$save_rds,
-                         saveTsv = settings$save_tsv)
+ms1_pos_se <- import_ms1_data (settings$MS1_data_pos,
+                               samplegroup = TRUE,
+                               studydesign_file = settings$studydesign_pos,
+                               prefix = "pos",                        
+                               outputdir = settings$output_dir,
+                               saveRds = settings$save_rds,
+                               saveTsv = settings$save_tsv)
 
-ms1_neg_se <- import_ms1(settings$MS1_data_neg,
-                         samplegroup = TRUE,
-                         studydesign_file = settings$studydesign_neg,
-                         prefix = "neg",
-                         outputdir = settings$output_dir,
-                         saveRds = settings$save_rds,
-                         saveTsv = settings$save_tsv)
+ms1_neg_se <- import_ms1_data (settings$MS1_data_neg,
+                               samplegroup = TRUE,
+                               studydesign_file = settings$studydesign_neg,
+                               prefix = "neg",
+                               outputdir = settings$output_dir,
+                               saveRds = settings$save_rds,
+                               saveTsv = settings$save_tsv)
+
+# read positive and negative mode MS1 spectra (isotope pattern) ----------------
+# they are current stored in the same file as the MS2 spectra
+# do not run
+# ms1_pos_spectra <- import_ms2_spectra(settings$MS2_data_pos)
+# ms1_neg_spectra <- import_ms2_spectra(settings$MS2_data_neg)
 
 # ==============================================================================
 # 2. Read MS2 data
@@ -100,9 +106,9 @@ ms1_neg_se <- import_ms1(settings$MS1_data_neg,
 # source required functions ----------------------------------------------------
 source("R/02_MS2Import.R")
 
-# read positive and negative mode MS2 data -------------------------------------
-ms2_pos_spectra <- import_ms2(settings$MS2_data_pos)
-ms2_neg_spectra <- import_ms2(settings$MS2_data_neg)
+# read positive and negative mode MS2 spectra ----------------------------------
+ms2_pos_spectra <- import_ms2_spectra(settings$MS2_data_pos)
+ms2_neg_spectra <- import_ms2_spectra(settings$MS2_data_neg)
 
 # add MS1 ID to spectra --------------------------------------------------------
 if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {

@@ -3,7 +3,7 @@
 #' @param project_dir Path to project directory
 #' 
 #' @returns A Spectra object containing the MS2 data 
-import_ms2 <- function(ms2_file){
+import_ms2_spectra <- function(ms2_file){
   
   #Load Fused MGF file
   message("Load MS2 data...")
@@ -25,7 +25,7 @@ import_ms2 <- function(ms2_file){
     }
     
     message("... complete")
-    return(ms2_spectra)
+    return(ms2_spectra[which(ms2_spectra$msLevel == 2L)])
     
   } else {
     
