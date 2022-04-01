@@ -60,7 +60,6 @@ if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS2_inhouse"))) {
 if(is.na(settings$cores) | settings$cores == 1) {
   BPParam <- SerialParam()
 } else {
-  
   if(.Platform$OS.type == "windows") {
     BPParam <- SnowParam(workers = settings$cores)
   } else {
