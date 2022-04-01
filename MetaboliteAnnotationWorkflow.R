@@ -130,7 +130,7 @@ if(!is.null(ms1_pos_se)) {
   # perform annotation with in-house libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
     
-    perform_ms1_annotation(ms1_pos_se,
+      ms1_pos_se <- perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_inhouse,
                            adducts = settings$adducts_pos,
                            tolerance = settings$tolerance_MS1,
@@ -146,7 +146,7 @@ if(!is.null(ms1_pos_se)) {
   # perform annotation with external libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
     
-    perform_ms1_annotation(ms1_pos_se,
+      ms1_pos_se <- perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_ext,
                            adducts = settings$adducts_pos,
                            tolerance = settings$tolerance_MS1,
@@ -159,6 +159,13 @@ if(!is.null(ms1_pos_se)) {
     
   }
 }
+
+# store MS1 annotated SE object for positive mode ------------------------------
+saveRDS(ms1_pos_se, paste0(settings$output_dir,
+               "/QFeatures_MS1/",
+               "pos_",
+               str_replace(basename(settings$MS1_data_pos), ".tsv$|.csv$", ""),
+               "_qf_MS1annotated.rds"))
 
 # perform MS1 annotation for negative mode data --------------------------------
 if(!is.null(ms1_neg_se)) {
@@ -166,7 +173,7 @@ if(!is.null(ms1_neg_se)) {
   # perform annotation with in-house libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
     
-    perform_ms1_annotation(ms1_neg_se,
+      ms1_neg_se <- perform_ms1_annotation(ms1_neg_se,
                            settings$MS1_lib_inhouse,
                            adducts = settings$adducts_neg,
                            tolerance = settings$tolerance_MS1,
@@ -182,7 +189,7 @@ if(!is.null(ms1_neg_se)) {
   # perform annotation with external libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
     
-    perform_ms1_annotation(ms1_neg_se,
+      ms1_neg_se <- perform_ms1_annotation(ms1_neg_se,
                            settings$MS1_lib_ext,
                            adducts = settings$adducts_neg,
                            tolerance = settings$tolerance_MS1,
@@ -195,6 +202,14 @@ if(!is.null(ms1_neg_se)) {
     
   }
 }
+
+# store MS1 annotated SE object for negative mode ------------------------------
+saveRDS(ms1_neg_se, paste0(settings$output_dir,
+                           "/QFeatures_MS1/",
+                           "neg_",
+                           str_replace(basename(settings$MS1_data_neg), ".tsv$|.csv$", ""),
+                           "_qf_MS1annotated.rds"))
+
 
 # ==============================================================================
 # 4. Annotate MS2 data
@@ -281,6 +296,7 @@ if(!is.null(ms2_neg_spectra)) {
     
   }
 }
+
 
 # # ==============================================================================
 # # 5. Generate Output Report
