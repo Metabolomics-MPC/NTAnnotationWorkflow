@@ -160,13 +160,6 @@ if(!is.null(ms1_pos_se)) {
   }
 }
 
-# store MS1 annotated SE object for positive mode ------------------------------
-saveRDS(ms1_pos_se, paste0(settings$output_dir,
-               "/QFeatures_MS1/",
-               "pos_",
-               str_replace(basename(settings$MS1_data_pos), ".tsv$|.csv$", ""),
-               "_qf_MS1annotated.rds"))
-
 # perform MS1 annotation for negative mode data --------------------------------
 if(!is.null(ms1_neg_se)) {
   
@@ -202,14 +195,6 @@ if(!is.null(ms1_neg_se)) {
     
   }
 }
-
-# store MS1 annotated SE object for negative mode ------------------------------
-saveRDS(ms1_neg_se, paste0(settings$output_dir,
-                           "/QFeatures_MS1/",
-                           "neg_",
-                           str_replace(basename(settings$MS1_data_neg), ".tsv$|.csv$", ""),
-                           "_qf_MS1annotated.rds"))
-
 
 # ==============================================================================
 # 4. Annotate MS2 data

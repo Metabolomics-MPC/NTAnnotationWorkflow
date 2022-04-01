@@ -22,21 +22,17 @@ perform_ms2_annotation <- function(spectra,
   
   # build param object based on RT selection
   if(is.na(toleranceRt)) {
-    
     param <- MatchForwardReverseParam(tolerance = tolerance,
                                       ppm = ppm,
                                       toleranceRt = Inf,
                                       requirePrecursor = TRUE,
                                       THRESHFUN = function(x) which(x >= dpTresh))
-    
   } else {
-    
     param <- MatchForwardReverseParam(tolerance = tolerance,
                                       ppm = ppm,
                                       toleranceRt = toleranceRt,
                                       requirePrecursor = TRUE,
                                       THRESHFUN = function(x) which(x >= dpTresh))
-    
   }
   
   # modify query spectra
@@ -52,21 +48,16 @@ perform_ms2_annotation <- function(spectra,
     
     # read library data and modify spectra
     if(grepl(".mb$", ms2_library)) {
-      
        ms2_lib_data <- Spectra(ms2_library,
                               source = MsBackendMassbank(),
                               backend = MsBackendDataFrame())
-      
     } else if(grepl(".msp$", ms2_library)) {
-      
        ms2_lib_data <- Spectra(ms2_library,
                               source = MsBackendMsp(),
                               backend = MsBackendDataFrame())
-      
     } else if(grepl(".rds$", ms2_library)){
-        
         ms2_lib_data <- readRDS(ms2_library)
-        
+        if(!class(ms2_lib_data) == "Spectra") next
     }
     
     # modify library spectra
@@ -83,7 +74,6 @@ perform_ms2_annotation <- function(spectra,
     
     # save results in a rds file
     if(saveRds && is.na(toleranceRt)) {
-      
       saveRDS(spectra_match,
               paste0(outputdir,
                      "/Annotation_MS2_external/",
@@ -91,9 +81,7 @@ perform_ms2_annotation <- function(spectra,
                      "_",
                      str_replace(basename(ms2_library), ".msp$|.mb$", ""),
                      "_ms2annotation.rds"))
-      
     } else if(saveRds && !is.na(toleranceRt)) {
-      
       saveRDS(spectra_match,
               paste0(outputdir,
                      "/Annotation_MS2_inhouse/",
@@ -101,7 +89,6 @@ perform_ms2_annotation <- function(spectra,
                      "_",
                      str_replace(basename(ms2_library), ".msp$|.mb$", ""),
                      "_ms2annotation.rds"))
-      
     } 
     
     # save results in a tsv file
