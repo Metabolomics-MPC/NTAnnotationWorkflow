@@ -1,3 +1,6 @@
+# ==============================================================================
+# general functions
+# ==============================================================================
 # Validation of settings
 validateSettings <- function(x) {
   
@@ -176,18 +179,28 @@ validateSettings <- function(x) {
     }
   }
   
-  
-  
   return(x)
+  
 }
 
-##########################################
-# Spectra modification functions used in #
-#          workflow function             #
-##########################################
+# ==============================================================================
+# MS1 related functions
+# ==============================================================================
+createIsoPatternDb <- function(x) {
+  
+  isopattern <- Spectra()
+  
+  for(i in 1:nrow(x)) {
+    
+  }
+  
+}
 
+# ==============================================================================
+# MS2 related functions
+# ==============================================================================
 #' Remove fragments below x% of base peak intensity
-low_int <- function(x, ...) {
+low_int <- function(x, int_tresh = 1) {
     x > max(x, na.rm = TRUE) * (int_tresh / 100 )
 }
 
@@ -219,7 +232,8 @@ removePrecursor <- function(window = 1) {
 #' @return Spectra object with new Metadata FeatureID
 addFeatureID <- function(sps, se){
   # get id and ms id from summarizedExperiment
-  d_idx <- data.frame(id=rowData(se)$slaw$id, ms2=as.numeric(unlist(lapply(strsplit(rowData(se)$slaw$ms2_id, "_"), "[", 1))))
+  d_idx <- data.frame(id = rowData(se)$slaw$id,
+                      ms2 = as.numeric(unlist(lapply(strsplit(rowData(se)$slaw$ms2_id, "_"), "[", 1))))
   d_idx <- d_idx[which(!is.na(d_idx$ms2)),]
   # update to length of spectra object
   s_idx <- data.frame(ms2=seq(1,length(sps)))
@@ -228,4 +242,29 @@ addFeatureID <- function(sps, se){
   sps$FEATUREID <- idxes$id
   
   return(sps)
+}
+
+# ==============================================================================
+# GNPS FBMN related functions
+# ==============================================================================
+createFbmnInput <- function(ms1_data, ms2_spectra) {
+  
+  # reformat MS1 data to resemble xcms3 FBMN input
+  
+  # exchange scan indices
+  ms2_spectra$scanIndex <- ms2_spectra$CLUSTER_ID %>% 
+    str_extract("\\d+") %>% 
+    as.integer()
+  
+  ms2_spectra$acquisitionNum <- ms2_spectra$CLUSTER_ID %>% 
+    str_extract("\\d+") %>% 
+    as.integer()
+  
+  ms2_spectra$precScanNum <- ms2_spectra$CLUSTER_ID %>% 
+    str_extract("\\d+") %>% 
+    as.integer()
+  
+  # create add additional PEAKDID
+  ms2_spectra$PEAKID <- ms2_spectra$FEATUREID
+  
 }
