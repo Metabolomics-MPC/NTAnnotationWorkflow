@@ -29,7 +29,8 @@ perform_ms1_annotation <- function(se,
   }
   
   # perform matching for each compound library in libpath
-  ms1_libraries <- list.files(libpath, full.names = TRUE)
+  ms1_libraries <- list.files(libpath,
+                              full.names = TRUE)
   
   for(ms1_library in ms1_libraries) {
     
@@ -95,25 +96,25 @@ perform_ms1_annotation <- function(se,
                   sep = "\t", row.names = FALSE)
     }
     
-    # Add Annotations to SE
-    # construct rowData from MatchedObject
-    rr <- matchedData(se_match)[whichQuery(se_match),]
-    # construct Signal Intensity Assay
-    aa <- assay(se[[1]])[whichQuery(se_match),]
-    # Add new rownames without duplicated names identical between rowData and Assay
-    rownames(aa) <- as.character(c(1:nrow(aa)))
-    rownames(rr) <- as.character(c(1:nrow(rr)))
-    se <- addAssay(se, SummarizedExperiment(rowData=rr, assay=aa), name=paste0("MS1_",basename(ms1_library)))
-  }
-  
-  # save features with annotation
-  if(saveRds) {
-    saveRDS(se,
-            paste0(settings$output_dir,
-                   "/QFeatures_MS1/",
-                   ionmode,
-                   "_",
-                   str_replace(basename(settings$MS1_data_neg), ".tsv$|.csv$", ""),
-                   "_qf_MS1annotated.rds"))
+    # # Add Annotations to SE
+    # # construct rowData from MatchedObject
+    # rr <- matchedData(se_match)[whichQuery(se_match),]
+    # # construct Signal Intensity Assay
+    # aa <- assay(se[[1]])[whichQuery(se_match),]
+    # # Add new rownames without duplicated names identical between rowData and Assay
+    # rownames(aa) <- as.character(c(1:nrow(aa)))
+    # rownames(rr) <- as.character(c(1:nrow(rr)))
+    # se <- addAssay(se, SummarizedExperiment(rowData=rr, assay=aa), name=paste0("MS1_",basename(ms1_library)))
+    # 
+    # # save features with annotation
+    # if(saveRds) {
+    #   saveRDS(se,
+    #           paste0(settings$output_dir,
+    #                  "/QFeatures_MS1/",
+    #                  ionmode,
+    #                  "_",
+    #                  str_replace(basename(settings$MS1_data_neg), ".tsv$|.csv$", ""),
+    #                  "_qf_MS1annotated.rds"))
+    # }
   }
 }

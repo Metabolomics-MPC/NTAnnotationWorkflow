@@ -75,6 +75,13 @@ MS2_lib_pos_ext: "test_library/MS2_external_pos"
 MS2_lib_neg_ext: "test_library/MS2_external_neg"
 
 # ==============================================================================
+# Ion mode matching
+#
+# Shall matching between ion modes be performed?
+# ==============================================================================
+ion_mode_match: TRUE
+
+# ==============================================================================
 # data output
 #
 # Directory and type of output

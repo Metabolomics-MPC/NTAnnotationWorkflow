@@ -48,6 +48,10 @@ if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS1_inhouse"))) {
   dir.create(paste0(settings$output_dir, "/Annotation_MS1_inhouse"))
 }
 
+if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS1_ionMode/"))) {
+  dir.create(paste0(settings$output_dir, "/Annotation_MS1_ionMode/"))
+}
+
 if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS2_external"))) {
   dir.create(paste0(settings$output_dir, "/Annotation_MS2_external"))
 }
@@ -55,6 +59,8 @@ if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS2_external"))) {
 if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS2_inhouse"))) {
   dir.create(paste0(settings$output_dir, "/Annotation_MS2_inhouse"))
 }
+
+
 
 # setup parallel backend -------------------------------------------------------
 if(is.na(settings$cores) | settings$cores == 1) {
@@ -283,10 +289,27 @@ if(!is.null(ms2_neg_spectra)) {
 }
 
 
-# # ==============================================================================
-# # 5. Generate Output Report
-# # ==============================================================================
-# #source("R/05_Report.R")
-# #ReportMetaboAnnotation(se, output_dir, settings)
-# 
+# ==============================================================================
+# 5. Perform positive negative matching
+# ==============================================================================
+# source required functions ----------------------------------------------------
+source("R/05_MS1IonModeMatching.R")
+
+# perform MS1 annotation for positive mode data --------------------------------
+if(!is.null(ms1_pos_se) && !is.null(ms1_neg_se) && settings$ion_mode_match) {
+  
+  perform_ionMode_matching(ms1_pos_se,
+                           ms1_neg_se,
+                           adducts_pos = settings$adducts_pos,
+                           adducts_neg = settings$adducts_neg,
+                           tolerance = settings$tolerance_MS1,
+                           ppm = settings$ppm_MS1,
+                           toleranceRt = settings$toleranceRt_MS1,
+                           outputdir = settings$output_dir,
+                           saveRds = settings$save_rds,
+                           saveTsv = settings$save_tsv)
+  
+}
+
+
 message("Workflow sucessfully finished")
