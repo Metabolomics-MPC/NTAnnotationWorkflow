@@ -135,8 +135,8 @@ if(!is.null(ms1_pos_se)) {
   
   # perform annotation with in-house libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
-    
-      ms1_pos_se <- perform_ms1_annotation(ms1_pos_se,
+     
+    perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_inhouse,
                            adducts = settings$adducts_pos,
                            tolerance = settings$tolerance_MS1,
@@ -152,7 +152,7 @@ if(!is.null(ms1_pos_se)) {
   # perform annotation with external libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
     
-      ms1_pos_se <- perform_ms1_annotation(ms1_pos_se,
+    perform_ms1_annotation(ms1_pos_se,
                            settings$MS1_lib_ext,
                            adducts = settings$adducts_pos,
                            tolerance = settings$tolerance_MS1,
@@ -172,7 +172,7 @@ if(!is.null(ms1_neg_se)) {
   # perform annotation with in-house libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
     
-      ms1_neg_se <- perform_ms1_annotation(ms1_neg_se,
+    perform_ms1_annotation(ms1_neg_se,
                            settings$MS1_lib_inhouse,
                            adducts = settings$adducts_neg,
                            tolerance = settings$tolerance_MS1,
@@ -188,7 +188,7 @@ if(!is.null(ms1_neg_se)) {
   # perform annotation with external libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
     
-      ms1_neg_se <- perform_ms1_annotation(ms1_neg_se,
+    perform_ms1_annotation(ms1_neg_se,
                            settings$MS1_lib_ext,
                            adducts = settings$adducts_neg,
                            tolerance = settings$tolerance_MS1,

@@ -35,6 +35,7 @@ perform_ms1_annotation <- function(se,
   for(ms1_library in ms1_libraries) {
     
     print(ms1_library)
+    print(se)
       
     # read library data and perform some sanity checks
     ms1_lib_data <- read.delim(ms1_libraries)
