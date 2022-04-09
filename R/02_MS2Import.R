@@ -25,6 +25,7 @@ import_ms2_spectra <- function(ms2_file){
     }
     
     message("... complete")
+    ms2_spectra$number <- 1:length(ms2_spectra)
     return(ms2_spectra[which(ms2_spectra$msLevel == 2L)])
     
   } else {

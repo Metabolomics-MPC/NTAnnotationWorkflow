@@ -38,6 +38,9 @@
   
   if(!require("stringr")) install.packages("stringr")
   library(stringr)
+  
+  if(!require("tidyr")) install.packages("tidyr")
+  library(tidyr)
 }
 
 # Load all helperfunctions

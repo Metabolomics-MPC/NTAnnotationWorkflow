@@ -231,18 +231,25 @@ removePrecursor <- function(window = 1) {
 #' 
 #' @return Spectra object with new Metadata FeatureID
 addFeatureID <- function(sps, se){
-  # get id and ms id from summarizedExperiment
-  d_idx <- data.frame(id = rowData(se)$slaw$id,
-                      ms2 = as.numeric(unlist(lapply(strsplit(rowData(se)$slaw$ms2_id, "_"), "[", 1))))
-  d_idx <- d_idx[which(!is.na(d_idx$ms2)),]
-  # update to length of spectra object
-  s_idx <- data.frame(ms2=seq(1,length(sps)))
-  idxes <- right_join(d_idx, s_idx, by="ms2")
-  # add values to spectra object  
-  sps$FEATUREID <- idxes$id
   
+  # get id and ms id from summarizedExperiment
+  d_idx <- data.frame(id = rowData(se)[[1]]$id,
+                      ms2_id = rowData(se)[[1]]$ms2_id)
+  
+  d_idx <- filter(d_idx, ms2_id != "")
+  d_idx <- separate_rows(d_idx, ms2_id, sep = "\\|")
+  d_idx <- mutate(d_idx, ms2_id = as.integer(str_replace(ms2_id, "_\\(e\\d+\\)", "")))
+  
+  d_idx <- as.data.frame(d_idx)
+  
+  sps$FEATUREID <- NA_character_
+  
+  for(i in 1:nrow(d_idx)) {
+    sps$FEATUREID[which(sps$number == d_idx$ms2_id[i])] <- d_idx$id[i]
+  }
   return(sps)
 }
+
 
 # ==============================================================================
 # GNPS FBMN related functions
