@@ -60,7 +60,9 @@ if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS2_inhouse"))) {
   dir.create(paste0(settings$output_dir, "/Annotation_MS2_inhouse"))
 }
 
-
+if(!dir.exists(paste0(settings$output_dir, "/Sirius"))) {
+  dir.create(paste0(settings$output_dir, "/Sirius"))
+}
 
 # setup parallel backend -------------------------------------------------------
 if(is.na(settings$cores) | settings$cores == 1) {
@@ -310,6 +312,29 @@ if(!is.null(ms1_pos_se) && !is.null(ms1_neg_se) && settings$ion_mode_match) {
                            saveTsv = settings$save_tsv)
   
 }
+
+# ==============================================================================
+# 6. Export Sirius files
+# ==============================================================================
+# source required functions ----------------------------------------------------
+source("R/06_SiriusExport.R")
+
+# export for Sirius positive mode data -----------------------------------------
+if(!is.null(ms2_pos_spectra) && !is.null(ms1_pos_spectra)) {
+  
+  exportSirius(ms1_pos_se,
+               ms1_pos_spectra,
+               ms2_pos_spectra,
+               ionmode = "pos",
+               outputdir = settings$output_dir) 
+  
+}
+
+exportSirius(ms1_pos_se,
+             ms1_spectra = NA,
+             ms2_pos_spectra,
+             ionmode = "pos",
+             outputdir = settings$output_dir) 
 
 
 message("Workflow sucessfully finished")
