@@ -328,13 +328,36 @@ if(!is.null(ms2_pos_spectra) && !is.null(ms1_pos_spectra)) {
                ionmode = "pos",
                outputdir = settings$output_dir) 
   
+} else if(!is.null(ms2_pos_spectra)) {
+  
+  exportSirius(ms1_pos_se,
+               ms1_spectra = NA,
+               ms2_pos_spectra,
+               ionmode = "pos",
+               outputdir = settings$output_dir) 
+  
 }
 
-exportSirius(ms1_pos_se,
-             ms1_spectra = NA,
-             ms2_pos_spectra,
-             ionmode = "pos",
-             outputdir = settings$output_dir) 
+# export for Sirius positive mode data -----------------------------------------
+if(!is.null(ms2_neg_spectra) && !is.null(ms1_neg_spectra)) {
+  
+  exportSirius(ms1_neg_se,
+               ms1_neg_spectra,
+               ms2_neg_spectra,
+               ionmode = "neg",
+               outputdir = settings$output_dir) 
+  
+} else if(!is.null(ms2_neg_spectra)) {
+  
+  exportSirius(ms1_neg_se,
+               ms1_spectra = NA,
+               ms2_neg_spectra,
+               ionmode = "neg",
+               outputdir = settings$output_dir) 
+  
+}
 
-
+# ==============================================================================
+# End of Workflow
+# ==============================================================================
 message("Workflow sucessfully finished")
