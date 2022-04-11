@@ -85,7 +85,7 @@ write_yaml(settings, paste0(settings$output_dir, "/input_settings.yaml"))
 source("R/01_MS1Import.R")
 
 # read positive and negative mode MS1 data -------------------------------------
-ms1_pos_se <- import_ms1_data (settings$MS1_data_pos,
+ms1_pos_se <- import_ms1_data(settings$MS1_data_pos,
                                samplegroup = TRUE,
                                studydesign_file = settings$studydesign_pos,
                                prefix = "pos",                        
@@ -93,7 +93,7 @@ ms1_pos_se <- import_ms1_data (settings$MS1_data_pos,
                                saveRds = settings$save_rds,
                                saveTsv = settings$save_tsv)
 
-ms1_neg_se <- import_ms1_data (settings$MS1_data_neg,
+ms1_neg_se <- import_ms1_data(settings$MS1_data_neg,
                                samplegroup = TRUE,
                                studydesign_file = settings$studydesign_neg,
                                prefix = "neg",
@@ -106,6 +106,8 @@ ms1_neg_se <- import_ms1_data (settings$MS1_data_neg,
 # do not run
 # ms1_pos_spectra <- import_ms2_spectra(settings$MS2_data_pos)
 # ms1_neg_spectra <- import_ms2_spectra(settings$MS2_data_neg)
+ms1_pos_spectra <- NA
+ms1_neg_spectra <- NA
 
 # ==============================================================================
 # 2. Read MS2 data
@@ -118,11 +120,11 @@ ms2_pos_spectra <- import_ms2_spectra(settings$MS2_data_pos)
 ms2_neg_spectra <- import_ms2_spectra(settings$MS2_data_neg)
 
 # add MS1 ID to spectra --------------------------------------------------------
-if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
+if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
     ms2_pos_spectra <- addFeatureID(ms2_pos_spectra, ms1_pos_se)
 }
 
-if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
+if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
     ms2_neg_spectra <- addFeatureID(ms2_pos_spectra, ms1_neg_se)
 }
 
@@ -133,7 +135,7 @@ if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
 source("R/03_MS1Annotation.R")
 
 # perform MS1 annotation for positive mode data --------------------------------
-if(!is.null(ms1_pos_se)) {
+if(!is.na(ms1_pos_se)) {
   
   # perform annotation with in-house libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
@@ -169,7 +171,7 @@ if(!is.null(ms1_pos_se)) {
 }
 
 # perform MS1 annotation for negative mode data --------------------------------
-if(!is.null(ms1_neg_se)) {
+if(!is.na(ms1_neg_se)) {
   
   # perform annotation with in-house libraries
   if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
@@ -211,7 +213,7 @@ if(!is.null(ms1_neg_se)) {
 source("R/04_MS2Annotation.R")
 
 #perform MS2 annotation for positive mode --------------------------------------
-if(!is.null(ms2_pos_spectra)) {
+if(!is.na(ms2_pos_spectra)) {
   
   # perform annotation with in-house libraries
   if(!is.na(settings$MS2_lib_pos) && length(list.files(settings$MS2_lib_pos))) {
@@ -251,7 +253,7 @@ if(!is.null(ms2_pos_spectra)) {
 }
 
 #perform MS2 annotation for negative mode --------------------------------------
-if(!is.null(ms2_neg_spectra)) {
+if(!is.na(ms2_neg_spectra)) {
   
   # perform annotation with in-house libraries
   if(!is.na(settings$MS2_lib_neg) && length(list.files(settings$MS2_lib_neg))) {
