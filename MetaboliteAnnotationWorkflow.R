@@ -64,14 +64,20 @@ if(!dir.exists(paste0(settings$output_dir, "/Sirius"))) {
   dir.create(paste0(settings$output_dir, "/Sirius"))
 }
 
+if(!dir.exists(paste0(settings$output_dir, "/FBMN"))) {
+  dir.create(paste0(settings$output_dir, "/FBMN"))
+}
+
 # setup parallel backend -------------------------------------------------------
 if(is.na(settings$cores) | settings$cores == 1) {
   BPParam <- SerialParam()
 } else {
   if(.Platform$OS.type == "windows") {
-    BPParam <- SnowParam(workers = settings$cores)
+    BPParam <- SnowParam(workers = settings$cores,
+                         progressbar = TRUE)
   } else {
-    BPParam <- MulticoreParam(workers = settings$cores)
+    BPParam <- MulticoreParam(workers = settings$cores,
+                              progressbar = TRUE)
   }
 }
 
@@ -356,6 +362,32 @@ if(!is.null(ms2_neg_spectra) && !is.null(ms1_neg_spectra)) {
                ms2_neg_spectra,
                ionmode = "neg",
                outputdir = settings$output_dir) 
+  
+}
+
+# ==============================================================================
+# 7. Export FBMN files
+# ==============================================================================
+# source required functions ----------------------------------------------------
+source("R/07_GnpsFbmn.R")
+
+# export for FBMN positive mode data -------------------------------------------
+if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
+  
+  createFbmnInput(ms1_pos_se,
+                  ms2_pos_spectra,
+                  ionmode = "pos",
+                  outputdir = settings$output_dir)
+  
+}
+
+# export for FBMN negative mode data -------------------------------------------
+if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
+  
+  createFbmnInput(ms1_neg_se,
+                  ms2_neg_spectra,
+                  ionmode = "neg",
+                  outputdir = settings$output_dir)
   
 }
 
