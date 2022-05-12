@@ -41,6 +41,9 @@
   
   if(!require("tidyr")) install.packages("tidyr")
   library(tidyr)
+  
+  if(!require("rex")) install.packages("rex")
+  library(rex)
 }
 
 # Load all helperfunctions

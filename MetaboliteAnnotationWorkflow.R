@@ -13,12 +13,48 @@
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
 
-# check if args is supplied, else run demote data
-if(is.na(args[1])) {
+# # check if args is supplied, else run demote data
+# if(is.na(args[1])) {
+#   message("Running demo data!")
+#   settings_yaml <- "test_input/settings.yaml"
+# } else {
+#   settings_yaml <- args[1]
+# }
+
+# check if correct command line args are supplied
+if(!length(args)) {
+  
   message("Running demo data!")
-  settings_yaml <- "test_input/settings.yaml"
+  input <- "test_input"
+  output <- "test_output"
+  settings_yaml <- paste0(input, "/settings.yaml")
+  
 } else {
-  settings_yaml <- args[1]
+  
+  # check if arguments have correct length
+  if(!length(args) == 2) {
+    stop("Exactly two arguments are required: Input and Output folder!")
+  }
+  
+  # check if input folder exists
+  if(!dir.exists(args[1])) {
+    stop(paste0("Input folder ", args[1], " does not exist!"))
+  }
+  
+  # check if settings file is present in input
+  if(!file.exists(paste0(args[1], "/settings.yaml"))) {
+    stop("Missing settings.yaml in input folder!")
+  }
+  
+  # check for output folder and create if not present
+  if(!dir.exists(args[2])) {
+    dir.create(args[2])
+  }
+  
+  input <- args[1]
+  output <- args[2]
+  settings_yaml <- paste0(input, "/settings.yaml")
+  
 }
 
 # ==============================================================================
@@ -30,8 +66,46 @@ source("R/00_Setup.R")
 # Read in settings of yaml file ------------------------------------------------
 settings <- read_yaml(settings_yaml)
 
+# overwrite data in settings yaml with manually determined values
+settings$output_dir <- output
+
+# check for positive mode data -------------------------------------------------
+# standard input files
+settings$MS1_data_pos <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
+                                    pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
+                                    full.names = TRUE)
+
+settings$MS2_data_pos <- list.files(paste0(input, "/output_slaw_pos/fused_mgf"),
+                                    pattern = "fused_mgf_[a-z0-9]*.mgf$",
+                                    full.names = TRUE)
+
+# check for study design
+settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv")
+
+# check for full data matrix for isotope pattern reconstruction
+settings$MS1_data_pos_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
+                                         pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
+                                         full.names = TRUE)
+
+# check for negative mode data -------------------------------------------------
+# standard input files
+settings$MS1_data_neg <- list.files(paste0(input, "/output_slaw_neg/datamatrices"),
+                                    pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
+                                    full.names = TRUE)
+
+settings$MS2_data_neg <- list.files(paste0(input, "/output_slaw_neg/fused_mgf"),
+                                    pattern = "fused_mgf_[a-z0-9]*.mgf$",
+                                    full.names = TRUE)
+# check for study design
+settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
+
+# check for full data matrix for isotope pattern reconstruction
+settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
+                                         pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
+                                         full.names = TRUE)
+
 # validate settings ------------------------------------------------------------
-settings <- validateSettings(settings)
+#settings <- validateSettings(settings)
 
 # setup output directory with all subfolder ------------------------------------
 if(!dir.exists(settings$output_dir)) dir.create(settings$output_dir)
