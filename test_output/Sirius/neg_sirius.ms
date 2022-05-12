@@ -1,131 +1,130 @@
 >compound FTneg0001
 >ionization [M+?]-
->parentmass 50.0035884997541
+>parentmass Inf
 >rt 6.95392186010936
 
 >ms1
-50.00359 100
+
 
 >ms2
 50.00359 100
 
 >compound FTneg0002
 >ionization [M+?]-
->parentmass 134.036074295402
+>parentmass Inf
 >rt 6.93942964338191
 
 >ms1
-134.0361 100
+
 
 >ms2
 134.0361 100
 
 >compound FTneg0003
 >ionization [M+?]-
->parentmass 84.0092150625742
+>parentmass Inf
 >rt 19.7755833446429
 
 >ms1
-84.00922 100
+
 
 >ms2
 84.00922 100
 
 >compound FTneg0004
 >ionization [M+?]-
->parentmass 50.0036226335385
+>parentmass Inf
 >rt 19.8240699678886
 
 >ms1
-50.00362 100
+
 
 >ms2
 50.00362 100
 
 >compound FTneg0005
 >ionization [M+?]-
->parentmass 68.0143502513546
+>parentmass Inf
 >rt 19.813341628206
 
 >ms1
-68.01435 100
+
 
 >ms2
 68.01435 100
 
 >compound FTneg0006
 >ionization [M+?]-
->parentmass 100.004140537451
+>parentmass Inf
 >rt 19.8259777326206
 
 >ms1
-100.0041 100
+
 
 >ms2
 100.0041 100
 
 >compound FTneg0007
 >ionization [M+?]-
->parentmass 146.938539023807
+>parentmass Inf
 >rt 19.7755973698889
 
 >ms1
-146.9385 100
+
 
 >ms2
 146.9385 100
 
 >compound FTneg0008
 >ionization [M+?]-
->parentmass 174.956090024959
+>parentmass Inf
 >rt 19.7634596851174
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0009
 >ionization [M+?]-
->parentmass 190.928533798288
+>parentmass Inf
 >rt 19.79056959817
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg0010
 >ionization [M+?]-
->parentmass 233.930674164658
+>parentmass Inf
 >rt 19.7494294871795
 
 >ms1
-233.9307 100
+
 
 >ms2
 233.9307 100
 
 >compound FTneg0011
 >ionization [M+?]-
->parentmass 50.0036334781823
+>parentmass Inf
 >rt 1.96410328059048
 
 >ms1
-50.00363 100
+
 
 >ms2
 50.00363 100
 
 >compound FTneg0012
 >ionization [M+?]-
->parentmass 72.9931030667054
+>parentmass Inf
 >rt 2.01439613926896
 
 >ms1
-72.9931 100
 
 >ms2
 86.0976 80
@@ -142,33 +141,32 @@
 
 >compound FTneg0013
 >ionization [M+?]-
->parentmass 116.071682534995
+>parentmass Inf
 >rt 2.01275609783555
 
 >ms1
-116.0717 100
+
 
 >ms2
 116.0717 100
 
 >compound FTneg0014
 >ionization [M+?]-
->parentmass 118.941727347181
+>parentmass Inf
 >rt 1.97739880115417
 
 >ms1
-118.9417 100
+
 
 >ms2
 118.9417 100
 
 >compound FTneg0015
 >ionization [M+?]-
->parentmass 118.998572491041
+>parentmass Inf
 >rt 1.99929138174901
 
 >ms1
-118.9986 100
 
 >ms2
 56.0527 20
@@ -179,33 +177,32 @@
 
 >compound FTneg0016
 >ionization [M+?]-
->parentmass 149.008983505615
+>parentmass Inf
 >rt 1.97876921146275
 
 >ms1
-149.009 100
+
 
 >ms2
 149.009 100
 
 >compound FTneg0017
 >ionization [M+?]-
->parentmass 162.077044523788
+>parentmass Inf
 >rt 1.98122578394768
 
 >ms1
-162.077 100
+
 
 >ms2
 162.077 100
 
 >compound FTneg0018
 >ionization [M+?]-
->parentmass 174.955980507542
+>parentmass Inf
 >rt 1.89992733133284
 
 >ms1
-174.956 100
 
 >ms2
 87.0451 40
@@ -215,55 +212,54 @@
 
 >compound FTneg0019
 >ionization [M+?]-
->parentmass 190.928051839055
+>parentmass Inf
 >rt 1.99554545454545
 
 >ms1
-190.9281 100
+
 
 >ms2
 190.9281 100
 
 >compound FTneg0020
 >ionization [M+?]-
->parentmass 208.936831570965
+>parentmass Inf
 >rt 1.99489682958433
 
 >ms1
-208.9368 100
+
 
 >ms2
 208.9368 100
 
 >compound FTneg0021
 >ionization [M+?]-
->parentmass 232.938530327758
+>parentmass Inf
 >rt 1.98431247247819
 
 >ms1
-232.9385 100
+
 
 >ms2
 232.9385 100
 
 >compound FTneg0022
 >ionization [M+?]-
->parentmass 279.035938721884
+>parentmass Inf
 >rt 1.96705680476302
 
 >ms1
-279.0359 100
+
 
 >ms2
 279.0359 100
 
 >compound FTneg0023
 >ionization [M+?]-
->parentmass 346.090613784156
+>parentmass Inf
 >rt 1.97698859508228
 
 >ms1
-346.0906 100
 
 >ms2
 55.9348 120
@@ -294,11 +290,10 @@
 
 >compound FTneg0024
 >ionization [M+?]-
->parentmass 125.035639935802
+>parentmass Inf
 >rt 6.50232778979589
 
 >ms1
-125.0356 100
 
 >ms2
 55.0183 76
@@ -320,33 +315,32 @@
 
 >compound FTneg0025
 >ionization [M+?]-
->parentmass 122.035923145016
+>parentmass Inf
 >rt 6.59231177181769
 
 >ms1
-122.0359 100
+
 
 >ms2
 122.0359 100
 
 >compound FTneg0026
 >ionization [M+?]-
->parentmass 111.019979098385
+>parentmass Inf
 >rt 6.48617650668872
 
 >ms1
-111.02 100
+
 
 >ms2
 111.02 100
 
 >compound FTneg0027
 >ionization [M+?]-
->parentmass 68.0143166754144
+>parentmass Inf
 >rt 6.49429694295087
 
 >ms1
-68.01432 100
 
 >ms2
 59.032 40
@@ -358,132 +352,131 @@
 
 >compound FTneg0028
 >ionization [M+?]-
->parentmass 99.0199993730669
+>parentmass Inf
 >rt 6.55230485017976
 
 >ms1
-99.02 100
+
 
 >ms2
 99.02 100
 
 >compound FTneg0029
 >ionization [M+?]-
->parentmass 129.030307194281
+>parentmass Inf
 >rt 6.47664795382386
 
 >ms1
-129.0303 100
+
 
 >ms2
 129.0303 100
 
 >compound FTneg0030
 >ionization [M+?]-
->parentmass 155.046053871141
+>parentmass Inf
 >rt 6.55432999642768
 
 >ms1
-155.0461 100
+
 
 >ms2
 155.0461 100
 
 >compound FTneg0031
 >ionization [M+?]-
->parentmass 184.036364475547
+>parentmass Inf
 >rt 6.45501558063874
 
 >ms1
-184.0364 100
+
 
 >ms2
 184.0364 100
 
 >compound FTneg0032
 >ionization [M+?]-
->parentmass 203.056692108885
+>parentmass Inf
 >rt 6.47559602312333
 
 >ms1
-203.0567 100
+
 
 >ms2
 203.0567 100
 
 >compound FTneg0033
 >ionization [M+?]-
->parentmass 210.052367635744
+>parentmass Inf
 >rt 6.4695296922229
 
 >ms1
-210.0524 100
+
 
 >ms2
 210.0524 100
 
 >compound FTneg0034
 >ionization [M+?]-
->parentmass 267.073414963075
+>parentmass Inf
 >rt 6.47557781197827
 
 >ms1
-267.0734 100
+
 
 >ms2
 267.0734 100
 
 >compound FTneg0035
 >ionization [M+?]-
->parentmass 296.064617794393
+>parentmass Inf
 >rt 6.49094143702966
 
 >ms1
-296.0646 100
+
 
 >ms2
 296.0646 100
 
 >compound FTneg0036
 >ionization [M+?]-
->parentmass 306.084704751535
+>parentmass Inf
 >rt 6.51079655749079
 
 >ms1
-306.0847 100
+
 
 >ms2
 306.0847 100
 
 >compound FTneg0037
 >ionization [M+?]-
->parentmass 313.079896281171
+>parentmass Inf
 >rt 6.49673438404132
 
 >ms1
-313.0799 100
+
 
 >ms2
 313.0799 100
 
 >compound FTneg0038
 >ionization [M+?]-
->parentmass 322.080191986195
+>parentmass Inf
 >rt 6.59966246504771
 
 >ms1
-322.0802 100
+
 
 >ms2
 322.0802 100
 
 >compound FTneg0039
 >ionization [M+?]-
->parentmass 50.0036470909441
+>parentmass Inf
 >rt 6.5055037699829
 
 >ms1
-50.00365 100
 
 >ms2
 55.0541 80
@@ -539,33 +532,31 @@
 
 >compound FTneg0040
 >ionization [M+?]-
->parentmass 65.9985894590789
+>parentmass Inf
 >rt 6.51378033706645
 
 >ms1
-65.99859 100
 
 >ms2
 61.0402 13
 
 >compound FTneg0041
 >ionization [M+?]-
->parentmass 66.0089848308914
+>parentmass Inf
 >rt 6.51416040325999
 
 >ms1
-66.00898 100
+
 
 >ms2
 66.00898 100
 
 >compound FTneg0042
 >ionization [M+?]-
->parentmass 83.0251518402556
+>parentmass Inf
 >rt 6.53087603001699
 
 >ms1
-83.02515 100
 
 >ms2
 51.0216 8
@@ -588,11 +579,10 @@
 
 >compound FTneg0043
 >ionization [M+?]-
->parentmass 84.0091402353071
+>parentmass Inf
 >rt 6.43719500111821
 
 >ms1
-84.00914 100
 
 >ms2
 50.0149 80
@@ -604,176 +594,175 @@
 
 >compound FTneg0044
 >ionization [M+?]-
->parentmass 86.0247452442425
+>parentmass Inf
 >rt 6.48657018608218
 
 >ms1
-86.02475 100
+
 
 >ms2
 86.02475 100
 
 >compound FTneg0045
 >ionization [M+?]-
->parentmass 89.0244419412362
+>parentmass Inf
 >rt 6.61327231471528
 
 >ms1
-89.02444 100
+
 
 >ms2
 89.02444 100
 
 >compound FTneg0046
 >ionization [M+?]-
->parentmass 98.0248099222555
+>parentmass Inf
 >rt 6.45416756885745
 
 >ms1
-98.02481 100
+
 
 >ms2
 98.02481 100
 
 >compound FTneg0047
 >ionization [M+?]-
->parentmass 107.02515218981
+>parentmass Inf
 >rt 6.62151639995805
 
 >ms1
-107.0252 100
+
 
 >ms2
 107.0252 100
 
 >compound FTneg0048
 >ionization [M+?]-
->parentmass 110.03480686114
+>parentmass Inf
 >rt 6.5627019640877
 
 >ms1
-110.0348 100
+
 
 >ms2
 110.0348 100
 
 >compound FTneg0049
 >ionization [M+?]-
->parentmass 113.035643752782
+>parentmass Inf
 >rt 6.4598280477085
 
 >ms1
-113.0356 100
+
 
 >ms2
 113.0356 100
 
 >compound FTneg0050
 >ionization [M+?]-
->parentmass 114.019695130687
+>parentmass Inf
 >rt 6.45687187839085
 
 >ms1
-114.0197 100
+
 
 >ms2
 114.0197 100
 
 >compound FTneg0051
 >ionization [M+?]-
->parentmass 123.019903188166
+>parentmass Inf
 >rt 6.59249530791197
 
 >ms1
-123.0199 100
+
 
 >ms2
 123.0199 100
 
 >compound FTneg0052
 >ionization [M+?]-
->parentmass 127.014902544497
+>parentmass Inf
 >rt 6.44755757844505
 
 >ms1
-127.0149 100
+
 
 >ms2
 127.0149 100
 
 >compound FTneg0053
 >ionization [M+?]-
->parentmass 128.03542464342
+>parentmass Inf
 >rt 6.5245067275582
 
 >ms1
-128.0354 100
+
 
 >ms2
 128.0354 100
 
 >compound FTneg0054
 >ionization [M+?]-
->parentmass 129.030423192014
+>parentmass Inf
 >rt 6.43410294652926
 
 >ms1
-129.0304 100
+
 
 >ms2
 129.0304 100
 
 >compound FTneg0055
 >ionization [M+?]-
->parentmass 134.036045167991
+>parentmass Inf
 >rt 6.59519296714283
 
 >ms1
-134.036 100
+
 
 >ms2
 134.036 100
 
 >compound FTneg0056
 >ionization [M+?]-
->parentmass 136.051534495533
+>parentmass Inf
 >rt 6.65424364577006
 
 >ms1
-136.0515 100
+
 
 >ms2
 136.0515 100
 
 >compound FTneg0057
 >ionization [M+?]-
->parentmass 139.014920398415
+>parentmass Inf
 >rt 6.52884420155857
 
 >ms1
-139.0149 100
+
 
 >ms2
 139.0149 100
 
 >compound FTneg0058
 >ionization [M+?]-
->parentmass 140.046392070607
+>parentmass Inf
 >rt 6.51122024316249
 
 >ms1
-140.0464 100
+
 
 >ms2
 140.0464 100
 
 >compound FTneg0059
 >ionization [M+?]-
->parentmass 141.030496215736
+>parentmass Inf
 >rt 6.47274204594782
 
 >ms1
-141.0305 100
 
 >ms2
 54.8733 40
@@ -830,165 +819,164 @@
 
 >compound FTneg0060
 >ionization [M+?]-
->parentmass 143.045919426747
+>parentmass Inf
 >rt 6.47257629587725
 
 >ms1
-143.0459 100
+
 
 >ms2
 143.0459 100
 
 >compound FTneg0061
 >ionization [M+?]-
->parentmass 145.025534854427
+>parentmass Inf
 >rt 6.50219579963875
 
 >ms1
-145.0255 100
+
 
 >ms2
 145.0255 100
 
 >compound FTneg0062
 >ionization [M+?]-
->parentmass 145.941367413919
+>parentmass Inf
 >rt 6.59103536143414
 
 >ms1
-145.9414 100
+
 
 >ms2
 145.9414 100
 
 >compound FTneg0063
 >ionization [M+?]-
->parentmass 152.046477835961
+>parentmass Inf
 >rt 6.5109581601735
 
 >ms1
-152.0465 100
+
 
 >ms2
 152.0465 100
 
 >compound FTneg0064
 >ionization [M+?]-
->parentmass 153.030691598594
+>parentmass Inf
 >rt 6.46957317303622
 
 >ms1
-153.0307 100
+
 
 >ms2
 153.0307 100
 
 >compound FTneg0065
 >ionization [M+?]-
->parentmass 154.026032592957
+>parentmass Inf
 >rt 6.45808588249671
 
 >ms1
-154.026 100
+
 
 >ms2
 154.026 100
 
 >compound FTneg0066
 >ionization [M+?]-
->parentmass 159.040572226393
+>parentmass Inf
 >rt 6.46990864083613
 
 >ms1
-159.0406 100
+
 
 >ms2
 159.0406 100
 
 >compound FTneg0067
 >ionization [M+?]-
->parentmass 164.046526313982
+>parentmass Inf
 >rt 6.55861923359788
 
 >ms1
-164.0465 100
+
 
 >ms2
 164.0465 100
 
 >compound FTneg0068
 >ionization [M+?]-
->parentmass 166.061936763816
+>parentmass Inf
 >rt 6.65341663766488
 
 >ms1
-166.0619 100
+
 
 >ms2
 166.0619 100
 
 >compound FTneg0069
 >ionization [M+?]-
->parentmass 168.041257705963
+>parentmass Inf
 >rt 6.5841358657902
 
 >ms1
-168.0413 100
+
 
 >ms2
 168.0413 100
 
 >compound FTneg0070
 >ionization [M+?]-
->parentmass 168.041358482843
+>parentmass Inf
 >rt 6.48313895034871
 
 >ms1
-168.0414 100
+
 
 >ms2
 168.0414 100
 
 >compound FTneg0071
 >ionization [M+?]-
->parentmass 171.041074996775
+>parentmass Inf
 >rt 6.45798017014557
 
 >ms1
-171.0411 100
+
 
 >ms2
 171.0411 100
 
 >compound FTneg0072
 >ionization [M+?]-
->parentmass 175.035528017981
+>parentmass Inf
 >rt 6.49245953248631
 
 >ms1
-175.0355 100
+
 
 >ms2
 175.0355 100
 
 >compound FTneg0073
 >ionization [M+?]-
->parentmass 177.042145586143
+>parentmass Inf
 >rt 6.59281714903807
 
 >ms1
-177.0421 100
+
 
 >ms2
 177.0421 100
 
 >compound FTneg0074
 >ionization [M+?]-
->parentmass 179.055719742186
+>parentmass Inf
 >rt 6.53488773827852
 
 >ms1
-179.0557 100
 
 >ms2
 67.0593 40
@@ -1017,308 +1005,307 @@
 
 >compound FTneg0075
 >ionization [M+?]-
->parentmass 180.039926867011
+>parentmass Inf
 >rt 6.65220199422165
 
 >ms1
-180.0399 100
+
 
 >ms2
 180.0399 100
 
 >compound FTneg0076
 >ionization [M+?]-
->parentmass 182.056788456482
+>parentmass Inf
 >rt 6.55960268459715
 
 >ms1
-182.0568 100
+
 
 >ms2
 182.0568 100
 
 >compound FTneg0077
 >ionization [M+?]-
->parentmass 183.041531468789
+>parentmass Inf
 >rt 6.56410148709963
 
 >ms1
-183.0415 100
+
 
 >ms2
 183.0415 100
 
 >compound FTneg0078
 >ionization [M+?]-
->parentmass 189.931549516833
+>parentmass Inf
 >rt 6.58501516330464
 
 >ms1
-189.9315 100
+
 
 >ms2
 189.9315 100
 
 >compound FTneg0079
 >ionization [M+?]-
->parentmass 196.036320422434
+>parentmass Inf
 >rt 6.51487927369981
 
 >ms1
-196.0363 100
+
 
 >ms2
 196.0363 100
 
 >compound FTneg0080
 >ionization [M+?]-
->parentmass 198.051816893199
+>parentmass Inf
 >rt 6.53259135422168
 
 >ms1
-198.0518 100
+
 
 >ms2
 198.0518 100
 
 >compound FTneg0081
 >ionization [M+?]-
->parentmass 202.047362335951
+>parentmass Inf
 >rt 6.51968125000013
 
 >ms1
-202.0474 100
+
 
 >ms2
 202.0474 100
 
 >compound FTneg0082
 >ionization [M+?]-
->parentmass 209.067815982912
+>parentmass Inf
 >rt 6.61030532548987
 
 >ms1
-209.0678 100
+
 
 >ms2
 209.0678 100
 
 >compound FTneg0083
 >ionization [M+?]-
->parentmass 214.047038172214
+>parentmass Inf
 >rt 6.46033918850703
 
 >ms1
-214.047 100
+
 
 >ms2
 214.047 100
 
 >compound FTneg0084
 >ionization [M+?]-
->parentmass 216.061782477792
+>parentmass Inf
 >rt 6.58729631171697
 
 >ms1
-216.0618 100
+
 
 >ms2
 216.0618 100
 
 >compound FTneg0085
 >ionization [M+?]-
->parentmass 221.067094703112
+>parentmass Inf
 >rt 6.5597021236015
 
 >ms1
-221.0671 100
+
 
 >ms2
 221.0671 100
 
 >compound FTneg0086
 >ionization [M+?]-
->parentmass 225.062059735289
+>parentmass Inf
 >rt 6.6064466081948
 
 >ms1
-225.0621 100
+
 
 >ms2
 225.0621 100
 
 >compound FTneg0087
 >ionization [M+?]-
->parentmass 226.047294252143
+>parentmass Inf
 >rt 6.47485380045296
 
 >ms1
-226.0473 100
+
 
 >ms2
 226.0473 100
 
 >compound FTneg0088
 >ionization [M+?]-
->parentmass 231.931601668874
+>parentmass Inf
 >rt 6.57536857519503
 
 >ms1
-231.9316 100
+
 
 >ms2
 231.9316 100
 
 >compound FTneg0089
 >ionization [M+?]-
->parentmass 237.062938810463
+>parentmass Inf
 >rt 6.59280373048452
 
 >ms1
-237.0629 100
+
 
 >ms2
 237.0629 100
 
 >compound FTneg0090
 >ionization [M+?]-
->parentmass 239.077212659331
+>parentmass Inf
 >rt 6.54622951829818
 
 >ms1
-239.0772 100
+
 
 >ms2
 239.0772 100
 
 >compound FTneg0091
 >ionization [M+?]-
->parentmass 244.057346885421
+>parentmass Inf
 >rt 6.50596610861939
 
 >ms1
-244.0573 100
+
 
 >ms2
 244.0573 100
 
 >compound FTneg0092
 >ionization [M+?]-
->parentmass 253.058559816758
+>parentmass Inf
 >rt 6.47070069805124
 
 >ms1
-253.0586 100
+
 
 >ms2
 253.0586 100
 
 >compound FTneg0093
 >ionization [M+?]-
->parentmass 255.073127795216
+>parentmass Inf
 >rt 6.522405796549
 
 >ms1
-255.0731 100
+
 
 >ms2
 255.0731 100
 
 >compound FTneg0094
 >ionization [M+?]-
->parentmass 257.052920826473
+>parentmass Inf
 >rt 6.45312129629628
 
 >ms1
-257.0529 100
+
 
 >ms2
 257.0529 100
 
 >compound FTneg0095
 >ionization [M+?]-
->parentmass 262.061555378036
+>parentmass Inf
 >rt 6.59609492011294
 
 >ms1
-262.0616 100
+
 
 >ms2
 262.0616 100
 
 >compound FTneg0096
 >ionization [M+?]-
->parentmass 265.058220679878
+>parentmass Inf
 >rt 6.48211312731768
 
 >ms1
-265.0582 100
+
 
 >ms2
 265.0582 100
 
 >compound FTneg0097
 >ionization [M+?]-
->parentmass 269.053140224896
+>parentmass Inf
 >rt 6.45285817202914
 
 >ms1
-269.0531 100
+
 
 >ms2
 269.0531 100
 
 >compound FTneg0098
 >ionization [M+?]-
->parentmass 269.08685516095
+>parentmass Inf
 >rt 6.52227006744647
 
 >ms1
-269.0869 100
+
 
 >ms2
 269.0869 100
 
 >compound FTneg0099
 >ionization [M+?]-
->parentmass 271.068626777084
+>parentmass Inf
 >rt 6.47794999999996
 
 >ms1
-271.0686 100
+
 
 >ms2
 271.0686 100
 
 >compound FTneg0100
 >ionization [M+?]-
->parentmass 278.089081454381
+>parentmass Inf
 >rt 6.53512620929761
 
 >ms1
-278.0891 100
+
 
 >ms2
 278.0891 100
 
 >compound FTneg0101
 >ionization [M+?]-
->parentmass 280.068009710995
+>parentmass Inf
 >rt 6.58038238770968
 
 >ms1
-280.068 100
+
 
 >ms2
 280.068 100
 
 >compound FTneg0102
 >ionization [M+?]-
->parentmass 287.065039488
+>parentmass Inf
 >rt 6.49279396241094
 
 >ms1
-287.065 100
 
 >ms2
 50.0156 40
@@ -1366,77 +1353,76 @@
 
 >compound FTneg0103
 >ionization [M+?]-
->parentmass 290.09299182999
+>parentmass Inf
 >rt 6.52397118832017
 
 >ms1
-290.093 100
+
 
 >ms2
 290.093 100
 
 >compound FTneg0104
 >ionization [M+?]-
->parentmass 291.084447350866
+>parentmass Inf
 >rt 6.51954871794869
 
 >ms1
-291.0844 100
+
 
 >ms2
 291.0844 100
 
 >compound FTneg0105
 >ionization [M+?]-
->parentmass 292.069584980384
+>parentmass Inf
 >rt 6.49720573243196
 
 >ms1
-292.0696 100
+
 
 >ms2
 292.0696 100
 
 >compound FTneg0106
 >ionization [M+?]-
->parentmass 295.06925132846
+>parentmass Inf
 >rt 6.55485769492952
 
 >ms1
-295.0693 100
+
 
 >ms2
 295.0693 100
 
 >compound FTneg0107
 >ionization [M+?]-
->parentmass 298.079015143963
+>parentmass Inf
 >rt 6.52969927315786
 
 >ms1
-298.079 100
+
 
 >ms2
 298.079 100
 
 >compound FTneg0108
 >ionization [M+?]-
->parentmass 299.063789730921
+>parentmass Inf
 >rt 6.45912244976525
 
 >ms1
-299.0638 100
+
 
 >ms2
 299.0638 100
 
 >compound FTneg0109
 >ionization [M+?]-
->parentmass 301.078178320332
+>parentmass Inf
 >rt 6.49944836505788
 
 >ms1
-301.0782 100
 
 >ms2
 51.023 40
@@ -1448,88 +1434,87 @@
 
 >compound FTneg0110
 >ionization [M+?]-
->parentmass 308.06473154929
+>parentmass Inf
 >rt 6.47624216830836
 
 >ms1
-308.0647 100
+
 
 >ms2
 308.0647 100
 
 >compound FTneg0111
 >ionization [M+?]-
->parentmass 308.098914309879
+>parentmass Inf
 >rt 6.52312338433807
 
 >ms1
-308.0989 100
+
 
 >ms2
 308.0989 100
 
 >compound FTneg0112
 >ionization [M+?]-
->parentmass 310.079738682699
+>parentmass Inf
 >rt 6.53433573765356
 
 >ms1
-310.0797 100
+
 
 >ms2
 310.0797 100
 
 >compound FTneg0113
 >ionization [M+?]-
->parentmass 312.094863941903
+>parentmass Inf
 >rt 6.46508027802089
 
 >ms1
-312.0949 100
+
 
 >ms2
 312.0949 100
 
 >compound FTneg0114
 >ionization [M+?]-
->parentmass 317.099155528272
+>parentmass Inf
 >rt 6.49498273790198
 
 >ms1
-317.0992 100
+
 
 >ms2
 317.0992 100
 
 >compound FTneg0115
 >ionization [M+?]-
->parentmass 321.067592021372
+>parentmass Inf
 >rt 6.55522873028066
 
 >ms1
-321.0676 100
+
 
 >ms2
 321.0676 100
 
 >compound FTneg0116
 >ionization [M+?]-
->parentmass 324.094133809571
+>parentmass Inf
 >rt 6.54505546213125
 
 >ms1
-324.0941 100
+
 
 >ms2
 324.0941 100
 
 >compound FTneg0117
 >ionization [M+?]-
->parentmass 326.074811405311
+>parentmass Inf
 >rt 6.53252538847373
 
 >ms1
-326.0748 100
 
 >ms2
 51.0245 40
@@ -1545,77 +1530,76 @@
 
 >compound FTneg0118
 >ionization [M+?]-
->parentmass 329.074862112877
+>parentmass Inf
 >rt 6.49435520316761
 
 >ms1
-329.0749 100
+
 
 >ms2
 329.0749 100
 
 >compound FTneg0119
 >ionization [M+?]-
->parentmass 329.081153073175
+>parentmass Inf
 >rt 6.657374509804
 
 >ms1
-329.0812 100
+
 
 >ms2
 329.0812 100
 
 >compound FTneg0120
 >ionization [M+?]-
->parentmass 330.095963481506
+>parentmass Inf
 >rt 6.51699028177508
 
 >ms1
-330.096 100
+
 
 >ms2
 330.096 100
 
 >compound FTneg0121
 >ionization [M+?]-
->parentmass 333.096950093811
+>parentmass Inf
 >rt 6.5441786481051
 
 >ms1
-333.097 100
+
 
 >ms2
 333.097 100
 
 >compound FTneg0122
 >ionization [M+?]-
->parentmass 335.077603251137
+>parentmass Inf
 >rt 6.57618731770925
 
 >ms1
-335.0776 100
+
 
 >ms2
 335.0776 100
 
 >compound FTneg0123
 >ionization [M+?]-
->parentmass 337.090061341121
+>parentmass Inf
 >rt 6.56870016104947
 
 >ms1
-337.0901 100
+
 
 >ms2
 337.0901 100
 
 >compound FTneg0124
 >ionization [M+?]-
->parentmass 340.090362385472
+>parentmass Inf
 >rt 6.58701243383325
 
 >ms1
-340.0904 100
 
 >ms2
 54.9951 8
@@ -1626,583 +1610,582 @@
 
 >compound FTneg0125
 >ionization [M+?]-
->parentmass 345.096390444064
+>parentmass Inf
 >rt 6.57910778908412
 
 >ms1
-345.0964 100
+
 
 >ms2
 345.0964 100
 
 >compound FTneg0126
 >ionization [M+?]-
->parentmass 353.085613021411
+>parentmass Inf
 >rt 6.52596333333333
 
 >ms1
-353.0856 100
+
 
 >ms2
 353.0856 100
 
 >compound FTneg0127
 >ionization [M+?]-
->parentmass 362.092428735833
+>parentmass Inf
 >rt 6.59045896184259
 
 >ms1
-362.0924 100
+
 
 >ms2
 362.0924 100
 
 >compound FTneg0128
 >ionization [M+?]-
->parentmass 365.087771590376
+>parentmass Inf
 >rt 6.54503557963782
 
 >ms1
-365.0878 100
+
 
 >ms2
 365.0878 100
 
 >compound FTneg0129
 >ionization [M+?]-
->parentmass 367.10102880066
+>parentmass Inf
 >rt 6.52857040171928
 
 >ms1
-367.101 100
+
 
 >ms2
 367.101 100
 
 >compound FTneg0130
 >ionization [M+?]-
->parentmass 369.080905422431
+>parentmass Inf
 >rt 6.51119222409465
 
 >ms1
-369.0809 100
+
 
 >ms2
 369.0809 100
 
 >compound FTneg0131
 >ionization [M+?]-
->parentmass 68.0143942070691
+>parentmass Inf
 >rt 7.33703321734608
 
 >ms1
-68.01439 100
+
 
 >ms2
 68.01439 100
 
 >compound FTneg0132
 >ionization [M+?]-
->parentmass 109.040726077723
+>parentmass Inf
 >rt 7.34966795283517
 
 >ms1
-109.0407 100
+
 
 >ms2
 109.0407 100
 
 >compound FTneg0133
 >ionization [M+?]-
->parentmass 122.035787499079
+>parentmass Inf
 >rt 7.4179116317436
 
 >ms1
-122.0358 100
+
 
 >ms2
 122.0358 100
 
 >compound FTneg0134
 >ionization [M+?]-
->parentmass 50.0036490572466
+>parentmass Inf
 >rt 7.37229740340861
 
 >ms1
-50.00365 100
+
 
 >ms2
 50.00365 100
 
 >compound FTneg0135
 >ionization [M+?]-
->parentmass 65.9986693673952
+>parentmass Inf
 >rt 7.35874321379573
 
 >ms1
-65.99867 100
+
 
 >ms2
 65.99867 100
 
 >compound FTneg0136
 >ionization [M+?]-
->parentmass 75.0089218544994
+>parentmass Inf
 >rt 7.3545876285335
 
 >ms1
-75.00892 100
+
 
 >ms2
 75.00892 100
 
 >compound FTneg0137
 >ionization [M+?]-
->parentmass 83.0251386633508
+>parentmass Inf
 >rt 7.17919476429634
 
 >ms1
-83.02514 100
+
 
 >ms2
 83.02514 100
 
 >compound FTneg0138
 >ionization [M+?]-
->parentmass 106.041102050497
+>parentmass Inf
 >rt 7.21682942236082
 
 >ms1
-106.0411 100
+
 
 >ms2
 106.0411 100
 
 >compound FTneg0139
 >ionization [M+?]-
->parentmass 107.025241488811
+>parentmass Inf
 >rt 7.29679498116204
 
 >ms1
-107.0252 100
+
 
 >ms2
 107.0252 100
 
 >compound FTneg0140
 >ionization [M+?]-
->parentmass 116.928529744627
+>parentmass Inf
 >rt 7.33453987015295
 
 >ms1
-116.9285 100
+
 
 >ms2
 116.9285 100
 
 >compound FTneg0141
 >ionization [M+?]-
->parentmass 120.056092270516
+>parentmass Inf
 >rt 7.3304836866066
 
 >ms1
-120.0561 100
+
 
 >ms2
 120.0561 100
 
 >compound FTneg0142
 >ionization [M+?]-
->parentmass 121.029647555658
+>parentmass Inf
 >rt 7.33307500785891
 
 >ms1
-121.0296 100
+
 
 >ms2
 121.0296 100
 
 >compound FTneg0143
 >ionization [M+?]-
->parentmass 122.035819029076
+>parentmass Inf
 >rt 7.17294319865289
 
 >ms1
-122.0358 100
+
 
 >ms2
 122.0358 100
 
 >compound FTneg0144
 >ionization [M+?]-
->parentmass 123.019878067031
+>parentmass Inf
 >rt 7.34458695305939
 
 >ms1
-123.0199 100
+
 
 >ms2
 123.0199 100
 
 >compound FTneg0145
 >ionization [M+?]-
->parentmass 125.035664339405
+>parentmass Inf
 >rt 7.37650010896174
 
 >ms1
-125.0357 100
+
 
 >ms2
 125.0357 100
 
 >compound FTneg0146
 >ionization [M+?]-
->parentmass 127.040272209915
+>parentmass Inf
 >rt 7.35683229161759
 
 >ms1
-127.0403 100
+
 
 >ms2
 127.0403 100
 
 >compound FTneg0147
 >ionization [M+?]-
->parentmass 134.035979879451
+>parentmass Inf
 >rt 7.31861581397549
 
 >ms1
-134.036 100
+
 
 >ms2
 134.036 100
 
 >compound FTneg0148
 >ionization [M+?]-
->parentmass 136.051532415278
+>parentmass Inf
 >rt 7.31786864081279
 
 >ms1
-136.0515 100
+
 
 >ms2
 136.0515 100
 
 >compound FTneg0149
 >ionization [M+?]-
->parentmass 140.046568652681
+>parentmass Inf
 >rt 7.35542156489481
 
 >ms1
-140.0466 100
+
 
 >ms2
 140.0466 100
 
 >compound FTneg0150
 >ionization [M+?]-
->parentmass 143.045446391157
+>parentmass Inf
 >rt 7.31183371884133
 
 >ms1
-143.0454 100
+
 
 >ms2
 143.0454 100
 
 >compound FTneg0151
 >ionization [M+?]-
->parentmass 145.930975052898
+>parentmass Inf
 >rt 7.30417334230318
 
 >ms1
-145.931 100
+
 
 >ms2
 145.931 100
 
 >compound FTneg0152
 >ionization [M+?]-
->parentmass 146.962709861565
+>parentmass Inf
 >rt 7.30659551026733
 
 >ms1
-146.9627 100
+
 
 >ms2
 146.9627 100
 
 >compound FTneg0153
 >ionization [M+?]-
->parentmass 152.046461361278
+>parentmass Inf
 >rt 7.29775258177709
 
 >ms1
-152.0465 100
+
 
 >ms2
 152.0465 100
 
 >compound FTneg0154
 >ionization [M+?]-
->parentmass 155.070637202086
+>parentmass Inf
 >rt 7.26855220868284
 
 >ms1
-155.0706 100
+
 
 >ms2
 155.0706 100
 
 >compound FTneg0155
 >ionization [M+?]-
->parentmass 157.051056472018
+>parentmass Inf
 >rt 7.24130548075851
 
 >ms1
-157.0511 100
+
 
 >ms2
 157.0511 100
 
 >compound FTneg0156
 >ionization [M+?]-
->parentmass 164.046492967811
+>parentmass Inf
 >rt 7.33950130730585
 
 >ms1
-164.0465 100
+
 
 >ms2
 164.0465 100
 
 >compound FTneg0157
 >ionization [M+?]-
->parentmass 166.061949774097
+>parentmass Inf
 >rt 7.31811372549024
 
 >ms1
-166.0619 100
+
 
 >ms2
 166.0619 100
 
 >compound FTneg0158
 >ionization [M+?]-
->parentmass 168.041271360885
+>parentmass Inf
 >rt 7.31599516524456
 
 >ms1
-168.0413 100
+
 
 >ms2
 168.0413 100
 
 >compound FTneg0159
 >ionization [M+?]-
->parentmass 173.081386597803
+>parentmass Inf
 >rt 7.25223177783068
 
 >ms1
-173.0814 100
+
 
 >ms2
 173.0814 100
 
 >compound FTneg0160
 >ionization [M+?]-
->parentmass 173.118111997233
+>parentmass Inf
 >rt 7.29597485590073
 
 >ms1
-173.1181 100
+
 
 >ms2
 173.1181 100
 
 >compound FTneg0161
 >ionization [M+?]-
->parentmass 174.956116404793
+>parentmass Inf
 >rt 7.32382410425904
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0162
 >ionization [M+?]-
->parentmass 175.062040039279
+>parentmass Inf
 >rt 7.25349308623531
 
 >ms1
-175.062 100
+
 
 >ms2
 175.062 100
 
 >compound FTneg0163
 >ionization [M+?]-
->parentmass 180.041298527811
+>parentmass Inf
 >rt 7.32146905770942
 
 >ms1
-180.0413 100
+
 
 >ms2
 180.0413 100
 
 >compound FTneg0164
 >ionization [M+?]-
->parentmass 185.081999887268
+>parentmass Inf
 >rt 7.36598507528186
 
 >ms1
-185.082 100
+
 
 >ms2
 185.082 100
 
 >compound FTneg0165
 >ionization [M+?]-
->parentmass 189.058307047659
+>parentmass Inf
 >rt 7.27812491028139
 
 >ms1
-189.0583 100
+
 
 >ms2
 189.0583 100
 
 >compound FTneg0166
 >ionization [M+?]-
->parentmass 189.931525238419
+>parentmass Inf
 >rt 7.29391345882795
 
 >ms1
-189.9315 100
+
 
 >ms2
 189.9315 100
 
 >compound FTneg0167
 >ionization [M+?]-
->parentmass 192.929048510788
+>parentmass Inf
 >rt 7.31790947820064
 
 >ms1
-192.929 100
+
 
 >ms2
 192.929 100
 
 >compound FTneg0168
 >ionization [M+?]-
->parentmass 201.076826230231
+>parentmass Inf
 >rt 7.33288106684739
 
 >ms1
-201.0768 100
+
 
 >ms2
 201.0768 100
 
 >compound FTneg0169
 >ionization [M+?]-
->parentmass 207.050663000606
+>parentmass Inf
 >rt 7.3669753439139
 
 >ms1
-207.0507 100
+
 
 >ms2
 207.0507 100
 
 >compound FTneg0170
 >ionization [M+?]-
->parentmass 207.931167319276
+>parentmass Inf
 >rt 7.29687139321334
 
 >ms1
-207.9312 100
+
 
 >ms2
 207.9312 100
 
 >compound FTneg0171
 >ionization [M+?]-
->parentmass 221.067785053325
+>parentmass Inf
 >rt 7.25304705619319
 
 >ms1
-221.0678 100
+
 
 >ms2
 221.0678 100
 
 >compound FTneg0172
 >ionization [M+?]-
->parentmass 225.061932239755
+>parentmass Inf
 >rt 7.38186295123611
 
 >ms1
-225.0619 100
+
 
 >ms2
 225.0619 100
 
 >compound FTneg0173
 >ionization [M+?]-
->parentmass 231.087127710429
+>parentmass Inf
 >rt 7.33109296352963
 
 >ms1
-231.0871 100
+
 
 >ms2
 231.0871 100
 
 >compound FTneg0174
 >ionization [M+?]-
->parentmass 233.154632711131
+>parentmass Inf
 >rt 7.41829144385998
 
 >ms1
-233.1546 100
+
 
 >ms2
 233.1546 100
 
 >compound FTneg0175
 >ionization [M+?]-
->parentmass 235.926135261985
+>parentmass Inf
 >rt 7.25112333556454
 
 >ms1
-235.9261 100
+
 
 >ms2
 235.9261 100
 
 >compound FTneg0176
 >ionization [M+?]-
->parentmass 240.910422120186
+>parentmass Inf
 >rt 7.32370816277194
 
 >ms1
-240.9104 100
+
 
 >ms2
 240.9104 100
 
 >compound FTneg0177
 >ionization [M+?]-
->parentmass 263.00000205322
+>parentmass Inf
 >rt 7.32619305555575
 
 >ms1
-263 100
 
 >ms2
 50.0112 20
@@ -2398,2948 +2381,2947 @@
 
 >compound FTneg0178
 >ionization [M+?]-
->parentmass 277.094851206803
+>parentmass Inf
 >rt 7.26519341835381
 
 >ms1
-277.0949 100
+
 
 >ms2
 277.0949 100
 
 >compound FTneg0179
 >ionization [M+?]-
->parentmass 286.132208935774
+>parentmass Inf
 >rt 7.2863791666666
 
 >ms1
-286.1322 100
+
 
 >ms2
 286.1322 100
 
 >compound FTneg0180
 >ionization [M+?]-
->parentmass 287.149776007692
+>parentmass Inf
 >rt 7.29352503301399
 
 >ms1
-287.1498 100
+
 
 >ms2
 287.1498 100
 
 >compound FTneg0181
 >ionization [M+?]-
->parentmass 293.097066085592
+>parentmass Inf
 >rt 7.26718146291046
 
 >ms1
-293.0971 100
+
 
 >ms2
 293.0971 100
 
 >compound FTneg0182
 >ionization [M+?]-
->parentmass 294.098035041026
+>parentmass Inf
 >rt 7.27331793550959
 
 >ms1
-294.098 100
+
 
 >ms2
 294.098 100
 
 >compound FTneg0183
 >ionization [M+?]-
->parentmass 295.099737400798
+>parentmass Inf
 >rt 7.31103189760392
 
 >ms1
-295.0997 100
+
 
 >ms2
 295.0997 100
 
 >compound FTneg0184
 >ionization [M+?]-
->parentmass 301.128461787626
+>parentmass Inf
 >rt 7.27207071180607
 
 >ms1
-301.1285 100
+
 
 >ms2
 301.1285 100
 
 >compound FTneg0185
 >ionization [M+?]-
->parentmass 305.099903536443
+>parentmass Inf
 >rt 7.32395278796684
 
 >ms1
-305.0999 100
+
 
 >ms2
 305.0999 100
 
 >compound FTneg0186
 >ionization [M+?]-
->parentmass 321.154533189714
+>parentmass Inf
 >rt 7.29286679568797
 
 >ms1
-321.1545 100
+
 
 >ms2
 321.1545 100
 
 >compound FTneg0187
 >ionization [M+?]-
->parentmass 339.103098885069
+>parentmass Inf
 >rt 7.25921140868853
 
 >ms1
-339.1031 100
+
 
 >ms2
 339.1031 100
 
 >compound FTneg0188
 >ionization [M+?]-
->parentmass 341.087136676871
+>parentmass Inf
 >rt 7.29160123386576
 
 >ms1
-341.0871 100
+
 
 >ms2
 341.0871 100
 
 >compound FTneg0189
 >ionization [M+?]-
->parentmass 345.118532667844
+>parentmass Inf
 >rt 7.2469254704226
 
 >ms1
-345.1185 100
+
 
 >ms2
 345.1185 100
 
 >compound FTneg0190
 >ionization [M+?]-
->parentmass 387.126294490676
+>parentmass Inf
 >rt 7.34100876788101
 
 >ms1
-387.1263 100
+
 
 >ms2
 387.1263 100
 
 >compound FTneg0191
 >ionization [M+?]-
->parentmass 419.140545046406
+>parentmass Inf
 >rt 7.33870330320139
 
 >ms1
-419.1405 100
+
 
 >ms2
 419.1405 100
 
 >compound FTneg0192
 >ionization [M+?]-
->parentmass 490.182729151963
+>parentmass Inf
 >rt 7.31681225077296
 
 >ms1
-490.1827 100
+
 
 >ms2
 490.1827 100
 
 >compound FTneg0193
 >ionization [M+?]-
->parentmass 540.330244256895
+>parentmass Inf
 >rt 7.36804825326913
 
 >ms1
-540.3302 100
+
 
 >ms2
 540.3302 100
 
 >compound FTneg0194
 >ionization [M+?]-
->parentmass 564.330123767348
+>parentmass Inf
 >rt 7.34259942497041
 
 >ms1
-564.3301 100
+
 
 >ms2
 564.3301 100
 
 >compound FTneg0195
 >ionization [M+?]-
->parentmass 113.035655306892
+>parentmass Inf
 >rt 19.1673478322068
 
 >ms1
-113.0357 100
+
 
 >ms2
 113.0357 100
 
 >compound FTneg0196
 >ionization [M+?]-
->parentmass 68.0143596920405
+>parentmass Inf
 >rt 19.1476411461637
 
 >ms1
-68.01436 100
+
 
 >ms2
 68.01436 100
 
 >compound FTneg0197
 >ionization [M+?]-
->parentmass 125.035618802022
+>parentmass Inf
 >rt 19.1313661943681
 
 >ms1
-125.0356 100
+
 
 >ms2
 125.0356 100
 
 >compound FTneg0198
 >ionization [M+?]-
->parentmass 84.0091954383847
+>parentmass Inf
 >rt 19.1459207267975
 
 >ms1
-84.0092 100
+
 
 >ms2
 84.0092 100
 
 >compound FTneg0199
 >ionization [M+?]-
->parentmass 83.0251747020667
+>parentmass Inf
 >rt 19.1823930694126
 
 >ms1
-83.02517 100
+
 
 >ms2
 83.02517 100
 
 >compound FTneg0200
 >ionization [M+?]-
->parentmass 109.040693718306
+>parentmass Inf
 >rt 19.0976254390106
 
 >ms1
-109.0407 100
+
 
 >ms2
 109.0407 100
 
 >compound FTneg0201
 >ionization [M+?]-
->parentmass 152.046469879601
+>parentmass Inf
 >rt 19.1452517059137
 
 >ms1
-152.0465 100
+
 
 >ms2
 152.0465 100
 
 >compound FTneg0202
 >ionization [M+?]-
->parentmass 166.062113399268
+>parentmass Inf
 >rt 19.0868474541629
 
 >ms1
-166.0621 100
+
 
 >ms2
 166.0621 100
 
 >compound FTneg0203
 >ionization [M+?]-
->parentmass 176.046540995904
+>parentmass Inf
 >rt 19.1574803921568
 
 >ms1
-176.0465 100
+
 
 >ms2
 176.0465 100
 
 >compound FTneg0204
 >ionization [M+?]-
->parentmass 50.0036636369829
+>parentmass Inf
 >rt 19.1538642065619
 
 >ms1
-50.00366 100
+
 
 >ms2
 50.00366 100
 
 >compound FTneg0205
 >ionization [M+?]-
->parentmass 72.9931641739618
+>parentmass Inf
 >rt 19.1554856545674
 
 >ms1
-72.99316 100
+
 
 >ms2
 72.99316 100
 
 >compound FTneg0206
 >ionization [M+?]-
->parentmass 82.0298059450414
+>parentmass Inf
 >rt 19.1679030287531
 
 >ms1
-82.02981 100
+
 
 >ms2
 82.02981 100
 
 >compound FTneg0207
 >ionization [M+?]-
->parentmass 100.004139348514
+>parentmass Inf
 >rt 19.1300183304738
 
 >ms1
-100.0041 100
+
 
 >ms2
 100.0041 100
 
 >compound FTneg0208
 >ionization [M+?]-
->parentmass 118.040588212597
+>parentmass Inf
 >rt 19.1375515223985
 
 >ms1
-118.0406 100
+
 
 >ms2
 118.0406 100
 
 >compound FTneg0209
 >ionization [M+?]-
->parentmass 119.024876800452
+>parentmass Inf
 >rt 19.1595544634373
 
 >ms1
-119.0249 100
+
 
 >ms2
 119.0249 100
 
 >compound FTneg0210
 >ionization [M+?]-
->parentmass 122.035843916672
+>parentmass Inf
 >rt 19.1041602383663
 
 >ms1
-122.0358 100
+
 
 >ms2
 122.0358 100
 
 >compound FTneg0211
 >ionization [M+?]-
->parentmass 125.035632232008
+>parentmass Inf
 >rt 19.1949558865719
 
 >ms1
-125.0356 100
+
 
 >ms2
 125.0356 100
 
 >compound FTneg0212
 >ionization [M+?]-
->parentmass 136.051515399074
+>parentmass Inf
 >rt 19.123530091846
 
 >ms1
-136.0515 100
+
 
 >ms2
 136.0515 100
 
 >compound FTneg0213
 >ionization [M+?]-
->parentmass 140.046503463008
+>parentmass Inf
 >rt 19.11803117639
 
 >ms1
-140.0465 100
+
 
 >ms2
 140.0465 100
 
 >compound FTneg0214
 >ionization [M+?]-
->parentmass 141.030459080716
+>parentmass Inf
 >rt 19.1513667044177
 
 >ms1
-141.0305 100
+
 
 >ms2
 141.0305 100
 
 >compound FTneg0215
 >ionization [M+?]-
->parentmass 143.033564073554
+>parentmass Inf
 >rt 19.1732027534598
 
 >ms1
-143.0336 100
+
 
 >ms2
 143.0336 100
 
 >compound FTneg0216
 >ionization [M+?]-
->parentmass 148.051547527825
+>parentmass Inf
 >rt 19.0852569402466
 
 >ms1
-148.0515 100
+
 
 >ms2
 148.0515 100
 
 >compound FTneg0217
 >ionization [M+?]-
->parentmass 149.034018278486
+>parentmass Inf
 >rt 19.1572450629721
 
 >ms1
-149.034 100
+
 
 >ms2
 149.034 100
 
 >compound FTneg0218
 >ionization [M+?]-
->parentmass 151.037994725314
+>parentmass Inf
 >rt 19.1750021064913
 
 >ms1
-151.038 100
+
 
 >ms2
 151.038 100
 
 >compound FTneg0219
 >ionization [M+?]-
->parentmass 151.062879263815
+>parentmass Inf
 >rt 19.1688640734497
 
 >ms1
-151.0629 100
+
 
 >ms2
 151.0629 100
 
 >compound FTneg0220
 >ionization [M+?]-
->parentmass 155.046036121116
+>parentmass Inf
 >rt 19.1476694104514
 
 >ms1
-155.046 100
+
 
 >ms2
 155.046 100
 
 >compound FTneg0221
 >ionization [M+?]-
->parentmass 157.050560853493
+>parentmass Inf
 >rt 19.1494703964335
 
 >ms1
-157.0506 100
+
 
 >ms2
 157.0506 100
 
 >compound FTneg0222
 >ionization [M+?]-
->parentmass 162.031019157956
+>parentmass Inf
 >rt 19.1386741600436
 
 >ms1
-162.031 100
+
 
 >ms2
 162.031 100
 
 >compound FTneg0223
 >ionization [M+?]-
->parentmass 164.046521472114
+>parentmass Inf
 >rt 19.1302126887809
 
 >ms1
-164.0465 100
+
 
 >ms2
 164.0465 100
 
 >compound FTneg0224
 >ionization [M+?]-
->parentmass 167.04574586235
+>parentmass Inf
 >rt 19.1492088306426
 
 >ms1
-167.0457 100
+
 
 >ms2
 167.0457 100
 
 >compound FTneg0225
 >ionization [M+?]-
->parentmass 173.046044182845
+>parentmass Inf
 >rt 19.1998647818719
 
 >ms1
-173.046 100
+
 
 >ms2
 173.046 100
 
 >compound FTneg0226
 >ionization [M+?]-
->parentmass 173.056611713517
+>parentmass Inf
 >rt 19.1755413803214
 
 >ms1
-173.0566 100
+
 
 >ms2
 173.0566 100
 
 >compound FTneg0227
 >ionization [M+?]-
->parentmass 174.956072324123
+>parentmass Inf
 >rt 19.1594261715073
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0228
 >ionization [M+?]-
->parentmass 178.061797193202
+>parentmass Inf
 >rt 19.1304068952089
 
 >ms1
-178.0618 100
+
 
 >ms2
 178.0618 100
 
 >compound FTneg0229
 >ionization [M+?]-
->parentmass 180.041449839602
+>parentmass Inf
 >rt 19.1699507048668
 
 >ms1
-180.0414 100
+
 
 >ms2
 180.0414 100
 
 >compound FTneg0230
 >ionization [M+?]-
->parentmass 183.05370963889
+>parentmass Inf
 >rt 19.1849910911723
 
 >ms1
-183.0537 100
+
 
 >ms2
 183.0537 100
 
 >compound FTneg0231
 >ionization [M+?]-
->parentmass 192.041784340684
+>parentmass Inf
 >rt 19.1845968945483
 
 >ms1
-192.0418 100
+
 
 >ms2
 192.0418 100
 
 >compound FTneg0232
 >ionization [M+?]-
->parentmass 193.072865978719
+>parentmass Inf
 >rt 19.1456134435852
 
 >ms1
-193.0729 100
+
 
 >ms2
 193.0729 100
 
 >compound FTneg0233
 >ionization [M+?]-
->parentmass 196.072075382343
+>parentmass Inf
 >rt 19.1485179009682
 
 >ms1
-196.0721 100
+
 
 >ms2
 196.0721 100
 
 >compound FTneg0234
 >ionization [M+?]-
->parentmass 197.067583413012
+>parentmass Inf
 >rt 19.1492412935231
 
 >ms1
-197.0676 100
+
 
 >ms2
 197.0676 100
 
 >compound FTneg0235
 >ionization [M+?]-
->parentmass 213.062578164953
+>parentmass Inf
 >rt 19.2122495757937
 
 >ms1
-213.0626 100
+
 
 >ms2
 213.0626 100
 
 >compound FTneg0236
 >ionization [M+?]-
->parentmass 219.051938141189
+>parentmass Inf
 >rt 19.1971221041505
 
 >ms1
-219.0519 100
+
 
 >ms2
 219.0519 100
 
 >compound FTneg0237
 >ionization [M+?]-
->parentmass 223.082934077676
+>parentmass Inf
 >rt 19.1593975
 
 >ms1
-223.0829 100
+
 
 >ms2
 223.0829 100
 
 >compound FTneg0238
 >ionization [M+?]-
->parentmass 224.067800380944
+>parentmass Inf
 >rt 19.164331500326
 
 >ms1
-224.0678 100
+
 
 >ms2
 224.0678 100
 
 >compound FTneg0239
 >ionization [M+?]-
->parentmass 233.066667327339
+>parentmass Inf
 >rt 19.1600694843837
 
 >ms1
-233.0667 100
+
 
 >ms2
 233.0667 100
 
 >compound FTneg0240
 >ionization [M+?]-
->parentmass 243.073299407277
+>parentmass Inf
 >rt 19.2007126984127
 
 >ms1
-243.0733 100
+
 
 >ms2
 243.0733 100
 
 >compound FTneg0241
 >ionization [M+?]-
->parentmass 248.079128405484
+>parentmass Inf
 >rt 19.1742095923159
 
 >ms1
-248.0791 100
+
 
 >ms2
 248.0791 100
 
 >compound FTneg0242
 >ionization [M+?]-
->parentmass 252.073403960166
+>parentmass Inf
 >rt 19.1580750634943
 
 >ms1
-252.0734 100
+
 
 >ms2
 252.0734 100
 
 >compound FTneg0243
 >ionization [M+?]-
->parentmass 260.079031892315
+>parentmass Inf
 >rt 19.1487032860087
 
 >ms1
-260.079 100
+
 
 >ms2
 260.079 100
 
 >compound FTneg0244
 >ionization [M+?]-
->parentmass 266.088911677425
+>parentmass Inf
 >rt 19.1505168814128
 
 >ms1
-266.0889 100
+
 
 >ms2
 266.0889 100
 
 >compound FTneg0245
 >ionization [M+?]-
->parentmass 268.068822647119
+>parentmass Inf
 >rt 19.2017910030466
 
 >ms1
-268.0688 100
+
 
 >ms2
 268.0688 100
 
 >compound FTneg0246
 >ionization [M+?]-
->parentmass 269.08873630965
+>parentmass Inf
 >rt 19.1489025670743
 
 >ms1
-269.0887 100
+
 
 >ms2
 269.0887 100
 
 >compound FTneg0247
 >ionization [M+?]-
->parentmass 276.07393091465
+>parentmass Inf
 >rt 19.1744724813205
 
 >ms1
-276.0739 100
+
 
 >ms2
 276.0739 100
 
 >compound FTneg0248
 >ionization [M+?]-
->parentmass 281.090030744656
+>parentmass Inf
 >rt 19.1840020051326
 
 >ms1
-281.09 100
+
 
 >ms2
 281.09 100
 
 >compound FTneg0249
 >ionization [M+?]-
->parentmass 285.083485064015
+>parentmass Inf
 >rt 19.1497538497428
 
 >ms1
-285.0835 100
+
 
 >ms2
 285.0835 100
 
 >compound FTneg0250
 >ionization [M+?]-
->parentmass 291.085935137686
+>parentmass Inf
 >rt 19.208274296693
 
 >ms1
-291.0859 100
+
 
 >ms2
 291.0859 100
 
 >compound FTneg0251
 >ionization [M+?]-
->parentmass 296.095074273212
+>parentmass Inf
 >rt 19.1701729166666
 
 >ms1
-296.0951 100
+
 
 >ms2
 296.0951 100
 
 >compound FTneg0252
 >ionization [M+?]-
->parentmass 300.093728836416
+>parentmass Inf
 >rt 19.1878320605825
 
 >ms1
-300.0937 100
+
 
 >ms2
 300.0937 100
 
 >compound FTneg0253
 >ionization [M+?]-
->parentmass 303.088615874756
+>parentmass Inf
 >rt 19.1718173850695
 
 >ms1
-303.0886 100
+
 
 >ms2
 303.0886 100
 
 >compound FTneg0254
 >ionization [M+?]-
->parentmass 310.079307568134
+>parentmass Inf
 >rt 19.1647666666667
 
 >ms1
-310.0793 100
+
 
 >ms2
 310.0793 100
 
 >compound FTneg0255
 >ionization [M+?]-
->parentmass 315.091240274071
+>parentmass Inf
 >rt 19.1615127031702
 
 >ms1
-315.0912 100
+
 
 >ms2
 315.0912 100
 
 >compound FTneg0256
 >ionization [M+?]-
->parentmass 319.08240103706
+>parentmass Inf
 >rt 19.2037349678803
 
 >ms1
-319.0824 100
+
 
 >ms2
 319.0824 100
 
 >compound FTneg0257
 >ionization [M+?]-
->parentmass 320.886046298426
+>parentmass Inf
 >rt 19.147274586412
 
 >ms1
-320.886 100
+
 
 >ms2
 320.886 100
 
 >compound FTneg0258
 >ionization [M+?]-
->parentmass 321.095090822864
+>parentmass Inf
 >rt 19.1588041666667
 
 >ms1
-321.0951 100
+
 
 >ms2
 321.0951 100
 
 >compound FTneg0259
 >ionization [M+?]-
->parentmass 323.109874931557
+>parentmass Inf
 >rt 19.1425785625247
 
 >ms1
-323.1099 100
+
 
 >ms2
 323.1099 100
 
 >compound FTneg0260
 >ionization [M+?]-
->parentmass 324.094655620792
+>parentmass Inf
 >rt 19.1874094180794
 
 >ms1
-324.0947 100
+
 
 >ms2
 324.0947 100
 
 >compound FTneg0261
 >ionization [M+?]-
->parentmass 325.08843232063
+>parentmass Inf
 >rt 19.179854509782
 
 >ms1
-325.0884 100
+
 
 >ms2
 325.0884 100
 
 >compound FTneg0262
 >ionization [M+?]-
->parentmass 327.098797421029
+>parentmass Inf
 >rt 19.1957483067998
 
 >ms1
-327.0988 100
+
 
 >ms2
 327.0988 100
 
 >compound FTneg0263
 >ionization [M+?]-
->parentmass 333.095771787965
+>parentmass Inf
 >rt 19.1662149125685
 
 >ms1
-333.0958 100
+
 
 >ms2
 333.0958 100
 
 >compound FTneg0264
 >ionization [M+?]-
->parentmass 336.095877974291
+>parentmass Inf
 >rt 19.1834213517356
 
 >ms1
-336.0959 100
+
 
 >ms2
 336.0959 100
 
 >compound FTneg0265
 >ionization [M+?]-
->parentmass 339.104808832597
+>parentmass Inf
 >rt 19.1634215247815
 
 >ms1
-339.1048 100
+
 
 >ms2
 339.1048 100
 
 >compound FTneg0266
 >ionization [M+?]-
->parentmass 342.103877173845
+>parentmass Inf
 >rt 19.1888218705574
 
 >ms1
-342.1039 100
+
 
 >ms2
 342.1039 100
 
 >compound FTneg0267
 >ionization [M+?]-
->parentmass 345.096860326196
+>parentmass Inf
 >rt 19.1866641181564
 
 >ms1
-345.0969 100
+
 
 >ms2
 345.0969 100
 
 >compound FTneg0268
 >ionization [M+?]-
->parentmass 349.090804222771
+>parentmass Inf
 >rt 19.2141206460673
 
 >ms1
-349.0908 100
+
 
 >ms2
 349.0908 100
 
 >compound FTneg0269
 >ionization [M+?]-
->parentmass 351.105717665171
+>parentmass Inf
 >rt 19.1996317115553
 
 >ms1
-351.1057 100
+
 
 >ms2
 351.1057 100
 
 >compound FTneg0270
 >ionization [M+?]-
->parentmass 352.092441963874
+>parentmass Inf
 >rt 19.190820849214
 
 >ms1
-352.0924 100
+
 
 >ms2
 352.0924 100
 
 >compound FTneg0271
 >ionization [M+?]-
->parentmass 353.085707801619
+>parentmass Inf
 >rt 19.2028384211572
 
 >ms1
-353.0857 100
+
 
 >ms2
 353.0857 100
 
 >compound FTneg0272
 >ionization [M+?]-
->parentmass 360.108984980154
+>parentmass Inf
 >rt 19.1707174737642
 
 >ms1
-360.109 100
+
 
 >ms2
 360.109 100
 
 >compound FTneg0273
 >ionization [M+?]-
->parentmass 361.092642422908
+>parentmass Inf
 >rt 19.1930920417515
 
 >ms1
-361.0926 100
+
 
 >ms2
 361.0926 100
 
 >compound FTneg0274
 >ionization [M+?]-
->parentmass 363.106669185119
+>parentmass Inf
 >rt 19.1508873031672
 
 >ms1
-363.1067 100
+
 
 >ms2
 363.1067 100
 
 >compound FTneg0275
 >ionization [M+?]-
->parentmass 364.102471751479
+>parentmass Inf
 >rt 19.1922656919107
 
 >ms1
-364.1025 100
+
 
 >ms2
 364.1025 100
 
 >compound FTneg0276
 >ionization [M+?]-
->parentmass 366.112030833281
+>parentmass Inf
 >rt 19.1849698492506
 
 >ms1
-366.112 100
+
 
 >ms2
 366.112 100
 
 >compound FTneg0277
 >ionization [M+?]-
->parentmass 381.115218662455
+>parentmass Inf
 >rt 19.1854748378001
 
 >ms1
-381.1152 100
+
 
 >ms2
 381.1152 100
 
 >compound FTneg0278
 >ionization [M+?]-
->parentmass 385.110680642527
+>parentmass Inf
 >rt 19.1673250743784
 
 >ms1
-385.1107 100
+
 
 >ms2
 385.1107 100
 
 >compound FTneg0279
 >ionization [M+?]-
->parentmass 394.11118055627
+>parentmass Inf
 >rt 19.1914865068199
 
 >ms1
-394.1112 100
+
 
 >ms2
 394.1112 100
 
 >compound FTneg0280
 >ionization [M+?]-
->parentmass 397.111223657579
+>parentmass Inf
 >rt 19.1923880643955
 
 >ms1
-397.1112 100
+
 
 >ms2
 397.1112 100
 
 >compound FTneg0281
 >ionization [M+?]-
->parentmass 100.004183008049
+>parentmass Inf
 >rt 19.729987474473
 
 >ms1
-100.0042 100
+
 
 >ms2
 100.0042 100
 
 >compound FTneg0282
 >ionization [M+?]-
->parentmass 50.0036697394444
+>parentmass Inf
 >rt 19.7313321320985
 
 >ms1
-50.00367 100
+
 
 >ms2
 50.00367 100
 
 >compound FTneg0283
 >ionization [M+?]-
->parentmass 68.0143750671691
+>parentmass Inf
 >rt 19.7034010477853
 
 >ms1
-68.01438 100
+
 
 >ms2
 68.01438 100
 
 >compound FTneg0284
 >ionization [M+?]-
->parentmass 72.9931606567498
+>parentmass Inf
 >rt 19.7083131415462
 
 >ms1
-72.99316 100
+
 
 >ms2
 72.99316 100
 
 >compound FTneg0285
 >ionization [M+?]-
->parentmass 141.03045566034
+>parentmass Inf
 >rt 19.6816362437311
 
 >ms1
-141.0305 100
+
 
 >ms2
 141.0305 100
 
 >compound FTneg0286
 >ionization [M+?]-
->parentmass 146.938575845545
+>parentmass Inf
 >rt 19.7087656015438
 
 >ms1
-146.9386 100
+
 
 >ms2
 146.9386 100
 
 >compound FTneg0287
 >ionization [M+?]-
->parentmass 174.956178944436
+>parentmass Inf
 >rt 19.6884453199062
 
 >ms1
-174.9562 100
+
 
 >ms2
 174.9562 100
 
 >compound FTneg0288
 >ionization [M+?]-
->parentmass 190.928502531083
+>parentmass Inf
 >rt 19.7087461530656
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg0289
 >ionization [M+?]-
->parentmass 231.931543635104
+>parentmass Inf
 >rt 19.6866815232135
 
 >ms1
-231.9315 100
+
 
 >ms2
 231.9315 100
 
 >compound FTneg0290
 >ionization [M+?]-
->parentmass 50.003676429571
+>parentmass Inf
 >rt 19.6441648066392
 
 >ms1
-50.00368 100
+
 
 >ms2
 50.00368 100
 
 >compound FTneg0291
 >ionization [M+?]-
->parentmass 144.922948305811
+>parentmass Inf
 >rt 19.6013031157764
 
 >ms1
-144.9229 100
+
 
 >ms2
 144.9229 100
 
 >compound FTneg0292
 >ionization [M+?]-
->parentmass 174.956118776549
+>parentmass Inf
 >rt 19.6200057889202
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0293
 >ionization [M+?]-
->parentmass 190.928465818461
+>parentmass Inf
 >rt 19.638040624116
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg0294
 >ionization [M+?]-
->parentmass 247.020386351724
+>parentmass Inf
 >rt 19.6239014944752
 
 >ms1
-247.0204 100
+
 
 >ms2
 247.0204 100
 
 >compound FTneg0295
 >ionization [M+?]-
->parentmass 106.041140607691
+>parentmass Inf
 >rt 19.0659993973636
 
 >ms1
-106.0411 100
+
 
 >ms2
 106.0411 100
 
 >compound FTneg0296
 >ionization [M+?]-
->parentmass 50.0036823949243
+>parentmass Inf
 >rt 19.0540340599332
 
 >ms1
-50.00368 100
+
 
 >ms2
 50.00368 100
 
 >compound FTneg0297
 >ionization [M+?]-
->parentmass 68.0143869870523
+>parentmass Inf
 >rt 19.0511662127945
 
 >ms1
-68.01439 100
+
 
 >ms2
 68.01439 100
 
 >compound FTneg0298
 >ionization [M+?]-
->parentmass 120.056013230424
+>parentmass Inf
 >rt 19.0679056389806
 
 >ms1
-120.056 100
+
 
 >ms2
 120.056 100
 
 >compound FTneg0299
 >ionization [M+?]-
->parentmass 132.056262619533
+>parentmass Inf
 >rt 19.0578393477032
 
 >ms1
-132.0563 100
+
 
 >ms2
 132.0563 100
 
 >compound FTneg0300
 >ionization [M+?]-
->parentmass 145.851388057276
+>parentmass Inf
 >rt 19.0748760416667
 
 >ms1
-145.8514 100
+
 
 >ms2
 145.8514 100
 
 >compound FTneg0301
 >ionization [M+?]-
->parentmass 174.956138797228
+>parentmass Inf
 >rt 19.0809021497205
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0302
 >ionization [M+?]-
->parentmass 177.077125323055
+>parentmass Inf
 >rt 19.0769508154167
 
 >ms1
-177.0771 100
+
 
 >ms2
 177.0771 100
 
 >compound FTneg0303
 >ionization [M+?]-
->parentmass 189.077423498044
+>parentmass Inf
 >rt 19.0715719547858
 
 >ms1
-189.0774 100
+
 
 >ms2
 189.0774 100
 
 >compound FTneg0304
 >ionization [M+?]-
->parentmass 199.060326071717
+>parentmass Inf
 >rt 19.0737054139218
 
 >ms1
-199.0603 100
+
 
 >ms2
 199.0603 100
 
 >compound FTneg0305
 >ionization [M+?]-
->parentmass 205.072883395291
+>parentmass Inf
 >rt 19.054059090909
 
 >ms1
-205.0729 100
+
 
 >ms2
 205.0729 100
 
 >compound FTneg0306
 >ionization [M+?]-
->parentmass 207.931176229155
+>parentmass Inf
 >rt 19.0550708139311
 
 >ms1
-207.9312 100
+
 
 >ms2
 207.9312 100
 
 >compound FTneg0307
 >ionization [M+?]-
->parentmass 232.083851033417
+>parentmass Inf
 >rt 19.0646406531925
 
 >ms1
-232.0839 100
+
 
 >ms2
 232.0839 100
 
 >compound FTneg0308
 >ionization [M+?]-
->parentmass 249.388728670934
+>parentmass Inf
 >rt 19.0138678571428
 
 >ms1
-249.3887 100
+
 
 >ms2
 249.3887 100
 
 >compound FTneg0309
 >ionization [M+?]-
->parentmass 322.967394535129
+>parentmass Inf
 >rt 19.073579578446
 
 >ms1
-322.9674 100
+
 
 >ms2
 322.9674 100
 
 >compound FTneg0310
 >ionization [M+?]-
->parentmass 329.075377916532
+>parentmass Inf
 >rt 19.2907621917883
 
 >ms1
-329.0754 100
+
 
 >ms2
 329.0754 100
 
 >compound FTneg0311
 >ionization [M+?]-
->parentmass 50.0036874798579
+>parentmass Inf
 >rt 19.320653384591
 
 >ms1
-50.00369 100
+
 
 >ms2
 50.00369 100
 
 >compound FTneg0312
 >ionization [M+?]-
->parentmass 68.0143692892502
+>parentmass Inf
 >rt 19.2875483663412
 
 >ms1
-68.01437 100
+
 
 >ms2
 68.01437 100
 
 >compound FTneg0313
 >ionization [M+?]-
->parentmass 72.9931876547098
+>parentmass Inf
 >rt 19.2300564250345
 
 >ms1
-72.99319 100
+
 
 >ms2
 72.99319 100
 
 >compound FTneg0314
 >ionization [M+?]-
->parentmass 72.9932070322472
+>parentmass Inf
 >rt 19.2789043407236
 
 >ms1
-72.99321 100
+
 
 >ms2
 72.99321 100
 
 >compound FTneg0315
 >ionization [M+?]-
->parentmass 84.0091895680817
+>parentmass Inf
 >rt 19.2803704973214
 
 >ms1
-84.00919 100
+
 
 >ms2
 84.00919 100
 
 >compound FTneg0316
 >ionization [M+?]-
->parentmass 100.004144878306
+>parentmass Inf
 >rt 19.2717270983265
 
 >ms1
-100.0041 100
+
 
 >ms2
 100.0041 100
 
 >compound FTneg0317
 >ionization [M+?]-
->parentmass 109.004418015112
+>parentmass Inf
 >rt 19.2821307927242
 
 >ms1
-109.0044 100
+
 
 >ms2
 109.0044 100
 
 >compound FTneg0318
 >ionization [M+?]-
->parentmass 113.035706047622
+>parentmass Inf
 >rt 19.3249418825057
 
 >ms1
-113.0357 100
+
 
 >ms2
 113.0357 100
 
 >compound FTneg0319
 >ionization [M+?]-
->parentmass 126.031099883426
+>parentmass Inf
 >rt 19.279804818508
 
 >ms1
-126.0311 100
+
 
 >ms2
 126.0311 100
 
 >compound FTneg0320
 >ionization [M+?]-
->parentmass 141.030503021059
+>parentmass Inf
 >rt 19.3256353377125
 
 >ms1
-141.0305 100
+
 
 >ms2
 141.0305 100
 
 >compound FTneg0321
 >ionization [M+?]-
->parentmass 160.037627378803
+>parentmass Inf
 >rt 19.3045883725877
 
 >ms1
-160.0376 100
+
 
 >ms2
 160.0376 100
 
 >compound FTneg0322
 >ionization [M+?]-
->parentmass 174.956118352837
+>parentmass Inf
 >rt 19.3031469293965
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0323
 >ionization [M+?]-
->parentmass 190.928471025627
+>parentmass Inf
 >rt 19.3027191248536
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg0324
 >ionization [M+?]-
->parentmass 215.032776822903
+>parentmass Inf
 >rt 19.2710200609368
 
 >ms1
-215.0328 100
+
 
 >ms2
 215.0328 100
 
 >compound FTneg0325
 >ionization [M+?]-
->parentmass 227.043232258541
+>parentmass Inf
 >rt 19.2846602257794
 
 >ms1
-227.0432 100
+
 
 >ms2
 227.0432 100
 
 >compound FTneg0326
 >ionization [M+?]-
->parentmass 248.051720388623
+>parentmass Inf
 >rt 19.3163077486157
 
 >ms1
-248.0517 100
+
 
 >ms2
 248.0517 100
 
 >compound FTneg0327
 >ionization [M+?]-
->parentmass 254.0430503647
+>parentmass Inf
 >rt 19.3214818723308
 
 >ms1
-254.0431 100
+
 
 >ms2
 254.0431 100
 
 >compound FTneg0328
 >ionization [M+?]-
->parentmass 259.067562343954
+>parentmass Inf
 >rt 19.2866349824424
 
 >ms1
-259.0676 100
+
 
 >ms2
 259.0676 100
 
 >compound FTneg0329
 >ionization [M+?]-
->parentmass 300.060276838082
+>parentmass Inf
 >rt 19.2843895208473
 
 >ms1
-300.0603 100
+
 
 >ms2
 300.0603 100
 
 >compound FTneg0330
 >ionization [M+?]-
->parentmass 305.071332467898
+>parentmass Inf
 >rt 19.2854786188091
 
 >ms1
-305.0713 100
+
 
 >ms2
 305.0713 100
 
 >compound FTneg0331
 >ionization [M+?]-
->parentmass 311.065060594856
+>parentmass Inf
 >rt 19.2988085055108
 
 >ms1
-311.0651 100
+
 
 >ms2
 311.0651 100
 
 >compound FTneg0332
 >ionization [M+?]-
->parentmass 320.066546635956
+>parentmass Inf
 >rt 19.2825369528203
 
 >ms1
-320.0665 100
+
 
 >ms2
 320.0665 100
 
 >compound FTneg0333
 >ionization [M+?]-
->parentmass 324.059953848076
+>parentmass Inf
 >rt 19.3243263270398
 
 >ms1
-324.06 100
+
 
 >ms2
 324.06 100
 
 >compound FTneg0334
 >ionization [M+?]-
->parentmass 338.074754326377
+>parentmass Inf
 >rt 19.3214104166667
 
 >ms1
-338.0748 100
+
 
 >ms2
 338.0748 100
 
 >compound FTneg0335
 >ionization [M+?]-
->parentmass 342.069513677332
+>parentmass Inf
 >rt 19.2952489853736
 
 >ms1
-342.0695 100
+
 
 >ms2
 342.0695 100
 
 >compound FTneg0336
 >ionization [M+?]-
->parentmass 354.071438536308
+>parentmass Inf
 >rt 19.3081919506482
 
 >ms1
-354.0714 100
+
 
 >ms2
 354.0714 100
 
 >compound FTneg0337
 >ionization [M+?]-
->parentmass 369.080777090186
+>parentmass Inf
 >rt 19.3018839001523
 
 >ms1
-369.0808 100
+
 
 >ms2
 369.0808 100
 
 >compound FTneg0338
 >ionization [M+?]-
->parentmass 372.080408318418
+>parentmass Inf
 >rt 19.2903193933247
 
 >ms1
-372.0804 100
+
 
 >ms2
 372.0804 100
 
 >compound FTneg0339
 >ionization [M+?]-
->parentmass 381.081176281101
+>parentmass Inf
 >rt 19.3012348039694
 
 >ms1
-381.0812 100
+
 
 >ms2
 381.0812 100
 
 >compound FTneg0340
 >ionization [M+?]-
->parentmass 399.091912248254
+>parentmass Inf
 >rt 19.311207384404
 
 >ms1
-399.0919 100
+
 
 >ms2
 399.0919 100
 
 >compound FTneg0341
 >ionization [M+?]-
->parentmass 50.0037027326163
+>parentmass Inf
 >rt 19.9233861171752
 
 >ms1
-50.0037 100
+
 
 >ms2
 50.0037 100
 
 >compound FTneg0342
 >ionization [M+?]-
->parentmass 85.0045092856418
+>parentmass Inf
 >rt 19.9098768558281
 
 >ms1
-85.00451 100
+
 
 >ms2
 85.00451 100
 
 >compound FTneg0343
 >ionization [M+?]-
->parentmass 100.004151205017
+>parentmass Inf
 >rt 19.9518279589708
 
 >ms1
-100.0042 100
+
 
 >ms2
 100.0042 100
 
 >compound FTneg0344
 >ionization [M+?]-
->parentmass 146.938572219016
+>parentmass Inf
 >rt 19.9167827551702
 
 >ms1
-146.9386 100
+
 
 >ms2
 146.9386 100
 
 >compound FTneg0345
 >ionization [M+?]-
->parentmass 174.956116498893
+>parentmass Inf
 >rt 19.9332531948169
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0346
 >ionization [M+?]-
->parentmass 190.928563217497
+>parentmass Inf
 >rt 19.9601529703315
 
 >ms1
-190.9286 100
+
 
 >ms2
 190.9286 100
 
 >compound FTneg0347
 >ionization [M+?]-
->parentmass 50.0037046966926
+>parentmass Inf
 >rt 19.4968309841561
 
 >ms1
-50.0037 100
+
 
 >ms2
 50.0037 100
 
 >compound FTneg0348
 >ionization [M+?]-
->parentmass 68.0143879021085
+>parentmass Inf
 >rt 19.5039684106174
 
 >ms1
-68.01439 100
+
 
 >ms2
 68.01439 100
 
 >compound FTneg0349
 >ionization [M+?]-
->parentmass 84.0092310938521
+>parentmass Inf
 >rt 19.5167035692974
 
 >ms1
-84.00923 100
+
 
 >ms2
 84.00923 100
 
 >compound FTneg0350
 >ionization [M+?]-
->parentmass 125.022930123654
+>parentmass Inf
 >rt 19.4996328616887
 
 >ms1
-125.0229 100
+
 
 >ms2
 125.0229 100
 
 >compound FTneg0351
 >ionization [M+?]-
->parentmass 142.026484066381
+>parentmass Inf
 >rt 19.481846517748
 
 >ms1
-142.0265 100
+
 
 >ms2
 142.0265 100
 
 >compound FTneg0352
 >ionization [M+?]-
->parentmass 146.009078439199
+>parentmass Inf
 >rt 19.5175903760462
 
 >ms1
-146.0091 100
+
 
 >ms2
 146.0091 100
 
 >compound FTneg0353
 >ionization [M+?]-
->parentmass 171.065706522934
+>parentmass Inf
 >rt 19.486543105171
 
 >ms1
-171.0657 100
+
 
 >ms2
 171.0657 100
 
 >compound FTneg0354
 >ionization [M+?]-
->parentmass 174.956069247668
+>parentmass Inf
 >rt 19.4978050573752
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0355
 >ionization [M+?]-
->parentmass 190.928428165393
+>parentmass Inf
 >rt 19.506182249175
 
 >ms1
-190.9284 100
+
 
 >ms2
 190.9284 100
 
 >compound FTneg0356
 >ionization [M+?]-
->parentmass 240.026125190207
+>parentmass Inf
 >rt 19.5088438092236
 
 >ms1
-240.0261 100
+
 
 >ms2
 240.0261 100
 
 >compound FTneg0357
 >ionization [M+?]-
->parentmass 271.03242666993
+>parentmass Inf
 >rt 19.4809149540989
 
 >ms1
-271.0324 100
+
 
 >ms2
 271.0324 100
 
 >compound FTneg0358
 >ionization [M+?]-
->parentmass 283.035759302622
+>parentmass Inf
 >rt 19.5214207202824
 
 >ms1
-283.0358 100
+
 
 >ms2
 283.0358 100
 
 >compound FTneg0359
 >ionization [M+?]-
->parentmass 304.042955659494
+>parentmass Inf
 >rt 19.494747623618
 
 >ms1
-304.043 100
+
 
 >ms2
 304.043 100
 
 >compound FTneg0360
 >ionization [M+?]-
->parentmass 474.877727140797
+>parentmass Inf
 >rt 19.5175060682426
 
 >ms1
-474.8777 100
+
 
 >ms2
 474.8777 100
 
 >compound FTneg0361
 >ionization [M+?]-
->parentmass 88.0041918917659
+>parentmass Inf
 >rt 19.5510850416511
 
 >ms1
-88.00419 100
+
 
 >ms2
 88.00419 100
 
 >compound FTneg0362
 >ionization [M+?]-
->parentmass 50.0037135519408
+>parentmass Inf
 >rt 19.5660686722238
 
 >ms1
-50.00371 100
+
 
 >ms2
 50.00371 100
 
 >compound FTneg0363
 >ionization [M+?]-
->parentmass 68.0143937650679
+>parentmass Inf
 >rt 19.6012218382851
 
 >ms1
-68.01439 100
+
 
 >ms2
 68.01439 100
 
 >compound FTneg0364
 >ionization [M+?]-
->parentmass 100.004139221593
+>parentmass Inf
 >rt 19.5894547976095
 
 >ms1
-100.0041 100
+
 
 >ms2
 100.0041 100
 
 >compound FTneg0365
 >ionization [M+?]-
->parentmass 146.938565396358
+>parentmass Inf
 >rt 19.5564486983626
 
 >ms1
-146.9386 100
+
 
 >ms2
 146.9386 100
 
 >compound FTneg0366
 >ionization [M+?]-
->parentmass 174.956125617905
+>parentmass Inf
 >rt 19.5702732177456
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0367
 >ionization [M+?]-
->parentmass 189.01480385492
+>parentmass Inf
 >rt 19.5495285836048
 
 >ms1
-189.0148 100
+
 
 >ms2
 189.0148 100
 
 >compound FTneg0368
 >ionization [M+?]-
->parentmass 190.928522873998
+>parentmass Inf
 >rt 19.5644462555625
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg0369
 >ionization [M+?]-
->parentmass 229.916146615529
+>parentmass Inf
 >rt 19.5504405173985
 
 >ms1
-229.9161 100
+
 
 >ms2
 229.9161 100
 
 >compound FTneg0370
 >ionization [M+?]-
->parentmass 239.058821685427
+>parentmass Inf
 >rt 19.5596655247078
 
 >ms1
-239.0588 100
+
 
 >ms2
 239.0588 100
 
 >compound FTneg0371
 >ionization [M+?]-
->parentmass 242.910769903663
+>parentmass Inf
 >rt 19.5807750892935
 
 >ms1
-242.9108 100
+
 
 >ms2
 242.9108 100
 
 >compound FTneg0372
 >ionization [M+?]-
->parentmass 306.057503218378
+>parentmass Inf
 >rt 19.5337495256392
 
 >ms1
-306.0575 100
+
 
 >ms2
 306.0575 100
 
 >compound FTneg0373
 >ionization [M+?]-
->parentmass 320.876022452373
+>parentmass Inf
 >rt 19.5641304444445
 
 >ms1
-320.876 100
+
 
 >ms2
 320.876 100
 
 >compound FTneg0374
 >ionization [M+?]-
->parentmass 111.019949538906
+>parentmass Inf
 >rt 19.2296516743168
 
 >ms1
-111.0199 100
+
 
 >ms2
 111.0199 100
 
 >compound FTneg0375
 >ionization [M+?]-
->parentmass 340.089901440353
+>parentmass Inf
 >rt 19.2187276327605
 
 >ms1
-340.0899 100
+
 
 >ms2
 340.0899 100
 
 >compound FTneg0376
 >ionization [M+?]-
->parentmass 50.0037240449126
+>parentmass Inf
 >rt 19.2345652743966
 
 >ms1
-50.00372 100
+
 
 >ms2
 50.00372 100
 
 >compound FTneg0377
 >ionization [M+?]-
->parentmass 68.0143671327533
+>parentmass Inf
 >rt 19.2169372579683
 
 >ms1
-68.01437 100
+
 
 >ms2
 68.01437 100
 
 >compound FTneg0378
 >ionization [M+?]-
->parentmass 84.0091848937248
+>parentmass Inf
 >rt 19.2060325354507
 
 >ms1
-84.00918 100
+
 
 >ms2
 84.00918 100
 
 >compound FTneg0379
 >ionization [M+?]-
->parentmass 93.0090508452646
+>parentmass Inf
 >rt 19.2308256764406
 
 >ms1
-93.00905 100
+
 
 >ms2
 93.00905 100
 
 >compound FTneg0380
 >ionization [M+?]-
->parentmass 100.004147871849
+>parentmass Inf
 >rt 19.2116147942817
 
 >ms1
-100.0041 100
+
 
 >ms2
 100.0041 100
 
 >compound FTneg0381
 >ionization [M+?]-
->parentmass 110.024494066997
+>parentmass Inf
 >rt 19.2244565392941
 
 >ms1
-110.0245 100
+
 
 >ms2
 110.0245 100
 
 >compound FTneg0382
 >ionization [M+?]-
->parentmass 128.035505141696
+>parentmass Inf
 >rt 19.2387175123928
 
 >ms1
-128.0355 100
+
 
 >ms2
 128.0355 100
 
 >compound FTneg0383
 >ionization [M+?]-
->parentmass 135.042750980198
+>parentmass Inf
 >rt 19.2341709219677
 
 >ms1
-135.0428 100
+
 
 >ms2
 135.0428 100
 
 >compound FTneg0384
 >ionization [M+?]-
->parentmass 141.030460067519
+>parentmass Inf
 >rt 19.2099141511174
 
 >ms1
-141.0305 100
+
 
 >ms2
 141.0305 100
 
 >compound FTneg0385
 >ionization [M+?]-
->parentmass 144.04255793692
+>parentmass Inf
 >rt 19.2506205010213
 
 >ms1
-144.0426 100
+
 
 >ms2
 144.0426 100
 
 >compound FTneg0386
 >ionization [M+?]-
->parentmass 146.938543467984
+>parentmass Inf
 >rt 19.2276549537288
 
 >ms1
-146.9385 100
+
 
 >ms2
 146.9385 100
 
 >compound FTneg0387
 >ionization [M+?]-
->parentmass 158.055574457455
+>parentmass Inf
 >rt 19.2350200770579
 
 >ms1
-158.0556 100
+
 
 >ms2
 158.0556 100
 
 >compound FTneg0388
 >ionization [M+?]-
->parentmass 174.956050756381
+>parentmass Inf
 >rt 19.2459644197545
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0389
 >ionization [M+?]-
->parentmass 183.040933212733
+>parentmass Inf
 >rt 19.2315277192843
 
 >ms1
-183.0409 100
+
 
 >ms2
 183.0409 100
 
 >compound FTneg0390
 >ionization [M+?]-
->parentmass 185.04422289175
+>parentmass Inf
 >rt 19.2543061886464
 
 >ms1
-185.0442 100
+
 
 >ms2
 185.0442 100
 
 >compound FTneg0391
 >ionization [M+?]-
->parentmass 185.057132247381
+>parentmass Inf
 >rt 19.2360105355471
 
 >ms1
-185.0571 100
+
 
 >ms2
 185.0571 100
 
 >compound FTneg0392
 >ionization [M+?]-
->parentmass 200.051210567795
+>parentmass Inf
 >rt 19.262315
 
 >ms1
-200.0512 100
+
 
 >ms2
 200.0512 100
 
 >compound FTneg0393
 >ionization [M+?]-
->parentmass 212.031248999169
+>parentmass Inf
 >rt 19.2469890538665
 
 >ms1
-212.0312 100
+
 
 >ms2
 212.0312 100
 
 >compound FTneg0394
 >ionization [M+?]-
->parentmass 216.061457708315
+>parentmass Inf
 >rt 19.2460697683131
 
 >ms1
-216.0615 100
+
 
 >ms2
 216.0615 100
 
 >compound FTneg0395
 >ionization [M+?]-
->parentmass 217.046210211985
+>parentmass Inf
 >rt 19.2623508465845
 
 >ms1
-217.0462 100
+
 
 >ms2
 217.0462 100
 
 >compound FTneg0396
 >ionization [M+?]-
->parentmass 232.056077013037
+>parentmass Inf
 >rt 19.2729090849089
 
 >ms1
-232.0561 100
+
 
 >ms2
 232.0561 100
 
 >compound FTneg0397
 >ionization [M+?]-
->parentmass 235.048011311582
+>parentmass Inf
 >rt 19.2649509148871
 
 >ms1
-235.048 100
+
 
 >ms2
 235.048 100
 
 >compound FTneg0398
 >ionization [M+?]-
->parentmass 240.06280716275
+>parentmass Inf
 >rt 19.2113842547602
 
 >ms1
-240.0628 100
+
 
 >ms2
 240.0628 100
 
 >compound FTneg0399
 >ionization [M+?]-
->parentmass 250.058889923912
+>parentmass Inf
 >rt 19.2620523128774
 
 >ms1
-250.0589 100
+
 
 >ms2
 250.0589 100
 
 >compound FTneg0400
 >ionization [M+?]-
->parentmass 258.072249788666
+>parentmass Inf
 >rt 19.2527586162832
 
 >ms1
-258.0722 100
+
 
 >ms2
 258.0722 100
 
 >compound FTneg0401
 >ionization [M+?]-
->parentmass 266.054632835368
+>parentmass Inf
 >rt 19.2373847142306
 
 >ms1
-266.0546 100
+
 
 >ms2
 266.0546 100
 
 >compound FTneg0402
 >ionization [M+?]-
->parentmass 273.082935646659
+>parentmass Inf
 >rt 19.2363979166667
 
 >ms1
-273.0829 100
+
 
 >ms2
 273.0829 100
 
 >compound FTneg0403
 >ionization [M+?]-
->parentmass 274.067342189492
+>parentmass Inf
 >rt 19.261777520738
 
 >ms1
-274.0673 100
+
 
 >ms2
 274.0673 100
 
 >compound FTneg0404
 >ionization [M+?]-
->parentmass 279.073708055062
+>parentmass Inf
 >rt 19.2176928571431
 
 >ms1
-279.0737 100
+
 
 >ms2
 279.0737 100
 
 >compound FTneg0405
 >ionization [M+?]-
->parentmass 279.076336467012
+>parentmass Inf
 >rt 19.2173291666668
 
 >ms1
-279.0763 100
+
 
 >ms2
 279.0763 100
 
 >compound FTneg0406
 >ionization [M+?]-
->parentmass 295.070315195116
+>parentmass Inf
 >rt 19.2100522011756
 
 >ms1
-295.0703 100
+
 
 >ms2
 295.0703 100
 
 >compound FTneg0407
 >ionization [M+?]-
->parentmass 297.084548315336
+>parentmass Inf
 >rt 19.218998281689
 
 >ms1
-297.0845 100
+
 
 >ms2
 297.0845 100
 
 >compound FTneg0408
 >ionization [M+?]-
->parentmass 304.071002749395
+>parentmass Inf
 >rt 19.2128075787247
 
 >ms1
-304.071 100
+
 
 >ms2
 304.071 100
 
 >compound FTneg0409
 >ionization [M+?]-
->parentmass 307.08173060668
+>parentmass Inf
 >rt 19.244933279265
 
 >ms1
-307.0817 100
+
 
 >ms2
 307.0817 100
 
 >compound FTneg0410
 >ionization [M+?]-
->parentmass 314.074789133255
+>parentmass Inf
 >rt 19.2753990807234
 
 >ms1
-314.0748 100
+
 
 >ms2
 314.0748 100
 
 >compound FTneg0411
 >ionization [M+?]-
->parentmass 316.088151891926
+>parentmass Inf
 >rt 19.2405389895703
 
 >ms1
-316.0882 100
+
 
 >ms2
 316.0882 100
 
 >compound FTneg0412
 >ionization [M+?]-
->parentmass 323.075378090066
+>parentmass Inf
 >rt 19.2337173693665
 
 >ms1
-323.0754 100
+
 
 >ms2
 323.0754 100
 
 >compound FTneg0413
 >ionization [M+?]-
->parentmass 328.089651196383
+>parentmass Inf
 >rt 19.2268859859619
 
 >ms1
-328.0897 100
+
 
 >ms2
 328.0897 100
 
 >compound FTneg0414
 >ionization [M+?]-
->parentmass 331.08630199728
+>parentmass Inf
 >rt 19.2340003615065
 
 >ms1
-331.0863 100
+
 
 >ms2
 331.0863 100
 
 >compound FTneg0415
 >ionization [M+?]-
->parentmass 332.083036095044
+>parentmass Inf
 >rt 19.23405317118
 
 >ms1
-332.083 100
+
 
 >ms2
 332.083 100
 
 >compound FTneg0416
 >ionization [M+?]-
->parentmass 335.076997341027
+>parentmass Inf
 >rt 19.2603342052756
 
 >ms1
-335.077 100
+
 
 >ms2
 335.077 100
 
 >compound FTneg0417
 >ionization [M+?]-
->parentmass 343.0946598149
+>parentmass Inf
 >rt 19.2538325723853
 
 >ms1
-343.0947 100
+
 
 >ms2
 343.0947 100
 
 >compound FTneg0418
 >ionization [M+?]-
->parentmass 344.084254868592
+>parentmass Inf
 >rt 19.2334215623301
 
 >ms1
-344.0843 100
+
 
 >ms2
 344.0843 100
 
 >compound FTneg0419
 >ionization [M+?]-
->parentmass 346.096568703715
+>parentmass Inf
 >rt 19.2710292836781
 
 >ms1
-346.0966 100
+
 
 >ms2
 346.0966 100
 
 >compound FTneg0420
 >ionization [M+?]-
->parentmass 355.099489590946
+>parentmass Inf
 >rt 19.2226469252831
 
 >ms1
-355.0995 100
+
 
 >ms2
 355.0995 100
 
 >compound FTneg0421
 >ionization [M+?]-
->parentmass 356.793265520963
+>parentmass Inf
 >rt 19.2510087719299
 
 >ms1
-356.7933 100
+
 
 >ms2
 356.7933 100
 
 >compound FTneg0422
 >ionization [M+?]-
->parentmass 358.099368436742
+>parentmass Inf
 >rt 19.2380202851348
 
 >ms1
-358.0994 100
+
 
 >ms2
 358.0994 100
 
 >compound FTneg0423
 >ionization [M+?]-
->parentmass 359.089535187711
+>parentmass Inf
 >rt 19.2684297162519
 
 >ms1
-359.0895 100
+
 
 >ms2
 359.0895 100
 
 >compound FTneg0424
 >ionization [M+?]-
->parentmass 368.087546942232
+>parentmass Inf
 >rt 19.2181835375179
 
 >ms1
-368.0875 100
+
 
 >ms2
 368.0875 100
 
 >compound FTneg0425
 >ionization [M+?]-
->parentmass 370.102170753929
+>parentmass Inf
 >rt 19.2543813673927
 
 >ms1
-370.1022 100
+
 
 >ms2
 370.1022 100
 
 >compound FTneg0426
 >ionization [M+?]-
->parentmass 371.095165490691
+>parentmass Inf
 >rt 19.2235411459041
 
 >ms1
-371.0952 100
+
 
 >ms2
 371.0952 100
 
 >compound FTneg0427
 >ionization [M+?]-
->parentmass 373.107626670686
+>parentmass Inf
 >rt 19.2482822841838
 
 >ms1
-373.1076 100
+
 
 >ms2
 373.1076 100
 
 >compound FTneg0428
 >ionization [M+?]-
->parentmass 379.101596331898
+>parentmass Inf
 >rt 19.2238782870402
 
 >ms1
-379.1016 100
+
 
 >ms2
 379.1016 100
 
 >compound FTneg0429
 >ionization [M+?]-
->parentmass 382.106469633472
+>parentmass Inf
 >rt 19.2188064894203
 
 >ms1
-382.1065 100
+
 
 >ms2
 382.1065 100
 
 >compound FTneg0430
 >ionization [M+?]-
->parentmass 383.094670849511
+>parentmass Inf
 >rt 19.2571602600574
 
 >ms1
-383.0947 100
+
 
 >ms2
 383.0947 100
 
 >compound FTneg0431
 >ionization [M+?]-
->parentmass 383.097124235522
+>parentmass Inf
 >rt 19.2363264967022
 
 >ms1
-383.0971 100
+
 
 >ms2
 383.0971 100
 
 >compound FTneg0432
 >ionization [M+?]-
->parentmass 84.0092455326759
+>parentmass Inf
 >rt 19.434423474381
 
 >ms1
-84.00925 100
+
 
 >ms2
 84.00925 100
 
 >compound FTneg0433
 >ionization [M+?]-
->parentmass 50.0037327917841
+>parentmass Inf
 >rt 19.403113107081
 
 >ms1
-50.00373 100
+
 
 >ms2
 50.00373 100
 
 >compound FTneg0434
 >ionization [M+?]-
->parentmass 100.004190867676
+>parentmass Inf
 >rt 19.4428870870155
 
 >ms1
-100.0042 100
+
 
 >ms2
 100.0042 100
 
 >compound FTneg0435
 >ionization [M+?]-
->parentmass 117.01905147411
+>parentmass Inf
 >rt 19.4237153580495
 
 >ms1
-117.0191 100
+
 
 >ms2
 117.0191 100
 
 >compound FTneg0436
 >ionization [M+?]-
->parentmass 146.922875295395
+>parentmass Inf
 >rt 19.4330048405854
 
 >ms1
-146.9229 100
+
 
 >ms2
 146.9229 100
 
 >compound FTneg0437
 >ionization [M+?]-
->parentmass 190.928509165073
+>parentmass Inf
 >rt 19.4438798223907
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg0438
 >ionization [M+?]-
->parentmass 191.030457530798
+>parentmass Inf
 >rt 19.4103239806253
 
 >ms1
-191.0305 100
+
 
 >ms2
 191.0305 100
 
 >compound FTneg0439
 >ionization [M+?]-
->parentmass 275.06240408128
+>parentmass Inf
 >rt 19.4044237371664
 
 >ms1
-275.0624 100
+
 
 >ms2
 275.0624 100
 
 >compound FTneg0440
 >ionization [M+?]-
->parentmass 284.061636901332
+>parentmass Inf
 >rt 19.4111874999999
 
 >ms1
-284.0616 100
+
 
 >ms2
 284.0616 100
 
 >compound FTneg0441
 >ionization [M+?]-
->parentmass 289.042451669548
+>parentmass Inf
 >rt 19.4405161974642
 
 >ms1
-289.0425 100
+
 
 >ms2
 289.0425 100
 
 >compound FTneg0442
 >ionization [M+?]-
->parentmass 291.05737699894
+>parentmass Inf
 >rt 19.4050281046441
 
 >ms1
-291.0574 100
+
 
 >ms2
 291.0574 100
 
 >compound FTneg0443
 >ionization [M+?]-
->parentmass 309.061821501089
+>parentmass Inf
 >rt 19.4268329357312
 
 >ms1
-309.0618 100
+
 
 >ms2
 309.0618 100
 
 >compound FTneg0444
 >ionization [M+?]-
->parentmass 319.053013744163
+>parentmass Inf
 >rt 19.408981022568
 
 >ms1
-319.053 100
+
 
 >ms2
 319.053 100
 
 >compound FTneg0445
 >ionization [M+?]-
->parentmass 57.9757892875971
+>parentmass Inf
 >rt 2.06121449904184
 
 >ms1
-57.97579 100
 
 >ms2
 53.0124 53
@@ -5380,11 +5362,10 @@
 
 >compound FTneg0446
 >ionization [M+?]-
->parentmass 59.9714975914531
+>parentmass Inf
 >rt 2.057717948718
 
 >ms1
-59.9715 100
 
 >ms2
 55.054 100
@@ -5400,11 +5381,10 @@
 
 >compound FTneg0447
 >ionization [M+?]-
->parentmass 183.848348028666
+>parentmass Inf
 >rt 2.03185
 
 >ms1
-183.8483 100
 
 >ms2
 51.9383 40
@@ -5421,22 +5401,21 @@
 
 >compound FTneg0448
 >ionization [M+?]-
->parentmass 200.965303684596
+>parentmass Inf
 >rt 2.12017085390782
 
 >ms1
-200.9653 100
+
 
 >ms2
 200.9653 100
 
 >compound FTneg0449
 >ionization [M+?]-
->parentmass 220.814294723542
+>parentmass Inf
 >rt 2.03752156862741
 
 >ms1
-220.8143 100
 
 >ms2
 51.0245 60
@@ -5462,33 +5441,30 @@
 
 >compound FTneg0450
 >ionization [M+?]-
->parentmass 241.823599367053
+>parentmass Inf
 >rt 2.04004615384608
 
 >ms1
-241.8236 100
 
 >ms2
 55.0427 20
 
 >compound FTneg0451
 >ionization [M+?]-
->parentmass 243.820385781872
+>parentmass Inf
 >rt 2.03948717948715
 
 >ms1
-243.8204 100
 
 >ms2
 54.9367 10
 
 >compound FTneg0452
 >ionization [M+?]-
->parentmass 264.829848444185
+>parentmass Inf
 >rt 2.040091025641
 
 >ms1
-264.8298 100
 
 >ms2
 55.054 159
@@ -5558,22 +5534,21 @@
 
 >compound FTneg0453
 >ionization [M+?]-
->parentmass 266.826490870695
+>parentmass Inf
 >rt 2.03902121212127
 
 >ms1
-266.8265 100
+
 
 >ms2
 266.8265 100
 
 >compound FTneg0454
 >ionization [M+?]-
->parentmass 59.0137938410872
+>parentmass Inf
 >rt 2.94922758621266
 
 >ms1
-59.01379 100
 
 >ms2
 50.0148 80
@@ -5779,11 +5754,10 @@
 
 >compound FTneg0455
 >ionization [M+?]-
->parentmass 229.069231927836
+>parentmass Inf
 >rt 2.93927389928541
 
 >ms1
-229.0692 100
 
 >ms2
 55.9365 40
@@ -5794,11 +5768,10 @@
 
 >compound FTneg0456
 >ionization [M+?]-
->parentmass 283.103391079222
+>parentmass Inf
 >rt 2.93318366229411
 
 >ms1
-283.1034 100
 
 >ms2
 55.0533 40
@@ -5811,22 +5784,21 @@
 
 >compound FTneg0457
 >ionization [M+?]-
->parentmass 59.9853690992213
+>parentmass Inf
 >rt 0.0198725972893457
 
 >ms1
-59.98537 100
+
 
 >ms2
 59.98537 100
 
 >compound FTneg0458
 >ionization [M+?]-
->parentmass 59.0138189637868
+>parentmass Inf
 >rt 0.0493315440495955
 
 >ms1
-59.01382 100
 
 >ms2
 53.0331 40
@@ -5845,11 +5817,10 @@
 
 >compound FTneg0459
 >ionization [M+?]-
->parentmass 59.9853494034997
+>parentmass Inf
 >rt 0.041890843143628
 
 >ms1
-59.98535 100
 
 >ms2
 50.0163 80
@@ -6076,11 +6047,10 @@
 
 >compound FTneg0460
 >ionization [M+?]-
->parentmass 59.9853554928619
+>parentmass Inf
 >rt 0.0668062024042101
 
 >ms1
-59.98536 100
 
 >ms2
 55.054 40
@@ -6094,22 +6064,21 @@
 
 >compound FTneg0461
 >ionization [M+?]-
->parentmass 60.9929727854402
+>parentmass Inf
 >rt 0.0338750313745386
 
 >ms1
-60.99297 100
+
 
 >ms2
 60.99297 100
 
 >compound FTneg0462
 >ionization [M+?]-
->parentmass 76.9880909333365
+>parentmass Inf
 >rt 0.0637552749598539
 
 >ms1
-76.98809 100
 
 >ms2
 60.0786 40
@@ -6121,22 +6090,21 @@
 
 >compound FTneg0463
 >ionization [M+?]-
->parentmass 76.9881055320315
+>parentmass Inf
 >rt 0.0274348439690739
 
 >ms1
-76.98811 100
+
 
 >ms2
 76.98811 100
 
 >compound FTneg0464
 >ionization [M+?]-
->parentmass 93.0345667536857
+>parentmass Inf
 >rt 0.0398711994645929
 
 >ms1
-93.03457 100
 
 >ms2
 51.0238 4
@@ -6168,22 +6136,21 @@
 
 >compound FTneg0465
 >ionization [M+?]-
->parentmass 93.0346411231102
+>parentmass Inf
 >rt 0.0190404477034013
 
 >ms1
-93.03464 100
+
 
 >ms2
 93.03464 100
 
 >compound FTneg0466
 >ionization [M+?]-
->parentmass 219.175408430209
+>parentmass Inf
 >rt 0.0369395226977871
 
 >ms1
-219.1754 100
 
 >ms2
 50.0148 8
@@ -6213,11 +6180,10 @@
 
 >compound FTneg0467
 >ionization [M+?]-
->parentmass 59.9852534062581
+>parentmass Inf
 >rt 2.17566393693448
 
 >ms1
-59.98525 100
 
 >ms2
 50.0148 13
@@ -6274,11 +6240,10 @@
 
 >compound FTneg0468
 >ionization [M+?]-
->parentmass 88.9880691800687
+>parentmass Inf
 >rt 2.1363407076594
 
 >ms1
-88.98807 100
 
 >ms2
 50.0113 4
@@ -6307,11 +6272,10 @@
 
 >compound FTneg0469
 >ionization [M+?]-
->parentmass 195.811038922565
+>parentmass Inf
 >rt 2.22243440769915
 
 >ms1
-195.811 100
 
 >ms2
 51.9405 40
@@ -6332,99 +6296,98 @@
 
 >compound FTneg0470
 >ionization [M+?]-
->parentmass 59.9853860991264
+>parentmass Inf
 >rt 1.3291101224391
 
 >ms1
-59.98539 100
+
 
 >ms2
 59.98539 100
 
 >compound FTneg0471
 >ionization [M+?]-
->parentmass 72.9931740962894
+>parentmass Inf
 >rt 1.34865321404971
 
 >ms1
-72.99317 100
+
 
 >ms2
 72.99317 100
 
 >compound FTneg0472
 >ionization [M+?]-
->parentmass 88.9882626763183
+>parentmass Inf
 >rt 1.40020810486903
 
 >ms1
-88.98826 100
+
 
 >ms2
 88.98826 100
 
 >compound FTneg0473
 >ionization [M+?]-
->parentmass 91.0036889203946
+>parentmass Inf
 >rt 1.44100848086059
 
 >ms1
-91.00369 100
+
 
 >ms2
 91.00369 100
 
 >compound FTneg0474
 >ionization [M+?]-
->parentmass 116.928601480146
+>parentmass Inf
 >rt 1.37127455903811
 
 >ms1
-116.9286 100
+
 
 >ms2
 116.9286 100
 
 >compound FTneg0475
 >ionization [M+?]-
->parentmass 190.928567022264
+>parentmass Inf
 >rt 1.35543366664067
 
 >ms1
-190.9286 100
+
 
 >ms2
 190.9286 100
 
 >compound FTneg0476
 >ionization [M+?]-
->parentmass 207.931326076123
+>parentmass Inf
 >rt 1.36149385376932
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg0477
 >ionization [M+?]-
->parentmass 235.926237288897
+>parentmass Inf
 >rt 1.36528028934029
 
 >ms1
-235.9262 100
+
 
 >ms2
 235.9262 100
 
 >compound FTneg0478
 >ionization [M+?]-
->parentmass 60.9931235097944
+>parentmass Inf
 >rt 2.2787553501809
 
 >ms1
-60.99312 100
 
 >ms2
 90.9672 40
@@ -6435,99 +6398,98 @@
 
 >compound FTneg0479
 >ionization [M+?]-
->parentmass 197.808015231005
+>parentmass Inf
 >rt 2.28986695667512
 
 >ms1
-197.808 100
+
 
 >ms2
 197.808 100
 
 >compound FTneg0480
 >ionization [M+?]-
->parentmass 243.062231734834
+>parentmass Inf
 >rt 2.33584319103001
 
 >ms1
-243.0622 100
+
 
 >ms2
 243.0622 100
 
 >compound FTneg0481
 >ionization [M+?]-
->parentmass 254.981567208364
+>parentmass Inf
 >rt 2.34209806673438
 
 >ms1
-254.9816 100
+
 
 >ms2
 254.9816 100
 
 >compound FTneg0482
 >ionization [M+?]-
->parentmass 60.9931423577734
+>parentmass Inf
 >rt 1.21842778116117
 
 >ms1
-60.99314 100
+
 
 >ms2
 60.99314 100
 
 >compound FTneg0483
 >ionization [M+?]-
->parentmass 148.953395337411
+>parentmass Inf
 >rt 1.21673106101161
 
 >ms1
-148.9534 100
+
 
 >ms2
 148.9534 100
 
 >compound FTneg0484
 >ionization [M+?]-
->parentmass 88.9882560158722
+>parentmass Inf
 >rt 6.30146531601825
 
 >ms1
-88.98826 100
+
 
 >ms2
 88.98826 100
 
 >compound FTneg0485
 >ionization [M+?]-
->parentmass 60.9931846464332
+>parentmass Inf
 >rt 6.27830033146763
 
 >ms1
-60.99318 100
+
 
 >ms2
 60.99318 100
 
 >compound FTneg0486
 >ionization [M+?]-
->parentmass 100.933175605254
+>parentmass Inf
 >rt 6.27261343223058
 
 >ms1
-100.9332 100
+
 
 >ms2
 100.9332 100
 
 >compound FTneg0487
 >ionization [M+?]-
->parentmass 116.982295474949
+>parentmass Inf
 >rt 6.31489640485107
 
 >ms1
-116.9823 100
 
 >ms2
 52.0184 40
@@ -6558,99 +6520,98 @@
 
 >compound FTneg0488
 >ionization [M+?]-
->parentmass 220.939555922551
+>parentmass Inf
 >rt 6.23324683253037
 
 >ms1
-220.9396 100
+
 
 >ms2
 220.9396 100
 
 >compound FTneg0489
 >ionization [M+?]-
->parentmass 306.925366816092
+>parentmass Inf
 >rt 6.27530136942716
 
 >ms1
-306.9254 100
+
 
 >ms2
 306.9254 100
 
 >compound FTneg0490
 >ionization [M+?]-
->parentmass 321.900303752255
+>parentmass Inf
 >rt 6.30640421098036
 
 >ms1
-321.9003 100
+
 
 >ms2
 321.9003 100
 
 >compound FTneg0491
 >ionization [M+?]-
->parentmass 60.9931961513457
+>parentmass Inf
 >rt 0.966043414675785
 
 >ms1
-60.9932 100
+
 
 >ms2
 60.9932 100
 
 >compound FTneg0492
 >ionization [M+?]-
->parentmass 76.9881124308738
+>parentmass Inf
 >rt 0.963376614837534
 
 >ms1
-76.98811 100
+
 
 >ms2
 76.98811 100
 
 >compound FTneg0493
 >ionization [M+?]-
->parentmass 116.928618934131
+>parentmass Inf
 >rt 0.940835029877413
 
 >ms1
-116.9286 100
+
 
 >ms2
 116.9286 100
 
 >compound FTneg0494
 >ionization [M+?]-
->parentmass 207.931359174009
+>parentmass Inf
 >rt 0.935171796325928
 
 >ms1
-207.9314 100
+
 
 >ms2
 207.9314 100
 
 >compound FTneg0495
 >ionization [M+?]-
->parentmass 235.926241422283
+>parentmass Inf
 >rt 0.980080923848343
 
 >ms1
-235.9262 100
+
 
 >ms2
 235.9262 100
 
 >compound FTneg0496
 >ionization [M+?]-
->parentmass 61.9884440863726
+>parentmass Inf
 >rt 18.2940337298687
 
 >ms1
-61.98844 100
 
 >ms2
 57.0333 40
@@ -6659,11 +6620,10 @@
 
 >compound FTneg0497
 >ionization [M+?]-
->parentmass 61.7851377482842
+>parentmass Inf
 >rt 18.2688480677294
 
 >ms1
-61.78514 100
 
 >ms2
 55.0541 10
@@ -6674,11 +6634,10 @@
 
 >compound FTneg0498
 >ionization [M+?]-
->parentmass 540.32997695387
+>parentmass Inf
 >rt 13.9975003540877
 
 >ms1
-540.33 100
 
 >ms2
 50.0198 8
@@ -6686,11 +6645,10 @@
 
 >compound FTneg0499
 >ionization [M+?]-
->parentmass 61.9882896281947
+>parentmass Inf
 >rt 13.9159764433678
 
 >ms1
-61.98829 100
 
 >ms2
 55.0601 40
@@ -6710,11 +6668,10 @@
 
 >compound FTneg0500
 >ionization [M+?]-
->parentmass 480.309204442176
+>parentmass Inf
 >rt 13.9966834348519
 
 >ms1
-480.3092 100
 
 >ms2
 50.9815 40
@@ -6746,11 +6703,10 @@
 
 >compound FTneg0501
 >ionization [M+?]-
->parentmass 530.301643315522
+>parentmass Inf
 >rt 14.054050160003
 
 >ms1
-530.3016 100
 
 >ms2
 62.9841 40
@@ -6762,11 +6718,10 @@
 
 >compound FTneg0502
 >ionization [M+?]-
->parentmass 530.301695362596
+>parentmass Inf
 >rt 13.8507835260718
 
 >ms1
-530.3017 100
 
 >ms2
 53.0122 20
@@ -6791,22 +6746,20 @@
 
 >compound FTneg0503
 >ionization [M+?]-
->parentmass 532.299879412592
+>parentmass Inf
 >rt 14.0264558436653
 
 >ms1
-532.2999 100
 
 >ms2
 56.0574 40
 
 >compound FTneg0504
 >ionization [M+?]-
->parentmass 538.522499314006
+>parentmass Inf
 >rt 14.0115826140783
 
 >ms1
-538.5225 100
 
 >ms2
 53.0376 13
@@ -6879,11 +6832,10 @@
 
 >compound FTneg0505
 >ionization [M+?]-
->parentmass 540.268949501502
+>parentmass Inf
 >rt 13.9980779397577
 
 >ms1
-540.2689 100
 
 >ms2
 55.9337 20
@@ -6891,11 +6843,10 @@
 
 >compound FTneg0506
 >ionization [M+?]-
->parentmass 540.296997765344
+>parentmass Inf
 >rt 13.9787520027454
 
 >ms1
-540.297 100
 
 >ms2
 55.0541 8
@@ -6908,11 +6859,10 @@
 
 >compound FTneg0507
 >ionization [M+?]-
->parentmass 540.330135148518
+>parentmass Inf
 >rt 13.82216665379
 
 >ms1
-540.3301 100
 
 >ms2
 55.0548 16
@@ -6945,11 +6895,10 @@
 
 >compound FTneg0508
 >ionization [M+?]-
->parentmass 541.30205333914
+>parentmass Inf
 >rt 14.0173758077639
 
 >ms1
-541.3021 100
 
 >ms2
 55.0549 120
@@ -6981,11 +6930,10 @@
 
 >compound FTneg0509
 >ionization [M+?]-
->parentmass 557.320552022359
+>parentmass Inf
 >rt 14.0568070193812
 
 >ms1
-557.3206 100
 
 >ms2
 51.0237 13
@@ -7017,11 +6965,10 @@
 
 >compound FTneg0510
 >ionization [M+?]-
->parentmass 608.31782898166
+>parentmass Inf
 >rt 13.9111755986041
 
 >ms1
-608.3178 100
 
 >ms2
 51.5689 40
@@ -7059,33 +7006,32 @@
 
 >compound FTneg0511
 >ionization [M+?]-
->parentmass 61.9884276058382
+>parentmass Inf
 >rt 16.1341455830581
 
 >ms1
-61.98843 100
+
 
 >ms2
 61.98843 100
 
 >compound FTneg0512
 >ionization [M+?]-
->parentmass 293.176273904275
+>parentmass Inf
 >rt 16.1654996676164
 
 >ms1
-293.1763 100
+
 
 >ms2
 293.1763 100
 
 >compound FTneg0513
 >ionization [M+?]-
->parentmass 311.168573041992
+>parentmass Inf
 >rt 16.1425402055227
 
 >ms1
-311.1686 100
 
 >ms2
 55.0275 20
@@ -7109,11 +7055,10 @@
 
 >compound FTneg0514
 >ionization [M+?]-
->parentmass 325.184102844519
+>parentmass Inf
 >rt 16.1082037455503
 
 >ms1
-325.1841 100
 
 >ms2
 53.0384 40
@@ -7155,11 +7100,10 @@
 
 >compound FTneg0515
 >ionization [M+?]-
->parentmass 473.282410308406
+>parentmass Inf
 >rt 16.1441744563638
 
 >ms1
-473.2824 100
 
 >ms2
 58.0621 40
@@ -7167,11 +7111,10 @@
 
 >compound FTneg0516
 >ionization [M+?]-
->parentmass 489.277333064603
+>parentmass Inf
 >rt 16.1533537840716
 
 >ms1
-489.2773 100
 
 >ms2
 55.0526 40
@@ -7192,99 +7135,98 @@
 
 >compound FTneg0517
 >ionization [M+?]-
->parentmass 61.9884279055455
+>parentmass Inf
 >rt 16.2485924592472
 
 >ms1
-61.98843 100
+
 
 >ms2
 61.98843 100
 
 >compound FTneg0518
 >ionization [M+?]-
->parentmass 64.0062558284518
+>parentmass Inf
 >rt 19.2135017380196
 
 >ms1
-64.00626 100
+
 
 >ms2
 64.00626 100
 
 >compound FTneg0519
 >ionization [M+?]-
->parentmass 153.044096319602
+>parentmass Inf
 >rt 19.2258366965753
 
 >ms1
-153.0441 100
+
 
 >ms2
 153.0441 100
 
 >compound FTneg0520
 >ionization [M+?]-
->parentmass 246.067745651371
+>parentmass Inf
 >rt 19.207800788937
 
 >ms1
-246.0677 100
+
 
 >ms2
 246.0677 100
 
 >compound FTneg0521
 >ionization [M+?]-
->parentmass 65.0146110449049
+>parentmass Inf
 >rt 6.56994434444517
 
 >ms1
-65.01461 100
+
 
 >ms2
 65.01461 100
 
 >compound FTneg0522
 >ionization [M+?]-
->parentmass 271.12935749771
+>parentmass Inf
 >rt 6.68956727630033
 
 >ms1
-271.1294 100
+
 
 >ms2
 271.1294 100
 
 >compound FTneg0523
 >ionization [M+?]-
->parentmass 274.002456346785
+>parentmass Inf
 >rt 6.68633100524875
 
 >ms1
-274.0025 100
+
 
 >ms2
 274.0025 100
 
 >compound FTneg0524
 >ionization [M+?]-
->parentmass 302.171705414408
+>parentmass Inf
 >rt 6.68757699035124
 
 >ms1
-302.1717 100
+
 
 >ms2
 302.1717 100
 
 >compound FTneg0525
 >ionization [M+?]-
->parentmass 326.1239136528
+>parentmass Inf
 >rt 6.6753686069247
 
 >ms1
-326.1239 100
 
 >ms2
 57.0658 40
@@ -7292,22 +7234,21 @@
 
 >compound FTneg0526
 >ionization [M+?]-
->parentmass 417.175315200262
+>parentmass Inf
 >rt 6.68414885847589
 
 >ms1
-417.1753 100
+
 
 >ms2
 417.1753 100
 
 >compound FTneg0527
 >ionization [M+?]-
->parentmass 357.082586991741
+>parentmass Inf
 >rt 6.70978889643905
 
 >ms1
-357.0826 100
 
 >ms2
 55.0503 40
@@ -7335,286 +7276,285 @@
 
 >compound FTneg0528
 >ionization [M+?]-
->parentmass 65.0146242878622
+>parentmass Inf
 >rt 6.76515217125022
 
 >ms1
-65.01462 100
+
 
 >ms2
 65.01462 100
 
 >compound FTneg0529
 >ionization [M+?]-
->parentmass 146.961984598413
+>parentmass Inf
 >rt 6.77702463690241
 
 >ms1
-146.962 100
+
 
 >ms2
 146.962 100
 
 >compound FTneg0530
 >ionization [M+?]-
->parentmass 152.033091970208
+>parentmass Inf
 >rt 6.72474958661374
 
 >ms1
-152.0331 100
+
 
 >ms2
 152.0331 100
 
 >compound FTneg0531
 >ionization [M+?]-
->parentmass 171.102338897151
+>parentmass Inf
 >rt 6.74412667234178
 
 >ms1
-171.1023 100
+
 
 >ms2
 171.1023 100
 
 >compound FTneg0532
 >ionization [M+?]-
->parentmass 173.081715929126
+>parentmass Inf
 >rt 6.73306980545421
 
 >ms1
-173.0817 100
+
 
 >ms2
 173.0817 100
 
 >compound FTneg0533
 >ionization [M+?]-
->parentmass 178.977602375162
+>parentmass Inf
 >rt 6.78276221426421
 
 >ms1
-178.9776 100
+
 
 >ms2
 178.9776 100
 
 >compound FTneg0534
 >ionization [M+?]-
->parentmass 188.986183697986
+>parentmass Inf
 >rt 6.80131374686455
 
 >ms1
-188.9862 100
+
 
 >ms2
 188.9862 100
 
 >compound FTneg0535
 >ionization [M+?]-
->parentmass 193.060954273108
+>parentmass Inf
 >rt 6.71042263463017
 
 >ms1
-193.061 100
+
 
 >ms2
 193.061 100
 
 >compound FTneg0536
 >ionization [M+?]-
->parentmass 233.012404706512
+>parentmass Inf
 >rt 6.73534921774313
 
 >ms1
-233.0124 100
+
 
 >ms2
 233.0124 100
 
 >compound FTneg0537
 >ionization [M+?]-
->parentmass 253.119146964989
+>parentmass Inf
 >rt 6.72243359752756
 
 >ms1
-253.1191 100
+
 
 >ms2
 253.1191 100
 
 >compound FTneg0538
 >ionization [M+?]-
->parentmass 277.036022367498
+>parentmass Inf
 >rt 6.75321511376736
 
 >ms1
-277.036 100
+
 
 >ms2
 277.036 100
 
 >compound FTneg0539
 >ionization [M+?]-
->parentmass 291.002964699882
+>parentmass Inf
 >rt 6.73800056029355
 
 >ms1
-291.003 100
+
 
 >ms2
 291.003 100
 
 >compound FTneg0540
 >ionization [M+?]-
->parentmass 303.144898537167
+>parentmass Inf
 >rt 6.75547787481323
 
 >ms1
-303.1449 100
+
 
 >ms2
 303.1449 100
 
 >compound FTneg0541
 >ionization [M+?]-
->parentmass 307.104091217806
+>parentmass Inf
 >rt 6.71786509101014
 
 >ms1
-307.1041 100
+
 
 >ms2
 307.1041 100
 
 >compound FTneg0542
 >ionization [M+?]-
->parentmass 317.105473897268
+>parentmass Inf
 >rt 6.76778571935938
 
 >ms1
-317.1055 100
+
 
 >ms2
 317.1055 100
 
 >compound FTneg0543
 >ionization [M+?]-
->parentmass 323.085625603487
+>parentmass Inf
 >rt 6.72282452565505
 
 >ms1
-323.0856 100
+
 
 >ms2
 323.0856 100
 
 >compound FTneg0544
 >ionization [M+?]-
->parentmass 325.149972056209
+>parentmass Inf
 >rt 6.73557056123122
 
 >ms1
-325.15 100
+
 
 >ms2
 325.15 100
 
 >compound FTneg0545
 >ionization [M+?]-
->parentmass 327.127567617296
+>parentmass Inf
 >rt 6.70809601556664
 
 >ms1
-327.1276 100
+
 
 >ms2
 327.1276 100
 
 >compound FTneg0546
 >ionization [M+?]-
->parentmass 337.149671063524
+>parentmass Inf
 >rt 6.72987291666675
 
 >ms1
-337.1497 100
+
 
 >ms2
 337.1497 100
 
 >compound FTneg0547
 >ionization [M+?]-
->parentmass 343.160633377261
+>parentmass Inf
 >rt 6.73502866799238
 
 >ms1
-343.1606 100
+
 
 >ms2
 343.1606 100
 
 >compound FTneg0548
 >ionization [M+?]-
->parentmass 357.138409655892
+>parentmass Inf
 >rt 6.7275796152492
 
 >ms1
-357.1384 100
+
 
 >ms2
 357.1384 100
 
 >compound FTneg0549
 >ionization [M+?]-
->parentmass 376.071274778245
+>parentmass Inf
 >rt 6.69693165208275
 
 >ms1
-376.0713 100
+
 
 >ms2
 376.0713 100
 
 >compound FTneg0550
 >ionization [M+?]-
->parentmass 393.036367906662
+>parentmass Inf
 >rt 6.72463659979641
 
 >ms1
-393.0364 100
+
 
 >ms2
 393.0364 100
 
 >compound FTneg0551
 >ionization [M+?]-
->parentmass 65.9985202591702
+>parentmass Inf
 >rt 7.11353489906445
 
 >ms1
-65.99852 100
+
 
 >ms2
 65.99852 100
 
 >compound FTneg0552
 >ionization [M+?]-
->parentmass 155.045997041473
+>parentmass Inf
 >rt 7.12103010278605
 
 >ms1
-155.046 100
+
 
 >ms2
 155.046 100
 
 >compound FTneg0553
 >ionization [M+?]-
->parentmass 174.956133387599
+>parentmass Inf
 >rt 7.09951016692101
 
 >ms1
-174.9561 100
 
 >ms2
 57.0357 40
@@ -7644,198 +7584,197 @@
 
 >compound FTneg0554
 >ionization [M+?]-
->parentmass 198.05139547404
+>parentmass Inf
 >rt 7.10430079440383
 
 >ms1
-198.0514 100
+
 
 >ms2
 198.0514 100
 
 >compound FTneg0555
 >ionization [M+?]-
->parentmass 278.089032745169
+>parentmass Inf
 >rt 7.10501227942382
 
 >ms1
-278.089 100
+
 
 >ms2
 278.089 100
 
 >compound FTneg0556
 >ionization [M+?]-
->parentmass 65.9985968029726
+>parentmass Inf
 >rt 6.79746275481955
 
 >ms1
-65.9986 100
+
 
 >ms2
 65.9986 100
 
 >compound FTneg0557
 >ionization [M+?]-
->parentmass 68.0143176572873
+>parentmass Inf
 >rt 6.8295278375663
 
 >ms1
-68.01432 100
+
 
 >ms2
 68.01432 100
 
 >compound FTneg0558
 >ionization [M+?]-
->parentmass 72.9931530311643
+>parentmass Inf
 >rt 6.85515072313329
 
 >ms1
-72.99315 100
+
 
 >ms2
 72.99315 100
 
 >compound FTneg0559
 >ionization [M+?]-
->parentmass 83.0251376949712
+>parentmass Inf
 >rt 6.83633343937086
 
 >ms1
-83.02514 100
+
 
 >ms2
 83.02514 100
 
 >compound FTneg0560
 >ionization [M+?]-
->parentmass 108.020713386323
+>parentmass Inf
 >rt 6.82406732004541
 
 >ms1
-108.0207 100
+
 
 >ms2
 108.0207 100
 
 >compound FTneg0561
 >ionization [M+?]-
->parentmass 122.035850165418
+>parentmass Inf
 >rt 6.88993039080413
 
 >ms1
-122.0359 100
+
 
 >ms2
 122.0359 100
 
 >compound FTneg0562
 >ionization [M+?]-
->parentmass 125.035584074684
+>parentmass Inf
 >rt 6.8916393612141
 
 >ms1
-125.0356 100
+
 
 >ms2
 125.0356 100
 
 >compound FTneg0563
 >ionization [M+?]-
->parentmass 143.045669398508
+>parentmass Inf
 >rt 6.80217413802927
 
 >ms1
-143.0457 100
+
 
 >ms2
 143.0457 100
 
 >compound FTneg0564
 >ionization [M+?]-
->parentmass 157.050893587431
+>parentmass Inf
 >rt 6.880683035675
 
 >ms1
-157.0509 100
+
 
 >ms2
 157.0509 100
 
 >compound FTneg0565
 >ionization [M+?]-
->parentmass 164.046438364404
+>parentmass Inf
 >rt 6.83542104537069
 
 >ms1
-164.0464 100
+
 
 >ms2
 164.0464 100
 
 >compound FTneg0566
 >ionization [M+?]-
->parentmass 179.056069455533
+>parentmass Inf
 >rt 6.83282135246123
 
 >ms1
-179.0561 100
+
 
 >ms2
 179.0561 100
 
 >compound FTneg0567
 >ionization [M+?]-
->parentmass 191.057227970663
+>parentmass Inf
 >rt 6.8331978892448
 
 >ms1
-191.0572 100
+
 
 >ms2
 191.0572 100
 
 >compound FTneg0568
 >ionization [M+?]-
->parentmass 194.05728443944
+>parentmass Inf
 >rt 6.80463193604034
 
 >ms1
-194.0573 100
+
 
 >ms2
 194.0573 100
 
 >compound FTneg0569
 >ionization [M+?]-
->parentmass 214.046820058498
+>parentmass Inf
 >rt 6.84838742078313
 
 >ms1
-214.0468 100
+
 
 >ms2
 214.0468 100
 
 >compound FTneg0570
 >ionization [M+?]-
->parentmass 335.1343229767
+>parentmass Inf
 >rt 6.80831425752544
 
 >ms1
-335.1343 100
+
 
 >ms2
 335.1343 100
 
 >compound FTneg0571
 >ionization [M+?]-
->parentmass 365.134910614148
+>parentmass Inf
 >rt 6.9089428065831
 
 >ms1
-365.1349 100
 
 >ms2
 51.9383 8
@@ -7848,55 +7787,54 @@
 
 >compound FTneg0572
 >ionization [M+?]-
->parentmass 163.039924159618
+>parentmass Inf
 >rt 7.79360472139184
 
 >ms1
-163.0399 100
+
 
 >ms2
 163.0399 100
 
 >compound FTneg0573
 >ionization [M+?]-
->parentmass 207.931141169292
+>parentmass Inf
 >rt 7.73425900994641
 
 >ms1
-207.9311 100
+
 
 >ms2
 207.9311 100
 
 >compound FTneg0574
 >ionization [M+?]-
->parentmass 68.9958736260162
+>parentmass Inf
 >rt 7.81609351630534
 
 >ms1
-68.99587 100
+
 
 >ms2
 68.99587 100
 
 >compound FTneg0575
 >ionization [M+?]-
->parentmass 146.938467888527
+>parentmass Inf
 >rt 7.66672220831762
 
 >ms1
-146.9385 100
+
 
 >ms2
 146.9385 100
 
 >compound FTneg0576
 >ionization [M+?]-
->parentmass 190.928467007126
+>parentmass Inf
 >rt 7.63449522074345
 
 >ms1
-190.9285 100
 
 >ms2
 50.0133 40
@@ -7923,198 +7861,197 @@
 
 >compound FTneg0577
 >ionization [M+?]-
->parentmass 65.9986068119415
+>parentmass Inf
 >rt 7.80182379300824
 
 >ms1
-65.99861 100
+
 
 >ms2
 65.99861 100
 
 >compound FTneg0578
 >ionization [M+?]-
->parentmass 68.0142626539671
+>parentmass Inf
 >rt 7.7897487756921
 
 >ms1
-68.01426 100
+
 
 >ms2
 68.01426 100
 
 >compound FTneg0579
 >ionization [M+?]-
->parentmass 109.040616147795
+>parentmass Inf
 >rt 7.79945411953155
 
 >ms1
-109.0406 100
+
 
 >ms2
 109.0406 100
 
 >compound FTneg0580
 >ionization [M+?]-
->parentmass 115.039981160434
+>parentmass Inf
 >rt 7.63831574395497
 
 >ms1
-115.04 100
+
 
 >ms2
 115.04 100
 
 >compound FTneg0581
 >ionization [M+?]-
->parentmass 116.928546062069
+>parentmass Inf
 >rt 7.6424338295372
 
 >ms1
-116.9285 100
+
 
 >ms2
 116.9285 100
 
 >compound FTneg0582
 >ionization [M+?]-
->parentmass 145.941223167481
+>parentmass Inf
 >rt 7.61835111767782
 
 >ms1
-145.9412 100
+
 
 >ms2
 145.9412 100
 
 >compound FTneg0583
 >ionization [M+?]-
->parentmass 146.962935821806
+>parentmass Inf
 >rt 7.70746671923648
 
 >ms1
-146.9629 100
+
 
 >ms2
 146.9629 100
 
 >compound FTneg0584
 >ionization [M+?]-
->parentmass 160.842184844161
+>parentmass Inf
 >rt 7.66941016592106
 
 >ms1
-160.8422 100
+
 
 >ms2
 160.8422 100
 
 >compound FTneg0585
 >ionization [M+?]-
->parentmass 161.045793264977
+>parentmass Inf
 >rt 7.68811422350384
 
 >ms1
-161.0458 100
+
 
 >ms2
 161.0458 100
 
 >compound FTneg0586
 >ionization [M+?]-
->parentmass 162.839127141804
+>parentmass Inf
 >rt 7.82097912173929
 
 >ms1
-162.8391 100
+
 
 >ms2
 162.8391 100
 
 >compound FTneg0587
 >ionization [M+?]-
->parentmass 162.839148358763
+>parentmass Inf
 >rt 7.6674577485251
 
 >ms1
-162.8391 100
+
 
 >ms2
 162.8391 100
 
 >compound FTneg0588
 >ionization [M+?]-
->parentmass 163.061181633423
+>parentmass Inf
 >rt 7.78993776398804
 
 >ms1
-163.0612 100
+
 
 >ms2
 163.0612 100
 
 >compound FTneg0589
 >ionization [M+?]-
->parentmass 171.102316932736
+>parentmass Inf
 >rt 7.75715379796426
 
 >ms1
-171.1023 100
+
 
 >ms2
 171.1023 100
 
 >compound FTneg0590
 >ionization [M+?]-
->parentmass 174.956085621164
+>parentmass Inf
 >rt 7.80455047138457
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0591
 >ionization [M+?]-
->parentmass 178.977559701605
+>parentmass Inf
 >rt 7.67779148430664
 
 >ms1
-178.9776 100
+
 
 >ms2
 178.9776 100
 
 >compound FTneg0592
 >ionization [M+?]-
->parentmass 181.050531433729
+>parentmass Inf
 >rt 7.73115687961974
 
 >ms1
-181.0505 100
+
 
 >ms2
 181.0505 100
 
 >compound FTneg0593
 >ionization [M+?]-
->parentmass 187.061358705995
+>parentmass Inf
 >rt 7.65819001188054
 
 >ms1
-187.0614 100
+
 
 >ms2
 187.0614 100
 
 >compound FTneg0594
 >ionization [M+?]-
->parentmass 187.097147334846
+>parentmass Inf
 >rt 7.79074426134021
 
 >ms1
-187.0971 100
 
 >ms2
 53.039 83
@@ -8131,671 +8068,670 @@
 
 >compound FTneg0595
 >ionization [M+?]-
->parentmass 187.861182401525
+>parentmass Inf
 >rt 7.67499444444447
 
 >ms1
-187.8612 100
+
 
 >ms2
 187.8612 100
 
 >compound FTneg0596
 >ionization [M+?]-
->parentmass 189.073891840993
+>parentmass Inf
 >rt 7.63124583333325
 
 >ms1
-189.0739 100
+
 
 >ms2
 189.0739 100
 
 >compound FTneg0597
 >ionization [M+?]-
->parentmass 194.924154126095
+>parentmass Inf
 >rt 7.78695044638693
 
 >ms1
-194.9242 100
+
 
 >ms2
 194.9242 100
 
 >compound FTneg0598
 >ionization [M+?]-
->parentmass 195.81099920362
+>parentmass Inf
 >rt 7.6991307653357
 
 >ms1
-195.811 100
+
 
 >ms2
 195.811 100
 
 >compound FTneg0599
 >ionization [M+?]-
->parentmass 207.836857935475
+>parentmass Inf
 >rt 7.75969916282826
 
 >ms1
-207.8369 100
+
 
 >ms2
 207.8369 100
 
 >compound FTneg0600
 >ionization [M+?]-
->parentmass 213.963647297849
+>parentmass Inf
 >rt 7.76053288760319
 
 >ms1
-213.9636 100
+
 
 >ms2
 213.9636 100
 
 >compound FTneg0601
 >ionization [M+?]-
->parentmass 219.845458413091
+>parentmass Inf
 >rt 7.79945143941628
 
 >ms1
-219.8455 100
+
 
 >ms2
 219.8455 100
 
 >compound FTneg0602
 >ionization [M+?]-
->parentmass 221.842513863917
+>parentmass Inf
 >rt 7.71990157514187
 
 >ms1
-221.8425 100
+
 
 >ms2
 221.8425 100
 
 >compound FTneg0603
 >ionization [M+?]-
->parentmass 231.931581423289
+>parentmass Inf
 >rt 7.67314090080917
 
 >ms1
-231.9316 100
+
 
 >ms2
 231.9316 100
 
 >compound FTneg0604
 >ionization [M+?]-
->parentmass 235.926127748212
+>parentmass Inf
 >rt 7.70543985082974
 
 >ms1
-235.9261 100
+
 
 >ms2
 235.9261 100
 
 >compound FTneg0605
 >ionization [M+?]-
->parentmass 238.07107530671
+>parentmass Inf
 >rt 7.77840671105133
 
 >ms1
-238.0711 100
+
 
 >ms2
 238.0711 100
 
 >compound FTneg0606
 >ionization [M+?]-
->parentmass 259.816309717585
+>parentmass Inf
 >rt 7.78275396947168
 
 >ms1
-259.8163 100
+
 
 >ms2
 259.8163 100
 
 >compound FTneg0607
 >ionization [M+?]-
->parentmass 265.123245528703
+>parentmass Inf
 >rt 7.72537361111108
 
 >ms1
-265.1232 100
+
 
 >ms2
 265.1232 100
 
 >compound FTneg0608
 >ionization [M+?]-
->parentmass 289.997486058943
+>parentmass Inf
 >rt 7.74187987475537
 
 >ms1
-289.9975 100
+
 
 >ms2
 289.9975 100
 
 >compound FTneg0609
 >ionization [M+?]-
->parentmass 299.075473515349
+>parentmass Inf
 >rt 7.73304695876548
 
 >ms1
-299.0755 100
+
 
 >ms2
 299.0755 100
 
 >compound FTneg0610
 >ionization [M+?]-
->parentmass 309.098899474187
+>parentmass Inf
 >rt 7.71485662989967
 
 >ms1
-309.0989 100
+
 
 >ms2
 309.0989 100
 
 >compound FTneg0611
 >ionization [M+?]-
->parentmass 321.092858546873
+>parentmass Inf
 >rt 7.666361904762
 
 >ms1
-321.0929 100
+
 
 >ms2
 321.0929 100
 
 >compound FTneg0612
 >ionization [M+?]-
->parentmass 331.043389670344
+>parentmass Inf
 >rt 7.77912470685591
 
 >ms1
-331.0434 100
+
 
 >ms2
 331.0434 100
 
 >compound FTneg0613
 >ionization [M+?]-
->parentmass 337.141602596767
+>parentmass Inf
 >rt 7.70759574460366
 
 >ms1
-337.1416 100
+
 
 >ms2
 337.1416 100
 
 >compound FTneg0614
 >ionization [M+?]-
->parentmass 357.119224537802
+>parentmass Inf
 >rt 7.75599811978639
 
 >ms1
-357.1192 100
+
 
 >ms2
 357.1192 100
 
 >compound FTneg0615
 >ionization [M+?]-
->parentmass 540.330358406403
+>parentmass Inf
 >rt 7.6810889591809
 
 >ms1
-540.3304 100
+
 
 >ms2
 540.3304 100
 
 >compound FTneg0616
 >ionization [M+?]-
->parentmass 566.345415168137
+>parentmass Inf
 >rt 7.70524200008222
 
 >ms1
-566.3454 100
+
 
 >ms2
 566.3454 100
 
 >compound FTneg0617
 >ionization [M+?]-
->parentmass 145.050641369859
+>parentmass Inf
 >rt 7.1473376273032
 
 >ms1
-145.0506 100
+
 
 >ms2
 145.0506 100
 
 >compound FTneg0618
 >ionization [M+?]-
->parentmass 68.0142555709573
+>parentmass Inf
 >rt 7.16731126030313
 
 >ms1
-68.01426 100
+
 
 >ms2
 68.01426 100
 
 >compound FTneg0619
 >ionization [M+?]-
->parentmass 106.041075536504
+>parentmass Inf
 >rt 7.15518283822663
 
 >ms1
-106.0411 100
+
 
 >ms2
 106.0411 100
 
 >compound FTneg0620
 >ionization [M+?]-
->parentmass 109.040687698556
+>parentmass Inf
 >rt 7.14904143461706
 
 >ms1
-109.0407 100
+
 
 >ms2
 109.0407 100
 
 >compound FTneg0621
 >ionization [M+?]-
->parentmass 125.035457989718
+>parentmass Inf
 >rt 7.16403159128468
 
 >ms1
-125.0355 100
+
 
 >ms2
 125.0355 100
 
 >compound FTneg0622
 >ionization [M+?]-
->parentmass 162.839155574545
+>parentmass Inf
 >rt 7.16350190344646
 
 >ms1
-162.8392 100
+
 
 >ms2
 162.8392 100
 
 >compound FTneg0623
 >ionization [M+?]-
->parentmass 68.014381641569
+>parentmass Inf
 >rt 19.8858540756744
 
 >ms1
-68.01438 100
+
 
 >ms2
 68.01438 100
 
 >compound FTneg0624
 >ionization [M+?]-
->parentmass 84.0092106604177
+>parentmass Inf
 >rt 19.8853214068689
 
 >ms1
-84.00921 100
+
 
 >ms2
 84.00921 100
 
 >compound FTneg0625
 >ionization [M+?]-
->parentmass 100.004155581562
+>parentmass Inf
 >rt 19.8916550234121
 
 >ms1
-100.0042 100
+
 
 >ms2
 100.0042 100
 
 >compound FTneg0626
 >ionization [M+?]-
->parentmass 141.030483565574
+>parentmass Inf
 >rt 19.8615299111809
 
 >ms1
-141.0305 100
+
 
 >ms2
 141.0305 100
 
 >compound FTneg0627
 >ionization [M+?]-
->parentmass 146.938568288812
+>parentmass Inf
 >rt 19.8559939380218
 
 >ms1
-146.9386 100
+
 
 >ms2
 146.9386 100
 
 >compound FTneg0628
 >ionization [M+?]-
->parentmass 174.956125487158
+>parentmass Inf
 >rt 19.848188203156
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0629
 >ionization [M+?]-
->parentmass 190.928519857626
+>parentmass Inf
 >rt 19.8870491121856
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg0630
 >ionization [M+?]-
->parentmass 141.03053562985
+>parentmass Inf
 >rt 19.3931351801214
 
 >ms1
-141.0305 100
+
 
 >ms2
 141.0305 100
 
 >compound FTneg0631
 >ionization [M+?]-
->parentmass 68.0143990838979
+>parentmass Inf
 >rt 19.3688026926991
 
 >ms1
-68.0144 100
+
 
 >ms2
 68.0144 100
 
 >compound FTneg0632
 >ionization [M+?]-
->parentmass 72.993177671843
+>parentmass Inf
 >rt 19.368962989304
 
 >ms1
-72.99318 100
+
 
 >ms2
 72.99318 100
 
 >compound FTneg0633
 >ionization [M+?]-
->parentmass 84.0092026281837
+>parentmass Inf
 >rt 19.3568821400393
 
 >ms1
-84.0092 100
+
 
 >ms2
 84.0092 100
 
 >compound FTneg0634
 >ionization [M+?]-
->parentmass 100.004160306938
+>parentmass Inf
 >rt 19.3551259375422
 
 >ms1
-100.0042 100
+
 
 >ms2
 100.0042 100
 
 >compound FTneg0635
 >ionization [M+?]-
->parentmass 124.016022728636
+>parentmass Inf
 >rt 19.3865733333335
 
 >ms1
-124.016 100
+
 
 >ms2
 124.016 100
 
 >compound FTneg0636
 >ionization [M+?]-
->parentmass 174.956093474713
+>parentmass Inf
 >rt 19.3881632873218
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg0637
 >ionization [M+?]-
->parentmass 188.031483367972
+>parentmass Inf
 >rt 19.3726901661962
 
 >ms1
-188.0315 100
+
 
 >ms2
 188.0315 100
 
 >compound FTneg0638
 >ionization [M+?]-
->parentmass 190.92843580137
+>parentmass Inf
 >rt 19.3781110000548
 
 >ms1
-190.9284 100
+
 
 >ms2
 190.9284 100
 
 >compound FTneg0639
 >ionization [M+?]-
->parentmass 197.034698676783
+>parentmass Inf
 >rt 19.3311112852639
 
 >ms1
-197.0347 100
+
 
 >ms2
 197.0347 100
 
 >compound FTneg0640
 >ionization [M+?]-
->parentmass 218.041464558893
+>parentmass Inf
 >rt 19.3819323115541
 
 >ms1
-218.0415 100
+
 
 >ms2
 218.0415 100
 
 >compound FTneg0641
 >ionization [M+?]-
->parentmass 224.0314167943
+>parentmass Inf
 >rt 19.3442866071941
 
 >ms1
-224.0314 100
+
 
 >ms2
 224.0314 100
 
 >compound FTneg0642
 >ionization [M+?]-
->parentmass 232.929573851239
+>parentmass Inf
 >rt 19.3455575636841
 
 >ms1
-232.9296 100
+
 
 >ms2
 232.9296 100
 
 >compound FTneg0643
 >ionization [M+?]-
->parentmass 255.036327231484
+>parentmass Inf
 >rt 19.3572690544233
 
 >ms1
-255.0363 100
+
 
 >ms2
 255.0363 100
 
 >compound FTneg0644
 >ionization [M+?]-
->parentmass 270.037947815422
+>parentmass Inf
 >rt 19.3855619080052
 
 >ms1
-270.0379 100
+
 
 >ms2
 270.0379 100
 
 >compound FTneg0645
 >ionization [M+?]-
->parentmass 278.056615757398
+>parentmass Inf
 >rt 19.3416676854399
 
 >ms1
-278.0566 100
+
 
 >ms2
 278.0566 100
 
 >compound FTneg0646
 >ionization [M+?]-
->parentmass 290.062659227776
+>parentmass Inf
 >rt 19.3591685274307
 
 >ms1
-290.0627 100
+
 
 >ms2
 290.0627 100
 
 >compound FTneg0647
 >ionization [M+?]-
->parentmass 293.067897365088
+>parentmass Inf
 >rt 19.3685353070138
 
 >ms1
-293.0679 100
+
 
 >ms2
 293.0679 100
 
 >compound FTneg0648
 >ionization [M+?]-
->parentmass 307.04959023958
+>parentmass Inf
 >rt 19.3862200004188
 
 >ms1
-307.0496 100
+
 
 >ms2
 307.0496 100
 
 >compound FTneg0649
 >ionization [M+?]-
->parentmass 327.060304926124
+>parentmass Inf
 >rt 19.3500692631321
 
 >ms1
-327.0603 100
+
 
 >ms2
 327.0603 100
 
 >compound FTneg0650
 >ionization [M+?]-
->parentmass 328.05391275806
+>parentmass Inf
 >rt 19.3697319737931
 
 >ms1
-328.0539 100
+
 
 >ms2
 328.0539 100
 
 >compound FTneg0651
 >ionization [M+?]-
->parentmass 345.068096845945
+>parentmass Inf
 >rt 19.3541912520396
 
 >ms1
-345.0681 100
+
 
 >ms2
 345.0681 100
 
 >compound FTneg0652
 >ionization [M+?]-
->parentmass 348.079728248114
+>parentmass Inf
 >rt 19.3618792147573
 
 >ms1
-348.0797 100
+
 
 >ms2
 348.0797 100
 
 >compound FTneg0653
 >ionization [M+?]-
->parentmass 360.07916241427
+>parentmass Inf
 >rt 19.3727244191303
 
 >ms1
-360.0792 100
+
 
 >ms2
 360.0792 100
 
 >compound FTneg0654
 >ionization [M+?]-
->parentmass 68.9956654235543
+>parentmass Inf
 >rt 18.3709270833333
 
 >ms1
-68.99567 100
+
 
 >ms2
 68.99567 100
 
 >compound FTneg0655
 >ionization [M+?]-
->parentmass 68.9957826546188
+>parentmass Inf
 >rt 2.82288201629139
 
 >ms1
-68.99578 100
 
 >ms2
 57.0372 40
@@ -8834,22 +8770,20 @@
 
 >compound FTneg0656
 >ionization [M+?]-
->parentmass 89.0245266221175
+>parentmass Inf
 >rt 2.16108615985854
 
 >ms1
-89.02453 100
 
 >ms2
 55.0042 4
 
 >compound FTneg0657
 >ionization [M+?]-
->parentmass 112.985697592935
+>parentmass Inf
 >rt 2.16705435295235
 
 >ms1
-112.9857 100
 
 >ms2
 51.9405 40
@@ -8860,11 +8794,10 @@
 
 >compound FTneg0658
 >ionization [M+?]-
->parentmass 68.9958085305772
+>parentmass Inf
 >rt 2.15094231567989
 
 >ms1
-68.99581 100
 
 >ms2
 55.017 8
@@ -9040,22 +8973,21 @@
 
 >compound FTneg0659
 >ionization [M+?]-
->parentmass 80.5934236996624
+>parentmass Inf
 >rt 2.09637936507933
 
 >ms1
-80.59342 100
+
 
 >ms2
 80.59342 100
 
 >compound FTneg0660
 >ionization [M+?]-
->parentmass 231.967577868116
+>parentmass Inf
 >rt 2.16754351447978
 
 >ms1
-231.9676 100
 
 >ms2
 50.0076 41
@@ -9300,11 +9232,10 @@
 
 >compound FTneg0661
 >ionization [M+?]-
->parentmass 269.087770481056
+>parentmass Inf
 >rt 2.12425350088945
 
 >ms1
-269.0878 100
 
 >ms2
 52.9514 4
@@ -9336,11 +9267,10 @@
 
 >compound FTneg0662
 >ionization [M+?]-
->parentmass 307.034730024616
+>parentmass Inf
 >rt 2.22181760100222
 
 >ms1
-307.0347 100
 
 >ms2
 50.0026 40
@@ -9377,11 +9307,10 @@
 
 >compound FTneg0663
 >ionization [M+?]-
->parentmass 313.051407097265
+>parentmass Inf
 >rt 2.11987749999995
 
 >ms1
-313.0514 100
 
 >ms2
 55.0532 4
@@ -9394,11 +9323,10 @@
 
 >compound FTneg0664
 >ionization [M+?]-
->parentmass 322.007514399704
+>parentmass Inf
 >rt 2.17555664697774
 
 >ms1
-322.0075 100
 
 >ms2
 55.0533 27
@@ -9419,11 +9347,10 @@
 
 >compound FTneg0665
 >ionization [M+?]-
->parentmass 323.007337218981
+>parentmass Inf
 >rt 2.17179486182312
 
 >ms1
-323.0073 100
 
 >ms2
 59.0476 40
@@ -9443,11 +9370,10 @@
 
 >compound FTneg0666
 >ionization [M+?]-
->parentmass 121.029514409418
+>parentmass Inf
 >rt 8.11704731199245
 
 >ms1
-121.0295 100
 
 >ms2
 53.0383 20
@@ -9465,88 +9391,87 @@
 
 >compound FTneg0667
 >ionization [M+?]-
->parentmass 68.9958703119575
+>parentmass Inf
 >rt 8.02324605991494
 
 >ms1
-68.99587 100
+
 
 >ms2
 68.99587 100
 
 >compound FTneg0668
 >ionization [M+?]-
->parentmass 100.933168011418
+>parentmass Inf
 >rt 8.101491137966
 
 >ms1
-100.9332 100
+
 
 >ms2
 100.9332 100
 
 >compound FTneg0669
 >ionization [M+?]-
->parentmass 140.986153108753
+>parentmass Inf
 >rt 8.04970994902043
 
 >ms1
-140.9862 100
+
 
 >ms2
 140.9862 100
 
 >compound FTneg0670
 >ionization [M+?]-
->parentmass 143.071124282654
+>parentmass Inf
 >rt 8.119298407202
 
 >ms1
-143.0711 100
+
 
 >ms2
 143.0711 100
 
 >compound FTneg0671
 >ionization [M+?]-
->parentmass 146.963097019998
+>parentmass Inf
 >rt 8.07860147797991
 
 >ms1
-146.9631 100
+
 
 >ms2
 146.9631 100
 
 >compound FTneg0672
 >ionization [M+?]-
->parentmass 160.842157847782
+>parentmass Inf
 >rt 8.07103250794314
 
 >ms1
-160.8422 100
+
 
 >ms2
 160.8422 100
 
 >compound FTneg0673
 >ionization [M+?]-
->parentmass 162.8391339815
+>parentmass Inf
 >rt 8.07392549223595
 
 >ms1
-162.8391 100
+
 
 >ms2
 162.8391 100
 
 >compound FTneg0674
 >ionization [M+?]-
->parentmass 165.039562899199
+>parentmass Inf
 >rt 8.10505833333336
 
 >ms1
-165.0396 100
 
 >ms2
 89.0599 80
@@ -9557,44 +9482,43 @@
 
 >compound FTneg0675
 >ionization [M+?]-
->parentmass 199.097233572573
+>parentmass Inf
 >rt 8.02337739376527
 
 >ms1
-199.0972 100
+
 
 >ms2
 199.0972 100
 
 >compound FTneg0676
 >ionization [M+?]-
->parentmass 215.092100814291
+>parentmass Inf
 >rt 8.06116523910578
 
 >ms1
-215.0921 100
+
 
 >ms2
 215.0921 100
 
 >compound FTneg0677
 >ionization [M+?]-
->parentmass 285.133971064592
+>parentmass Inf
 >rt 8.10973068135269
 
 >ms1
-285.134 100
+
 
 >ms2
 285.134 100
 
 >compound FTneg0678
 >ionization [M+?]-
->parentmass 68.9958771020941
+>parentmass Inf
 >rt 7.54518221114698
 
 >ms1
-68.99588 100
 
 >ms2
 55.0473 20
@@ -9846,22 +9770,20 @@
 
 >compound FTneg0679
 >ionization [M+?]-
->parentmass 83.0251647182011
+>parentmass Inf
 >rt 7.53661061105207
 
 >ms1
-83.02516 100
 
 >ms2
 54.0096 40
 
 >compound FTneg0680
 >ionization [M+?]-
->parentmass 106.041115562774
+>parentmass Inf
 >rt 7.56465423307603
 
 >ms1
-106.0411 100
 
 >ms2
 53.0458 40
@@ -9878,352 +9800,351 @@
 
 >compound FTneg0681
 >ionization [M+?]-
->parentmass 68.9958825576854
+>parentmass Inf
 >rt 7.03677153017343
 
 >ms1
-68.99588 100
+
 
 >ms2
 68.99588 100
 
 >compound FTneg0682
 >ionization [M+?]-
->parentmass 141.030466325351
+>parentmass Inf
 >rt 7.02115186769743
 
 >ms1
-141.0305 100
+
 
 >ms2
 141.0305 100
 
 >compound FTneg0683
 >ionization [M+?]-
->parentmass 163.062021765951
+>parentmass Inf
 >rt 7.06681335318933
 
 >ms1
-163.062 100
+
 
 >ms2
 163.062 100
 
 >compound FTneg0684
 >ionization [M+?]-
->parentmass 199.097380614823
+>parentmass Inf
 >rt 7.41362185090661
 
 >ms1
-199.0974 100
+
 
 >ms2
 199.0974 100
 
 >compound FTneg0685
 >ionization [M+?]-
->parentmass 159.066317131869
+>parentmass Inf
 >rt 7.36609012637776
 
 >ms1
-159.0663 100
+
 
 >ms2
 159.0663 100
 
 >compound FTneg0686
 >ionization [M+?]-
->parentmass 69.0088433549948
+>parentmass Inf
 >rt 7.42716380285899
 
 >ms1
-69.00884 100
+
 
 >ms2
 69.00884 100
 
 >compound FTneg0687
 >ionization [M+?]-
->parentmass 124.051390271078
+>parentmass Inf
 >rt 7.38941483789005
 
 >ms1
-124.0514 100
+
 
 >ms2
 124.0514 100
 
 >compound FTneg0688
 >ionization [M+?]-
->parentmass 138.019559776034
+>parentmass Inf
 >rt 7.39878960052443
 
 >ms1
-138.0196 100
+
 
 >ms2
 138.0196 100
 
 >compound FTneg0689
 >ionization [M+?]-
->parentmass 145.050845906269
+>parentmass Inf
 >rt 7.41548486506486
 
 >ms1
-145.0508 100
+
 
 >ms2
 145.0508 100
 
 >compound FTneg0690
 >ionization [M+?]-
->parentmass 145.086476683292
+>parentmass Inf
 >rt 7.34496755440296
 
 >ms1
-145.0865 100
+
 
 >ms2
 145.0865 100
 
 >compound FTneg0691
 >ionization [M+?]-
->parentmass 166.024885600224
+>parentmass Inf
 >rt 7.34596201799791
 
 >ms1
-166.0249 100
+
 
 >ms2
 166.0249 100
 
 >compound FTneg0692
 >ionization [M+?]-
->parentmass 171.066219042098
+>parentmass Inf
 >rt 7.48127529386356
 
 >ms1
-171.0662 100
+
 
 >ms2
 171.0662 100
 
 >compound FTneg0693
 >ionization [M+?]-
->parentmass 180.057318976919
+>parentmass Inf
 >rt 7.3924405289505
 
 >ms1
-180.0573 100
+
 
 >ms2
 180.0573 100
 
 >compound FTneg0694
 >ionization [M+?]-
->parentmass 182.056793091697
+>parentmass Inf
 >rt 7.40981760494029
 
 >ms1
-182.0568 100
+
 
 >ms2
 182.0568 100
 
 >compound FTneg0695
 >ionization [M+?]-
->parentmass 199.059737088274
+>parentmass Inf
 >rt 7.42359141607265
 
 >ms1
-199.0597 100
+
 
 >ms2
 199.0597 100
 
 >compound FTneg0696
 >ionization [M+?]-
->parentmass 233.930585069117
+>parentmass Inf
 >rt 7.39180338625473
 
 >ms1
-233.9306 100
+
 
 >ms2
 233.9306 100
 
 >compound FTneg0697
 >ionization [M+?]-
->parentmass 279.107524409976
+>parentmass Inf
 >rt 7.39377993976738
 
 >ms1
-279.1075 100
+
 
 >ms2
 279.1075 100
 
 >compound FTneg0698
 >ionization [M+?]-
->parentmass 281.059651006725
+>parentmass Inf
 >rt 7.40349712695569
 
 >ms1
-281.0597 100
+
 
 >ms2
 281.0597 100
 
 >compound FTneg0699
 >ionization [M+?]-
->parentmass 285.908364302093
+>parentmass Inf
 >rt 7.43579755544076
 
 >ms1
-285.9084 100
+
 
 >ms2
 285.9084 100
 
 >compound FTneg0700
 >ionization [M+?]-
->parentmass 288.076592940084
+>parentmass Inf
 >rt 7.42168193744567
 
 >ms1
-288.0766 100
+
 
 >ms2
 288.0766 100
 
 >compound FTneg0701
 >ionization [M+?]-
->parentmass 297.055765402577
+>parentmass Inf
 >rt 7.34333505812862
 
 >ms1
-297.0558 100
+
 
 >ms2
 297.0558 100
 
 >compound FTneg0702
 >ionization [M+?]-
->parentmass 307.130843317487
+>parentmass Inf
 >rt 7.37149725848888
 
 >ms1
-307.1308 100
+
 
 >ms2
 307.1308 100
 
 >compound FTneg0703
 >ionization [M+?]-
->parentmass 307.856401261609
+>parentmass Inf
 >rt 7.47679478214903
 
 >ms1
-307.8564 100
+
 
 >ms2
 307.8564 100
 
 >compound FTneg0704
 >ionization [M+?]-
->parentmass 325.091317284757
+>parentmass Inf
 >rt 7.41590084580187
 
 >ms1
-325.0913 100
+
 
 >ms2
 325.0913 100
 
 >compound FTneg0705
 >ionization [M+?]-
->parentmass 327.107964004965
+>parentmass Inf
 >rt 7.38316701852564
 
 >ms1
-327.108 100
+
 
 >ms2
 327.108 100
 
 >compound FTneg0706
 >ionization [M+?]-
->parentmass 345.100687508504
+>parentmass Inf
 >rt 7.41070862355873
 
 >ms1
-345.1007 100
+
 
 >ms2
 345.1007 100
 
 >compound FTneg0707
 >ionization [M+?]-
->parentmass 354.106383125051
+>parentmass Inf
 >rt 7.37720973706209
 
 >ms1
-354.1064 100
+
 
 >ms2
 354.1064 100
 
 >compound FTneg0708
 >ionization [M+?]-
->parentmass 415.158862965947
+>parentmass Inf
 >rt 7.37513332385977
 
 >ms1
-415.1589 100
+
 
 >ms2
 415.1589 100
 
 >compound FTneg0709
 >ionization [M+?]-
->parentmass 443.146582814841
+>parentmass Inf
 >rt 7.40059743589731
 
 >ms1
-443.1466 100
+
 
 >ms2
 443.1466 100
 
 >compound FTneg0710
 >ionization [M+?]-
->parentmass 449.186775407652
+>parentmass Inf
 >rt 7.38920901541721
 
 >ms1
-449.1868 100
+
 
 >ms2
 449.1868 100
 
 >compound FTneg0711
 >ionization [M+?]-
->parentmass 519.265429019081
+>parentmass Inf
 >rt 7.35503260938696
 
 >ms1
-519.2654 100
+
 
 >ms2
 519.2654 100
 
 >compound FTneg0712
 >ionization [M+?]-
->parentmass 179.035090162067
+>parentmass Inf
 >rt 6.6572283378426
 
 >ms1
-179.0351 100
 
 >ms2
 56.8808 4
@@ -10266,253 +10187,252 @@
 
 >compound FTneg0713
 >ionization [M+?]-
->parentmass 109.040557588395
+>parentmass Inf
 >rt 6.68228201003431
 
 >ms1
-109.0406 100
+
 
 >ms2
 109.0406 100
 
 >compound FTneg0714
 >ionization [M+?]-
->parentmass 84.0092176128544
+>parentmass Inf
 >rt 6.76764912659838
 
 >ms1
-84.00922 100
+
 
 >ms2
 84.00922 100
 
 >compound FTneg0715
 >ionization [M+?]-
->parentmass 125.035651181185
+>parentmass Inf
 >rt 6.74376191418028
 
 >ms1
-125.0357 100
+
 
 >ms2
 125.0357 100
 
 >compound FTneg0716
 >ionization [M+?]-
->parentmass 148.051600088475
+>parentmass Inf
 >rt 6.65252167733294
 
 >ms1
-148.0516 100
+
 
 >ms2
 148.0516 100
 
 >compound FTneg0717
 >ionization [M+?]-
->parentmass 277.119108582463
+>parentmass Inf
 >rt 6.67784029366628
 
 >ms1
-277.1191 100
+
 
 >ms2
 277.1191 100
 
 >compound FTneg0718
 >ionization [M+?]-
->parentmass 69.0091565429732
+>parentmass Inf
 >rt 6.7972058476391
 
 >ms1
-69.00916 100
+
 
 >ms2
 69.00916 100
 
 >compound FTneg0719
 >ionization [M+?]-
->parentmass 75.0089198251627
+>parentmass Inf
 >rt 6.7225667860093
 
 >ms1
-75.00892 100
+
 
 >ms2
 75.00892 100
 
 >compound FTneg0720
 >ionization [M+?]-
->parentmass 82.0298224304118
+>parentmass Inf
 >rt 6.66937825320852
 
 >ms1
-82.02982 100
+
 
 >ms2
 82.02982 100
 
 >compound FTneg0721
 >ionization [M+?]-
->parentmass 88.0041603983589
+>parentmass Inf
 >rt 6.74046305157981
 
 >ms1
-88.00416 100
+
 
 >ms2
 88.00416 100
 
 >compound FTneg0722
 >ionization [M+?]-
->parentmass 95.0249637769533
+>parentmass Inf
 >rt 6.62926973882484
 
 >ms1
-95.02496 100
+
 
 >ms2
 95.02496 100
 
 >compound FTneg0723
 >ionization [M+?]-
->parentmass 98.0248690785111
+>parentmass Inf
 >rt 6.74261958410877
 
 >ms1
-98.02487 100
+
 
 >ms2
 98.02487 100
 
 >compound FTneg0724
 >ionization [M+?]-
->parentmass 100.004136816462
+>parentmass Inf
 >rt 6.75554180350982
 
 >ms1
-100.0041 100
+
 
 >ms2
 100.0041 100
 
 >compound FTneg0725
 >ionization [M+?]-
->parentmass 106.041098764849
+>parentmass Inf
 >rt 6.58069701746138
 
 >ms1
-106.0411 100
+
 
 >ms2
 106.0411 100
 
 >compound FTneg0726
 >ionization [M+?]-
->parentmass 106.041141856539
+>parentmass Inf
 >rt 6.73388778101026
 
 >ms1
-106.0411 100
+
 
 >ms2
 106.0411 100
 
 >compound FTneg0727
 >ionization [M+?]-
->parentmass 111.020004895544
+>parentmass Inf
 >rt 6.72805505986442
 
 >ms1
-111.02 100
+
 
 >ms2
 111.02 100
 
 >compound FTneg0728
 >ionization [M+?]-
->parentmass 113.035640774781
+>parentmass Inf
 >rt 6.80375687165676
 
 >ms1
-113.0356 100
+
 
 >ms2
 113.0356 100
 
 >compound FTneg0729
 >ionization [M+?]-
->parentmass 114.019684675966
+>parentmass Inf
 >rt 6.77112705470249
 
 >ms1
-114.0197 100
+
 
 >ms2
 114.0197 100
 
 >compound FTneg0730
 >ionization [M+?]-
->parentmass 118.040467539428
+>parentmass Inf
 >rt 6.7324137790219
 
 >ms1
-118.0405 100
+
 
 >ms2
 118.0405 100
 
 >compound FTneg0731
 >ionization [M+?]-
->parentmass 119.024965106288
+>parentmass Inf
 >rt 6.65930334831948
 
 >ms1
-119.025 100
+
 
 >ms2
 119.025 100
 
 >compound FTneg0732
 >ionization [M+?]-
->parentmass 121.040536880554
+>parentmass Inf
 >rt 6.77569833460838
 
 >ms1
-121.0405 100
+
 
 >ms2
 121.0405 100
 
 >compound FTneg0733
 >ionization [M+?]-
->parentmass 124.0512199052
+>parentmass Inf
 >rt 6.70823600467261
 
 >ms1
-124.0512 100
+
 
 >ms2
 124.0512 100
 
 >compound FTneg0734
 >ionization [M+?]-
->parentmass 127.050873911674
+>parentmass Inf
 >rt 6.75220667811291
 
 >ms1
-127.0509 100
+
 
 >ms2
 127.0509 100
 
 >compound FTneg0735
 >ionization [M+?]-
->parentmass 129.030533126107
+>parentmass Inf
 >rt 6.77351336823945
 
 >ms1
-129.0305 100
 
 >ms2
 55.0526 120
@@ -10536,924 +10456,922 @@
 
 >compound FTneg0736
 >ionization [M+?]-
->parentmass 130.014529900324
+>parentmass Inf
 >rt 6.72347426429401
 
 >ms1
-130.0145 100
+
 
 >ms2
 130.0145 100
 
 >compound FTneg0737
 >ionization [M+?]-
->parentmass 131.071309934005
+>parentmass Inf
 >rt 6.66714047619057
 
 >ms1
-131.0713 100
+
 
 >ms2
 131.0713 100
 
 >compound FTneg0738
 >ionization [M+?]-
->parentmass 135.031262544846
+>parentmass Inf
 >rt 6.67032657871198
 
 >ms1
-135.0313 100
+
 
 >ms2
 135.0313 100
 
 >compound FTneg0739
 >ionization [M+?]-
->parentmass 138.030745719696
+>parentmass Inf
 >rt 6.7201201338451
 
 >ms1
-138.0307 100
+
 
 >ms2
 138.0307 100
 
 >compound FTneg0740
 >ionization [M+?]-
->parentmass 140.046518521774
+>parentmass Inf
 >rt 6.76400684431785
 
 >ms1
-140.0465 100
+
 
 >ms2
 140.0465 100
 
 >compound FTneg0741
 >ionization [M+?]-
->parentmass 140.986138318338
+>parentmass Inf
 >rt 6.77157707294967
 
 >ms1
-140.9861 100
+
 
 >ms2
 140.9861 100
 
 >compound FTneg0742
 >ionization [M+?]-
->parentmass 141.030529227976
+>parentmass Inf
 >rt 6.7078127648319
 
 >ms1
-141.0305 100
+
 
 >ms2
 141.0305 100
 
 >compound FTneg0743
 >ionization [M+?]-
->parentmass 145.05070864909
+>parentmass Inf
 >rt 6.71592947990676
 
 >ms1
-145.0507 100
 
 >ms2
 73.0434 40
 
 >compound FTneg0744
 >ionization [M+?]-
->parentmass 148.051299179267
+>parentmass Inf
 >rt 6.82868050917587
 
 >ms1
-148.0513 100
+
 
 >ms2
 148.0513 100
 
 >compound FTneg0745
 >ionization [M+?]-
->parentmass 150.030950890733
+>parentmass Inf
 >rt 6.65745360053568
 
 >ms1
-150.031 100
+
 
 >ms2
 150.031 100
 
 >compound FTneg0746
 >ionization [M+?]-
->parentmass 152.046456969852
+>parentmass Inf
 >rt 6.73982684597385
 
 >ms1
-152.0465 100
+
 
 >ms2
 152.0465 100
 
 >compound FTneg0747
 >ionization [M+?]-
->parentmass 153.030759483342
+>parentmass Inf
 >rt 6.74934832267908
 
 >ms1
-153.0308 100
+
 
 >ms2
 153.0308 100
 
 >compound FTneg0748
 >ionization [M+?]-
->parentmass 154.061905382314
+>parentmass Inf
 >rt 6.68177039462432
 
 >ms1
-154.0619 100
+
 
 >ms2
 154.0619 100
 
 >compound FTneg0749
 >ionization [M+?]-
->parentmass 156.041516295152
+>parentmass Inf
 >rt 6.68534725008783
 
 >ms1
-156.0415 100
+
 
 >ms2
 156.0415 100
 
 >compound FTneg0750
 >ionization [M+?]-
->parentmass 157.025404913538
+>parentmass Inf
 >rt 6.7107514715168
 
 >ms1
-157.0254 100
+
 
 >ms2
 157.0254 100
 
 >compound FTneg0751
 >ionization [M+?]-
->parentmass 159.066393045705
+>parentmass Inf
 >rt 6.63735814084131
 
 >ms1
-159.0664 100
+
 
 >ms2
 159.0664 100
 
 >compound FTneg0752
 >ionization [M+?]-
->parentmass 167.046134344312
+>parentmass Inf
 >rt 6.61395986929731
 
 >ms1
-167.0461 100
+
 
 >ms2
 167.0461 100
 
 >compound FTneg0753
 >ionization [M+?]-
->parentmass 167.058731635992
+>parentmass Inf
 >rt 6.69368647724601
 
 >ms1
-167.0587 100
+
 
 >ms2
 167.0587 100
 
 >compound FTneg0754
 >ionization [M+?]-
->parentmass 170.056925594479
+>parentmass Inf
 >rt 6.7745358017425
 
 >ms1
-170.0569 100
+
 
 >ms2
 170.0569 100
 
 >compound FTneg0755
 >ionization [M+?]-
->parentmass 171.04108298707
+>parentmass Inf
 >rt 6.72955723265249
 
 >ms1
-171.0411 100
+
 
 >ms2
 171.0411 100
 
 >compound FTneg0756
 >ionization [M+?]-
->parentmass 173.118168462521
+>parentmass Inf
 >rt 6.68310627424635
 
 >ms1
-173.1182 100
+
 
 >ms2
 173.1182 100
 
 >compound FTneg0757
 >ionization [M+?]-
->parentmass 174.956028125018
+>parentmass Inf
 >rt 6.73991602940311
 
 >ms1
-174.956 100
+
 
 >ms2
 174.956 100
 
 >compound FTneg0758
 >ionization [M+?]-
->parentmass 175.061928798945
+>parentmass Inf
 >rt 6.66426988806566
 
 >ms1
-175.0619 100
+
 
 >ms2
 175.0619 100
 
 >compound FTneg0759
 >ionization [M+?]-
->parentmass 184.036459845029
+>parentmass Inf
 >rt 6.70615960423571
 
 >ms1
-184.0365 100
+
 
 >ms2
 184.0365 100
 
 >compound FTneg0760
 >ionization [M+?]-
->parentmass 184.072037941041
+>parentmass Inf
 >rt 6.69339171165182
 
 >ms1
-184.072 100
+
 
 >ms2
 184.072 100
 
 >compound FTneg0761
 >ionization [M+?]-
->parentmass 187.061374936923
+>parentmass Inf
 >rt 6.64144847121915
 
 >ms1
-187.0614 100
+
 
 >ms2
 187.0614 100
 
 >compound FTneg0762
 >ionization [M+?]-
->parentmass 193.072555158913
+>parentmass Inf
 >rt 6.67183343776761
 
 >ms1
-193.0726 100
+
 
 >ms2
 193.0726 100
 
 >compound FTneg0763
 >ionization [M+?]-
->parentmass 194.924617849535
+>parentmass Inf
 >rt 6.71178072757575
 
 >ms1
-194.9246 100
+
 
 >ms2
 194.9246 100
 
 >compound FTneg0764
 >ionization [M+?]-
->parentmass 195.052419270551
+>parentmass Inf
 >rt 6.630125
 
 >ms1
-195.0524 100
+
 
 >ms2
 195.0524 100
 
 >compound FTneg0765
 >ionization [M+?]-
->parentmass 197.045022323856
+>parentmass Inf
 >rt 6.63624304241825
 
 >ms1
-197.045 100
+
 
 >ms2
 197.045 100
 
 >compound FTneg0766
 >ionization [M+?]-
->parentmass 198.936324008283
+>parentmass Inf
 >rt 6.65738022355185
 
 >ms1
-198.9363 100
+
 
 >ms2
 198.9363 100
 
 >compound FTneg0767
 >ionization [M+?]-
->parentmass 200.06677277726
+>parentmass Inf
 >rt 6.66263762023651
 
 >ms1
-200.0668 100
+
 
 >ms2
 200.0668 100
 
 >compound FTneg0768
 >ionization [M+?]-
->parentmass 205.072331608268
+>parentmass Inf
 >rt 6.64362397963777
 
 >ms1
-205.0723 100
+
 
 >ms2
 205.0723 100
 
 >compound FTneg0769
 >ionization [M+?]-
->parentmass 207.052100327463
+>parentmass Inf
 >rt 6.61131590855469
 
 >ms1
-207.0521 100
+
 
 >ms2
 207.0521 100
 
 >compound FTneg0770
 >ionization [M+?]-
->parentmass 207.931214052269
+>parentmass Inf
 >rt 6.80189761752565
 
 >ms1
-207.9312 100
+
 
 >ms2
 207.9312 100
 
 >compound FTneg0771
 >ionization [M+?]-
->parentmass 210.05232410559
+>parentmass Inf
 >rt 6.66701866316146
 
 >ms1
-210.0523 100
+
 
 >ms2
 210.0523 100
 
 >compound FTneg0772
 >ionization [M+?]-
->parentmass 212.067452304127
+>parentmass Inf
 >rt 6.69420687850757
 
 >ms1
-212.0675 100
+
 
 >ms2
 212.0675 100
 
 >compound FTneg0773
 >ionization [M+?]-
->parentmass 221.067898463127
+>parentmass Inf
 >rt 6.79187809478735
 
 >ms1
-221.0679 100
+
 
 >ms2
 221.0679 100
 
 >compound FTneg0774
 >ionization [M+?]-
->parentmass 224.065635721356
+>parentmass Inf
 >rt 6.62396328754808
 
 >ms1
-224.0656 100
+
 
 >ms2
 224.0656 100
 
 >compound FTneg0775
 >ionization [M+?]-
->parentmass 231.087158852635
+>parentmass Inf
 >rt 6.67623895135221
 
 >ms1
-231.0872 100
+
 
 >ms2
 231.0872 100
 
 >compound FTneg0776
 >ionization [M+?]-
->parentmass 232.083397789792
+>parentmass Inf
 >rt 6.6502723143642
 
 >ms1
-232.0834 100
+
 
 >ms2
 232.0834 100
 
 >compound FTneg0777
 >ionization [M+?]-
->parentmass 233.066277090093
+>parentmass Inf
 >rt 6.60918897688905
 
 >ms1
-233.0663 100
+
 
 >ms2
 233.0663 100
 
 >compound FTneg0778
 >ionization [M+?]-
->parentmass 239.903214845171
+>parentmass Inf
 >rt 6.70663831025265
 
 >ms1
-239.9032 100
+
 
 >ms2
 239.9032 100
 
 >compound FTneg0779
 >ionization [M+?]-
->parentmass 240.063081902028
+>parentmass Inf
 >rt 6.70690572195591
 
 >ms1
-240.0631 100
+
 
 >ms2
 240.0631 100
 
 >compound FTneg0780
 >ionization [M+?]-
->parentmass 247.022329918313
+>parentmass Inf
 >rt 6.65432468744038
 
 >ms1
-247.0223 100
+
 
 >ms2
 247.0223 100
 
 >compound FTneg0781
 >ionization [M+?]-
->parentmass 255.822271273621
+>parentmass Inf
 >rt 6.79824407374118
 
 >ms1
-255.8223 100
+
 
 >ms2
 255.8223 100
 
 >compound FTneg0782
 >ionization [M+?]-
->parentmass 265.058392249784
+>parentmass Inf
 >rt 6.74891754924583
 
 >ms1
-265.0584 100
+
 
 >ms2
 265.0584 100
 
 >compound FTneg0783
 >ionization [M+?]-
->parentmass 265.092391156075
+>parentmass Inf
 >rt 6.68940907597565
 
 >ms1
-265.0924 100
+
 
 >ms2
 265.0924 100
 
 >compound FTneg0784
 >ionization [M+?]-
->parentmass 267.107415662024
+>parentmass Inf
 >rt 6.62629731047707
 
 >ms1
-267.1074 100
+
 
 >ms2
 267.1074 100
 
 >compound FTneg0785
 >ionization [M+?]-
->parentmass 269.053462981679
+>parentmass Inf
 >rt 6.71976383804317
 
 >ms1
-269.0535 100
+
 
 >ms2
 269.0535 100
 
 >compound FTneg0786
 >ionization [M+?]-
->parentmass 271.093536285927
+>parentmass Inf
 >rt 6.64911749283909
 
 >ms1
-271.0935 100
+
 
 >ms2
 271.0935 100
 
 >compound FTneg0787
 >ionization [M+?]-
->parentmass 276.074299106772
+>parentmass Inf
 >rt 6.7073408333333
 
 >ms1
-276.0743 100
+
 
 >ms2
 276.0743 100
 
 >compound FTneg0788
 >ionization [M+?]-
->parentmass 277.085691998999
+>parentmass Inf
 >rt 6.64663522064822
 
 >ms1
-277.0857 100
+
 
 >ms2
 277.0857 100
 
 >compound FTneg0789
 >ionization [M+?]-
->parentmass 285.083663490636
+>parentmass Inf
 >rt 6.6683366044114
 
 >ms1
-285.0837 100
+
 
 >ms2
 285.0837 100
 
 >compound FTneg0790
 >ionization [M+?]-
->parentmass 285.908357950977
+>parentmass Inf
 >rt 6.68268127886823
 
 >ms1
-285.9084 100
+
 
 >ms2
 285.9084 100
 
 >compound FTneg0791
 >ionization [M+?]-
->parentmass 291.108382637395
+>parentmass Inf
 >rt 6.68803346399337
 
 >ms1
-291.1084 100
+
 
 >ms2
 291.1084 100
 
 >compound FTneg0792
 >ionization [M+?]-
->parentmass 292.104892283132
+>parentmass Inf
 >rt 6.66498881158444
 
 >ms1
-292.1049 100
+
 
 >ms2
 292.1049 100
 
 >compound FTneg0793
 >ionization [M+?]-
->parentmass 295.129557156763
+>parentmass Inf
 >rt 6.64061925797409
 
 >ms1
-295.1296 100
+
 
 >ms2
 295.1296 100
 
 >compound FTneg0794
 >ionization [M+?]-
->parentmass 297.086268205357
+>parentmass Inf
 >rt 6.70501280601686
 
 >ms1
-297.0863 100
+
 
 >ms2
 297.0863 100
 
 >compound FTneg0795
 >ionization [M+?]-
->parentmass 301.128276176336
+>parentmass Inf
 >rt 6.65289879197291
 
 >ms1
-301.1283 100
+
 
 >ms2
 301.1283 100
 
 >compound FTneg0796
 >ionization [M+?]-
->parentmass 302.135082343542
+>parentmass Inf
 >rt 6.69413538483484
 
 >ms1
-302.1351 100
+
 
 >ms2
 302.1351 100
 
 >compound FTneg0797
 >ionization [M+?]-
->parentmass 304.074552478105
+>parentmass Inf
 >rt 6.68714934290267
 
 >ms1
-304.0746 100
+
 
 >ms2
 304.0746 100
 
 >compound FTneg0798
 >ionization [M+?]-
->parentmass 305.072161646573
+>parentmass Inf
 >rt 6.6390311111112
 
 >ms1
-305.0722 100
+
 
 >ms2
 305.0722 100
 
 >compound FTneg0799
 >ionization [M+?]-
->parentmass 307.856544829776
+>parentmass Inf
 >rt 6.65118689703965
 
 >ms1
-307.8565 100
+
 
 >ms2
 307.8565 100
 
 >compound FTneg0800
 >ionization [M+?]-
->parentmass 311.112681619292
+>parentmass Inf
 >rt 6.62755105624678
 
 >ms1
-311.1127 100
+
 
 >ms2
 311.1127 100
 
 >compound FTneg0801
 >ionization [M+?]-
->parentmass 320.886326844151
+>parentmass Inf
 >rt 6.7614810302058
 
 >ms1
-320.8863 100
+
 
 >ms2
 320.8863 100
 
 >compound FTneg0802
 >ionization [M+?]-
->parentmass 321.094098241709
+>parentmass Inf
 >rt 6.73054555555553
 
 >ms1
-321.0941 100
+
 
 >ms2
 321.0941 100
 
 >compound FTneg0803
 >ionization [M+?]-
->parentmass 323.97051900524
+>parentmass Inf
 >rt 6.66004411563259
 
 >ms1
-323.9705 100
+
 
 >ms2
 323.9705 100
 
 >compound FTneg0804
 >ionization [M+?]-
->parentmass 324.965364831043
+>parentmass Inf
 >rt 6.65773334679477
 
 >ms1
-324.9654 100
+
 
 >ms2
 324.9654 100
 
 >compound FTneg0805
 >ionization [M+?]-
->parentmass 334.081379614948
+>parentmass Inf
 >rt 6.64295312539405
 
 >ms1
-334.0814 100
+
 
 >ms2
 334.0814 100
 
 >compound FTneg0806
 >ionization [M+?]-
->parentmass 339.104072024659
+>parentmass Inf
 >rt 6.62035166750722
 
 >ms1
-339.1041 100
+
 
 >ms2
 339.1041 100
 
 >compound FTneg0807
 >ionization [M+?]-
->parentmass 341.08377951556
+>parentmass Inf
 >rt 6.71504388821868
 
 >ms1
-341.0838 100
+
 
 >ms2
 341.0838 100
 
 >compound FTneg0808
 >ionization [M+?]-
->parentmass 341.967570364982
+>parentmass Inf
 >rt 6.65366858353268
 
 >ms1
-341.9676 100
+
 
 >ms2
 341.9676 100
 
 >compound FTneg0809
 >ionization [M+?]-
->parentmass 347.111476998463
+>parentmass Inf
 >rt 6.68847213402866
 
 >ms1
-347.1115 100
+
 
 >ms2
 347.1115 100
 
 >compound FTneg0810
 >ionization [M+?]-
->parentmass 354.106616112056
+>parentmass Inf
 >rt 6.63241690396787
 
 >ms1
-354.1066 100
+
 
 >ms2
 354.1066 100
 
 >compound FTneg0811
 >ionization [M+?]-
->parentmass 359.089070475508
+>parentmass Inf
 >rt 6.6668649128082
 
 >ms1
-359.0891 100
+
 
 >ms2
 359.0891 100
 
 >compound FTneg0812
 >ionization [M+?]-
->parentmass 359.096822180778
+>parentmass Inf
 >rt 6.6757868564288
 
 >ms1
-359.0968 100
+
 
 >ms2
 359.0968 100
 
 >compound FTneg0813
 >ionization [M+?]-
->parentmass 360.106448672088
+>parentmass Inf
 >rt 6.66640968217915
 
 >ms1
-360.1064 100
+
 
 >ms2
 360.1064 100
 
 >compound FTneg0814
 >ionization [M+?]-
->parentmass 383.100214724901
+>parentmass Inf
 >rt 6.63037747593365
 
 >ms1
-383.1002 100
+
 
 >ms2
 383.1002 100
 
 >compound FTneg0815
 >ionization [M+?]-
->parentmass 394.111285561854
+>parentmass Inf
 >rt 6.60987003942619
 
 >ms1
-394.1113 100
+
 
 >ms2
 394.1113 100
 
 >compound FTneg0816
 >ionization [M+?]-
->parentmass 401.108664333827
+>parentmass Inf
 >rt 6.64932375693306
 
 >ms1
-401.1087 100
+
 
 >ms2
 401.1087 100
 
 >compound FTneg0817
 >ionization [M+?]-
->parentmass 402.116623259522
+>parentmass Inf
 >rt 6.67472571236904
 
 >ms1
-402.1166 100
+
 
 >ms2
 402.1166 100
 
 >compound FTneg0818
 >ionization [M+?]-
->parentmass 435.139898073413
+>parentmass Inf
 >rt 6.65953353977624
 
 >ms1
-435.1399 100
+
 
 >ms2
 435.1399 100
 
 >compound FTneg0819
 >ionization [M+?]-
->parentmass 112.985831860948
+>parentmass Inf
 >rt 0.25944784934897
 
 >ms1
-112.9858 100
 
 >ms2
 53.0405 8
@@ -11471,11 +11389,10 @@
 
 >compound FTneg0820
 >ionization [M+?]-
->parentmass 72.9931601522636
+>parentmass Inf
 >rt 0.191864404076162
 
 >ms1
-72.99316 100
 
 >ms2
 57.0627 4
@@ -11502,11 +11419,10 @@
 
 >compound FTneg0821
 >ionization [M+?]-
->parentmass 88.9882342477637
+>parentmass Inf
 >rt 0.221798610559297
 
 >ms1
-88.98823 100
 
 >ms2
 51.394 4
@@ -11544,11 +11460,10 @@
 
 >compound FTneg0822
 >ionization [M+?]-
->parentmass 100.004123298198
+>parentmass Inf
 >rt 0.202634322096779
 
 >ms1
-100.0041 100
 
 >ms2
 50.0149 773
@@ -11678,88 +11593,87 @@
 
 >compound FTneg0823
 >ionization [M+?]-
->parentmass 146.938464020773
+>parentmass Inf
 >rt 0.324321918766362
 
 >ms1
-146.9385 100
+
 
 >ms2
 146.9385 100
 
 >compound FTneg0824
 >ionization [M+?]-
->parentmass 172.957347470439
+>parentmass Inf
 >rt 0.254696783227203
 
 >ms1
-172.9573 100
+
 
 >ms2
 172.9573 100
 
 >compound FTneg0825
 >ionization [M+?]-
->parentmass 207.931274636924
+>parentmass Inf
 >rt 0.287533740824433
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg0826
 >ionization [M+?]-
->parentmass 235.926241755903
+>parentmass Inf
 >rt 0.296569812811208
 
 >ms1
-235.9262 100
+
 
 >ms2
 235.9262 100
 
 >compound FTneg0827
 >ionization [M+?]-
->parentmass 306.925487532569
+>parentmass Inf
 >rt 0.272174968305656
 
 >ms1
-306.9255 100
+
 
 >ms2
 306.9255 100
 
 >compound FTneg0828
 >ionization [M+?]-
->parentmass 320.885512934248
+>parentmass Inf
 >rt 0.272390314902829
 
 >ms1
-320.8855 100
+
 
 >ms2
 320.8855 100
 
 >compound FTneg0829
 >ionization [M+?]-
->parentmass 372.078309349185
+>parentmass Inf
 >rt 6.39586827956987
 
 >ms1
-372.0783 100
+
 
 >ms2
 372.0783 100
 
 >compound FTneg0830
 >ionization [M+?]-
->parentmass 72.9931621266807
+>parentmass Inf
 >rt 6.3792195784009
 
 >ms1
-72.99316 100
 
 >ms2
 53.0375 40
@@ -11769,66 +11683,65 @@
 
 >compound FTneg0831
 >ionization [M+?]-
->parentmass 115.039866984591
+>parentmass Inf
 >rt 6.40102288152529
 
 >ms1
-115.0399 100
+
 
 >ms2
 115.0399 100
 
 >compound FTneg0832
 >ionization [M+?]-
->parentmass 118.998491963378
+>parentmass Inf
 >rt 6.36885819206065
 
 >ms1
-118.9985 100
+
 
 >ms2
 118.9985 100
 
 >compound FTneg0833
 >ionization [M+?]-
->parentmass 191.02019723273
+>parentmass Inf
 >rt 6.37577819605859
 
 >ms1
-191.0202 100
+
 
 >ms2
 191.0202 100
 
 >compound FTneg0834
 >ionization [M+?]-
->parentmass 266.103025189333
+>parentmass Inf
 >rt 6.39478800760686
 
 >ms1
-266.103 100
+
 
 >ms2
 266.103 100
 
 >compound FTneg0835
 >ionization [M+?]-
->parentmass 268.119023762293
+>parentmass Inf
 >rt 6.37310269591354
 
 >ms1
-268.119 100
+
 
 >ms2
 268.119 100
 
 >compound FTneg0836
 >ionization [M+?]-
->parentmass 282.08440138732
+>parentmass Inf
 >rt 6.35542784112084
 
 >ms1
-282.0844 100
 
 >ms2
 51.9339 4
@@ -11851,11 +11764,10 @@
 
 >compound FTneg0837
 >ionization [M+?]-
->parentmass 328.089863368434
+>parentmass Inf
 >rt 6.36305807720365
 
 >ms1
-328.0899 100
 
 >ms2
 57.0162 172
@@ -11883,33 +11795,31 @@
 
 >compound FTneg0838
 >ionization [M+?]-
->parentmass 402.102188821999
+>parentmass Inf
 >rt 6.42473848356875
 
 >ms1
-402.1022 100
+
 
 >ms2
 402.1022 100
 
 >compound FTneg0839
 >ionization [M+?]-
->parentmass 117.019361480675
+>parentmass Inf
 >rt 3.01942220323169
 
 >ms1
-117.0194 100
 
 >ms2
 51.0099 40
 
 >compound FTneg0840
 >ionization [M+?]-
->parentmass 130.087507593938
+>parentmass Inf
 >rt 3.00190808994698
 
 >ms1
-130.0875 100
 
 >ms2
 56.83 48
@@ -11935,11 +11845,10 @@
 
 >compound FTneg0841
 >ionization [M+?]-
->parentmass 302.033271063693
+>parentmass Inf
 >rt 3.01662938675565
 
 >ms1
-302.0333 100
 
 >ms2
 51.0237 8
@@ -11978,11 +11887,10 @@
 
 >compound FTneg0842
 >ionization [M+?]-
->parentmass 432.120598025922
+>parentmass Inf
 >rt 3.01187655344472
 
 >ms1
-432.1206 100
 
 >ms2
 57.0133 41
@@ -11994,11 +11902,10 @@
 
 >compound FTneg0843
 >ionization [M+?]-
->parentmass 73.0295865189142
+>parentmass Inf
 >rt 3.02209518572281
 
 >ms1
-73.02959 100
 
 >ms2
 69.0671 40
@@ -12044,44 +11951,43 @@
 
 >compound FTneg0844
 >ionization [M+?]-
->parentmass 99.0087086221836
+>parentmass Inf
 >rt 3.0179585538516
 
 >ms1
-99.00871 100
+
 
 >ms2
 99.00871 100
 
 >compound FTneg0845
 >ionization [M+?]-
->parentmass 162.077029657071
+>parentmass Inf
 >rt 2.99439357977974
 
 >ms1
-162.077 100
+
 
 >ms2
 162.077 100
 
 >compound FTneg0846
 >ionization [M+?]-
->parentmass 176.092451332683
+>parentmass Inf
 >rt 2.9826689098266
 
 >ms1
-176.0925 100
+
 
 >ms2
 176.0925 100
 
 >compound FTneg0847
 >ionization [M+?]-
->parentmass 204.124003066566
+>parentmass Inf
 >rt 2.96788734158495
 
 >ms1
-204.124 100
 
 >ms2
 51.0216 20
@@ -12091,55 +11997,54 @@
 
 >compound FTneg0848
 >ionization [M+?]-
->parentmass 205.035175262071
+>parentmass Inf
 >rt 3.01205709546626
 
 >ms1
-205.0352 100
+
 
 >ms2
 205.0352 100
 
 >compound FTneg0849
 >ionization [M+?]-
->parentmass 216.944010004163
+>parentmass Inf
 >rt 3.04795225625909
 
 >ms1
-216.944 100
+
 
 >ms2
 216.944 100
 
 >compound FTneg0850
 >ionization [M+?]-
->parentmass 226.075083375774
+>parentmass Inf
 >rt 3.00203195397521
 
 >ms1
-226.0751 100
+
 
 >ms2
 226.0751 100
 
 >compound FTneg0851
 >ionization [M+?]-
->parentmass 243.048785476405
+>parentmass Inf
 >rt 2.97683174429527
 
 >ms1
-243.0488 100
+
 
 >ms2
 243.0488 100
 
 >compound FTneg0852
 >ionization [M+?]-
->parentmass 270.095847560955
+>parentmass Inf
 >rt 3.01857341568308
 
 >ms1
-270.0958 100
 
 >ms2
 50.0121 4
@@ -12255,22 +12160,21 @@
 
 >compound FTneg0853
 >ionization [M+?]-
->parentmass 274.000478232547
+>parentmass Inf
 >rt 3.01024879592705
 
 >ms1
-274.0005 100
+
 
 >ms2
 274.0005 100
 
 >compound FTneg0854
 >ionization [M+?]-
->parentmass 276.145103278682
+>parentmass Inf
 >rt 3.00565205003904
 
 >ms1
-276.1451 100
 
 >ms2
 50.0185 20
@@ -12332,22 +12236,21 @@
 
 >compound FTneg0855
 >ionization [M+?]-
->parentmass 286.062387887281
+>parentmass Inf
 >rt 3.03948648060944
 
 >ms1
-286.0624 100
+
 
 >ms2
 286.0624 100
 
 >compound FTneg0856
 >ionization [M+?]-
->parentmass 287.958115539316
+>parentmass Inf
 >rt 3.03808105707058
 
 >ms1
-287.9581 100
 
 >ms2
 90.9749 159
@@ -12356,11 +12259,10 @@
 
 >compound FTneg0857
 >ionization [M+?]-
->parentmass 288.964725999447
+>parentmass Inf
 >rt 3.03677214331533
 
 >ms1
-288.9647 100
 
 >ms2
 54.9375 4
@@ -12392,22 +12294,21 @@
 
 >compound FTneg0858
 >ionization [M+?]-
->parentmass 289.213176388175
+>parentmass Inf
 >rt 2.9980530240152
 
 >ms1
-289.2132 100
+
 
 >ms2
 289.2132 100
 
 >compound FTneg0859
 >ionization [M+?]-
->parentmass 297.082586859388
+>parentmass Inf
 >rt 3.01250912633867
 
 >ms1
-297.0826 100
 
 >ms2
 55.0502 20
@@ -12416,22 +12317,21 @@
 
 >compound FTneg0860
 >ionization [M+?]-
->parentmass 301.035248355031
+>parentmass Inf
 >rt 3.00583866575466
 
 >ms1
-301.0352 100
+
 
 >ms2
 301.0352 100
 
 >compound FTneg0861
 >ionization [M+?]-
->parentmass 310.15065085637
+>parentmass Inf
 >rt 2.99834548402533
 
 >ms1
-310.1507 100
 
 >ms2
 55.0525 40
@@ -12465,143 +12365,141 @@
 
 >compound FTneg0862
 >ionization [M+?]-
->parentmass 312.121586532212
+>parentmass Inf
 >rt 3.00578547121398
 
 >ms1
-312.1216 100
+
 
 >ms2
 312.1216 100
 
 >compound FTneg0863
 >ionization [M+?]-
->parentmass 318.998743926493
+>parentmass Inf
 >rt 3.0206420405665
 
 >ms1
-318.9987 100
+
 
 >ms2
 318.9987 100
 
 >compound FTneg0864
 >ionization [M+?]-
->parentmass 319.02726215149
+>parentmass Inf
 >rt 3.02569687499994
 
 >ms1
-319.0273 100
+
 
 >ms2
 319.0273 100
 
 >compound FTneg0865
 >ionization [M+?]-
->parentmass 321.015001498007
+>parentmass Inf
 >rt 3.05166832989513
 
 >ms1
-321.015 100
+
 
 >ms2
 321.015 100
 
 >compound FTneg0866
 >ionization [M+?]-
->parentmass 323.061819832914
+>parentmass Inf
 >rt 3.01777763716722
 
 >ms1
-323.0618 100
+
 
 >ms2
 323.0618 100
 
 >compound FTneg0867
 >ionization [M+?]-
->parentmass 332.065789620455
+>parentmass Inf
 >rt 3.02624061893624
 
 >ms1
-332.0658 100
+
 
 >ms2
 332.0658 100
 
 >compound FTneg0868
 >ionization [M+?]-
->parentmass 337.002355273349
+>parentmass Inf
 >rt 3.01865677432847
 
 >ms1
-337.0024 100
+
 
 >ms2
 337.0024 100
 
 >compound FTneg0869
 >ionization [M+?]-
->parentmass 338.109125097331
+>parentmass Inf
 >rt 3.11909127570824
 
 >ms1
-338.1091 100
+
 
 >ms2
 338.1091 100
 
 >compound FTneg0870
 >ionization [M+?]-
->parentmass 338.10916005513
+>parentmass Inf
 >rt 2.98593684819633
 
 >ms1
-338.1092 100
 
 >ms2
 60.043 40
 
 >compound FTneg0871
 >ionization [M+?]-
->parentmass 347.03180959941
+>parentmass Inf
 >rt 3.03789791212236
 
 >ms1
-347.0318 100
+
 
 >ms2
 347.0318 100
 
 >compound FTneg0872
 >ionization [M+?]-
->parentmass 363.106616875501
+>parentmass Inf
 >rt 3.02410701508452
 
 >ms1
-363.1066 100
+
 
 >ms2
 363.1066 100
 
 >compound FTneg0873
 >ionization [M+?]-
->parentmass 391.019518091109
+>parentmass Inf
 >rt 3.02697289057278
 
 >ms1
-391.0195 100
+
 
 >ms2
 391.0195 100
 
 >compound FTneg0874
 >ionization [M+?]-
->parentmass 394.171817896084
+>parentmass Inf
 >rt 3.01695919010242
 
 >ms1
-394.1718 100
 
 >ms2
 53.0383 40
@@ -12655,88 +12553,87 @@
 
 >compound FTneg0875
 >ionization [M+?]-
->parentmass 404.088167004814
+>parentmass Inf
 >rt 3.00919298988128
 
 >ms1
-404.0882 100
+
 
 >ms2
 404.0882 100
 
 >compound FTneg0876
 >ionization [M+?]-
->parentmass 417.155002328648
+>parentmass Inf
 >rt 3.01095833935784
 
 >ms1
-417.155 100
+
 
 >ms2
 417.155 100
 
 >compound FTneg0877
 >ionization [M+?]-
->parentmass 419.059413259268
+>parentmass Inf
 >rt 3.01943420715156
 
 >ms1
-419.0594 100
+
 
 >ms2
 419.0594 100
 
 >compound FTneg0878
 >ionization [M+?]-
->parentmass 420.059822900889
+>parentmass Inf
 >rt 3.02499855925595
 
 >ms1
-420.0598 100
+
 
 >ms2
 420.0598 100
 
 >compound FTneg0879
 >ionization [M+?]-
->parentmass 437.124469825032
+>parentmass Inf
 >rt 3.01003516979013
 
 >ms1
-437.1245 100
+
 
 >ms2
 437.1245 100
 
 >compound FTneg0880
 >ionization [M+?]-
->parentmass 491.193485326536
+>parentmass Inf
 >rt 2.9997215916302
 
 >ms1
-491.1935 100
+
 
 >ms2
 491.1935 100
 
 >compound FTneg0881
 >ionization [M+?]-
->parentmass 74.0247995885551
+>parentmass Inf
 >rt 7.75857242750391
 
 >ms1
-74.0248 100
+
 
 >ms2
 74.0248 100
 
 >compound FTneg0882
 >ionization [M+?]-
->parentmass 611.144590625765
+>parentmass Inf
 >rt 3.25202224854605
 
 >ms1
-611.1446 100
 
 >ms2
 55.0533 13
@@ -12760,22 +12657,21 @@
 
 >compound FTneg0883
 >ionization [M+?]-
->parentmass 75.0087510582845
+>parentmass Inf
 >rt 3.26503476972406
 
 >ms1
-75.00875 100
+
 
 >ms2
 75.00875 100
 
 >compound FTneg0884
 >ionization [M+?]-
->parentmass 87.0087800691509
+>parentmass Inf
 >rt 3.27263128728439
 
 >ms1
-87.00878 100
 
 >ms2
 50.0105 40
@@ -12812,22 +12708,20 @@
 
 >compound FTneg0885
 >ionization [M+?]-
->parentmass 103.003728514304
+>parentmass Inf
 >rt 3.23953959594556
 
 >ms1
-103.0037 100
 
 >ms2
 53.7751 4
 
 >compound FTneg0886
 >ionization [M+?]-
->parentmass 103.04003920103
+>parentmass Inf
 >rt 3.29583162566116
 
 >ms1
-103.04 100
 
 >ms2
 55.0541 8
@@ -12880,22 +12774,21 @@
 
 >compound FTneg0887
 >ionization [M+?]-
->parentmass 116.982640546638
+>parentmass Inf
 >rt 3.3034749840089
 
 >ms1
-116.9826 100
+
 
 >ms2
 116.9826 100
 
 >compound FTneg0888
 >ionization [M+?]-
->parentmass 118.998182577893
+>parentmass Inf
 >rt 3.25037126329072
 
 >ms1
-118.9982 100
 
 >ms2
 50.0155 40
@@ -12989,11 +12882,10 @@
 
 >compound FTneg0889
 >ionization [M+?]-
->parentmass 119.034935534332
+>parentmass Inf
 >rt 3.26681511747469
 
 >ms1
-119.0349 100
 
 >ms2
 51.0317 20
@@ -13004,77 +12896,76 @@
 
 >compound FTneg0890
 >ionization [M+?]-
->parentmass 133.014201801906
+>parentmass Inf
 >rt 3.26500460325054
 
 >ms1
-133.0142 100
+
 
 >ms2
 133.0142 100
 
 >compound FTneg0891
 >ionization [M+?]-
->parentmass 147.02957190186
+>parentmass Inf
 >rt 3.2647578184718
 
 >ms1
-147.0296 100
+
 
 >ms2
 147.0296 100
 
 >compound FTneg0892
 >ionization [M+?]-
->parentmass 147.065834031749
+>parentmass Inf
 >rt 3.20009545454536
 
 >ms1
-147.0658 100
+
 
 >ms2
 147.0658 100
 
 >compound FTneg0893
 >ionization [M+?]-
->parentmass 149.009117245833
+>parentmass Inf
 >rt 3.24986984013012
 
 >ms1
-149.0091 100
+
 
 >ms2
 149.0091 100
 
 >compound FTneg0894
 >ionization [M+?]-
->parentmass 163.024696147512
+>parentmass Inf
 >rt 3.26338759849523
 
 >ms1
-163.0247 100
+
 
 >ms2
 163.0247 100
 
 >compound FTneg0895
 >ionization [M+?]-
->parentmass 179.019359431114
+>parentmass Inf
 >rt 3.26222664220951
 
 >ms1
-179.0194 100
+
 
 >ms2
 179.0194 100
 
 >compound FTneg0896
 >ionization [M+?]-
->parentmass 195.810939295905
+>parentmass Inf
 >rt 1.80247023042749
 
 >ms1
-195.8109 100
 
 >ms2
 51.0063 20
@@ -13096,11 +12987,10 @@
 
 >compound FTneg0897
 >ionization [M+?]-
->parentmass 302.100968515549
+>parentmass Inf
 >rt 1.83027073550244
 
 >ms1
-302.101 100
 
 >ms2
 55.9336 8
@@ -13108,11 +12998,10 @@
 
 >compound FTneg0898
 >ionization [M+?]-
->parentmass 75.0087951898825
+>parentmass Inf
 >rt 1.81723667646689
 
 >ms1
-75.0088 100
 
 >ms2
 59.0673 40
@@ -13148,11 +13037,10 @@
 
 >compound FTneg0899
 >ionization [M+?]-
->parentmass 119.034937570396
+>parentmass Inf
 >rt 1.84521620445359
 
 >ms1
-119.0349 100
 
 >ms2
 51.0092 4
@@ -13161,11 +13049,10 @@
 
 >compound FTneg0900
 >ionization [M+?]-
->parentmass 144.06633453429
+>parentmass Inf
 >rt 1.83246002143174
 
 >ms1
-144.0663 100
 
 >ms2
 55.0458 20
@@ -13177,11 +13064,10 @@
 
 >compound FTneg0901
 >ionization [M+?]-
->parentmass 152.048165778627
+>parentmass Inf
 >rt 1.83198654571002
 
 >ms1
-152.0482 100
 
 >ms2
 51.7906 40
@@ -13386,44 +13272,42 @@
 
 >compound FTneg0902
 >ionization [M+?]-
->parentmass 195.793830338041
+>parentmass Inf
 >rt 1.852318888889
 
 >ms1
-195.7938 100
+
 
 >ms2
 195.7938 100
 
 >compound FTneg0903
 >ionization [M+?]-
->parentmass 196.028064226002
+>parentmass Inf
 >rt 1.84250556699665
 
 >ms1
-196.0281 100
+
 
 >ms2
 196.0281 100
 
 >compound FTneg0904
 >ionization [M+?]-
->parentmass 197.807976985965
+>parentmass Inf
 >rt 1.80339571303202
 
 >ms1
-197.808 100
 
 >ms2
 54.0087 159
 
 >compound FTneg0905
 >ionization [M+?]-
->parentmass 199.805098741148
+>parentmass Inf
 >rt 1.80303023356933
 
 >ms1
-199.8051 100
 
 >ms2
 50.0163 8
@@ -13480,11 +13364,10 @@
 
 >compound FTneg0906
 >ionization [M+?]-
->parentmass 226.996425790568
+>parentmass Inf
 >rt 1.84450935405686
 
 >ms1
-226.9964 100
 
 >ms2
 51.9369 4
@@ -13514,11 +13397,10 @@
 
 >compound FTneg0907
 >ionization [M+?]-
->parentmass 278.054715393925
+>parentmass Inf
 >rt 1.82492824358081
 
 >ms1
-278.0547 100
 
 >ms2
 50.0156 20
@@ -13537,33 +13419,32 @@
 
 >compound FTneg0908
 >ionization [M+?]-
->parentmass 280.052111688968
+>parentmass Inf
 >rt 1.82741994509403
 
 >ms1
-280.0521 100
+
 
 >ms2
 280.0521 100
 
 >compound FTneg0909
 >ionization [M+?]-
->parentmass 293.051500579976
+>parentmass Inf
 >rt 1.77322324913077
 
 >ms1
-293.0515 100
+
 
 >ms2
 293.0515 100
 
 >compound FTneg0910
 >ionization [M+?]-
->parentmass 302.078736493255
+>parentmass Inf
 >rt 1.83918442118488
 
 >ms1
-302.0787 100
 
 >ms2
 51.9567 4
@@ -13599,11 +13480,10 @@
 
 >compound FTneg0911
 >ionization [M+?]-
->parentmass 332.11132099174
+>parentmass Inf
 >rt 1.82507469641354
 
 >ms1
-332.1113 100
 
 >ms2
 55.0541 159
@@ -13633,22 +13513,21 @@
 
 >compound FTneg0912
 >ionization [M+?]-
->parentmass 353.030813848417
+>parentmass Inf
 >rt 1.83700858182193
 
 >ms1
-353.0308 100
+
 
 >ms2
 353.0308 100
 
 >compound FTneg0913
 >ionization [M+?]-
->parentmass 354.063043763754
+>parentmass Inf
 >rt 1.83606084744779
 
 >ms1
-354.063 100
 
 >ms2
 57.9347 40
@@ -13658,22 +13537,21 @@
 
 >compound FTneg0914
 >ionization [M+?]-
->parentmass 356.061868531988
+>parentmass Inf
 >rt 1.91601792478149
 
 >ms1
-356.0619 100
+
 
 >ms2
 356.0619 100
 
 >compound FTneg0915
 >ionization [M+?]-
->parentmass 360.059597513317
+>parentmass Inf
 >rt 1.84792985954483
 
 >ms1
-360.0596 100
 
 >ms2
 53.0361 80
@@ -13866,33 +13744,32 @@
 
 >compound FTneg0916
 >ionization [M+?]-
->parentmass 362.057126727845
+>parentmass Inf
 >rt 1.84944892749528
 
 >ms1
-362.0571 100
+
 
 >ms2
 362.0571 100
 
 >compound FTneg0917
 >ionization [M+?]-
->parentmass 366.005116230509
+>parentmass Inf
 >rt 1.8528553423113
 
 >ms1
-366.0051 100
+
 
 >ms2
 366.0051 100
 
 >compound FTneg0918
 >ionization [M+?]-
->parentmass 370.088279168174
+>parentmass Inf
 >rt 1.9019513740744
 
 >ms1
-370.0883 100
 
 >ms2
 51.7017 40
@@ -13923,55 +13800,54 @@
 
 >compound FTneg0919
 >ionization [M+?]-
->parentmass 374.031305015125
+>parentmass Inf
 >rt 1.89899660498712
 
 >ms1
-374.0313 100
+
 
 >ms2
 374.0313 100
 
 >compound FTneg0920
 >ionization [M+?]-
->parentmass 376.137139669263
+>parentmass Inf
 >rt 1.83590270406591
 
 >ms1
-376.1371 100
+
 
 >ms2
 376.1371 100
 
 >compound FTneg0921
 >ionization [M+?]-
->parentmass 387.164487974819
+>parentmass Inf
 >rt 1.82019084822479
 
 >ms1
-387.1645 100
+
 
 >ms2
 387.1645 100
 
 >compound FTneg0922
 >ionization [M+?]-
->parentmass 390.069779803871
+>parentmass Inf
 >rt 1.84538326468436
 
 >ms1
-390.0698 100
+
 
 >ms2
 390.0698 100
 
 >compound FTneg0923
 >ionization [M+?]-
->parentmass 407.989527627492
+>parentmass Inf
 >rt 1.83864860362985
 
 >ms1
-407.9895 100
 
 >ms2
 55.0563 40
@@ -13982,22 +13858,21 @@
 
 >compound FTneg0924
 >ionization [M+?]-
->parentmass 409.150386080084
+>parentmass Inf
 >rt 1.82730879610028
 
 >ms1
-409.1504 100
+
 
 >ms2
 409.1504 100
 
 >compound FTneg0925
 >ionization [M+?]-
->parentmass 409.98657598728
+>parentmass Inf
 >rt 1.84074487241259
 
 >ms1
-409.9866 100
 
 >ms2
 55.0525 80
@@ -14029,275 +13904,274 @@
 
 >compound FTneg0926
 >ionization [M+?]-
->parentmass 411.983952976436
+>parentmass Inf
 >rt 1.85548533625682
 
 >ms1
-411.984 100
+
 
 >ms2
 411.984 100
 
 >compound FTneg0927
 >ionization [M+?]-
->parentmass 414.018873707036
+>parentmass Inf
 >rt 1.87745443818543
 
 >ms1
-414.0189 100
+
 
 >ms2
 414.0189 100
 
 >compound FTneg0928
 >ionization [M+?]-
->parentmass 467.109691310899
+>parentmass Inf
 >rt 1.83461918371544
 
 >ms1
-467.1097 100
+
 
 >ms2
 467.1097 100
 
 >compound FTneg0929
 >ionization [M+?]-
->parentmass 469.106772387814
+>parentmass Inf
 >rt 1.83644653106094
 
 >ms1
-469.1068 100
+
 
 >ms2
 469.1068 100
 
 >compound FTneg0930
 >ionization [M+?]-
->parentmass 482.163578597298
+>parentmass Inf
 >rt 1.83675371712306
 
 >ms1
-482.1636 100
+
 
 >ms2
 482.1636 100
 
 >compound FTneg0931
 >ionization [M+?]-
->parentmass 525.067337864208
+>parentmass Inf
 >rt 1.84859509803924
 
 >ms1
-525.0673 100
+
 
 >ms2
 525.0673 100
 
 >compound FTneg0932
 >ionization [M+?]-
->parentmass 527.065570938713
+>parentmass Inf
 >rt 1.84758833560329
 
 >ms1
-527.0656 100
+
 
 >ms2
 527.0656 100
 
 >compound FTneg0933
 >ionization [M+?]-
->parentmass 531.096818406056
+>parentmass Inf
 >rt 1.8471485881604
 
 >ms1
-531.0968 100
+
 
 >ms2
 531.0968 100
 
 >compound FTneg0934
 >ionization [M+?]-
->parentmass 559.203500178278
+>parentmass Inf
 >rt 1.82640093531546
 
 >ms1
-559.2035 100
+
 
 >ms2
 559.2035 100
 
 >compound FTneg0935
 >ionization [M+?]-
->parentmass 588.052823061774
+>parentmass Inf
 >rt 1.84701738938072
 
 >ms1
-588.0528 100
+
 
 >ms2
 588.0528 100
 
 >compound FTneg0936
 >ionization [M+?]-
->parentmass 589.21332432661
+>parentmass Inf
 >rt 1.82330259702078
 
 >ms1
-589.2133 100
+
 
 >ms2
 589.2133 100
 
 >compound FTneg0937
 >ionization [M+?]-
->parentmass 590.050517678128
+>parentmass Inf
 >rt 1.85068644214404
 
 >ms1
-590.0505 100
+
 
 >ms2
 590.0505 100
 
 >compound FTneg0938
 >ionization [M+?]-
->parentmass 617.163422554761
+>parentmass Inf
 >rt 1.82715037798552
 
 >ms1
-617.1634 100
+
 
 >ms2
 617.1634 100
 
 >compound FTneg0939
 >ionization [M+?]-
->parentmass 647.172702355136
+>parentmass Inf
 >rt 1.83332061235775
 
 >ms1
-647.1727 100
+
 
 >ms2
 647.1727 100
 
 >compound FTneg0940
 >ionization [M+?]-
->parentmass 649.170222162574
+>parentmass Inf
 >rt 1.83309305555558
 
 >ms1
-649.1702 100
+
 
 >ms2
 649.1702 100
 
 >compound FTneg0941
 >ionization [M+?]-
->parentmass 669.124271389193
+>parentmass Inf
 >rt 1.83968896109662
 
 >ms1
-669.1243 100
+
 
 >ms2
 669.1243 100
 
 >compound FTneg0942
 >ionization [M+?]-
->parentmass 88.0041270283088
+>parentmass Inf
 >rt 6.41378136263855
 
 >ms1
-88.00413 100
+
 
 >ms2
 88.00413 100
 
 >compound FTneg0943
 >ionization [M+?]-
->parentmass 75.0088811053978
+>parentmass Inf
 >rt 6.40485888464412
 
 >ms1
-75.00888 100
+
 
 >ms2
 75.00888 100
 
 >compound FTneg0944
 >ionization [M+?]-
->parentmass 161.046122752169
+>parentmass Inf
 >rt 6.42085204297406
 
 >ms1
-161.0461 100
+
 
 >ms2
 161.0461 100
 
 >compound FTneg0945
 >ionization [M+?]-
->parentmass 272.053297709909
+>parentmass Inf
 >rt 6.45131259717575
 
 >ms1
-272.0533 100
+
 
 >ms2
 272.0533 100
 
 >compound FTneg0946
 >ionization [M+?]-
->parentmass 130.014576089379
+>parentmass Inf
 >rt 6.40484351589539
 
 >ms1
-130.0146 100
+
 
 >ms2
 130.0146 100
 
 >compound FTneg0947
 >ionization [M+?]-
->parentmass 311.065418661177
+>parentmass Inf
 >rt 6.50116085105374
 
 >ms1
-311.0654 100
+
 
 >ms2
 311.0654 100
 
 >compound FTneg0948
 >ionization [M+?]-
->parentmass 87.0087901068821
+>parentmass Inf
 >rt 6.45185741128393
 
 >ms1
-87.00879 100
+
 
 >ms2
 87.00879 100
 
 >compound FTneg0949
 >ionization [M+?]-
->parentmass 96.0092442346414
+>parentmass Inf
 >rt 6.43711844665928
 
 >ms1
-96.00924 100
+
 
 >ms2
 96.00924 100
 
 >compound FTneg0950
 >ionization [M+?]-
->parentmass 100.004135261837
+>parentmass Inf
 >rt 6.38557599807129
 
 >ms1
-100.0041 100
 
 >ms2
 50.0171 8
@@ -14338,638 +14212,636 @@
 
 >compound FTneg0951
 >ionization [M+?]-
->parentmass 102.019730855629
+>parentmass Inf
 >rt 6.44066266257634
 
 >ms1
-102.0197 100
+
 
 >ms2
 102.0197 100
 
 >compound FTneg0952
 >ionization [M+?]-
->parentmass 112.004114202775
+>parentmass Inf
 >rt 6.43975348918911
 
 >ms1
-112.0041 100
+
 
 >ms2
 112.0041 100
 
 >compound FTneg0953
 >ionization [M+?]-
->parentmass 115.01485694243
+>parentmass Inf
 >rt 6.42241312892285
 
 >ms1
-115.0149 100
+
 
 >ms2
 115.0149 100
 
 >compound FTneg0954
 >ionization [M+?]-
->parentmass 124.014878420067
+>parentmass Inf
 >rt 6.48676831619314
 
 >ms1
-124.0149 100
+
 
 >ms2
 124.0149 100
 
 >compound FTneg0955
 >ionization [M+?]-
->parentmass 132.030137382283
+>parentmass Inf
 >rt 6.44095555247623
 
 >ms1
-132.0301 100
+
 
 >ms2
 132.0301 100
 
 >compound FTneg0956
 >ionization [M+?]-
->parentmass 142.026715273412
+>parentmass Inf
 >rt 6.46818490505754
 
 >ms1
-142.0267 100
+
 
 >ms2
 142.0267 100
 
 >compound FTneg0957
 >ionization [M+?]-
->parentmass 144.030443776415
+>parentmass Inf
 >rt 6.43048358552517
 
 >ms1
-144.0304 100
+
 
 >ms2
 144.0304 100
 
 >compound FTneg0958
 >ionization [M+?]-
->parentmass 147.043837862006
+>parentmass Inf
 >rt 6.4444492581905
 
 >ms1
-147.0438 100
+
 
 >ms2
 147.0438 100
 
 >compound FTneg0959
 >ionization [M+?]-
->parentmass 157.025369307831
+>parentmass Inf
 >rt 6.43435385493587
 
 >ms1
-157.0254 100
+
 
 >ms2
 157.0254 100
 
 >compound FTneg0960
 >ionization [M+?]-
->parentmass 160.038386973223
+>parentmass Inf
 >rt 6.49488194269568
 
 >ms1
-160.0384 100
+
 
 >ms2
 160.0384 100
 
 >compound FTneg0961
 >ionization [M+?]-
->parentmass 163.061650837706
+>parentmass Inf
 >rt 6.45345147095551
 
 >ms1
-163.0617 100
+
 
 >ms2
 163.0617 100
 
 >compound FTneg0962
 >ionization [M+?]-
->parentmass 169.025531264351
+>parentmass Inf
 >rt 6.42738938806875
 
 >ms1
-169.0255 100
+
 
 >ms2
 169.0255 100
 
 >compound FTneg0963
 >ionization [M+?]-
->parentmass 180.041289425705
+>parentmass Inf
 >rt 6.46762014060482
 
 >ms1
-180.0413 100
+
 
 >ms2
 180.0413 100
 
 >compound FTneg0964
 >ionization [M+?]-
->parentmass 187.036017547188
+>parentmass Inf
 >rt 6.47566697947071
 
 >ms1
-187.036 100
+
 
 >ms2
 187.036 100
 
 >compound FTneg0965
 >ionization [M+?]-
->parentmass 200.031094390265
+>parentmass Inf
 >rt 6.42677748866197
 
 >ms1
-200.0311 100
+
 
 >ms2
 200.0311 100
 
 >compound FTneg0966
 >ionization [M+?]-
->parentmass 203.030849159395
+>parentmass Inf
 >rt 6.44691820854278
 
 >ms1
-203.0308 100
+
 
 >ms2
 203.0308 100
 
 >compound FTneg0967
 >ionization [M+?]-
->parentmass 214.072857983321
+>parentmass Inf
 >rt 6.49922739215885
 
 >ms1
-214.0729 100
+
 
 >ms2
 214.0729 100
 
 >compound FTneg0968
 >ionization [M+?]-
->parentmass 215.03250336507
+>parentmass Inf
 >rt 6.44795553445631
 
 >ms1
-215.0325 100
+
 
 >ms2
 215.0325 100
 
 >compound FTneg0969
 >ionization [M+?]-
->parentmass 230.041795044176
+>parentmass Inf
 >rt 6.43344035734902
 
 >ms1
-230.0418 100
+
 
 >ms2
 230.0418 100
 
 >compound FTneg0970
 >ionization [M+?]-
->parentmass 232.058247246474
+>parentmass Inf
 >rt 6.44287292907295
 
 >ms1
-232.0582 100
+
 
 >ms2
 232.0582 100
 
 >compound FTneg0971
 >ionization [M+?]-
->parentmass 239.042366500785
+>parentmass Inf
 >rt 6.43760080518839
 
 >ms1
-239.0424 100
+
 
 >ms2
 239.0424 100
 
 >compound FTneg0972
 >ionization [M+?]-
->parentmass 239.061414571696
+>parentmass Inf
 >rt 6.48845345557931
 
 >ms1
-239.0614 100
+
 
 >ms2
 239.0614 100
 
 >compound FTneg0973
 >ionization [M+?]-
->parentmass 242.042594343219
+>parentmass Inf
 >rt 6.46180625551561
 
 >ms1
-242.0426 100
+
 
 >ms2
 242.0426 100
 
 >compound FTneg0974
 >ionization [M+?]-
->parentmass 246.036693232743
+>parentmass Inf
 >rt 6.44976999999995
 
 >ms1
-246.0367 100
+
 
 >ms2
 246.0367 100
 
 >compound FTneg0975
 >ionization [M+?]-
->parentmass 254.042892868021
+>parentmass Inf
 >rt 6.42989470680591
 
 >ms1
-254.0429 100
+
 
 >ms2
 254.0429 100
 
 >compound FTneg0976
 >ionization [M+?]-
->parentmass 258.03709440586
+>parentmass Inf
 >rt 6.42584880685929
 
 >ms1
-258.0371 100
+
 
 >ms2
 258.0371 100
 
 >compound FTneg0977
 >ionization [M+?]-
->parentmass 260.054287463362
+>parentmass Inf
 >rt 6.43171851959627
 
 >ms1
-260.0543 100
+
 
 >ms2
 260.0543 100
 
 >compound FTneg0978
 >ionization [M+?]-
->parentmass 266.054639972799
+>parentmass Inf
 >rt 6.50274134275332
 
 >ms1
-266.0546 100
+
 
 >ms2
 266.0546 100
 
 >compound FTneg0979
 >ionization [M+?]-
->parentmass 270.334733124147
+>parentmass Inf
 >rt 6.50320104166675
 
 >ms1
-270.3347 100
+
 
 >ms2
 270.3347 100
 
 >compound FTneg0980
 >ionization [M+?]-
->parentmass 271.102732297899
+>parentmass Inf
 >rt 6.48429720013669
 
 >ms1
-271.1027 100
+
 
 >ms2
 271.1027 100
 
 >compound FTneg0981
 >ionization [M+?]-
->parentmass 273.077918643018
+>parentmass Inf
 >rt 6.49506423162107
 
 >ms1
-273.0779 100
+
 
 >ms2
 273.0779 100
 
 >compound FTneg0982
 >ionization [M+?]-
->parentmass 276.047759795678
+>parentmass Inf
 >rt 6.4122924561363
 
 >ms1
-276.0478 100
+
 
 >ms2
 276.0478 100
 
 >compound FTneg0983
 >ionization [M+?]-
->parentmass 279.108226406474
+>parentmass Inf
 >rt 6.47892060425466
 
 >ms1
-279.1082 100
+
 
 >ms2
 279.1082 100
 
 >compound FTneg0984
 >ionization [M+?]-
->parentmass 285.048213313429
+>parentmass Inf
 >rt 6.47070103384879
 
 >ms1
-285.0482 100
+
 
 >ms2
 285.0482 100
 
 >compound FTneg0985
 >ionization [M+?]-
->parentmass 286.071656080653
+>parentmass Inf
 >rt 6.49592413855053
 
 >ms1
-286.0717 100
+
 
 >ms2
 286.0717 100
 
 >compound FTneg0986
 >ionization [M+?]-
->parentmass 288.048548603594
+>parentmass Inf
 >rt 6.43058517941963
 
 >ms1
-288.0485 100
+
 
 >ms2
 288.0485 100
 
 >compound FTneg0987
 >ionization [M+?]-
->parentmass 293.054178625207
+>parentmass Inf
 >rt 6.45232201717802
 
 >ms1
-293.0542 100
+
 
 >ms2
 293.0542 100
 
 >compound FTneg0988
 >ionization [M+?]-
->parentmass 297.048477858353
+>parentmass Inf
 >rt 6.479359419677
 
 >ms1
-297.0485 100
+
 
 >ms2
 297.0485 100
 
 >compound FTneg0989
 >ionization [M+?]-
->parentmass 300.06302392972
+>parentmass Inf
 >rt 6.46642727424687
 
 >ms1
-300.063 100
+
 
 >ms2
 300.063 100
 
 >compound FTneg0990
 >ionization [M+?]-
->parentmass 306.057701622811
+>parentmass Inf
 >rt 6.44456273104768
 
 >ms1
-306.0577 100
+
 
 >ms2
 306.0577 100
 
 >compound FTneg0991
 >ionization [M+?]-
->parentmass 308.998850143304
+>parentmass Inf
 >rt 6.43671916222035
 
 >ms1
-308.9989 100
+
 
 >ms2
 308.9989 100
 
 >compound FTneg0992
 >ionization [M+?]-
->parentmass 313.995592509335
+>parentmass Inf
 >rt 6.41530087719311
 
 >ms1
-313.9956 100
+
 
 >ms2
 313.9956 100
 
 >compound FTneg0993
 >ionization [M+?]-
->parentmass 316.086161516386
+>parentmass Inf
 >rt 6.42778994132873
 
 >ms1
-316.0862 100
+
 
 >ms2
 316.0862 100
 
 >compound FTneg0994
 >ionization [M+?]-
->parentmass 317.074283249533
+>parentmass Inf
 >rt 6.46247269643346
 
 >ms1
-317.0743 100
+
 
 >ms2
 317.0743 100
 
 >compound FTneg0995
 >ionization [M+?]-
->parentmass 327.058776216521
+>parentmass Inf
 >rt 6.46587602664309
 
 >ms1
-327.0588 100
+
 
 >ms2
 327.0588 100
 
 >compound FTneg0996
 >ionization [M+?]-
->parentmass 330.068935278631
+>parentmass Inf
 >rt 6.46872739037254
 
 >ms1
-330.0689 100
+
 
 >ms2
 330.0689 100
 
 >compound FTneg0997
 >ionization [M+?]-
->parentmass 332.078530527786
+>parentmass Inf
 >rt 6.47579277262225
 
 >ms1
-332.0785 100
+
 
 >ms2
 332.0785 100
 
 >compound FTneg0998
 >ionization [M+?]-
->parentmass 333.069585003951
+>parentmass Inf
 >rt 6.43706611735478
 
 >ms1
-333.0696 100
+
 
 >ms2
 333.0696 100
 
 >compound FTneg0999
 >ionization [M+?]-
->parentmass 338.074769486096
+>parentmass Inf
 >rt 6.45659279433151
 
 >ms1
-338.0748 100
+
 
 >ms2
 338.0748 100
 
 >compound FTneg1000
 >ionization [M+?]-
->parentmass 342.070127059522
+>parentmass Inf
 >rt 6.43048618407043
 
 >ms1
-342.0701 100
+
 
 >ms2
 342.0701 100
 
 >compound FTneg1001
 >ionization [M+?]-
->parentmass 344.085030241354
+>parentmass Inf
 >rt 6.49065990655039
 
 >ms1
-344.085 100
+
 
 >ms2
 344.085 100
 
 >compound FTneg1002
 >ionization [M+?]-
->parentmass 348.102198948821
+>parentmass Inf
 >rt 6.44192118729112
 
 >ms1
-348.1022 100
+
 
 >ms2
 348.1022 100
 
 >compound FTneg1003
 >ionization [M+?]-
->parentmass 354.070254889163
+>parentmass Inf
 >rt 6.47577546810858
 
 >ms1
-354.0703 100
+
 
 >ms2
 354.0703 100
 
 >compound FTneg1004
 >ionization [M+?]-
->parentmass 360.079823956426
+>parentmass Inf
 >rt 6.4622077851895
 
 >ms1
-360.0798 100
+
 
 >ms2
 360.0798 100
 
 >compound FTneg1005
 >ionization [M+?]-
->parentmass 364.090645484325
+>parentmass Inf
 >rt 6.44221435521028
 
 >ms1
-364.0906 100
+
 
 >ms2
 364.0906 100
 
 >compound FTneg1006
 >ionization [M+?]-
->parentmass 381.129132009353
+>parentmass Inf
 >rt 6.48994026176542
 
 >ms1
-381.1291 100
+
 
 >ms2
 381.1291 100
 
 >compound FTneg1007
 >ionization [M+?]-
->parentmass 133.014311668941
+>parentmass Inf
 >rt 1.91652705580413
 
 >ms1
-133.0143 100
 
 >ms2
 60.9573 4
 
 >compound FTneg1008
 >ionization [M+?]-
->parentmass 87.0089445150148
+>parentmass Inf
 >rt 1.93328248295692
 
 >ms1
-87.00894 100
 
 >ms2
 50.0069 40
@@ -14984,11 +14856,10 @@
 
 >compound FTneg1009
 >ionization [M+?]-
->parentmass 75.0089231705379
+>parentmass Inf
 >rt 1.95864178762789
 
 >ms1
-75.00892 100
 
 >ms2
 86.0956 120
@@ -15010,11 +14881,10 @@
 
 >compound FTneg1010
 >ionization [M+?]-
->parentmass 344.111474447133
+>parentmass Inf
 >rt 1.93419828628565
 
 >ms1
-344.1115 100
 
 >ms2
 59.8494 20
@@ -15022,11 +14892,10 @@
 
 >compound FTneg1011
 >ionization [M+?]-
->parentmass 267.072038822371
+>parentmass Inf
 >rt 1.93624952764903
 
 >ms1
-267.072 100
 
 >ms2
 55.0545 85
@@ -15061,11 +14930,10 @@
 
 >compound FTneg1012
 >ionization [M+?]-
->parentmass 390.116977858813
+>parentmass Inf
 >rt 1.92370408445404
 
 >ms1
-390.117 100
 
 >ms2
 54.8793 40
@@ -15117,33 +14985,32 @@
 
 >compound FTneg1013
 >ionization [M+?]-
->parentmass 98.9562905497617
+>parentmass Inf
 >rt 1.9294958463513
 
 >ms1
-98.95629 100
+
 
 >ms2
 98.95629 100
 
 >compound FTneg1014
 >ionization [M+?]-
->parentmass 103.003683684461
+>parentmass Inf
 >rt 1.96396136363645
 
 >ms1
-103.0037 100
+
 
 >ms2
 103.0037 100
 
 >compound FTneg1015
 >ionization [M+?]-
->parentmass 115.00357776887
+>parentmass Inf
 >rt 1.92154470975453
 
 >ms1
-115.0036 100
 
 >ms2
 55.0533 8
@@ -15166,55 +15033,54 @@
 
 >compound FTneg1016
 >ionization [M+?]-
->parentmass 121.029416350605
+>parentmass Inf
 >rt 1.95712407498614
 
 >ms1
-121.0294 100
+
 
 >ms2
 121.0294 100
 
 >compound FTneg1017
 >ionization [M+?]-
->parentmass 133.014308765442
+>parentmass Inf
 >rt 2.04045111510404
 
 >ms1
-133.0143 100
+
 
 >ms2
 133.0143 100
 
 >compound FTneg1018
 >ionization [M+?]-
->parentmass 140.995782325782
+>parentmass Inf
 >rt 1.91570438264027
 
 >ms1
-140.9958 100
+
 
 >ms2
 140.9958 100
 
 >compound FTneg1019
 >ionization [M+?]-
->parentmass 142.995569891358
+>parentmass Inf
 >rt 1.93063598605709
 
 >ms1
-142.9956 100
+
 
 >ms2
 142.9956 100
 
 >compound FTneg1020
 >ionization [M+?]-
->parentmass 144.967340223065
+>parentmass Inf
 >rt 1.92308293321719
 
 >ms1
-144.9673 100
 
 >ms2
 55.0556 80
@@ -15222,88 +15088,87 @@
 
 >compound FTneg1021
 >ionization [M+?]-
->parentmass 146.045679956971
+>parentmass Inf
 >rt 1.95914615384623
 
 >ms1
-146.0457 100
+
 
 >ms2
 146.0457 100
 
 >compound FTneg1022
 >ionization [M+?]-
->parentmass 146.964307745772
+>parentmass Inf
 >rt 1.92685112896637
 
 >ms1
-146.9643 100
+
 
 >ms2
 146.9643 100
 
 >compound FTneg1023
 >ionization [M+?]-
->parentmass 152.048274527606
+>parentmass Inf
 >rt 1.99408200625098
 
 >ms1
-152.0483 100
+
 
 >ms2
 152.0483 100
 
 >compound FTneg1024
 >ionization [M+?]-
->parentmass 162.977707688022
+>parentmass Inf
 >rt 1.92417121551712
 
 >ms1
-162.9777 100
+
 
 >ms2
 162.9777 100
 
 >compound FTneg1025
 >ionization [M+?]-
->parentmass 164.947401398811
+>parentmass Inf
 >rt 1.93888032090898
 
 >ms1
-164.9474 100
+
 
 >ms2
 164.9474 100
 
 >compound FTneg1026
 >ionization [M+?]-
->parentmass 165.040226920603
+>parentmass Inf
 >rt 1.94194386090065
 
 >ms1
-165.0402 100
+
 
 >ms2
 165.0402 100
 
 >compound FTneg1027
 >ionization [M+?]-
->parentmass 185.005778874444
+>parentmass Inf
 >rt 1.9491877754141
 
 >ms1
-185.0058 100
+
 
 >ms2
 185.0058 100
 
 >compound FTneg1028
 >ionization [M+?]-
->parentmass 190.972742833842
+>parentmass Inf
 >rt 1.91347382012068
 
 >ms1
-190.9727 100
 
 >ms2
 50.0033 13
@@ -15357,44 +15222,43 @@
 
 >compound FTneg1029
 >ionization [M+?]-
->parentmass 192.969372686733
+>parentmass Inf
 >rt 1.91907156862735
 
 >ms1
-192.9694 100
+
 
 >ms2
 192.9694 100
 
 >compound FTneg1030
 >ionization [M+?]-
->parentmass 194.927509377167
+>parentmass Inf
 >rt 1.93549681727005
 
 >ms1
-194.9275 100
+
 
 >ms2
 194.9275 100
 
 >compound FTneg1031
 >ionization [M+?]-
->parentmass 202.925806083729
+>parentmass Inf
 >rt 1.91577708333331
 
 >ms1
-202.9258 100
+
 
 >ms2
 202.9258 100
 
 >compound FTneg1032
 >ionization [M+?]-
->parentmass 206.958125829201
+>parentmass Inf
 >rt 1.94453376446271
 
 >ms1
-206.9581 100
 
 >ms2
 55.0533 40
@@ -15404,33 +15268,32 @@
 
 >compound FTneg1033
 >ionization [M+?]-
->parentmass 212.954075006221
+>parentmass Inf
 >rt 1.92548878262281
 
 >ms1
-212.9541 100
+
 
 >ms2
 212.9541 100
 
 >compound FTneg1034
 >ionization [M+?]-
->parentmass 214.039011226557
+>parentmass Inf
 >rt 1.96075568865523
 
 >ms1
-214.039 100
+
 
 >ms2
 214.039 100
 
 >compound FTneg1035
 >ionization [M+?]-
->parentmass 216.909614215057
+>parentmass Inf
 >rt 1.91795847481832
 
 >ms1
-216.9096 100
 
 >ms2
 51.0229 40
@@ -15459,220 +15322,219 @@
 
 >compound FTneg1036
 >ionization [M+?]-
->parentmass 222.931971016562
+>parentmass Inf
 >rt 1.94183205128215
 
 >ms1
-222.932 100
+
 
 >ms2
 222.932 100
 
 >compound FTneg1037
 >ionization [M+?]-
->parentmass 222.982721783669
+>parentmass Inf
 >rt 1.96730119047629
 
 >ms1
-222.9827 100
+
 
 >ms2
 222.9827 100
 
 >compound FTneg1038
 >ionization [M+?]-
->parentmass 224.967140911096
+>parentmass Inf
 >rt 1.84122098747132
 
 >ms1
-224.9671 100
+
 
 >ms2
 224.9671 100
 
 >compound FTneg1039
 >ionization [M+?]-
->parentmass 226.067198233138
+>parentmass Inf
 >rt 1.91308158218943
 
 >ms1
-226.0672 100
+
 
 >ms2
 226.0672 100
 
 >compound FTneg1040
 >ionization [M+?]-
->parentmass 230.980673578373
+>parentmass Inf
 >rt 1.9723601403193
 
 >ms1
-230.9807 100
+
 
 >ms2
 230.9807 100
 
 >compound FTneg1041
 >ionization [M+?]-
->parentmass 233.154498876374
+>parentmass Inf
 >rt 1.85035606134083
 
 >ms1
-233.1545 100
+
 
 >ms2
 233.1545 100
 
 >compound FTneg1042
 >ionization [M+?]-
->parentmass 243.0121672272
+>parentmass Inf
 >rt 1.95564393046972
 
 >ms1
-243.0122 100
+
 
 >ms2
 243.0122 100
 
 >compound FTneg1043
 >ionization [M+?]-
->parentmass 247.850284524124
+>parentmass Inf
 >rt 1.95490384102895
 
 >ms1
-247.8503 100
+
 
 >ms2
 247.8503 100
 
 >compound FTneg1044
 >ionization [M+?]-
->parentmass 249.847406226415
+>parentmass Inf
 >rt 1.954799677781
 
 >ms1
-249.8474 100
+
 
 >ms2
 249.8474 100
 
 >compound FTneg1045
 >ionization [M+?]-
->parentmass 254.965206868972
+>parentmass Inf
 >rt 1.94862684472077
 
 >ms1
-254.9652 100
+
 
 >ms2
 254.9652 100
 
 >compound FTneg1046
 >ionization [M+?]-
->parentmass 255.071970349335
+>parentmass Inf
 >rt 1.90524104098232
 
 >ms1
-255.072 100
+
 
 >ms2
 255.072 100
 
 >compound FTneg1047
 >ionization [M+?]-
->parentmass 257.878607081542
+>parentmass Inf
 >rt 1.94724802492492
 
 >ms1
-257.8786 100
+
 
 >ms2
 257.8786 100
 
 >compound FTneg1048
 >ionization [M+?]-
->parentmass 261.021460758196
+>parentmass Inf
 >rt 1.90115712581975
 
 >ms1
-261.0215 100
+
 
 >ms2
 261.0215 100
 
 >compound FTneg1049
 >ionization [M+?]-
->parentmass 264.917171038004
+>parentmass Inf
 >rt 1.93594902004041
 
 >ms1
-264.9172 100
+
 
 >ms2
 264.9172 100
 
 >compound FTneg1050
 >ionization [M+?]-
->parentmass 264.9940250223
+>parentmass Inf
 >rt 1.96433538215961
 
 >ms1
-264.994 100
+
 
 >ms2
 264.994 100
 
 >compound FTneg1051
 >ionization [M+?]-
->parentmass 266.913990564966
+>parentmass Inf
 >rt 1.93638484848482
 
 >ms1
-266.914 100
+
 
 >ms2
 266.914 100
 
 >compound FTneg1052
 >ionization [M+?]-
->parentmass 274.868394508116
+>parentmass Inf
 >rt 1.90972291666663
 
 >ms1
-274.8684 100
+
 
 >ms2
 274.8684 100
 
 >compound FTneg1053
 >ionization [M+?]-
->parentmass 274.94625282508
+>parentmass Inf
 >rt 1.94455232291416
 
 >ms1
-274.9463 100
+
 
 >ms2
 274.9463 100
 
 >compound FTneg1054
 >ionization [M+?]-
->parentmass 283.066587884288
+>parentmass Inf
 >rt 1.91762037789639
 
 >ms1
-283.0666 100
+
 
 >ms2
 283.0666 100
 
 >compound FTneg1055
 >ionization [M+?]-
->parentmass 285.08255547675
+>parentmass Inf
 >rt 1.9397451179864
 
 >ms1
-285.0826 100
 
 >ms2
 51.0266 8
@@ -15707,33 +15569,32 @@
 
 >compound FTneg1056
 >ionization [M+?]-
->parentmass 307.002530721766
+>parentmass Inf
 >rt 1.96411956040959
 
 >ms1
-307.0025 100
+
 
 >ms2
 307.0025 100
 
 >compound FTneg1057
 >ionization [M+?]-
->parentmass 316.956297024145
+>parentmass Inf
 >rt 1.96334642857136
 
 >ms1
-316.9563 100
+
 
 >ms2
 316.9563 100
 
 >compound FTneg1058
 >ionization [M+?]-
->parentmass 323.028588269624
+>parentmass Inf
 >rt 1.93850138888883
 
 >ms1
-323.0286 100
 
 >ms2
 53.0376 20
@@ -15768,66 +15629,65 @@
 
 >compound FTneg1059
 >ionization [M+?]-
->parentmass 326.907020086109
+>parentmass Inf
 >rt 1.96004708907427
 
 >ms1
-326.907 100
+
 
 >ms2
 326.907 100
 
 >compound FTneg1060
 >ionization [M+?]-
->parentmass 332.11143106065
+>parentmass Inf
 >rt 1.9503939106323
 
 >ms1
-332.1114 100
+
 
 >ms2
 332.1114 100
 
 >compound FTneg1061
 >ionization [M+?]-
->parentmass 334.090874637275
+>parentmass Inf
 >rt 1.94998205987563
 
 >ms1
-334.0909 100
+
 
 >ms2
 334.0909 100
 
 >compound FTneg1062
 >ionization [M+?]-
->parentmass 348.105818616775
+>parentmass Inf
 >rt 1.94825903361665
 
 >ms1
-348.1058 100
+
 
 >ms2
 348.1058 100
 
 >compound FTneg1063
 >ionization [M+?]-
->parentmass 355.066040399093
+>parentmass Inf
 >rt 1.9457615329846
 
 >ms1
-355.066 100
+
 
 >ms2
 355.066 100
 
 >compound FTneg1064
 >ionization [M+?]-
->parentmass 360.106145078331
+>parentmass Inf
 >rt 1.92455005632484
 
 >ms1
-360.1061 100
 
 >ms2
 60.9517 40
@@ -15836,242 +15696,241 @@
 
 >compound FTneg1065
 >ionization [M+?]-
->parentmass 400.097531488163
+>parentmass Inf
 >rt 1.92402701948636
 
 >ms1
-400.0975 100
+
 
 >ms2
 400.0975 100
 
 >compound FTneg1066
 >ionization [M+?]-
->parentmass 402.070439181924
+>parentmass Inf
 >rt 1.92702632275841
 
 >ms1
-402.0704 100
+
 
 >ms2
 402.0704 100
 
 >compound FTneg1067
 >ionization [M+?]-
->parentmass 412.098648641413
+>parentmass Inf
 >rt 1.93612198366362
 
 >ms1
-412.0986 100
+
 
 >ms2
 412.0986 100
 
 >compound FTneg1068
 >ionization [M+?]-
->parentmass 420.080486742623
+>parentmass Inf
 >rt 1.92080328004674
 
 >ms1
-420.0805 100
+
 
 >ms2
 420.0805 100
 
 >compound FTneg1069
 >ionization [M+?]-
->parentmass 422.050356966601
+>parentmass Inf
 >rt 1.9211427897013
 
 >ms1
-422.0504 100
+
 
 >ms2
 422.0504 100
 
 >compound FTneg1070
 >ionization [M+?]-
->parentmass 422.077831722698
+>parentmass Inf
 >rt 1.9185154743108
 
 >ms1
-422.0778 100
+
 
 >ms2
 422.0778 100
 
 >compound FTneg1071
 >ionization [M+?]-
->parentmass 430.109526898775
+>parentmass Inf
 >rt 1.93912808851465
 
 >ms1
-430.1095 100
+
 
 >ms2
 430.1095 100
 
 >compound FTneg1072
 >ionization [M+?]-
->parentmass 434.001946941936
+>parentmass Inf
 >rt 1.90744996318646
 
 >ms1
-434.0019 100
+
 
 >ms2
 434.0019 100
 
 >compound FTneg1073
 >ionization [M+?]-
->parentmass 438.075112521711
+>parentmass Inf
 >rt 1.92958735178487
 
 >ms1
-438.0751 100
+
 
 >ms2
 438.0751 100
 
 >compound FTneg1074
 >ionization [M+?]-
->parentmass 448.07528321107
+>parentmass Inf
 >rt 1.91399401793187
 
 >ms1
-448.0753 100
+
 
 >ms2
 448.0753 100
 
 >compound FTneg1075
 >ionization [M+?]-
->parentmass 450.072770034173
+>parentmass Inf
 >rt 1.9143652504723
 
 >ms1
-450.0728 100
+
 
 >ms2
 450.0728 100
 
 >compound FTneg1076
 >ionization [M+?]-
->parentmass 452.030429240194
+>parentmass Inf
 >rt 1.91520181830025
 
 >ms1
-452.0304 100
+
 
 >ms2
 452.0304 100
 
 >compound FTneg1077
 >ionization [M+?]-
->parentmass 460.028513166927
+>parentmass Inf
 >rt 1.91712257169248
 
 >ms1
-460.0285 100
+
 
 >ms2
 460.0285 100
 
 >compound FTneg1078
 >ionization [M+?]-
->parentmass 464.060141352724
+>parentmass Inf
 >rt 1.93744282186357
 
 >ms1
-464.0601 100
+
 
 >ms2
 464.0601 100
 
 >compound FTneg1079
 >ionization [M+?]-
->parentmass 470.057764225046
+>parentmass Inf
 >rt 1.92928393296413
 
 >ms1
-470.0578 100
+
 
 >ms2
 470.0578 100
 
 >compound FTneg1080
 >ionization [M+?]-
->parentmass 474.012437579308
+>parentmass Inf
 >rt 1.91719653618788
 
 >ms1
-474.0124 100
+
 
 >ms2
 474.0124 100
 
 >compound FTneg1081
 >ionization [M+?]-
->parentmass 478.038946610073
+>parentmass Inf
 >rt 1.91046036535527
 
 >ms1
-478.0389 100
+
 
 >ms2
 478.0389 100
 
 >compound FTneg1082
 >ionization [M+?]-
->parentmass 480.036172856917
+>parentmass Inf
 >rt 1.91485499016732
 
 >ms1
-480.0362 100
+
 
 >ms2
 480.0362 100
 
 >compound FTneg1083
 >ionization [M+?]-
->parentmass 482.071100007001
+>parentmass Inf
 >rt 1.93399182798903
 
 >ms1
-482.0711 100
+
 
 >ms2
 482.0711 100
 
 >compound FTneg1084
 >ionization [M+?]-
->parentmass 488.083139669954
+>parentmass Inf
 >rt 1.92758900519728
 
 >ms1
-488.0831 100
+
 
 >ms2
 488.0831 100
 
 >compound FTneg1085
 >ionization [M+?]-
->parentmass 540.029574647949
+>parentmass Inf
 >rt 1.92321495646188
 
 >ms1
-540.0296 100
+
 
 >ms2
 540.0296 100
 
 >compound FTneg1086
 >ionization [M+?]-
->parentmass 307.114523603767
+>parentmass Inf
 >rt 1.73785217363846
 
 >ms1
-307.1145 100
 
 >ms2
 52.0154 8
@@ -16095,11 +15954,10 @@
 
 >compound FTneg1087
 >ionization [M+?]-
->parentmass 78.9187646071696
+>parentmass Inf
 >rt 1.76041770833338
 
 >ms1
-78.91876 100
 
 >ms2
 104.0859 40
@@ -16108,11 +15966,10 @@
 
 >compound FTneg1088
 >ionization [M+?]-
->parentmass 80.9167479681602
+>parentmass Inf
 >rt 1.76232781946786
 
 >ms1
-80.91675 100
 
 >ms2
 57.0688 16
@@ -16138,11 +15995,10 @@
 
 >compound FTneg1089
 >ionization [M+?]-
->parentmass 135.02976246539
+>parentmass Inf
 >rt 1.77161220286622
 
 >ms1
-135.0298 100
 
 >ms2
 50.1189 40
@@ -16154,11 +16010,10 @@
 
 >compound FTneg1090
 >ionization [M+?]-
->parentmass 174.088081309419
+>parentmass Inf
 >rt 1.72844614465906
 
 >ms1
-174.0881 100
 
 >ms2
 54.5819 40
@@ -16208,11 +16063,10 @@
 
 >compound FTneg1091
 >ionization [M+?]-
->parentmass 269.052452770007
+>parentmass Inf
 >rt 1.76473488645977
 
 >ms1
-269.0525 100
 
 >ms2
 51.9463 40
@@ -16232,22 +16086,21 @@
 
 >compound FTneg1092
 >ionization [M+?]-
->parentmass 78.9590193022772
+>parentmass Inf
 >rt 1.81331682092915
 
 >ms1
-78.95902 100
+
 
 >ms2
 78.95902 100
 
 >compound FTneg1093
 >ionization [M+?]-
->parentmass 152.995837512692
+>parentmass Inf
 >rt 1.78844979057972
 
 >ms1
-152.9958 100
 
 >ms2
 55.0548 40
@@ -16339,11 +16192,10 @@
 
 >compound FTneg1094
 >ionization [M+?]-
->parentmass 79.957342026236
+>parentmass Inf
 >rt 1.91939729128067
 
 >ms1
-79.95734 100
 
 >ms2
 55.017 40
@@ -16473,396 +16325,395 @@
 
 >compound FTneg1095
 >ionization [M+?]-
->parentmass 79.9575025959221
+>parentmass Inf
 >rt 2.46904075317675
 
 >ms1
-79.9575 100
+
 
 >ms2
 79.9575 100
 
 >compound FTneg1096
 >ionization [M+?]-
->parentmass 190.928463870001
+>parentmass Inf
 >rt 19.1116186059667
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg1097
 >ionization [M+?]-
->parentmass 83.025168295033
+>parentmass Inf
 >rt 19.0664771888643
 
 >ms1
-83.02517 100
+
 
 >ms2
 83.02517 100
 
 >compound FTneg1098
 >ionization [M+?]-
->parentmass 123.055832703799
+>parentmass Inf
 >rt 19.0985164869148
 
 >ms1
-123.0558 100
+
 
 >ms2
 123.0558 100
 
 >compound FTneg1099
 >ionization [M+?]-
->parentmass 124.051362986299
+>parentmass Inf
 >rt 19.1051544606556
 
 >ms1
-124.0514 100
+
 
 >ms2
 124.0514 100
 
 >compound FTneg1100
 >ionization [M+?]-
->parentmass 131.035849522161
+>parentmass Inf
 >rt 19.1023031057002
 
 >ms1
-131.0358 100
+
 
 >ms2
 131.0358 100
 
 >compound FTneg1101
 >ionization [M+?]-
->parentmass 149.046805471304
+>parentmass Inf
 >rt 19.1268159934065
 
 >ms1
-149.0468 100
+
 
 >ms2
 149.0468 100
 
 >compound FTneg1102
 >ionization [M+?]-
->parentmass 150.066735182482
+>parentmass Inf
 >rt 19.1004735034447
 
 >ms1
-150.0667 100
+
 
 >ms2
 150.0667 100
 
 >compound FTneg1103
 >ionization [M+?]-
->parentmass 151.051097237448
+>parentmass Inf
 >rt 19.1271049483214
 
 >ms1
-151.0511 100
+
 
 >ms2
 151.0511 100
 
 >compound FTneg1104
 >ionization [M+?]-
->parentmass 160.050339266091
+>parentmass Inf
 >rt 19.1316506735881
 
 >ms1
-160.0503 100
+
 
 >ms2
 160.0503 100
 
 >compound FTneg1105
 >ionization [M+?]-
->parentmass 162.06696151105
+>parentmass Inf
 >rt 19.0947875884953
 
 >ms1
-162.067 100
+
 
 >ms2
 162.067 100
 
 >compound FTneg1106
 >ionization [M+?]-
->parentmass 165.041788752547
+>parentmass Inf
 >rt 19.1289123138446
 
 >ms1
-165.0418 100
+
 
 >ms2
 165.0418 100
 
 >compound FTneg1107
 >ionization [M+?]-
->parentmass 189.931619461354
+>parentmass Inf
 >rt 19.1015996151217
 
 >ms1
-189.9316 100
+
 
 >ms2
 189.9316 100
 
 >compound FTneg1108
 >ionization [M+?]-
->parentmass 202.073348434605
+>parentmass Inf
 >rt 19.0906761530853
 
 >ms1
-202.0733 100
+
 
 >ms2
 202.0733 100
 
 >compound FTneg1109
 >ionization [M+?]-
->parentmass 209.930826302325
+>parentmass Inf
 >rt 19.0966631397536
 
 >ms1
-209.9308 100
+
 
 >ms2
 209.9308 100
 
 >compound FTneg1110
 >ionization [M+?]-
->parentmass 211.082412915095
+>parentmass Inf
 >rt 19.1146628762862
 
 >ms1
-211.0824 100
+
 
 >ms2
 211.0824 100
 
 >compound FTneg1111
 >ionization [M+?]-
->parentmass 215.868248103266
+>parentmass Inf
 >rt 19.1148664101937
 
 >ms1
-215.8682 100
+
 
 >ms2
 215.8682 100
 
 >compound FTneg1112
 >ionization [M+?]-
->parentmass 217.072009306354
+>parentmass Inf
 >rt 19.1355076272524
 
 >ms1
-217.072 100
+
 
 >ms2
 217.072 100
 
 >compound FTneg1113
 >ionization [M+?]-
->parentmass 218.069055227578
+>parentmass Inf
 >rt 19.1161555970556
 
 >ms1
-218.0691 100
+
 
 >ms2
 218.0691 100
 
 >compound FTneg1114
 >ionization [M+?]-
->parentmass 229.071874831861
+>parentmass Inf
 >rt 19.1135056323935
 
 >ms1
-229.0719 100
+
 
 >ms2
 229.0719 100
 
 >compound FTneg1115
 >ionization [M+?]-
->parentmass 231.931652207419
+>parentmass Inf
 >rt 19.0884119401106
 
 >ms1
-231.9317 100
+
 
 >ms2
 231.9317 100
 
 >compound FTneg1116
 >ionization [M+?]-
->parentmass 235.083544635272
+>parentmass Inf
 >rt 19.1179707059395
 
 >ms1
-235.0835 100
+
 
 >ms2
 235.0835 100
 
 >compound FTneg1117
 >ionization [M+?]-
->parentmass 236.078274562892
+>parentmass Inf
 >rt 19.1317675376415
 
 >ms1
-236.0783 100
+
 
 >ms2
 236.0783 100
 
 >compound FTneg1118
 >ionization [M+?]-
->parentmass 262.933462526397
+>parentmass Inf
 >rt 19.13166106172
 
 >ms1
-262.9335 100
+
 
 >ms2
 262.9335 100
 
 >compound FTneg1119
 >ionization [M+?]-
->parentmass 271.095037329542
+>parentmass Inf
 >rt 19.0952014784419
 
 >ms1
-271.095 100
+
 
 >ms2
 271.095 100
 
 >compound FTneg1120
 >ionization [M+?]-
->parentmass 290.089583958104
+>parentmass Inf
 >rt 19.1169254385965
 
 >ms1
-290.0896 100
+
 
 >ms2
 290.0896 100
 
 >compound FTneg1121
 >ionization [M+?]-
->parentmass 292.104545094957
+>parentmass Inf
 >rt 19.108853125
 
 >ms1
-292.1045 100
+
 
 >ms2
 292.1045 100
 
 >compound FTneg1122
 >ionization [M+?]-
->parentmass 293.099367212734
+>parentmass Inf
 >rt 19.1162697507647
 
 >ms1
-293.0994 100
+
 
 >ms2
 293.0994 100
 
 >compound FTneg1123
 >ionization [M+?]-
->parentmass 305.100222109453
+>parentmass Inf
 >rt 19.1109435367476
 
 >ms1
-305.1002 100
+
 
 >ms2
 305.1002 100
 
 >compound FTneg1124
 >ionization [M+?]-
->parentmass 308.099511773582
+>parentmass Inf
 >rt 19.1148337936169
 
 >ms1
-308.0995 100
+
 
 >ms2
 308.0995 100
 
 >compound FTneg1125
 >ionization [M+?]-
->parentmass 311.853824713607
+>parentmass Inf
 >rt 19.1258985560091
 
 >ms1
-311.8538 100
+
 
 >ms2
 311.8538 100
 
 >compound FTneg1126
 >ionization [M+?]-
->parentmass 317.101062151128
+>parentmass Inf
 >rt 19.1175313126456
 
 >ms1
-317.1011 100
+
 
 >ms2
 317.1011 100
 
 >compound FTneg1127
 >ionization [M+?]-
->parentmass 320.101574871482
+>parentmass Inf
 >rt 19.1277190103468
 
 >ms1
-320.1016 100
+
 
 >ms2
 320.1016 100
 
 >compound FTneg1128
 >ionization [M+?]-
->parentmass 335.109762302547
+>parentmass Inf
 >rt 19.1177835247183
 
 >ms1
-335.1098 100
+
 
 >ms2
 335.1098 100
 
 >compound FTneg1129
 >ionization [M+?]-
->parentmass 347.11224861681
+>parentmass Inf
 >rt 19.1201947853546
 
 >ms1
-347.1122 100
+
 
 >ms2
 347.1122 100
 
 >compound FTneg1130
 >ionization [M+?]-
->parentmass 164.071636158849
+>parentmass Inf
 >rt 6.43428360310794
 
 >ms1
-164.0716 100
 
 >ms2
 60.0801 40
@@ -16883,11 +16734,10 @@
 
 >compound FTneg1131
 >ionization [M+?]-
->parentmass 117.055707577468
+>parentmass Inf
 >rt 6.38138706947962
 
 >ms1
-117.0557 100
 
 >ms2
 57.0456 81
@@ -16901,22 +16751,21 @@
 
 >compound FTneg1132
 >ionization [M+?]-
->parentmass 118.014608775502
+>parentmass Inf
 >rt 6.40423589272618
 
 >ms1
-118.0146 100
+
 
 >ms2
 118.0146 100
 
 >compound FTneg1133
 >ionization [M+?]-
->parentmass 338.051718527261
+>parentmass Inf
 >rt 6.41300291521707
 
 >ms1
-338.0517 100
 
 >ms2
 57.0688 159
@@ -16935,55 +16784,54 @@
 
 >compound FTneg1134
 >ionization [M+?]-
->parentmass 85.0044986652255
+>parentmass Inf
 >rt 6.39258579180377
 
 >ms1
-85.0045 100
+
 
 >ms2
 85.0045 100
 
 >compound FTneg1135
 >ionization [M+?]-
->parentmass 85.0045682260839
+>parentmass Inf
 >rt 6.44470211407251
 
 >ms1
-85.00457 100
+
 
 >ms2
 85.00457 100
 
 >compound FTneg1136
 >ionization [M+?]-
->parentmass 103.003702255965
+>parentmass Inf
 >rt 6.4054301585361
 
 >ms1
-103.0037 100
+
 
 >ms2
 103.0037 100
 
 >compound FTneg1137
 >ionization [M+?]-
->parentmass 115.003805269481
+>parentmass Inf
 >rt 6.42501626109085
 
 >ms1
-115.0038 100
+
 
 >ms2
 115.0038 100
 
 >compound FTneg1138
 >ionization [M+?]-
->parentmass 117.019468489813
+>parentmass Inf
 >rt 6.42064252889242
 
 >ms1
-117.0195 100
 
 >ms2
 51.0222 80
@@ -17032,44 +16880,43 @@
 
 >compound FTneg1139
 >ionization [M+?]-
->parentmass 129.019296478767
+>parentmass Inf
 >rt 6.38583669960942
 
 >ms1
-129.0193 100
+
 
 >ms2
 129.0193 100
 
 >compound FTneg1140
 >ionization [M+?]-
->parentmass 146.009605323954
+>parentmass Inf
 >rt 6.40695435500314
 
 >ms1
-146.0096 100
+
 
 >ms2
 146.0096 100
 
 >compound FTneg1141
 >ionization [M+?]-
->parentmass 148.024953971991
+>parentmass Inf
 >rt 6.44120620092546
 
 >ms1
-148.025 100
+
 
 >ms2
 148.025 100
 
 >compound FTneg1142
 >ionization [M+?]-
->parentmass 158.023006547119
+>parentmass Inf
 >rt 6.45595220573832
 
 >ms1
-158.023 100
 
 >ms2
 55.0541 40
@@ -17144,66 +16991,65 @@
 
 >compound FTneg1143
 >ionization [M+?]-
->parentmass 167.021002913363
+>parentmass Inf
 >rt 6.44428202270417
 
 >ms1
-167.021 100
+
 
 >ms2
 167.021 100
 
 >compound FTneg1144
 >ionization [M+?]-
->parentmass 174.004390298136
+>parentmass Inf
 >rt 6.39057810167976
 
 >ms1
-174.0044 100
+
 
 >ms2
 174.0044 100
 
 >compound FTneg1145
 >ionization [M+?]-
->parentmass 180.065177815014
+>parentmass Inf
 >rt 6.4168019936553
 
 >ms1
-180.0652 100
+
 
 >ms2
 180.0652 100
 
 >compound FTneg1146
 >ionization [M+?]-
->parentmass 185.02021516955
+>parentmass Inf
 >rt 6.43199317342867
 
 >ms1
-185.0202 100
+
 
 >ms2
 185.0202 100
 
 >compound FTneg1147
 >ionization [M+?]-
->parentmass 185.043869066588
+>parentmass Inf
 >rt 6.39269449682593
 
 >ms1
-185.0439 100
+
 
 >ms2
 185.0439 100
 
 >compound FTneg1148
 >ionization [M+?]-
->parentmass 189.01464913691
+>parentmass Inf
 >rt 6.40515285218393
 
 >ms1
-189.0146 100
 
 >ms2
 50.0134 4
@@ -17227,341 +17073,339 @@
 
 >compound FTneg1149
 >ionization [M+?]-
->parentmass 201.015163741492
+>parentmass Inf
 >rt 6.37998666859279
 
 >ms1
-201.0152 100
+
 
 >ms2
 201.0152 100
 
 >compound FTneg1150
 >ionization [M+?]-
->parentmass 212.031135050277
+>parentmass Inf
 >rt 6.41236690620868
 
 >ms1
-212.0311 100
+
 
 >ms2
 212.0311 100
 
 >compound FTneg1151
 >ionization [M+?]-
->parentmass 216.026054750111
+>parentmass Inf
 >rt 6.40628957723519
 
 >ms1
-216.0261 100
+
 
 >ms2
 216.0261 100
 
 >compound FTneg1152
 >ionization [M+?]-
->parentmass 219.025632908057
+>parentmass Inf
 >rt 6.40539427081941
 
 >ms1
-219.0256 100
+
 
 >ms2
 219.0256 100
 
 >compound FTneg1153
 >ionization [M+?]-
->parentmass 224.031127813272
+>parentmass Inf
 >rt 6.43848374550456
 
 >ms1
-224.0311 100
+
 
 >ms2
 224.0311 100
 
 >compound FTneg1154
 >ionization [M+?]-
->parentmass 228.025963827584
+>parentmass Inf
 >rt 6.42580798863717
 
 >ms1
-228.026 100
+
 
 >ms2
 228.026 100
 
 >compound FTneg1155
 >ionization [M+?]-
->parentmass 231.026654134255
+>parentmass Inf
 >rt 6.41067022625783
 
 >ms1
-231.0267 100
+
 
 >ms2
 231.0267 100
 
 >compound FTneg1156
 >ionization [M+?]-
->parentmass 235.020214273398
+>parentmass Inf
 >rt 6.40739244465831
 
 >ms1
-235.0202 100
+
 
 >ms2
 235.0202 100
 
 >compound FTneg1157
 >ionization [M+?]-
->parentmass 243.134813461555
+>parentmass Inf
 >rt 6.41384642627267
 
 >ms1
-243.1348 100
+
 
 >ms2
 243.1348 100
 
 >compound FTneg1158
 >ionization [M+?]-
->parentmass 247.016122686514
+>parentmass Inf
 >rt 6.38917527753075
 
 >ms1
-247.0161 100
+
 
 >ms2
 247.0161 100
 
 >compound FTneg1159
 >ionization [M+?]-
->parentmass 249.037169697478
+>parentmass Inf
 >rt 6.41700513998235
 
 >ms1
-249.0372 100
+
 
 >ms2
 249.0372 100
 
 >compound FTneg1160
 >ionization [M+?]-
->parentmass 265.032051589078
+>parentmass Inf
 >rt 6.45282523862688
 
 >ms1
-265.0321 100
+
 
 >ms2
 265.0321 100
 
 >compound FTneg1161
 >ionization [M+?]-
->parentmass 270.037291066724
+>parentmass Inf
 >rt 6.43403998383273
 
 >ms1
-270.0373 100
+
 
 >ms2
 270.0373 100
 
 >compound FTneg1162
 >ionization [M+?]-
->parentmass 273.145053133624
+>parentmass Inf
 >rt 6.4451325404304
 
 >ms1
-273.1451 100
+
 
 >ms2
 273.1451 100
 
 >compound FTneg1163
 >ionization [M+?]-
->parentmass 274.031925536386
+>parentmass Inf
 >rt 6.41373357892486
 
 >ms1
-274.0319 100
+
 
 >ms2
 274.0319 100
 
 >compound FTneg1164
 >ionization [M+?]-
->parentmass 281.949996710528
+>parentmass Inf
 >rt 6.40518120903293
 
 >ms1
-281.95 100
+
 
 >ms2
 281.95 100
 
 >compound FTneg1165
 >ionization [M+?]-
->parentmass 289.044170659934
+>parentmass Inf
 >rt 6.44690147044111
 
 >ms1
-289.0442 100
+
 
 >ms2
 289.0442 100
 
 >compound FTneg1166
 >ionization [M+?]-
->parentmass 292.042535233348
+>parentmass Inf
 >rt 6.4054589940601
 
 >ms1
-292.0425 100
+
 
 >ms2
 292.0425 100
 
 >compound FTneg1167
 >ionization [M+?]-
->parentmass 297.118553943262
+>parentmass Inf
 >rt 6.42367661097943
 
 >ms1
-297.1186 100
+
 
 >ms2
 297.1186 100
 
 >compound FTneg1168
 >ionization [M+?]-
->parentmass 310.001577516372
+>parentmass Inf
 >rt 6.43607729236899
 
 >ms1
-310.0016 100
+
 
 >ms2
 310.0016 100
 
 >compound FTneg1169
 >ionization [M+?]-
->parentmass 315.083057319812
+>parentmass Inf
 >rt 6.41851013152738
 
 >ms1
-315.0831 100
+
 
 >ms2
 315.0831 100
 
 >compound FTneg1170
 >ionization [M+?]-
->parentmass 318.06091848044
+>parentmass Inf
 >rt 6.38380448618899
 
 >ms1
-318.0609 100
+
 
 >ms2
 318.0609 100
 
 >compound FTneg1171
 >ionization [M+?]-
->parentmass 324.072085147721
+>parentmass Inf
 >rt 6.41563765974476
 
 >ms1
-324.0721 100
 
 >ms2
 52.0037 40
 
 >compound FTneg1172
 >ionization [M+?]-
->parentmass 335.048416009283
+>parentmass Inf
 >rt 6.45087239207599
 
 >ms1
-335.0484 100
+
 
 >ms2
 335.0484 100
 
 >compound FTneg1173
 >ionization [M+?]-
->parentmass 345.07033728867
+>parentmass Inf
 >rt 6.45760111468904
 
 >ms1
-345.0703 100
+
 
 >ms2
 345.0703 100
 
 >compound FTneg1174
 >ionization [M+?]-
->parentmass 350.07263878487
+>parentmass Inf
 >rt 6.36302720504039
 
 >ms1
-350.0726 100
+
 
 >ms2
 350.0726 100
 
 >compound FTneg1175
 >ionization [M+?]-
->parentmass 353.062632159321
+>parentmass Inf
 >rt 6.4268997725955
 
 >ms1
-353.0626 100
+
 
 >ms2
 353.0626 100
 
 >compound FTneg1176
 >ionization [M+?]-
->parentmass 355.000008688014
+>parentmass Inf
 >rt 6.38430378661762
 
 >ms1
-355 100
+
 
 >ms2
 355 100
 
 >compound FTneg1177
 >ionization [M+?]-
->parentmass 356.061900597881
+>parentmass Inf
 >rt 6.41087368421058
 
 >ms1
-356.0619 100
+
 
 >ms2
 356.0619 100
 
 >compound FTneg1178
 >ionization [M+?]-
->parentmass 503.210450899376
+>parentmass Inf
 >rt 6.41584365619183
 
 >ms1
-503.2105 100
+
 
 >ms2
 503.2105 100
 
 >compound FTneg1179
 >ionization [M+?]-
->parentmass 292.072083392417
+>parentmass Inf
 >rt 1.8129311087876
 
 >ms1
-292.0721 100
 
 >ms2
 51.9309 40
@@ -17572,11 +17416,10 @@
 
 >compound FTneg1180
 >ionization [M+?]-
->parentmass 242.079787658072
+>parentmass Inf
 >rt 1.81469893149802
 
 >ms1
-242.0798 100
 
 >ms2
 55.0517 40
@@ -17584,22 +17427,20 @@
 
 >compound FTneg1181
 >ionization [M+?]-
->parentmass 350.030806871839
+>parentmass Inf
 >rt 1.82221423043833
 
 >ms1
-350.0308 100
 
 >ms2
 52.017 13
 
 >compound FTneg1182
 >ionization [M+?]-
->parentmass 450.116143836629
+>parentmass Inf
 >rt 1.79573240013957
 
 >ms1
-450.1161 100
 
 >ms2
 51.021 40
@@ -17630,55 +17471,51 @@
 
 >compound FTneg1183
 >ionization [M+?]-
->parentmass 472.135604218542
+>parentmass Inf
 >rt 1.80724932452297
 
 >ms1
-472.1356 100
 
 >ms2
 69.0426 40
 
 >compound FTneg1184
 >ionization [M+?]-
->parentmass 88.0403060569306
+>parentmass Inf
 >rt 1.80854107854847
 
 >ms1
-88.04031 100
+
 
 >ms2
 88.04031 100
 
 >compound FTneg1185
 >ionization [M+?]-
->parentmass 105.019249111403
+>parentmass Inf
 >rt 1.8081323567309
 
 >ms1
-105.0192 100
 
 >ms2
 54.9375 40
 
 >compound FTneg1186
 >ionization [M+?]-
->parentmass 126.90490927758
+>parentmass Inf
 >rt 1.82058440913253
 
 >ms1
-126.9049 100
 
 >ms2
 60.043 20
 
 >compound FTneg1187
 >ionization [M+?]-
->parentmass 130.062060115782
+>parentmass Inf
 >rt 1.80849739056704
 
 >ms1
-130.0621 100
 
 >ms2
 55.0147 41
@@ -17745,33 +17582,32 @@
 
 >compound FTneg1188
 >ionization [M+?]-
->parentmass 146.081911772477
+>parentmass Inf
 >rt 1.81883726725398
 
 >ms1
-146.0819 100
+
 
 >ms2
 146.0819 100
 
 >compound FTneg1189
 >ionization [M+?]-
->parentmass 149.045175994658
+>parentmass Inf
 >rt 1.84578265553486
 
 >ms1
-149.0452 100
+
 
 >ms2
 149.0452 100
 
 >compound FTneg1190
 >ionization [M+?]-
->parentmass 166.038553313276
+>parentmass Inf
 >rt 1.80575309210825
 
 >ms1
-166.0386 100
 
 >ms2
 89.0589 199
@@ -17783,22 +17619,21 @@
 
 >compound FTneg1191
 >ionization [M+?]-
->parentmass 168.036730777386
+>parentmass Inf
 >rt 1.80516611586785
 
 >ms1
-168.0367 100
+
 
 >ms2
 168.0367 100
 
 >compound FTneg1192
 >ionization [M+?]-
->parentmass 173.093024268427
+>parentmass Inf
 >rt 1.82356914015555
 
 >ms1
-173.093 100
 
 >ms2
 51.0224 40
@@ -18057,11 +17892,10 @@
 
 >compound FTneg1193
 >ionization [M+?]-
->parentmass 188.05631706454
+>parentmass Inf
 >rt 1.82749295356487
 
 >ms1
-188.0563 100
 
 >ms2
 51.0216 13
@@ -18072,11 +17906,10 @@
 
 >compound FTneg1194
 >ionization [M+?]-
->parentmass 193.815535020573
+>parentmass Inf
 >rt 1.81406741516944
 
 >ms1
-193.8155 100
 
 >ms2
 54.0085 52
@@ -18084,11 +17917,10 @@
 
 >compound FTneg1195
 >ionization [M+?]-
->parentmass 196.074350619625
+>parentmass Inf
 >rt 1.80407427174445
 
 >ms1
-196.0744 100
 
 >ms2
 53.0376 20
@@ -18096,44 +17928,43 @@
 
 >compound FTneg1196
 >ionization [M+?]-
->parentmass 196.811334736941
+>parentmass Inf
 >rt 1.8451826086957
 
 >ms1
-196.8113 100
+
 
 >ms2
 196.8113 100
 
 >compound FTneg1197
 >ionization [M+?]-
->parentmass 198.071373457362
+>parentmass Inf
 >rt 1.80462833333325
 
 >ms1
-198.0714 100
+
 
 >ms2
 198.0714 100
 
 >compound FTneg1198
 >ionization [M+?]-
->parentmass 198.808423949583
+>parentmass Inf
 >rt 1.82247850802621
 
 >ms1
-198.8084 100
+
 
 >ms2
 198.8084 100
 
 >compound FTneg1199
 >ionization [M+?]-
->parentmass 201.802085500855
+>parentmass Inf
 >rt 1.80521121283901
 
 >ms1
-201.8021 100
 
 >ms2
 51.0223 8
@@ -18157,55 +17988,54 @@
 
 >compound FTneg1200
 >ionization [M+?]-
->parentmass 209.067176439454
+>parentmass Inf
 >rt 1.80757434301675
 
 >ms1
-209.0672 100
+
 
 >ms2
 209.0672 100
 
 >compound FTneg1201
 >ionization [M+?]-
->parentmass 232.050859032668
+>parentmass Inf
 >rt 1.79404535239471
 
 >ms1
-232.0509 100
+
 
 >ms2
 232.0509 100
 
 >compound FTneg1202
 >ionization [M+?]-
->parentmass 234.047867297385
+>parentmass Inf
 >rt 1.79797435897423
 
 >ms1
-234.0479 100
+
 
 >ms2
 234.0479 100
 
 >compound FTneg1203
 >ionization [M+?]-
->parentmass 256.058991573663
+>parentmass Inf
 >rt 1.79182230895438
 
 >ms1
-256.059 100
+
 
 >ms2
 256.059 100
 
 >compound FTneg1204
 >ionization [M+?]-
->parentmass 259.022345398374
+>parentmass Inf
 >rt 1.8123415947889
 
 >ms1
-259.0223 100
 
 >ms2
 51.9339 40
@@ -18227,22 +18057,21 @@
 
 >compound FTneg1205
 >ionization [M+?]-
->parentmass 275.107074868807
+>parentmass Inf
 >rt 1.81610961795063
 
 >ms1
-275.1071 100
+
 
 >ms2
 275.1071 100
 
 >compound FTneg1206
 >ionization [M+?]-
->parentmass 276.108790196268
+>parentmass Inf
 >rt 1.82332442986077
 
 >ms1
-276.1088 100
 
 >ms2
 55.0532 8
@@ -18276,44 +18105,43 @@
 
 >compound FTneg1207
 >ionization [M+?]-
->parentmass 287.052049282902
+>parentmass Inf
 >rt 1.82163014948225
 
 >ms1
-287.052 100
+
 
 >ms2
 287.052 100
 
 >compound FTneg1208
 >ionization [M+?]-
->parentmass 292.050587686273
+>parentmass Inf
 >rt 1.81366373649815
 
 >ms1
-292.0506 100
+
 
 >ms2
 292.0506 100
 
 >compound FTneg1209
 >ionization [M+?]-
->parentmass 296.07480101055
+>parentmass Inf
 >rt 1.81312038641571
 
 >ms1
-296.0748 100
+
 
 >ms2
 296.0748 100
 
 >compound FTneg1210
 >ionization [M+?]-
->parentmass 297.108227646909
+>parentmass Inf
 >rt 1.80269005334972
 
 >ms1
-297.1082 100
 
 >ms2
 53.0033 4
@@ -18346,44 +18174,43 @@
 
 >compound FTneg1211
 >ionization [M+?]-
->parentmass 299.10278939375
+>parentmass Inf
 >rt 1.81783507176187
 
 >ms1
-299.1028 100
+
 
 >ms2
 299.1028 100
 
 >compound FTneg1212
 >ionization [M+?]-
->parentmass 300.038813263918
+>parentmass Inf
 >rt 1.82202647058824
 
 >ms1
-300.0388 100
+
 
 >ms2
 300.0388 100
 
 >compound FTneg1213
 >ionization [M+?]-
->parentmass 310.088385971342
+>parentmass Inf
 >rt 1.80654053906102
 
 >ms1
-310.0884 100
+
 
 >ms2
 310.0884 100
 
 >compound FTneg1214
 >ionization [M+?]-
->parentmass 312.08541560959
+>parentmass Inf
 >rt 1.81771431335383
 
 >ms1
-312.0854 100
 
 >ms2
 50.9836 4
@@ -18400,132 +18227,131 @@
 
 >compound FTneg1215
 >ionization [M+?]-
->parentmass 316.114518069202
+>parentmass Inf
 >rt 1.79517929019097
 
 >ms1
-316.1145 100
+
 
 >ms2
 316.1145 100
 
 >compound FTneg1216
 >ionization [M+?]-
->parentmass 319.091182623245
+>parentmass Inf
 >rt 1.82176375708833
 
 >ms1
-319.0912 100
+
 
 >ms2
 319.0912 100
 
 >compound FTneg1217
 >ionization [M+?]-
->parentmass 324.08259378755
+>parentmass Inf
 >rt 1.7940383852719
 
 >ms1
-324.0826 100
+
 
 >ms2
 324.0826 100
 
 >compound FTneg1218
 >ionization [M+?]-
->parentmass 326.080145466748
+>parentmass Inf
 >rt 1.79128894982082
 
 >ms1
-326.0801 100
+
 
 >ms2
 326.0801 100
 
 >compound FTneg1219
 >ionization [M+?]-
->parentmass 333.085530979599
+>parentmass Inf
 >rt 1.80271953377164
 
 >ms1
-333.0855 100
+
 
 >ms2
 333.0855 100
 
 >compound FTneg1220
 >ionization [M+?]-
->parentmass 336.019801168456
+>parentmass Inf
 >rt 1.80865371046294
 
 >ms1
-336.0198 100
+
 
 >ms2
 336.0198 100
 
 >compound FTneg1221
 >ionization [M+?]-
->parentmass 336.140879657928
+>parentmass Inf
 >rt 1.80471506866908
 
 >ms1
-336.1409 100
+
 
 >ms2
 336.1409 100
 
 >compound FTneg1222
 >ionization [M+?]-
->parentmass 338.018927992225
+>parentmass Inf
 >rt 1.82064657558163
 
 >ms1
-338.0189 100
+
 
 >ms2
 338.0189 100
 
 >compound FTneg1223
 >ionization [M+?]-
->parentmass 354.025779850581
+>parentmass Inf
 >rt 1.82581000551465
 
 >ms1
-354.0258 100
+
 
 >ms2
 354.0258 100
 
 >compound FTneg1224
 >ionization [M+?]-
->parentmass 355.06646797773
+>parentmass Inf
 >rt 1.81646871603761
 
 >ms1
-355.0665 100
+
 
 >ms2
 355.0665 100
 
 >compound FTneg1225
 >ionization [M+?]-
->parentmass 363.121588208754
+>parentmass Inf
 >rt 1.83137057094731
 
 >ms1
-363.1216 100
+
 
 >ms2
 363.1216 100
 
 >compound FTneg1226
 >ionization [M+?]-
->parentmass 365.117211872942
+>parentmass Inf
 >rt 1.79949257655106
 
 >ms1
-365.1172 100
 
 >ms2
 55.0004 8
@@ -18560,11 +18386,10 @@
 
 >compound FTneg1227
 >ionization [M+?]-
->parentmass 372.117854637383
+>parentmass Inf
 >rt 1.80234807983182
 
 >ms1
-372.1179 100
 
 >ms2
 55.0176 20
@@ -18577,33 +18402,32 @@
 
 >compound FTneg1228
 >ionization [M+?]-
->parentmass 374.11514296921
+>parentmass Inf
 >rt 1.80252249134525
 
 >ms1
-374.1151 100
+
 
 >ms2
 374.1151 100
 
 >compound FTneg1229
 >ionization [M+?]-
->parentmass 382.093958306254
+>parentmass Inf
 >rt 1.79498484848482
 
 >ms1
-382.094 100
+
 
 >ms2
 382.094 100
 
 >compound FTneg1230
 >ionization [M+?]-
->parentmass 386.033360226041
+>parentmass Inf
 >rt 1.86350386087588
 
 >ms1
-386.0334 100
 
 >ms2
 60.0469 40
@@ -18631,55 +18455,54 @@
 
 >compound FTneg1231
 >ionization [M+?]-
->parentmass 404.062115218957
+>parentmass Inf
 >rt 1.82896045552299
 
 >ms1
-404.0621 100
+
 
 >ms2
 404.0621 100
 
 >compound FTneg1232
 >ionization [M+?]-
->parentmass 406.05786610407
+>parentmass Inf
 >rt 1.79954777811383
 
 >ms1
-406.0579 100
+
 
 >ms2
 406.0579 100
 
 >compound FTneg1233
 >ionization [M+?]-
->parentmass 413.024554836506
+>parentmass Inf
 >rt 1.84760556419853
 
 >ms1
-413.0246 100
+
 
 >ms2
 413.0246 100
 
 >compound FTneg1234
 >ionization [M+?]-
->parentmass 414.139036714458
+>parentmass Inf
 >rt 1.8059092942964
 
 >ms1
-414.139 100
+
 
 >ms2
 414.139 100
 
 >compound FTneg1235
 >ionization [M+?]-
->parentmass 423.141453581493
+>parentmass Inf
 >rt 1.80951166743745
 
 >ms1
-423.1415 100
 
 >ms2
 51.0113 4
@@ -18688,176 +18511,174 @@
 
 >compound FTneg1236
 >ionization [M+?]-
->parentmass 424.144278209286
+>parentmass Inf
 >rt 1.807934965476
 
 >ms1
-424.1443 100
+
 
 >ms2
 424.1443 100
 
 >compound FTneg1237
 >ionization [M+?]-
->parentmass 425.080287191601
+>parentmass Inf
 >rt 1.79229571361629
 
 >ms1
-425.0803 100
+
 
 >ms2
 425.0803 100
 
 >compound FTneg1238
 >ionization [M+?]-
->parentmass 425.138914839761
+>parentmass Inf
 >rt 1.8068420995787
 
 >ms1
-425.1389 100
+
 
 >ms2
 425.1389 100
 
 >compound FTneg1239
 >ionization [M+?]-
->parentmass 445.159152464253
+>parentmass Inf
 >rt 1.82520503935665
 
 >ms1
-445.1592 100
 
 >ms2
 67.0534 4
 
 >compound FTneg1240
 >ionization [M+?]-
->parentmass 448.121660578795
+>parentmass Inf
 >rt 1.81530349881617
 
 >ms1
-448.1217 100
+
 
 >ms2
 448.1217 100
 
 >compound FTneg1241
 >ionization [M+?]-
->parentmass 453.11565563818
+>parentmass Inf
 >rt 1.79511801694353
 
 >ms1
-453.1157 100
+
 
 >ms2
 453.1157 100
 
 >compound FTneg1242
 >ionization [M+?]-
->parentmass 453.176492468896
+>parentmass Inf
 >rt 1.80848256766908
 
 >ms1
-453.1765 100
+
 
 >ms2
 453.1765 100
 
 >compound FTneg1243
 >ionization [M+?]-
->parentmass 455.151917173556
+>parentmass Inf
 >rt 1.79612701710912
 
 >ms1
-455.1519 100
+
 
 >ms2
 455.1519 100
 
 >compound FTneg1244
 >ionization [M+?]-
->parentmass 456.140895364527
+>parentmass Inf
 >rt 1.79866189945893
 
 >ms1
-456.1409 100
+
 
 >ms2
 456.1409 100
 
 >compound FTneg1245
 >ionization [M+?]-
->parentmass 459.118362806465
+>parentmass Inf
 >rt 1.80798254698586
 
 >ms1
-459.1184 100
+
 
 >ms2
 459.1184 100
 
 >compound FTneg1246
 >ionization [M+?]-
->parentmass 461.115573394941
+>parentmass Inf
 >rt 1.80765192775169
 
 >ms1
-461.1156 100
+
 
 >ms2
 461.1156 100
 
 >compound FTneg1247
 >ionization [M+?]-
->parentmass 481.100262618542
+>parentmass Inf
 >rt 1.81177066206531
 
 >ms1
-481.1003 100
+
 
 >ms2
 481.1003 100
 
 >compound FTneg1248
 >ionization [M+?]-
->parentmass 483.097341437087
+>parentmass Inf
 >rt 1.81205222852197
 
 >ms1
-483.0973 100
+
 
 >ms2
 483.0973 100
 
 >compound FTneg1249
 >ionization [M+?]-
->parentmass 489.153740712012
+>parentmass Inf
 >rt 1.80698664420592
 
 >ms1
-489.1537 100
+
 
 >ms2
 489.1537 100
 
 >compound FTneg1250
 >ionization [M+?]-
->parentmass 491.15113972385
+>parentmass Inf
 >rt 1.80651911784485
 
 >ms1
-491.1511 100
+
 
 >ms2
 491.1511 100
 
 >compound FTneg1251
 >ionization [M+?]-
->parentmass 508.074858162925
+>parentmass Inf
 >rt 1.79562904484203
 
 >ms1
-508.0749 100
 
 >ms2
 55.0586 40
@@ -18870,165 +18691,164 @@
 
 >compound FTneg1252
 >ionization [M+?]-
->parentmass 511.135506742356
+>parentmass Inf
 >rt 1.80659166666675
 
 >ms1
-511.1355 100
+
 
 >ms2
 511.1355 100
 
 >compound FTneg1253
 >ionization [M+?]-
->parentmass 512.107940145942
+>parentmass Inf
 >rt 1.80199180033326
 
 >ms1
-512.1079 100
+
 
 >ms2
 512.1079 100
 
 >compound FTneg1254
 >ionization [M+?]-
->parentmass 530.094466292871
+>parentmass Inf
 >rt 1.819297328206
 
 >ms1
-530.0945 100
+
 
 >ms2
 530.0945 100
 
 >compound FTneg1255
 >ionization [M+?]-
->parentmass 532.091802987951
+>parentmass Inf
 >rt 1.81845125213955
 
 >ms1
-532.0918 100
+
 
 >ms2
 532.0918 100
 
 >compound FTneg1256
 >ionization [M+?]-
->parentmass 537.155518906668
+>parentmass Inf
 >rt 1.83863360311027
 
 >ms1
-537.1555 100
+
 
 >ms2
 537.1555 100
 
 >compound FTneg1257
 >ionization [M+?]-
->parentmass 539.058949646509
+>parentmass Inf
 >rt 1.81418508771932
 
 >ms1
-539.0589 100
+
 
 >ms2
 539.0589 100
 
 >compound FTneg1258
 >ionization [M+?]-
->parentmass 539.137649382067
+>parentmass Inf
 >rt 1.8059549773294
 
 >ms1
-539.1376 100
+
 
 >ms2
 539.1376 100
 
 >compound FTneg1259
 >ionization [M+?]-
->parentmass 540.220351545607
+>parentmass Inf
 >rt 1.81345437893761
 
 >ms1
-540.2204 100
+
 
 >ms2
 540.2204 100
 
 >compound FTneg1260
 >ionization [M+?]-
->parentmass 541.05570298708
+>parentmass Inf
 >rt 1.81566960784318
 
 >ms1
-541.0557 100
+
 
 >ms2
 541.0557 100
 
 >compound FTneg1261
 >ionization [M+?]-
->parentmass 554.210867828744
+>parentmass Inf
 >rt 1.80516623814373
 
 >ms1
-554.2109 100
+
 
 >ms2
 554.2109 100
 
 >compound FTneg1262
 >ionization [M+?]-
->parentmass 556.208695544538
+>parentmass Inf
 >rt 1.80471278945042
 
 >ms1
-556.2087 100
+
 
 >ms2
 556.2087 100
 
 >compound FTneg1263
 >ionization [M+?]-
->parentmass 567.193377764863
+>parentmass Inf
 >rt 1.80663571888468
 
 >ms1
-567.1934 100
+
 
 >ms2
 567.1934 100
 
 >compound FTneg1264
 >ionization [M+?]-
->parentmass 569.189507914233
+>parentmass Inf
 >rt 1.8128357082421
 
 >ms1
-569.1895 100
+
 
 >ms2
 569.1895 100
 
 >compound FTneg1265
 >ionization [M+?]-
->parentmass 576.196124942327
+>parentmass Inf
 >rt 1.81457234264464
 
 >ms1
-576.1961 100
+
 
 >ms2
 576.1961 100
 
 >compound FTneg1266
 >ionization [M+?]-
->parentmass 581.185521041406
+>parentmass Inf
 >rt 1.79730847653093
 
 >ms1
-581.1855 100
 
 >ms2
 63.0838 43
@@ -19051,99 +18871,98 @@
 
 >compound FTneg1267
 >ionization [M+?]-
->parentmass 583.183258823323
+>parentmass Inf
 >rt 1.79736496767182
 
 >ms1
-583.1833 100
+
 
 >ms2
 583.1833 100
 
 >compound FTneg1268
 >ionization [M+?]-
->parentmass 585.151106916154
+>parentmass Inf
 >rt 1.81176919838756
 
 >ms1
-585.1511 100
+
 
 >ms2
 585.1511 100
 
 >compound FTneg1269
 >ionization [M+?]-
->parentmass 590.188622601983
+>parentmass Inf
 >rt 1.80201257920346
 
 >ms1
-590.1886 100
+
 
 >ms2
 590.1886 100
 
 >compound FTneg1270
 >ionization [M+?]-
->parentmass 598.178721567806
+>parentmass Inf
 >rt 1.81456299319836
 
 >ms1
-598.1787 100
+
 
 >ms2
 598.1787 100
 
 >compound FTneg1271
 >ionization [M+?]-
->parentmass 603.204805199526
+>parentmass Inf
 >rt 1.80497191993908
 
 >ms1
-603.2048 100
+
 
 >ms2
 603.2048 100
 
 >compound FTneg1272
 >ionization [M+?]-
->parentmass 604.207897949396
+>parentmass Inf
 >rt 1.80358633903315
 
 >ms1
-604.2079 100
+
 
 >ms2
 604.2079 100
 
 >compound FTneg1273
 >ionization [M+?]-
->parentmass 605.203240638217
+>parentmass Inf
 >rt 1.80316017985878
 
 >ms1
-605.2032 100
+
 
 >ms2
 605.2032 100
 
 >compound FTneg1274
 >ionization [M+?]-
->parentmass 607.133818102552
+>parentmass Inf
 >rt 1.82100772950599
 
 >ms1
-607.1338 100
+
 
 >ms2
 607.1338 100
 
 >compound FTneg1275
 >ionization [M+?]-
->parentmass 609.131101431549
+>parentmass Inf
 >rt 1.82068987700312
 
 >ms1
-609.1311 100
 
 >ms2
 55.0609 40
@@ -19171,396 +18990,395 @@
 
 >compound FTneg1276
 >ionization [M+?]-
->parentmass 611.165179438945
+>parentmass Inf
 >rt 1.8225686580152
 
 >ms1
-611.1652 100
+
 
 >ms2
 611.1652 100
 
 >compound FTneg1277
 >ionization [M+?]-
->parentmass 612.169384435671
+>parentmass Inf
 >rt 1.80774195613034
 
 >ms1
-612.1694 100
+
 
 >ms2
 612.1694 100
 
 >compound FTneg1278
 >ionization [M+?]-
->parentmass 614.165925724754
+>parentmass Inf
 >rt 1.80491060606064
 
 >ms1
-614.1659 100
+
 
 >ms2
 614.1659 100
 
 >compound FTneg1279
 >ionization [M+?]-
->parentmass 620.222988764405
+>parentmass Inf
 >rt 1.80598080247286
 
 >ms1
-620.223 100
+
 
 >ms2
 620.223 100
 
 >compound FTneg1280
 >ionization [M+?]-
->parentmass 625.152403184356
+>parentmass Inf
 >rt 1.80629523809521
 
 >ms1
-625.1524 100
+
 
 >ms2
 625.1524 100
 
 >compound FTneg1281
 >ionization [M+?]-
->parentmass 627.149897247344
+>parentmass Inf
 >rt 1.80918774161399
 
 >ms1
-627.1499 100
+
 
 >ms2
 627.1499 100
 
 >compound FTneg1282
 >ionization [M+?]-
->parentmass 630.180654673254
+>parentmass Inf
 >rt 1.79327642895247
 
 >ms1
-630.1807 100
+
 
 >ms2
 630.1807 100
 
 >compound FTneg1283
 >ionization [M+?]-
->parentmass 639.144321084069
+>parentmass Inf
 >rt 1.79490217481095
 
 >ms1
-639.1443 100
+
 
 >ms2
 639.1443 100
 
 >compound FTneg1284
 >ionization [M+?]-
->parentmass 641.141152990782
+>parentmass Inf
 >rt 1.79681751214177
 
 >ms1
-641.1412 100
+
 
 >ms2
 641.1412 100
 
 >compound FTneg1285
 >ionization [M+?]-
->parentmass 661.16348575825
+>parentmass Inf
 >rt 1.80708542270721
 
 >ms1
-661.1635 100
+
 
 >ms2
 661.1635 100
 
 >compound FTneg1286
 >ionization [M+?]-
->parentmass 663.160526544933
+>parentmass Inf
 >rt 1.80547537767176
 
 >ms1
-663.1605 100
+
 
 >ms2
 663.1605 100
 
 >compound FTneg1287
 >ionization [M+?]-
->parentmass 665.093202980847
+>parentmass Inf
 >rt 1.8380746028491
 
 >ms1
-665.0932 100
+
 
 >ms2
 665.0932 100
 
 >compound FTneg1288
 >ionization [M+?]-
->parentmass 666.253262720385
+>parentmass Inf
 >rt 1.8197510941999
 
 >ms1
-666.2533 100
+
 
 >ms2
 666.2533 100
 
 >compound FTneg1289
 >ionization [M+?]-
->parentmass 667.089484606263
+>parentmass Inf
 >rt 1.83047861452067
 
 >ms1
-667.0895 100
+
 
 >ms2
 667.0895 100
 
 >compound FTneg1290
 >ionization [M+?]-
->parentmass 680.244237383151
+>parentmass Inf
 >rt 1.80835734054026
 
 >ms1
-680.2442 100
+
 
 >ms2
 680.2442 100
 
 >compound FTneg1291
 >ionization [M+?]-
->parentmass 681.247079339259
+>parentmass Inf
 >rt 1.80692809852571
 
 >ms1
-681.2471 100
+
 
 >ms2
 681.2471 100
 
 >compound FTneg1292
 >ionization [M+?]-
->parentmass 682.241865657257
+>parentmass Inf
 >rt 1.8093278350291
 
 >ms1
-682.2419 100
+
 
 >ms2
 682.2419 100
 
 >compound FTneg1293
 >ionization [M+?]-
->parentmass 707.218959209688
+>parentmass Inf
 >rt 1.80058562208327
 
 >ms1
-707.219 100
+
 
 >ms2
 707.219 100
 
 >compound FTneg1294
 >ionization [M+?]-
->parentmass 708.22147211992
+>parentmass Inf
 >rt 1.80077273614429
 
 >ms1
-708.2215 100
+
 
 >ms2
 708.2215 100
 
 >compound FTneg1295
 >ionization [M+?]-
->parentmass 709.216747764975
+>parentmass Inf
 >rt 1.80063855356059
 
 >ms1
-709.2167 100
+
 
 >ms2
 709.2167 100
 
 >compound FTneg1296
 >ionization [M+?]-
->parentmass 712.255150714392
+>parentmass Inf
 >rt 1.79823365723234
 
 >ms1
-712.2552 100
+
 
 >ms2
 712.2552 100
 
 >compound FTneg1297
 >ionization [M+?]-
->parentmass 729.238923780055
+>parentmass Inf
 >rt 1.8113368051564
 
 >ms1
-729.2389 100
+
 
 >ms2
 729.2389 100
 
 >compound FTneg1298
 >ionization [M+?]-
->parentmass 730.241918201816
+>parentmass Inf
 >rt 1.81225866439553
 
 >ms1
-730.2419 100
+
 
 >ms2
 730.2419 100
 
 >compound FTneg1299
 >ionization [M+?]-
->parentmass 731.237655534404
+>parentmass Inf
 >rt 1.81354931819035
 
 >ms1
-731.2377 100
+
 
 >ms2
 731.2377 100
 
 >compound FTneg1300
 >ionization [M+?]-
->parentmass 738.202792840037
+>parentmass Inf
 >rt 1.81128814867671
 
 >ms1
-738.2028 100
+
 
 >ms2
 738.2028 100
 
 >compound FTneg1301
 >ionization [M+?]-
->parentmass 740.200850847542
+>parentmass Inf
 >rt 1.81028282597964
 
 >ms1
-740.2009 100
+
 
 >ms2
 740.2009 100
 
 >compound FTneg1302
 >ionization [M+?]-
->parentmass 765.178048136637
+>parentmass Inf
 >rt 1.80182080810977
 
 >ms1
-765.178 100
+
 
 >ms2
 765.178 100
 
 >compound FTneg1303
 >ionization [M+?]-
->parentmass 767.17489959811
+>parentmass Inf
 >rt 1.80069122401608
 
 >ms1
-767.1749 100
+
 
 >ms2
 767.1749 100
 
 >compound FTneg1304
 >ionization [M+?]-
->parentmass 787.197436315818
+>parentmass Inf
 >rt 1.81889556318711
 
 >ms1
-787.1974 100
+
 
 >ms2
 787.1974 100
 
 >compound FTneg1305
 >ionization [M+?]-
->parentmass 789.196426132446
+>parentmass Inf
 >rt 1.81541206713039
 
 >ms1
-789.1964 100
+
 
 >ms2
 789.1964 100
 
 >compound FTneg1306
 >ionization [M+?]-
->parentmass 806.277491834883
+>parentmass Inf
 >rt 1.81245421400619
 
 >ms1
-806.2775 100
+
 
 >ms2
 806.2775 100
 
 >compound FTneg1307
 >ionization [M+?]-
->parentmass 807.281196505493
+>parentmass Inf
 >rt 1.81167539876345
 
 >ms1
-807.2812 100
+
 
 >ms2
 807.2812 100
 
 >compound FTneg1308
 >ionization [M+?]-
->parentmass 808.276435438939
+>parentmass Inf
 >rt 1.81464273703802
 
 >ms1
-808.2764 100
+
 
 >ms2
 808.2764 100
 
 >compound FTneg1309
 >ionization [M+?]-
->parentmass 838.288330047771
+>parentmass Inf
 >rt 1.79887607508197
 
 >ms1
-838.2883 100
+
 
 >ms2
 838.2883 100
 
 >compound FTneg1310
 >ionization [M+?]-
->parentmass 864.23623270827
+>parentmass Inf
 >rt 1.81623833383643
 
 >ms1
-864.2362 100
+
 
 >ms2
 864.2362 100
 
 >compound FTneg1311
 >ionization [M+?]-
->parentmass 88.9881577778456
+>parentmass Inf
 >rt 2.38738364030964
 
 >ms1
-88.98816 100
 
 >ms2
 50.0163 8
@@ -19598,11 +19416,10 @@
 
 >compound FTneg1312
 >ionization [M+?]-
->parentmass 187.072137746308
+>parentmass Inf
 >rt 2.40434379833469
 
 >ms1
-187.0721 100
 
 >ms2
 51.0238 40
@@ -19622,11 +19439,10 @@
 
 >compound FTneg1313
 >ionization [M+?]-
->parentmass 199.805008865823
+>parentmass Inf
 >rt 2.39116233443192
 
 >ms1
-199.805 100
 
 >ms2
 50.0141 10
@@ -19699,176 +19515,175 @@
 
 >compound FTneg1314
 >ionization [M+?]-
->parentmass 255.822284424974
+>parentmass Inf
 >rt 2.41787157548116
 
 >ms1
-255.8223 100
+
 
 >ms2
 255.8223 100
 
 >compound FTneg1315
 >ionization [M+?]-
->parentmass 278.124451576502
+>parentmass Inf
 >rt 2.43038546560777
 
 >ms1
-278.1245 100
+
 
 >ms2
 278.1245 100
 
 >compound FTneg1316
 >ionization [M+?]-
->parentmass 291.083322252862
+>parentmass Inf
 >rt 2.39669471760417
 
 >ms1
-291.0833 100
+
 
 >ms2
 291.0833 100
 
 >compound FTneg1317
 >ionization [M+?]-
->parentmass 88.9882148385549
+>parentmass Inf
 >rt 3.35969692165672
 
 >ms1
-88.98821 100
+
 
 >ms2
 88.98821 100
 
 >compound FTneg1318
 >ionization [M+?]-
->parentmass 89.0243488108015
+>parentmass Inf
 >rt 3.26912158291761
 
 >ms1
-89.02435 100
+
 
 >ms2
 89.02435 100
 
 >compound FTneg1319
 >ionization [M+?]-
->parentmass 174.956032813531
+>parentmass Inf
 >rt 3.24488394051889
 
 >ms1
-174.956 100
+
 
 >ms2
 174.956 100
 
 >compound FTneg1320
 >ionization [M+?]-
->parentmass 225.061180409862
+>parentmass Inf
 >rt 3.21210063253538
 
 >ms1
-225.0612 100
+
 
 >ms2
 225.0612 100
 
 >compound FTneg1321
 >ionization [M+?]-
->parentmass 88.9910791608671
+>parentmass Inf
 >rt 3.9103673913043
 
 >ms1
-88.99108 100
+
 
 >ms2
 88.99108 100
 
 >compound FTneg1322
 >ionization [M+?]-
->parentmass 115.040005042248
+>parentmass Inf
 >rt 3.9518312743245
 
 >ms1
-115.04 100
+
 
 >ms2
 115.04 100
 
 >compound FTneg1323
 >ionization [M+?]-
->parentmass 115.040014348326
+>parentmass Inf
 >rt 3.882976141487
 
 >ms1
-115.04 100
+
 
 >ms2
 115.04 100
 
 >compound FTneg1324
 >ionization [M+?]-
->parentmass 306.964624757844
+>parentmass Inf
 >rt 3.98087272727277
 
 >ms1
-306.9646 100
+
 
 >ms2
 306.9646 100
 
 >compound FTneg1325
 >ionization [M+?]-
->parentmass 383.114152073968
+>parentmass Inf
 >rt 3.93936332239694
 
 >ms1
-383.1142 100
+
 
 >ms2
 383.1142 100
 
 >compound FTneg1326
 >ionization [M+?]-
->parentmass 89.0243471124597
+>parentmass Inf
 >rt 4.89282323637243
 
 >ms1
-89.02435 100
+
 
 >ms2
 89.02435 100
 
 >compound FTneg1327
 >ionization [M+?]-
->parentmass 89.024366088495
+>parentmass Inf
 >rt 3.76372947464391
 
 >ms1
-89.02437 100
+
 
 >ms2
 89.02437 100
 
 >compound FTneg1328
 >ionization [M+?]-
->parentmass 255.822336755408
+>parentmass Inf
 >rt 3.73538318241356
 
 >ms1
-255.8223 100
+
 
 >ms2
 255.8223 100
 
 >compound FTneg1329
 >ionization [M+?]-
->parentmass 182.988629042269
+>parentmass Inf
 >rt 8.82815485535482
 
 >ms1
-182.9886 100
 
 >ms2
 50.0041 8
@@ -19896,55 +19711,54 @@
 
 >compound FTneg1330
 >ionization [M+?]-
->parentmass 89.0244860801853
+>parentmass Inf
 >rt 8.80333609152957
 
 >ms1
-89.02449 100
+
 
 >ms2
 89.02449 100
 
 >compound FTneg1331
 >ionization [M+?]-
->parentmass 141.868141497911
+>parentmass Inf
 >rt 8.72429106364367
 
 >ms1
-141.8681 100
+
 
 >ms2
 141.8681 100
 
 >compound FTneg1332
 >ionization [M+?]-
->parentmass 146.9632251145
+>parentmass Inf
 >rt 8.76792274633115
 
 >ms1
-146.9632 100
+
 
 >ms2
 146.9632 100
 
 >compound FTneg1333
 >ionization [M+?]-
->parentmass 189.858170346815
+>parentmass Inf
 >rt 8.69796683661913
 
 >ms1
-189.8582 100
+
 
 >ms2
 189.8582 100
 
 >compound FTneg1334
 >ionization [M+?]-
->parentmass 292.140076348872
+>parentmass Inf
 >rt 4.24628757969407
 
 >ms1
-292.1401 100
 
 >ms2
 50.0162 13
@@ -19972,33 +19786,32 @@
 
 >compound FTneg1335
 >ionization [M+?]-
->parentmass 89.9915352062602
+>parentmass Inf
 >rt 4.30577150498871
 
 >ms1
-89.99154 100
+
 
 >ms2
 89.99154 100
 
 >compound FTneg1336
 >ionization [M+?]-
->parentmass 279.995446184157
+>parentmass Inf
 >rt 4.3999582509692
 
 >ms1
-279.9954 100
+
 
 >ms2
 279.9954 100
 
 >compound FTneg1337
 >ionization [M+?]-
->parentmass 292.140119550013
+>parentmass Inf
 >rt 4.32539165584245
 
 >ms1
-292.1401 100
 
 >ms2
 51.0245 20
@@ -20007,11 +19820,10 @@
 
 >compound FTneg1338
 >ionization [M+?]-
->parentmass 382.135413103276
+>parentmass Inf
 >rt 4.26480879221056
 
 >ms1
-382.1354 100
 
 >ms2
 53.0375 40
@@ -20055,11 +19867,10 @@
 
 >compound FTneg1339
 >ionization [M+?]-
->parentmass 91.0036344121523
+>parentmass Inf
 >rt 18.4266173806069
 
 >ms1
-91.00363 100
 
 >ms2
 49.9975 4
@@ -20095,11 +19906,10 @@
 
 >compound FTneg1340
 >ionization [M+?]-
->parentmass 102.948793040569
+>parentmass Inf
 >rt 18.4906465118959
 
 >ms1
-102.9488 100
 
 >ms2
 50.0011 10
@@ -20238,110 +20048,109 @@
 
 >compound FTneg1341
 >ionization [M+?]-
->parentmass 132.867780313079
+>parentmass Inf
 >rt 18.5461327640293
 
 >ms1
-132.8678 100
+
 
 >ms2
 132.8678 100
 
 >compound FTneg1342
 >ionization [M+?]-
->parentmass 134.865431432368
+>parentmass Inf
 >rt 18.5417263121175
 
 >ms1
-134.8654 100
+
 
 >ms2
 134.8654 100
 
 >compound FTneg1343
 >ionization [M+?]-
->parentmass 136.893893805249
+>parentmass Inf
 >rt 18.5210822222222
 
 >ms1
-136.8939 100
+
 
 >ms2
 136.8939 100
 
 >compound FTneg1344
 >ionization [M+?]-
->parentmass 144.942765016934
+>parentmass Inf
 >rt 18.5367795793359
 
 >ms1
-144.9428 100
+
 
 >ms2
 144.9428 100
 
 >compound FTneg1345
 >ionization [M+?]-
->parentmass 159.881732088468
+>parentmass Inf
 >rt 18.5426012383742
 
 >ms1
-159.8817 100
+
 
 >ms2
 159.8817 100
 
 >compound FTneg1346
 >ionization [M+?]-
->parentmass 174.956039055711
+>parentmass Inf
 >rt 18.5578955375694
 
 >ms1
-174.956 100
+
 
 >ms2
 174.956 100
 
 >compound FTneg1347
 >ionization [M+?]-
->parentmass 187.941195925781
+>parentmass Inf
 >rt 18.4898383942615
 
 >ms1
-187.9412 100
+
 
 >ms2
 187.9412 100
 
 >compound FTneg1348
 >ionization [M+?]-
->parentmass 190.928456560306
+>parentmass Inf
 >rt 18.5447123508253
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg1349
 >ionization [M+?]-
->parentmass 203.936635798668
+>parentmass Inf
 >rt 18.4742034633521
 
 >ms1
-203.9366 100
+
 
 >ms2
 203.9366 100
 
 >compound FTneg1350
 >ionization [M+?]-
->parentmass 207.930046197535
+>parentmass Inf
 >rt 18.445075558442
 
 >ms1
-207.93 100
 
 >ms2
 51.0223 4
@@ -20355,11 +20164,10 @@
 
 >compound FTneg1351
 >ionization [M+?]-
->parentmass 214.879909685169
+>parentmass Inf
 >rt 18.4917492472637
 
 >ms1
-214.8799 100
 
 >ms2
 50.0177 10
@@ -20376,11 +20184,10 @@
 
 >compound FTneg1352
 >ionization [M+?]-
->parentmass 216.877037008785
+>parentmass Inf
 >rt 18.5120677844045
 
 >ms1
-216.877 100
 
 >ms2
 51.0267 40
@@ -20388,55 +20195,54 @@
 
 >compound FTneg1353
 >ionization [M+?]-
->parentmass 233.154562737987
+>parentmass Inf
 >rt 18.4836117677025
 
 >ms1
-233.1546 100
+
 
 >ms2
 233.1546 100
 
 >compound FTneg1354
 >ionization [M+?]-
->parentmass 235.925907508777
+>parentmass Inf
 >rt 18.432627952408
 
 >ms1
-235.9259 100
+
 
 >ms2
 235.9259 100
 
 >compound FTneg1355
 >ionization [M+?]-
->parentmass 241.90030032427
+>parentmass Inf
 >rt 18.5402463889274
 
 >ms1
-241.9003 100
+
 
 >ms2
 241.9003 100
 
 >compound FTneg1356
 >ionization [M+?]-
->parentmass 303.86132718269
+>parentmass Inf
 >rt 18.4811399457481
 
 >ms1
-303.8613 100
+
 
 >ms2
 303.8613 100
 
 >compound FTneg1357
 >ionization [M+?]-
->parentmass 307.857978946058
+>parentmass Inf
 >rt 18.4860569016436
 
 >ms1
-307.858 100
 
 >ms2
 53.0383 40
@@ -20452,77 +20258,76 @@
 
 >compound FTneg1358
 >ionization [M+?]-
->parentmass 308.897184562959
+>parentmass Inf
 >rt 18.5324926441167
 
 >ms1
-308.8972 100
+
 
 >ms2
 308.8972 100
 
 >compound FTneg1359
 >ionization [M+?]-
->parentmass 310.861578330788
+>parentmass Inf
 >rt 18.5355254680513
 
 >ms1
-310.8616 100
+
 
 >ms2
 310.8616 100
 
 >compound FTneg1360
 >ionization [M+?]-
->parentmass 386.841228485181
+>parentmass Inf
 >rt 18.4711458809316
 
 >ms1
-386.8412 100
+
 
 >ms2
 386.8412 100
 
 >compound FTneg1361
 >ionization [M+?]-
->parentmass 612.329680821835
+>parentmass Inf
 >rt 18.5207115384615
 
 >ms1
-612.3297 100
+
 
 >ms2
 612.3297 100
 
 >compound FTneg1362
 >ionization [M+?]-
->parentmass 618.377796626452
+>parentmass Inf
 >rt 18.4562586604727
 
 >ms1
-618.3778 100
+
 
 >ms2
 618.3778 100
 
 >compound FTneg1363
 >ionization [M+?]-
->parentmass 92.0253091873973
+>parentmass Inf
 >rt 3.200908974359
 
 >ms1
-92.02531 100
+
 
 >ms2
 92.02531 100
 
 >compound FTneg1364
 >ionization [M+?]-
->parentmass 268.801115262838
+>parentmass Inf
 >rt 1.62731162157637
 
 >ms1
-268.8011 100
 
 >ms2
 53.0376 40
@@ -20537,11 +20342,10 @@
 
 >compound FTneg1365
 >ionization [M+?]-
->parentmass 560.591568448208
+>parentmass Inf
 >rt 1.62468748268349
 
 >ms1
-560.5916 100
 
 >ms2
 51.0223 40
@@ -20686,22 +20490,21 @@
 
 >compound FTneg1366
 >ionization [M+?]-
->parentmass 270.798044578537
+>parentmass Inf
 >rt 1.62717976283564
 
 >ms1
-270.798 100
+
 
 >ms2
 270.798 100
 
 >compound FTneg1367
 >ionization [M+?]-
->parentmass 384.71853755067
+>parentmass Inf
 >rt 1.62405881653605
 
 >ms1
-384.7185 100
 
 >ms2
 55.0177 40
@@ -20732,11 +20535,10 @@
 
 >compound FTneg1368
 >ionization [M+?]-
->parentmass 210.842371782446
+>parentmass Inf
 >rt 1.63362187599821
 
 >ms1
-210.8424 100
 
 >ms2
 51.0222 40
@@ -20763,11 +20565,10 @@
 
 >compound FTneg1369
 >ionization [M+?]-
->parentmass 328.756835033166
+>parentmass Inf
 >rt 1.62646946455786
 
 >ms1
-328.7568 100
 
 >ms2
 57.0149 80
@@ -20787,11 +20588,10 @@
 
 >compound FTneg1370
 >ionization [M+?]-
->parentmass 444.674207780799
+>parentmass Inf
 >rt 1.62337987132877
 
 >ms1
-444.6742 100
 
 >ms2
 50.0135 40
@@ -20833,11 +20633,10 @@
 
 >compound FTneg1371
 >ionization [M+?]-
->parentmass 208.84525170943
+>parentmass Inf
 >rt 1.63442430862187
 
 >ms1
-208.8453 100
 
 >ms2
 53.0376 40
@@ -20848,11 +20647,10 @@
 
 >compound FTneg1372
 >ionization [M+?]-
->parentmass 326.759837465027
+>parentmass Inf
 >rt 1.62679439772962
 
 >ms1
-326.7598 100
 
 >ms2
 59.0358 40
@@ -20861,11 +20659,10 @@
 
 >compound FTneg1373
 >ionization [M+?]-
->parentmass 92.9280714493972
+>parentmass Inf
 >rt 1.63647278116271
 
 >ms1
-92.92807 100
 
 >ms2
 53.0129 36
@@ -20919,11 +20716,10 @@
 
 >compound FTneg1374
 >ionization [M+?]-
->parentmass 94.9250186212734
+>parentmass Inf
 >rt 1.63398780751855
 
 >ms1
-94.92502 100
 
 >ms2
 51.0223 4
@@ -20960,22 +20756,21 @@
 
 >compound FTneg1375
 >ionization [M+?]-
->parentmass 96.9221066698075
+>parentmass Inf
 >rt 1.62871153846162
 
 >ms1
-96.92211 100
+
 
 >ms2
 96.92211 100
 
 >compound FTneg1376
 >ionization [M+?]-
->parentmass 150.886618454942
+>parentmass Inf
 >rt 1.63958954170195
 
 >ms1
-150.8866 100
 
 >ms2
 75.025 40
@@ -20991,55 +20786,54 @@
 
 >compound FTneg1377
 >ionization [M+?]-
->parentmass 154.88075757513
+>parentmass Inf
 >rt 1.64130569061866
 
 >ms1
-154.8808 100
+
 
 >ms2
 154.8808 100
 
 >compound FTneg1378
 >ionization [M+?]-
->parentmass 212.839405129543
+>parentmass Inf
 >rt 1.63429046630019
 
 >ms1
-212.8394 100
+
 
 >ms2
 212.8394 100
 
 >compound FTneg1379
 >ionization [M+?]-
->parentmass 272.795144318397
+>parentmass Inf
 >rt 1.62975118648114
 
 >ms1
-272.7951 100
+
 
 >ms2
 272.7951 100
 
 >compound FTneg1380
 >ionization [M+?]-
->parentmass 282.777877712737
+>parentmass Inf
 >rt 1.63108511962645
 
 >ms1
-282.7779 100
+
 
 >ms2
 282.7779 100
 
 >compound FTneg1381
 >ionization [M+?]-
->parentmass 284.775008831874
+>parentmass Inf
 >rt 1.6311469286447
 
 >ms1
-284.775 100
 
 >ms2
 50.0148 4
@@ -21081,66 +20875,65 @@
 
 >compound FTneg1382
 >ionization [M+?]-
->parentmass 324.762681725414
+>parentmass Inf
 >rt 1.62687388985871
 
 >ms1
-324.7627 100
+
 
 >ms2
 324.7627 100
 
 >compound FTneg1383
 >ionization [M+?]-
->parentmass 330.753875855277
+>parentmass Inf
 >rt 1.6270158514547
 
 >ms1
-330.7539 100
+
 
 >ms2
 330.7539 100
 
 >compound FTneg1384
 >ionization [M+?]-
->parentmass 388.712475096679
+>parentmass Inf
 >rt 1.6248954040424
 
 >ms1
-388.7125 100
+
 
 >ms2
 388.7125 100
 
 >compound FTneg1385
 >ionization [M+?]-
->parentmass 400.692445507012
+>parentmass Inf
 >rt 1.62530068961928
 
 >ms1
-400.6924 100
+
 
 >ms2
 400.6924 100
 
 >compound FTneg1386
 >ionization [M+?]-
->parentmass 440.680166733158
+>parentmass Inf
 >rt 1.62380294117653
 
 >ms1
-440.6802 100
+
 
 >ms2
 440.6802 100
 
 >compound FTneg1387
 >ionization [M+?]-
->parentmass 442.677190767977
+>parentmass Inf
 >rt 1.62361865522957
 
 >ms1
-442.6772 100
 
 >ms2
 53.0027 20
@@ -21148,22 +20941,21 @@
 
 >compound FTneg1388
 >ionization [M+?]-
->parentmass 448.668402779012
+>parentmass Inf
 >rt 1.625
 
 >ms1
-448.6684 100
+
 
 >ms2
 448.6684 100
 
 >compound FTneg1389
 >ionization [M+?]-
->parentmass 502.632886937037
+>parentmass Inf
 >rt 1.62571705247408
 
 >ms1
-502.6329 100
 
 >ms2
 64.8417 40
@@ -21187,11 +20979,10 @@
 
 >compound FTneg1390
 >ionization [M+?]-
->parentmass 504.629867359643
+>parentmass Inf
 >rt 1.62568341367182
 
 >ms1
-504.6299 100
 
 >ms2
 60.0754 80
@@ -21213,66 +21004,65 @@
 
 >compound FTneg1391
 >ionization [M+?]-
->parentmass 506.627154235565
+>parentmass Inf
 >rt 1.62773760754743
 
 >ms1
-506.6272 100
+
 
 >ms2
 506.6272 100
 
 >compound FTneg1392
 >ionization [M+?]-
->parentmass 516.610021183688
+>parentmass Inf
 >rt 1.62728345969652
 
 >ms1
-516.61 100
+
 
 >ms2
 516.61 100
 
 >compound FTneg1393
 >ionization [M+?]-
->parentmass 518.606750169739
+>parentmass Inf
 >rt 1.62719253713115
 
 >ms1
-518.6068 100
+
 
 >ms2
 518.6068 100
 
 >compound FTneg1394
 >ionization [M+?]-
->parentmass 520.604037896432
+>parentmass Inf
 >rt 1.62797223111975
 
 >ms1
-520.604 100
+
 
 >ms2
 520.604 100
 
 >compound FTneg1395
 >ionization [M+?]-
->parentmass 556.597271875607
+>parentmass Inf
 >rt 1.62431785714286
 
 >ms1
-556.5973 100
+
 
 >ms2
 556.5973 100
 
 >compound FTneg1396
 >ionization [M+?]-
->parentmass 558.59462389075
+>parentmass Inf
 >rt 1.6251887283616
 
 >ms1
-558.5946 100
 
 >ms2
 55.4257 40
@@ -21333,11 +21123,10 @@
 
 >compound FTneg1397
 >ionization [M+?]-
->parentmass 562.588640042006
+>parentmass Inf
 >rt 1.62516232802844
 
 >ms1
-562.5886 100
 
 >ms2
 53.0369 4
@@ -21345,143 +21134,142 @@
 
 >compound FTneg1398
 >ionization [M+?]-
->parentmass 564.781911279275
+>parentmass Inf
 >rt 1.63905167391147
 
 >ms1
-564.7819 100
+
 
 >ms2
 564.7819 100
 
 >compound FTneg1399
 >ionization [M+?]-
->parentmass 566.583129910916
+>parentmass Inf
 >rt 1.62598235294118
 
 >ms1
-566.5831 100
+
 
 >ms2
 566.5831 100
 
 >compound FTneg1400
 >ionization [M+?]-
->parentmass 622.544492032209
+>parentmass Inf
 >rt 1.6230222222222
 
 >ms1
-622.5445 100
+
 
 >ms2
 622.5445 100
 
 >compound FTneg1401
 >ionization [M+?]-
->parentmass 622.740923116368
+>parentmass Inf
 >rt 1.63980366624892
 
 >ms1
-622.7409 100
+
 
 >ms2
 622.7409 100
 
 >compound FTneg1402
 >ionization [M+?]-
->parentmass 634.524415511274
+>parentmass Inf
 >rt 1.62629676971061
 
 >ms1
-634.5244 100
+
 
 >ms2
 634.5244 100
 
 >compound FTneg1403
 >ionization [M+?]-
->parentmass 636.521101282867
+>parentmass Inf
 >rt 1.62531038607641
 
 >ms1
-636.5211 100
+
 
 >ms2
 636.5211 100
 
 >compound FTneg1404
 >ionization [M+?]-
->parentmass 678.505634645095
+>parentmass Inf
 >rt 1.62845976895823
 
 >ms1
-678.5056 100
+
 
 >ms2
 678.5056 100
 
 >compound FTneg1405
 >ionization [M+?]-
->parentmass 794.423474280677
+>parentmass Inf
 >rt 1.62381051347532
 
 >ms1
-794.4235 100
+
 
 >ms2
 794.4235 100
 
 >compound FTneg1406
 >ionization [M+?]-
->parentmass 798.417781031146
+>parentmass Inf
 >rt 1.62419526484428
 
 >ms1
-798.4178 100
+
 
 >ms2
 798.4178 100
 
 >compound FTneg1407
 >ionization [M+?]-
->parentmass 814.391776033898
+>parentmass Inf
 >rt 1.62390191139361
 
 >ms1
-814.3918 100
+
 
 >ms2
 814.3918 100
 
 >compound FTneg1408
 >ionization [M+?]-
->parentmass 824.373996893356
+>parentmass Inf
 >rt 1.6260860084569
 
 >ms1
-824.374 100
+
 
 >ms2
 824.374 100
 
 >compound FTneg1409
 >ionization [M+?]-
->parentmass 826.371596992146
+>parentmass Inf
 >rt 1.62440920962954
 
 >ms1
-826.3716 100
+
 
 >ms2
 826.3716 100
 
 >compound FTneg1410
 >ionization [M+?]-
->parentmass 93.0344995897195
+>parentmass Inf
 >rt 6.82446664059819
 
 >ms1
-93.0345 100
 
 >ms2
 50.0126 4
@@ -21510,11 +21298,10 @@
 
 >compound FTneg1411
 >ionization [M+?]-
->parentmass 111.019926888188
+>parentmass Inf
 >rt 2.48297672997364
 
 >ms1
-111.0199 100
 
 >ms2
 51.9405 12
@@ -21566,22 +21353,21 @@
 
 >compound FTneg1412
 >ionization [M+?]-
->parentmass 94.9808967644437
+>parentmass Inf
 >rt 2.47253205128192
 
 >ms1
-94.9809 100
+
 
 >ms2
 94.9809 100
 
 >compound FTneg1413
 >ionization [M+?]-
->parentmass 147.029776824702
+>parentmass Inf
 >rt 2.45776914198408
 
 >ms1
-147.0298 100
 
 >ms2
 69.0679 40
@@ -21594,11 +21380,10 @@
 
 >compound FTneg1414
 >ionization [M+?]-
->parentmass 346.026137301372
+>parentmass Inf
 >rt 2.54330172413779
 
 >ms1
-346.0261 100
 
 >ms2
 53.0399 40
@@ -21622,11 +21407,10 @@
 
 >compound FTneg1415
 >ionization [M+?]-
->parentmass 347.058536057311
+>parentmass Inf
 >rt 2.46924722222225
 
 >ms1
-347.0585 100
 
 >ms2
 56.049 20
@@ -21657,11 +21441,10 @@
 
 >compound FTneg1416
 >ionization [M+?]-
->parentmass 96.9483912872379
+>parentmass Inf
 >rt 1.93437474321722
 
 >ms1
-96.94839 100
 
 >ms2
 55.9342 412
@@ -21675,99 +21458,98 @@
 
 >compound FTneg1417
 >ionization [M+?]-
->parentmass 145.050371874204
+>parentmass Inf
 >rt 1.98003333333327
 
 >ms1
-145.0504 100
+
 
 >ms2
 145.0504 100
 
 >compound FTneg1418
 >ionization [M+?]-
->parentmass 277.023992283642
+>parentmass Inf
 >rt 1.88824111880659
 
 >ms1
-277.024 100
+
 
 >ms2
 277.024 100
 
 >compound FTneg1419
 >ionization [M+?]-
->parentmass 96.9601567461643
+>parentmass Inf
 >rt 3.01197518236664
 
 >ms1
-96.96016 100
+
 
 >ms2
 96.96016 100
 
 >compound FTneg1420
 >ionization [M+?]-
->parentmass 109.029384588534
+>parentmass Inf
 >rt 3.10483996362427
 
 >ms1
-109.0294 100
+
 
 >ms2
 109.0294 100
 
 >compound FTneg1421
 >ionization [M+?]-
->parentmass 200.96739958624
+>parentmass Inf
 >rt 3.04830126946337
 
 >ms1
-200.9674 100
+
 
 >ms2
 200.9674 100
 
 >compound FTneg1422
 >ionization [M+?]-
->parentmass 204.124014171885
+>parentmass Inf
 >rt 3.09945030003814
 
 >ms1
-204.124 100
+
 
 >ms2
 204.124 100
 
 >compound FTneg1423
 >ionization [M+?]-
->parentmass 220.939492623026
+>parentmass Inf
 >rt 3.04621509836274
 
 >ms1
-220.9395 100
+
 
 >ms2
 220.9395 100
 
 >compound FTneg1424
 >ionization [M+?]-
->parentmass 231.895036372029
+>parentmass Inf
 >rt 3.03626295396926
 
 >ms1
-231.895 100
+
 
 >ms2
 231.895 100
 
 >compound FTneg1425
 >ionization [M+?]-
->parentmass 96.9601635494908
+>parentmass Inf
 >rt 7.62527574496525
 
 >ms1
-96.96016 100
 
 >ms2
 50.0141 20
@@ -21818,33 +21600,32 @@
 
 >compound FTneg1426
 >ionization [M+?]-
->parentmass 212.002288076938
+>parentmass Inf
 >rt 7.81529088618738
 
 >ms1
-212.0023 100
+
 
 >ms2
 212.0023 100
 
 >compound FTneg1427
 >ionization [M+?]-
->parentmass 274.094767561705
+>parentmass Inf
 >rt 7.64177606101182
 
 >ms1
-274.0948 100
+
 
 >ms2
 274.0948 100
 
 >compound FTneg1428
 >ionization [M+?]-
->parentmass 296.979510355402
+>parentmass Inf
 >rt 7.62316643328681
 
 >ms1
-296.9795 100
 
 >ms2
 51.0122 4
@@ -21853,22 +21634,21 @@
 
 >compound FTneg1429
 >ionization [M+?]-
->parentmass 399.220073816196
+>parentmass Inf
 >rt 7.67047280701747
 
 >ms1
-399.2201 100
+
 
 >ms2
 399.2201 100
 
 >compound FTneg1430
 >ionization [M+?]-
->parentmass 96.9601658125901
+>parentmass Inf
 >rt 2.12182374306776
 
 >ms1
-96.96017 100
 
 >ms2
 50.0156 8
@@ -21911,44 +21691,43 @@
 
 >compound FTneg1431
 >ionization [M+?]-
->parentmass 368.002862885979
+>parentmass Inf
 >rt 1.8612352799085
 
 >ms1
-368.0029 100
+
 
 >ms2
 368.0029 100
 
 >compound FTneg1432
 >ionization [M+?]-
->parentmass 441.15628721084
+>parentmass Inf
 >rt 1.91508846153854
 
 >ms1
-441.1563 100
+
 
 >ms2
 441.1563 100
 
 >compound FTneg1433
 >ionization [M+?]-
->parentmass 650.044130933552
+>parentmass Inf
 >rt 1.89493048962918
 
 >ms1
-650.0441 100
+
 
 >ms2
 650.0441 100
 
 >compound FTneg1434
 >ionization [M+?]-
->parentmass 240.910577430183
+>parentmass Inf
 >rt 0.175100951279377
 
 >ms1
-240.9106 100
 
 >ms2
 50.0149 16
@@ -21972,22 +21751,20 @@
 
 >compound FTneg1435
 >ionization [M+?]-
->parentmass 96.9602232605535
+>parentmass Inf
 >rt 0.179820072558238
 
 >ms1
-96.96022 100
 
 >ms2
 55.0101 20
 
 >compound FTneg1436
 >ionization [M+?]-
->parentmass 116.928559803779
+>parentmass Inf
 >rt 0.167291255094415
 
 >ms1
-116.9286 100
 
 >ms2
 51.939 13
@@ -21995,11 +21772,10 @@
 
 >compound FTneg1437
 >ionization [M+?]-
->parentmass 116.928607539307
+>parentmass Inf
 >rt 0.252667270089479
 
 >ms1
-116.9286 100
 
 >ms2
 51.0086 40
@@ -22097,22 +21873,21 @@
 
 >compound FTneg1438
 >ionization [M+?]-
->parentmass 145.930966108658
+>parentmass Inf
 >rt 0.187916348401792
 
 >ms1
-145.931 100
+
 
 >ms2
 145.931 100
 
 >compound FTneg1439
 >ionization [M+?]-
->parentmass 190.928565433305
+>parentmass Inf
 >rt 0.144711699515824
 
 >ms1
-190.9286 100
 
 >ms2
 50.0019 10
@@ -22138,11 +21913,10 @@
 
 >compound FTneg1440
 >ionization [M+?]-
->parentmass 207.93126066936
+>parentmass Inf
 >rt 0.170418877420234
 
 >ms1
-207.9313 100
 
 >ms2
 54.0314 4
@@ -22150,11 +21924,10 @@
 
 >compound FTneg1441
 >ionization [M+?]-
->parentmass 231.931311031522
+>parentmass Inf
 >rt 0.166640334378277
 
 >ms1
-231.9313 100
 
 >ms2
 55.9336 100
@@ -22168,44 +21941,42 @@
 
 >compound FTneg1442
 >ionization [M+?]-
->parentmass 235.926221195999
+>parentmass Inf
 >rt 0.18400096293915
 
 >ms1
-235.9262 100
 
 >ms2
 55.0118 40
 
 >compound FTneg1443
 >ionization [M+?]-
->parentmass 239.903660992409
+>parentmass Inf
 >rt 0.18683107640941
 
 >ms1
-239.9037 100
+
 
 >ms2
 239.9037 100
 
 >compound FTneg1444
 >ionization [M+?]-
->parentmass 285.908556060258
+>parentmass Inf
 >rt 0.184430415904469
 
 >ms1
-285.9086 100
+
 
 >ms2
 285.9086 100
 
 >compound FTneg1445
 >ionization [M+?]-
->parentmass 307.856916880577
+>parentmass Inf
 >rt 0.169725971138928
 
 >ms1
-307.8569 100
 
 >ms2
 55.0238 40
@@ -22221,99 +21992,97 @@
 
 >compound FTneg1446
 >ionization [M+?]-
->parentmass 352.853741251903
+>parentmass Inf
 >rt 0.169990258315703
 
 >ms1
-352.8537 100
+
 
 >ms2
 352.8537 100
 
 >compound FTneg1447
 >ionization [M+?]-
->parentmass 96.9603261763838
+>parentmass Inf
 >rt 1.9210638640769
 
 >ms1
-96.96033 100
 
 >ms2
 55.0132 40
 
 >compound FTneg1448
 >ionization [M+?]-
->parentmass 116.928483777174
+>parentmass Inf
 >rt 2.08218250643744
 
 >ms1
-116.9285 100
+
 
 >ms2
 116.9285 100
 
 >compound FTneg1449
 >ionization [M+?]-
->parentmass 293.983572039253
+>parentmass Inf
 >rt 1.94807375403409
 
 >ms1
-293.9836 100
+
 
 >ms2
 293.9836 100
 
 >compound FTneg1450
 >ionization [M+?]-
->parentmass 99.9257077111345
+>parentmass Inf
 >rt 3.00735238095236
 
 >ms1
-99.92571 100
+
 
 >ms2
 99.92571 100
 
 >compound FTneg1451
 >ionization [M+?]-
->parentmass 99.9257536390169
+>parentmass Inf
 >rt 4.39793480638731
 
 >ms1
-99.92575 100
+
 
 >ms2
 99.92575 100
 
 >compound FTneg1452
 >ionization [M+?]-
->parentmass 222.517834019956
+>parentmass Inf
 >rt 4.35745666666673
 
 >ms1
-222.5178 100
+
 
 >ms2
 222.5178 100
 
 >compound FTneg1453
 >ionization [M+?]-
->parentmass 321.900920282831
+>parentmass Inf
 >rt 4.33933572310717
 
 >ms1
-321.9009 100
+
 
 >ms2
 321.9009 100
 
 >compound FTneg1454
 >ionization [M+?]-
->parentmass 255.822195995474
+>parentmass Inf
 >rt 9.68475933088498
 
 >ms1
-255.8222 100
 
 >ms2
 51.0231 40
@@ -22362,220 +22131,219 @@
 
 >compound FTneg1455
 >ionization [M+?]-
->parentmass 503.911035017992
+>parentmass Inf
 >rt 9.65481033564766
 
 >ms1
-503.911 100
+
 
 >ms2
 503.911 100
 
 >compound FTneg1456
 >ionization [M+?]-
->parentmass 99.9258496291708
+>parentmass Inf
 >rt 9.57596723432298
 
 >ms1
-99.92585 100
+
 
 >ms2
 99.92585 100
 
 >compound FTneg1457
 >ionization [M+?]-
->parentmass 240.910320803314
+>parentmass Inf
 >rt 9.64440801231347
 
 >ms1
-240.9103 100
+
 
 >ms2
 240.9103 100
 
 >compound FTneg1458
 >ionization [M+?]-
->parentmass 321.137451251509
+>parentmass Inf
 >rt 9.66481412936919
 
 >ms1
-321.1375 100
+
 
 >ms2
 321.1375 100
 
 >compound FTneg1459
 >ionization [M+?]-
->parentmass 333.199774855106
+>parentmass Inf
 >rt 9.61843181818182
 
 >ms1
-333.1998 100
+
 
 >ms2
 333.1998 100
 
 >compound FTneg1460
 >ionization [M+?]-
->parentmass 453.928454200663
+>parentmass Inf
 >rt 9.65781078274584
 
 >ms1
-453.9285 100
+
 
 >ms2
 453.9285 100
 
 >compound FTneg1461
 >ionization [M+?]-
->parentmass 455.924933617808
+>parentmass Inf
 >rt 9.60747799521599
 
 >ms1
-455.9249 100
+
 
 >ms2
 455.9249 100
 
 >compound FTneg1462
 >ionization [M+?]-
->parentmass 463.957313511581
+>parentmass Inf
 >rt 9.64112737497896
 
 >ms1
-463.9573 100
+
 
 >ms2
 463.9573 100
 
 >compound FTneg1463
 >ionization [M+?]-
->parentmass 465.95448137699
+>parentmass Inf
 >rt 9.64298679145743
 
 >ms1
-465.9545 100
+
 
 >ms2
 465.9545 100
 
 >compound FTneg1464
 >ionization [M+?]-
->parentmass 507.903612615248
+>parentmass Inf
 >rt 9.66315614035095
 
 >ms1
-507.9036 100
+
 
 >ms2
 507.9036 100
 
 >compound FTneg1465
 >ionization [M+?]-
->parentmass 530.29874921284
+>parentmass Inf
 >rt 9.63806019638865
 
 >ms1
-530.2987 100
+
 
 >ms2
 530.2987 100
 
 >compound FTneg1466
 >ionization [M+?]-
->parentmass 649.357845317577
+>parentmass Inf
 >rt 9.75928645833331
 
 >ms1
-649.3578 100
+
 
 >ms2
 649.3578 100
 
 >compound FTneg1467
 >ionization [M+?]-
->parentmass 702.017308653054
+>parentmass Inf
 >rt 9.6216483526708
 
 >ms1
-702.0173 100
+
 
 >ms2
 702.0173 100
 
 >compound FTneg1468
 >ionization [M+?]-
->parentmass 100.004143997726
+>parentmass Inf
 >rt 2.00897082219004
 
 >ms1
-100.0041 100
+
 
 >ms2
 100.0041 100
 
 >compound FTneg1469
 >ionization [M+?]-
->parentmass 116.982777202908
+>parentmass Inf
 >rt 2.00795007882115
 
 >ms1
-116.9828 100
+
 
 >ms2
 116.9828 100
 
 >compound FTneg1470
 >ionization [M+?]-
->parentmass 207.93114519666
+>parentmass Inf
 >rt 1.89342989768402
 
 >ms1
-207.9311 100
+
 
 >ms2
 207.9311 100
 
 >compound FTneg1471
 >ionization [M+?]-
->parentmass 235.925819479697
+>parentmass Inf
 >rt 1.9875355555556
 
 >ms1
-235.9258 100
+
 
 >ms2
 235.9258 100
 
 >compound FTneg1472
 >ionization [M+?]-
->parentmass 347.093663823287
+>parentmass Inf
 >rt 1.97709819086197
 
 >ms1
-347.0937 100
+
 
 >ms2
 347.0937 100
 
 >compound FTneg1473
 >ionization [M+?]-
->parentmass 348.060538712451
+>parentmass Inf
 >rt 2.09054790532348
 
 >ms1
-348.0605 100
+
 
 >ms2
 348.0605 100
 
 >compound FTneg1474
 >ionization [M+?]-
->parentmass 286.861534176565
+>parentmass Inf
 >rt 1.60614552322872
 
 >ms1
-286.8615 100
 
 >ms2
 55.9344 8
@@ -22583,11 +22351,10 @@
 
 >compound FTneg1475
 >ionization [M+?]-
->parentmass 288.858626336429
+>parentmass Inf
 >rt 1.6065718712494
 
 >ms1
-288.8586 100
 
 >ms2
 55.0533 4
@@ -22610,11 +22377,10 @@
 
 >compound FTneg1476
 >ionization [M+?]-
->parentmass 296.89037118069
+>parentmass Inf
 >rt 1.59893988240433
 
 >ms1
-296.8904 100
 
 >ms2
 55.0261 13
@@ -22628,22 +22394,21 @@
 
 >compound FTneg1477
 >ionization [M+?]-
->parentmass 298.887530865496
+>parentmass Inf
 >rt 1.599412281311
 
 >ms1
-298.8875 100
+
 
 >ms2
 298.8875 100
 
 >compound FTneg1478
 >ionization [M+?]-
->parentmass 228.90291743585
+>parentmass Inf
 >rt 1.6024850339446
 
 >ms1
-228.9029 100
 
 >ms2
 53.0398 20
@@ -22660,11 +22425,10 @@
 
 >compound FTneg1479
 >ionization [M+?]-
->parentmass 278.829925170968
+>parentmass Inf
 >rt 1.6111588920954
 
 >ms1
-278.8299 100
 
 >ms2
 50.0147 20
@@ -22708,11 +22472,10 @@
 
 >compound FTneg1480
 >ionization [M+?]-
->parentmass 354.848966796659
+>parentmass Inf
 >rt 1.60320269160416
 
 >ms1
-354.849 100
 
 >ms2
 53.0387 159
@@ -22894,11 +22657,10 @@
 
 >compound FTneg1481
 >ionization [M+?]-
->parentmass 230.899945994286
+>parentmass Inf
 >rt 1.60251776387699
 
 >ms1
-230.8999 100
 
 >ms2
 55.0283 40
@@ -22912,22 +22674,21 @@
 
 >compound FTneg1482
 >ionization [M+?]-
->parentmass 218.874112231084
+>parentmass Inf
 >rt 1.61001478417745
 
 >ms1
-218.8741 100
+
 
 >ms2
 218.8741 100
 
 >compound FTneg1483
 >ionization [M+?]-
->parentmass 346.81729576875
+>parentmass Inf
 >rt 1.60746458678881
 
 >ms1
-346.8173 100
 
 >ms2
 55.0571 40
@@ -22936,33 +22697,32 @@
 
 >compound FTneg1484
 >ionization [M+?]-
->parentmass 348.8143512064
+>parentmass Inf
 >rt 1.60742212069306
 
 >ms1
-348.8144 100
+
 
 >ms2
 348.8144 100
 
 >compound FTneg1485
 >ionization [M+?]-
->parentmass 532.719183521911
+>parentmass Inf
 >rt 1.60696842694056
 
 >ms1
-532.7192 100
+
 
 >ms2
 532.7192 100
 
 >compound FTneg1486
 >ionization [M+?]-
->parentmass 276.832801647609
+>parentmass Inf
 >rt 1.61121546706133
 
 >ms1
-276.8328 100
 
 >ms2
 51.0244 40
@@ -23111,11 +22871,10 @@
 
 >compound FTneg1487
 >ionization [M+?]-
->parentmass 422.836549789356
+>parentmass Inf
 >rt 1.59962431451167
 
 >ms1
-422.8365 100
 
 >ms2
 59.0304 80
@@ -23129,44 +22888,43 @@
 
 >compound FTneg1488
 >ionization [M+?]-
->parentmass 358.843365469062
+>parentmass Inf
 >rt 1.60201874999994
 
 >ms1
-358.8434 100
+
 
 >ms2
 358.8434 100
 
 >compound FTneg1489
 >ionization [M+?]-
->parentmass 302.835604834282
+>parentmass Inf
 >rt 1.60982494810851
 
 >ms1
-302.8356 100
+
 
 >ms2
 302.8356 100
 
 >compound FTneg1490
 >ionization [M+?]-
->parentmass 464.731605714343
+>parentmass Inf
 >rt 1.60935233647664
 
 >ms1
-464.7316 100
+
 
 >ms2
 464.7316 100
 
 >compound FTneg1491
 >ionization [M+?]-
->parentmass 364.877822699495
+>parentmass Inf
 >rt 1.59816976660799
 
 >ms1
-364.8778 100
 
 >ms2
 51.0209 40
@@ -23318,165 +23076,163 @@
 
 >compound FTneg1492
 >ionization [M+?]-
->parentmass 102.956850175082
+>parentmass Inf
 >rt 1.6048315826747
 
 >ms1
-102.9569 100
 
 >ms2
 54.9383 8
 
 >compound FTneg1493
 >ionization [M+?]-
->parentmass 104.953849893688
+>parentmass Inf
 >rt 1.60309698523846
 
 >ms1
-104.9538 100
+
 
 >ms2
 104.9538 100
 
 >compound FTneg1494
 >ionization [M+?]-
->parentmass 170.944174860739
+>parentmass Inf
 >rt 1.59919634351656
 
 >ms1
-170.9442 100
+
 
 >ms2
 170.9442 100
 
 >compound FTneg1495
 >ionization [M+?]-
->parentmass 300.884567640354
+>parentmass Inf
 >rt 1.59919076602104
 
 >ms1
-300.8846 100
+
 
 >ms2
 300.8846 100
 
 >compound FTneg1496
 >ionization [M+?]-
->parentmass 312.864504915214
+>parentmass Inf
 >rt 1.60450827720127
 
 >ms1
-312.8645 100
+
 
 >ms2
 312.8645 100
 
 >compound FTneg1497
 >ionization [M+?]-
->parentmass 322.893273970632
+>parentmass Inf
 >rt 1.59033763219266
 
 >ms1
-322.8933 100
+
 
 >ms2
 322.8933 100
 
 >compound FTneg1498
 >ionization [M+?]-
->parentmass 362.79149635175
+>parentmass Inf
 >rt 1.60679585684633
 
 >ms1
-362.7915 100
+
 
 >ms2
 362.7915 100
 
 >compound FTneg1499
 >ionization [M+?]-
->parentmass 370.822889127311
+>parentmass Inf
 >rt 1.60527566020768
 
 >ms1
-370.8229 100
+
 
 >ms2
 370.8229 100
 
 >compound FTneg1500
 >ionization [M+?]-
->parentmass 372.820114109074
+>parentmass Inf
 >rt 1.60519474510829
 
 >ms1
-372.8201 100
+
 
 >ms2
 372.8201 100
 
 >compound FTneg1501
 >ionization [M+?]-
->parentmass 380.852033658284
+>parentmass Inf
 >rt 1.59877355303661
 
 >ms1
-380.852 100
+
 
 >ms2
 380.852 100
 
 >compound FTneg1502
 >ionization [M+?]-
->parentmass 382.848889492937
+>parentmass Inf
 >rt 1.60024612591275
 
 >ms1
-382.8489 100
+
 
 >ms2
 382.8489 100
 
 >compound FTneg1503
 >ionization [M+?]-
->parentmass 394.747324638232
+>parentmass Inf
 >rt 1.61486840762831
 
 >ms1
-394.7473 100
+
 
 >ms2
 394.7473 100
 
 >compound FTneg1504
 >ionization [M+?]-
->parentmass 406.772798312134
+>parentmass Inf
 >rt 1.60877200441999
 
 >ms1
-406.7728 100
+
 
 >ms2
 406.7728 100
 
 >compound FTneg1505
 >ionization [M+?]-
->parentmass 412.807716175675
+>parentmass Inf
 >rt 1.60578377271413
 
 >ms1
-412.8077 100
+
 
 >ms2
 412.8077 100
 
 >compound FTneg1506
 >ionization [M+?]-
->parentmass 414.804796699915
+>parentmass Inf
 >rt 1.606261698174
 
 >ms1
-414.8048 100
 
 >ms2
 55.9358 40
@@ -23493,33 +23249,32 @@
 
 >compound FTneg1507
 >ionization [M+?]-
->parentmass 416.802034171245
+>parentmass Inf
 >rt 1.60563047112584
 
 >ms1
-416.802 100
+
 
 >ms2
 416.802 100
 
 >compound FTneg1508
 >ionization [M+?]-
->parentmass 420.750112260834
+>parentmass Inf
 >rt 1.6132177162968
 
 >ms1
-420.7501 100
+
 
 >ms2
 420.7501 100
 
 >compound FTneg1509
 >ionization [M+?]-
->parentmass 424.833738824817
+>parentmass Inf
 >rt 1.60000839925647
 
 >ms1
-424.8337 100
 
 >ms2
 51.0259 40
@@ -23601,143 +23356,142 @@
 
 >compound FTneg1510
 >ionization [M+?]-
->parentmass 426.830974011249
+>parentmass Inf
 >rt 1.59826363636364
 
 >ms1
-426.831 100
+
 
 >ms2
 426.831 100
 
 >compound FTneg1511
 >ionization [M+?]-
->parentmass 428.781554113292
+>parentmass Inf
 >rt 1.60743288165676
 
 >ms1
-428.7816 100
+
 
 >ms2
 428.7816 100
 
 >compound FTneg1512
 >ionization [M+?]-
->parentmass 438.810388555475
+>parentmass Inf
 >rt 1.60163634901433
 
 >ms1
-438.8104 100
+
 
 >ms2
 438.8104 100
 
 >compound FTneg1513
 >ionization [M+?]-
->parentmass 448.839561819532
+>parentmass Inf
 >rt 1.59679896103744
 
 >ms1
-448.8396 100
+
 
 >ms2
 448.8396 100
 
 >compound FTneg1514
 >ionization [M+?]-
->parentmass 450.836957217589
+>parentmass Inf
 >rt 1.59660784626471
 
 >ms1
-450.837 100
+
 
 >ms2
 450.837 100
 
 >compound FTneg1515
 >ionization [M+?]-
->parentmass 452.705951028257
+>parentmass Inf
 >rt 1.61306858321551
 
 >ms1
-452.706 100
+
 
 >ms2
 452.706 100
 
 >compound FTneg1516
 >ionization [M+?]-
->parentmass 454.703024301719
+>parentmass Inf
 >rt 1.61380213393584
 
 >ms1
-454.703 100
+
 
 >ms2
 454.703 100
 
 >compound FTneg1517
 >ionization [M+?]-
->parentmass 460.736863596426
+>parentmass Inf
 >rt 1.60913684657172
 
 >ms1
-460.7369 100
+
 
 >ms2
 460.7369 100
 
 >compound FTneg1518
 >ionization [M+?]-
->parentmass 462.73441042309
+>parentmass Inf
 >rt 1.60964597472321
 
 >ms1
-462.7344 100
+
 
 >ms2
 462.7344 100
 
 >compound FTneg1519
 >ionization [M+?]-
->parentmass 470.766197898123
+>parentmass Inf
 >rt 1.60662789439508
 
 >ms1
-470.7662 100
+
 
 >ms2
 470.7662 100
 
 >compound FTneg1520
 >ionization [M+?]-
->parentmass 472.763444952408
+>parentmass Inf
 >rt 1.60710583731167
 
 >ms1
-472.7634 100
+
 
 >ms2
 472.7634 100
 
 >compound FTneg1521
 >ionization [M+?]-
->parentmass 474.760535935016
+>parentmass Inf
 >rt 1.60671945843412
 
 >ms1
-474.7605 100
+
 
 >ms2
 474.7605 100
 
 >compound FTneg1522
 >ionization [M+?]-
->parentmass 482.792304608632
+>parentmass Inf
 >rt 1.6016978493672
 
 >ms1
-482.7923 100
 
 >ms2
 54.8732 41
@@ -23787,33 +23541,32 @@
 
 >compound FTneg1523
 >ionization [M+?]-
->parentmass 488.737523062033
+>parentmass Inf
 >rt 1.60826841233805
 
 >ms1
-488.7375 100
+
 
 >ms2
 488.7375 100
 
 >compound FTneg1524
 >ionization [M+?]-
->parentmass 490.734726023057
+>parentmass Inf
 >rt 1.60828413046151
 
 >ms1
-490.7347 100
+
 
 >ms2
 490.7347 100
 
 >compound FTneg1525
 >ionization [M+?]-
->parentmass 490.823833889924
+>parentmass Inf
 >rt 1.59779840782392
 
 >ms1
-490.8238 100
 
 >ms2
 55.0663 40
@@ -23839,11 +23592,10 @@
 
 >compound FTneg1526
 >ionization [M+?]-
->parentmass 492.821380949552
+>parentmass Inf
 >rt 1.59810054171435
 
 >ms1
-492.8214 100
 
 >ms2
 50.0149 40
@@ -23885,385 +23637,384 @@
 
 >compound FTneg1527
 >ionization [M+?]-
->parentmass 508.795367790376
+>parentmass Inf
 >rt 1.59936264625746
 
 >ms1
-508.7954 100
+
 
 >ms2
 508.7954 100
 
 >compound FTneg1528
 >ionization [M+?]-
->parentmass 530.721824568132
+>parentmass Inf
 >rt 1.60707277042543
 
 >ms1
-530.7218 100
+
 
 >ms2
 530.7218 100
 
 >compound FTneg1529
 >ionization [M+?]-
->parentmass 534.716624857453
+>parentmass Inf
 >rt 1.60862244142647
 
 >ms1
-534.7166 100
+
 
 >ms2
 534.7166 100
 
 >compound FTneg1530
 >ionization [M+?]-
->parentmass 538.753693453762
+>parentmass Inf
 >rt 1.60322567783
 
 >ms1
-538.7537 100
+
 
 >ms2
 538.7537 100
 
 >compound FTneg1531
 >ionization [M+?]-
->parentmass 540.75090039724
+>parentmass Inf
 >rt 1.60369927468468
 
 >ms1
-540.7509 100
+
 
 >ms2
 540.7509 100
 
 >compound FTneg1532
 >ionization [M+?]-
->parentmass 548.782371726747
+>parentmass Inf
 >rt 1.59886173773033
 
 >ms1
-548.7824 100
+
 
 >ms2
 548.7824 100
 
 >compound FTneg1533
 >ionization [M+?]-
->parentmass 550.779677189672
+>parentmass Inf
 >rt 1.59881802708524
 
 >ms1
-550.7797 100
+
 
 >ms2
 550.7797 100
 
 >compound FTneg1534
 >ionization [M+?]-
->parentmass 552.776908697553
+>parentmass Inf
 >rt 1.60202308466913
 
 >ms1
-552.7769 100
+
 
 >ms2
 552.7769 100
 
 >compound FTneg1535
 >ionization [M+?]-
->parentmass 554.727456180075
+>parentmass Inf
 >rt 1.60501986791408
 
 >ms1
-554.7275 100
+
 
 >ms2
 554.7275 100
 
 >compound FTneg1536
 >ionization [M+?]-
->parentmass 556.724954605973
+>parentmass Inf
 >rt 1.60679528833987
 
 >ms1
-556.725 100
+
 
 >ms2
 556.725 100
 
 >compound FTneg1537
 >ionization [M+?]-
->parentmass 558.722421496737
+>parentmass Inf
 >rt 1.60443428758912
 
 >ms1
-558.7224 100
+
 
 >ms2
 558.7224 100
 
 >compound FTneg1538
 >ionization [M+?]-
->parentmass 564.756759647699
+>parentmass Inf
 >rt 1.60011675371854
 
 >ms1
-564.7568 100
+
 
 >ms2
 564.7568 100
 
 >compound FTneg1539
 >ionization [M+?]-
->parentmass 566.753959159978
+>parentmass Inf
 >rt 1.60213881986042
 
 >ms1
-566.754 100
+
 
 >ms2
 566.754 100
 
 >compound FTneg1540
 >ionization [M+?]-
->parentmass 568.750447315693
+>parentmass Inf
 >rt 1.60273051064822
 
 >ms1
-568.7504 100
+
 
 >ms2
 568.7504 100
 
 >compound FTneg1541
 >ionization [M+?]-
->parentmass 570.620325987859
+>parentmass Inf
 >rt 1.61519805785579
 
 >ms1
-570.6203 100
+
 
 >ms2
 570.6203 100
 
 >compound FTneg1542
 >ionization [M+?]-
->parentmass 574.785386800016
+>parentmass Inf
 >rt 1.59751395117515
 
 >ms1
-574.7854 100
+
 
 >ms2
 574.7854 100
 
 >compound FTneg1543
 >ionization [M+?]-
->parentmass 576.783097251375
+>parentmass Inf
 >rt 1.59747171321851
 
 >ms1
-576.7831 100
+
 
 >ms2
 576.7831 100
 
 >compound FTneg1544
 >ionization [M+?]-
->parentmass 578.651671421337
+>parentmass Inf
 >rt 1.61068460571538
 
 >ms1
-578.6517 100
+
 
 >ms2
 578.6517 100
 
 >compound FTneg1545
 >ionization [M+?]-
->parentmass 580.648982968277
+>parentmass Inf
 >rt 1.61066912589613
 
 >ms1
-580.649 100
+
 
 >ms2
 580.649 100
 
 >compound FTneg1546
 >ionization [M+?]-
->parentmass 582.645608930041
+>parentmass Inf
 >rt 1.60994411505
 
 >ms1
-582.6456 100
+
 
 >ms2
 582.6456 100
 
 >compound FTneg1547
 >ionization [M+?]-
->parentmass 586.68280888358
+>parentmass Inf
 >rt 1.60800208333331
 
 >ms1
-586.6828 100
+
 
 >ms2
 586.6828 100
 
 >compound FTneg1548
 >ionization [M+?]-
->parentmass 588.68063259439
+>parentmass Inf
 >rt 1.60788905223669
 
 >ms1
-588.6806 100
+
 
 >ms2
 588.6806 100
 
 >compound FTneg1549
 >ionization [M+?]-
->parentmass 592.675353151708
+>parentmass Inf
 >rt 1.60702124004275
 
 >ms1
-592.6754 100
+
 
 >ms2
 592.6754 100
 
 >compound FTneg1550
 >ionization [M+?]-
->parentmass 598.709475110332
+>parentmass Inf
 >rt 1.6045005682988
 
 >ms1
-598.7095 100
+
 
 >ms2
 598.7095 100
 
 >compound FTneg1551
 >ionization [M+?]-
->parentmass 600.706536203616
+>parentmass Inf
 >rt 1.6047680051969
 
 >ms1
-600.7065 100
+
 
 >ms2
 600.7065 100
 
 >compound FTneg1552
 >ionization [M+?]-
->parentmass 602.703559613766
+>parentmass Inf
 >rt 1.6035444444444
 
 >ms1
-602.7036 100
+
 
 >ms2
 602.7036 100
 
 >compound FTneg1553
 >ionization [M+?]-
->parentmass 604.655189436344
+>parentmass Inf
 >rt 1.60845097450884
 
 >ms1
-604.6552 100
+
 
 >ms2
 604.6552 100
 
 >compound FTneg1554
 >ionization [M+?]-
->parentmass 606.651539812288
+>parentmass Inf
 >rt 1.61002913823906
 
 >ms1
-606.6515 100
+
 
 >ms2
 606.6515 100
 
 >compound FTneg1555
 >ionization [M+?]-
->parentmass 606.741061446592
+>parentmass Inf
 >rt 1.60148778636711
 
 >ms1
-606.7411 100
+
 
 >ms2
 606.7411 100
 
 >compound FTneg1556
 >ionization [M+?]-
->parentmass 608.648327658209
+>parentmass Inf
 >rt 1.60970304322372
 
 >ms1
-608.6483 100
+
 
 >ms2
 608.6483 100
 
 >compound FTneg1557
 >ionization [M+?]-
->parentmass 608.738370359198
+>parentmass Inf
 >rt 1.60077950186784
 
 >ms1
-608.7384 100
+
 
 >ms2
 608.7384 100
 
 >compound FTneg1558
 >ionization [M+?]-
->parentmass 614.683756576271
+>parentmass Inf
 >rt 1.60679061528979
 
 >ms1
-614.6838 100
+
 
 >ms2
 614.6838 100
 
 >compound FTneg1559
 >ionization [M+?]-
->parentmass 616.680451127451
+>parentmass Inf
 >rt 1.60707939338467
 
 >ms1
-616.6805 100
+
 
 >ms2
 616.6805 100
 
 >compound FTneg1560
 >ionization [M+?]-
->parentmass 618.767338979007
+>parentmass Inf
 >rt 1.59781156763409
 
 >ms1
-618.7673 100
+
 
 >ms2
 618.7673 100
 
 >compound FTneg1561
 >ionization [M+?]-
->parentmass 624.712686484579
+>parentmass Inf
 >rt 1.60312150671831
 
 >ms1
-624.7127 100
 
 >ms2
 57.0696 40
@@ -24296,154 +24047,153 @@
 
 >compound FTneg1562
 >ionization [M+?]-
->parentmass 626.708891358308
+>parentmass Inf
 >rt 1.60421684587243
 
 >ms1
-626.7089 100
+
 
 >ms2
 626.7089 100
 
 >compound FTneg1563
 >ionization [M+?]-
->parentmass 646.638657312412
+>parentmass Inf
 >rt 1.60821817670359
 
 >ms1
-646.6387 100
+
 
 >ms2
 646.6387 100
 
 >compound FTneg1564
 >ionization [M+?]-
->parentmass 648.635002011209
+>parentmass Inf
 >rt 1.60779633048352
 
 >ms1
-648.635 100
+
 
 >ms2
 648.635 100
 
 >compound FTneg1565
 >ionization [M+?]-
->parentmass 666.696607851725
+>parentmass Inf
 >rt 1.6021841328704
 
 >ms1
-666.6966 100
+
 
 >ms2
 666.6966 100
 
 >compound FTneg1566
 >ionization [M+?]-
->parentmass 668.693724000319
+>parentmass Inf
 >rt 1.60210652350303
 
 >ms1
-668.6937 100
+
 
 >ms2
 668.6937 100
 
 >compound FTneg1567
 >ionization [M+?]-
->parentmass 672.642214693522
+>parentmass Inf
 >rt 1.60702428377142
 
 >ms1
-672.6422 100
+
 
 >ms2
 672.6422 100
 
 >compound FTneg1568
 >ionization [M+?]-
->parentmass 674.63892717402
+>parentmass Inf
 >rt 1.60643262950986
 
 >ms1
-674.6389 100
+
 
 >ms2
 674.6389 100
 
 >compound FTneg1569
 >ionization [M+?]-
->parentmass 682.671315514947
+>parentmass Inf
 >rt 1.60490314139521
 
 >ms1
-682.6713 100
+
 
 >ms2
 682.6713 100
 
 >compound FTneg1570
 >ionization [M+?]-
->parentmass 684.667197659211
+>parentmass Inf
 >rt 1.60517929205309
 
 >ms1
-684.6672 100
+
 
 >ms2
 684.6672 100
 
 >compound FTneg1571
 >ionization [M+?]-
->parentmass 692.699709624879
+>parentmass Inf
 >rt 1.6011024492862
 
 >ms1
-692.6997 100
+
 
 >ms2
 692.6997 100
 
 >compound FTneg1572
 >ionization [M+?]-
->parentmass 702.728424576172
+>parentmass Inf
 >rt 1.5969891854436
 
 >ms1
-702.7284 100
+
 
 >ms2
 702.7284 100
 
 >compound FTneg1573
 >ionization [M+?]-
->parentmass 724.653774064428
+>parentmass Inf
 >rt 1.6057066518436
 
 >ms1
-724.6538 100
+
 
 >ms2
 724.6538 100
 
 >compound FTneg1574
 >ionization [M+?]-
->parentmass 824.508476572009
+>parentmass Inf
 >rt 1.60748500605534
 
 >ms1
-824.5085 100
+
 
 >ms2
 824.5085 100
 
 >compound FTneg1575
 >ionization [M+?]-
->parentmass 103.040038433525
+>parentmass Inf
 >rt 2.9386068946401
 
 >ms1
-103.04 100
 
 >ms2
 51.0223 8
@@ -24474,11 +24224,10 @@
 
 >compound FTneg1576
 >ionization [M+?]-
->parentmass 103.040063199937
+>parentmass Inf
 >rt 3.10499242271412
 
 >ms1
-103.0401 100
 
 >ms2
 55.0547 159
@@ -24490,22 +24239,21 @@
 
 >compound FTneg1577
 >ionization [M+?]-
->parentmass 202.964786068819
+>parentmass Inf
 >rt 3.06749952810872
 
 >ms1
-202.9648 100
+
 
 >ms2
 202.9648 100
 
 >compound FTneg1578
 >ionization [M+?]-
->parentmass 283.103444161729
+>parentmass Inf
 >rt 3.10472634711522
 
 >ms1
-283.1034 100
 
 >ms2
 51.939 8
@@ -24525,33 +24273,32 @@
 
 >compound FTneg1579
 >ionization [M+?]-
->parentmass 291.039705321161
+>parentmass Inf
 >rt 3.0310576521703
 
 >ms1
-291.0397 100
+
 
 >ms2
 291.0397 100
 
 >compound FTneg1580
 >ionization [M+?]-
->parentmass 104.043463784659
+>parentmass Inf
 >rt 3.10549128903051
 
 >ms1
-104.0435 100
+
 
 >ms2
 104.0435 100
 
 >compound FTneg1581
 >ionization [M+?]-
->parentmass 105.019306933486
+>parentmass Inf
 >rt 1.94221605138692
 
 >ms1
-105.0193 100
 
 >ms2
 55.0541 199
@@ -24571,143 +24318,142 @@
 
 >compound FTneg1582
 >ionization [M+?]-
->parentmass 330.095090297118
+>parentmass Inf
 >rt 1.93318418734852
 
 >ms1
-330.0951 100
+
 
 >ms2
 330.0951 100
 
 >compound FTneg1583
 >ionization [M+?]-
->parentmass 371.090540014566
+>parentmass Inf
 >rt 1.91146666776787
 
 >ms1
-371.0905 100
+
 
 >ms2
 371.0905 100
 
 >compound FTneg1584
 >ionization [M+?]-
->parentmass 106.04111687761
+>parentmass Inf
 >rt 6.92343850961552
 
 >ms1
-106.0411 100
+
 
 >ms2
 106.0411 100
 
 >compound FTneg1585
 >ionization [M+?]-
->parentmass 139.051052628087
+>parentmass Inf
 >rt 6.88620348767756
 
 >ms1
-139.0511 100
+
 
 >ms2
 139.0511 100
 
 >compound FTneg1586
 >ionization [M+?]-
->parentmass 143.034372744265
+>parentmass Inf
 >rt 6.85461978717374
 
 >ms1
-143.0344 100
+
 
 >ms2
 143.0344 100
 
 >compound FTneg1587
 >ionization [M+?]-
->parentmass 152.046456738208
+>parentmass Inf
 >rt 6.91990872981136
 
 >ms1
-152.0465 100
+
 
 >ms2
 152.0465 100
 
 >compound FTneg1588
 >ionization [M+?]-
->parentmass 189.076559623483
+>parentmass Inf
 >rt 6.86554827295545
 
 >ms1
-189.0766 100
+
 
 >ms2
 189.0766 100
 
 >compound FTneg1589
 >ionization [M+?]-
->parentmass 253.057885554907
+>parentmass Inf
 >rt 6.84899469032137
 
 >ms1
-253.0579 100
+
 
 >ms2
 253.0579 100
 
 >compound FTneg1590
 >ionization [M+?]-
->parentmass 279.074060358263
+>parentmass Inf
 >rt 6.84071999849809
 
 >ms1
-279.0741 100
+
 
 >ms2
 279.0741 100
 
 >compound FTneg1591
 >ionization [M+?]-
->parentmass 292.069575208026
+>parentmass Inf
 >rt 6.88760307949215
 
 >ms1
-292.0696 100
+
 
 >ms2
 292.0696 100
 
 >compound FTneg1592
 >ionization [M+?]-
->parentmass 351.105331941367
+>parentmass Inf
 >rt 6.85162401066387
 
 >ms1
-351.1053 100
+
 
 >ms2
 351.1053 100
 
 >compound FTneg1593
 >ionization [M+?]-
->parentmass 381.116257438781
+>parentmass Inf
 >rt 6.84471045760713
 
 >ms1
-381.1163 100
+
 
 >ms2
 381.1163 100
 
 >compound FTneg1594
 >ionization [M+?]-
->parentmass 308.077516614623
+>parentmass Inf
 >rt 7.42009656361604
 
 >ms1
-308.0775 100
 
 >ms2
 54.0051 20
@@ -24729,11 +24475,10 @@
 
 >compound FTneg1595
 >ionization [M+?]-
->parentmass 188.035245026357
+>parentmass Inf
 >rt 7.43600834114567
 
 >ms1
-188.0352 100
 
 >ms2
 50.0149 4
@@ -24759,11 +24504,10 @@
 
 >compound FTneg1596
 >ionization [M+?]-
->parentmass 275.022896713398
+>parentmass Inf
 >rt 7.44836573081399
 
 >ms1
-275.0229 100
 
 >ms2
 53.0391 40
@@ -24775,22 +24519,21 @@
 
 >compound FTneg1597
 >ionization [M+?]-
->parentmass 290.160604601364
+>parentmass Inf
 >rt 7.47454182921395
 
 >ms1
-290.1606 100
+
 
 >ms2
 290.1606 100
 
 >compound FTneg1598
 >ionization [M+?]-
->parentmass 809.253764033592
+>parentmass Inf
 >rt 7.40496777950653
 
 >ms1
-809.2538 100
 
 >ms2
 60.0801 40
@@ -24800,165 +24543,164 @@
 
 >compound FTneg1599
 >ionization [M+?]-
->parentmass 107.036812719767
+>parentmass Inf
 >rt 7.49381229224701
 
 >ms1
-107.0368 100
+
 
 >ms2
 107.0368 100
 
 >compound FTneg1600
 >ionization [M+?]-
->parentmass 144.045235715466
+>parentmass Inf
 >rt 7.42100966566756
 
 >ms1
-144.0452 100
+
 
 >ms2
 144.0452 100
 
 >compound FTneg1601
 >ionization [M+?]-
->parentmass 162.068119849193
+>parentmass Inf
 >rt 7.49711083749944
 
 >ms1
-162.0681 100
+
 
 >ms2
 162.0681 100
 
 >compound FTneg1602
 >ionization [M+?]-
->parentmass 167.043387814059
+>parentmass Inf
 >rt 7.47892048410889
 
 >ms1
-167.0434 100
+
 
 >ms2
 167.0434 100
 
 >compound FTneg1603
 >ionization [M+?]-
->parentmass 193.035961893208
+>parentmass Inf
 >rt 7.44013171790141
 
 >ms1
-193.036 100
+
 
 >ms2
 193.036 100
 
 >compound FTneg1604
 >ionization [M+?]-
->parentmass 216.061081566077
+>parentmass Inf
 >rt 7.42576015258419
 
 >ms1
-216.0611 100
+
 
 >ms2
 216.0611 100
 
 >compound FTneg1605
 >ionization [M+?]-
->parentmass 216.124047408339
+>parentmass Inf
 >rt 7.41245314981346
 
 >ms1
-216.124 100
+
 
 >ms2
 216.124 100
 
 >compound FTneg1606
 >ionization [M+?]-
->parentmass 218.996932374738
+>parentmass Inf
 >rt 7.39083053074954
 
 >ms1
-218.9969 100
+
 
 >ms2
 218.9969 100
 
 >compound FTneg1607
 >ionization [M+?]-
->parentmass 261.125047595772
+>parentmass Inf
 >rt 7.38549805551544
 
 >ms1
-261.125 100
+
 
 >ms2
 261.125 100
 
 >compound FTneg1608
 >ionization [M+?]-
->parentmass 283.11330532207
+>parentmass Inf
 >rt 7.44682017543858
 
 >ms1
-283.1133 100
+
 
 >ms2
 283.1133 100
 
 >compound FTneg1609
 >ionization [M+?]-
->parentmass 290.980679689727
+>parentmass Inf
 >rt 7.43361594039381
 
 >ms1
-290.9807 100
+
 
 >ms2
 290.9807 100
 
 >compound FTneg1610
 >ionization [M+?]-
->parentmass 291.13474801213
+>parentmass Inf
 >rt 7.40878958095235
 
 >ms1
-291.1347 100
+
 
 >ms2
 291.1347 100
 
 >compound FTneg1611
 >ionization [M+?]-
->parentmass 299.113508325913
+>parentmass Inf
 >rt 7.43125448507319
 
 >ms1
-299.1135 100
+
 
 >ms2
 299.1135 100
 
 >compound FTneg1612
 >ionization [M+?]-
->parentmass 304.913643127194
+>parentmass Inf
 >rt 7.45830337262421
 
 >ms1
-304.9136 100
+
 
 >ms2
 304.9136 100
 
 >compound FTneg1613
 >ionization [M+?]-
->parentmass 305.105590440566
+>parentmass Inf
 >rt 7.44355222826071
 
 >ms1
-305.1056 100
 
 >ms2
 51.0229 40
@@ -24976,176 +24718,175 @@
 
 >compound FTneg1614
 >ionization [M+?]-
->parentmass 308.055744895643
+>parentmass Inf
 >rt 7.41744144493005
 
 >ms1
-308.0557 100
+
 
 >ms2
 308.0557 100
 
 >compound FTneg1615
 >ionization [M+?]-
->parentmass 333.028782706351
+>parentmass Inf
 >rt 7.412478703306
 
 >ms1
-333.0288 100
+
 
 >ms2
 333.0288 100
 
 >compound FTneg1616
 >ionization [M+?]-
->parentmass 340.067752388322
+>parentmass Inf
 >rt 7.4297273809525
 
 >ms1
-340.0678 100
+
 
 >ms2
 340.0678 100
 
 >compound FTneg1617
 >ionization [M+?]-
->parentmass 355.066396197575
+>parentmass Inf
 >rt 7.4301804012657
 
 >ms1
-355.0664 100
+
 
 >ms2
 355.0664 100
 
 >compound FTneg1618
 >ionization [M+?]-
->parentmass 367.159463644234
+>parentmass Inf
 >rt 7.47735099899843
 
 >ms1
-367.1595 100
+
 
 >ms2
 367.1595 100
 
 >compound FTneg1619
 >ionization [M+?]-
->parentmass 371.07338219603
+>parentmass Inf
 >rt 7.42244027777775
 
 >ms1
-371.0734 100
+
 
 >ms2
 371.0734 100
 
 >compound FTneg1620
 >ionization [M+?]-
->parentmass 376.06498469569
+>parentmass Inf
 >rt 7.42124634063191
 
 >ms1
-376.065 100
+
 
 >ms2
 376.065 100
 
 >compound FTneg1621
 >ionization [M+?]-
->parentmass 376.133960957369
+>parentmass Inf
 >rt 7.41677610139451
 
 >ms1
-376.134 100
+
 
 >ms2
 376.134 100
 
 >compound FTneg1622
 >ionization [M+?]-
->parentmass 383.098051512373
+>parentmass Inf
 >rt 7.42101347214846
 
 >ms1
-383.0981 100
+
 
 >ms2
 383.0981 100
 
 >compound FTneg1623
 >ionization [M+?]-
->parentmass 387.151157269185
+>parentmass Inf
 >rt 7.4122925177472
 
 >ms1
-387.1512 100
+
 
 >ms2
 387.1512 100
 
 >compound FTneg1624
 >ionization [M+?]-
->parentmass 397.170467026135
+>parentmass Inf
 >rt 7.40776538999584
 
 >ms1
-397.1705 100
+
 
 >ms2
 397.1705 100
 
 >compound FTneg1625
 >ionization [M+?]-
->parentmass 399.166070221377
+>parentmass Inf
 >rt 7.47653854166681
 
 >ms1
-399.1661 100
+
 
 >ms2
 399.1661 100
 
 >compound FTneg1626
 >ionization [M+?]-
->parentmass 415.181210460385
+>parentmass Inf
 >rt 7.37585959167246
 
 >ms1
-415.1812 100
+
 
 >ms2
 415.1812 100
 
 >compound FTneg1627
 >ionization [M+?]-
->parentmass 443.166749683017
+>parentmass Inf
 >rt 7.40793462877337
 
 >ms1
-443.1667 100
+
 
 >ms2
 443.1667 100
 
 >compound FTneg1628
 >ionization [M+?]-
->parentmass 459.244009582865
+>parentmass Inf
 >rt 7.4194938117359
 
 >ms1
-459.244 100
+
 
 >ms2
 459.244 100
 
 >compound FTneg1629
 >ionization [M+?]-
->parentmass 107.050101477016
+>parentmass Inf
 >rt 7.93045597568547
 
 >ms1
-107.0501 100
 
 >ms2
 50.0025 4
@@ -25237,11 +24978,10 @@
 
 >compound FTneg1630
 >ionization [M+?]-
->parentmass 151.026218813284
+>parentmass Inf
 >rt 3.56433036281282
 
 >ms1
-151.0262 100
 
 >ms2
 60.0517 40
@@ -25264,11 +25004,10 @@
 
 >compound FTneg1631
 >ionization [M+?]-
->parentmass 108.020507706528
+>parentmass Inf
 >rt 3.59453618160269
 
 >ms1
-108.0205 100
 
 >ms2
 50.0163 4
@@ -25373,22 +25112,21 @@
 
 >compound FTneg1632
 >ionization [M+?]-
->parentmass 144.102717544695
+>parentmass Inf
 >rt 3.65099889000428
 
 >ms1
-144.1027 100
+
 
 >ms2
 144.1027 100
 
 >compound FTneg1633
 >ionization [M+?]-
->parentmass 151.011439121722
+>parentmass Inf
 >rt 3.58082848139987
 
 >ms1
-151.0114 100
 
 >ms2
 53.0391 40
@@ -25580,11 +25318,10 @@
 
 >compound FTneg1634
 >ionization [M+?]-
->parentmass 152.028788889988
+>parentmass Inf
 >rt 3.56306467779586
 
 >ms1
-152.0288 100
 
 >ms2
 79.4296 40
@@ -25637,11 +25374,10 @@
 
 >compound FTneg1635
 >ionization [M+?]-
->parentmass 167.021027029261
+>parentmass Inf
 >rt 3.57629904131319
 
 >ms1
-167.021 100
 
 >ms2
 125.9585 40
@@ -25654,11 +25390,10 @@
 
 >compound FTneg1636
 >ionization [M+?]-
->parentmass 183.015922560985
+>parentmass Inf
 >rt 3.59628109133094
 
 >ms1
-183.0159 100
 
 >ms2
 50.0105 8
@@ -25683,22 +25418,21 @@
 
 >compound FTneg1637
 >ionization [M+?]-
->parentmass 188.092724127589
+>parentmass Inf
 >rt 3.63037028033938
 
 >ms1
-188.0927 100
+
 
 >ms2
 188.0927 100
 
 >compound FTneg1638
 >ionization [M+?]-
->parentmass 241.021422798177
+>parentmass Inf
 >rt 3.5804154530883
 
 >ms1
-241.0214 100
 
 >ms2
 51.0223 80
@@ -25708,55 +25442,54 @@
 
 >compound FTneg1639
 >ionization [M+?]-
->parentmass 248.113939135677
+>parentmass Inf
 >rt 3.65375235135765
 
 >ms1
-248.1139 100
+
 
 >ms2
 248.1139 100
 
 >compound FTneg1640
 >ionization [M+?]-
->parentmass 265.018814628621
+>parentmass Inf
 >rt 3.58790247968941
 
 >ms1
-265.0188 100
+
 
 >ms2
 265.0188 100
 
 >compound FTneg1641
 >ionization [M+?]-
->parentmass 280.983996451181
+>parentmass Inf
 >rt 3.58530890944594
 
 >ms1
-280.984 100
+
 
 >ms2
 280.984 100
 
 >compound FTneg1642
 >ionization [M+?]-
->parentmass 285.061622844469
+>parentmass Inf
 >rt 3.62336290056516
 
 >ms1
-285.0616 100
+
 
 >ms2
 285.0616 100
 
 >compound FTneg1643
 >ionization [M+?]-
->parentmass 292.103548620746
+>parentmass Inf
 >rt 3.62887463258222
 
 >ms1
-292.1035 100
 
 >ms2
 51.0223 4
@@ -25819,22 +25552,21 @@
 
 >compound FTneg1644
 >ionization [M+?]-
->parentmass 295.956313022597
+>parentmass Inf
 >rt 3.58065695505058
 
 >ms1
-295.9563 100
+
 
 >ms2
 295.9563 100
 
 >compound FTneg1645
 >ionization [M+?]-
->parentmass 296.956341524721
+>parentmass Inf
 >rt 3.58239639644991
 
 >ms1
-296.9563 100
 
 >ms2
 50.0221 20
@@ -25915,33 +25647,32 @@
 
 >compound FTneg1646
 >ionization [M+?]-
->parentmass 298.956361867963
+>parentmass Inf
 >rt 3.59605185589013
 
 >ms1
-298.9564 100
+
 
 >ms2
 298.9564 100
 
 >compound FTneg1647
 >ionization [M+?]-
->parentmass 313.95877930876
+>parentmass Inf
 >rt 3.57621287367991
 
 >ms1
-313.9588 100
+
 
 >ms2
 313.9588 100
 
 >compound FTneg1648
 >ionization [M+?]-
->parentmass 354.141769684681
+>parentmass Inf
 >rt 3.58843713544984
 
 >ms1
-354.1418 100
 
 >ms2
 55.017 40
@@ -25970,33 +25701,31 @@
 
 >compound FTneg1649
 >ionization [M+?]-
->parentmass 382.09903856363
+>parentmass Inf
 >rt 3.61816499083174
 
 >ms1
-382.099 100
+
 
 >ms2
 382.099 100
 
 >compound FTneg1650
 >ionization [M+?]-
->parentmass 506.175194575993
+>parentmass Inf
 >rt 3.57739112922256
 
 >ms1
-506.1752 100
 
 >ms2
 50.0126 4
 
 >compound FTneg1651
 >ionization [M+?]-
->parentmass 109.029561019534
+>parentmass Inf
 >rt 6.56045065648865
 
 >ms1
-109.0296 100
 
 >ms2
 55.054 239
@@ -26007,55 +25736,54 @@
 
 >compound FTneg1652
 >ionization [M+?]-
->parentmass 108.020758773692
+>parentmass Inf
 >rt 6.49523317888824
 
 >ms1
-108.0208 100
+
 
 >ms2
 108.0208 100
 
 >compound FTneg1653
 >ionization [M+?]-
->parentmass 108.020906474604
+>parentmass Inf
 >rt 6.58380033508046
 
 >ms1
-108.0209 100
+
 
 >ms2
 108.0209 100
 
 >compound FTneg1654
 >ionization [M+?]-
->parentmass 153.019656636347
+>parentmass Inf
 >rt 7.67803843538084
 
 >ms1
-153.0197 100
+
 
 >ms2
 153.0197 100
 
 >compound FTneg1655
 >ionization [M+?]-
->parentmass 108.02101201066
+>parentmass Inf
 >rt 7.64798327914629
 
 >ms1
-108.021 100
+
 
 >ms2
 108.021 100
 
 >compound FTneg1656
 >ionization [M+?]-
->parentmass 190.050941533617
+>parentmass Inf
 >rt 7.63524619271506
 
 >ms1
-190.0509 100
 
 >ms2
 53.0138 40
@@ -26082,11 +25810,10 @@
 
 >compound FTneg1657
 >ionization [M+?]-
->parentmass 258.991731103688
+>parentmass Inf
 >rt 7.66672335671517
 
 >ms1
-258.9917 100
 
 >ms2
 53.0422 40
@@ -26099,11 +25826,10 @@
 
 >compound FTneg1658
 >ionization [M+?]-
->parentmass 332.124764792579
+>parentmass Inf
 >rt 7.65895686283539
 
 >ms1
-332.1248 100
 
 >ms2
 51.023 40
@@ -26250,132 +25976,131 @@
 
 >compound FTneg1659
 >ionization [M+?]-
->parentmass 144.04516074202
+>parentmass Inf
 >rt 7.68712188023361
 
 >ms1
-144.0452 100
+
 
 >ms2
 144.0452 100
 
 >compound FTneg1660
 >ionization [M+?]-
->parentmass 146.059224926077
+>parentmass Inf
 >rt 7.70608899694866
 
 >ms1
-146.0592 100
+
 
 >ms2
 146.0592 100
 
 >compound FTneg1661
 >ionization [M+?]-
->parentmass 146.060886774241
+>parentmass Inf
 >rt 7.65828283231743
 
 >ms1
-146.0609 100
+
 
 >ms2
 146.0609 100
 
 >compound FTneg1662
 >ionization [M+?]-
->parentmass 160.04010514916
+>parentmass Inf
 >rt 7.65494873913457
 
 >ms1
-160.0401 100
+
 
 >ms2
 160.0401 100
 
 >compound FTneg1663
 >ionization [M+?]-
->parentmass 165.019378679396
+>parentmass Inf
 >rt 7.60172753602984
 
 >ms1
-165.0194 100
+
 
 >ms2
 165.0194 100
 
 >compound FTneg1664
 >ionization [M+?]-
->parentmass 179.034779105278
+>parentmass Inf
 >rt 7.64368560289425
 
 >ms1
-179.0348 100
+
 
 >ms2
 179.0348 100
 
 >compound FTneg1665
 >ionization [M+?]-
->parentmass 229.144306558003
+>parentmass Inf
 >rt 7.6789879538636
 
 >ms1
-229.1443 100
+
 
 >ms2
 229.1443 100
 
 >compound FTneg1666
 >ionization [M+?]-
->parentmass 236.055963807073
+>parentmass Inf
 >rt 7.66765447118925
 
 >ms1
-236.056 100
+
 
 >ms2
 236.056 100
 
 >compound FTneg1667
 >ionization [M+?]-
->parentmass 256.064817646284
+>parentmass Inf
 >rt 7.66971130404385
 
 >ms1
-256.0648 100
+
 
 >ms2
 256.0648 100
 
 >compound FTneg1668
 >ionization [M+?]-
->parentmass 269.877841123555
+>parentmass Inf
 >rt 7.58135471866862
 
 >ms1
-269.8778 100
+
 
 >ms2
 269.8778 100
 
 >compound FTneg1669
 >ionization [M+?]-
->parentmass 292.121574629181
+>parentmass Inf
 >rt 7.65795594704934
 
 >ms1
-292.1216 100
+
 
 >ms2
 292.1216 100
 
 >compound FTneg1670
 >ionization [M+?]-
->parentmass 303.090675277795
+>parentmass Inf
 >rt 7.67826525223676
 
 >ms1
-303.0907 100
 
 >ms2
 50.0091 4
@@ -26389,110 +26114,109 @@
 
 >compound FTneg1671
 >ionization [M+?]-
->parentmass 317.123687739403
+>parentmass Inf
 >rt 7.61235380971385
 
 >ms1
-317.1237 100
+
 
 >ms2
 317.1237 100
 
 >compound FTneg1672
 >ionization [M+?]-
->parentmass 373.111035580424
+>parentmass Inf
 >rt 7.65097071418485
 
 >ms1
-373.111 100
+
 
 >ms2
 373.111 100
 
 >compound FTneg1673
 >ionization [M+?]-
->parentmass 378.113034046236
+>parentmass Inf
 >rt 7.66945617073569
 
 >ms1
-378.113 100
+
 
 >ms2
 378.113 100
 
 >compound FTneg1674
 >ionization [M+?]-
->parentmass 389.129455962914
+>parentmass Inf
 >rt 7.61282777777775
 
 >ms1
-389.1295 100
+
 
 >ms2
 389.1295 100
 
 >compound FTneg1675
 >ionization [M+?]-
->parentmass 413.201765946071
+>parentmass Inf
 >rt 7.58814665442659
 
 >ms1
-413.2018 100
+
 
 >ms2
 413.2018 100
 
 >compound FTneg1676
 >ionization [M+?]-
->parentmass 433.113827538131
+>parentmass Inf
 >rt 7.66280886821891
 
 >ms1
-433.1138 100
+
 
 >ms2
 433.1138 100
 
 >compound FTneg1677
 >ionization [M+?]-
->parentmass 441.23359941918
+>parentmass Inf
 >rt 7.67453501681598
 
 >ms1
-441.2336 100
+
 
 >ms2
 441.2336 100
 
 >compound FTneg1678
 >ionization [M+?]-
->parentmass 471.244185840297
+>parentmass Inf
 >rt 7.65859311351505
 
 >ms1
-471.2442 100
+
 
 >ms2
 471.2442 100
 
 >compound FTneg1679
 >ionization [M+?]-
->parentmass 587.291368094435
+>parentmass Inf
 >rt 7.68051284373787
 
 >ms1
-587.2914 100
+
 
 >ms2
 587.2914 100
 
 >compound FTneg1680
 >ionization [M+?]-
->parentmass 153.01941025182
+>parentmass Inf
 >rt 8.21317950954215
 
 >ms1
-153.0194 100
 
 >ms2
 57.0342 20
@@ -26524,33 +26248,32 @@
 
 >compound FTneg1681
 >ionization [M+?]-
->parentmass 531.301660141934
+>parentmass Inf
 >rt 8.21500671158097
 
 >ms1
-531.3017 100
+
 
 >ms2
 531.3017 100
 
 >compound FTneg1682
 >ionization [M+?]-
->parentmass 767.427676710542
+>parentmass Inf
 >rt 8.21296383815236
 
 >ms1
-767.4277 100
+
 
 >ms2
 767.4277 100
 
 >compound FTneg1683
 >ionization [M+?]-
->parentmass 109.029621149813
+>parentmass Inf
 >rt 8.21376313053847
 
 >ms1
-109.0296 100
 
 >ms2
 50.9721 4
@@ -26574,11 +26297,10 @@
 
 >compound FTneg1684
 >ionization [M+?]-
->parentmass 135.008731499591
+>parentmass Inf
 >rt 8.21227321685009
 
 >ms1
-135.0087 100
 
 >ms2
 55.0305 40
@@ -26588,187 +26310,186 @@
 
 >compound FTneg1685
 >ionization [M+?]-
->parentmass 153.004521316297
+>parentmass Inf
 >rt 8.21664726388942
 
 >ms1
-153.0045 100
+
 
 >ms2
 153.0045 100
 
 >compound FTneg1686
 >ionization [M+?]-
->parentmass 162.023086234757
+>parentmass Inf
 >rt 8.21496851851856
 
 >ms1
-162.0231 100
+
 
 >ms2
 162.0231 100
 
 >compound FTneg1687
 >ionization [M+?]-
->parentmass 186.084059147977
+>parentmass Inf
 >rt 8.12430894598423
 
 >ms1
-186.0841 100
+
 
 >ms2
 186.0841 100
 
 >compound FTneg1688
 >ionization [M+?]-
->parentmass 207.011936538328
+>parentmass Inf
 >rt 8.21465797246497
 
 >ms1
-207.0119 100
+
 
 >ms2
 207.0119 100
 
 >compound FTneg1689
 >ionization [M+?]-
->parentmass 211.046353344817
+>parentmass Inf
 >rt 8.19894785465539
 
 >ms1
-211.0464 100
+
 
 >ms2
 211.0464 100
 
 >compound FTneg1690
 >ionization [M+?]-
->parentmass 218.046262449972
+>parentmass Inf
 >rt 8.25057777777781
 
 >ms1
-218.0463 100
+
 
 >ms2
 218.0463 100
 
 >compound FTneg1691
 >ionization [M+?]-
->parentmass 237.996126100002
+>parentmass Inf
 >rt 8.2089814818847
 
 >ms1
-237.9961 100
+
 
 >ms2
 237.9961 100
 
 >compound FTneg1692
 >ionization [M+?]-
->parentmass 242.914752065539
+>parentmass Inf
 >rt 8.21537108005434
 
 >ms1
-242.9148 100
+
 
 >ms2
 242.9148 100
 
 >compound FTneg1693
 >ionization [M+?]-
->parentmass 277.883681360453
+>parentmass Inf
 >rt 8.20973500792418
 
 >ms1
-277.8837 100
+
 
 >ms2
 277.8837 100
 
 >compound FTneg1694
 >ionization [M+?]-
->parentmass 279.881121204966
+>parentmass Inf
 >rt 8.212268088599
 
 >ms1
-279.8811 100
+
 
 >ms2
 279.8811 100
 
 >compound FTneg1695
 >ionization [M+?]-
->parentmass 286.129395109962
+>parentmass Inf
 >rt 8.17332776948761
 
 >ms1
-286.1294 100
+
 
 >ms2
 286.1294 100
 
 >compound FTneg1696
 >ionization [M+?]-
->parentmass 309.055127140219
+>parentmass Inf
 >rt 8.21370238095236
 
 >ms1
-309.0551 100
+
 
 >ms2
 309.0551 100
 
 >compound FTneg1697
 >ionization [M+?]-
->parentmass 309.963022341331
+>parentmass Inf
 >rt 8.19804126506195
 
 >ms1
-309.963 100
+
 
 >ms2
 309.963 100
 
 >compound FTneg1698
 >ionization [M+?]-
->parentmass 409.05966733455
+>parentmass Inf
 >rt 8.31512916748642
 
 >ms1
-409.0597 100
+
 
 >ms2
 409.0597 100
 
 >compound FTneg1699
 >ionization [M+?]-
->parentmass 455.249091268625
+>parentmass Inf
 >rt 8.18374444730476
 
 >ms1
-455.2491 100
+
 
 >ms2
 455.2491 100
 
 >compound FTneg1700
 >ionization [M+?]-
->parentmass 635.349060999768
+>parentmass Inf
 >rt 8.1757104062597
 
 >ms1
-635.3491 100
+
 
 >ms2
 635.3491 100
 
 >compound FTneg1701
 >ionization [M+?]-
->parentmass 312.942264948619
+>parentmass Inf
 >rt 1.4950735579046
 
 >ms1
-312.9423 100
 
 >ms2
 53.0384 40
@@ -26826,11 +26547,10 @@
 
 >compound FTneg1702
 >ionization [M+?]-
->parentmass 362.940936792351
+>parentmass Inf
 >rt 1.48765495862479
 
 >ms1
-362.9409 100
 
 >ms2
 67.0525 20
@@ -26842,11 +26562,10 @@
 
 >compound FTneg1703
 >ionization [M+?]-
->parentmass 430.928303728912
+>parentmass Inf
 >rt 1.48530573540591
 
 >ms1
-430.9283 100
 
 >ms2
 51.0208 40
@@ -26897,11 +26616,10 @@
 
 >compound FTneg1704
 >ionization [M+?]-
->parentmass 498.91587245025
+>parentmass Inf
 >rt 1.48752391665097
 
 >ms1
-498.9159 100
 
 >ms2
 60.0801 80
@@ -26920,55 +26638,53 @@
 
 >compound FTneg1705
 >ionization [M+?]-
->parentmass 566.903078663321
+>parentmass Inf
 >rt 1.49039342854039
 
 >ms1
-566.9031 100
 
 >ms2
 51.9405 40
 
 >compound FTneg1706
 >ionization [M+?]-
->parentmass 634.890499992005
+>parentmass Inf
 >rt 1.49046947598154
 
 >ms1
-634.8905 100
+
 
 >ms2
 634.8905 100
 
 >compound FTneg1707
 >ionization [M+?]-
->parentmass 110.970241713094
+>parentmass Inf
 >rt 1.5034893982586
 
 >ms1
-110.9702 100
+
 
 >ms2
 110.9702 100
 
 >compound FTneg1708
 >ionization [M+?]-
->parentmass 144.97518463094
+>parentmass Inf
 >rt 1.48836238698696
 
 >ms1
-144.9752 100
+
 
 >ms2
 144.9752 100
 
 >compound FTneg1709
 >ionization [M+?]-
->parentmass 200.96526172656
+>parentmass Inf
 >rt 1.49143076638908
 
 >ms1
-200.9653 100
 
 >ms2
 50.0106 40
@@ -26989,22 +26705,21 @@
 
 >compound FTneg1710
 >ionization [M+?]-
->parentmass 213.085343852672
+>parentmass Inf
 >rt 1.48105368644914
 
 >ms1
-213.0853 100
+
 
 >ms2
 213.0853 100
 
 >compound FTneg1711
 >ionization [M+?]-
->parentmass 226.966026039619
+>parentmass Inf
 >rt 1.47042247082685
 
 >ms1
-226.966 100
 
 >ms2
 50.0207 40
@@ -27012,154 +26727,153 @@
 
 >compound FTneg1712
 >ionization [M+?]-
->parentmass 326.903112404387
+>parentmass Inf
 >rt 1.47464927717319
 
 >ms1
-326.9031 100
+
 
 >ms2
 326.9031 100
 
 >compound FTneg1713
 >ionization [M+?]-
->parentmass 371.901286392085
+>parentmass Inf
 >rt 1.47913320018988
 
 >ms1
-371.9013 100
+
 
 >ms2
 371.9013 100
 
 >compound FTneg1714
 >ionization [M+?]-
->parentmass 378.917244221907
+>parentmass Inf
 >rt 1.48416172146236
 
 >ms1
-378.9172 100
+
 
 >ms2
 378.9172 100
 
 >compound FTneg1715
 >ionization [M+?]-
->parentmass 394.890854161951
+>parentmass Inf
 >rt 1.49252007716188
 
 >ms1
-394.8909 100
+
 
 >ms2
 394.8909 100
 
 >compound FTneg1716
 >ionization [M+?]-
->parentmass 425.923153443256
+>parentmass Inf
 >rt 1.49263086073156
 
 >ms1
-425.9232 100
+
 
 >ms2
 425.9232 100
 
 >compound FTneg1717
 >ionization [M+?]-
->parentmass 582.880991912444
+>parentmass Inf
 >rt 1.49672206833827
 
 >ms1
-582.881 100
+
 
 >ms2
 582.881 100
 
 >compound FTneg1718
 >ionization [M+?]-
->parentmass 702.877695178425
+>parentmass Inf
 >rt 1.4906178064959
 
 >ms1
-702.8777 100
+
 
 >ms2
 702.8777 100
 
 >compound FTneg1719
 >ionization [M+?]-
->parentmass 770.864930297335
+>parentmass Inf
 >rt 1.49053273472829
 
 >ms1
-770.8649 100
+
 
 >ms2
 770.8649 100
 
 >compound FTneg1720
 >ionization [M+?]-
->parentmass 838.852365163787
+>parentmass Inf
 >rt 1.49254443915087
 
 >ms1
-838.8524 100
+
 
 >ms2
 838.8524 100
 
 >compound FTneg1721
 >ionization [M+?]-
->parentmass 191.019958454947
+>parentmass Inf
 >rt 2.60714736780318
 
 >ms1
-191.02 100
+
 
 >ms2
 191.02 100
 
 >compound FTneg1722
 >ionization [M+?]-
->parentmass 289.937167914535
+>parentmass Inf
 >rt 2.61041383833892
 
 >ms1
-289.9372 100
+
 
 >ms2
 289.9372 100
 
 >compound FTneg1723
 >ionization [M+?]-
->parentmass 111.008798272238
+>parentmass Inf
 >rt 2.60499350085917
 
 >ms1
-111.0088 100
+
 
 >ms2
 111.0088 100
 
 >compound FTneg1724
 >ionization [M+?]-
->parentmass 146.938374549376
+>parentmass Inf
 >rt 2.64896317910295
 
 >ms1
-146.9384 100
+
 
 >ms2
 146.9384 100
 
 >compound FTneg1725
 >ionization [M+?]-
->parentmass 173.009227174492
+>parentmass Inf
 >rt 2.57686199271679
 
 >ms1
-173.0092 100
 
 >ms2
 55.0177 80
@@ -27392,33 +27106,32 @@
 
 >compound FTneg1726
 >ionization [M+?]-
->parentmass 174.956133731952
+>parentmass Inf
 >rt 2.64419130434787
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg1727
 >ionization [M+?]-
->parentmass 190.928539008387
+>parentmass Inf
 >rt 2.64559444134978
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg1728
 >ionization [M+?]-
->parentmass 191.019914427924
+>parentmass Inf
 >rt 2.52156036516212
 
 >ms1
-191.0199 100
 
 >ms2
 50.0012 8
@@ -27453,99 +27166,98 @@
 
 >compound FTneg1729
 >ionization [M+?]-
->parentmass 192.023140216202
+>parentmass Inf
 >rt 2.61574325525277
 
 >ms1
-192.0231 100
+
 
 >ms2
 192.0231 100
 
 >compound FTneg1730
 >ionization [M+?]-
->parentmass 207.931191780287
+>parentmass Inf
 >rt 2.65125354474995
 
 >ms1
-207.9312 100
+
 
 >ms2
 207.9312 100
 
 >compound FTneg1731
 >ionization [M+?]-
->parentmass 235.926194650911
+>parentmass Inf
 >rt 2.63878482893298
 
 >ms1
-235.9262 100
+
 
 >ms2
 235.9262 100
 
 >compound FTneg1732
 >ionization [M+?]-
->parentmass 253.092977214505
+>parentmass Inf
 >rt 2.62152938396828
 
 >ms1
-253.093 100
+
 
 >ms2
 253.093 100
 
 >compound FTneg1733
 >ionization [M+?]-
->parentmass 257.819251524454
+>parentmass Inf
 >rt 2.56390563355569
 
 >ms1
-257.8193 100
+
 
 >ms2
 257.8193 100
 
 >compound FTneg1734
 >ionization [M+?]-
->parentmass 282.812645326708
+>parentmass Inf
 >rt 2.59280714285714
 
 >ms1
-282.8126 100
+
 
 >ms2
 282.8126 100
 
 >compound FTneg1735
 >ionization [M+?]-
->parentmass 288.986992371572
+>parentmass Inf
 >rt 2.61141553364988
 
 >ms1
-288.987 100
+
 
 >ms2
 288.987 100
 
 >compound FTneg1736
 >ionization [M+?]-
->parentmass 302.996979986041
+>parentmass Inf
 >rt 2.59826443522968
 
 >ms1
-302.997 100
+
 
 >ms2
 302.997 100
 
 >compound FTneg1737
 >ionization [M+?]-
->parentmass 243.062154569559
+>parentmass Inf
 >rt 3.23145935771365
 
 >ms1
-243.0622 100
 
 >ms2
 55.0533 40
@@ -27556,11 +27268,10 @@
 
 >compound FTneg1738
 >ionization [M+?]-
->parentmass 289.067800521313
+>parentmass Inf
 >rt 3.23125593870474
 
 >ms1
-289.0678 100
 
 >ms2
 57.0688 27
@@ -27573,22 +27284,20 @@
 
 >compound FTneg1739
 >ionization [M+?]-
->parentmass 135.031124677011
+>parentmass Inf
 >rt 3.20576617453754
 
 >ms1
-135.0311 100
 
 >ms2
 70.0716 40
 
 >compound FTneg1740
 >ionization [M+?]-
->parentmass 306.057856785094
+>parentmass Inf
 >rt 3.24037996281892
 
 >ms1
-306.0579 100
 
 >ms2
 53.0444 40
@@ -27677,11 +27386,10 @@
 
 >compound FTneg1741
 >ionization [M+?]-
->parentmass 333.057451298688
+>parentmass Inf
 >rt 3.221913468688
 
 >ms1
-333.0575 100
 
 >ms2
 50.9888 40
@@ -27699,11 +27407,10 @@
 
 >compound FTneg1742
 >ionization [M+?]-
->parentmass 357.05498170102
+>parentmass Inf
 >rt 3.23767112075604
 
 >ms1
-357.055 100
 
 >ms2
 50.0135 40
@@ -28064,11 +27771,10 @@
 
 >compound FTneg1743
 >ionization [M+?]-
->parentmass 379.100569864691
+>parentmass Inf
 >rt 3.21383338623851
 
 >ms1
-379.1006 100
 
 >ms2
 57.0703 40
@@ -28087,11 +27793,10 @@
 
 >compound FTneg1744
 >ionization [M+?]-
->parentmass 111.01990710716
+>parentmass Inf
 >rt 3.22958731921534
 
 >ms1
-111.0199 100
 
 >ms2
 53.039 27
@@ -28124,11 +27829,10 @@
 
 >compound FTneg1745
 >ionization [M+?]-
->parentmass 188.002220938073
+>parentmass Inf
 >rt 3.23477712233838
 
 >ms1
-188.0022 100
 
 >ms2
 50.0033 20
@@ -28146,22 +27850,21 @@
 
 >compound FTneg1746
 >ionization [M+?]-
->parentmass 259.05702789876
+>parentmass Inf
 >rt 3.22683967357062
 
 >ms1
-259.057 100
+
 
 >ms2
 259.057 100
 
 >compound FTneg1747
 >ionization [M+?]-
->parentmass 275.051857421602
+>parentmass Inf
 >rt 3.22791452890243
 
 >ms1
-275.0519 100
 
 >ms2
 53.0391 40
@@ -28169,110 +27872,108 @@
 
 >compound FTneg1748
 >ionization [M+?]-
->parentmass 277.067399570211
+>parentmass Inf
 >rt 3.2291046603332
 
 >ms1
-277.0674 100
+
 
 >ms2
 277.0674 100
 
 >compound FTneg1749
 >ionization [M+?]-
->parentmass 289.045885346185
+>parentmass Inf
 >rt 3.2358040095961
 
 >ms1
-289.0459 100
+
 
 >ms2
 289.0459 100
 
 >compound FTneg1750
 >ionization [M+?]-
->parentmass 305.062486893391
+>parentmass Inf
 >rt 3.22144478882584
 
 >ms1
-305.0625 100
+
 
 >ms2
 305.0625 100
 
 >compound FTneg1751
 >ionization [M+?]-
->parentmass 319.077485010099
+>parentmass Inf
 >rt 3.22908529392234
 
 >ms1
-319.0775 100
+
 
 >ms2
 319.0775 100
 
 >compound FTneg1752
 >ionization [M+?]-
->parentmass 321.05683920153
+>parentmass Inf
 >rt 3.22456753918739
 
 >ms1
-321.0568 100
+
 
 >ms2
 321.0568 100
 
 >compound FTneg1753
 >ionization [M+?]-
->parentmass 328.078097435221
+>parentmass Inf
 >rt 3.21018590559569
 
 >ms1
-328.0781 100
+
 
 >ms2
 328.0781 100
 
 >compound FTneg1754
 >ionization [M+?]-
->parentmass 331.078370346287
+>parentmass Inf
 >rt 3.23396295612212
 
 >ms1
-331.0784 100
+
 
 >ms2
 331.0784 100
 
 >compound FTneg1755
 >ionization [M+?]-
->parentmass 333.033624511758
+>parentmass Inf
 >rt 3.22065763025871
 
 >ms1
-333.0336 100
+
 
 >ms2
 333.0336 100
 
 >compound FTneg1756
 >ionization [M+?]-
->parentmass 333.05660198536
+>parentmass Inf
 >rt 3.19108305768487
 
 >ms1
-333.0566 100
 
 >ms2
 57.0711 40
 
 >compound FTneg1757
 >ionization [M+?]-
->parentmass 333.091363139609
+>parentmass Inf
 >rt 3.23351545352909
 
 >ms1
-333.0914 100
 
 >ms2
 53.0384 40
@@ -28332,22 +28033,21 @@
 
 >compound FTneg1758
 >ionization [M+?]-
->parentmass 334.095981602415
+>parentmass Inf
 >rt 3.22231272187552
 
 >ms1
-334.096 100
+
 
 >ms2
 334.096 100
 
 >compound FTneg1759
 >ionization [M+?]-
->parentmass 341.0310344826
+>parentmass Inf
 >rt 3.2285615062273
 
 >ms1
-341.031 100
 
 >ms2
 53.0382 8
@@ -28378,11 +28078,10 @@
 
 >compound FTneg1760
 >ionization [M+?]-
->parentmass 342.986944538458
+>parentmass Inf
 >rt 3.236153474124
 
 >ms1
-342.9869 100
 
 >ms2
 55.9344 40
@@ -28391,88 +28090,87 @@
 
 >compound FTneg1761
 >ionization [M+?]-
->parentmass 344.072842922994
+>parentmass Inf
 >rt 3.20552618240386
 
 >ms1
-344.0728 100
+
 
 >ms2
 344.0728 100
 
 >compound FTneg1762
 >ionization [M+?]-
->parentmass 344.987769362655
+>parentmass Inf
 >rt 3.23443564698382
 
 >ms1
-344.9878 100
+
 
 >ms2
 344.9878 100
 
 >compound FTneg1763
 >ionization [M+?]-
->parentmass 349.052394422978
+>parentmass Inf
 >rt 3.21032915457348
 
 >ms1
-349.0524 100
+
 
 >ms2
 349.0524 100
 
 >compound FTneg1764
 >ionization [M+?]-
->parentmass 360.997931197532
+>parentmass Inf
 >rt 3.23047658496548
 
 >ms1
-360.9979 100
+
 
 >ms2
 360.9979 100
 
 >compound FTneg1765
 >ionization [M+?]-
->parentmass 365.047415646917
+>parentmass Inf
 >rt 3.19812521314954
 
 >ms1
-365.0474 100
+
 
 >ms2
 365.0474 100
 
 >compound FTneg1766
 >ionization [M+?]-
->parentmass 367.06267214895
+>parentmass Inf
 >rt 3.2195622028775
 
 >ms1
-367.0627 100
+
 
 >ms2
 367.0627 100
 
 >compound FTneg1767
 >ionization [M+?]-
->parentmass 367.927089627974
+>parentmass Inf
 >rt 3.22955252875671
 
 >ms1
-367.9271 100
+
 
 >ms2
 367.9271 100
 
 >compound FTneg1768
 >ionization [M+?]-
->parentmass 374.156339864962
+>parentmass Inf
 >rt 3.20334786690097
 
 >ms1
-374.1563 100
 
 >ms2
 50.0091 8
@@ -28493,33 +28191,32 @@
 
 >compound FTneg1769
 >ionization [M+?]-
->parentmass 377.956346123202
+>parentmass Inf
 >rt 3.22414297770476
 
 >ms1
-377.9563 100
+
 
 >ms2
 377.9563 100
 
 >compound FTneg1770
 >ionization [M+?]-
->parentmass 382.049927703325
+>parentmass Inf
 >rt 3.20922874903434
 
 >ms1
-382.0499 100
+
 
 >ms2
 382.0499 100
 
 >compound FTneg1771
 >ionization [M+?]-
->parentmass 383.057681198164
+>parentmass Inf
 >rt 3.22265744293253
 
 >ms1
-383.0577 100
 
 >ms2
 79.0553 20
@@ -28535,33 +28232,32 @@
 
 >compound FTneg1772
 >ionization [M+?]-
->parentmass 383.989706573914
+>parentmass Inf
 >rt 3.22828234290606
 
 >ms1
-383.9897 100
+
 
 >ms2
 383.9897 100
 
 >compound FTneg1773
 >ionization [M+?]-
->parentmass 385.969142815817
+>parentmass Inf
 >rt 3.23212403149565
 
 >ms1
-385.9691 100
+
 
 >ms2
 385.9691 100
 
 >compound FTneg1774
 >ionization [M+?]-
->parentmass 387.986430812677
+>parentmass Inf
 >rt 3.23683756387809
 
 >ms1
-387.9864 100
 
 >ms2
 51.9397 13
@@ -28585,66 +28281,65 @@
 
 >compound FTneg1775
 >ionization [M+?]-
->parentmass 388.991607154366
+>parentmass Inf
 >rt 3.23527905155658
 
 >ms1
-388.9916 100
+
 
 >ms2
 388.9916 100
 
 >compound FTneg1776
 >ionization [M+?]-
->parentmass 389.994127542161
+>parentmass Inf
 >rt 3.238761111111
 
 >ms1
-389.9941 100
+
 
 >ms2
 389.9941 100
 
 >compound FTneg1777
 >ionization [M+?]-
->parentmass 390.993167300334
+>parentmass Inf
 >rt 3.23015813536245
 
 >ms1
-390.9932 100
+
 
 >ms2
 390.9932 100
 
 >compound FTneg1778
 >ionization [M+?]-
->parentmass 403.903700984777
+>parentmass Inf
 >rt 3.22326021137605
 
 >ms1
-403.9037 100
+
 
 >ms2
 403.9037 100
 
 >compound FTneg1779
 >ionization [M+?]-
->parentmass 405.900857297394
+>parentmass Inf
 >rt 3.2253122110606
 
 >ms1
-405.9009 100
+
 
 >ms2
 405.9009 100
 
 >compound FTneg1780
 >ionization [M+?]-
->parentmass 432.071730309787
+>parentmass Inf
 >rt 3.23356789126278
 
 >ms1
-432.0717 100
 
 >ms2
 57.0157 85
@@ -28661,33 +28356,32 @@
 
 >compound FTneg1781
 >ionization [M+?]-
->parentmass 433.074064485563
+>parentmass Inf
 >rt 3.23211667006424
 
 >ms1
-433.0741 100
+
 
 >ms2
 433.0741 100
 
 >compound FTneg1782
 >ionization [M+?]-
->parentmass 448.193604059241
+>parentmass Inf
 >rt 3.16172864001984
 
 >ms1
-448.1936 100
+
 
 >ms2
 448.1936 100
 
 >compound FTneg1783
 >ionization [M+?]-
->parentmass 533.136991493186
+>parentmass Inf
 >rt 3.22798443726034
 
 >ms1
-533.137 100
 
 >ms2
 55.054 667
@@ -28898,11 +28592,10 @@
 
 >compound FTneg1784
 >ionization [M+?]-
->parentmass 540.04316419831
+>parentmass Inf
 >rt 3.22867675645446
 
 >ms1
-540.0432 100
 
 >ms2
 56.0565 8
@@ -28912,22 +28605,21 @@
 
 >compound FTneg1785
 >ionization [M+?]-
->parentmass 541.04841233479
+>parentmass Inf
 >rt 3.22745107157926
 
 >ms1
-541.0484 100
+
 
 >ms2
 541.0484 100
 
 >compound FTneg1786
 >ionization [M+?]-
->parentmass 227.067291661512
+>parentmass Inf
 >rt 4.59170769566695
 
 >ms1
-227.0673 100
 
 >ms2
 50.0091 4
@@ -28972,11 +28664,10 @@
 
 >compound FTneg1787
 >ionization [M+?]-
->parentmass 273.07274196526
+>parentmass Inf
 >rt 4.61174780109125
 
 >ms1
-273.0727 100
 
 >ms2
 50.0026 4
@@ -29021,33 +28712,32 @@
 
 >compound FTneg1788
 >ionization [M+?]-
->parentmass 111.019920456273
+>parentmass Inf
 >rt 4.64837226607946
 
 >ms1
-111.0199 100
+
 
 >ms2
 111.0199 100
 
 >compound FTneg1789
 >ionization [M+?]-
->parentmass 146.966803408647
+>parentmass Inf
 >rt 4.78592753623183
 
 >ms1
-146.9668 100
+
 
 >ms2
 146.9668 100
 
 >compound FTneg1790
 >ionization [M+?]-
->parentmass 227.067336405808
+>parentmass Inf
 >rt 4.65252517455944
 
 >ms1
-227.0673 100
 
 >ms2
 53.9399 8
@@ -29065,88 +28755,86 @@
 
 >compound FTneg1791
 >ionization [M+?]-
->parentmass 261.072731314244
+>parentmass Inf
 >rt 4.69973793877647
 
 >ms1
-261.0727 100
+
 
 >ms2
 261.0727 100
 
 >compound FTneg1792
 >ionization [M+?]-
->parentmass 273.072784376567
+>parentmass Inf
 >rt 4.72662638633392
 
 >ms1
-273.0728 100
 
 >ms2
 54.0327 8
 
 >compound FTneg1793
 >ionization [M+?]-
->parentmass 290.063008371254
+>parentmass Inf
 >rt 4.65633139349355
 
 >ms1
-290.063 100
+
 
 >ms2
 290.063 100
 
 >compound FTneg1794
 >ionization [M+?]-
->parentmass 317.062672669723
+>parentmass Inf
 >rt 4.65736465104924
 
 >ms1
-317.0627 100
+
 
 >ms2
 317.0627 100
 
 >compound FTneg1795
 >ionization [M+?]-
->parentmass 341.060171750565
+>parentmass Inf
 >rt 4.61491177814126
 
 >ms1
-341.0602 100
+
 
 >ms2
 341.0602 100
 
 >compound FTneg1796
 >ionization [M+?]-
->parentmass 341.060204171902
+>parentmass Inf
 >rt 4.72657292669387
 
 >ms1
-341.0602 100
+
 
 >ms2
 341.0602 100
 
 >compound FTneg1797
 >ionization [M+?]-
->parentmass 112.973375919819
+>parentmass Inf
 >rt 6.92884465029471
 
 >ms1
-112.9734 100
+
 
 >ms2
 112.9734 100
 
 >compound FTneg1798
 >ionization [M+?]-
->parentmass 614.345904675989
+>parentmass Inf
 >rt 13.4901608253302
 
 >ms1
-614.3459 100
 
 >ms2
 55.0518 40
@@ -29205,11 +28893,10 @@
 
 >compound FTneg1799
 >ionization [M+?]-
->parentmass 820.552490557995
+>parentmass Inf
 >rt 13.4981409286048
 
 >ms1
-820.5525 100
 
 >ms2
 60.0485 40
@@ -29238,11 +28925,10 @@
 
 >compound FTneg1800
 >ionization [M+?]-
->parentmass 112.9854025028
+>parentmass Inf
 >rt 13.5606841666667
 
 >ms1
-112.9854 100
 
 >ms2
 55.0548 16
@@ -29267,11 +28953,10 @@
 
 >compound FTneg1801
 >ionization [M+?]-
->parentmass 583.380643425943
+>parentmass Inf
 >rt 13.5941014375203
 
 >ms1
-583.3806 100
 
 >ms2
 55.0253 40
@@ -29343,11 +29028,10 @@
 
 >compound FTneg1802
 >ionization [M+?]-
->parentmass 614.345909885781
+>parentmass Inf
 >rt 13.6614992834316
 
 >ms1
-614.3459 100
 
 >ms2
 57.071 40
@@ -29357,11 +29041,10 @@
 
 >compound FTneg1803
 >ionization [M+?]-
->parentmass 615.349336161674
+>parentmass Inf
 >rt 13.4934751797875
 
 >ms1
-615.3493 100
 
 >ms2
 55.0534 40
@@ -29387,11 +29070,10 @@
 
 >compound FTneg1804
 >ionization [M+?]-
->parentmass 868.553742807196
+>parentmass Inf
 >rt 13.5892383919741
 
 >ms1
-868.5537 100
 
 >ms2
 124.9881 40
@@ -29399,11 +29081,10 @@
 
 >compound FTneg1805
 >ionization [M+?]-
->parentmass 112.985530276629
+>parentmass Inf
 >rt 18.3576546666356
 
 >ms1
-112.9855 100
 
 >ms2
 58.0652 80
@@ -29416,11 +29097,10 @@
 
 >compound FTneg1806
 >ionization [M+?]-
->parentmass 187.860872483795
+>parentmass Inf
 >rt 18.3662408376597
 
 >ms1
-187.8609 100
 
 >ms2
 50.0112 40
@@ -29448,11 +29128,10 @@
 
 >compound FTneg1807
 >ionization [M+?]-
->parentmass 189.858149201447
+>parentmass Inf
 >rt 18.3868192071108
 
 >ms1
-189.8581 100
 
 >ms2
 50.014 40
@@ -29473,77 +29152,75 @@
 
 >compound FTneg1808
 >ionization [M+?]-
->parentmass 197.889737939294
+>parentmass Inf
 >rt 18.4075216844432
 
 >ms1
-197.8897 100
 
 >ms2
 54.008 56
 
 >compound FTneg1809
 >ionization [M+?]-
->parentmass 112.985535282927
+>parentmass Inf
 >rt 17.8973327468761
 
 >ms1
-112.9855 100
+
 
 >ms2
 112.9855 100
 
 >compound FTneg1810
 >ionization [M+?]-
->parentmass 112.985548820887
+>parentmass Inf
 >rt 18.1896658882108
 
 >ms1
-112.9855 100
+
 
 >ms2
 112.9855 100
 
 >compound FTneg1811
 >ionization [M+?]-
->parentmass 128.936506180922
+>parentmass Inf
 >rt 18.1553753968253
 
 >ms1
-128.9365 100
+
 
 >ms2
 128.9365 100
 
 >compound FTneg1812
 >ionization [M+?]-
->parentmass 112.985551846503
+>parentmass Inf
 >rt 17.4023382096632
 
 >ms1
-112.9856 100
+
 
 >ms2
 112.9856 100
 
 >compound FTneg1813
 >ionization [M+?]-
->parentmass 112.985583779205
+>parentmass Inf
 >rt 18.0788465516562
 
 >ms1
-112.9856 100
+
 
 >ms2
 112.9856 100
 
 >compound FTneg1814
 >ionization [M+?]-
->parentmass 112.985734051378
+>parentmass Inf
 >rt 1.51597121619834
 
 >ms1
-112.9857 100
 
 >ms2
 59.0506 20
@@ -29555,11 +29232,10 @@
 
 >compound FTneg1815
 >ionization [M+?]-
->parentmass 180.973008418194
+>parentmass Inf
 >rt 1.54896259448069
 
 >ms1
-180.973 100
 
 >ms2
 58.0653 80
@@ -29601,11 +29277,10 @@
 
 >compound FTneg1816
 >ionization [M+?]-
->parentmass 157.036577423656
+>parentmass Inf
 >rt 1.78168303476732
 
 >ms1
-157.0366 100
 
 >ms2
 55.0533 40
@@ -29724,11 +29399,10 @@
 
 >compound FTneg1817
 >ionization [M+?]-
->parentmass 199.037707737936
+>parentmass Inf
 >rt 1.77858459666077
 
 >ms1
-199.0377 100
 
 >ms2
 50.0144 92
@@ -29810,11 +29484,10 @@
 
 >compound FTneg1818
 >ionization [M+?]-
->parentmass 114.030724471767
+>parentmass Inf
 >rt 1.78660719631562
 
 >ms1
-114.0307 100
 
 >ms2
 51.0237 8
@@ -29864,11 +29537,10 @@
 
 >compound FTneg1819
 >ionization [M+?]-
->parentmass 124.99136221337
+>parentmass Inf
 >rt 1.76738360601125
 
 >ms1
-124.9914 100
 
 >ms2
 53.0488 40
@@ -29877,11 +29549,10 @@
 
 >compound FTneg1820
 >ionization [M+?]-
->parentmass 174.045655826729
+>parentmass Inf
 >rt 1.76382238410775
 
 >ms1
-174.0457 100
 
 >ms2
 53.0375 20
@@ -29969,11 +29640,10 @@
 
 >compound FTneg1821
 >ionization [M+?]-
->parentmass 176.042694572262
+>parentmass Inf
 >rt 1.76551146630891
 
 >ms1
-176.0427 100
 
 >ms2
 56.0481 40
@@ -30032,11 +29702,10 @@
 
 >compound FTneg1822
 >ionization [M+?]-
->parentmass 247.057825297398
+>parentmass Inf
 >rt 1.76888274361166
 
 >ms1
-247.0578 100
 
 >ms2
 52.9522 40
@@ -30056,11 +29725,10 @@
 
 >compound FTneg1823
 >ionization [M+?]-
->parentmass 250.969688302739
+>parentmass Inf
 >rt 1.70576807692279
 
 >ms1
-250.9697 100
 
 >ms2
 51.9404 4
@@ -30087,11 +29755,10 @@
 
 >compound FTneg1824
 >ionization [M+?]-
->parentmass 280.103436909797
+>parentmass Inf
 >rt 1.77562693432226
 
 >ms1
-280.1034 100
 
 >ms2
 51.0216 4
@@ -30113,11 +29780,10 @@
 
 >compound FTneg1825
 >ionization [M+?]-
->parentmass 332.089391132428
+>parentmass Inf
 >rt 1.77055716772961
 
 >ms1
-332.0894 100
 
 >ms2
 50.9865 40
@@ -30140,11 +29806,10 @@
 
 >compound FTneg1826
 >ionization [M+?]-
->parentmass 334.088524664871
+>parentmass Inf
 >rt 1.80223555395395
 
 >ms1
-334.0885 100
 
 >ms2
 55.0556 8
@@ -30157,11 +29822,10 @@
 
 >compound FTneg1827
 >ionization [M+?]-
->parentmass 346.091272602995
+>parentmass Inf
 >rt 1.78131429389132
 
 >ms1
-346.0913 100
 
 >ms2
 51.0114 42
@@ -30195,11 +29859,10 @@
 
 >compound FTneg1828
 >ionization [M+?]-
->parentmass 373.076659707729
+>parentmass Inf
 >rt 1.77200399308186
 
 >ms1
-373.0767 100
 
 >ms2
 55.0542 80
@@ -30227,11 +29890,10 @@
 
 >compound FTneg1829
 >ionization [M+?]-
->parentmass 375.074300223955
+>parentmass Inf
 >rt 1.77366989503241
 
 >ms1
-375.0743 100
 
 >ms2
 54.998 41
@@ -30244,22 +29906,21 @@
 
 >compound FTneg1830
 >ionization [M+?]-
->parentmass 390.048461659539
+>parentmass Inf
 >rt 1.77357730377496
 
 >ms1
-390.0485 100
+
 
 >ms2
 390.0485 100
 
 >compound FTneg1831
 >ionization [M+?]-
->parentmass 144.066762513047
+>parentmass Inf
 >rt 5.19752043650422
 
 >ms1
-144.0668 100
 
 >ms2
 55.0544 283
@@ -30419,22 +30080,21 @@
 
 >compound FTneg1832
 >ionization [M+?]-
->parentmass 114.707477055493
+>parentmass Inf
 >rt 5.36375317460329
 
 >ms1
-114.7075 100
+
 
 >ms2
 114.7075 100
 
 >compound FTneg1833
 >ionization [M+?]-
->parentmass 144.066719735619
+>parentmass Inf
 >rt 5.32071905684591
 
 >ms1
-144.0667 100
 
 >ms2
 59.0476 4
@@ -30445,55 +30105,54 @@
 
 >compound FTneg1834
 >ionization [M+?]-
->parentmass 114.988807131586
+>parentmass Inf
 >rt 1.43761610841149
 
 >ms1
-114.9888 100
+
 
 >ms2
 114.9888 100
 
 >compound FTneg1835
 >ionization [M+?]-
->parentmass 292.946772959448
+>parentmass Inf
 >rt 1.44108033564604
 
 >ms1
-292.9468 100
+
 
 >ms2
 292.9468 100
 
 >compound FTneg1836
 >ionization [M+?]-
->parentmass 486.868979406771
+>parentmass Inf
 >rt 1.51601068199276
 
 >ms1
-486.869 100
+
 
 >ms2
 486.869 100
 
 >compound FTneg1837
 >ionization [M+?]-
->parentmass 514.863958549686
+>parentmass Inf
 >rt 1.51724169461601
 
 >ms1
-514.864 100
+
 
 >ms2
 514.864 100
 
 >compound FTneg1838
 >ionization [M+?]-
->parentmass 347.109516295149
+>parentmass Inf
 >rt 3.14828521242878
 
 >ms1
-347.1095 100
 
 >ms2
 60.0351 4
@@ -30502,22 +30161,21 @@
 
 >compound FTneg1839
 >ionization [M+?]-
->parentmass 115.003631993498
+>parentmass Inf
 >rt 3.14286366461481
 
 >ms1
-115.0036 100
+
 
 >ms2
 115.0036 100
 
 >compound FTneg1840
 >ionization [M+?]-
->parentmass 130.050929359573
+>parentmass Inf
 >rt 3.13400917147544
 
 >ms1
-130.0509 100
 
 >ms2
 53.0381 239
@@ -30807,44 +30465,43 @@
 
 >compound FTneg1841
 >ionization [M+?]-
->parentmass 249.007273772715
+>parentmass Inf
 >rt 3.15805074540013
 
 >ms1
-249.0073 100
+
 
 >ms2
 249.0073 100
 
 >compound FTneg1842
 >ionization [M+?]-
->parentmass 255.822221650577
+>parentmass Inf
 >rt 3.13296923076915
 
 >ms1
-255.8222 100
+
 
 >ms2
 255.8222 100
 
 >compound FTneg1843
 >ionization [M+?]-
->parentmass 257.819239697249
+>parentmass Inf
 >rt 3.13798137254906
 
 >ms1
-257.8192 100
+
 
 >ms2
 257.8192 100
 
 >compound FTneg1844
 >ionization [M+?]-
->parentmass 283.082141194585
+>parentmass Inf
 >rt 7.87680692132816
 
 >ms1
-283.0821 100
 
 >ms2
 51.9434 4
@@ -30865,11 +30522,10 @@
 
 >compound FTneg1845
 >ionization [M+?]-
->parentmass 202.108324350663
+>parentmass Inf
 >rt 7.88227721535919
 
 >ms1
-202.1083 100
 
 >ms2
 50.0163 16
@@ -30910,22 +30566,21 @@
 
 >compound FTneg1846
 >ionization [M+?]-
->parentmass 115.076376193069
+>parentmass Inf
 >rt 7.87089912703558
 
 >ms1
-115.0764 100
+
 
 >ms2
 115.0764 100
 
 >compound FTneg1847
 >ionization [M+?]-
->parentmass 159.066176348065
+>parentmass Inf
 >rt 7.8632789039824
 
 >ms1
-159.0662 100
 
 >ms2
 80.9482 451
@@ -30963,11 +30618,10 @@
 
 >compound FTneg1848
 >ionization [M+?]-
->parentmass 225.11300262625
+>parentmass Inf
 >rt 7.88093936492841
 
 >ms1
-225.113 100
 
 >ms2
 53.0383 13
@@ -30987,11 +30641,10 @@
 
 >compound FTneg1849
 >ionization [M+?]-
->parentmass 256.109009761846
+>parentmass Inf
 >rt 7.85982491815388
 
 >ms1
-256.109 100
 
 >ms2
 50.0149 13
@@ -31039,33 +30692,32 @@
 
 >compound FTneg1850
 >ionization [M+?]-
->parentmass 270.095294086476
+>parentmass Inf
 >rt 7.87088420718365
 
 >ms1
-270.0953 100
+
 
 >ms2
 270.0953 100
 
 >compound FTneg1851
 >ionization [M+?]-
->parentmass 279.017666630025
+>parentmass Inf
 >rt 7.859375925926
 
 >ms1
-279.0177 100
+
 
 >ms2
 279.0177 100
 
 >compound FTneg1852
 >ionization [M+?]-
->parentmass 283.061004247379
+>parentmass Inf
 >rt 7.86720690122518
 
 >ms1
-283.061 100
 
 >ms2
 55.0547 80
@@ -31074,55 +30726,54 @@
 
 >compound FTneg1853
 >ionization [M+?]-
->parentmass 295.081915946271
+>parentmass Inf
 >rt 7.8527251790461
 
 >ms1
-295.0819 100
+
 
 >ms2
 295.0819 100
 
 >compound FTneg1854
 >ionization [M+?]-
->parentmass 302.113664561294
+>parentmass Inf
 >rt 7.86162747906534
 
 >ms1
-302.1137 100
+
 
 >ms2
 302.1137 100
 
 >compound FTneg1855
 >ionization [M+?]-
->parentmass 335.076794307376
+>parentmass Inf
 >rt 7.86921486542676
 
 >ms1
-335.0768 100
+
 
 >ms2
 335.0768 100
 
 >compound FTneg1856
 >ionization [M+?]-
->parentmass 346.077712248356
+>parentmass Inf
 >rt 7.86774297061439
 
 >ms1
-346.0777 100
+
 
 >ms2
 346.0777 100
 
 >compound FTneg1857
 >ionization [M+?]-
->parentmass 351.069697015029
+>parentmass Inf
 >rt 7.86996774014498
 
 >ms1
-351.0697 100
 
 >ms2
 57.0719 13
@@ -31133,99 +30784,98 @@
 
 >compound FTneg1858
 >ionization [M+?]-
->parentmass 383.006886704709
+>parentmass Inf
 >rt 7.86948243427564
 
 >ms1
-383.0069 100
+
 
 >ms2
 383.0069 100
 
 >compound FTneg1859
 >ionization [M+?]-
->parentmass 410.134916065068
+>parentmass Inf
 >rt 7.88682526250118
 
 >ms1
-410.1349 100
+
 
 >ms2
 410.1349 100
 
 >compound FTneg1860
 >ionization [M+?]-
->parentmass 413.040281438315
+>parentmass Inf
 >rt 7.8685070352215
 
 >ms1
-413.0403 100
+
 
 >ms2
 413.0403 100
 
 >compound FTneg1861
 >ionization [M+?]-
->parentmass 428.007259682033
+>parentmass Inf
 >rt 7.86907371662929
 
 >ms1
-428.0073 100
+
 
 >ms2
 428.0073 100
 
 >compound FTneg1862
 >ionization [M+?]-
->parentmass 486.197807940963
+>parentmass Inf
 >rt 7.87576302317603
 
 >ms1
-486.1978 100
+
 
 >ms2
 486.1978 100
 
 >compound FTneg1863
 >ionization [M+?]-
->parentmass 503.270345066628
+>parentmass Inf
 >rt 7.82663000065789
 
 >ms1
-503.2703 100
+
 
 >ms2
 503.2703 100
 
 >compound FTneg1864
 >ionization [M+?]-
->parentmass 558.199342818295
+>parentmass Inf
 >rt 7.83561410256408
 
 >ms1
-558.1993 100
+
 
 >ms2
 558.1993 100
 
 >compound FTneg1865
 >ionization [M+?]-
->parentmass 675.34414055982
+>parentmass Inf
 >rt 7.88858677172636
 
 >ms1
-675.3441 100
+
 
 >ms2
 675.3441 100
 
 >compound FTneg1866
 >ionization [M+?]-
->parentmass 116.050398779371
+>parentmass Inf
 >rt 7.04323037703913
 
 >ms1
-116.0504 100
 
 >ms2
 50.2323 21
@@ -31280,11 +30930,10 @@
 
 >compound FTneg1867
 >ionization [M+?]-
->parentmass 142.06617995343
+>parentmass Inf
 >rt 7.0404152731219
 
 >ms1
-142.0662 100
 
 >ms2
 70.7221 40
@@ -31298,22 +30947,21 @@
 
 >compound FTneg1868
 >ionization [M+?]-
->parentmass 116.0504058127
+>parentmass Inf
 >rt 9.77041134726336
 
 >ms1
-116.0504 100
+
 
 >ms2
 116.0504 100
 
 >compound FTneg1869
 >ionization [M+?]-
->parentmass 412.021709113598
+>parentmass Inf
 >rt 1.86895554420225
 
 >ms1
-412.0217 100
 
 >ms2
 55.0541 40
@@ -31326,11 +30974,10 @@
 
 >compound FTneg1870
 >ionization [M+?]-
->parentmass 154.918772369531
+>parentmass Inf
 >rt 1.8791185797065
 
 >ms1
-154.9188 100
 
 >ms2
 54.0373 40
@@ -31373,11 +31020,10 @@
 
 >compound FTneg1871
 >ionization [M+?]-
->parentmass 116.071675260211
+>parentmass Inf
 >rt 1.88199852826426
 
 >ms1
-116.0717 100
 
 >ms2
 53.0405 13
@@ -31418,143 +31064,142 @@
 
 >compound FTneg1872
 >ionization [M+?]-
->parentmass 125.873223512712
+>parentmass Inf
 >rt 1.89029041536046
 
 >ms1
-125.8732 100
+
 
 >ms2
 125.8732 100
 
 >compound FTneg1873
 >ionization [M+?]-
->parentmass 174.030226165851
+>parentmass Inf
 >rt 1.88595982159652
 
 >ms1
-174.0302 100
+
 
 >ms2
 174.0302 100
 
 >compound FTneg1874
 >ionization [M+?]-
->parentmass 176.027416914058
+>parentmass Inf
 >rt 1.88870036339356
 
 >ms1
-176.0274 100
+
 
 >ms2
 176.0274 100
 
 >compound FTneg1875
 >ionization [M+?]-
->parentmass 184.058953271984
+>parentmass Inf
 >rt 1.8984056263747
 
 >ms1
-184.059 100
+
 
 >ms2
 184.059 100
 
 >compound FTneg1876
 >ionization [M+?]-
->parentmass 205.839662504456
+>parentmass Inf
 >rt 1.87578161860996
 
 >ms1
-205.8397 100
+
 
 >ms2
 205.8397 100
 
 >compound FTneg1877
 >ionization [M+?]-
->parentmass 207.836775571378
+>parentmass Inf
 >rt 1.88897137720546
 
 >ms1
-207.8368 100
+
 
 >ms2
 207.8368 100
 
 >compound FTneg1878
 >ionization [M+?]-
->parentmass 212.877754978164
+>parentmass Inf
 >rt 1.8866477777778
 
 >ms1
-212.8778 100
+
 
 >ms2
 212.8778 100
 
 >compound FTneg1879
 >ionization [M+?]-
->parentmass 214.874996144284
+>parentmass Inf
 >rt 1.89103518518522
 
 >ms1
-214.875 100
+
 
 >ms2
 214.875 100
 
 >compound FTneg1880
 >ionization [M+?]-
->parentmass 217.082330349137
+>parentmass Inf
 >rt 1.88362984986223
 
 >ms1
-217.0823 100
+
 
 >ms2
 217.0823 100
 
 >compound FTneg1881
 >ionization [M+?]-
->parentmass 225.061540010184
+>parentmass Inf
 >rt 1.91148645950834
 
 >ms1
-225.0615 100
+
 
 >ms2
 225.0615 100
 
 >compound FTneg1882
 >ionization [M+?]-
->parentmass 276.913119241413
+>parentmass Inf
 >rt 1.87517619047621
 
 >ms1
-276.9131 100
+
 
 >ms2
 276.9131 100
 
 >compound FTneg1883
 >ionization [M+?]-
->parentmass 278.910199289994
+>parentmass Inf
 >rt 1.84344947927197
 
 >ms1
-278.9102 100
+
 
 >ms2
 278.9102 100
 
 >compound FTneg1884
 >ionization [M+?]-
->parentmass 296.134820115029
+>parentmass Inf
 >rt 1.88816676978162
 
 >ms1
-296.1348 100
 
 >ms2
 55.0534 93
@@ -31572,110 +31217,109 @@
 
 >compound FTneg1885
 >ionization [M+?]-
->parentmass 334.982409522749
+>parentmass Inf
 >rt 1.91074799129044
 
 >ms1
-334.9824 100
+
 
 >ms2
 334.9824 100
 
 >compound FTneg1886
 >ionization [M+?]-
->parentmass 427.997290655903
+>parentmass Inf
 >rt 1.90816740242457
 
 >ms1
-427.9973 100
+
 
 >ms2
 427.9973 100
 
 >compound FTneg1887
 >ionization [M+?]-
->parentmass 428.046802508389
+>parentmass Inf
 >rt 1.892595812453
 
 >ms1
-428.0468 100
+
 
 >ms2
 428.0468 100
 
 >compound FTneg1888
 >ionization [M+?]-
->parentmass 467.945106521371
+>parentmass Inf
 >rt 1.86206759259267
 
 >ms1
-467.9451 100
+
 
 >ms2
 467.9451 100
 
 >compound FTneg1889
 >ionization [M+?]-
->parentmass 469.980462721124
+>parentmass Inf
 >rt 1.8823634405723
 
 >ms1
-469.9805 100
+
 
 >ms2
 469.9805 100
 
 >compound FTneg1890
 >ionization [M+?]-
->parentmass 471.977886999345
+>parentmass Inf
 >rt 1.8865949999999
 
 >ms1
-471.9779 100
+
 
 >ms2
 471.9779 100
 
 >compound FTneg1891
 >ionization [M+?]-
->parentmass 531.972429936052
+>parentmass Inf
 >rt 1.90387634618355
 
 >ms1
-531.9724 100
+
 
 >ms2
 531.9724 100
 
 >compound FTneg1892
 >ionization [M+?]-
->parentmass 592.085086307602
+>parentmass Inf
 >rt 1.89059736309189
 
 >ms1
-592.0851 100
+
 
 >ms2
 592.0851 100
 
 >compound FTneg1893
 >ionization [M+?]-
->parentmass 116.928313922696
+>parentmass Inf
 >rt 15.2663688690107
 
 >ms1
-116.9283 100
+
 
 >ms2
 116.9283 100
 
 >compound FTneg1894
 >ionization [M+?]-
->parentmass 116.928500514744
+>parentmass Inf
 >rt 18.506317069871
 
 >ms1
-116.9285 100
 
 >ms2
 53.0398 13
@@ -31690,77 +31334,76 @@
 
 >compound FTneg1895
 >ionization [M+?]-
->parentmass 146.960088023954
+>parentmass Inf
 >rt 18.6323393926642
 
 >ms1
-146.9601 100
+
 
 >ms2
 146.9601 100
 
 >compound FTneg1896
 >ionization [M+?]-
->parentmass 174.956146621053
+>parentmass Inf
 >rt 18.6458707713822
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg1897
 >ionization [M+?]-
->parentmass 178.977516251884
+>parentmass Inf
 >rt 18.5073885816747
 
 >ms1
-178.9775 100
+
 
 >ms2
 178.9775 100
 
 >compound FTneg1898
 >ionization [M+?]-
->parentmass 190.928536583671
+>parentmass Inf
 >rt 18.6788080511968
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg1899
 >ionization [M+?]-
->parentmass 194.825806473598
+>parentmass Inf
 >rt 18.6974963541667
 
 >ms1
-194.8258 100
+
 
 >ms2
 194.8258 100
 
 >compound FTneg1900
 >ionization [M+?]-
->parentmass 206.972350299126
+>parentmass Inf
 >rt 18.5569185917197
 
 >ms1
-206.9724 100
+
 
 >ms2
 206.9724 100
 
 >compound FTneg1901
 >ionization [M+?]-
->parentmass 240.910688739065
+>parentmass Inf
 >rt 18.493536224733
 
 >ms1
-240.9107 100
 
 >ms2
 51.0223 16
@@ -31780,132 +31423,130 @@
 
 >compound FTneg1902
 >ionization [M+?]-
->parentmass 320.886088710685
+>parentmass Inf
 >rt 18.6671673809369
 
 >ms1
-320.8861 100
+
 
 >ms2
 320.8861 100
 
 >compound FTneg1903
 >ionization [M+?]-
->parentmass 466.817612469581
+>parentmass Inf
 >rt 18.6571572959991
 
 >ms1
-466.8176 100
+
 
 >ms2
 466.8176 100
 
 >compound FTneg1904
 >ionization [M+?]-
->parentmass 116.928589088674
+>parentmass Inf
 >rt 0.792330778802507
 
 >ms1
-116.9286 100
+
 
 >ms2
 116.9286 100
 
 >compound FTneg1905
 >ionization [M+?]-
->parentmass 207.931296384699
+>parentmass Inf
 >rt 0.777228895564161
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg1906
 >ionization [M+?]-
->parentmass 235.926248582544
+>parentmass Inf
 >rt 0.760079252303444
 
 >ms1
-235.9262 100
+
 
 >ms2
 235.9262 100
 
 >compound FTneg1907
 >ionization [M+?]-
->parentmass 116.928596039362
+>parentmass Inf
 >rt 0.369154333759286
 
 >ms1
-116.9286 100
+
 
 >ms2
 116.9286 100
 
 >compound FTneg1908
 >ionization [M+?]-
->parentmass 207.931282016027
+>parentmass Inf
 >rt 0.371906774250953
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg1909
 >ionization [M+?]-
->parentmass 322.895974214717
+>parentmass Inf
 >rt 0.381856461170908
 
 >ms1
-322.896 100
+
 
 >ms2
 322.896 100
 
 >compound FTneg1910
 >ionization [M+?]-
->parentmass 116.928607565228
+>parentmass Inf
 >rt 0.865651185504893
 
 >ms1
-116.9286 100
+
 
 >ms2
 116.9286 100
 
 >compound FTneg1911
 >ionization [M+?]-
->parentmass 207.931278316281
+>parentmass Inf
 >rt 0.858760419580683
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg1912
 >ionization [M+?]-
->parentmass 272.958919388008
+>parentmass Inf
 >rt 1.43430693314205
 
 >ms1
-272.9589 100
 
 >ms2
 54.9428 20
 
 >compound FTneg1913
 >ionization [M+?]-
->parentmass 158.978516460365
+>parentmass Inf
 >rt 1.43469078552085
 
 >ms1
-158.9785 100
 
 >ms2
 55.0548 80
@@ -31948,66 +31589,64 @@
 
 >compound FTneg1914
 >ionization [M+?]-
->parentmass 304.909882654335
+>parentmass Inf
 >rt 1.42580840298362
 
 >ms1
-304.9099 100
+
 
 >ms2
 304.9099 100
 
 >compound FTneg1915
 >ionization [M+?]-
->parentmass 322.941464338382
+>parentmass Inf
 >rt 1.43274465537988
 
 >ms1
-322.9415 100
+
 
 >ms2
 322.9415 100
 
 >compound FTneg1916
 >ionization [M+?]-
->parentmass 116.984563924818
+>parentmass Inf
 >rt 1.41742817815417
 
 >ms1
-116.9846 100
+
 
 >ms2
 116.9846 100
 
 >compound FTneg1917
 >ionization [M+?]-
->parentmass 130.983655637683
+>parentmass Inf
 >rt 1.43173783349902
 
 >ms1
-130.9837 100
 
 >ms2
 61.0386 8
 
 >compound FTneg1918
 >ionization [M+?]-
->parentmass 148.951975974526
+>parentmass Inf
 >rt 1.43164411340219
 
 >ms1
-148.952 100
+
 
 >ms2
 148.952 100
 
 >compound FTneg1919
 >ionization [M+?]-
->parentmass 156.962926659343
+>parentmass Inf
 >rt 1.43344598565201
 
 >ms1
-156.9629 100
 
 >ms2
 53.0392 41
@@ -32383,11 +32022,10 @@
 
 >compound FTneg1920
 >ionization [M+?]-
->parentmass 158.961842906265
+>parentmass Inf
 >rt 1.42957421355437
 
 >ms1
-158.9618 100
 
 >ms2
 58.0233 40
@@ -32461,77 +32099,76 @@
 
 >compound FTneg1921
 >ionization [M+?]-
->parentmass 200.952820213165
+>parentmass Inf
 >rt 1.42678378454859
 
 >ms1
-200.9528 100
+
 
 >ms2
 200.9528 100
 
 >compound FTneg1922
 >ionization [M+?]-
->parentmass 208.960826299824
+>parentmass Inf
 >rt 1.43260584773976
 
 >ms1
-208.9608 100
+
 
 >ms2
 208.9608 100
 
 >compound FTneg1923
 >ionization [M+?]-
->parentmass 246.958828019534
+>parentmass Inf
 >rt 1.43048354937011
 
 >ms1
-246.9588 100
+
 
 >ms2
 246.9588 100
 
 >compound FTneg1924
 >ionization [M+?]-
->parentmass 275.906346398849
+>parentmass Inf
 >rt 1.42281859791889
 
 >ms1
-275.9063 100
+
 
 >ms2
 275.9063 100
 
 >compound FTneg1925
 >ionization [M+?]-
->parentmass 275.958263694957
+>parentmass Inf
 >rt 1.43258067474013
 
 >ms1
-275.9583 100
+
 
 >ms2
 275.9583 100
 
 >compound FTneg1926
 >ionization [M+?]-
->parentmass 276.910205912365
+>parentmass Inf
 >rt 1.47495380409345
 
 >ms1
-276.9102 100
+
 
 >ms2
 276.9102 100
 
 >compound FTneg1927
 >ionization [M+?]-
->parentmass 288.93638337861
+>parentmass Inf
 >rt 1.42415848097579
 
 >ms1
-288.9364 100
 
 >ms2
 51.9404 4
@@ -32563,143 +32200,141 @@
 
 >compound FTneg1928
 >ionization [M+?]-
->parentmass 289.942507266044
+>parentmass Inf
 >rt 1.42355170416445
 
 >ms1
-289.9425 100
+
 
 >ms2
 289.9425 100
 
 >compound FTneg1929
 >ionization [M+?]-
->parentmass 303.912091693942
+>parentmass Inf
 >rt 1.43551461546141
 
 >ms1
-303.9121 100
+
 
 >ms2
 303.9121 100
 
 >compound FTneg1930
 >ionization [M+?]-
->parentmass 306.908122723574
+>parentmass Inf
 >rt 1.42078686832284
 
 >ms1
-306.9081 100
+
 
 >ms2
 306.9081 100
 
 >compound FTneg1931
 >ionization [M+?]-
->parentmass 387.940345819789
+>parentmass Inf
 >rt 1.43072239676211
 
 >ms1
-387.9403 100
+
 
 >ms2
 387.9403 100
 
 >compound FTneg1932
 >ionization [M+?]-
->parentmass 388.93774988389
+>parentmass Inf
 >rt 1.43042480538266
 
 >ms1
-388.9377 100
+
 
 >ms2
 388.9377 100
 
 >compound FTneg1933
 >ionization [M+?]-
->parentmass 389.886466801161
+>parentmass Inf
 >rt 1.42589438696994
 
 >ms1
-389.8865 100
+
 
 >ms2
 389.8865 100
 
 >compound FTneg1934
 >ionization [M+?]-
->parentmass 404.914851653562
+>parentmass Inf
 >rt 1.43687923322278
 
 >ms1
-404.9149 100
+
 
 >ms2
 404.9149 100
 
 >compound FTneg1935
 >ionization [M+?]-
->parentmass 418.890677089292
+>parentmass Inf
 >rt 1.42322398458895
 
 >ms1
-418.8907 100
+
 
 >ms2
 418.8907 100
 
 >compound FTneg1936
 >ionization [M+?]-
->parentmass 117.030410079213
+>parentmass Inf
 >rt 6.49299467326497
 
 >ms1
-117.0304 100
+
 
 >ms2
 117.0304 100
 
 >compound FTneg1937
 >ionization [M+?]-
->parentmass 287.149743996101
+>parentmass Inf
 >rt 10.1292693358247
 
 >ms1
-287.1497 100
 
 >ms2
 56.0496 40
 
 >compound FTneg1938
 >ionization [M+?]-
->parentmass 369.218773695297
+>parentmass Inf
 >rt 10.1272331564191
 
 >ms1
-369.2188 100
+
 
 >ms2
 369.2188 100
 
 >compound FTneg1939
 >ionization [M+?]-
->parentmass 321.191646474274
+>parentmass Inf
 >rt 10.1320883792499
 
 >ms1
-321.1916 100
+
 
 >ms2
 321.1916 100
 
 >compound FTneg1940
 >ionization [M+?]-
->parentmass 117.070767672352
+>parentmass Inf
 >rt 10.1370810278818
 
 >ms1
-117.0708 100
 
 >ms2
 59.0484 40
@@ -32708,22 +32343,21 @@
 
 >compound FTneg1941
 >ionization [M+?]-
->parentmass 276.181520836582
+>parentmass Inf
 >rt 10.1473803330773
 
 >ms1
-276.1815 100
+
 
 >ms2
 276.1815 100
 
 >compound FTneg1942
 >ionization [M+?]-
->parentmass 278.915923756795
+>parentmass Inf
 >rt 10.141838838742
 
 >ms1
-278.9159 100
 
 >ms2
 57.0326 80
@@ -32746,22 +32380,21 @@
 
 >compound FTneg1943
 >ionization [M+?]-
->parentmass 308.098568110234
+>parentmass Inf
 >rt 10.1238125493785
 
 >ms1
-308.0986 100
+
 
 >ms2
 308.0986 100
 
 >compound FTneg1944
 >ionization [M+?]-
->parentmass 324.217780192112
+>parentmass Inf
 >rt 10.1259247179439
 
 >ms1
-324.2178 100
 
 >ms2
 55.0532 199
@@ -32780,11 +32413,10 @@
 
 >compound FTneg1945
 >ionization [M+?]-
->parentmass 373.132348085991
+>parentmass Inf
 >rt 10.120676458817
 
 >ms1
-373.1323 100
 
 >ms2
 55.0171 40
@@ -32893,44 +32525,43 @@
 
 >compound FTneg1946
 >ionization [M+?]-
->parentmass 419.029563503548
+>parentmass Inf
 >rt 10.124196497064
 
 >ms1
-419.0296 100
+
 
 >ms2
 419.0296 100
 
 >compound FTneg1947
 >ionization [M+?]-
->parentmass 463.209609151404
+>parentmass Inf
 >rt 10.1404469696969
 
 >ms1
-463.2096 100
+
 
 >ms2
 463.2096 100
 
 >compound FTneg1948
 >ionization [M+?]-
->parentmass 117.928857330985
+>parentmass Inf
 >rt 7.10770917634779
 
 >ms1
-117.9289 100
+
 
 >ms2
 117.9289 100
 
 >compound FTneg1949
 >ionization [M+?]-
->parentmass 293.091926941448
+>parentmass Inf
 >rt 7.15058527844594
 
 >ms1
-293.0919 100
 
 >ms2
 51.0223 20
@@ -32954,22 +32585,21 @@
 
 >compound FTneg1950
 >ionization [M+?]-
->parentmass 138.055763288611
+>parentmass Inf
 >rt 6.37280910191365
 
 >ms1
-138.0558 100
+
 
 >ms2
 138.0558 100
 
 >compound FTneg1951
 >ionization [M+?]-
->parentmass 118.059083807002
+>parentmass Inf
 >rt 6.3834835542978
 
 >ms1
-118.0591 100
 
 >ms2
 50.0141 10
@@ -33056,132 +32686,131 @@
 
 >compound FTneg1952
 >ionization [M+?]-
->parentmass 216.980158572337
+>parentmass Inf
 >rt 6.38341574074078
 
 >ms1
-216.9802 100
+
 
 >ms2
 216.9802 100
 
 >compound FTneg1953
 >ionization [M+?]-
->parentmass 261.980070153361
+>parentmass Inf
 >rt 6.37779617891999
 
 >ms1
-261.9801 100
+
 
 >ms2
 261.9801 100
 
 >compound FTneg1954
 >ionization [M+?]-
->parentmass 400.146522354487
+>parentmass Inf
 >rt 6.400503125
 
 >ms1
-400.1465 100
+
 
 >ms2
 400.1465 100
 
 >compound FTneg1955
 >ionization [M+?]-
->parentmass 190.928468968179
+>parentmass Inf
 >rt 18.8275981119534
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg1956
 >ionization [M+?]-
->parentmass 118.965617364771
+>parentmass Inf
 >rt 18.7867710787254
 
 >ms1
-118.9656 100
+
 
 >ms2
 118.9656 100
 
 >compound FTneg1957
 >ionization [M+?]-
->parentmass 174.956126886974
+>parentmass Inf
 >rt 18.7988684987162
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg1958
 >ionization [M+?]-
->parentmass 195.906860309852
+>parentmass Inf
 >rt 18.8268434775621
 
 >ms1
-195.9069 100
+
 
 >ms2
 195.9069 100
 
 >compound FTneg1959
 >ionization [M+?]-
->parentmass 231.931682129485
+>parentmass Inf
 >rt 18.835546800857
 
 >ms1
-231.9317 100
+
 
 >ms2
 231.9317 100
 
 >compound FTneg1960
 >ionization [M+?]-
->parentmass 320.886060201312
+>parentmass Inf
 >rt 18.8223975794694
 
 >ms1
-320.8861 100
+
 
 >ms2
 320.8861 100
 
 >compound FTneg1961
 >ionization [M+?]-
->parentmass 335.885388741132
+>parentmass Inf
 >rt 18.834227554557
 
 >ms1
-335.8854 100
+
 
 >ms2
 335.8854 100
 
 >compound FTneg1962
 >ionization [M+?]-
->parentmass 350.830278645458
+>parentmass Inf
 >rt 18.8181563744154
 
 >ms1
-350.8303 100
+
 
 >ms2
 350.8303 100
 
 >compound FTneg1963
 >ionization [M+?]-
->parentmass 163.039990377797
+>parentmass Inf
 >rt 8.49239221441208
 
 >ms1
-163.04 100
 
 >ms2
 56.0573 10
@@ -33214,22 +32843,21 @@
 
 >compound FTneg1964
 >ionization [M+?]-
->parentmass 663.380631290808
+>parentmass Inf
 >rt 8.48905187954168
 
 >ms1
-663.3806 100
+
 
 >ms2
 663.3806 100
 
 >compound FTneg1965
 >ionization [M+?]-
->parentmass 119.050141646246
+>parentmass Inf
 >rt 8.49291431175586
 
 >ms1
-119.0501 100
 
 >ms2
 53.4098 40
@@ -33291,44 +32919,43 @@
 
 >compound FTneg1966
 >ionization [M+?]-
->parentmass 407.097903531256
+>parentmass Inf
 >rt 8.4914439470819
 
 >ms1
-407.0979 100
+
 
 >ms2
 407.0979 100
 
 >compound FTneg1967
 >ionization [M+?]-
->parentmass 587.327323745993
+>parentmass Inf
 >rt 8.47795396825391
 
 >ms1
-587.3273 100
+
 
 >ms2
 587.3273 100
 
 >compound FTneg1968
 >ionization [M+?]-
->parentmass 943.532404768129
+>parentmass Inf
 >rt 8.4912593718076
 
 >ms1
-943.5324 100
+
 
 >ms2
 943.5324 100
 
 >compound FTneg1969
 >ionization [M+?]-
->parentmass 121.065620589655
+>parentmass Inf
 >rt 8.6881195099349
 
 >ms1
-121.0656 100
 
 >ms2
 51.023 40
@@ -33382,11 +33009,10 @@
 
 >compound FTneg1970
 >ionization [M+?]-
->parentmass 188.986402606003
+>parentmass Inf
 >rt 6.55633244486147
 
 >ms1
-188.9864 100
 
 >ms2
 51.0223 10
@@ -33400,22 +33026,20 @@
 
 >compound FTneg1971
 >ionization [M+?]-
->parentmass 123.044745757697
+>parentmass Inf
 >rt 6.58409840945948
 
 >ms1
-123.0447 100
 
 >ms2
 52.0014 40
 
 >compound FTneg1972
 >ionization [M+?]-
->parentmass 167.0347065476
+>parentmass Inf
 >rt 6.58822250718383
 
 >ms1
-167.0347 100
 
 >ms2
 57.0303 40
@@ -33438,66 +33062,65 @@
 
 >compound FTneg1973
 >ionization [M+?]-
->parentmass 188.969683582765
+>parentmass Inf
 >rt 6.55778250229181
 
 >ms1
-188.9697 100
+
 
 >ms2
 188.9697 100
 
 >compound FTneg1974
 >ionization [M+?]-
->parentmass 229.118414443796
+>parentmass Inf
 >rt 6.55418939393936
 
 >ms1
-229.1184 100
+
 
 >ms2
 229.1184 100
 
 >compound FTneg1975
 >ionization [M+?]-
->parentmass 288.911262271993
+>parentmass Inf
 >rt 6.57286704829088
 
 >ms1
-288.9113 100
+
 
 >ms2
 288.9113 100
 
 >compound FTneg1976
 >ionization [M+?]-
->parentmass 295.138959908034
+>parentmass Inf
 >rt 6.54694552919833
 
 >ms1
-295.139 100
+
 
 >ms2
 295.139 100
 
 >compound FTneg1977
 >ionization [M+?]-
->parentmass 299.134322443548
+>parentmass Inf
 >rt 6.57074966086696
 
 >ms1
-299.1343 100
+
 
 >ms2
 299.1343 100
 
 >compound FTneg1978
 >ionization [M+?]-
->parentmass 351.119189882487
+>parentmass Inf
 >rt 6.54942388389785
 
 >ms1
-351.1192 100
 
 >ms2
 50.0164 80
@@ -34023,22 +33646,21 @@
 
 >compound FTneg1979
 >ionization [M+?]-
->parentmass 377.108658599789
+>parentmass Inf
 >rt 6.57207135831766
 
 >ms1
-377.1087 100
+
 
 >ms2
 377.1087 100
 
 >compound FTneg1980
 >ionization [M+?]-
->parentmass 215.032745587837
+>parentmass Inf
 >rt 1.68714548132505
 
 >ms1
-215.0327 100
 
 >ms2
 53.0388 88
@@ -34084,11 +33706,10 @@
 
 >compound FTneg1981
 >ionization [M+?]-
->parentmass 124.007421522088
+>parentmass Inf
 >rt 1.67062522475191
 
 >ms1
-124.0074 100
 
 >ms2
 51.1018 40
@@ -34104,11 +33725,10 @@
 
 >compound FTneg1982
 >ionization [M+?]-
->parentmass 145.061748822443
+>parentmass Inf
 >rt 1.67582647145539
 
 >ms1
-145.0617 100
 
 >ms2
 57.0703 40
@@ -34121,11 +33741,10 @@
 
 >compound FTneg1983
 >ionization [M+?]-
->parentmass 175.024788718626
+>parentmass Inf
 >rt 1.70412978214428
 
 >ms1
-175.0248 100
 
 >ms2
 80.9291 42
@@ -34180,11 +33799,10 @@
 
 >compound FTneg1984
 >ionization [M+?]-
->parentmass 177.040033576056
+>parentmass Inf
 >rt 1.68180109762137
 
 >ms1
-177.04 100
 
 >ms2
 56.0566 40
@@ -34243,11 +33861,10 @@
 
 >compound FTneg1985
 >ionization [M+?]-
->parentmass 181.965943621502
+>parentmass Inf
 >rt 1.66138805147902
 
 >ms1
-181.9659 100
 
 >ms2
 60.0809 80
@@ -34275,11 +33892,10 @@
 
 >compound FTneg1986
 >ionization [M+?]-
->parentmass 193.035240461425
+>parentmass Inf
 >rt 1.68437266060647
 
 >ms1
-193.0352 100
 
 >ms2
 50.017 20
@@ -34297,22 +33913,21 @@
 
 >compound FTneg1987
 >ionization [M+?]-
->parentmass 195.050734769173
+>parentmass Inf
 >rt 1.68749556139125
 
 >ms1
-195.0507 100
+
 
 >ms2
 195.0507 100
 
 >compound FTneg1988
 >ionization [M+?]-
->parentmass 213.01712337097
+>parentmass Inf
 >rt 1.68268060171953
 
 >ms1
-213.0171 100
 
 >ms2
 55.053 283
@@ -34323,11 +33938,10 @@
 
 >compound FTneg1989
 >ionization [M+?]-
->parentmass 215.014195634724
+>parentmass Inf
 >rt 1.69351512313868
 
 >ms1
-215.0142 100
 
 >ms2
 50.0069 4
@@ -34367,22 +33981,21 @@
 
 >compound FTneg1990
 >ionization [M+?]-
->parentmass 219.034348508448
+>parentmass Inf
 >rt 1.68155187267022
 
 >ms1
-219.0343 100
+
 
 >ms2
 219.0343 100
 
 >compound FTneg1991
 >ionization [M+?]-
->parentmass 223.045870979322
+>parentmass Inf
 >rt 1.68715373639302
 
 >ms1
-223.0459 100
 
 >ms2
 53.0383 20
@@ -34392,11 +34005,10 @@
 
 >compound FTneg1992
 >ionization [M+?]-
->parentmass 247.022561779304
+>parentmass Inf
 >rt 1.68495927881596
 
 >ms1
-247.0226 100
 
 >ms2
 55.0548 20
@@ -34414,22 +34026,21 @@
 
 >compound FTneg1993
 >ionization [M+?]-
->parentmass 249.020426996126
+>parentmass Inf
 >rt 1.67698359232914
 
 >ms1
-249.0204 100
+
 
 >ms2
 249.0204 100
 
 >compound FTneg1994
 >ionization [M+?]-
->parentmass 272.991446884116
+>parentmass Inf
 >rt 1.67747084278584
 
 >ms1
-272.9914 100
 
 >ms2
 53.0387 243
@@ -34471,11 +34082,10 @@
 
 >compound FTneg1995
 >ionization [M+?]-
->parentmass 274.988530747458
+>parentmass Inf
 >rt 1.67781615731562
 
 >ms1
-274.9885 100
 
 >ms2
 54.0419 40
@@ -34487,22 +34097,21 @@
 
 >compound FTneg1996
 >ionization [M+?]-
->parentmass 276.986044834114
+>parentmass Inf
 >rt 1.66339579233305
 
 >ms1
-276.986 100
+
 
 >ms2
 276.986 100
 
 >compound FTneg1997
 >ionization [M+?]-
->parentmass 286.06061059598
+>parentmass Inf
 >rt 1.69048375120161
 
 >ms1
-286.0606 100
 
 >ms2
 50.0135 40
@@ -34533,11 +34142,10 @@
 
 >compound FTneg1998
 >ionization [M+?]-
->parentmass 304.070719954923
+>parentmass Inf
 >rt 1.67702165945713
 
 >ms1
-304.0707 100
 
 >ms2
 53.0384 81
@@ -34567,11 +34175,10 @@
 
 >compound FTneg1999
 >ionization [M+?]-
->parentmass 453.054864850101
+>parentmass Inf
 >rt 1.67715616076754
 
 >ms1
-453.0549 100
 
 >ms2
 50.0026 16
@@ -34583,22 +34190,21 @@
 
 >compound FTneg2000
 >ionization [M+?]-
->parentmass 454.05766932739
+>parentmass Inf
 >rt 1.68938467116371
 
 >ms1
-454.0577 100
+
 
 >ms2
 454.0577 100
 
 >compound FTneg2001
 >ionization [M+?]-
->parentmass 455.052273343051
+>parentmass Inf
 >rt 1.67613434655956
 
 >ms1
-455.0523 100
 
 >ms2
 60.0446 40
@@ -34608,11 +34214,10 @@
 
 >compound FTneg2002
 >ionization [M+?]-
->parentmass 124.015152876337
+>parentmass Inf
 >rt 2.84527991323935
 
 >ms1
-124.0152 100
 
 >ms2
 50.0019 40
@@ -34915,33 +34520,31 @@
 
 >compound FTneg2003
 >ionization [M+?]-
->parentmass 125.023786906532
+>parentmass Inf
 >rt 7.13644363054983
 
 >ms1
-125.0238 100
+
 
 >ms2
 125.0238 100
 
 >compound FTneg2004
 >ionization [M+?]-
->parentmass 220.065022886636
+>parentmass Inf
 >rt 7.10352566444588
 
 >ms1
-220.065 100
 
 >ms2
 55.0549 8
 
 >compound FTneg2005
 >ionization [M+?]-
->parentmass 507.118991004606
+>parentmass Inf
 >rt 7.11516065167473
 
 >ms1
-507.119 100
 
 >ms2
 55.0564 40
@@ -34986,33 +34589,32 @@
 
 >compound FTneg2006
 >ionization [M+?]-
->parentmass 815.238927566576
+>parentmass Inf
 >rt 7.12428481736272
 
 >ms1
-815.2389 100
+
 
 >ms2
 815.2389 100
 
 >compound FTneg2007
 >ionization [M+?]-
->parentmass 125.035161249149
+>parentmass Inf
 >rt 4.17974212756687
 
 >ms1
-125.0352 100
+
 
 >ms2
 125.0352 100
 
 >compound FTneg2008
 >ionization [M+?]-
->parentmass 220.061681402162
+>parentmass Inf
 >rt 7.63543069345266
 
 >ms1
-220.0617 100
 
 >ms2
 50.0156 8
@@ -35072,132 +34674,130 @@
 
 >compound FTneg2009
 >ionization [M+?]-
->parentmass 547.296737791773
+>parentmass Inf
 >rt 7.70325067066527
 
 >ms1
-547.2967 100
+
 
 >ms2
 547.2967 100
 
 >compound FTneg2010
 >ionization [M+?]-
->parentmass 125.873295512516
+>parentmass Inf
 >rt 7.64973426287603
 
 >ms1
-125.8733 100
+
 
 >ms2
 125.8733 100
 
 >compound FTneg2011
 >ionization [M+?]-
->parentmass 232.060985472933
+>parentmass Inf
 >rt 7.70115295544527
 
 >ms1
-232.061 100
+
 
 >ms2
 232.061 100
 
 >compound FTneg2012
 >ionization [M+?]-
->parentmass 242.996734324906
+>parentmass Inf
 >rt 7.80651013683817
 
 >ms1
-242.9967 100
 
 >ms2
 53.9392 40
 
 >compound FTneg2013
 >ionization [M+?]-
->parentmass 242.996777930921
+>parentmass Inf
 >rt 7.68964318547602
 
 >ms1
-242.9968 100
+
 
 >ms2
 242.9968 100
 
 >compound FTneg2014
 >ionization [M+?]-
->parentmass 287.18613508913
+>parentmass Inf
 >rt 7.70127220329243
 
 >ms1
-287.1861 100
+
 
 >ms2
 287.1861 100
 
 >compound FTneg2015
 >ionization [M+?]-
->parentmass 397.11314953758
+>parentmass Inf
 >rt 7.70473568402979
 
 >ms1
-397.1131 100
+
 
 >ms2
 397.1131 100
 
 >compound FTneg2016
 >ionization [M+?]-
->parentmass 443.115521055785
+>parentmass Inf
 >rt 7.65954302322361
 
 >ms1
-443.1155 100
+
 
 >ms2
 443.1155 100
 
 >compound FTneg2017
 >ionization [M+?]-
->parentmass 126.019615821268
+>parentmass Inf
 >rt 6.53108182039849
 
 >ms1
-126.0196 100
+
 
 >ms2
 126.0196 100
 
 >compound FTneg2018
 >ionization [M+?]-
->parentmass 345.081523514146
+>parentmass Inf
 >rt 6.5495605757074
 
 >ms1
-345.0815 100
+
 
 >ms2
 345.0815 100
 
 >compound FTneg2019
 >ionization [M+?]-
->parentmass 412.115855392388
+>parentmass Inf
 >rt 6.5635130134494
 
 >ms1
-412.1159 100
+
 
 >ms2
 412.1159 100
 
 >compound FTneg2020
 >ionization [M+?]-
->parentmass 180.899590343994
+>parentmass Inf
 >rt 18.35946943233
 
 >ms1
-180.8996 100
 
 >ms2
 60.081 20
@@ -35212,11 +34812,10 @@
 
 >compound FTneg2021
 >ionization [M+?]-
->parentmass 394.890584161924
+>parentmass Inf
 >rt 18.3429264294097
 
 >ms1
-394.8906 100
 
 >ms2
 56.0488 20
@@ -35234,11 +34833,10 @@
 
 >compound FTneg2022
 >ionization [M+?]-
->parentmass 162.839027624756
+>parentmass Inf
 >rt 18.3458176276649
 
 >ms1
-162.839 100
 
 >ms2
 86.0994 40
@@ -35257,11 +34855,10 @@
 
 >compound FTneg2023
 >ionization [M+?]-
->parentmass 326.903110101228
+>parentmass Inf
 >rt 18.3495864752337
 
 >ms1
-326.9031 100
 
 >ms2
 54.846 41
@@ -35406,11 +35003,10 @@
 
 >compound FTneg2024
 >ionization [M+?]-
->parentmass 316.873898003904
+>parentmass Inf
 >rt 18.3524624089999
 
 >ms1
-316.8739 100
 
 >ms2
 51.0238 4
@@ -35453,11 +35049,10 @@
 
 >compound FTneg2025
 >ionization [M+?]-
->parentmass 258.915745743915
+>parentmass Inf
 >rt 18.3619423591678
 
 >ms1
-258.9157 100
 
 >ms2
 53.0442 40
@@ -35477,11 +35072,10 @@
 
 >compound FTneg2026
 >ionization [M+?]-
->parentmass 472.833412177759
+>parentmass Inf
 >rt 18.3520241555445
 
 >ms1
-472.8334 100
 
 >ms2
 55.0541 4
@@ -35491,11 +35085,10 @@
 
 >compound FTneg2027
 >ionization [M+?]-
->parentmass 384.861611480665
+>parentmass Inf
 >rt 18.3414408340234
 
 >ms1
-384.8616 100
 
 >ms2
 55.0534 80
@@ -35533,22 +35126,21 @@
 
 >compound FTneg2028
 >ionization [M+?]-
->parentmass 403.849143024779
+>parentmass Inf
 >rt 18.3577193908915
 
 >ms1
-403.8491 100
+
 
 >ms2
 403.8491 100
 
 >compound FTneg2029
 >ionization [M+?]-
->parentmass 462.804632050386
+>parentmass Inf
 >rt 18.3488101909688
 
 >ms1
-462.8046 100
 
 >ms2
 74.0849 40
@@ -35559,44 +35151,43 @@
 
 >compound FTneg2030
 >ionization [M+?]-
->parentmass 540.820937675516
+>parentmass Inf
 >rt 18.3483342358866
 
 >ms1
-540.8209 100
+
 
 >ms2
 540.8209 100
 
 >compound FTneg2031
 >ionization [M+?]-
->parentmass 938.53568493361
+>parentmass Inf
 >rt 18.355098611111
 
 >ms1
-938.5357 100
+
 
 >ms2
 938.5357 100
 
 >compound FTneg2032
 >ionization [M+?]-
->parentmass 128.87805653701
+>parentmass Inf
 >rt 18.347379779295
 
 >ms1
-128.8781 100
+
 
 >ms2
 128.8781 100
 
 >compound FTneg2033
 >ionization [M+?]-
->parentmass 136.909579954045
+>parentmass Inf
 >rt 18.3583770125135
 
 >ms1
-136.9096 100
 
 >ms2
 51.0026 20
@@ -35673,22 +35264,21 @@
 
 >compound FTneg2034
 >ionization [M+?]-
->parentmass 138.906791328055
+>parentmass Inf
 >rt 18.35519107951
 
 >ms1
-138.9068 100
+
 
 >ms2
 138.9068 100
 
 >compound FTneg2035
 >ionization [M+?]-
->parentmass 160.842095200197
+>parentmass Inf
 >rt 18.3453801879909
 
 >ms1
-160.8421 100
 
 >ms2
 73.0466 412
@@ -35780,22 +35370,21 @@
 
 >compound FTneg2036
 >ionization [M+?]-
->parentmass 164.92719452016
+>parentmass Inf
 >rt 18.3644015502034
 
 >ms1
-164.9272 100
+
 
 >ms2
 164.9272 100
 
 >compound FTneg2037
 >ionization [M+?]-
->parentmass 170.870764098018
+>parentmass Inf
 >rt 18.3492275866614
 
 >ms1
-170.8708 100
 
 >ms2
 58.0636 40
@@ -35818,11 +35407,10 @@
 
 >compound FTneg2038
 >ionization [M+?]-
->parentmass 172.867871576527
+>parentmass Inf
 >rt 18.3492916401177
 
 >ms1
-172.8679 100
 
 >ms2
 51.0209 40
@@ -36033,253 +35621,252 @@
 
 >compound FTneg2039
 >ionization [M+?]-
->parentmass 180.972904134156
+>parentmass Inf
 >rt 18.3776370427719
 
 >ms1
-180.9729 100
+
 
 >ms2
 180.9729 100
 
 >compound FTneg2040
 >ionization [M+?]-
->parentmass 242.943321161482
+>parentmass Inf
 >rt 18.3546583147349
 
 >ms1
-242.9433 100
+
 
 >ms2
 242.9433 100
 
 >compound FTneg2041
 >ionization [M+?]-
->parentmass 248.886977701437
+>parentmass Inf
 >rt 18.3486306922152
 
 >ms1
-248.887 100
+
 
 >ms2
 248.887 100
 
 >compound FTneg2042
 >ionization [M+?]-
->parentmass 250.885244934659
+>parentmass Inf
 >rt 18.3496614707246
 
 >ms1
-250.8852 100
+
 
 >ms2
 250.8852 100
 
 >compound FTneg2043
 >ionization [M+?]-
->parentmass 257.918781932423
+>parentmass Inf
 >rt 18.367912406313
 
 >ms1
-257.9188 100
+
 
 >ms2
 257.9188 100
 
 >compound FTneg2044
 >ionization [M+?]-
->parentmass 298.834737443184
+>parentmass Inf
 >rt 18.3623885670091
 
 >ms1
-298.8347 100
+
 
 >ms2
 298.8347 100
 
 >compound FTneg2045
 >ionization [M+?]-
->parentmass 299.918491265691
+>parentmass Inf
 >rt 18.3651018601503
 
 >ms1
-299.9185 100
+
 
 >ms2
 299.9185 100
 
 >compound FTneg2046
 >ionization [M+?]-
->parentmass 300.83246886016
+>parentmass Inf
 >rt 18.3578452787373
 
 >ms1
-300.8325 100
+
 
 >ms2
 300.8325 100
 
 >compound FTneg2047
 >ionization [M+?]-
->parentmass 300.901796003941
+>parentmass Inf
 >rt 18.3445108379476
 
 >ms1
-300.9018 100
+
 
 >ms2
 300.9018 100
 
 >compound FTneg2048
 >ionization [M+?]-
->parentmass 306.84558032679
+>parentmass Inf
 >rt 18.3412655554977
 
 >ms1
-306.8456 100
+
 
 >ms2
 306.8456 100
 
 >compound FTneg2049
 >ionization [M+?]-
->parentmass 310.93063058585
+>parentmass Inf
 >rt 18.3494454541587
 
 >ms1
-310.9306 100
+
 
 >ms2
 310.9306 100
 
 >compound FTneg2050
 >ionization [M+?]-
->parentmass 315.877041897081
+>parentmass Inf
 >rt 18.3630575757575
 
 >ms1
-315.877 100
+
 
 >ms2
 315.877 100
 
 >compound FTneg2051
 >ionization [M+?]-
->parentmass 316.80126158952
+>parentmass Inf
 >rt 18.3536483839529
 
 >ms1
-316.8013 100
+
 
 >ms2
 316.8013 100
 
 >compound FTneg2052
 >ionization [M+?]-
->parentmass 318.798685164864
+>parentmass Inf
 >rt 18.3532597587735
 
 >ms1
-318.7987 100
+
 
 >ms2
 318.7987 100
 
 >compound FTneg2053
 >ionization [M+?]-
->parentmass 325.906098325558
+>parentmass Inf
 >rt 18.3509841089682
 
 >ms1
-325.9061 100
+
 
 >ms2
 325.9061 100
 
 >compound FTneg2054
 >ionization [M+?]-
->parentmass 330.826917202143
+>parentmass Inf
 >rt 18.3614304190803
 
 >ms1
-330.8269 100
+
 
 >ms2
 330.8269 100
 
 >compound FTneg2055
 >ionization [M+?]-
->parentmass 342.877442183019
+>parentmass Inf
 >rt 18.3576192160431
 
 >ms1
-342.8774 100
+
 
 >ms2
 342.8774 100
 
 >compound FTneg2056
 >ionization [M+?]-
->parentmass 366.82197257117
+>parentmass Inf
 >rt 18.3500493974092
 
 >ms1
-366.822 100
+
 
 >ms2
 366.822 100
 
 >compound FTneg2057
 >ionization [M+?]-
->parentmass 368.888883144146
+>parentmass Inf
 >rt 18.3429933861939
 
 >ms1
-368.8889 100
+
 
 >ms2
 368.8889 100
 
 >compound FTneg2058
 >ionization [M+?]-
->parentmass 378.845231784645
+>parentmass Inf
 >rt 18.3530925690827
 
 >ms1
-378.8452 100
+
 
 >ms2
 378.8452 100
 
 >compound FTneg2059
 >ionization [M+?]-
->parentmass 378.917924088442
+>parentmass Inf
 >rt 18.3434014420248
 
 >ms1
-378.9179 100
+
 
 >ms2
 378.9179 100
 
 >compound FTneg2060
 >ionization [M+?]-
->parentmass 386.859944413403
+>parentmass Inf
 >rt 18.3414938706304
 
 >ms1
-386.8599 100
+
 
 >ms2
 386.8599 100
 
 >compound FTneg2061
 >ionization [M+?]-
->parentmass 388.872983959647
+>parentmass Inf
 >rt 18.3619083044693
 
 >ms1
-388.873 100
 
 >ms2
 57.0692 120
@@ -36294,99 +35881,98 @@
 
 >compound FTneg2062
 >ionization [M+?]-
->parentmass 390.875929345923
+>parentmass Inf
 >rt 18.3496435597182
 
 >ms1
-390.8759 100
+
 
 >ms2
 390.8759 100
 
 >compound FTneg2063
 >ionization [M+?]-
->parentmass 393.820712542437
+>parentmass Inf
 >rt 18.3518521522483
 
 >ms1
-393.8207 100
+
 
 >ms2
 393.8207 100
 
 >compound FTneg2064
 >ionization [M+?]-
->parentmass 393.893242207789
+>parentmass Inf
 >rt 18.3436621677462
 
 >ms1
-393.8932 100
+
 
 >ms2
 393.8932 100
 
 >compound FTneg2065
 >ionization [M+?]-
->parentmass 394.817595057981
+>parentmass Inf
 >rt 18.3528563997384
 
 >ms1
-394.8176 100
+
 
 >ms2
 394.8176 100
 
 >compound FTneg2066
 >ionization [M+?]-
->parentmass 396.816233709609
+>parentmass Inf
 >rt 18.3541685680008
 
 >ms1
-396.8162 100
+
 
 >ms2
 396.8162 100
 
 >compound FTneg2067
 >ionization [M+?]-
->parentmass 400.83560211801
+>parentmass Inf
 >rt 18.344378679171
 
 >ms1
-400.8356 100
+
 
 >ms2
 400.8356 100
 
 >compound FTneg2068
 >ionization [M+?]-
->parentmass 405.849663132443
+>parentmass Inf
 >rt 18.3604753792091
 
 >ms1
-405.8497 100
+
 
 >ms2
 405.8497 100
 
 >compound FTneg2069
 >ionization [M+?]-
->parentmass 410.864703049001
+>parentmass Inf
 >rt 18.344799758842
 
 >ms1
-410.8647 100
+
 
 >ms2
 410.8647 100
 
 >compound FTneg2070
 >ionization [M+?]-
->parentmass 411.880103804155
+>parentmass Inf
 >rt 18.337223820453
 
 >ms1
-411.8801 100
 
 >ms2
 55.0178 20
@@ -36406,33 +35992,32 @@
 
 >compound FTneg2071
 >ionization [M+?]-
->parentmass 448.831670224184
+>parentmass Inf
 >rt 18.3481492072772
 
 >ms1
-448.8317 100
+
 
 >ms2
 448.8317 100
 
 >compound FTneg2072
 >ionization [M+?]-
->parentmass 452.775949976955
+>parentmass Inf
 >rt 18.3443225892933
 
 >ms1
-452.7759 100
+
 
 >ms2
 452.7759 100
 
 >compound FTneg2073
 >ionization [M+?]-
->parentmass 452.848866813336
+>parentmass Inf
 >rt 18.3413096743284
 
 >ms1
-452.8489 100
 
 >ms2
 54.2738 40
@@ -36483,440 +36068,439 @@
 
 >compound FTneg2074
 >ionization [M+?]-
->parentmass 454.77413908696
+>parentmass Inf
 >rt 18.345495836483
 
 >ms1
-454.7741 100
+
 
 >ms2
 454.7741 100
 
 >compound FTneg2075
 >ionization [M+?]-
->parentmass 456.860010973372
+>parentmass Inf
 >rt 18.3517572790494
 
 >ms1
-456.86 100
+
 
 >ms2
 456.86 100
 
 >compound FTneg2076
 >ionization [M+?]-
->parentmass 461.807525399506
+>parentmass Inf
 >rt 18.3481615535945
 
 >ms1
-461.8075 100
+
 
 >ms2
 461.8075 100
 
 >compound FTneg2077
 >ionization [M+?]-
->parentmass 462.87800083695
+>parentmass Inf
 >rt 18.3417552566798
 
 >ms1
-462.878 100
+
 
 >ms2
 462.878 100
 
 >compound FTneg2078
 >ionization [M+?]-
->parentmass 470.837346022705
+>parentmass Inf
 >rt 18.3521139943399
 
 >ms1
-470.8373 100
+
 
 >ms2
 470.8373 100
 
 >compound FTneg2079
 >ionization [M+?]-
->parentmass 471.836510819729
+>parentmass Inf
 >rt 18.3519338463792
 
 >ms1
-471.8365 100
+
 
 >ms2
 471.8365 100
 
 >compound FTneg2080
 >ionization [M+?]-
->parentmass 476.829497157339
+>parentmass Inf
 >rt 18.3541982343466
 
 >ms1
-476.8295 100
+
 
 >ms2
 476.8295 100
 
 >compound FTneg2081
 >ionization [M+?]-
->parentmass 478.777827576508
+>parentmass Inf
 >rt 18.355341944169
 
 >ms1
-478.7778 100
+
 
 >ms2
 478.7778 100
 
 >compound FTneg2082
 >ionization [M+?]-
->parentmass 480.792656493883
+>parentmass Inf
 >rt 18.3767897737376
 
 >ms1
-480.7927 100
+
 
 >ms2
 480.7927 100
 
 >compound FTneg2083
 >ionization [M+?]-
->parentmass 488.807877358358
+>parentmass Inf
 >rt 18.3539740862317
 
 >ms1
-488.8079 100
+
 
 >ms2
 488.8079 100
 
 >compound FTneg2084
 >ionization [M+?]-
->parentmass 514.818266151736
+>parentmass Inf
 >rt 18.3466753814498
 
 >ms1
-514.8183 100
+
 
 >ms2
 514.8183 100
 
 >compound FTneg2085
 >ionization [M+?]-
->parentmass 522.762339329717
+>parentmass Inf
 >rt 18.3458793333969
 
 >ms1
-522.7623 100
+
 
 >ms2
 522.7623 100
 
 >compound FTneg2086
 >ionization [M+?]-
->parentmass 524.847676148905
+>parentmass Inf
 >rt 18.3473945577868
 
 >ms1
-524.8477 100
+
 
 >ms2
 524.8477 100
 
 >compound FTneg2087
 >ionization [M+?]-
->parentmass 526.774900577534
+>parentmass Inf
 >rt 18.3516321585226
 
 >ms1
-526.7749 100
+
 
 >ms2
 526.7749 100
 
 >compound FTneg2088
 >ionization [M+?]-
->parentmass 530.791921429758
+>parentmass Inf
 >rt 18.3463936736454
 
 >ms1
-530.7919 100
+
 
 >ms2
 530.7919 100
 
 >compound FTneg2089
 >ionization [M+?]-
->parentmass 532.792036488764
+>parentmass Inf
 >rt 18.3469127592953
 
 >ms1
-532.792 100
+
 
 >ms2
 532.792 100
 
 >compound FTneg2090
 >ionization [M+?]-
->parentmass 536.805972344154
+>parentmass Inf
 >rt 18.3495227272727
 
 >ms1
-536.806 100
+
 
 >ms2
 536.806 100
 
 >compound FTneg2091
 >ionization [M+?]-
->parentmass 539.823884265658
+>parentmass Inf
 >rt 18.3482694584133
 
 >ms1
-539.8239 100
+
 
 >ms2
 539.8239 100
 
 >compound FTneg2092
 >ionization [M+?]-
->parentmass 542.821800197996
+>parentmass Inf
 >rt 18.3477432439533
 
 >ms1
-542.8218 100
+
 
 >ms2
 542.8218 100
 
 >compound FTneg2093
 >ionization [M+?]-
->parentmass 588.749658168709
+>parentmass Inf
 >rt 18.3456944661827
 
 >ms1
-588.7497 100
+
 
 >ms2
 588.7497 100
 
 >compound FTneg2094
 >ionization [M+?]-
->parentmass 592.761514196738
+>parentmass Inf
 >rt 18.3518627639654
 
 >ms1
-592.7615 100
+
 
 >ms2
 592.7615 100
 
 >compound FTneg2095
 >ionization [M+?]-
->parentmass 594.763896479531
+>parentmass Inf
 >rt 18.3455836461504
 
 >ms1
-594.7639 100
+
 
 >ms2
 594.7639 100
 
 >compound FTneg2096
 >ionization [M+?]-
->parentmass 606.733799582786
+>parentmass Inf
 >rt 18.3533748654497
 
 >ms1
-606.7338 100
+
 
 >ms2
 606.7338 100
 
 >compound FTneg2097
 >ionization [M+?]-
->parentmass 608.734944968169
+>parentmass Inf
 >rt 18.3505368045968
 
 >ms1
-608.7349 100
+
 
 >ms2
 608.7349 100
 
 >compound FTneg2098
 >ionization [M+?]-
->parentmass 608.808532332163
+>parentmass Inf
 >rt 18.3455151567568
 
 >ms1
-608.8085 100
+
 
 >ms2
 608.8085 100
 
 >compound FTneg2099
 >ionization [M+?]-
->parentmass 610.735032545642
+>parentmass Inf
 >rt 18.3498011460216
 
 >ms1
-610.735 100
+
 
 >ms2
 610.735 100
 
 >compound FTneg2100
 >ionization [M+?]-
->parentmass 612.743956639756
+>parentmass Inf
 >rt 18.3714655070535
 
 >ms1
-612.744 100
+
 
 >ms2
 612.744 100
 
 >compound FTneg2101
 >ionization [M+?]-
->parentmass 860.519660563457
+>parentmass Inf
 >rt 18.3560702380953
 
 >ms1
-860.5197 100
+
 
 >ms2
 860.5197 100
 
 >compound FTneg2102
 >ionization [M+?]-
->parentmass 884.519055637045
+>parentmass Inf
 >rt 18.3544555202556
 
 >ms1
-884.5191 100
+
 
 >ms2
 884.5191 100
 
 >compound FTneg2103
 >ionization [M+?]-
->parentmass 888.549681394221
+>parentmass Inf
 >rt 18.36250674767
 
 >ms1
-888.5497 100
+
 
 >ms2
 888.5497 100
 
 >compound FTneg2104
 >ionization [M+?]-
->parentmass 928.507420875126
+>parentmass Inf
 >rt 18.3477208333333
 
 >ms1
-928.5074 100
+
 
 >ms2
 928.5074 100
 
 >compound FTneg2105
 >ionization [M+?]-
->parentmass 946.577453676309
+>parentmass Inf
 >rt 18.3639069444444
 
 >ms1
-946.5775 100
+
 
 >ms2
 946.5775 100
 
 >compound FTneg2106
 >ionization [M+?]-
->parentmass 953.532661704091
+>parentmass Inf
 >rt 18.3614409090908
 
 >ms1
-953.5327 100
+
 
 >ms2
 953.5327 100
 
 >compound FTneg2107
 >ionization [M+?]-
->parentmass 954.501682782678
+>parentmass Inf
 >rt 18.3742292533049
 
 >ms1
-954.5017 100
+
 
 >ms2
 954.5017 100
 
 >compound FTneg2108
 >ionization [M+?]-
->parentmass 966.564976258307
+>parentmass Inf
 >rt 18.3550171899501
 
 >ms1
-966.565 100
+
 
 >ms2
 966.565 100
 
 >compound FTneg2109
 >ionization [M+?]-
->parentmass 127.039662370673
+>parentmass Inf
 >rt 2.81524922343873
 
 >ms1
-127.0397 100
+
 
 >ms2
 127.0397 100
 
 >compound FTneg2110
 >ionization [M+?]-
->parentmass 127.039816321544
+>parentmass Inf
 >rt 1.15284204598655
 
 >ms1
-127.0398 100
+
 
 >ms2
 127.0398 100
 
 >compound FTneg2111
 >ionization [M+?]-
->parentmass 207.931328263701
+>parentmass Inf
 >rt 1.14429472023894
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg2112
 >ionization [M+?]-
->parentmass 235.92625236505
+>parentmass Inf
 >rt 1.13209870840514
 
 >ms1
-235.9263 100
+
 
 >ms2
 235.9263 100
 
 >compound FTneg2113
 >ionization [M+?]-
->parentmass 272.023181614027
+>parentmass Inf
 >rt 8.17711921461351
 
 >ms1
-272.0232 100
 
 >ms2
 50.0156 4
@@ -36924,11 +36508,10 @@
 
 >compound FTneg2114
 >ionization [M+?]-
->parentmass 171.066222666038
+>parentmass Inf
 >rt 8.19448439224946
 
 >ms1
-171.0662 100
 
 >ms2
 57.0342 40
@@ -36979,44 +36562,43 @@
 
 >compound FTneg2115
 >ionization [M+?]-
->parentmass 349.092303810081
+>parentmass Inf
 >rt 8.12003567342669
 
 >ms1
-349.0923 100
+
 
 >ms2
 349.0923 100
 
 >compound FTneg2116
 >ionization [M+?]-
->parentmass 695.175953344634
+>parentmass Inf
 >rt 8.17558550113352
 
 >ms1
-695.176 100
+
 
 >ms2
 695.176 100
 
 >compound FTneg2117
 >ionization [M+?]-
->parentmass 807.422388218388
+>parentmass Inf
 >rt 8.184181224658
 
 >ms1
-807.4224 100
+
 
 >ms2
 807.4224 100
 
 >compound FTneg2118
 >ionization [M+?]-
->parentmass 127.076359531206
+>parentmass Inf
 >rt 8.19438999771955
 
 >ms1
-127.0764 100
 
 >ms2
 50.0119 4
@@ -37057,77 +36639,76 @@
 
 >compound FTneg2119
 >ionization [M+?]-
->parentmass 169.086873533939
+>parentmass Inf
 >rt 8.16741197963775
 
 >ms1
-169.0869 100
+
 
 >ms2
 169.0869 100
 
 >compound FTneg2120
 >ionization [M+?]-
->parentmass 171.102354611316
+>parentmass Inf
 >rt 8.22703859573283
 
 >ms1
-171.1024 100
+
 
 >ms2
 171.1024 100
 
 >compound FTneg2121
 >ionization [M+?]-
->parentmass 179.070707499877
+>parentmass Inf
 >rt 8.19204550366373
 
 >ms1
-179.0707 100
+
 
 >ms2
 179.0707 100
 
 >compound FTneg2122
 >ionization [M+?]-
->parentmass 187.097259769208
+>parentmass Inf
 >rt 8.17363170881787
 
 >ms1
-187.0973 100
+
 
 >ms2
 187.0973 100
 
 >compound FTneg2123
 >ionization [M+?]-
->parentmass 211.097049721405
+>parentmass Inf
 >rt 8.19247933934138
 
 >ms1
-211.097 100
+
 
 >ms2
 211.097 100
 
 >compound FTneg2124
 >ionization [M+?]-
->parentmass 228.033106734254
+>parentmass Inf
 >rt 8.18560509321044
 
 >ms1
-228.0331 100
+
 
 >ms2
 228.0331 100
 
 >compound FTneg2125
 >ionization [M+?]-
->parentmass 239.001891977744
+>parentmass Inf
 >rt 8.17565499369657
 
 >ms1
-239.0019 100
 
 >ms2
 50.0152 70
@@ -37178,198 +36759,197 @@
 
 >compound FTneg2126
 >ionization [M+?]-
->parentmass 239.056774828116
+>parentmass Inf
 >rt 8.18419007926143
 
 >ms1
-239.0568 100
+
 
 >ms2
 239.0568 100
 
 >compound FTneg2127
 >ionization [M+?]-
->parentmass 239.091042712838
+>parentmass Inf
 >rt 8.14313689460479
 
 >ms1
-239.091 100
+
 
 >ms2
 239.091 100
 
 >compound FTneg2128
 >ionization [M+?]-
->parentmass 244.118622392607
+>parentmass Inf
 >rt 8.18871397058716
 
 >ms1
-244.1186 100
+
 
 >ms2
 244.1186 100
 
 >compound FTneg2129
 >ionization [M+?]-
->parentmass 255.086491586678
+>parentmass Inf
 >rt 8.16379896186864
 
 >ms1
-255.0865 100
+
 
 >ms2
 255.0865 100
 
 >compound FTneg2130
 >ionization [M+?]-
->parentmass 270.990952764567
+>parentmass Inf
 >rt 8.19501955793225
 
 >ms1
-270.991 100
+
 
 >ms2
 270.991 100
 
 >compound FTneg2131
 >ionization [M+?]-
->parentmass 288.12668870127
+>parentmass Inf
 >rt 8.16081630058386
 
 >ms1
-288.1267 100
+
 
 >ms2
 288.1267 100
 
 >compound FTneg2132
 >ionization [M+?]-
->parentmass 301.074161123822
+>parentmass Inf
 >rt 8.13840372441756
 
 >ms1
-301.0742 100
+
 
 >ms2
 301.0742 100
 
 >compound FTneg2133
 >ionization [M+?]-
->parentmass 305.122713828045
+>parentmass Inf
 >rt 8.18360180815508
 
 >ms1
-305.1227 100
+
 
 >ms2
 305.1227 100
 
 >compound FTneg2134
 >ionization [M+?]-
->parentmass 305.155248302873
+>parentmass Inf
 >rt 8.16660260973734
 
 >ms1
-305.1552 100
+
 
 >ms2
 305.1552 100
 
 >compound FTneg2135
 >ionization [M+?]-
->parentmass 327.107975158339
+>parentmass Inf
 >rt 8.18309072541391
 
 >ms1
-327.108 100
+
 
 >ms2
 327.108 100
 
 >compound FTneg2136
 >ionization [M+?]-
->parentmass 336.148007302884
+>parentmass Inf
 >rt 8.16320041370436
 
 >ms1
-336.148 100
+
 
 >ms2
 336.148 100
 
 >compound FTneg2137
 >ionization [M+?]-
->parentmass 397.148444930734
+>parentmass Inf
 >rt 8.10540244637742
 
 >ms1
-397.1484 100
+
 
 >ms2
 397.1484 100
 
 >compound FTneg2138
 >ionization [M+?]-
->parentmass 415.179552401241
+>parentmass Inf
 >rt 8.23754605795311
 
 >ms1
-415.1796 100
+
 
 >ms2
 415.1796 100
 
 >compound FTneg2139
 >ionization [M+?]-
->parentmass 441.233224070823
+>parentmass Inf
 >rt 8.18911751170688
 
 >ms1
-441.2332 100
+
 
 >ms2
 441.2332 100
 
 >compound FTneg2140
 >ionization [M+?]-
->parentmass 445.043578013411
+>parentmass Inf
 >rt 8.20650699042106
 
 >ms1
-445.0436 100
+
 
 >ms2
 445.0436 100
 
 >compound FTneg2141
 >ionization [M+?]-
->parentmass 563.290541605024
+>parentmass Inf
 >rt 8.09524215686271
 
 >ms1
-563.2905 100
+
 
 >ms2
 563.2905 100
 
 >compound FTneg2142
 >ionization [M+?]-
->parentmass 127.467185550512
+>parentmass Inf
 >rt 8.69567047619054
 
 >ms1
-127.4672 100
+
 
 >ms2
 127.4672 100
 
 >compound FTneg2143
 >ionization [M+?]-
->parentmass 201.076846394679
+>parentmass Inf
 >rt 8.72822544335533
 
 >ms1
-201.0768 100
 
 >ms2
 50.0134 20
@@ -37415,33 +36995,32 @@
 
 >compound FTneg2144
 >ionization [M+?]-
->parentmass 281.224977522075
+>parentmass Inf
 >rt 8.68536052631584
 
 >ms1
-281.225 100
+
 
 >ms2
 281.225 100
 
 >compound FTneg2145
 >ionization [M+?]-
->parentmass 127.519201660706
+>parentmass Inf
 >rt 9.31040357142857
 
 >ms1
-127.5192 100
+
 
 >ms2
 127.5192 100
 
 >compound FTneg2146
 >ionization [M+?]-
->parentmass 130.087495063955
+>parentmass Inf
 >rt 2.7521830333348
 
 >ms1
-130.0875 100
 
 >ms2
 51.0033 40
@@ -37471,11 +37050,10 @@
 
 >compound FTneg2147
 >ionization [M+?]-
->parentmass 128.035277156367
+>parentmass Inf
 >rt 2.74933646430343
 
 >ms1
-128.0353 100
 
 >ms2
 57.068 120
@@ -37495,22 +37073,21 @@
 
 >compound FTneg2148
 >ionization [M+?]-
->parentmass 129.038457233257
+>parentmass Inf
 >rt 2.74256843307285
 
 >ms1
-129.0385 100
+
 
 >ms2
 129.0385 100
 
 >compound FTneg2149
 >ionization [M+?]-
->parentmass 198.07474098502
+>parentmass Inf
 >rt 2.84041096102935
 
 >ms1
-198.0747 100
 
 >ms2
 50.0141 80
@@ -37557,55 +37134,54 @@
 
 >compound FTneg2150
 >ionization [M+?]-
->parentmass 226.075083071027
+>parentmass Inf
 >rt 2.73173254945698
 
 >ms1
-226.0751 100
+
 
 >ms2
 226.0751 100
 
 >compound FTneg2151
 >ionization [M+?]-
->parentmass 260.045160252778
+>parentmass Inf
 >rt 2.83430348389072
 
 >ms1
-260.0452 100
+
 
 >ms2
 260.0452 100
 
 >compound FTneg2152
 >ionization [M+?]-
->parentmass 275.013889181478
+>parentmass Inf
 >rt 2.74220639146463
 
 >ms1
-275.0139 100
+
 
 >ms2
 275.0139 100
 
 >compound FTneg2153
 >ionization [M+?]-
->parentmass 278.018128930093
+>parentmass Inf
 >rt 2.73963235053564
 
 >ms1
-278.0181 100
+
 
 >ms2
 278.0181 100
 
 >compound FTneg2154
 >ionization [M+?]-
->parentmass 281.111429372578
+>parentmass Inf
 >rt 2.74592042804056
 
 >ms1
-281.1114 100
 
 >ms2
 50.0026 4
@@ -37651,22 +37227,21 @@
 
 >compound FTneg2155
 >ionization [M+?]-
->parentmass 308.098597683879
+>parentmass Inf
 >rt 2.73887355003119
 
 >ms1
-308.0986 100
+
 
 >ms2
 308.0986 100
 
 >compound FTneg2156
 >ionization [M+?]-
->parentmass 310.150642429894
+>parentmass Inf
 >rt 2.74358861923779
 
 >ms1
-310.1506 100
 
 >ms2
 55.0541 40
@@ -37681,22 +37256,21 @@
 
 >compound FTneg2157
 >ionization [M+?]-
->parentmass 321.015193302385
+>parentmass Inf
 >rt 2.76812495395741
 
 >ms1
-321.0152 100
+
 
 >ms2
 321.0152 100
 
 >compound FTneg2158
 >ionization [M+?]-
->parentmass 351.077675942638
+>parentmass Inf
 >rt 2.79673414637105
 
 >ms1
-351.0777 100
 
 >ms2
 50.0032 40
@@ -37724,66 +37298,65 @@
 
 >compound FTneg2159
 >ionization [M+?]-
->parentmass 363.10728868093
+>parentmass Inf
 >rt 2.74584533349136
 
 >ms1
-363.1073 100
+
 
 >ms2
 363.1073 100
 
 >compound FTneg2160
 >ionization [M+?]-
->parentmass 443.137611170884
+>parentmass Inf
 >rt 2.74737846891631
 
 >ms1
-443.1376 100
+
 
 >ms2
 443.1376 100
 
 >compound FTneg2161
 >ionization [M+?]-
->parentmass 444.142887722648
+>parentmass Inf
 >rt 2.74873792729003
 
 >ms1
-444.1429 100
+
 
 >ms2
 444.1429 100
 
 >compound FTneg2162
 >ionization [M+?]-
->parentmass 446.195894719607
+>parentmass Inf
 >rt 2.74687970390692
 
 >ms1
-446.1959 100
+
 
 >ms2
 446.1959 100
 
 >compound FTneg2163
 >ionization [M+?]-
->parentmass 129.019003741006
+>parentmass Inf
 >rt 1.75571944444442
 
 >ms1
-129.019 100
+
 
 >ms2
 129.019 100
 
 >compound FTneg2164
 >ionization [M+?]-
->parentmass 129.055726336346
+>parentmass Inf
 >rt 6.86257524281994
 
 >ms1
-129.0557 100
 
 >ms2
 55.0533 40
@@ -37791,11 +37364,10 @@
 
 >compound FTneg2165
 >ionization [M+?]-
->parentmass 324.072371562632
+>parentmass Inf
 >rt 6.88839051949557
 
 >ms1
-324.0724 100
 
 >ms2
 50.0186 4
@@ -37848,22 +37420,21 @@
 
 >compound FTneg2166
 >ionization [M+?]-
->parentmass 129.042107378342
+>parentmass Inf
 >rt 6.99653077956842
 
 >ms1
-129.0421 100
+
 
 >ms2
 129.0421 100
 
 >compound FTneg2167
 >ionization [M+?]-
->parentmass 156.066481533948
+>parentmass Inf
 >rt 6.8696700043081
 
 >ms1
-156.0665 100
 
 >ms2
 73.0451 8
@@ -37885,11 +37456,10 @@
 
 >compound FTneg2168
 >ionization [M+?]-
->parentmass 158.055095716927
+>parentmass Inf
 >rt 6.8129023809525
 
 >ms1
-158.0551 100
 
 >ms2
 57.0696 40
@@ -37913,11 +37483,10 @@
 
 >compound FTneg2169
 >ionization [M+?]-
->parentmass 197.043008472921
+>parentmass Inf
 >rt 6.8669590534276
 
 >ms1
-197.043 100
 
 >ms2
 50.0149 40
@@ -37929,11 +37498,10 @@
 
 >compound FTneg2170
 >ionization [M+?]-
->parentmass 274.985953968576
+>parentmass Inf
 >rt 6.8694226737271
 
 >ms1
-274.986 100
 
 >ms2
 53.0383 40
@@ -37945,99 +37513,98 @@
 
 >compound FTneg2171
 >ionization [M+?]-
->parentmass 279.102090267361
+>parentmass Inf
 >rt 6.90638290303956
 
 >ms1
-279.1021 100
+
 
 >ms2
 279.1021 100
 
 >compound FTneg2172
 >ionization [M+?]-
->parentmass 288.14479305534
+>parentmass Inf
 >rt 6.92382829627955
 
 >ms1
-288.1448 100
+
 
 >ms2
 288.1448 100
 
 >compound FTneg2173
 >ionization [M+?]-
->parentmass 359.139608219113
+>parentmass Inf
 >rt 6.95414126984124
 
 >ms1
-359.1396 100
+
 
 >ms2
 359.1396 100
 
 >compound FTneg2174
 >ionization [M+?]-
->parentmass 359.155101265464
+>parentmass Inf
 >rt 6.81834895833331
 
 >ms1
-359.1551 100
+
 
 >ms2
 359.1551 100
 
 >compound FTneg2175
 >ionization [M+?]-
->parentmass 360.202817196295
+>parentmass Inf
 >rt 6.89235948776144
 
 >ms1
-360.2028 100
+
 
 >ms2
 360.2028 100
 
 >compound FTneg2176
 >ionization [M+?]-
->parentmass 404.13707528438
+>parentmass Inf
 >rt 6.88063970966779
 
 >ms1
-404.1371 100
+
 
 >ms2
 404.1371 100
 
 >compound FTneg2177
 >ionization [M+?]-
->parentmass 129.055576479387
+>parentmass Inf
 >rt 7.42572442843447
 
 >ms1
-129.0556 100
+
 
 >ms2
 129.0556 100
 
 >compound FTneg2178
 >ionization [M+?]-
->parentmass 305.033460128327
+>parentmass Inf
 >rt 7.16828836707113
 
 >ms1
-305.0335 100
+
 
 >ms2
 305.0335 100
 
 >compound FTneg2179
 >ionization [M+?]-
->parentmass 283.06832151402
+>parentmass Inf
 >rt 6.45518997882019
 
 >ms1
-283.0683 100
 
 >ms2
 53.0405 12
@@ -38065,11 +37632,10 @@
 
 >compound FTneg2180
 >ionization [M+?]-
->parentmass 207.077600545705
+>parentmass Inf
 >rt 6.45774016407557
 
 >ms1
-207.0776 100
 
 >ms2
 50.0019 4
@@ -38092,22 +37658,21 @@
 
 >compound FTneg2181
 >ionization [M+?]-
->parentmass 365.134913680323
+>parentmass Inf
 >rt 6.48705933183989
 
 >ms1
-365.1349 100
+
 
 >ms2
 365.1349 100
 
 >compound FTneg2182
 >ionization [M+?]-
->parentmass 129.055576741131
+>parentmass Inf
 >rt 6.43697341622658
 
 >ms1
-129.0556 100
 
 >ms2
 55.0117 40
@@ -38121,11 +37686,10 @@
 
 >compound FTneg2183
 >ionization [M+?]-
->parentmass 165.075015980158
+>parentmass Inf
 >rt 6.43642174332868
 
 >ms1
-165.075 100
 
 >ms2
 57.0696 64
@@ -38176,11 +37740,10 @@
 
 >compound FTneg2184
 >ionization [M+?]-
->parentmass 176.039167712087
+>parentmass Inf
 >rt 6.45561490535547
 
 >ms1
-176.0392 100
 
 >ms2
 57.035 40
@@ -38211,121 +37774,119 @@
 
 >compound FTneg2185
 >ionization [M+?]-
->parentmass 188.092794514501
+>parentmass Inf
 >rt 6.4421439083209
 
 >ms1
-188.0928 100
+
 
 >ms2
 188.0928 100
 
 >compound FTneg2186
 >ionization [M+?]-
->parentmass 190.050703356298
+>parentmass Inf
 >rt 6.43700094590454
 
 >ms1
-190.0507 100
+
 
 >ms2
 190.0507 100
 
 >compound FTneg2187
 >ionization [M+?]-
->parentmass 206.996723431003
+>parentmass Inf
 >rt 6.45646865260766
 
 >ms1
-206.9967 100
+
 
 >ms2
 206.9967 100
 
 >compound FTneg2188
 >ionization [M+?]-
->parentmass 208.065162897457
+>parentmass Inf
 >rt 6.44988086656134
 
 >ms1
-208.0652 100
+
 
 >ms2
 208.0652 100
 
 >compound FTneg2189
 >ionization [M+?]-
->parentmass 215.103267694894
+>parentmass Inf
 >rt 6.44769574130131
 
 >ms1
-215.1033 100
+
 
 >ms2
 215.1033 100
 
 >compound FTneg2190
 >ionization [M+?]-
->parentmass 236.055311694421
+>parentmass Inf
 >rt 6.4825339893267
 
 >ms1
-236.0553 100
+
 
 >ms2
 236.0553 100
 
 >compound FTneg2191
 >ionization [M+?]-
->parentmass 257.078213189365
+>parentmass Inf
 >rt 6.44565872943315
 
 >ms1
-257.0782 100
+
 
 >ms2
 257.0782 100
 
 >compound FTneg2192
 >ionization [M+?]-
->parentmass 258.991442112462
+>parentmass Inf
 >rt 6.4510399711416
 
 >ms1
-258.9914 100
+
 
 >ms2
 258.9914 100
 
 >compound FTneg2193
 >ionization [M+?]-
->parentmass 277.002283520955
+>parentmass Inf
 >rt 6.44528297509854
 
 >ms1
-277.0023 100
+
 
 >ms2
 277.0023 100
 
 >compound FTneg2194
 >ionization [M+?]-
->parentmass 283.046908417776
+>parentmass Inf
 >rt 6.43973685811806
 
 >ms1
-283.0469 100
 
 >ms2
 51.0296 4
 
 >compound FTneg2195
 >ionization [M+?]-
->parentmass 283.085645787663
+>parentmass Inf
 >rt 6.48289733333328
 
 >ms1
-283.0856 100
 
 >ms2
 55.0551 161
@@ -38363,11 +37924,10 @@
 
 >compound FTneg2196
 >ionization [M+?]-
->parentmass 294.029529674621
+>parentmass Inf
 >rt 6.43373069126723
 
 >ms1
-294.0295 100
 
 >ms2
 56.9587 40
@@ -38386,55 +37946,54 @@
 
 >compound FTneg2197
 >ionization [M+?]-
->parentmass 303.083200149484
+>parentmass Inf
 >rt 6.46221643160063
 
 >ms1
-303.0832 100
+
 
 >ms2
 303.0832 100
 
 >compound FTneg2198
 >ionization [M+?]-
->parentmass 306.155362915134
+>parentmass Inf
 >rt 6.44385201379045
 
 >ms1
-306.1554 100
+
 
 >ms2
 306.1554 100
 
 >compound FTneg2199
 >ionization [M+?]-
->parentmass 320.073046948971
+>parentmass Inf
 >rt 6.40661814420797
 
 >ms1
-320.073 100
+
 
 >ms2
 320.073 100
 
 >compound FTneg2200
 >ionization [M+?]-
->parentmass 326.051466804163
+>parentmass Inf
 >rt 6.44979481344261
 
 >ms1
-326.0515 100
+
 
 >ms2
 326.0515 100
 
 >compound FTneg2201
 >ionization [M+?]-
->parentmass 326.123906952132
+>parentmass Inf
 >rt 6.43697524117059
 
 >ms1
-326.1239 100
 
 >ms2
 50.0149 40
@@ -38468,33 +38027,32 @@
 
 >compound FTneg2202
 >ionization [M+?]-
->parentmass 337.06865059102
+>parentmass Inf
 >rt 6.44682510916671
 
 >ms1
-337.0687 100
+
 
 >ms2
 337.0687 100
 
 >compound FTneg2203
 >ionization [M+?]-
->parentmass 346.064294440854
+>parentmass Inf
 >rt 6.43933051350313
 
 >ms1
-346.0643 100
+
 
 >ms2
 346.0643 100
 
 >compound FTneg2204
 >ionization [M+?]-
->parentmass 347.098376097346
+>parentmass Inf
 >rt 6.4301404811295
 
 >ms1
-347.0984 100
 
 >ms2
 57.0595 13
@@ -38522,143 +38080,142 @@
 
 >compound FTneg2205
 >ionization [M+?]-
->parentmass 351.05643035794
+>parentmass Inf
 >rt 6.44534633526691
 
 >ms1
-351.0564 100
+
 
 >ms2
 351.0564 100
 
 >compound FTneg2206
 >ionization [M+?]-
->parentmass 368.086451983036
+>parentmass Inf
 >rt 6.44525957963759
 
 >ms1
-368.0865 100
+
 
 >ms2
 368.0865 100
 
 >compound FTneg2207
 >ionization [M+?]-
->parentmass 371.071094889268
+>parentmass Inf
 >rt 6.45931105927356
 
 >ms1
-371.0711 100
+
 
 >ms2
 371.0711 100
 
 >compound FTneg2208
 >ionization [M+?]-
->parentmass 373.064463492466
+>parentmass Inf
 >rt 6.44012306898683
 
 >ms1
-373.0645 100
+
 
 >ms2
 373.0645 100
 
 >compound FTneg2209
 >ionization [M+?]-
->parentmass 382.993369885181
+>parentmass Inf
 >rt 6.44402012485464
 
 >ms1
-382.9934 100
+
 
 >ms2
 382.9934 100
 
 >compound FTneg2210
 >ionization [M+?]-
->parentmass 384.080796422207
+>parentmass Inf
 >rt 6.44619981724346
 
 >ms1
-384.0808 100
+
 
 >ms2
 384.0808 100
 
 >compound FTneg2211
 >ionization [M+?]-
->parentmass 401.00386288553
+>parentmass Inf
 >rt 6.44170801659914
 
 >ms1
-401.0039 100
+
 
 >ms2
 401.0039 100
 
 >compound FTneg2212
 >ionization [M+?]-
->parentmass 411.108290778551
+>parentmass Inf
 >rt 6.46128704761937
 
 >ms1
-411.1083 100
+
 
 >ms2
 411.1083 100
 
 >compound FTneg2213
 >ionization [M+?]-
->parentmass 413.026701416608
+>parentmass Inf
 >rt 6.44106625430716
 
 >ms1
-413.0267 100
+
 
 >ms2
 413.0267 100
 
 >compound FTneg2214
 >ionization [M+?]-
->parentmass 415.087157487474
+>parentmass Inf
 >rt 6.48004429988591
 
 >ms1
-415.0872 100
+
 
 >ms2
 415.0872 100
 
 >compound FTneg2215
 >ionization [M+?]-
->parentmass 417.112522579188
+>parentmass Inf
 >rt 6.44263809907738
 
 >ms1
-417.1125 100
+
 
 >ms2
 417.1125 100
 
 >compound FTneg2216
 >ionization [M+?]-
->parentmass 427.99165461014
+>parentmass Inf
 >rt 6.44139350281917
 
 >ms1
-427.9917 100
+
 
 >ms2
 427.9917 100
 
 >compound FTneg2217
 >ionization [M+?]-
->parentmass 129.055832972464
+>parentmass Inf
 >rt 7.20817605860529
 
 >ms1
-129.0558 100
 
 >ms2
 53.0378 159
@@ -38874,11 +38431,10 @@
 
 >compound FTneg2218
 >ionization [M+?]-
->parentmass 172.097921649403
+>parentmass Inf
 >rt 7.20251136904277
 
 >ms1
-172.0979 100
 
 >ms2
 55.9236 40
@@ -38889,11 +38445,10 @@
 
 >compound FTneg2219
 >ionization [M+?]-
->parentmass 274.986067996946
+>parentmass Inf
 >rt 7.20978849277546
 
 >ms1
-274.9861 100
 
 >ms2
 54.0426 20
@@ -38910,44 +38465,42 @@
 
 >compound FTneg2220
 >ionization [M+?]-
->parentmass 197.043156225402
+>parentmass Inf
 >rt 7.21120246795824
 
 >ms1
-197.0432 100
 
 >ms2
 54.0082 56
 
 >compound FTneg2221
 >ionization [M+?]-
->parentmass 199.059823336144
+>parentmass Inf
 >rt 7.14262161902801
 
 >ms1
-199.0598 100
+
 
 >ms2
 199.0598 100
 
 >compound FTneg2222
 >ionization [M+?]-
->parentmass 230.012248693085
+>parentmass Inf
 >rt 7.20697601301882
 
 >ms1
-230.0122 100
+
 
 >ms2
 230.0122 100
 
 >compound FTneg2223
 >ionization [M+?]-
->parentmass 249.033925889165
+>parentmass Inf
 >rt 7.199161594572
 
 >ms1
-249.0339 100
 
 >ms2
 53.0323 40
@@ -38968,154 +38521,153 @@
 
 >compound FTneg2224
 >ionization [M+?]-
->parentmass 259.013546672686
+>parentmass Inf
 >rt 7.09422020210795
 
 >ms1
-259.0135 100
+
 
 >ms2
 259.0135 100
 
 >compound FTneg2225
 >ionization [M+?]-
->parentmass 273.988761956895
+>parentmass Inf
 >rt 7.11572625042517
 
 >ms1
-273.9888 100
+
 
 >ms2
 273.9888 100
 
 >compound FTneg2226
 >ionization [M+?]-
->parentmass 276.986678234682
+>parentmass Inf
 >rt 7.0834264798334
 
 >ms1
-276.9867 100
+
 
 >ms2
 276.9867 100
 
 >compound FTneg2227
 >ionization [M+?]-
->parentmass 283.115313869167
+>parentmass Inf
 >rt 7.17781914296963
 
 >ms1
-283.1153 100
+
 
 >ms2
 283.1153 100
 
 >compound FTneg2228
 >ionization [M+?]-
->parentmass 289.897009213236
+>parentmass Inf
 >rt 7.21602533864367
 
 >ms1
-289.897 100
+
 
 >ms2
 289.897 100
 
 >compound FTneg2229
 >ionization [M+?]-
->parentmass 291.988427078121
+>parentmass Inf
 >rt 7.10288856573694
 
 >ms1
-291.9884 100
+
 
 >ms2
 291.9884 100
 
 >compound FTneg2230
 >ionization [M+?]-
->parentmass 303.06157259783
+>parentmass Inf
 >rt 7.22282037743758
 
 >ms1
-303.0616 100
+
 
 >ms2
 303.0616 100
 
 >compound FTneg2231
 >ionization [M+?]-
->parentmass 309.118618570357
+>parentmass Inf
 >rt 7.08117953804867
 
 >ms1
-309.1186 100
+
 
 >ms2
 309.1186 100
 
 >compound FTneg2232
 >ionization [M+?]-
->parentmass 319.983459794527
+>parentmass Inf
 >rt 7.08192041237042
 
 >ms1
-319.9835 100
+
 
 >ms2
 319.9835 100
 
 >compound FTneg2233
 >ionization [M+?]-
->parentmass 343.124161376554
+>parentmass Inf
 >rt 7.19135289455301
 
 >ms1
-343.1242 100
+
 
 >ms2
 343.1242 100
 
 >compound FTneg2234
 >ionization [M+?]-
->parentmass 349.908499565608
+>parentmass Inf
 >rt 7.15646702064872
 
 >ms1
-349.9085 100
+
 
 >ms2
 349.9085 100
 
 >compound FTneg2235
 >ionization [M+?]-
->parentmass 373.101156159593
+>parentmass Inf
 >rt 7.22027380163256
 
 >ms1
-373.1012 100
+
 
 >ms2
 373.1012 100
 
 >compound FTneg2236
 >ionization [M+?]-
->parentmass 405.160415361575
+>parentmass Inf
 >rt 7.19551780410145
 
 >ms1
-405.1604 100
+
 
 >ms2
 405.1604 100
 
 >compound FTneg2237
 >ionization [M+?]-
->parentmass 408.090765090933
+>parentmass Inf
 >rt 7.2216664896102
 
 >ms1
-408.0908 100
 
 >ms2
 55.0547 20
@@ -39126,55 +38678,54 @@
 
 >compound FTneg2238
 >ionization [M+?]-
->parentmass 447.20797877591
+>parentmass Inf
 >rt 7.21069162246939
 
 >ms1
-447.208 100
+
 
 >ms2
 447.208 100
 
 >compound FTneg2239
 >ionization [M+?]-
->parentmass 475.239468084101
+>parentmass Inf
 >rt 7.21667854199774
 
 >ms1
-475.2395 100
+
 
 >ms2
 475.2395 100
 
 >compound FTneg2240
 >ionization [M+?]-
->parentmass 129.196942522383
+>parentmass Inf
 >rt 9.37443611111108
 
 >ms1
-129.1969 100
+
 
 >ms2
 129.1969 100
 
 >compound FTneg2241
 >ionization [M+?]-
->parentmass 130.065530020884
+>parentmass Inf
 >rt 4.03856736111108
 
 >ms1
-130.0655 100
+
 
 >ms2
 130.0655 100
 
 >compound FTneg2242
 >ionization [M+?]-
->parentmass 197.045324631
+>parentmass Inf
 >rt 9.66386376110411
 
 >ms1
-197.0453 100
 
 >ms2
 50.0112 80
@@ -39223,22 +38774,20 @@
 
 >compound FTneg2243
 >ionization [M+?]-
->parentmass 186.056039401223
+>parentmass Inf
 >rt 9.67437692756298
 
 >ms1
-186.056 100
 
 >ms2
 54.0096 40
 
 >compound FTneg2244
 >ionization [M+?]-
->parentmass 244.155364209592
+>parentmass Inf
 >rt 9.6633550396507
 
 >ms1
-244.1554 100
 
 >ms2
 55.054 60
@@ -39247,11 +38796,10 @@
 
 >compound FTneg2245
 >ionization [M+?]-
->parentmass 313.165436517728
+>parentmass Inf
 >rt 9.66070028009161
 
 >ms1
-313.1654 100
 
 >ms2
 55.0533 4
@@ -39267,11 +38815,10 @@
 
 >compound FTneg2246
 >ionization [M+?]-
->parentmass 510.253074725615
+>parentmass Inf
 >rt 9.6604608214452
 
 >ms1
-510.2531 100
 
 >ms2
 55.023 10
@@ -39292,33 +38839,32 @@
 
 >compound FTneg2247
 >ionization [M+?]-
->parentmass 130.066033047719
+>parentmass Inf
 >rt 9.67082289300872
 
 >ms1
-130.066 100
+
 
 >ms2
 130.066 100
 
 >compound FTneg2248
 >ionization [M+?]-
->parentmass 285.161368797608
+>parentmass Inf
 >rt 9.66495616673565
 
 >ms1
-285.1614 100
+
 
 >ms2
 285.1614 100
 
 >compound FTneg2249
 >ionization [M+?]-
->parentmass 299.005119226461
+>parentmass Inf
 >rt 9.64753564053741
 
 >ms1
-299.0051 100
 
 >ms2
 53.0428 40
@@ -39344,22 +38890,21 @@
 
 >compound FTneg2250
 >ionization [M+?]-
->parentmass 323.006710980349
+>parentmass Inf
 >rt 9.67227550753169
 
 >ms1
-323.0067 100
+
 
 >ms2
 323.0067 100
 
 >compound FTneg2251
 >ionization [M+?]-
->parentmass 325.001213800799
+>parentmass Inf
 >rt 9.66878533051044
 
 >ms1
-325.0012 100
 
 >ms2
 57.1944 41
@@ -39368,55 +38913,54 @@
 
 >compound FTneg2252
 >ionization [M+?]-
->parentmass 326.106466835328
+>parentmass Inf
 >rt 9.65777479760039
 
 >ms1
-326.1065 100
+
 
 >ms2
 326.1065 100
 
 >compound FTneg2253
 >ionization [M+?]-
->parentmass 375.108284341696
+>parentmass Inf
 >rt 9.65268106044426
 
 >ms1
-375.1083 100
+
 
 >ms2
 375.1083 100
 
 >compound FTneg2254
 >ionization [M+?]-
->parentmass 379.009962747734
+>parentmass Inf
 >rt 9.66703859484906
 
 >ms1
-379.01 100
+
 
 >ms2
 379.01 100
 
 >compound FTneg2255
 >ionization [M+?]-
->parentmass 415.19720479463
+>parentmass Inf
 >rt 9.58827987841988
 
 >ms1
-415.1972 100
+
 
 >ms2
 415.1972 100
 
 >compound FTneg2256
 >ionization [M+?]-
->parentmass 192.066542442757
+>parentmass Inf
 >rt 7.79811200048224
 
 >ms1
-192.0665 100
 
 >ms2
 50.0141 40
@@ -39424,11 +38968,10 @@
 
 >compound FTneg2257
 >ionization [M+?]-
->parentmass 172.097924284134
+>parentmass Inf
 >rt 7.7927679422302
 
 >ms1
-172.0979 100
 
 >ms2
 56.0489 40
@@ -39470,11 +39013,10 @@
 
 >compound FTneg2258
 >ionization [M+?]-
->parentmass 289.038636720299
+>parentmass Inf
 >rt 7.81759049114196
 
 >ms1
-289.0386 100
 
 >ms2
 51.9397 4
@@ -39495,11 +39037,10 @@
 
 >compound FTneg2259
 >ionization [M+?]-
->parentmass 365.1716761899
+>parentmass Inf
 >rt 7.79647962326019
 
 >ms1
-365.1717 100
 
 >ms2
 56.9639 40
@@ -39510,11 +39051,10 @@
 
 >compound FTneg2260
 >ionization [M+?]-
->parentmass 495.118864173275
+>parentmass Inf
 >rt 7.81080351734228
 
 >ms1
-495.1189 100
 
 >ms2
 55.0549 80
@@ -39539,11 +39079,10 @@
 
 >compound FTneg2261
 >ionization [M+?]-
->parentmass 130.087289077034
+>parentmass Inf
 >rt 7.7980999189784
 
 >ms1
-130.0873 100
 
 >ms2
 55.5032 20
@@ -39569,11 +39108,10 @@
 
 >compound FTneg2262
 >ionization [M+?]-
->parentmass 192.049506235158
+>parentmass Inf
 >rt 7.80209249342544
 
 >ms1
-192.0495 100
 
 >ms2
 50.0149 20
@@ -39601,11 +39139,10 @@
 
 >compound FTneg2263
 >ionization [M+?]-
->parentmass 203.001969943711
+>parentmass Inf
 >rt 7.77941590453499
 
 >ms1
-203.002 100
 
 >ms2
 50.017 4
@@ -39644,22 +39181,21 @@
 
 >compound FTneg2264
 >ionization [M+?]-
->parentmass 240.085269160674
+>parentmass Inf
 >rt 7.79716378259185
 
 >ms1
-240.0853 100
+
 
 >ms2
 240.0853 100
 
 >compound FTneg2265
 >ionization [M+?]-
->parentmass 260.053945862945
+>parentmass Inf
 >rt 7.79794855969757
 
 >ms1
-260.0539 100
 
 >ms2
 54.8793 41
@@ -39689,88 +39225,87 @@
 
 >compound FTneg2266
 >ionization [M+?]-
->parentmass 277.043866255074
+>parentmass Inf
 >rt 7.79203957734528
 
 >ms1
-277.0439 100
+
 
 >ms2
 277.0439 100
 
 >compound FTneg2267
 >ionization [M+?]-
->parentmass 288.053625786571
+>parentmass Inf
 >rt 7.79229593709018
 
 >ms1
-288.0536 100
+
 
 >ms2
 288.0536 100
 
 >compound FTneg2268
 >ionization [M+?]-
->parentmass 291.991240079045
+>parentmass Inf
 >rt 7.79323878211973
 
 >ms1
-291.9912 100
+
 
 >ms2
 291.9912 100
 
 >compound FTneg2269
 >ionization [M+?]-
->parentmass 318.028926004473
+>parentmass Inf
 >rt 7.79379456953368
 
 >ms1
-318.0289 100
+
 
 >ms2
 318.0289 100
 
 >compound FTneg2270
 >ionization [M+?]-
->parentmass 322.024278476782
+>parentmass Inf
 >rt 7.79571151734735
 
 >ms1
-322.0243 100
+
 
 >ms2
 322.0243 100
 
 >compound FTneg2271
 >ionization [M+?]-
->parentmass 337.996757848478
+>parentmass Inf
 >rt 7.79741732528786
 
 >ms1
-337.9968 100
+
 
 >ms2
 337.9968 100
 
 >compound FTneg2272
 >ionization [M+?]-
->parentmass 352.907988162269
+>parentmass Inf
 >rt 7.79678670406389
 
 >ms1
-352.908 100
+
 
 >ms2
 352.908 100
 
 >compound FTneg2273
 >ionization [M+?]-
->parentmass 354.905037800961
+>parentmass Inf
 >rt 7.79616988860022
 
 >ms1
-354.905 100
 
 >ms2
 53.0389 41
@@ -39821,176 +39356,175 @@
 
 >compound FTneg2274
 >ionization [M+?]-
->parentmass 354.999309480722
+>parentmass Inf
 >rt 7.79091499096279
 
 >ms1
-354.9993 100
+
 
 >ms2
 354.9993 100
 
 >compound FTneg2275
 >ionization [M+?]-
->parentmass 372.131202649928
+>parentmass Inf
 >rt 7.79134435866601
 
 >ms1
-372.1312 100
+
 
 >ms2
 372.1312 100
 
 >compound FTneg2276
 >ionization [M+?]-
->parentmass 396.122274635526
+>parentmass Inf
 >rt 7.781503030303
 
 >ms1
-396.1223 100
+
 
 >ms2
 396.1223 100
 
 >compound FTneg2277
 >ionization [M+?]-
->parentmass 497.114082919832
+>parentmass Inf
 >rt 7.81337647058824
 
 >ms1
-497.1141 100
+
 
 >ms2
 497.1141 100
 
 >compound FTneg2278
 >ionization [M+?]-
->parentmass 631.317563787409
+>parentmass Inf
 >rt 7.85814629629628
 
 >ms1
-631.3176 100
+
 
 >ms2
 631.3176 100
 
 >compound FTneg2279
 >ionization [M+?]-
->parentmass 130.940278308237
+>parentmass Inf
 >rt 18.7674126737489
 
 >ms1
-130.9403 100
+
 
 >ms2
 130.9403 100
 
 >compound FTneg2280
 >ionization [M+?]-
->parentmass 146.93840420175
+>parentmass Inf
 >rt 18.7226766917626
 
 >ms1
-146.9384 100
+
 
 >ms2
 146.9384 100
 
 >compound FTneg2281
 >ionization [M+?]-
->parentmass 174.956170435774
+>parentmass Inf
 >rt 18.7134413709597
 
 >ms1
-174.9562 100
+
 
 >ms2
 174.9562 100
 
 >compound FTneg2282
 >ionization [M+?]-
->parentmass 174.956262636973
+>parentmass Inf
 >rt 18.75130365364
 
 >ms1
-174.9563 100
+
 
 >ms2
 174.9563 100
 
 >compound FTneg2283
 >ionization [M+?]-
->parentmass 190.928489884057
+>parentmass Inf
 >rt 18.7575179481496
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg2284
 >ionization [M+?]-
->parentmass 231.931686187316
+>parentmass Inf
 >rt 18.7327622618326
 
 >ms1
-231.9317 100
+
 
 >ms2
 231.9317 100
 
 >compound FTneg2285
 >ionization [M+?]-
->parentmass 308.863394988378
+>parentmass Inf
 >rt 18.7434807768394
 
 >ms1
-308.8634 100
+
 
 >ms2
 308.8634 100
 
 >compound FTneg2286
 >ionization [M+?]-
->parentmass 320.886088158138
+>parentmass Inf
 >rt 18.7500652925795
 
 >ms1
-320.8861 100
+
 
 >ms2
 320.8861 100
 
 >compound FTneg2287
 >ionization [M+?]-
->parentmass 313.085398857135
+>parentmass Inf
 >rt 7.29855462636705
 
 >ms1
-313.0854 100
+
 
 >ms2
 313.0854 100
 
 >compound FTneg2288
 >ionization [M+?]-
->parentmass 137.059766253485
+>parentmass Inf
 >rt 7.29420966517327
 
 >ms1
-137.0598 100
+
 
 >ms2
 137.0598 100
 
 >compound FTneg2289
 >ionization [M+?]-
->parentmass 252.087518631172
+>parentmass Inf
 >rt 7.26509929868168
 
 >ms1
-252.0875 100
 
 >ms2
 55.0163 8
@@ -40001,231 +39535,230 @@
 
 >compound FTneg2290
 >ionization [M+?]-
->parentmass 130.966076396782
+>parentmass Inf
 >rt 7.27006314462808
 
 >ms1
-130.9661 100
+
 
 >ms2
 130.9661 100
 
 >compound FTneg2291
 >ionization [M+?]-
->parentmass 204.030189246369
+>parentmass Inf
 >rt 7.30278039526953
 
 >ms1
-204.0302 100
+
 
 >ms2
 204.0302 100
 
 >compound FTneg2292
 >ionization [M+?]-
->parentmass 205.839786816489
+>parentmass Inf
 >rt 7.27771515691978
 
 >ms1
-205.8398 100
+
 
 >ms2
 205.8398 100
 
 >compound FTneg2293
 >ionization [M+?]-
->parentmass 211.060463884917
+>parentmass Inf
 >rt 7.29828674644587
 
 >ms1
-211.0605 100
+
 
 >ms2
 211.0605 100
 
 >compound FTneg2294
 >ionization [M+?]-
->parentmass 227.055535230344
+>parentmass Inf
 >rt 7.25570141834843
 
 >ms1
-227.0555 100
+
 
 >ms2
 227.0555 100
 
 >compound FTneg2295
 >ionization [M+?]-
->parentmass 253.070712077452
+>parentmass Inf
 >rt 7.29245141196367
 
 >ms1
-253.0707 100
+
 
 >ms2
 253.0707 100
 
 >compound FTneg2296
 >ionization [M+?]-
->parentmass 294.101023437016
+>parentmass Inf
 >rt 7.23852789069713
 
 >ms1
-294.101 100
+
 
 >ms2
 294.101 100
 
 >compound FTneg2297
 >ionization [M+?]-
->parentmass 302.160630015152
+>parentmass Inf
 >rt 7.24514925181565
 
 >ms1
-302.1606 100
+
 
 >ms2
 302.1606 100
 
 >compound FTneg2298
 >ionization [M+?]-
->parentmass 320.075061594573
+>parentmass Inf
 >rt 7.26717180656794
 
 >ms1
-320.0751 100
+
 
 >ms2
 320.0751 100
 
 >compound FTneg2299
 >ionization [M+?]-
->parentmass 323.133505323104
+>parentmass Inf
 >rt 7.33132841988819
 
 >ms1
-323.1335 100
+
 
 >ms2
 323.1335 100
 
 >compound FTneg2300
 >ionization [M+?]-
->parentmass 363.164981973278
+>parentmass Inf
 >rt 7.28599543532237
 
 >ms1
-363.165 100
+
 
 >ms2
 363.165 100
 
 >compound FTneg2301
 >ionization [M+?]-
->parentmass 368.098207193599
+>parentmass Inf
 >rt 7.28595653409259
 
 >ms1
-368.0982 100
+
 
 >ms2
 368.0982 100
 
 >compound FTneg2302
 >ionization [M+?]-
->parentmass 391.124158780652
+>parentmass Inf
 >rt 7.25638245884988
 
 >ms1
-391.1242 100
+
 
 >ms2
 391.1242 100
 
 >compound FTneg2303
 >ionization [M+?]-
->parentmass 401.156469247432
+>parentmass Inf
 >rt 7.29670024483112
 
 >ms1
-401.1565 100
+
 
 >ms2
 401.1565 100
 
 >compound FTneg2304
 >ionization [M+?]-
->parentmass 415.217736439499
+>parentmass Inf
 >rt 7.32200857918324
 
 >ms1
-415.2177 100
+
 
 >ms2
 415.2177 100
 
 >compound FTneg2305
 >ionization [M+?]-
->parentmass 459.207368935749
+>parentmass Inf
 >rt 7.34244171786364
 
 >ms1
-459.2074 100
+
 
 >ms2
 459.2074 100
 
 >compound FTneg2306
 >ionization [M+?]-
->parentmass 131.034992803076
+>parentmass Inf
 >rt 4.98866843732768
 
 >ms1
-131.035 100
+
 
 >ms2
 131.035 100
 
 >compound FTneg2307
 >ionization [M+?]-
->parentmass 131.035425491427
+>parentmass Inf
 >rt 6.40473679051365
 
 >ms1
-131.0354 100
+
 
 >ms2
 131.0354 100
 
 >compound FTneg2308
 >ionization [M+?]-
->parentmass 170.022085974276
+>parentmass Inf
 >rt 6.50746517688861
 
 >ms1
-170.0221 100
+
 
 >ms2
 170.0221 100
 
 >compound FTneg2309
 >ionization [M+?]-
->parentmass 346.093341463597
+>parentmass Inf
 >rt 6.51884662701277
 
 >ms1
-346.0933 100
+
 
 >ms2
 346.0933 100
 
 >compound FTneg2310
 >ionization [M+?]-
->parentmass 131.035758624971
+>parentmass Inf
 >rt 7.52857149632284
 
 >ms1
-131.0358 100
 
 >ms2
 58.0147 42
@@ -40245,55 +39778,53 @@
 
 >compound FTneg2311
 >ionization [M+?]-
->parentmass 339.165671392598
+>parentmass Inf
 >rt 7.1717191976648
 
 >ms1
-339.1657 100
+
 
 >ms2
 339.1657 100
 
 >compound FTneg2312
 >ionization [M+?]-
->parentmass 131.071333765862
+>parentmass Inf
 >rt 7.16899137887397
 
 >ms1
-131.0713 100
 
 >ms2
 61.041 40
 
 >compound FTneg2313
 >ionization [M+?]-
->parentmass 231.992194439433
+>parentmass Inf
 >rt 7.18632111453659
 
 >ms1
-231.9922 100
+
 
 >ms2
 231.9922 100
 
 >compound FTneg2314
 >ionization [M+?]-
->parentmass 248.095667547586
+>parentmass Inf
 >rt 7.17799631098731
 
 >ms1
-248.0957 100
+
 
 >ms2
 248.0957 100
 
 >compound FTneg2315
 >ionization [M+?]-
->parentmass 261.029162007592
+>parentmass Inf
 >rt 7.24566160757539
 
 >ms1
-261.0292 100
 
 >ms2
 53.0369 13
@@ -40332,55 +39863,54 @@
 
 >compound FTneg2316
 >ionization [M+?]-
->parentmass 289.165022091536
+>parentmass Inf
 >rt 7.17569917286539
 
 >ms1
-289.165 100
+
 
 >ms2
 289.165 100
 
 >compound FTneg2317
 >ionization [M+?]-
->parentmass 291.893800352829
+>parentmass Inf
 >rt 7.07865239872133
 
 >ms1
-291.8938 100
+
 
 >ms2
 291.8938 100
 
 >compound FTneg2318
 >ionization [M+?]-
->parentmass 309.155167400061
+>parentmass Inf
 >rt 7.17680844139148
 
 >ms1
-309.1552 100
+
 
 >ms2
 309.1552 100
 
 >compound FTneg2319
 >ionization [M+?]-
->parentmass 352.139106796306
+>parentmass Inf
 >rt 7.181133483827
 
 >ms1
-352.1391 100
+
 
 >ms2
 352.1391 100
 
 >compound FTneg2320
 >ionization [M+?]-
->parentmass 131.071425890803
+>parentmass Inf
 >rt 7.38977729808625
 
 >ms1
-131.0714 100
 
 >ms2
 51.0231 40
@@ -40497,11 +40027,10 @@
 
 >compound FTneg2321
 >ionization [M+?]-
->parentmass 206.045992083885
+>parentmass Inf
 >rt 7.38034578840183
 
 >ms1
-206.046 100
 
 >ms2
 54.874 20
@@ -40527,143 +40056,141 @@
 
 >compound FTneg2322
 >ionization [M+?]-
->parentmass 258.991740077709
+>parentmass Inf
 >rt 7.370440639233
 
 >ms1
-258.9917 100
+
 
 >ms2
 258.9917 100
 
 >compound FTneg2323
 >ionization [M+?]-
->parentmass 277.001807479044
+>parentmass Inf
 >rt 7.44930522716855
 
 >ms1
-277.0018 100
+
 
 >ms2
 277.0018 100
 
 >compound FTneg2324
 >ionization [M+?]-
->parentmass 279.144533824691
+>parentmass Inf
 >rt 7.35189146186176
 
 >ms1
-279.1445 100
+
 
 >ms2
 279.1445 100
 
 >compound FTneg2325
 >ionization [M+?]-
->parentmass 305.970383562459
+>parentmass Inf
 >rt 7.38127110286759
 
 >ms1
-305.9704 100
+
 
 >ms2
 305.9704 100
 
 >compound FTneg2326
 >ionization [M+?]-
->parentmass 308.098283293167
+>parentmass Inf
 >rt 7.3761470945029
 
 >ms1
-308.0983 100
 
 >ms2
 75.0284 40
 
 >compound FTneg2327
 >ionization [M+?]-
->parentmass 359.098568132465
+>parentmass Inf
 >rt 7.38803235235291
 
 >ms1
-359.0986 100
+
 
 >ms2
 359.0986 100
 
 >compound FTneg2328
 >ionization [M+?]-
->parentmass 401.180466498249
+>parentmass Inf
 >rt 7.299684453002
 
 >ms1
-401.1805 100
+
 
 >ms2
 401.1805 100
 
 >compound FTneg2329
 >ionization [M+?]-
->parentmass 405.195921215773
+>parentmass Inf
 >rt 7.36700536339359
 
 >ms1
-405.1959 100
+
 
 >ms2
 405.1959 100
 
 >compound FTneg2330
 >ionization [M+?]-
->parentmass 429.049465000084
+>parentmass Inf
 >rt 7.38012335288207
 
 >ms1
-429.0495 100
+
 
 >ms2
 429.0495 100
 
 >compound FTneg2331
 >ionization [M+?]-
->parentmass 433.206457998837
+>parentmass Inf
 >rt 7.30983286837409
 
 >ms1
-433.2065 100
+
 
 >ms2
 433.2065 100
 
 >compound FTneg2332
 >ionization [M+?]-
->parentmass 491.234166267949
+>parentmass Inf
 >rt 7.36237557872032
 
 >ms1
-491.2342 100
+
 
 >ms2
 491.2342 100
 
 >compound FTneg2333
 >ionization [M+?]-
->parentmass 520.267772852256
+>parentmass Inf
 >rt 7.35292703676551
 
 >ms1
-520.2678 100
+
 
 >ms2
 520.2678 100
 
 >compound FTneg2334
 >ionization [M+?]-
->parentmass 283.263841020634
+>parentmass Inf
 >rt 14.8034423486297
 
 >ms1
-283.2638 100
 
 >ms2
 51.0201 4
@@ -40725,11 +40252,10 @@
 
 >compound FTneg2335
 >ionization [M+?]-
->parentmass 329.269394039853
+>parentmass Inf
 >rt 14.8033118577949
 
 >ms1
-329.2694 100
 
 >ms2
 55.0162 4
@@ -40748,11 +40274,10 @@
 
 >compound FTneg2336
 >ionization [M+?]-
->parentmass 429.194300962368
+>parentmass Inf
 >rt 14.8038653966589
 
 >ms1
-429.1943 100
 
 >ms2
 57.0159 48
@@ -40775,11 +40300,10 @@
 
 >compound FTneg2337
 >ionization [M+?]-
->parentmass 494.255123112363
+>parentmass Inf
 >rt 14.8057886115378
 
 >ms1
-494.2551 100
 
 >ms2
 55.0185 4
@@ -40809,11 +40333,10 @@
 
 >compound FTneg2338
 >ionization [M+?]-
->parentmass 667.460436337097
+>parentmass Inf
 >rt 14.8017869094118
 
 >ms1
-667.4604 100
 
 >ms2
 59.0594 20
@@ -40821,11 +40344,10 @@
 
 >compound FTneg2339
 >ionization [M+?]-
->parentmass 709.465369461848
+>parentmass Inf
 >rt 14.8058665971552
 
 >ms1
-709.4654 100
 
 >ms2
 69.0526 40
@@ -40838,11 +40360,10 @@
 
 >compound FTneg2340
 >ionization [M+?]-
->parentmass 736.485667328299
+>parentmass Inf
 >rt 14.8054763767793
 
 >ms1
-736.4857 100
 
 >ms2
 55.0563 40
@@ -40861,11 +40382,10 @@
 
 >compound FTneg2341
 >ionization [M+?]-
->parentmass 132.867562180004
+>parentmass Inf
 >rt 14.8223652955537
 
 >ms1
-132.8676 100
 
 >ms2
 55.0177 13
@@ -40874,11 +40394,10 @@
 
 >compound FTneg2342
 >ionization [M+?]-
->parentmass 134.865192341542
+>parentmass Inf
 >rt 14.8144047650347
 
 >ms1
-134.8652 100
 
 >ms2
 57.0727 40
@@ -40950,11 +40469,10 @@
 
 >compound FTneg2343
 >ionization [M+?]-
->parentmass 379.251771208103
+>parentmass Inf
 >rt 14.8026515384041
 
 >ms1
-379.2518 100
 
 >ms2
 59.0304 241
@@ -40970,11 +40488,10 @@
 
 >compound FTneg2344
 >ionization [M+?]-
->parentmass 467.236435754131
+>parentmass Inf
 >rt 14.8189025114237
 
 >ms1
-467.2364 100
 
 >ms2
 55.048 40
@@ -40985,11 +40502,10 @@
 
 >compound FTneg2345
 >ionization [M+?]-
->parentmass 474.285404951585
+>parentmass Inf
 >rt 14.8170851736141
 
 >ms1
-474.2854 100
 
 >ms2
 52.0059 40
@@ -40998,44 +40514,43 @@
 
 >compound FTneg2346
 >ionization [M+?]-
->parentmass 490.280232970696
+>parentmass Inf
 >rt 14.8136197531931
 
 >ms1
-490.2802 100
+
 
 >ms2
 490.2802 100
 
 >compound FTneg2347
 >ionization [M+?]-
->parentmass 666.059315192681
+>parentmass Inf
 >rt 14.8427417398721
 
 >ms1
-666.0593 100
+
 
 >ms2
 666.0593 100
 
 >compound FTneg2348
 >ionization [M+?]-
->parentmass 667.062053253209
+>parentmass Inf
 >rt 14.8316236720287
 
 >ms1
-667.0621 100
+
 
 >ms2
 667.0621 100
 
 >compound FTneg2349
 >ionization [M+?]-
->parentmass 721.500877882711
+>parentmass Inf
 >rt 14.8296254204597
 
 >ms1
-721.5009 100
 
 >ms2
 55.0548 40
@@ -41102,11 +40617,10 @@
 
 >compound FTneg2350
 >ionization [M+?]-
->parentmass 778.59463224018
+>parentmass Inf
 >rt 14.8021662194252
 
 >ms1
-778.5946 100
 
 >ms2
 50.9633 40
@@ -41138,22 +40652,21 @@
 
 >compound FTneg2351
 >ionization [M+?]-
->parentmass 779.597717938426
+>parentmass Inf
 >rt 14.8009489052882
 
 >ms1
-779.5977 100
+
 
 >ms2
 779.5977 100
 
 >compound FTneg2352
 >ionization [M+?]-
->parentmass 830.590570670629
+>parentmass Inf
 >rt 18.3964569352556
 
 >ms1
-830.5906 100
 
 >ms2
 56.0505 40
@@ -41183,11 +40696,10 @@
 
 >compound FTneg2353
 >ionization [M+?]-
->parentmass 540.330560886994
+>parentmass Inf
 >rt 18.4210890028858
 
 >ms1
-540.3306 100
 
 >ms2
 55.0548 10
@@ -41209,11 +40721,10 @@
 
 >compound FTneg2354
 >ionization [M+?]-
->parentmass 831.594649118114
+>parentmass Inf
 >rt 18.3957010125327
 
 >ms1
-831.5946 100
 
 >ms2
 57.0689 66
@@ -41240,11 +40751,10 @@
 
 >compound FTneg2355
 >ionization [M+?]-
->parentmass 190.928371069862
+>parentmass Inf
 >rt 18.3702117264839
 
 >ms1
-190.9284 100
 
 >ms2
 53.013 40
@@ -41281,11 +40791,10 @@
 
 >compound FTneg2356
 >ionization [M+?]-
->parentmass 580.362087587907
+>parentmass Inf
 >rt 18.4173433571153
 
 >ms1
-580.3621 100
 
 >ms2
 81.0705 40
@@ -41293,11 +40802,10 @@
 
 >compound FTneg2357
 >ionization [M+?]-
->parentmass 596.393063917636
+>parentmass Inf
 >rt 18.410633226422
 
 >ms1
-596.3931 100
 
 >ms2
 65.0373 40
@@ -41306,22 +40814,21 @@
 
 >compound FTneg2358
 >ionization [M+?]-
->parentmass 686.261288193719
+>parentmass Inf
 >rt 18.4201506312057
 
 >ms1
-686.2613 100
+
 
 >ms2
 686.2613 100
 
 >compound FTneg2359
 >ionization [M+?]-
->parentmass 747.565108727243
+>parentmass Inf
 >rt 18.4344182539683
 
 >ms1
-747.5651 100
 
 >ms2
 89.057 40
@@ -41329,11 +40836,10 @@
 
 >compound FTneg2360
 >ionization [M+?]-
->parentmass 804.572093381777
+>parentmass Inf
 >rt 18.3967175845918
 
 >ms1
-804.5721 100
 
 >ms2
 50.0149 80
@@ -41341,11 +40847,10 @@
 
 >compound FTneg2361
 >ionization [M+?]-
->parentmass 826.559907985311
+>parentmass Inf
 >rt 18.3973316482611
 
 >ms1
-826.5599 100
 
 >ms2
 55.0541 40
@@ -41384,11 +40889,10 @@
 
 >compound FTneg2362
 >ionization [M+?]-
->parentmass 854.590944884328
+>parentmass Inf
 >rt 18.3949381904376
 
 >ms1
-854.5909 100
 
 >ms2
 56.0527 40
@@ -41416,22 +40920,21 @@
 
 >compound FTneg2363
 >ionization [M+?]-
->parentmass 880.601709709965
+>parentmass Inf
 >rt 18.3973388150959
 
 >ms1
-880.6017 100
+
 
 >ms2
 880.6017 100
 
 >compound FTneg2364
 >ionization [M+?]-
->parentmass 948.491023025673
+>parentmass Inf
 >rt 18.3928537353545
 
 >ms1
-948.491 100
 
 >ms2
 55.0169 40
@@ -41444,11 +40947,10 @@
 
 >compound FTneg2365
 >ionization [M+?]-
->parentmass 950.501001589579
+>parentmass Inf
 >rt 18.3951642106413
 
 >ms1
-950.501 100
 
 >ms2
 58.0652 13
@@ -41520,11 +41022,10 @@
 
 >compound FTneg2366
 >ionization [M+?]-
->parentmass 972.491002891247
+>parentmass Inf
 >rt 18.3911666649966
 
 >ms1
-972.491 100
 
 >ms2
 55.0132 20
@@ -41543,11 +41044,10 @@
 
 >compound FTneg2367
 >ionization [M+?]-
->parentmass 976.519521922967
+>parentmass Inf
 >rt 18.3908653303725
 
 >ms1
-976.5195 100
 
 >ms2
 86.0958 80
@@ -41564,11 +41064,10 @@
 
 >compound FTneg2368
 >ionization [M+?]-
->parentmass 132.867728315529
+>parentmass Inf
 >rt 18.3745983273216
 
 >ms1
-132.8677 100
 
 >ms2
 51.9404 4
@@ -41648,11 +41147,10 @@
 
 >compound FTneg2369
 >ionization [M+?]-
->parentmass 134.865295713913
+>parentmass Inf
 >rt 18.374962176756
 
 >ms1
-134.8653 100
 
 >ms2
 55.0019 20
@@ -41669,11 +41167,10 @@
 
 >compound FTneg2370
 >ionization [M+?]-
->parentmass 136.862758075341
+>parentmass Inf
 >rt 18.4171411389421
 
 >ms1
-136.8628 100
 
 >ms2
 56.0504 40
@@ -41683,22 +41180,21 @@
 
 >compound FTneg2371
 >ionization [M+?]-
->parentmass 141.86810076167
+>parentmass Inf
 >rt 18.4798550462365
 
 >ms1
-141.8681 100
+
 
 >ms2
 141.8681 100
 
 >compound FTneg2372
 >ionization [M+?]-
->parentmass 145.941504524049
+>parentmass Inf
 >rt 18.3843831362561
 
 >ms1
-145.9415 100
 
 >ms2
 53.0399 20
@@ -41744,11 +41240,10 @@
 
 >compound FTneg2373
 >ionization [M+?]-
->parentmass 174.955896723499
+>parentmass Inf
 >rt 18.3695202128079
 
 >ms1
-174.9559 100
 
 >ms2
 55.0193 40
@@ -41919,22 +41414,21 @@
 
 >compound FTneg2374
 >ionization [M+?]-
->parentmass 178.841977845719
+>parentmass Inf
 >rt 18.4415843221845
 
 >ms1
-178.842 100
+
 
 >ms2
 178.842 100
 
 >compound FTneg2375
 >ionization [M+?]-
->parentmass 189.931439225517
+>parentmass Inf
 >rt 18.3781940221614
 
 >ms1
-189.9314 100
 
 >ms2
 50.0077 13
@@ -41946,11 +41440,10 @@
 
 >compound FTneg2376
 >ionization [M+?]-
->parentmass 231.931487783311
+>parentmass Inf
 >rt 18.4029289090173
 
 >ms1
-231.9315 100
 
 >ms2
 50.0155 239
@@ -42129,11 +41622,10 @@
 
 >compound FTneg2377
 >ionization [M+?]-
->parentmass 265.129125041821
+>parentmass Inf
 >rt 18.4570148349586
 
 >ms1
-265.1291 100
 
 >ms2
 55.0525 40
@@ -42154,22 +41646,21 @@
 
 >compound FTneg2378
 >ionization [M+?]-
->parentmass 323.872587663608
+>parentmass Inf
 >rt 18.4343533304953
 
 >ms1
-323.8726 100
+
 
 >ms2
 323.8726 100
 
 >compound FTneg2379
 >ionization [M+?]-
->parentmass 335.861761974319
+>parentmass Inf
 >rt 18.472999039699
 
 >ms1
-335.8618 100
 
 >ms2
 55.0419 10
@@ -42190,44 +41681,42 @@
 
 >compound FTneg2380
 >ionization [M+?]-
->parentmass 362.874714014549
+>parentmass Inf
 >rt 18.4070589369708
 
 >ms1
-362.8747 100
+
 
 >ms2
 362.8747 100
 
 >compound FTneg2381
 >ionization [M+?]-
->parentmass 428.817590489868
+>parentmass Inf
 >rt 18.4263825777789
 
 >ms1
-428.8176 100
 
 >ms2
 51.023 10
 
 >compound FTneg2382
 >ionization [M+?]-
->parentmass 530.301962322561
+>parentmass Inf
 >rt 18.4170577059184
 
 >ms1
-530.302 100
+
 
 >ms2
 530.302 100
 
 >compound FTneg2383
 >ionization [M+?]-
->parentmass 540.297313554205
+>parentmass Inf
 >rt 18.4502642075623
 
 >ms1
-540.2973 100
 
 >ms2
 56.058 20
@@ -42237,11 +41726,10 @@
 
 >compound FTneg2384
 >ionization [M+?]-
->parentmass 569.364106696011
+>parentmass Inf
 >rt 18.4789166666666
 
 >ms1
-569.3641 100
 
 >ms2
 90.0506 40
@@ -42270,11 +41758,10 @@
 
 >compound FTneg2385
 >ionization [M+?]-
->parentmass 580.361316699123
+>parentmass Inf
 >rt 18.4514778214234
 
 >ms1
-580.3613 100
 
 >ms2
 55.0548 20
@@ -42287,99 +41774,98 @@
 
 >compound FTneg2386
 >ionization [M+?]-
->parentmass 588.330718546775
+>parentmass Inf
 >rt 18.4567039215685
 
 >ms1
-588.3307 100
+
 
 >ms2
 588.3307 100
 
 >compound FTneg2387
 >ionization [M+?]-
->parentmass 593.364704215253
+>parentmass Inf
 >rt 18.4497055218002
 
 >ms1
-593.3647 100
+
 
 >ms2
 593.3647 100
 
 >compound FTneg2388
 >ionization [M+?]-
->parentmass 622.408756581925
+>parentmass Inf
 >rt 18.4126485548434
 
 >ms1
-622.4088 100
+
 
 >ms2
 622.4088 100
 
 >compound FTneg2389
 >ionization [M+?]-
->parentmass 685.261933588292
+>parentmass Inf
 >rt 18.4453456460176
 
 >ms1
-685.2619 100
+
 
 >ms2
 685.2619 100
 
 >compound FTneg2390
 >ionization [M+?]-
->parentmass 700.276392932307
+>parentmass Inf
 >rt 18.4127635650052
 
 >ms1
-700.2764 100
+
 
 >ms2
 700.2764 100
 
 >compound FTneg2391
 >ionization [M+?]-
->parentmass 712.275742369125
+>parentmass Inf
 >rt 18.4257511419194
 
 >ms1
-712.2757 100
+
 
 >ms2
 712.2757 100
 
 >compound FTneg2392
 >ionization [M+?]-
->parentmass 745.550339346976
+>parentmass Inf
 >rt 18.4304179658776
 
 >ms1
-745.5503 100
+
 
 >ms2
 745.5503 100
 
 >compound FTneg2393
 >ionization [M+?]-
->parentmass 776.543960649865
+>parentmass Inf
 >rt 18.4089720583184
 
 >ms1
-776.544 100
+
 
 >ms2
 776.544 100
 
 >compound FTneg2394
 >ionization [M+?]-
->parentmass 778.559953028789
+>parentmass Inf
 >rt 18.4019587997501
 
 >ms1
-778.56 100
 
 >ms2
 55.0525 20
@@ -42566,44 +42052,43 @@
 
 >compound FTneg2395
 >ionization [M+?]-
->parentmass 801.547788556097
+>parentmass Inf
 >rt 18.4054380846756
 
 >ms1
-801.5478 100
+
 
 >ms2
 801.5478 100
 
 >compound FTneg2396
 >ionization [M+?]-
->parentmass 807.58519683191
+>parentmass Inf
 >rt 18.4111692338332
 
 >ms1
-807.5852 100
+
 
 >ms2
 807.5852 100
 
 >compound FTneg2397
 >ionization [M+?]-
->parentmass 819.548920888245
+>parentmass Inf
 >rt 18.3911557763855
 
 >ms1
-819.5489 100
+
 
 >ms2
 819.5489 100
 
 >compound FTneg2398
 >ionization [M+?]-
->parentmass 821.563575453148
+>parentmass Inf
 >rt 18.3799599447587
 
 >ms1
-821.5636 100
 
 >ms2
 50.0141 40
@@ -42702,11 +42187,10 @@
 
 >compound FTneg2399
 >ionization [M+?]-
->parentmass 824.545002565645
+>parentmass Inf
 >rt 18.401331257987
 
 >ms1
-824.545 100
 
 >ms2
 53.0383 40
@@ -42788,11 +42272,10 @@
 
 >compound FTneg2400
 >ionization [M+?]-
->parentmass 825.547702740081
+>parentmass Inf
 >rt 18.4050309814617
 
 >ms1
-825.5477 100
 
 >ms2
 77.1489 10
@@ -42818,44 +42301,43 @@
 
 >compound FTneg2401
 >ionization [M+?]-
->parentmass 838.594731670516
+>parentmass Inf
 >rt 18.3964076098427
 
 >ms1
-838.5947 100
+
 
 >ms2
 838.5947 100
 
 >compound FTneg2402
 >ionization [M+?]-
->parentmass 843.550054123116
+>parentmass Inf
 >rt 18.3917616643784
 
 >ms1
-843.5501 100
+
 
 >ms2
 843.5501 100
 
 >compound FTneg2403
 >ionization [M+?]-
->parentmass 847.581040139087
+>parentmass Inf
 >rt 18.4010206384175
 
 >ms1
-847.581 100
+
 
 >ms2
 847.581 100
 
 >compound FTneg2404
 >ionization [M+?]-
->parentmass 851.563393927543
+>parentmass Inf
 >rt 18.3874852830412
 
 >ms1
-851.5634 100
 
 >ms2
 53.0376 40
@@ -42879,88 +42361,87 @@
 
 >compound FTneg2405
 >ionization [M+?]-
->parentmass 874.560967376149
+>parentmass Inf
 >rt 18.3933496162048
 
 >ms1
-874.561 100
+
 
 >ms2
 874.561 100
 
 >compound FTneg2406
 >ionization [M+?]-
->parentmass 876.57343027475
+>parentmass Inf
 >rt 18.3985521241155
 
 >ms1
-876.5734 100
+
 
 >ms2
 876.5734 100
 
 >compound FTneg2407
 >ionization [M+?]-
->parentmass 932.516799405676
+>parentmass Inf
 >rt 18.3885954524614
 
 >ms1
-932.5168 100
+
 
 >ms2
 932.5168 100
 
 >compound FTneg2408
 >ionization [M+?]-
->parentmass 933.520349556185
+>parentmass Inf
 >rt 18.3873246987378
 
 >ms1
-933.5203 100
+
 
 >ms2
 933.5203 100
 
 >compound FTneg2409
 >ionization [M+?]-
->parentmass 947.49295483879
+>parentmass Inf
 >rt 18.3920380232268
 
 >ms1
-947.493 100
+
 
 >ms2
 947.493 100
 
 >compound FTneg2410
 >ionization [M+?]-
->parentmass 965.485151537024
+>parentmass Inf
 >rt 18.3958404530745
 
 >ms1
-965.4852 100
+
 
 >ms2
 965.4852 100
 
 >compound FTneg2411
 >ionization [M+?]-
->parentmass 971.492364181999
+>parentmass Inf
 >rt 18.3906325020141
 
 >ms1
-971.4924 100
+
 
 >ms2
 971.4924 100
 
 >compound FTneg2412
 >ionization [M+?]-
->parentmass 974.502768908043
+>parentmass Inf
 >rt 18.3927370329885
 
 >ms1
-974.5028 100
 
 >ms2
 55.0495 40
@@ -43154,33 +42635,32 @@
 
 >compound FTneg2413
 >ionization [M+?]-
->parentmass 975.510222565388
+>parentmass Inf
 >rt 18.3907483846951
 
 >ms1
-975.5102 100
+
 
 >ms2
 975.5102 100
 
 >compound FTneg2414
 >ionization [M+?]-
->parentmass 989.490177619395
+>parentmass Inf
 >rt 18.3897690848361
 
 >ms1
-989.4902 100
+
 
 >ms2
 989.4902 100
 
 >compound FTneg2415
 >ionization [M+?]-
->parentmass 329.029902379491
+>parentmass Inf
 >rt 8.32165902962653
 
 >ms1
-329.0299 100
 
 >ms2
 51.0361 40
@@ -43210,110 +42690,109 @@
 
 >compound FTneg2416
 >ionization [M+?]-
->parentmass 132.867868344638
+>parentmass Inf
 >rt 8.35081390326235
 
 >ms1
-132.8679 100
+
 
 >ms2
 132.8679 100
 
 >compound FTneg2417
 >ionization [M+?]-
->parentmass 240.950277653484
+>parentmass Inf
 >rt 8.31350303030295
 
 >ms1
-240.9503 100
+
 
 >ms2
 240.9503 100
 
 >compound FTneg2418
 >ionization [M+?]-
->parentmass 285.015298069395
+>parentmass Inf
 >rt 8.31612818296549
 
 >ms1
-285.0153 100
+
 
 >ms2
 285.0153 100
 
 >compound FTneg2419
 >ionization [M+?]-
->parentmass 304.913096733562
+>parentmass Inf
 >rt 8.32673560463445
 
 >ms1
-304.9131 100
+
 
 >ms2
 304.9131 100
 
 >compound FTneg2420
 >ionization [M+?]-
->parentmass 327.035420924269
+>parentmass Inf
 >rt 8.2709374999999
 
 >ms1
-327.0354 100
+
 
 >ms2
 327.0354 100
 
 >compound FTneg2421
 >ionization [M+?]-
->parentmass 475.194956613539
+>parentmass Inf
 >rt 8.29707554839052
 
 >ms1
-475.195 100
+
 
 >ms2
 475.195 100
 
 >compound FTneg2422
 >ionization [M+?]-
->parentmass 132.885422974859
+>parentmass Inf
 >rt 12.8006038461538
 
 >ms1
-132.8854 100
+
 
 >ms2
 132.8854 100
 
 >compound FTneg2423
 >ionization [M+?]-
->parentmass 133.039829521576
+>parentmass Inf
 >rt 19.1193940701442
 
 >ms1
-133.0398 100
+
 
 >ms2
 133.0398 100
 
 >compound FTneg2424
 >ionization [M+?]-
->parentmass 319.114769249273
+>parentmass Inf
 >rt 19.0957900527275
 
 >ms1
-319.1148 100
+
 
 >ms2
 319.1148 100
 
 >compound FTneg2425
 >ionization [M+?]-
->parentmass 158.082363561365
+>parentmass Inf
 >rt 6.85724059208867
 
 >ms1
-158.0824 100
 
 >ms2
 67.0541 40
@@ -43461,22 +42940,20 @@
 
 >compound FTneg2426
 >ionization [M+?]-
->parentmass 188.092657027475
+>parentmass Inf
 >rt 6.90877009582366
 
 >ms1
-188.0927 100
 
 >ms2
 51.9361 40
 
 >compound FTneg2427
 >ionization [M+?]-
->parentmass 276.145064277985
+>parentmass Inf
 >rt 6.92010214870523
 
 >ms1
-276.1451 100
 
 >ms2
 69.0815 40
@@ -43489,308 +42966,307 @@
 
 >compound FTneg2428
 >ionization [M+?]-
->parentmass 344.132198491221
+>parentmass Inf
 >rt 6.92658629368282
 
 >ms1
-344.1322 100
+
 
 >ms2
 344.1322 100
 
 >compound FTneg2429
 >ionization [M+?]-
->parentmass 372.132192376758
+>parentmass Inf
 >rt 6.92877713176905
 
 >ms1
-372.1322 100
+
 
 >ms2
 372.1322 100
 
 >compound FTneg2430
 >ionization [M+?]-
->parentmass 411.128820185752
+>parentmass Inf
 >rt 6.92614455747316
 
 >ms1
-411.1288 100
+
 
 >ms2
 411.1288 100
 
 >compound FTneg2431
 >ionization [M+?]-
->parentmass 422.075631015336
+>parentmass Inf
 >rt 6.92193429826331
 
 >ms1
-422.0756 100
+
 
 >ms2
 422.0756 100
 
 >compound FTneg2432
 >ionization [M+?]-
->parentmass 133.050790952562
+>parentmass Inf
 >rt 6.91700770480711
 
 >ms1
-133.0508 100
+
 
 >ms2
 133.0508 100
 
 >compound FTneg2433
 >ionization [M+?]-
->parentmass 165.030587360962
+>parentmass Inf
 >rt 6.92593609300203
 
 >ms1
-165.0306 100
+
 
 >ms2
 165.0306 100
 
 >compound FTneg2434
 >ionization [M+?]-
->parentmass 186.14973459585
+>parentmass Inf
 >rt 6.92698032601342
 
 >ms1
-186.1497 100
+
 
 >ms2
 186.1497 100
 
 >compound FTneg2435
 >ionization [M+?]-
->parentmass 197.808108201866
+>parentmass Inf
 >rt 6.92710781525733
 
 >ms1
-197.8081 100
+
 
 >ms2
 197.8081 100
 
 >compound FTneg2436
 >ionization [M+?]-
->parentmass 230.13934801312
+>parentmass Inf
 >rt 6.92588972776328
 
 >ms1
-230.1393 100
+
 
 >ms2
 230.1393 100
 
 >compound FTneg2437
 >ionization [M+?]-
->parentmass 232.155169810995
+>parentmass Inf
 >rt 6.92733727184718
 
 >ms1
-232.1552 100
+
 
 >ms2
 232.1552 100
 
 >compound FTneg2438
 >ionization [M+?]-
->parentmass 249.007138361893
+>parentmass Inf
 >rt 6.92544586456645
 
 >ms1
-249.0071 100
+
 
 >ms2
 249.0071 100
 
 >compound FTneg2439
 >ionization [M+?]-
->parentmass 260.150123666252
+>parentmass Inf
 >rt 6.92616969696982
 
 >ms1
-260.1501 100
+
 
 >ms2
 260.1501 100
 
 >compound FTneg2440
 >ionization [M+?]-
->parentmass 266.115784050886
+>parentmass Inf
 >rt 6.92249612645475
 
 >ms1
-266.1158 100
+
 
 >ms2
 266.1158 100
 
 >compound FTneg2441
 >ionization [M+?]-
->parentmass 282.133855335628
+>parentmass Inf
 >rt 6.8929710352834
 
 >ms1
-282.1339 100
+
 
 >ms2
 282.1339 100
 
 >compound FTneg2442
 >ionization [M+?]-
->parentmass 288.043067830556
+>parentmass Inf
 >rt 6.94360416666658
 
 >ms1
-288.0431 100
+
 
 >ms2
 288.0431 100
 
 >compound FTneg2443
 >ionization [M+?]-
->parentmass 315.155602494323
+>parentmass Inf
 >rt 6.91954182092298
 
 >ms1
-315.1556 100
+
 
 >ms2
 315.1556 100
 
 >compound FTneg2444
 >ionization [M+?]-
->parentmass 336.071640821206
+>parentmass Inf
 >rt 6.93256965352172
 
 >ms1
-336.0716 100
+
 
 >ms2
 336.0716 100
 
 >compound FTneg2445
 >ionization [M+?]-
->parentmass 369.176165539599
+>parentmass Inf
 >rt 6.91799666666665
 
 >ms1
-369.1762 100
+
 
 >ms2
 369.1762 100
 
 >compound FTneg2446
 >ionization [M+?]-
->parentmass 387.186795989567
+>parentmass Inf
 >rt 6.91475800791059
 
 >ms1
-387.1868 100
+
 
 >ms2
 387.1868 100
 
 >compound FTneg2447
 >ionization [M+?]-
->parentmass 406.104183448006
+>parentmass Inf
 >rt 6.92545490392804
 
 >ms1
-406.1042 100
+
 
 >ms2
 406.1042 100
 
 >compound FTneg2448
 >ionization [M+?]-
->parentmass 410.129322757449
+>parentmass Inf
 >rt 6.94167519813915
 
 >ms1
-410.1293 100
+
 
 >ms2
 410.1293 100
 
 >compound FTneg2449
 >ionization [M+?]-
->parentmass 421.078380654258
+>parentmass Inf
 >rt 6.92900376252681
 
 >ms1
-421.0784 100
+
 
 >ms2
 421.0784 100
 
 >compound FTneg2450
 >ionization [M+?]-
->parentmass 424.076767355595
+>parentmass Inf
 >rt 6.92593666666673
 
 >ms1
-424.0768 100
+
 
 >ms2
 424.0768 100
 
 >compound FTneg2451
 >ionization [M+?]-
->parentmass 467.072543916263
+>parentmass Inf
 >rt 6.92812306515368
 
 >ms1
-467.0725 100
+
 
 >ms2
 467.0725 100
 
 >compound FTneg2452
 >ionization [M+?]-
->parentmass 474.151198746026
+>parentmass Inf
 >rt 6.92407896511222
 
 >ms1
-474.1512 100
+
 
 >ms2
 474.1512 100
 
 >compound FTneg2453
 >ionization [M+?]-
->parentmass 507.291743934667
+>parentmass Inf
 >rt 6.92754876552604
 
 >ms1
-507.2917 100
+
 
 >ms2
 507.2917 100
 
 >compound FTneg2454
 >ionization [M+?]-
->parentmass 133.98616240373
+>parentmass Inf
 >rt 6.44112843137253
 
 >ms1
-133.9862 100
+
 
 >ms2
 133.9862 100
 
 >compound FTneg2455
 >ionization [M+?]-
->parentmass 312.094933917191
+>parentmass Inf
 >rt 4.94414880952379
 
 >ms1
-312.0949 100
 
 >ms2
 50.0156 20
@@ -43824,22 +43300,20 @@
 
 >compound FTneg2456
 >ionization [M+?]-
->parentmass 134.003874814471
+>parentmass Inf
 >rt 5.13524513888892
 
 >ms1
-134.0039 100
 
 >ms2
 57.0612 40
 
 >compound FTneg2457
 >ionization [M+?]-
->parentmass 266.089541667048
+>parentmass Inf
 >rt 4.92613809523814
 
 >ms1
-266.0895 100
 
 >ms2
 51.0179 20
@@ -43859,11 +43333,10 @@
 
 >compound FTneg2458
 >ionization [M+?]-
->parentmass 356.084714262575
+>parentmass Inf
 >rt 4.9372811111112
 
 >ms1
-356.0847 100
 
 >ms2
 56.9632 80
@@ -43887,33 +43360,32 @@
 
 >compound FTneg2459
 >ionization [M+?]-
->parentmass 366.014173472762
+>parentmass Inf
 >rt 4.9579375
 
 >ms1
-366.0142 100
+
 
 >ms2
 366.0142 100
 
 >compound FTneg2460
 >ionization [M+?]-
->parentmass 380.082214127156
+>parentmass Inf
 >rt 4.94097666666673
 
 >ms1
-380.0822 100
+
 
 >ms2
 380.0822 100
 
 >compound FTneg2461
 >ionization [M+?]-
->parentmass 411.012586403616
+>parentmass Inf
 >rt 4.92978452380964
 
 >ms1
-411.0126 100
 
 >ms2
 88.0755 40
@@ -43927,22 +43399,21 @@
 
 >compound FTneg2462
 >ionization [M+?]-
->parentmass 412.018752943033
+>parentmass Inf
 >rt 4.96028777777773
 
 >ms1
-412.0188 100
+
 
 >ms2
 412.0188 100
 
 >compound FTneg2463
 >ionization [M+?]-
->parentmass 354.109840927151
+>parentmass Inf
 >rt 1.75531300785498
 
 >ms1
-354.1098 100
 
 >ms2
 53.039 4
@@ -43977,11 +43448,10 @@
 
 >compound FTneg2464
 >ionization [M+?]-
->parentmass 134.894569024316
+>parentmass Inf
 >rt 1.77342695220025
 
 >ms1
-134.8946 100
 
 >ms2
 55.023 40
@@ -44010,44 +43480,43 @@
 
 >compound FTneg2465
 >ionization [M+?]-
->parentmass 135.041831846532
+>parentmass Inf
 >rt 6.625984920635
 
 >ms1
-135.0418 100
+
 
 >ms2
 135.0418 100
 
 >compound FTneg2466
 >ionization [M+?]-
->parentmass 144.044202114615
+>parentmass Inf
 >rt 6.60044833966662
 
 >ms1
-144.0442 100
+
 
 >ms2
 144.0442 100
 
 >compound FTneg2467
 >ionization [M+?]-
->parentmass 172.036882803117
+>parentmass Inf
 >rt 6.47369637435254
 
 >ms1
-172.0369 100
+
 
 >ms2
 172.0369 100
 
 >compound FTneg2468
 >ionization [M+?]-
->parentmass 135.044881296719
+>parentmass Inf
 >rt 6.97786070664416
 
 >ms1
-135.0449 100
 
 >ms2
 54.8914 40
@@ -44074,11 +43543,10 @@
 
 >compound FTneg2469
 >ionization [M+?]-
->parentmass 163.039884884689
+>parentmass Inf
 >rt 6.98533321325417
 
 >ms1
-163.0399 100
 
 >ms2
 55.0541 4
@@ -44196,11 +43664,10 @@
 
 >compound FTneg2470
 >ionization [M+?]-
->parentmass 202.051021978982
+>parentmass Inf
 >rt 8.47655407362045
 
 >ms1
-202.051 100
 
 >ms2
 50.0142 80
@@ -44233,132 +43700,131 @@
 
 >compound FTneg2471
 >ionization [M+?]-
->parentmass 135.044889005994
+>parentmass Inf
 >rt 8.43238083621404
 
 >ms1
-135.0449 100
+
 
 >ms2
 135.0449 100
 
 >compound FTneg2472
 >ionization [M+?]-
->parentmass 157.086882097978
+>parentmass Inf
 >rt 8.4541976633184
 
 >ms1
-157.0869 100
+
 
 >ms2
 157.0869 100
 
 >compound FTneg2473
 >ionization [M+?]-
->parentmass 185.081728426
+>parentmass Inf
 >rt 8.4860743335482
 
 >ms1
-185.0817 100
+
 
 >ms2
 185.0817 100
 
 >compound FTneg2474
 >ionization [M+?]-
->parentmass 214.880095114645
+>parentmass Inf
 >rt 8.4521328997568
 
 >ms1
-214.8801 100
+
 
 >ms2
 214.8801 100
 
 >compound FTneg2475
 >ionization [M+?]-
->parentmass 270.038125421876
+>parentmass Inf
 >rt 8.48788528201929
 
 >ms1
-270.0381 100
+
 
 >ms2
 270.0381 100
 
 >compound FTneg2476
 >ionization [M+?]-
->parentmass 292.101500535766
+>parentmass Inf
 >rt 8.3863843192168
 
 >ms1
-292.1015 100
+
 
 >ms2
 292.1015 100
 
 >compound FTneg2477
 >ionization [M+?]-
->parentmass 318.006463067447
+>parentmass Inf
 >rt 8.44467894736847
 
 >ms1
-318.0065 100
+
 
 >ms2
 318.0065 100
 
 >compound FTneg2478
 >ionization [M+?]-
->parentmass 332.008083437278
+>parentmass Inf
 >rt 8.4548322019896
 
 >ms1
-332.0081 100
+
 
 >ms2
 332.0081 100
 
 >compound FTneg2479
 >ionization [M+?]-
->parentmass 411.238023441579
+>parentmass Inf
 >rt 8.40401726675026
 
 >ms1
-411.238 100
+
 
 >ms2
 411.238 100
 
 >compound FTneg2480
 >ionization [M+?]-
->parentmass 463.957027012963
+>parentmass Inf
 >rt 8.37018846153846
 
 >ms1
-463.957 100
+
 
 >ms2
 463.957 100
 
 >compound FTneg2481
 >ionization [M+?]-
->parentmass 503.910629304463
+>parentmass Inf
 >rt 8.45166914163219
 
 >ms1
-503.9106 100
+
 
 >ms2
 503.9106 100
 
 >compound FTneg2482
 >ionization [M+?]-
->parentmass 135.970808310176
+>parentmass Inf
 >rt 16.1304481435952
 
 >ms1
-135.9708 100
 
 >ms2
 53.0392 40
@@ -44430,55 +43896,53 @@
 
 >compound FTneg2483
 >ionization [M+?]-
->parentmass 135.970906340526
+>parentmass Inf
 >rt 16.1682530976216
 
 >ms1
-135.9709 100
 
 >ms2
 264.4272 40
 
 >compound FTneg2484
 >ionization [M+?]-
->parentmass 359.1859648327
+>parentmass Inf
 >rt 9.82327796968972
 
 >ms1
-359.186 100
+
 
 >ms2
 359.186 100
 
 >compound FTneg2485
 >ionization [M+?]-
->parentmass 135.970912093929
+>parentmass Inf
 >rt 9.93586428571428
 
 >ms1
-135.9709 100
+
 
 >ms2
 135.9709 100
 
 >compound FTneg2486
 >ionization [M+?]-
->parentmass 293.105285094061
+>parentmass Inf
 >rt 9.96119906231781
 
 >ms1
-293.1053 100
+
 
 >ms2
 293.1053 100
 
 >compound FTneg2487
 >ionization [M+?]-
->parentmass 443.155197835412
+>parentmass Inf
 >rt 9.91602492825444
 
 >ms1
-443.1552 100
 
 >ms2
 55.0541 80
@@ -44542,33 +44006,32 @@
 
 >compound FTneg2488
 >ionization [M+?]-
->parentmass 714.044762352107
+>parentmass Inf
 >rt 9.90491902690497
 
 >ms1
-714.0448 100
+
 
 >ms2
 714.0448 100
 
 >compound FTneg2489
 >ionization [M+?]-
->parentmass 135.970952991192
+>parentmass Inf
 >rt 16.683396696456
 
 >ms1
-135.971 100
+
 
 >ms2
 135.971 100
 
 >compound FTneg2490
 >ionization [M+?]-
->parentmass 259.118611515226
+>parentmass Inf
 >rt 9.24332468424141
 
 >ms1
-259.1186 100
 
 >ms2
 53.9406 41
@@ -44594,11 +44057,10 @@
 
 >compound FTneg2491
 >ionization [M+?]-
->parentmass 137.024248993771
+>parentmass Inf
 >rt 9.26498962338696
 
 >ms1
-137.0242 100
 
 >ms2
 51.8213 40
@@ -44656,11 +44118,10 @@
 
 >compound FTneg2492
 >ionization [M+?]-
->parentmass 185.045419761478
+>parentmass Inf
 >rt 9.24740814839321
 
 >ms1
-185.0454 100
 
 >ms2
 53.0376 40
@@ -44678,11 +44139,10 @@
 
 >compound FTneg2493
 >ionization [M+?]-
->parentmass 201.112954009455
+>parentmass Inf
 >rt 9.32517407080286
 
 >ms1
-201.113 100
 
 >ms2
 50.0141 16
@@ -44727,11 +44187,10 @@
 
 >compound FTneg2494
 >ionization [M+?]-
->parentmass 261.043686388257
+>parentmass Inf
 >rt 9.2481230929634
 
 >ms1
-261.0437 100
 
 >ms2
 51.9374 8
@@ -44763,11 +44222,10 @@
 
 >compound FTneg2495
 >ionization [M+?]-
->parentmass 273.13285814468
+>parentmass Inf
 >rt 9.31550283734983
 
 >ms1
-273.1329 100
 
 >ms2
 51.9397 4
@@ -44812,11 +44270,10 @@
 
 >compound FTneg2496
 >ionization [M+?]-
->parentmass 303.127058118098
+>parentmass Inf
 >rt 9.25012099798285
 
 >ms1
-303.1271 100
 
 >ms2
 50.9524 4
@@ -44834,22 +44291,21 @@
 
 >compound FTneg2497
 >ionization [M+?]-
->parentmass 327.105544213781
+>parentmass Inf
 >rt 9.23935510245193
 
 >ms1
-327.1055 100
+
 
 >ms2
 327.1055 100
 
 >compound FTneg2498
 >ionization [M+?]-
->parentmass 345.137664280772
+>parentmass Inf
 >rt 9.20333179565248
 
 >ms1
-345.1377 100
 
 >ms2
 55.0534 80
@@ -44894,11 +44350,10 @@
 
 >compound FTneg2499
 >ionization [M+?]-
->parentmass 351.017893945801
+>parentmass Inf
 >rt 9.25243397910497
 
 >ms1
-351.0179 100
 
 >ms2
 55.0525 40
@@ -44942,11 +44397,10 @@
 
 >compound FTneg2500
 >ionization [M+?]-
->parentmass 373.128875981987
+>parentmass Inf
 >rt 9.33082363423956
 
 >ms1
-373.1289 100
 
 >ms2
 54.0418 40
@@ -44957,77 +44411,76 @@
 
 >compound FTneg2501
 >ionization [M+?]-
->parentmass 401.077899608048
+>parentmass Inf
 >rt 9.26369994834523
 
 >ms1
-401.0779 100
+
 
 >ms2
 401.0779 100
 
 >compound FTneg2502
 >ionization [M+?]-
->parentmass 138.01963718022
+>parentmass Inf
 >rt 9.57456828707252
 
 >ms1
-138.0196 100
+
 
 >ms2
 138.0196 100
 
 >compound FTneg2503
 >ionization [M+?]-
->parentmass 138.019874155059
+>parentmass Inf
 >rt 9.43867485039317
 
 >ms1
-138.0199 100
+
 
 >ms2
 138.0199 100
 
 >compound FTneg2504
 >ionization [M+?]-
->parentmass 140.986081166602
+>parentmass Inf
 >rt 9.48816413579105
 
 >ms1
-140.9861 100
+
 
 >ms2
 140.9861 100
 
 >compound FTneg2505
 >ionization [M+?]-
->parentmass 145.050328732659
+>parentmass Inf
 >rt 9.55153853103251
 
 >ms1
-145.0503 100
+
 
 >ms2
 145.0503 100
 
 >compound FTneg2506
 >ionization [M+?]-
->parentmass 146.96393833932
+>parentmass Inf
 >rt 9.5296745641281
 
 >ms1
-146.9639 100
+
 
 >ms2
 146.9639 100
 
 >compound FTneg2507
 >ionization [M+?]-
->parentmass 174.956050721067
+>parentmass Inf
 >rt 9.47472864452232
 
 >ms1
-174.9561 100
 
 >ms2
 55.0132 41
@@ -45127,11 +44580,10 @@
 
 >compound FTneg2508
 >ionization [M+?]-
->parentmass 235.926008939218
+>parentmass Inf
 >rt 9.51997990888814
 
 >ms1
-235.926 100
 
 >ms2
 50.0077 4
@@ -45181,55 +44633,53 @@
 
 >compound FTneg2509
 >ionization [M+?]-
->parentmass 269.1386757625
+>parentmass Inf
 >rt 9.52590785815203
 
 >ms1
-269.1387 100
 
 >ms2
 50.009 4
 
 >compound FTneg2510
 >ionization [M+?]-
->parentmass 297.05676098644
+>parentmass Inf
 >rt 9.54145680038132
 
 >ms1
-297.0568 100
+
 
 >ms2
 297.0568 100
 
 >compound FTneg2511
 >ionization [M+?]-
->parentmass 417.037280047753
+>parentmass Inf
 >rt 9.43732281366958
 
 >ms1
-417.0373 100
+
 
 >ms2
 417.0373 100
 
 >compound FTneg2512
 >ionization [M+?]-
->parentmass 445.032747183372
+>parentmass Inf
 >rt 9.48580858633105
 
 >ms1
-445.0327 100
+
 
 >ms2
 445.0327 100
 
 >compound FTneg2513
 >ionization [M+?]-
->parentmass 494.257993861856
+>parentmass Inf
 >rt 9.52344003853542
 
 >ms1
-494.258 100
 
 >ms2
 72.9378 40
@@ -45247,22 +44697,21 @@
 
 >compound FTneg2514
 >ionization [M+?]-
->parentmass 138.048491315408
+>parentmass Inf
 >rt 14.5725333333334
 
 >ms1
-138.0485 100
+
 
 >ms2
 138.0485 100
 
 >compound FTneg2515
 >ionization [M+?]-
->parentmass 411.157862626074
+>parentmass Inf
 >rt 9.49953168149753
 
 >ms1
-411.1579 100
 
 >ms2
 50.0178 40
@@ -45361,11 +44810,10 @@
 
 >compound FTneg2516
 >ionization [M+?]-
->parentmass 421.186621991812
+>parentmass Inf
 >rt 9.4982237377422
 
 >ms1
-421.1866 100
 
 >ms2
 55.0541 199
@@ -45441,11 +44889,10 @@
 
 >compound FTneg2517
 >ionization [M+?]-
->parentmass 438.176776375215
+>parentmass Inf
 >rt 9.49869329517745
 
 >ms1
-438.1768 100
 
 >ms2
 57.0148 80
@@ -45485,11 +44932,10 @@
 
 >compound FTneg2518
 >ionization [M+?]-
->parentmass 139.039888860979
+>parentmass Inf
 >rt 9.51438657901062
 
 >ms1
-139.0399 100
 
 >ms2
 54.8772 41
@@ -45529,11 +44975,10 @@
 
 >compound FTneg2519
 >ionization [M+?]-
->parentmass 159.102587652878
+>parentmass Inf
 >rt 9.48776025270087
 
 >ms1
-159.1026 100
 
 >ms2
 58.0264 80
@@ -45669,11 +45114,10 @@
 
 >compound FTneg2520
 >ionization [M+?]-
->parentmass 213.113046683837
+>parentmass Inf
 >rt 9.52020684734878
 
 >ms1
-213.113 100
 
 >ms2
 51.0056 40
@@ -45721,11 +45165,10 @@
 
 >compound FTneg2521
 >ionization [M+?]-
->parentmass 253.050242197757
+>parentmass Inf
 >rt 9.51484841269843
 
 >ms1
-253.0502 100
 
 >ms2
 50.0148 4
@@ -45744,22 +45187,21 @@
 
 >compound FTneg2522
 >ionization [M+?]-
->parentmass 421.15940634092
+>parentmass Inf
 >rt 9.50269417590475
 
 >ms1
-421.1594 100
+
 
 >ms2
 421.1594 100
 
 >compound FTneg2523
 >ionization [M+?]-
->parentmass 489.174162478142
+>parentmass Inf
 >rt 9.50254375954664
 
 >ms1
-489.1742 100
 
 >ms2
 59.0484 20
@@ -45773,22 +45215,21 @@
 
 >compound FTneg2524
 >ionization [M+?]-
->parentmass 547.363617278032
+>parentmass Inf
 >rt 9.65400128205127
 
 >ms1
-547.3636 100
+
 
 >ms2
 547.3636 100
 
 >compound FTneg2525
 >ionization [M+?]-
->parentmass 677.35358582881
+>parentmass Inf
 >rt 9.43337173913048
 
 >ms1
-677.3536 100
 
 >ms2
 55.0502 40
@@ -45805,11 +45246,10 @@
 
 >compound FTneg2526
 >ionization [M+?]-
->parentmass 678.356998746021
+>parentmass Inf
 >rt 9.42444333333327
 
 >ms1
-678.357 100
 
 >ms2
 73.0442 40
@@ -45823,33 +45263,32 @@
 
 >compound FTneg2527
 >ionization [M+?]-
->parentmass 140.986080345767
+>parentmass Inf
 >rt 8.70221372549018
 
 >ms1
-140.9861 100
+
 
 >ms2
 140.9861 100
 
 >compound FTneg2528
 >ionization [M+?]-
->parentmass 140.986151145326
+>parentmass Inf
 >rt 7.4427217394422
 
 >ms1
-140.9862 100
+
 
 >ms2
 140.9862 100
 
 >compound FTneg2529
 >ionization [M+?]-
->parentmass 179.055463449404
+>parentmass Inf
 >rt 7.456306060606
 
 >ms1
-179.0555 100
 
 >ms2
 58.0623 40
@@ -45888,22 +45327,21 @@
 
 >compound FTneg2530
 >ionization [M+?]-
->parentmass 235.064586250924
+>parentmass Inf
 >rt 7.34672777777767
 
 >ms1
-235.0646 100
+
 
 >ms2
 235.0646 100
 
 >compound FTneg2531
 >ionization [M+?]-
->parentmass 353.03355263015
+>parentmass Inf
 >rt 9.36233870217892
 
 >ms1
-353.0336 100
 
 >ms2
 55.0161 41
@@ -45958,11 +45396,10 @@
 
 >compound FTneg2532
 >ionization [M+?]-
->parentmass 141.018845627368
+>parentmass Inf
 >rt 9.36541875072849
 
 >ms1
-141.0188 100
 
 >ms2
 57.0712 40
@@ -45981,11 +45418,10 @@
 
 >compound FTneg2533
 >ionization [M+?]-
->parentmass 168.103012984003
+>parentmass Inf
 >rt 9.38126351730894
 
 >ms1
-168.103 100
 
 >ms2
 86.0958 40
@@ -46005,11 +45441,10 @@
 
 >compound FTneg2534
 >ionization [M+?]-
->parentmass 215.092175832732
+>parentmass Inf
 >rt 9.38778285578976
 
 >ms1
-215.0922 100
 
 >ms2
 50.4546 4
@@ -46066,11 +45501,10 @@
 
 >compound FTneg2535
 >ionization [M+?]-
->parentmass 229.144332722106
+>parentmass Inf
 >rt 9.32951278897745
 
 >ms1
-229.1443 100
 
 >ms2
 55.0292 120
@@ -46090,11 +45524,10 @@
 
 >compound FTneg2536
 >ionization [M+?]-
->parentmass 290.142916944794
+>parentmass Inf
 >rt 9.40126535413551
 
 >ms1
-290.1429 100
 
 >ms2
 52.9462 4
@@ -46111,11 +45544,10 @@
 
 >compound FTneg2537
 >ionization [M+?]-
->parentmass 313.118659937019
+>parentmass Inf
 >rt 9.37568350950446
 
 >ms1
-313.1187 100
 
 >ms2
 55.0525 40
@@ -46135,99 +45567,98 @@
 
 >compound FTneg2538
 >ionization [M+?]-
->parentmass 319.121453213747
+>parentmass Inf
 >rt 9.39370376884118
 
 >ms1
-319.1215 100
+
 
 >ms2
 319.1215 100
 
 >compound FTneg2539
 >ionization [M+?]-
->parentmass 141.868118793664
+>parentmass Inf
 >rt 9.74587785184121
 
 >ms1
-141.8681 100
+
 
 >ms2
 141.8681 100
 
 >compound FTneg2540
 >ionization [M+?]-
->parentmass 277.145426901076
+>parentmass Inf
 >rt 9.6728456811021
 
 >ms1
-277.1454 100
+
 
 >ms2
 277.1454 100
 
 >compound FTneg2541
 >ionization [M+?]-
->parentmass 301.201977967193
+>parentmass Inf
 >rt 9.70238752098081
 
 >ms1
-301.202 100
+
 
 >ms2
 301.202 100
 
 >compound FTneg2542
 >ionization [M+?]-
->parentmass 327.217280486521
+>parentmass Inf
 >rt 9.66218149505414
 
 >ms1
-327.2173 100
+
 
 >ms2
 327.2173 100
 
 >compound FTneg2543
 >ionization [M+?]-
->parentmass 531.299571459868
+>parentmass Inf
 >rt 9.60719982140191
 
 >ms1
-531.2996 100
+
 
 >ms2
 531.2996 100
 
 >compound FTneg2544
 >ionization [M+?]-
->parentmass 142.050983228432
+>parentmass Inf
 >rt 5.25094020853092
 
 >ms1
-142.051 100
+
 
 >ms2
 142.051 100
 
 >compound FTneg2545
 >ionization [M+?]-
->parentmass 289.996699648849
+>parentmass Inf
 >rt 5.21850189721883
 
 >ms1
-289.9967 100
+
 
 >ms2
 289.9967 100
 
 >compound FTneg2546
 >ionization [M+?]-
->parentmass 142.066073955695
+>parentmass Inf
 >rt 9.67820726281916
 
 >ms1
-142.0661 100
 
 >ms2
 51.0222 40
@@ -46269,33 +45700,32 @@
 
 >compound FTneg2547
 >ionization [M+?]-
->parentmass 143.071237726234
+>parentmass Inf
 >rt 7.60236056592868
 
 >ms1
-143.0712 100
+
 
 >ms2
 143.0712 100
 
 >compound FTneg2548
 >ionization [M+?]-
->parentmass 362.874971585138
+>parentmass Inf
 >rt 7.59027987999042
 
 >ms1
-362.875 100
+
 
 >ms2
 362.875 100
 
 >compound FTneg2549
 >ionization [M+?]-
->parentmass 309.168363265537
+>parentmass Inf
 >rt 10.5480479667583
 
 >ms1
-309.1684 100
 
 >ms2
 55.9321 40
@@ -46307,11 +45737,10 @@
 
 >compound FTneg2550
 >ionization [M+?]-
->parentmass 599.25088963452
+>parentmass Inf
 >rt 10.5629062661208
 
 >ms1
-599.2509 100
 
 >ms2
 109.1047 4
@@ -46323,11 +45752,10 @@
 
 >compound FTneg2551
 >ionization [M+?]-
->parentmass 143.10752859251
+>parentmass Inf
 >rt 10.547100213891
 
 >ms1
-143.1075 100
 
 >ms2
 57.0334 40
@@ -46343,22 +45771,20 @@
 
 >compound FTneg2552
 >ionization [M+?]-
->parentmass 211.095982160346
+>parentmass Inf
 >rt 10.5398175778893
 
 >ms1
-211.096 100
 
 >ms2
 50.0149 40
 
 >compound FTneg2553
 >ionization [M+?]-
->parentmass 228.160165533717
+>parentmass Inf
 >rt 10.6241290341025
 
 >ms1
-228.1602 100
 
 >ms2
 51.0223 8
@@ -46387,11 +45813,10 @@
 
 >compound FTneg2554
 >ionization [M+?]-
->parentmass 259.191074726318
+>parentmass Inf
 >rt 10.5574651314237
 
 >ms1
-259.1911 100
 
 >ms2
 53.0383 8
@@ -46429,11 +45854,10 @@
 
 >compound FTneg2555
 >ionization [M+?]-
->parentmass 265.180497841095
+>parentmass Inf
 >rt 10.5482103930254
 
 >ms1
-265.1805 100
 
 >ms2
 50.5162 40
@@ -46477,33 +45901,32 @@
 
 >compound FTneg2556
 >ionization [M+?]-
->parentmass 273.065336840542
+>parentmass Inf
 >rt 10.5453308212486
 
 >ms1
-273.0653 100
+
 
 >ms2
 273.0653 100
 
 >compound FTneg2557
 >ionization [M+?]-
->parentmass 288.038425653326
+>parentmass Inf
 >rt 10.5460534328296
 
 >ms1
-288.0384 100
+
 
 >ms2
 288.0384 100
 
 >compound FTneg2558
 >ionization [M+?]-
->parentmass 307.154837368786
+>parentmass Inf
 >rt 10.5483256035883
 
 >ms1
-307.1548 100
 
 >ms2
 55.0169 41
@@ -46552,77 +45975,76 @@
 
 >compound FTneg2559
 >ionization [M+?]-
->parentmass 321.134882532667
+>parentmass Inf
 >rt 10.5462773469143
 
 >ms1
-321.1349 100
+
 
 >ms2
 321.1349 100
 
 >compound FTneg2560
 >ionization [M+?]-
->parentmass 358.259504952655
+>parentmass Inf
 >rt 10.5607634483403
 
 >ms1
-358.2595 100
+
 
 >ms2
 358.2595 100
 
 >compound FTneg2561
 >ionization [M+?]-
->parentmass 427.172741293835
+>parentmass Inf
 >rt 10.543744754285
 
 >ms1
-427.1727 100
+
 
 >ms2
 427.1727 100
 
 >compound FTneg2562
 >ionization [M+?]-
->parentmass 429.152992673029
+>parentmass Inf
 >rt 10.5452298814883
 
 >ms1
-429.153 100
+
 
 >ms2
 429.153 100
 
 >compound FTneg2563
 >ionization [M+?]-
->parentmass 143.865052277515
+>parentmass Inf
 >rt 8.43425044740059
 
 >ms1
-143.8651 100
+
 
 >ms2
 143.8651 100
 
 >compound FTneg2564
 >ionization [M+?]-
->parentmass 143.90057048134
+>parentmass Inf
 >rt 9.37379999999991
 
 >ms1
-143.9006 100
+
 
 >ms2
 143.9006 100
 
 >compound FTneg2565
 >ionization [M+?]-
->parentmass 212.002130620295
+>parentmass Inf
 >rt 9.34591636365354
 
 >ms1
-212.0021 100
 
 >ms2
 50.7893 4
@@ -46660,22 +46082,21 @@
 
 >compound FTneg2566
 >ionization [M+?]-
->parentmass 143.91553682872
+>parentmass Inf
 >rt 3.75416769624187
 
 >ms1
-143.9155 100
+
 
 >ms2
 143.9155 100
 
 >compound FTneg2567
 >ionization [M+?]-
->parentmass 269.066414734678
+>parentmass Inf
 >rt 7.07891773093069
 
 >ms1
-269.0664 100
 
 >ms2
 52.9403 40
@@ -46694,11 +46115,10 @@
 
 >compound FTneg2568
 >ionization [M+?]-
->parentmass 144.045165649691
+>parentmass Inf
 >rt 7.09708024301099
 
 >ms1
-144.0452 100
 
 >ms2
 80.972 40
@@ -46717,11 +46137,10 @@
 
 >compound FTneg2569
 >ionization [M+?]-
->parentmass 172.03960392912
+>parentmass Inf
 >rt 7.11302887076904
 
 >ms1
-172.0396 100
 
 >ms2
 57.0704 40
@@ -46749,11 +46168,10 @@
 
 >compound FTneg2570
 >ionization [M+?]-
->parentmass 242.049012810102
+>parentmass Inf
 >rt 7.10775614465024
 
 >ms1
-242.049 100
 
 >ms2
 51.0216 4
@@ -46850,154 +46268,152 @@
 
 >compound FTneg2571
 >ionization [M+?]-
->parentmass 286.002604559568
+>parentmass Inf
 >rt 7.09809636854903
 
 >ms1
-286.0026 100
 
 >ms2
 55.9319 40
 
 >compound FTneg2572
 >ionization [M+?]-
->parentmass 144.045279726462
+>parentmass Inf
 >rt 8.51686025825146
 
 >ms1
-144.0453 100
+
 
 >ms2
 144.0453 100
 
 >compound FTneg2573
 >ionization [M+?]-
->parentmass 173.118136426719
+>parentmass Inf
 >rt 8.5601978437425
 
 >ms1
-173.1181 100
+
 
 >ms2
 173.1181 100
 
 >compound FTneg2574
 >ionization [M+?]-
->parentmass 174.055662246303
+>parentmass Inf
 >rt 8.48454583333325
 
 >ms1
-174.0557 100
+
 
 >ms2
 174.0557 100
 
 >compound FTneg2575
 >ionization [M+?]-
->parentmass 174.956085727297
+>parentmass Inf
 >rt 8.57330175485269
 
 >ms1
-174.9561 100
+
 
 >ms2
 174.9561 100
 
 >compound FTneg2576
 >ionization [M+?]-
->parentmass 218.902694949989
+>parentmass Inf
 >rt 8.4925069444445
 
 >ms1
-218.9027 100
+
 
 >ms2
 218.9027 100
 
 >compound FTneg2577
 >ionization [M+?]-
->parentmass 243.086091572231
+>parentmass Inf
 >rt 8.55017404127577
 
 >ms1
-243.0861 100
+
 
 >ms2
 243.0861 100
 
 >compound FTneg2578
 >ionization [M+?]-
->parentmass 255.822304991099
+>parentmass Inf
 >rt 8.60527542311665
 
 >ms1
-255.8223 100
+
 
 >ms2
 255.8223 100
 
 >compound FTneg2579
 >ionization [M+?]-
->parentmass 287.112853264123
+>parentmass Inf
 >rt 8.50623592502212
 
 >ms1
-287.1129 100
+
 
 >ms2
 287.1129 100
 
 >compound FTneg2580
 >ionization [M+?]-
->parentmass 290.186687380114
+>parentmass Inf
 >rt 8.53986666666662
 
 >ms1
-290.1867 100
+
 
 >ms2
 290.1867 100
 
 >compound FTneg2581
 >ionization [M+?]-
->parentmass 315.833224044719
+>parentmass Inf
 >rt 8.60798779376906
 
 >ms1
-315.8332 100
+
 
 >ms2
 315.8332 100
 
 >compound FTneg2582
 >ionization [M+?]-
->parentmass 347.914925557423
+>parentmass Inf
 >rt 8.52311666666664
 
 >ms1
-347.9149 100
+
 
 >ms2
 347.9149 100
 
 >compound FTneg2583
 >ionization [M+?]-
->parentmass 402.099181567795
+>parentmass Inf
 >rt 8.48743690476193
 
 >ms1
-402.0992 100
+
 
 >ms2
 402.0992 100
 
 >compound FTneg2584
 >ionization [M+?]-
->parentmass 321.043857805762
+>parentmass Inf
 >rt 9.18760598188721
 
 >ms1
-321.0439 100
 
 >ms2
 50.0214 40
@@ -47134,11 +46550,10 @@
 
 >compound FTneg2585
 >ionization [M+?]-
->parentmass 144.045349817276
+>parentmass Inf
 >rt 9.20487835588329
 
 >ms1
-144.0453 100
 
 >ms2
 65.0381 4
@@ -47215,11 +46630,10 @@
 
 >compound FTneg2586
 >ionization [M+?]-
->parentmass 298.129517166905
+>parentmass Inf
 >rt 9.17776879236412
 
 >ms1
-298.1295 100
 
 >ms2
 55.0177 8
@@ -47242,11 +46656,10 @@
 
 >compound FTneg2587
 >ionization [M+?]-
->parentmass 321.02070501035
+>parentmass Inf
 >rt 9.1933161400704
 
 >ms1
-321.0207 100
 
 >ms2
 53.351 41
@@ -47300,11 +46713,10 @@
 
 >compound FTneg2588
 >ionization [M+?]-
->parentmass 389.03112544933
+>parentmass Inf
 >rt 9.18431772009495
 
 >ms1
-389.0311 100
 
 >ms2
 50.004 4
@@ -47321,11 +46733,10 @@
 
 >compound FTneg2589
 >ionization [M+?]-
->parentmass 406.021183734905
+>parentmass Inf
 >rt 9.18367981278844
 
 >ms1
-406.0212 100
 
 >ms2
 57.0341 20
@@ -47338,11 +46749,10 @@
 
 >compound FTneg2590
 >ionization [M+?]-
->parentmass 420.968845695405
+>parentmass Inf
 >rt 9.1822997281257
 
 >ms1
-420.9688 100
 
 >ms2
 57.0727 40
@@ -47350,11 +46760,10 @@
 
 >compound FTneg2591
 >ionization [M+?]-
->parentmass 688.152706507293
+>parentmass Inf
 >rt 9.18483525493334
 
 >ms1
-688.1527 100
 
 >ms2
 57.0703 40
@@ -47377,11 +46786,10 @@
 
 >compound FTneg2592
 >ionization [M+?]-
->parentmass 202.051002292461
+>parentmass Inf
 >rt 9.79937542179069
 
 >ms1
-202.051 100
 
 >ms2
 50.0133 13
@@ -47396,11 +46804,10 @@
 
 >compound FTneg2593
 >ionization [M+?]-
->parentmass 218.045784009119
+>parentmass Inf
 >rt 9.80514739765762
 
 >ms1
-218.0458 100
 
 >ms2
 53.0004 80
@@ -47429,22 +46836,21 @@
 
 >compound FTneg2594
 >ionization [M+?]-
->parentmass 144.045369245916
+>parentmass Inf
 >rt 9.81959842701221
 
 >ms1
-144.0454 100
+
 
 >ms2
 144.0454 100
 
 >compound FTneg2595
 >ionization [M+?]-
->parentmass 183.102532958165
+>parentmass Inf
 >rt 9.80075201494264
 
 >ms1
-183.1025 100
 
 >ms2
 51.0223 40
@@ -47455,121 +46861,120 @@
 
 >compound FTneg2596
 >ionization [M+?]-
->parentmass 202.050750478253
+>parentmass Inf
 >rt 9.87602930506127
 
 >ms1
-202.0508 100
+
 
 >ms2
 202.0508 100
 
 >compound FTneg2597
 >ionization [M+?]-
->parentmass 227.128692306637
+>parentmass Inf
 >rt 9.79279610885655
 
 >ms1
-227.1287 100
+
 
 >ms2
 227.1287 100
 
 >compound FTneg2598
 >ionization [M+?]-
->parentmass 232.928074950971
+>parentmass Inf
 >rt 9.80196990252878
 
 >ms1
-232.9281 100
+
 
 >ms2
 232.9281 100
 
 >compound FTneg2599
 >ionization [M+?]-
->parentmass 299.107012097034
+>parentmass Inf
 >rt 9.79298291756627
 
 >ms1
-299.107 100
+
 
 >ms2
 299.107 100
 
 >compound FTneg2600
 >ionization [M+?]-
->parentmass 344.152941567366
+>parentmass Inf
 >rt 9.82374737239981
 
 >ms1
-344.1529 100
+
 
 >ms2
 344.1529 100
 
 >compound FTneg2601
 >ionization [M+?]-
->parentmass 348.184088654986
+>parentmass Inf
 >rt 9.8247362687057
 
 >ms1
-348.1841 100
+
 
 >ms2
 348.1841 100
 
 >compound FTneg2602
 >ionization [M+?]-
->parentmass 439.256381136289
+>parentmass Inf
 >rt 9.88988555555567
 
 >ms1
-439.2564 100
+
 
 >ms2
 439.2564 100
 
 >compound FTneg2603
 >ionization [M+?]-
->parentmass 501.234186685772
+>parentmass Inf
 >rt 9.80859754729347
 
 >ms1
-501.2342 100
+
 
 >ms2
 501.2342 100
 
 >compound FTneg2604
 >ionization [M+?]-
->parentmass 541.17141446245
+>parentmass Inf
 >rt 9.79580135288118
 
 >ms1
-541.1714 100
+
 
 >ms2
 541.1714 100
 
 >compound FTneg2605
 >ionization [M+?]-
->parentmass 144.10269254727
+>parentmass Inf
 >rt 6.47504766290732
 
 >ms1
-144.1027 100
+
 
 >ms2
 144.1027 100
 
 >compound FTneg2606
 >ionization [M+?]-
->parentmass 262.129553556909
+>parentmass Inf
 >rt 6.47068540750387
 
 >ms1
-262.1296 100
 
 >ms2
 53.0316 4
@@ -47598,55 +47003,53 @@
 
 >compound FTneg2607
 >ionization [M+?]-
->parentmass 295.086300274397
+>parentmass Inf
 >rt 6.4943977777778
 
 >ms1
-295.0863 100
+
 
 >ms2
 295.0863 100
 
 >compound FTneg2608
 >ionization [M+?]-
->parentmass 315.073788117578
+>parentmass Inf
 >rt 6.52434787110007
 
 >ms1
-315.0738 100
+
 
 >ms2
 315.0738 100
 
 >compound FTneg2609
 >ionization [M+?]-
->parentmass 362.072392361275
+>parentmass Inf
 >rt 6.47503939393936
 
 >ms1
-362.0724 100
+
 
 >ms2
 362.0724 100
 
 >compound FTneg2610
 >ionization [M+?]-
->parentmass 231.077615294873
+>parentmass Inf
 >rt 8.30930737702398
 
 >ms1
-231.0776 100
 
 >ms2
 50.0156 40
 
 >compound FTneg2611
 >ionization [M+?]-
->parentmass 571.039649557363
+>parentmass Inf
 >rt 8.31432326645279
 
 >ms1
-571.0396 100
 
 >ms2
 60.0793 120
@@ -47669,11 +47072,10 @@
 
 >compound FTneg2612
 >ionization [M+?]-
->parentmass 304.176279585225
+>parentmass Inf
 >rt 8.33157591941036
 
 >ms1
-304.1763 100
 
 >ms2
 77.0385 40
@@ -47682,11 +47084,10 @@
 
 >compound FTneg2613
 >ionization [M+?]-
->parentmass 188.092637917234
+>parentmass Inf
 >rt 8.33436680294101
 
 >ms1
-188.0926 100
 
 >ms2
 56.0496 40
@@ -47694,11 +47095,10 @@
 
 >compound FTneg2614
 >ionization [M+?]-
->parentmass 236.092759201851
+>parentmass Inf
 >rt 8.31935696569615
 
 >ms1
-236.0928 100
 
 >ms2
 55.0427 40
@@ -47706,11 +47106,10 @@
 
 >compound FTneg2615
 >ionization [M+?]-
->parentmass 843.400188497014
+>parentmass Inf
 >rt 8.33405723472968
 
 >ms1
-843.4002 100
 
 >ms2
 51.0237 16
@@ -47718,44 +47117,43 @@
 
 >compound FTneg2616
 >ionization [M+?]-
->parentmass 895.474896653165
+>parentmass Inf
 >rt 8.32958027304184
 
 >ms1
-895.4749 100
+
 
 >ms2
 895.4749 100
 
 >compound FTneg2617
 >ionization [M+?]-
->parentmass 144.102868096065
+>parentmass Inf
 >rt 8.33312863808705
 
 >ms1
-144.1029 100
+
 
 >ms2
 144.1029 100
 
 >compound FTneg2618
 >ionization [M+?]-
->parentmass 161.081586611623
+>parentmass Inf
 >rt 8.33263503216796
 
 >ms1
-161.0816 100
+
 
 >ms2
 161.0816 100
 
 >compound FTneg2619
 >ionization [M+?]-
->parentmass 165.055794498031
+>parentmass Inf
 >rt 8.34980837511532
 
 >ms1
-165.0558 100
 
 >ms2
 59.0414 40
@@ -47767,22 +47165,21 @@
 
 >compound FTneg2620
 >ionization [M+?]-
->parentmass 194.046180041208
+>parentmass Inf
 >rt 8.31237124791213
 
 >ms1
-194.0462 100
+
 
 >ms2
 194.0462 100
 
 >compound FTneg2621
 >ionization [M+?]-
->parentmass 211.061066583983
+>parentmass Inf
 >rt 8.33841428571429
 
 >ms1
-211.0611 100
 
 >ms2
 51.0266 4
@@ -47804,242 +47201,240 @@
 
 >compound FTneg2622
 >ionization [M+?]-
->parentmass 225.076738184304
+>parentmass Inf
 >rt 8.30430154576157
 
 >ms1
-225.0767 100
+
 
 >ms2
 225.0767 100
 
 >compound FTneg2623
 >ionization [M+?]-
->parentmass 229.017518606915
+>parentmass Inf
 >rt 8.31333887970931
 
 >ms1
-229.0175 100
+
 
 >ms2
 229.0175 100
 
 >compound FTneg2624
 >ionization [M+?]-
->parentmass 236.074000356454
+>parentmass Inf
 >rt 8.31477232734892
 
 >ms1
-236.074 100
 
 >ms2
 60.0445 40
 
 >compound FTneg2625
 >ionization [M+?]-
->parentmass 245.102860336835
+>parentmass Inf
 >rt 8.31591639222368
 
 >ms1
-245.1029 100
+
 
 >ms2
 245.1029 100
 
 >compound FTneg2626
 >ionization [M+?]-
->parentmass 258.170540223884
+>parentmass Inf
 >rt 8.34542830720671
 
 >ms1
-258.1705 100
+
 
 >ms2
 258.1705 100
 
 >compound FTneg2627
 >ionization [M+?]-
->parentmass 260.186297851048
+>parentmass Inf
 >rt 8.33415670387874
 
 >ms1
-260.1863 100
+
 
 >ms2
 260.1863 100
 
 >compound FTneg2628
 >ionization [M+?]-
->parentmass 273.006985349615
+>parentmass Inf
 >rt 8.35950213075819
 
 >ms1
-273.007 100
+
 
 >ms2
 273.007 100
 
 >compound FTneg2629
 >ionization [M+?]-
->parentmass 299.063989095053
+>parentmass Inf
 >rt 8.31978564163624
 
 >ms1
-299.064 100
+
 
 >ms2
 299.064 100
 
 >compound FTneg2630
 >ionization [M+?]-
->parentmass 299.089864172264
+>parentmass Inf
 >rt 8.29361196461565
 
 >ms1
-299.0899 100
+
 
 >ms2
 299.0899 100
 
 >compound FTneg2631
 >ionization [M+?]-
->parentmass 304.080086506678
+>parentmass Inf
 >rt 8.31472422722803
 
 >ms1
-304.0801 100
+
 
 >ms2
 304.0801 100
 
 >compound FTneg2632
 >ionization [M+?]-
->parentmass 328.085700079159
+>parentmass Inf
 >rt 8.32700125352349
 
 >ms1
-328.0857 100
+
 
 >ms2
 328.0857 100
 
 >compound FTneg2633
 >ionization [M+?]-
->parentmass 336.017524196807
+>parentmass Inf
 >rt 8.31993768697311
 
 >ms1
-336.0175 100
+
 
 >ms2
 336.0175 100
 
 >compound FTneg2634
 >ionization [M+?]-
->parentmass 339.054316060583
+>parentmass Inf
 >rt 8.30176558367456
 
 >ms1
-339.0543 100
+
 
 >ms2
 339.0543 100
 
 >compound FTneg2635
 >ionization [M+?]-
->parentmass 366.050454466811
+>parentmass Inf
 >rt 8.31874619305918
 
 >ms1
-366.0505 100
+
 
 >ms2
 366.0505 100
 
 >compound FTneg2636
 >ionization [M+?]-
->parentmass 371.133875616673
+>parentmass Inf
 >rt 8.38323493950991
 
 >ms1
-371.1339 100
+
 
 >ms2
 371.1339 100
 
 >compound FTneg2637
 >ionization [M+?]-
->parentmass 372.163583310587
+>parentmass Inf
 >rt 8.33432910854795
 
 >ms1
-372.1636 100
+
 
 >ms2
 372.1636 100
 
 >compound FTneg2638
 >ionization [M+?]-
->parentmass 400.165342302232
+>parentmass Inf
 >rt 8.33277885581356
 
 >ms1
-400.1653 100
+
 
 >ms2
 400.1653 100
 
 >compound FTneg2639
 >ionization [M+?]-
->parentmass 421.136549717714
+>parentmass Inf
 >rt 8.33367317434519
 
 >ms1
-421.1365 100
+
 
 >ms2
 421.1365 100
 
 >compound FTneg2640
 >ionization [M+?]-
->parentmass 434.134409009885
+>parentmass Inf
 >rt 8.3291328215799
 
 >ms1
-434.1344 100
+
 
 >ms2
 434.1344 100
 
 >compound FTneg2641
 >ionization [M+?]-
->parentmass 450.106929774751
+>parentmass Inf
 >rt 8.33901803117744
 
 >ms1
-450.1069 100
+
 
 >ms2
 450.1069 100
 
 >compound FTneg2642
 >ionization [M+?]-
->parentmass 499.275308383323
+>parentmass Inf
 >rt 8.30362512260184
 
 >ms1
-499.2753 100
+
 
 >ms2
 499.2753 100
 
 >compound FTneg2643
 >ionization [M+?]-
->parentmass 145.014033498319
+>parentmass Inf
 >rt 2.25496306461024
 
 >ms1
-145.014 100
 
 >ms2
 57.0688 8
@@ -48051,11 +47446,10 @@
 
 >compound FTneg2644
 >ionization [M+?]-
->parentmass 148.043713341936
+>parentmass Inf
 >rt 2.28256693411877
 
 >ms1
-148.0437 100
 
 >ms2
 55.0541 80
@@ -48115,77 +47509,75 @@
 
 >compound FTneg2645
 >ionization [M+?]-
->parentmass 232.974600344098
+>parentmass Inf
 >rt 2.22146052631568
 
 >ms1
-232.9746 100
 
 >ms2
 53.0377 40
 
 >compound FTneg2646
 >ionization [M+?]-
->parentmass 145.050102598596
+>parentmass Inf
 >rt 3.98601538331372
 
 >ms1
-145.0501 100
+
 
 >ms2
 145.0501 100
 
 >compound FTneg2647
 >ionization [M+?]-
->parentmass 231.931985236397
+>parentmass Inf
 >rt 3.97749591478279
 
 >ms1
-231.932 100
+
 
 >ms2
 231.932 100
 
 >compound FTneg2648
 >ionization [M+?]-
->parentmass 145.05082030424
+>parentmass Inf
 >rt 6.92658574244711
 
 >ms1
-145.0508 100
+
 
 >ms2
 145.0508 100
 
 >compound FTneg2649
 >ionization [M+?]-
->parentmass 180.041456326953
+>parentmass Inf
 >rt 6.9328586593787
 
 >ms1
-180.0415 100
+
 
 >ms2
 180.0415 100
 
 >compound FTneg2650
 >ionization [M+?]-
->parentmass 195.811187767792
+>parentmass Inf
 >rt 6.88245525882331
 
 >ms1
-195.8112 100
+
 
 >ms2
 195.8112 100
 
 >compound FTneg2651
 >ionization [M+?]-
->parentmass 245.093080735478
+>parentmass Inf
 >rt 8.64305216974233
 
 >ms1
-245.0931 100
 
 >ms2
 51.939 4
@@ -48209,11 +47601,10 @@
 
 >compound FTneg2652
 >ionization [M+?]-
->parentmass 275.103428305418
+>parentmass Inf
 >rt 8.63968630992712
 
 >ms1
-275.1034 100
 
 >ms2
 55.0549 80
@@ -48223,11 +47614,10 @@
 
 >compound FTneg2653
 >ionization [M+?]-
->parentmass 268.15526641142
+>parentmass Inf
 >rt 8.62924212318937
 
 >ms1
-268.1553 100
 
 >ms2
 53.0383 40
@@ -48242,11 +47632,10 @@
 
 >compound FTneg2654
 >ionization [M+?]-
->parentmass 445.077347910404
+>parentmass Inf
 >rt 8.63943115446678
 
 >ms1
-445.0773 100
 
 >ms2
 90.9749 159
@@ -48258,22 +47647,21 @@
 
 >compound FTneg2655
 >ionization [M+?]-
->parentmass 145.086863548802
+>parentmass Inf
 >rt 8.65044624359695
 
 >ms1
-145.0869 100
+
 
 >ms2
 145.0869 100
 
 >compound FTneg2656
 >ionization [M+?]-
->parentmass 164.035320281706
+>parentmass Inf
 >rt 8.64461653089579
 
 >ms1
-164.0353 100
 
 >ms2
 56.0199 40
@@ -48311,11 +47699,10 @@
 
 >compound FTneg2657
 >ionization [M+?]-
->parentmass 245.073411554404
+>parentmass Inf
 >rt 8.62687310929235
 
 >ms1
-245.0734 100
 
 >ms2
 55.0169 40
@@ -48328,22 +47715,21 @@
 
 >compound FTneg2658
 >ionization [M+?]-
->parentmass 267.089692355389
+>parentmass Inf
 >rt 8.69681292441499
 
 >ms1
-267.0897 100
+
 
 >ms2
 267.0897 100
 
 >compound FTneg2659
 >ionization [M+?]-
->parentmass 273.17051012191
+>parentmass Inf
 >rt 8.61834716333876
 
 >ms1
-273.1705 100
 
 >ms2
 53.0405 40
@@ -48362,22 +47748,21 @@
 
 >compound FTneg2660
 >ionization [M+?]-
->parentmass 274.173665856108
+>parentmass Inf
 >rt 8.62045232321353
 
 >ms1
-274.1737 100
+
 
 >ms2
 274.1737 100
 
 >compound FTneg2661
 >ionization [M+?]-
->parentmass 275.067966155279
+>parentmass Inf
 >rt 8.65547558629053
 
 >ms1
-275.068 100
 
 >ms2
 57.0326 80
@@ -48387,55 +47772,54 @@
 
 >compound FTneg2662
 >ionization [M+?]-
->parentmass 291.097428927347
+>parentmass Inf
 >rt 8.69226741701142
 
 >ms1
-291.0974 100
+
 
 >ms2
 291.0974 100
 
 >compound FTneg2663
 >ionization [M+?]-
->parentmass 308.090044197781
+>parentmass Inf
 >rt 8.63853780813879
 
 >ms1
-308.09 100
+
 
 >ms2
 308.09 100
 
 >compound FTneg2664
 >ionization [M+?]-
->parentmass 314.160374370186
+>parentmass Inf
 >rt 8.62402091861381
 
 >ms1
-314.1604 100
+
 
 >ms2
 314.1604 100
 
 >compound FTneg2665
 >ionization [M+?]-
->parentmass 316.11234033556
+>parentmass Inf
 >rt 8.62725613735154
 
 >ms1
-316.1123 100
+
 
 >ms2
 316.1123 100
 
 >compound FTneg2666
 >ionization [M+?]-
->parentmass 330.06735565776
+>parentmass Inf
 >rt 8.67542323448827
 
 >ms1
-330.0674 100
 
 >ms2
 59.0484 60
@@ -48446,121 +47830,120 @@
 
 >compound FTneg2667
 >ionization [M+?]-
->parentmass 336.142391328475
+>parentmass Inf
 >rt 8.62731112965212
 
 >ms1
-336.1424 100
+
 
 >ms2
 336.1424 100
 
 >compound FTneg2668
 >ionization [M+?]-
->parentmass 341.081262500425
+>parentmass Inf
 >rt 8.65513722708518
 
 >ms1
-341.0813 100
+
 
 >ms2
 341.0813 100
 
 >compound FTneg2669
 >ionization [M+?]-
->parentmass 362.117164272659
+>parentmass Inf
 >rt 8.6332515504262
 
 >ms1
-362.1172 100
+
 
 >ms2
 362.1172 100
 
 >compound FTneg2670
 >ionization [M+?]-
->parentmass 375.050609727609
+>parentmass Inf
 >rt 8.64181992175939
 
 >ms1
-375.0506 100
+
 
 >ms2
 375.0506 100
 
 >compound FTneg2671
 >ionization [M+?]-
->parentmass 385.1860002083
+>parentmass Inf
 >rt 8.70037429563801
 
 >ms1
-385.186 100
+
 
 >ms2
 385.186 100
 
 >compound FTneg2672
 >ionization [M+?]-
->parentmass 390.02532600606
+>parentmass Inf
 >rt 8.63790045185622
 
 >ms1
-390.0253 100
+
 
 >ms2
 390.0253 100
 
 >compound FTneg2673
 >ionization [M+?]-
->parentmass 391.02333591556
+>parentmass Inf
 >rt 8.64034352449451
 
 >ms1
-391.0233 100
+
 
 >ms2
 391.0233 100
 
 >compound FTneg2674
 >ionization [M+?]-
->parentmass 393.064622486368
+>parentmass Inf
 >rt 8.6352839590798
 
 >ms1
-393.0646 100
+
 
 >ms2
 393.0646 100
 
 >compound FTneg2675
 >ionization [M+?]-
->parentmass 671.301389790831
+>parentmass Inf
 >rt 8.64737240910263
 
 >ms1
-671.3014 100
+
 
 >ms2
 671.3014 100
 
 >compound FTneg2676
 >ionization [M+?]-
->parentmass 671.803130055736
+>parentmass Inf
 >rt 8.64605242117191
 
 >ms1
-671.8031 100
+
 
 >ms2
 671.8031 100
 
 >compound FTneg2677
 >ionization [M+?]-
->parentmass 165.055781900654
+>parentmass Inf
 >rt 8.1340463939292
 
 >ms1
-165.0558 100
 
 >ms2
 89.0589 80
@@ -48571,11 +47954,10 @@
 
 >compound FTneg2678
 >ionization [M+?]-
->parentmass 249.087928313582
+>parentmass Inf
 >rt 8.14620542392123
 
 >ms1
-249.0879 100
 
 >ms2
 51.023 120
@@ -48640,22 +48022,21 @@
 
 >compound FTneg2679
 >ionization [M+?]-
->parentmass 431.098082804222
+>parentmass Inf
 >rt 8.17514606353906
 
 >ms1
-431.0981 100
+
 
 >ms2
 431.0981 100
 
 >compound FTneg2680
 >ionization [M+?]-
->parentmass 459.09295200616
+>parentmass Inf
 >rt 8.11644404637583
 
 >ms1
-459.093 100
 
 >ms2
 57.0342 40
@@ -48664,352 +48045,351 @@
 
 >compound FTneg2681
 >ionization [M+?]-
->parentmass 723.401375016714
+>parentmass Inf
 >rt 8.12523443431464
 
 >ms1
-723.4014 100
+
 
 >ms2
 723.4014 100
 
 >compound FTneg2682
 >ionization [M+?]-
->parentmass 145.086913532098
+>parentmass Inf
 >rt 8.13585200146897
 
 >ms1
-145.0869 100
+
 
 >ms2
 145.0869 100
 
 >compound FTneg2683
 >ionization [M+?]-
->parentmass 233.04327357463
+>parentmass Inf
 >rt 8.16124419915225
 
 >ms1
-233.0433 100
+
 
 >ms2
 233.0433 100
 
 >compound FTneg2684
 >ionization [M+?]-
->parentmass 247.154476075669
+>parentmass Inf
 >rt 8.12819389374799
 
 >ms1
-247.1545 100
+
 
 >ms2
 247.1545 100
 
 >compound FTneg2685
 >ionization [M+?]-
->parentmass 248.132108193853
+>parentmass Inf
 >rt 8.12324754662204
 
 >ms1
-248.1321 100
+
 
 >ms2
 248.1321 100
 
 >compound FTneg2686
 >ionization [M+?]-
->parentmass 283.027966115976
+>parentmass Inf
 >rt 8.15606596502108
 
 >ms1
-283.028 100
+
 
 >ms2
 283.028 100
 
 >compound FTneg2687
 >ionization [M+?]-
->parentmass 289.919981047074
+>parentmass Inf
 >rt 8.13836780976641
 
 >ms1
-289.92 100
+
 
 >ms2
 289.92 100
 
 >compound FTneg2688
 >ionization [M+?]-
->parentmass 295.012984841251
+>parentmass Inf
 >rt 8.08250271258819
 
 >ms1
-295.013 100
+
 
 >ms2
 295.013 100
 
 >compound FTneg2689
 >ionization [M+?]-
->parentmass 300.144521693131
+>parentmass Inf
 >rt 8.12082572124369
 
 >ms1
-300.1445 100
+
 
 >ms2
 300.1445 100
 
 >compound FTneg2690
 >ionization [M+?]-
->parentmass 310.98575060634
+>parentmass Inf
 >rt 8.1926942029704
 
 >ms1
-310.9858 100
+
 
 >ms2
 310.9858 100
 
 >compound FTneg2691
 >ionization [M+?]-
->parentmass 317.074881179841
+>parentmass Inf
 >rt 8.14796526094046
 
 >ms1
-317.0749 100
+
 
 >ms2
 317.0749 100
 
 >compound FTneg2692
 >ionization [M+?]-
->parentmass 322.096491224158
+>parentmass Inf
 >rt 8.08945000000008
 
 >ms1
-322.0965 100
+
 
 >ms2
 322.0965 100
 
 >compound FTneg2693
 >ionization [M+?]-
->parentmass 325.114751641203
+>parentmass Inf
 >rt 8.13881143349531
 
 >ms1
-325.1148 100
+
 
 >ms2
 325.1148 100
 
 >compound FTneg2694
 >ionization [M+?]-
->parentmass 434.159782146997
+>parentmass Inf
 >rt 8.12879827838531
 
 >ms1
-434.1598 100
+
 
 >ms2
 434.1598 100
 
 >compound FTneg2695
 >ionization [M+?]-
->parentmass 663.343568331596
+>parentmass Inf
 >rt 8.13967900901869
 
 >ms1
-663.3436 100
+
 
 >ms2
 663.3436 100
 
 >compound FTneg2696
 >ionization [M+?]-
->parentmass 228.963840230505
+>parentmass Inf
 >rt 1.4703916546764
 
 >ms1
-228.9638 100
+
 
 >ms2
 228.9638 100
 
 >compound FTneg2697
 >ionization [M+?]-
->parentmass 145.097945159288
+>parentmass Inf
 >rt 1.46620329158519
 
 >ms1
-145.0979 100
+
 
 >ms2
 145.0979 100
 
 >compound FTneg2698
 >ionization [M+?]-
->parentmass 227.967632211209
+>parentmass Inf
 >rt 1.46972158697363
 
 >ms1
-227.9676 100
+
 
 >ms2
 227.9676 100
 
 >compound FTneg2699
 >ionization [M+?]-
->parentmass 340.946329989028
+>parentmass Inf
 >rt 1.45597304736275
 
 >ms1
-340.9463 100
+
 
 >ms2
 340.9463 100
 
 >compound FTneg2700
 >ionization [M+?]-
->parentmass 344.936085453362
+>parentmass Inf
 >rt 1.46307588049104
 
 >ms1
-344.9361 100
+
 
 >ms2
 344.9361 100
 
 >compound FTneg2701
 >ionization [M+?]-
->parentmass 476.920826825738
+>parentmass Inf
 >rt 1.46457154040955
 
 >ms1
-476.9208 100
+
 
 >ms2
 476.9208 100
 
 >compound FTneg2702
 >ionization [M+?]-
->parentmass 181.03819981756
+>parentmass Inf
 >rt 6.53706531467741
 
 >ms1
-181.0382 100
+
 
 >ms2
 181.0382 100
 
 >compound FTneg2703
 >ionization [M+?]-
->parentmass 145.930963290112
+>parentmass Inf
 >rt 6.52572494622668
 
 >ms1
-145.931 100
+
 
 >ms2
 145.931 100
 
 >compound FTneg2704
 >ionization [M+?]-
->parentmass 160.024602407447
+>parentmass Inf
 >rt 6.54528749999992
 
 >ms1
-160.0246 100
+
 
 >ms2
 160.0246 100
 
 >compound FTneg2705
 >ionization [M+?]-
->parentmass 304.043368842877
+>parentmass Inf
 >rt 6.53115956275394
 
 >ms1
-304.0434 100
+
 
 >ms2
 304.0434 100
 
 >compound FTneg2706
 >ionization [M+?]-
->parentmass 145.931316499734
+>parentmass Inf
 >rt 3.94782589219198
 
 >ms1
-145.9313 100
+
 
 >ms2
 145.9313 100
 
 >compound FTneg2707
 >ionization [M+?]-
->parentmass 145.940943752155
+>parentmass Inf
 >rt 8.93323578038043
 
 >ms1
-145.9409 100
+
 
 >ms2
 145.9409 100
 
 >compound FTneg2708
 >ionization [M+?]-
->parentmass 296.981300952474
+>parentmass Inf
 >rt 8.82659187953854
 
 >ms1
-296.9813 100
+
 
 >ms2
 296.9813 100
 
 >compound FTneg2709
 >ionization [M+?]-
->parentmass 309.34626850488
+>parentmass Inf
 >rt 8.91759358974354
 
 >ms1
-309.3463 100
+
 
 >ms2
 309.3463 100
 
 >compound FTneg2710
 >ionization [M+?]-
->parentmass 453.928337385731
+>parentmass Inf
 >rt 8.83250608798556
 
 >ms1
-453.9283 100
+
 
 >ms2
 453.9283 100
 
 >compound FTneg2711
 >ionization [M+?]-
->parentmass 473.986031816933
+>parentmass Inf
 >rt 8.84826296296295
 
 >ms1
-473.986 100
+
 
 >ms2
 473.986 100
 
 >compound FTneg2712
 >ionization [M+?]-
->parentmass 321.90046779029
+>parentmass Inf
 >rt 0.184589260130426
 
 >ms1
-321.9005 100
 
 >ms2
 55.0503 40
@@ -49038,11 +48418,10 @@
 
 >compound FTneg2713
 >ionization [M+?]-
->parentmass 145.941147681719
+>parentmass Inf
 >rt 0.162454865833628
 
 >ms1
-145.9411 100
 
 >ms2
 59.0476 8
@@ -49057,11 +48436,10 @@
 
 >compound FTneg2714
 >ionization [M+?]-
->parentmass 189.931528121214
+>parentmass Inf
 >rt 0.157979148295985
 
 >ms1
-189.9315 100
 
 >ms2
 51.9434 4
@@ -49077,11 +48455,10 @@
 
 >compound FTneg2715
 >ionization [M+?]-
->parentmass 229.916051350252
+>parentmass Inf
 >rt 0.16195185652849
 
 >ms1
-229.9161 100
 
 >ms2
 51.023 4
@@ -49105,33 +48482,32 @@
 
 >compound FTneg2716
 >ionization [M+?]-
->parentmass 306.859669519871
+>parentmass Inf
 >rt 0.154296761145727
 
 >ms1
-306.8597 100
+
 
 >ms2
 306.8597 100
 
 >compound FTneg2717
 >ionization [M+?]-
->parentmass 278.087931069378
+>parentmass Inf
 >rt 8.09141139454193
 
 >ms1
-278.0879 100
+
 
 >ms2
 278.0879 100
 
 >compound FTneg2718
 >ionization [M+?]-
->parentmass 525.03415771974
+>parentmass Inf
 >rt 8.09172480174324
 
 >ms1
-525.0342 100
 
 >ms2
 54.0344 40
@@ -49152,22 +48528,21 @@
 
 >compound FTneg2719
 >ionization [M+?]-
->parentmass 237.076653746446
+>parentmass Inf
 >rt 8.0699973168064
 
 >ms1
-237.0767 100
+
 
 >ms2
 237.0767 100
 
 >compound FTneg2720
 >ionization [M+?]-
->parentmass 146.02470423588
+>parentmass Inf
 >rt 8.07479105176276
 
 >ms1
-146.0247 100
 
 >ms2
 55.0537 36
@@ -49323,154 +48698,153 @@
 
 >compound FTneg2721
 >ionization [M+?]-
->parentmass 487.275703031028
+>parentmass Inf
 >rt 8.09588485315694
 
 >ms1
-487.2757 100
+
 
 >ms2
 487.2757 100
 
 >compound FTneg2722
 >ionization [M+?]-
->parentmass 763.396448193184
+>parentmass Inf
 >rt 8.09426308349789
 
 >ms1
-763.3964 100
+
 
 >ms2
 763.3964 100
 
 >compound FTneg2723
 >ionization [M+?]-
->parentmass 147.028690518128
+>parentmass Inf
 >rt 8.05947196363201
 
 >ms1
-147.0287 100
+
 
 >ms2
 147.0287 100
 
 >compound FTneg2724
 >ionization [M+?]-
->parentmass 159.102673436921
+>parentmass Inf
 >rt 8.08741390297208
 
 >ms1
-159.1027 100
+
 
 >ms2
 159.1027 100
 
 >compound FTneg2725
 >ionization [M+?]-
->parentmass 217.107510374988
+>parentmass Inf
 >rt 8.03982991482044
 
 >ms1
-217.1075 100
+
 
 >ms2
 217.1075 100
 
 >compound FTneg2726
 >ionization [M+?]-
->parentmass 217.108116164167
+>parentmass Inf
 >rt 8.11564531619639
 
 >ms1
-217.1081 100
+
 
 >ms2
 217.1081 100
 
 >compound FTneg2727
 >ionization [M+?]-
->parentmass 231.068939327209
+>parentmass Inf
 >rt 8.05438322173682
 
 >ms1
-231.0689 100
+
 
 >ms2
 231.0689 100
 
 >compound FTneg2728
 >ionization [M+?]-
->parentmass 241.107610955711
+>parentmass Inf
 >rt 8.05724794778651
 
 >ms1
-241.1076 100
+
 
 >ms2
 241.1076 100
 
 >compound FTneg2729
 >ionization [M+?]-
->parentmass 245.139239406094
+>parentmass Inf
 >rt 8.0480293561978
 
 >ms1
-245.1392 100
+
 
 >ms2
 245.1392 100
 
 >compound FTneg2730
 >ionization [M+?]-
->parentmass 268.060136787061
+>parentmass Inf
 >rt 8.06862363320264
 
 >ms1
-268.0601 100
+
 
 >ms2
 268.0601 100
 
 >compound FTneg2731
 >ionization [M+?]-
->parentmass 271.065849228413
+>parentmass Inf
 >rt 8.02733359091067
 
 >ms1
-271.0658 100
+
 
 >ms2
 271.0658 100
 
 >compound FTneg2732
 >ionization [M+?]-
->parentmass 295.078314299836
+>parentmass Inf
 >rt 8.0923898731379
 
 >ms1
-295.0783 100
+
 
 >ms2
 295.0783 100
 
 >compound FTneg2733
 >ionization [M+?]-
->parentmass 295.129838429741
+>parentmass Inf
 >rt 8.07174034372405
 
 >ms1
-295.1298 100
+
 
 >ms2
 295.1298 100
 
 >compound FTneg2734
 >ionization [M+?]-
->parentmass 337.038675481399
+>parentmass Inf
 >rt 8.12599007391615
 
 >ms1
-337.0387 100
 
 >ms2
 53.0406 4
@@ -49482,308 +48856,307 @@
 
 >compound FTneg2735
 >ionization [M+?]-
->parentmass 346.075201840569
+>parentmass Inf
 >rt 8.08527802956915
 
 >ms1
-346.0752 100
+
 
 >ms2
 346.0752 100
 
 >compound FTneg2736
 >ionization [M+?]-
->parentmass 347.171181229443
+>parentmass Inf
 >rt 8.09379169169424
 
 >ms1
-347.1712 100
+
 
 >ms2
 347.1712 100
 
 >compound FTneg2737
 >ionization [M+?]-
->parentmass 367.212153974768
+>parentmass Inf
 >rt 8.08475158137538
 
 >ms1
-367.2122 100
+
 
 >ms2
 367.2122 100
 
 >compound FTneg2738
 >ionization [M+?]-
->parentmass 411.224523443714
+>parentmass Inf
 >rt 8.03141842370834
 
 >ms1
-411.2245 100
+
 
 >ms2
 411.2245 100
 
 >compound FTneg2739
 >ionization [M+?]-
->parentmass 146.891754421493
+>parentmass Inf
 >rt 18.705559039548
 
 >ms1
-146.8918 100
+
 
 >ms2
 146.8918 100
 
 >compound FTneg2740
 >ionization [M+?]-
->parentmass 146.93856171801
+>parentmass Inf
 >rt 18.9599605834311
 
 >ms1
-146.9386 100
+
 
 >ms2
 146.9386 100
 
 >compound FTneg2741
 >ionization [M+?]-
->parentmass 324.856871401239
+>parentmass Inf
 >rt 18.9360859260721
 
 >ms1
-324.8569 100
+
 
 >ms2
 324.8569 100
 
 >compound FTneg2742
 >ionization [M+?]-
->parentmass 452.791359770145
+>parentmass Inf
 >rt 18.9291962695878
 
 >ms1
-452.7914 100
+
 
 >ms2
 452.7914 100
 
 >compound FTneg2743
 >ionization [M+?]-
->parentmass 486.785598755129
+>parentmass Inf
 >rt 18.9626917101305
 
 >ms1
-486.7856 100
+
 
 >ms2
 486.7856 100
 
 >compound FTneg2744
 >ionization [M+?]-
->parentmass 146.938563688485
+>parentmass Inf
 >rt 19.044843113395
 
 >ms1
-146.9386 100
+
 
 >ms2
 146.9386 100
 
 >compound FTneg2745
 >ionization [M+?]-
->parentmass 159.066747459685
+>parentmass Inf
 >rt 19.0245634074144
 
 >ms1
-159.0667 100
+
 
 >ms2
 159.0667 100
 
 >compound FTneg2746
 >ionization [M+?]-
->parentmass 174.956164650028
+>parentmass Inf
 >rt 18.9939082179851
 
 >ms1
-174.9562 100
+
 
 >ms2
 174.9562 100
 
 >compound FTneg2747
 >ionization [M+?]-
->parentmass 190.928516506287
+>parentmass Inf
 >rt 19.0087662580209
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg2748
 >ionization [M+?]-
->parentmass 197.902512139649
+>parentmass Inf
 >rt 18.9966360641484
 
 >ms1
-197.9025 100
+
 
 >ms2
 197.9025 100
 
 >compound FTneg2749
 >ionization [M+?]-
->parentmass 239.059336300139
+>parentmass Inf
 >rt 19.02398575871
 
 >ms1
-239.0593 100
+
 
 >ms2
 239.0593 100
 
 >compound FTneg2750
 >ionization [M+?]-
->parentmass 242.175841577247
+>parentmass Inf
 >rt 19.0417743173701
 
 >ms1
-242.1758 100
+
 
 >ms2
 242.1758 100
 
 >compound FTneg2751
 >ionization [M+?]-
->parentmass 320.863702043694
+>parentmass Inf
 >rt 19.0422628424488
 
 >ms1
-320.8637 100
+
 
 >ms2
 320.8637 100
 
 >compound FTneg2752
 >ionization [M+?]-
->parentmass 369.862848397746
+>parentmass Inf
 >rt 19.0313219967658
 
 >ms1
-369.8628 100
+
 
 >ms2
 369.8628 100
 
 >compound FTneg2753
 >ionization [M+?]-
->parentmass 146.938591517666
+>parentmass Inf
 >rt 18.8809422697133
 
 >ms1
-146.9386 100
+
 
 >ms2
 146.9386 100
 
 >compound FTneg2754
 >ionization [M+?]-
->parentmass 174.956194913647
+>parentmass Inf
 >rt 18.8644361976782
 
 >ms1
-174.9562 100
+
 
 >ms2
 174.9562 100
 
 >compound FTneg2755
 >ionization [M+?]-
->parentmass 190.928509364585
+>parentmass Inf
 >rt 18.8933832805697
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg2756
 >ionization [M+?]-
->parentmass 242.943778794975
+>parentmass Inf
 >rt 18.860594882043
 
 >ms1
-242.9438 100
+
 
 >ms2
 242.9438 100
 
 >compound FTneg2757
 >ionization [M+?]-
->parentmass 269.85368387569
+>parentmass Inf
 >rt 18.8404722222223
 
 >ms1
-269.8537 100
+
 
 >ms2
 269.8537 100
 
 >compound FTneg2758
 >ionization [M+?]-
->parentmass 320.886132449837
+>parentmass Inf
 >rt 18.8855614382914
 
 >ms1
-320.8861 100
+
 
 >ms2
 320.8861 100
 
 >compound FTneg2759
 >ionization [M+?]-
->parentmass 336.858875817859
+>parentmass Inf
 >rt 18.8631146737329
 
 >ms1
-336.8589 100
+
 
 >ms2
 336.8589 100
 
 >compound FTneg2760
 >ionization [M+?]-
->parentmass 285.908525934677
+>parentmass Inf
 >rt 1.33825010007953
 
 >ms1
-285.9085 100
+
 
 >ms2
 285.9085 100
 
 >compound FTneg2761
 >ionization [M+?]-
->parentmass 146.96123194393
+>parentmass Inf
 >rt 1.3998303768858
 
 >ms1
-146.9612 100
+
 
 >ms2
 146.9612 100
 
 >compound FTneg2762
 >ionization [M+?]-
->parentmass 146.982878820656
+>parentmass Inf
 >rt 2.06963317725895
 
 >ms1
-146.9829 100
 
 >ms2
 73.0373 40
@@ -49800,11 +49173,10 @@
 
 >compound FTneg2763
 >ionization [M+?]-
->parentmass 346.116983950773
+>parentmass Inf
 >rt 1.93017279235233
 
 >ms1
-346.117 100
 
 >ms2
 50.0163 40
@@ -49922,11 +49294,10 @@
 
 >compound FTneg2764
 >ionization [M+?]-
->parentmass 164.071837826442
+>parentmass Inf
 >rt 5.98712613814573
 
 >ms1
-164.0718 100
 
 >ms2
 60.0809 80
@@ -49965,11 +49336,10 @@
 
 >compound FTneg2765
 >ionization [M+?]-
->parentmass 310.001916924108
+>parentmass Inf
 >rt 5.94989924564185
 
 >ms1
-310.0019 100
 
 >ms2
 55.017 16
@@ -50006,11 +49376,10 @@
 
 >compound FTneg2766
 >ionization [M+?]-
->parentmass 429.075719787869
+>parentmass Inf
 >rt 5.94579096459815
 
 >ms1
-429.0757 100
 
 >ms2
 50.0163 8
@@ -50065,11 +49434,10 @@
 
 >compound FTneg2767
 >ionization [M+?]-
->parentmass 147.045082951383
+>parentmass Inf
 >rt 5.96041385929076
 
 >ms1
-147.0451 100
 
 >ms2
 55.0177 40
@@ -50129,11 +49497,10 @@
 
 >compound FTneg2768
 >ionization [M+?]-
->parentmass 164.056209887949
+>parentmass Inf
 >rt 5.96100218356446
 
 >ms1
-164.0562 100
 
 >ms2
 55.0518 4
@@ -50287,11 +49654,10 @@
 
 >compound FTneg2769
 >ionization [M+?]-
->parentmass 180.066598048414
+>parentmass Inf
 >rt 5.96651826532642
 
 >ms1
-180.0666 100
 
 >ms2
 59.0476 13
@@ -50308,22 +49674,20 @@
 
 >compound FTneg2770
 >ionization [M+?]-
->parentmass 214.072100201864
+>parentmass Inf
 >rt 5.9182184645742
 
 >ms1
-214.0721 100
 
 >ms2
 55.0071 40
 
 >compound FTneg2771
 >ionization [M+?]-
->parentmass 232.059192739492
+>parentmass Inf
 >rt 5.96544034880098
 
 >ms1
-232.0592 100
 
 >ms2
 52.0302 40
@@ -50332,55 +49696,54 @@
 
 >compound FTneg2772
 >ionization [M+?]-
->parentmass 260.059674256292
+>parentmass Inf
 >rt 5.95247351380068
 
 >ms1
-260.0597 100
+
 
 >ms2
 260.0597 100
 
 >compound FTneg2773
 >ionization [M+?]-
->parentmass 276.072439120681
+>parentmass Inf
 >rt 5.96649892529916
 
 >ms1
-276.0724 100
+
 
 >ms2
 276.0724 100
 
 >compound FTneg2774
 >ionization [M+?]-
->parentmass 294.02964954495
+>parentmass Inf
 >rt 5.92787003491608
 
 >ms1
-294.0296 100
+
 
 >ms2
 294.0296 100
 
 >compound FTneg2775
 >ionization [M+?]-
->parentmass 304.067253259889
+>parentmass Inf
 >rt 5.96039603489449
 
 >ms1
-304.0673 100
+
 
 >ms2
 304.0673 100
 
 >compound FTneg2776
 >ionization [M+?]-
->parentmass 308.998178170598
+>parentmass Inf
 >rt 5.90293208756161
 
 >ms1
-308.9982 100
 
 >ms2
 53.0383 4
@@ -50388,99 +49751,98 @@
 
 >compound FTneg2777
 >ionization [M+?]-
->parentmass 308.998309176339
+>parentmass Inf
 >rt 6.03404378006751
 
 >ms1
-308.9983 100
+
 
 >ms2
 308.9983 100
 
 >compound FTneg2778
 >ionization [M+?]-
->parentmass 316.066574505947
+>parentmass Inf
 >rt 5.96200516786625
 
 >ms1
-316.0666 100
+
 
 >ms2
 316.0666 100
 
 >compound FTneg2779
 >ionization [M+?]-
->parentmass 316.129850890303
+>parentmass Inf
 >rt 5.9171056112847
 
 >ms1
-316.1299 100
+
 
 >ms2
 316.1299 100
 
 >compound FTneg2780
 >ionization [M+?]-
->parentmass 343.213894299252
+>parentmass Inf
 >rt 6.03710384615385
 
 >ms1
-343.2139 100
+
 
 >ms2
 343.2139 100
 
 >compound FTneg2781
 >ionization [M+?]-
->parentmass 352.13579270666
+>parentmass Inf
 >rt 5.93580478688517
 
 >ms1
-352.1358 100
+
 
 >ms2
 352.1358 100
 
 >compound FTneg2782
 >ionization [M+?]-
->parentmass 354.999653136091
+>parentmass Inf
 >rt 5.96145827083689
 
 >ms1
-354.9997 100
+
 
 >ms2
 354.9997 100
 
 >compound FTneg2783
 >ionization [M+?]-
->parentmass 413.102974432207
+>parentmass Inf
 >rt 5.95326659480456
 
 >ms1
-413.103 100
+
 
 >ms2
 413.103 100
 
 >compound FTneg2784
 >ionization [M+?]-
->parentmass 428.072874235422
+>parentmass Inf
 >rt 5.99834301389474
 
 >ms1
-428.0729 100
+
 
 >ms2
 428.0729 100
 
 >compound FTneg2785
 >ionization [M+?]-
->parentmass 432.148070506838
+>parentmass Inf
 >rt 6.04004249999995
 
 >ms1
-432.1481 100
 
 >ms2
 51.0231 4
@@ -50490,33 +49852,32 @@
 
 >compound FTneg2786
 >ionization [M+?]-
->parentmass 474.073142141549
+>parentmass Inf
 >rt 5.95165468696967
 
 >ms1
-474.0731 100
+
 
 >ms2
 474.0731 100
 
 >compound FTneg2787
 >ionization [M+?]-
->parentmass 547.150468882608
+>parentmass Inf
 >rt 5.937355356203
 
 >ms1
-547.1505 100
+
 
 >ms2
 547.1505 100
 
 >compound FTneg2788
 >ionization [M+?]-
->parentmass 548.149357102235
+>parentmass Inf
 >rt 5.94506510600825
 
 >ms1
-548.1494 100
 
 >ms2
 55.0543 159
@@ -50555,209 +49916,208 @@
 
 >compound FTneg2789
 >ionization [M+?]-
->parentmass 593.146683761054
+>parentmass Inf
 >rt 5.94692472172933
 
 >ms1
-593.1467 100
+
 
 >ms2
 593.1467 100
 
 >compound FTneg2790
 >ionization [M+?]-
->parentmass 712.220174439069
+>parentmass Inf
 >rt 5.93570387303116
 
 >ms1
-712.2202 100
+
 
 >ms2
 712.2202 100
 
 >compound FTneg2791
 >ionization [M+?]-
->parentmass 190.928474048144
+>parentmass Inf
 >rt 18.6135368563345
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg2792
 >ionization [M+?]-
->parentmass 147.940773694111
+>parentmass Inf
 >rt 18.5493292831693
 
 >ms1
-147.9408 100
+
 
 >ms2
 147.9408 100
 
 >compound FTneg2793
 >ionization [M+?]-
->parentmass 168.886495176012
+>parentmass Inf
 >rt 18.6137551772124
 
 >ms1
-168.8865 100
+
 
 >ms2
 168.8865 100
 
 >compound FTneg2794
 >ionization [M+?]-
->parentmass 189.931587410203
+>parentmass Inf
 >rt 18.6010667475655
 
 >ms1
-189.9316 100
+
 
 >ms2
 189.9316 100
 
 >compound FTneg2795
 >ionization [M+?]-
->parentmass 231.931647141057
+>parentmass Inf
 >rt 18.6007460362597
 
 >ms1
-231.9316 100
+
 
 >ms2
 231.9316 100
 
 >compound FTneg2796
 >ionization [M+?]-
->parentmass 320.886150686356
+>parentmass Inf
 >rt 18.5769755484704
 
 >ms1
-320.8862 100
+
 
 >ms2
 320.8862 100
 
 >compound FTneg2797
 >ionization [M+?]-
->parentmass 325.856353172958
+>parentmass Inf
 >rt 18.5818786874825
 
 >ms1
-325.8564 100
+
 
 >ms2
 325.8564 100
 
 >compound FTneg2798
 >ionization [M+?]-
->parentmass 336.858792012158
+>parentmass Inf
 >rt 18.6088184540818
 
 >ms1
-336.8588 100
+
 
 >ms2
 336.8588 100
 
 >compound FTneg2799
 >ionization [M+?]-
->parentmass 148.05159069875
+>parentmass Inf
 >rt 7.37801294239642
 
 >ms1
-148.0516 100
+
 
 >ms2
 148.0516 100
 
 >compound FTneg2800
 >ionization [M+?]-
->parentmass 355.18825505949
+>parentmass Inf
 >rt 7.32404074074067
 
 >ms1
-355.1883 100
+
 
 >ms2
 355.1883 100
 
 >compound FTneg2801
 >ionization [M+?]-
->parentmass 371.191393069243
+>parentmass Inf
 >rt 7.3355816608711
 
 >ms1
-371.1914 100
+
 
 >ms2
 371.1914 100
 
 >compound FTneg2802
 >ionization [M+?]-
->parentmass 148.954514756571
+>parentmass Inf
 >rt 6.22583147409366
 
 >ms1
-148.9545 100
+
 
 >ms2
 148.9545 100
 
 >compound FTneg2803
 >ionization [M+?]-
->parentmass 231.895364593673
+>parentmass Inf
 >rt 6.29933834725371
 
 >ms1
-231.8954 100
+
 
 >ms2
 231.8954 100
 
 >compound FTneg2804
 >ionization [M+?]-
->parentmass 303.072200931818
+>parentmass Inf
 >rt 6.66676492917451
 
 >ms1
-303.0722 100
+
 
 >ms2
 303.0722 100
 
 >compound FTneg2805
 >ionization [M+?]-
->parentmass 382.100912513644
+>parentmass Inf
 >rt 6.62581273150046
 
 >ms1
-382.1009 100
+
 
 >ms2
 382.1009 100
 
 >compound FTneg2806
 >ionization [M+?]-
->parentmass 149.023391417585
+>parentmass Inf
 >rt 6.67120806787479
 
 >ms1
-149.0234 100
+
 
 >ms2
 149.0234 100
 
 >compound FTneg2807
 >ionization [M+?]-
->parentmass 149.027596091228
+>parentmass Inf
 >rt 6.61592051869798
 
 >ms1
-149.0276 100
 
 >ms2
 55.054 40
@@ -50772,11 +50132,10 @@
 
 >compound FTneg2808
 >ionization [M+?]-
->parentmass 227.997124354052
+>parentmass Inf
 >rt 6.63997744188321
 
 >ms1
-227.9971 100
 
 >ms2
 51.94 43
@@ -50808,88 +50167,86 @@
 
 >compound FTneg2809
 >ionization [M+?]-
->parentmass 244.027752968274
+>parentmass Inf
 >rt 6.63792227247029
 
 >ms1
-244.0278 100
 
 >ms2
 55.0571 40
 
 >compound FTneg2810
 >ionization [M+?]-
->parentmass 278.959449618728
+>parentmass Inf
 >rt 6.65790580019008
 
 >ms1
-278.9594 100
+
 
 >ms2
 278.9594 100
 
 >compound FTneg2811
 >ionization [M+?]-
->parentmass 308.992575705736
+>parentmass Inf
 >rt 6.65720516303803
 
 >ms1
-308.9926 100
+
 
 >ms2
 308.9926 100
 
 >compound FTneg2812
 >ionization [M+?]-
->parentmass 315.129240159982
+>parentmass Inf
 >rt 6.65908428205173
 
 >ms1
-315.1292 100
+
 
 >ms2
 315.1292 100
 
 >compound FTneg2813
 >ionization [M+?]-
->parentmass 323.133511813679
+>parentmass Inf
 >rt 6.64476276163442
 
 >ms1
-323.1335 100
+
 
 >ms2
 323.1335 100
 
 >compound FTneg2814
 >ionization [M+?]-
->parentmass 339.876123597586
+>parentmass Inf
 >rt 6.67026901438226
 
 >ms1
-339.8761 100
+
 
 >ms2
 339.8761 100
 
 >compound FTneg2815
 >ionization [M+?]-
->parentmass 369.962707723871
+>parentmass Inf
 >rt 6.66068344070779
 
 >ms1
-369.9627 100
+
 
 >ms2
 369.9627 100
 
 >compound FTneg2816
 >ionization [M+?]-
->parentmass 369.227942568222
+>parentmass Inf
 >rt 9.62429532300723
 
 >ms1
-369.2279 100
 
 >ms2
 51.0011 40
@@ -50924,11 +50281,10 @@
 
 >compound FTneg2817
 >ionization [M+?]-
->parentmass 496.273598094672
+>parentmass Inf
 >rt 9.58967584230339
 
 >ms1
-496.2736 100
 
 >ms2
 51.8148 20
@@ -50951,11 +50307,10 @@
 
 >compound FTneg2818
 >ionization [M+?]-
->parentmass 149.060759668723
+>parentmass Inf
 >rt 9.62735307624313
 
 >ms1
-149.0608 100
 
 >ms2
 80.9473 1040
@@ -50990,99 +50345,97 @@
 
 >compound FTneg2819
 >ionization [M+?]-
->parentmass 173.081732632023
+>parentmass Inf
 >rt 9.59209732997403
 
 >ms1
-173.0817 100
+
 
 >ms2
 173.0817 100
 
 >compound FTneg2820
 >ionization [M+?]-
->parentmass 187.133673029629
+>parentmass Inf
 >rt 9.61347510813428
 
 >ms1
-187.1337 100
+
 
 >ms2
 187.1337 100
 
 >compound FTneg2821
 >ionization [M+?]-
->parentmass 197.117741852423
+>parentmass Inf
 >rt 9.63397155788662
 
 >ms1
-197.1177 100
+
 
 >ms2
 197.1177 100
 
 >compound FTneg2822
 >ionization [M+?]-
->parentmass 200.129074933394
+>parentmass Inf
 >rt 9.63972666558242
 
 >ms1
-200.1291 100
 
 >ms2
 54.0084 66
 
 >compound FTneg2823
 >ionization [M+?]-
->parentmass 268.117147970163
+>parentmass Inf
 >rt 9.6433964610713
 
 >ms1
-268.1171 100
+
 
 >ms2
 268.1171 100
 
 >compound FTneg2824
 >ionization [M+?]-
->parentmass 279.018266574091
+>parentmass Inf
 >rt 9.62509384420811
 
 >ms1
-279.0183 100
+
 
 >ms2
 279.0183 100
 
 >compound FTneg2825
 >ionization [M+?]-
->parentmass 291.090371488617
+>parentmass Inf
 >rt 9.62686312659295
 
 >ms1
-291.0904 100
+
 
 >ms2
 291.0904 100
 
 >compound FTneg2826
 >ionization [M+?]-
->parentmass 293.104523844217
+>parentmass Inf
 >rt 9.62987753105446
 
 >ms1
-293.1045 100
+
 
 >ms2
 293.1045 100
 
 >compound FTneg2827
 >ionization [M+?]-
->parentmass 294.990361244125
+>parentmass Inf
 >rt 9.62216748684607
 
 >ms1
-294.9904 100
 
 >ms2
 51.9398 40
@@ -51090,22 +50443,21 @@
 
 >compound FTneg2828
 >ionization [M+?]-
->parentmass 296.989838702619
+>parentmass Inf
 >rt 9.62579329270842
 
 >ms1
-296.9898 100
+
 
 >ms2
 296.9898 100
 
 >compound FTneg2829
 >ionization [M+?]-
->parentmass 317.10637451897
+>parentmass Inf
 >rt 9.63664897093528
 
 >ms1
-317.1064 100
 
 >ms2
 53.0384 80
@@ -51233,22 +50585,21 @@
 
 >compound FTneg2830
 >ionization [M+?]-
->parentmass 323.152253517967
+>parentmass Inf
 >rt 9.61864907671691
 
 >ms1
-323.1523 100
+
 
 >ms2
 323.1523 100
 
 >compound FTneg2831
 >ionization [M+?]-
->parentmass 337.028644708927
+>parentmass Inf
 >rt 9.71273963732826
 
 >ms1
-337.0286 100
 
 >ms2
 51.0085 40
@@ -51256,66 +50607,65 @@
 
 >compound FTneg2832
 >ionization [M+?]-
->parentmass 355.09862023094
+>parentmass Inf
 >rt 9.62693132468371
 
 >ms1
-355.0986 100
+
 
 >ms2
 355.0986 100
 
 >compound FTneg2833
 >ionization [M+?]-
->parentmass 355.138944059364
+>parentmass Inf
 >rt 9.57203213635411
 
 >ms1
-355.1389 100
+
 
 >ms2
 355.1389 100
 
 >compound FTneg2834
 >ionization [M+?]-
->parentmass 365.232279519396
+>parentmass Inf
 >rt 9.59796698292773
 
 >ms1
-365.2323 100
+
 
 >ms2
 365.2323 100
 
 >compound FTneg2835
 >ionization [M+?]-
->parentmass 373.150394065608
+>parentmass Inf
 >rt 9.60724698594787
 
 >ms1
-373.1504 100
+
 
 >ms2
 373.1504 100
 
 >compound FTneg2836
 >ionization [M+?]-
->parentmass 437.215399050184
+>parentmass Inf
 >rt 9.63636140435653
 
 >ms1
-437.2154 100
+
 
 >ms2
 437.2154 100
 
 >compound FTneg2837
 >ionization [M+?]-
->parentmass 465.212910633295
+>parentmass Inf
 >rt 9.61807938413464
 
 >ms1
-465.2129 100
 
 >ms2
 53.0399 40
@@ -51383,55 +50733,54 @@
 
 >compound FTneg2838
 >ionization [M+?]-
->parentmass 149.826118449039
+>parentmass Inf
 >rt 6.57173461538469
 
 >ms1
-149.8261 100
+
 
 >ms2
 149.8261 100
 
 >compound FTneg2839
 >ionization [M+?]-
->parentmass 151.026109667287
+>parentmass Inf
 >rt 6.44787362790678
 
 >ms1
-151.0261 100
+
 
 >ms2
 151.0261 100
 
 >compound FTneg2840
 >ionization [M+?]-
->parentmass 151.039262160786
+>parentmass Inf
 >rt 7.01290137031693
 
 >ms1
-151.0393 100
+
 
 >ms2
 151.0393 100
 
 >compound FTneg2841
 >ionization [M+?]-
->parentmass 151.039855862814
+>parentmass Inf
 >rt 7.84701205124652
 
 >ms1
-151.0399 100
+
 
 >ms2
 151.0399 100
 
 >compound FTneg2842
 >ionization [M+?]-
->parentmass 271.984603063823
+>parentmass Inf
 >rt 7.97396646881787
 
 >ms1
-271.9846 100
 
 >ms2
 50.0012 40
@@ -51471,66 +50820,65 @@
 
 >compound FTneg2843
 >ionization [M+?]-
->parentmass 411.238049012823
+>parentmass Inf
 >rt 7.96571547619057
 
 >ms1
-411.238 100
+
 
 >ms2
 411.238 100
 
 >compound FTneg2844
 >ionization [M+?]-
->parentmass 443.249279466719
+>parentmass Inf
 >rt 7.87328174471591
 
 >ms1
-443.2493 100
+
 
 >ms2
 443.2493 100
 
 >compound FTneg2845
 >ionization [M+?]-
->parentmass 151.051601591502
+>parentmass Inf
 >rt 6.94447570958601
 
 >ms1
-151.0516 100
+
 
 >ms2
 151.0516 100
 
 >compound FTneg2846
 >ionization [M+?]-
->parentmass 189.057567608925
+>parentmass Inf
 >rt 7.02537530929173
 
 >ms1
-189.0576 100
+
 
 >ms2
 189.0576 100
 
 >compound FTneg2847
 >ionization [M+?]-
->parentmass 279.097992610128
+>parentmass Inf
 >rt 6.99508533912335
 
 >ms1
-279.098 100
+
 
 >ms2
 279.098 100
 
 >compound FTneg2848
 >ionization [M+?]-
->parentmass 230.99686323776
+>parentmass Inf
 >rt 6.9700154322199
 
 >ms1
-230.9969 100
 
 >ms2
 50.0148 40
@@ -51584,11 +50932,10 @@
 
 >compound FTneg2849
 >ionization [M+?]-
->parentmass 153.019117106391
+>parentmass Inf
 >rt 6.96420628519534
 
 >ms1
-153.0191 100
 
 >ms2
 80.9472 757
@@ -51622,22 +50969,21 @@
 
 >compound FTneg2850
 >ionization [M+?]-
->parentmass 195.113290580758
+>parentmass Inf
 >rt 6.95269799116629
 
 >ms1
-195.1133 100
+
 
 >ms2
 195.1133 100
 
 >compound FTneg2851
 >ionization [M+?]-
->parentmass 227.997129783805
+>parentmass Inf
 >rt 6.99925152568611
 
 >ms1
-227.9971 100
 
 >ms2
 55.9345 240
@@ -51649,132 +50995,131 @@
 
 >compound FTneg2852
 >ionization [M+?]-
->parentmass 237.094739345168
+>parentmass Inf
 >rt 6.89150265173791
 
 >ms1
-237.0947 100
+
 
 >ms2
 237.0947 100
 
 >compound FTneg2853
 >ionization [M+?]-
->parentmass 277.002089093641
+>parentmass Inf
 >rt 6.96392226954987
 
 >ms1
-277.0021 100
+
 
 >ms2
 277.0021 100
 
 >compound FTneg2854
 >ionization [M+?]-
->parentmass 293.124872255352
+>parentmass Inf
 >rt 6.94421861540035
 
 >ms1
-293.1249 100
+
 
 >ms2
 293.1249 100
 
 >compound FTneg2855
 >ionization [M+?]-
->parentmass 309.146207687204
+>parentmass Inf
 >rt 6.94802424242427
 
 >ms1
-309.1462 100
+
 
 >ms2
 309.1462 100
 
 >compound FTneg2856
 >ionization [M+?]-
->parentmass 328.066986343083
+>parentmass Inf
 >rt 6.94723119691362
 
 >ms1
-328.067 100
+
 
 >ms2
 328.067 100
 
 >compound FTneg2857
 >ionization [M+?]-
->parentmass 330.921062283476
+>parentmass Inf
 >rt 6.95573008288247
 
 >ms1
-330.9211 100
+
 
 >ms2
 330.9211 100
 
 >compound FTneg2858
 >ionization [M+?]-
->parentmass 382.077876981596
+>parentmass Inf
 >rt 6.93969226636399
 
 >ms1
-382.0779 100
+
 
 >ms2
 382.0779 100
 
 >compound FTneg2859
 >ionization [M+?]-
->parentmass 412.197303249995
+>parentmass Inf
 >rt 6.96862376635787
 
 >ms1
-412.1973 100
+
 
 >ms2
 412.1973 100
 
 >compound FTneg2860
 >ionization [M+?]-
->parentmass 462.143497010383
+>parentmass Inf
 >rt 6.92736968682628
 
 >ms1
-462.1435 100
+
 
 >ms2
 462.1435 100
 
 >compound FTneg2861
 >ionization [M+?]-
->parentmass 490.182786493612
+>parentmass Inf
 >rt 6.94341710596552
 
 >ms1
-490.1828 100
+
 
 >ms2
 490.1828 100
 
 >compound FTneg2862
 >ionization [M+?]-
->parentmass 153.646157912995
+>parentmass Inf
 >rt 3.12024242424245
 
 >ms1
-153.6462 100
+
 
 >ms2
 153.6462 100
 
 >compound FTneg2863
 >ionization [M+?]-
->parentmass 243.043525031365
+>parentmass Inf
 >rt 3.20309401301604
 
 >ms1
-243.0435 100
 
 >ms2
 51.0252 20
@@ -51802,11 +51147,10 @@
 
 >compound FTneg2864
 >ionization [M+?]-
->parentmass 428.123169115923
+>parentmass Inf
 >rt 3.04802768106415
 
 >ms1
-428.1232 100
 
 >ms2
 51.023 40
@@ -51855,11 +51199,10 @@
 
 >compound FTneg2865
 >ionization [M+?]-
->parentmass 199.097527022359
+>parentmass Inf
 >rt 10.2918270786637
 
 >ms1
-199.0975 100
 
 >ms2
 50.0141 80
@@ -51899,11 +51242,10 @@
 
 >compound FTneg2866
 >ionization [M+?]-
->parentmass 321.146759817215
+>parentmass Inf
 >rt 10.2894805365089
 
 >ms1
-321.1468 100
 
 >ms2
 56.0494 199
@@ -51970,11 +51312,10 @@
 
 >compound FTneg2867
 >ionization [M+?]-
->parentmass 155.107672932215
+>parentmass Inf
 >rt 10.2924726531007
 
 >ms1
-155.1077 100
 
 >ms2
 56.0528 40
@@ -52025,11 +51366,10 @@
 
 >compound FTneg2868
 >ionization [M+?]-
->parentmass 185.11813922299
+>parentmass Inf
 >rt 10.2971685601715
 
 >ms1
-185.1181 100
 
 >ms2
 51.0238 81
@@ -52059,11 +51399,10 @@
 
 >compound FTneg2869
 >ionization [M+?]-
->parentmass 345.027939220644
+>parentmass Inf
 >rt 10.2925678212593
 
 >ms1
-345.0279 100
 
 >ms2
 57.0688 80
@@ -52072,22 +51411,20 @@
 
 >compound FTneg2870
 >ionization [M+?]-
->parentmass 485.14231890578
+>parentmass Inf
 >rt 10.2928381660177
 
 >ms1
-485.1423 100
 
 >ms2
 56.9641 4
 
 >compound FTneg2871
 >ionization [M+?]-
->parentmass 607.384933340014
+>parentmass Inf
 >rt 10.2874530600383
 
 >ms1
-607.3849 100
 
 >ms2
 89.0579 20
@@ -52096,22 +51433,20 @@
 
 >compound FTneg2872
 >ionization [M+?]-
->parentmass 188.9513003905
+>parentmass Inf
 >rt 10.2990769538664
 
 >ms1
-188.9513 100
 
 >ms2
 54.0081 199
 
 >compound FTneg2873
 >ionization [M+?]-
->parentmass 190.948107598043
+>parentmass Inf
 >rt 10.2993852522944
 
 >ms1
-190.9481 100
 
 >ms2
 50.0012 27
@@ -52152,11 +51487,10 @@
 
 >compound FTneg2874
 >ionization [M+?]-
->parentmass 245.102908563959
+>parentmass Inf
 >rt 10.2925879922113
 
 >ms1
-245.1029 100
 
 >ms2
 51.939 8
@@ -52176,11 +51510,10 @@
 
 >compound FTneg2875
 >ionization [M+?]-
->parentmass 267.084684350134
+>parentmass Inf
 >rt 10.2923734298355
 
 >ms1
-267.0847 100
 
 >ms2
 53.0391 40
@@ -52190,33 +51523,31 @@
 
 >compound FTneg2876
 >ionization [M+?]-
->parentmass 295.085057881704
+>parentmass Inf
 >rt 10.2939808770771
 
 >ms1
-295.0851 100
 
 >ms2
 55.8901 4
 
 >compound FTneg2877
 >ionization [M+?]-
->parentmass 344.030933500163
+>parentmass Inf
 >rt 10.2932696426611
 
 >ms1
-344.0309 100
+
 
 >ms2
 344.0309 100
 
 >compound FTneg2878
 >ionization [M+?]-
->parentmass 347.028279459884
+>parentmass Inf
 >rt 10.2858478645042
 
 >ms1
-347.0283 100
 
 >ms2
 56.0512 40
@@ -52226,11 +51557,10 @@
 
 >compound FTneg2879
 >ionization [M+?]-
->parentmass 377.269154499123
+>parentmass Inf
 >rt 10.3032549448784
 
 >ms1
-377.2692 100
 
 >ms2
 53.0398 40
@@ -52242,22 +51572,21 @@
 
 >compound FTneg2880
 >ionization [M+?]-
->parentmass 413.014734610427
+>parentmass Inf
 >rt 10.2974736920757
 
 >ms1
-413.0147 100
+
 
 >ms2
 413.0147 100
 
 >compound FTneg2881
 >ionization [M+?]-
->parentmass 423.274945687652
+>parentmass Inf
 >rt 10.2884566623207
 
 >ms1
-423.2749 100
 
 >ms2
 55.0458 40
@@ -52274,88 +51603,86 @@
 
 >compound FTneg2882
 >ionization [M+?]-
->parentmass 463.254603560759
+>parentmass Inf
 >rt 10.2933512685543
 
 >ms1
-463.2546 100
+
 
 >ms2
 463.2546 100
 
 >compound FTneg2883
 >ionization [M+?]-
->parentmass 474.990205866334
+>parentmass Inf
 >rt 10.327041533875
 
 >ms1
-474.9902 100
+
 
 >ms2
 474.9902 100
 
 >compound FTneg2884
 >ionization [M+?]-
->parentmass 483.161679925784
+>parentmass Inf
 >rt 10.2935287064892
 
 >ms1
-483.1617 100
 
 >ms2
 53.9391 4
 
 >compound FTneg2885
 >ionization [M+?]-
->parentmass 484.164177453048
+>parentmass Inf
 >rt 10.2921435482874
 
 >ms1
-484.1642 100
+
 
 >ms2
 484.1642 100
 
 >compound FTneg2886
 >ionization [M+?]-
->parentmass 499.127451025379
+>parentmass Inf
 >rt 10.2901397440793
 
 >ms1
-499.1275 100
+
 
 >ms2
 499.1275 100
 
 >compound FTneg2887
 >ionization [M+?]-
->parentmass 499.157043941008
+>parentmass Inf
 >rt 10.3034497401698
 
 >ms1
-499.157 100
+
 
 >ms2
 499.157 100
 
 >compound FTneg2888
 >ionization [M+?]-
->parentmass 501.128114907984
+>parentmass Inf
 >rt 10.2903616795361
 
 >ms1
-501.1281 100
+
 
 >ms2
 501.1281 100
 
 >compound FTneg2889
 >ionization [M+?]-
->parentmass 513.189572872933
+>parentmass Inf
 >rt 10.2819092579949
 
 >ms1
-513.1896 100
 
 >ms2
 59.032 40
@@ -52373,33 +51700,32 @@
 
 >compound FTneg2890
 >ionization [M+?]-
->parentmass 956.658855138338
+>parentmass Inf
 >rt 10.29433018538
 
 >ms1
-956.6589 100
+
 
 >ms2
 956.6589 100
 
 >compound FTneg2891
 >ionization [M+?]-
->parentmass 957.660792725797
+>parentmass Inf
 >rt 10.2964637210686
 
 >ms1
-957.6608 100
+
 
 >ms2
 957.6608 100
 
 >compound FTneg2892
 >ionization [M+?]-
->parentmass 452.922915863272
+>parentmass Inf
 >rt 1.54163058213121
 
 >ms1
-452.9229 100
 
 >ms2
 55.0557 20
@@ -52417,11 +51743,10 @@
 
 >compound FTneg2893
 >ionization [M+?]-
->parentmass 316.948002232909
+>parentmass Inf
 >rt 1.54303520635477
 
 >ms1
-316.948 100
 
 >ms2
 54.8801 80
@@ -52496,11 +51821,10 @@
 
 >compound FTneg2894
 >ionization [M+?]-
->parentmass 384.935527653255
+>parentmass Inf
 >rt 1.54065491636485
 
 >ms1
-384.9355 100
 
 >ms2
 55.0556 120
@@ -52548,11 +51872,10 @@
 
 >compound FTneg2895
 >ionization [M+?]-
->parentmass 520.910452612831
+>parentmass Inf
 >rt 1.54127296968413
 
 >ms1
-520.9105 100
 
 >ms2
 52.7445 4
@@ -52584,22 +51907,21 @@
 
 >compound FTneg2896
 >ionization [M+?]-
->parentmass 558.885271780799
+>parentmass Inf
 >rt 1.53020823631755
 
 >ms1
-558.8853 100
+
 
 >ms2
 558.8853 100
 
 >compound FTneg2897
 >ionization [M+?]-
->parentmass 588.897852504398
+>parentmass Inf
 >rt 1.53863430383193
 
 >ms1
-588.8979 100
 
 >ms2
 73.0215 20
@@ -52610,22 +51932,21 @@
 
 >compound FTneg2898
 >ionization [M+?]-
->parentmass 694.860631661424
+>parentmass Inf
 >rt 1.53987678801712
 
 >ms1
-694.8606 100
+
 
 >ms2
 694.8606 100
 
 >compound FTneg2899
 >ionization [M+?]-
->parentmass 724.872544332655
+>parentmass Inf
 >rt 1.53637432641972
 
 >ms1
-724.8725 100
 
 >ms2
 56.0489 40
@@ -52695,22 +52016,21 @@
 
 >compound FTneg2900
 >ionization [M+?]-
->parentmass 830.835224429397
+>parentmass Inf
 >rt 1.54146354166675
 
 >ms1
-830.8352 100
+
 
 >ms2
 830.8352 100
 
 >compound FTneg2901
 >ionization [M+?]-
->parentmass 860.84716960354
+>parentmass Inf
 >rt 1.53486580545962
 
 >ms1
-860.8472 100
 
 >ms2
 59.0492 40
@@ -52730,11 +52050,10 @@
 
 >compound FTneg2902
 >ionization [M+?]-
->parentmass 468.896681162136
+>parentmass Inf
 >rt 1.55004463917707
 
 >ms1
-468.8967 100
 
 >ms2
 57.0688 80
@@ -52744,22 +52063,21 @@
 
 >compound FTneg2903
 >ionization [M+?]-
->parentmass 589.901302826704
+>parentmass Inf
 >rt 1.53829183261152
 
 >ms1
-589.9013 100
+
 
 >ms2
 589.9013 100
 
 >compound FTneg2904
 >ionization [M+?]-
->parentmass 604.872196218113
+>parentmass Inf
 >rt 1.54970344661256
 
 >ms1
-604.8722 100
 
 >ms2
 68.0371 40
@@ -52784,11 +52102,10 @@
 
 >compound FTneg2905
 >ionization [M+?]-
->parentmass 622.890760234284
+>parentmass Inf
 >rt 1.5356970472295
 
 >ms1
-622.8908 100
 
 >ms2
 57.071 46
@@ -52847,22 +52164,21 @@
 
 >compound FTneg2906
 >ionization [M+?]-
->parentmass 657.8884145275
+>parentmass Inf
 >rt 1.53822140452747
 
 >ms1
-657.8884 100
+
 
 >ms2
 657.8884 100
 
 >compound FTneg2907
 >ionization [M+?]-
->parentmass 690.878057074738
+>parentmass Inf
 >rt 1.53520729090785
 
 >ms1
-690.8781 100
 
 >ms2
 55.0548 20
@@ -52936,55 +52252,54 @@
 
 >compound FTneg2908
 >ionization [M+?]-
->parentmass 698.865235208754
+>parentmass Inf
 >rt 1.54305837320569
 
 >ms1
-698.8652 100
+
 
 >ms2
 698.8652 100
 
 >compound FTneg2909
 >ionization [M+?]-
->parentmass 725.87574546297
+>parentmass Inf
 >rt 1.53641566792169
 
 >ms1
-725.8757 100
+
 
 >ms2
 725.8757 100
 
 >compound FTneg2910
 >ionization [M+?]-
->parentmass 732.858403029382
+>parentmass Inf
 >rt 1.54387315424504
 
 >ms1
-732.8584 100
+
 
 >ms2
 732.8584 100
 
 >compound FTneg2911
 >ionization [M+?]-
->parentmass 740.846752016378
+>parentmass Inf
 >rt 1.54701267290057
 
 >ms1
-740.8468 100
+
 
 >ms2
 740.8468 100
 
 >compound FTneg2912
 >ionization [M+?]-
->parentmass 758.865497690029
+>parentmass Inf
 >rt 1.53528617235488
 
 >ms1
-758.8655 100
 
 >ms2
 55.9396 40
@@ -52993,44 +52308,43 @@
 
 >compound FTneg2913
 >ionization [M+?]-
->parentmass 766.85258218982
+>parentmass Inf
 >rt 1.54298992805801
 
 >ms1
-766.8526 100
+
 
 >ms2
 766.8526 100
 
 >compound FTneg2914
 >ionization [M+?]-
->parentmass 793.863002182078
+>parentmass Inf
 >rt 1.53671981423667
 
 >ms1
-793.863 100
+
 
 >ms2
 793.863 100
 
 >compound FTneg2915
 >ionization [M+?]-
->parentmass 800.845681813587
+>parentmass Inf
 >rt 1.54344565506946
 
 >ms1
-800.8457 100
+
 
 >ms2
 800.8457 100
 
 >compound FTneg2916
 >ionization [M+?]-
->parentmass 826.852663206411
+>parentmass Inf
 >rt 1.53489866610905
 
 >ms1
-826.8527 100
 
 >ms2
 57.0696 40
@@ -53067,44 +52381,43 @@
 
 >compound FTneg2917
 >ionization [M+?]-
->parentmass 834.839618537819
+>parentmass Inf
 >rt 1.54265858599214
 
 >ms1
-834.8396 100
+
 
 >ms2
 834.8396 100
 
 >compound FTneg2918
 >ionization [M+?]-
->parentmass 861.850060771915
+>parentmass Inf
 >rt 1.53520188733498
 
 >ms1
-861.8501 100
+
 
 >ms2
 861.8501 100
 
 >compound FTneg2919
 >ionization [M+?]-
->parentmass 876.821305755035
+>parentmass Inf
 >rt 1.5458843661086
 
 >ms1
-876.8213 100
+
 
 >ms2
 876.8213 100
 
 >compound FTneg2920
 >ionization [M+?]-
->parentmass 894.839925203372
+>parentmass Inf
 >rt 1.53487115981494
 
 >ms1
-894.8399 100
 
 >ms2
 57.0696 76
@@ -53210,33 +52523,32 @@
 
 >compound FTneg2921
 >ionization [M+?]-
->parentmass 929.836957975893
+>parentmass Inf
 >rt 1.53494451171311
 
 >ms1
-929.837 100
+
 
 >ms2
 929.837 100
 
 >compound FTneg2922
 >ionization [M+?]-
->parentmass 962.827107950005
+>parentmass Inf
 >rt 1.53456699225646
 
 >ms1
-962.8271 100
+
 
 >ms2
 962.8271 100
 
 >compound FTneg2923
 >ionization [M+?]-
->parentmass 996.82149514082
+>parentmass Inf
 >rt 1.5345539014934
 
 >ms1
-996.8215 100
 
 >ms2
 58.0224 21
@@ -53362,66 +52674,65 @@
 
 >compound FTneg2924
 >ionization [M+?]-
->parentmass 156.97495600364
+>parentmass Inf
 >rt 1.51208625292137
 
 >ms1
-156.975 100
+
 
 >ms2
 156.975 100
 
 >compound FTneg2925
 >ionization [M+?]-
->parentmass 236.960470202231
+>parentmass Inf
 >rt 1.52220909035235
 
 >ms1
-236.9605 100
+
 
 >ms2
 236.9605 100
 
 >compound FTneg2926
 >ionization [M+?]-
->parentmass 246.944811209445
+>parentmass Inf
 >rt 1.52961980324539
 
 >ms1
-246.9448 100
+
 
 >ms2
 246.9448 100
 
 >compound FTneg2927
 >ionization [M+?]-
->parentmass 288.952925898028
+>parentmass Inf
 >rt 1.52779268158292
 
 >ms1
-288.9529 100
+
 
 >ms2
 288.9529 100
 
 >compound FTneg2928
 >ionization [M+?]-
->parentmass 302.93227734586
+>parentmass Inf
 >rt 1.51836128885748
 
 >ms1
-302.9323 100
+
 
 >ms2
 302.9323 100
 
 >compound FTneg2929
 >ionization [M+?]-
->parentmass 304.947889688889
+>parentmass Inf
 >rt 1.51973468195164
 
 >ms1
-304.9479 100
 
 >ms2
 55.0525 20
@@ -53438,33 +52749,32 @@
 
 >compound FTneg2930
 >ionization [M+?]-
->parentmass 314.932338216235
+>parentmass Inf
 >rt 1.5358011746249
 
 >ms1
-314.9323 100
+
 
 >ms2
 314.9323 100
 
 >compound FTneg2931
 >ionization [M+?]-
->parentmass 316.925559630406
+>parentmass Inf
 >rt 1.54233751901604
 
 >ms1
-316.9256 100
+
 
 >ms2
 316.9256 100
 
 >compound FTneg2932
 >ionization [M+?]-
->parentmass 332.921985845226
+>parentmass Inf
 >rt 1.55634578159675
 
 >ms1
-332.922 100
 
 >ms2
 55.0548 27
@@ -53483,1012 +52793,1011 @@
 
 >compound FTneg2933
 >ionization [M+?]-
->parentmass 356.940248434676
+>parentmass Inf
 >rt 1.52731471252483
 
 >ms1
-356.9402 100
+
 
 >ms2
 356.9402 100
 
 >compound FTneg2934
 >ionization [M+?]-
->parentmass 358.922148793031
+>parentmass Inf
 >rt 1.51792649719653
 
 >ms1
-358.9221 100
+
 
 >ms2
 358.9221 100
 
 >compound FTneg2935
 >ionization [M+?]-
->parentmass 380.904196575898
+>parentmass Inf
 >rt 1.52276410023887
 
 >ms1
-380.9042 100
+
 
 >ms2
 380.9042 100
 
 >compound FTneg2936
 >ionization [M+?]-
->parentmass 382.919820970974
+>parentmass Inf
 >rt 1.53488777354968
 
 >ms1
-382.9198 100
+
 
 >ms2
 382.9198 100
 
 >compound FTneg2937
 >ionization [M+?]-
->parentmass 384.909720187397
+>parentmass Inf
 >rt 1.54208601083447
 
 >ms1
-384.9097 100
+
 
 >ms2
 384.9097 100
 
 >compound FTneg2938
 >ionization [M+?]-
->parentmass 400.909484340989
+>parentmass Inf
 >rt 1.55317460547623
 
 >ms1
-400.9095 100
+
 
 >ms2
 400.9095 100
 
 >compound FTneg2939
 >ionization [M+?]-
->parentmass 438.906470042767
+>parentmass Inf
 >rt 1.51362983515458
 
 >ms1
-438.9065 100
+
 
 >ms2
 438.9065 100
 
 >compound FTneg2940
 >ionization [M+?]-
->parentmass 440.922580333373
+>parentmass Inf
 >rt 1.52025589873963
 
 >ms1
-440.9226 100
+
 
 >ms2
 440.9226 100
 
 >compound FTneg2941
 >ionization [M+?]-
->parentmass 448.891901407148
+>parentmass Inf
 >rt 1.52752843934315
 
 >ms1
-448.8919 100
+
 
 >ms2
 448.8919 100
 
 >compound FTneg2942
 >ionization [M+?]-
->parentmass 450.90721475963
+>parentmass Inf
 >rt 1.53636689623354
 
 >ms1
-450.9072 100
+
 
 >ms2
 450.9072 100
 
 >compound FTneg2943
 >ionization [M+?]-
->parentmass 452.894244565236
+>parentmass Inf
 >rt 1.54108081830303
 
 >ms1
-452.8942 100
+
 
 >ms2
 452.8942 100
 
 >compound FTneg2944
 >ionization [M+?]-
->parentmass 492.912187249007
+>parentmass Inf
 >rt 1.50960615362045
 
 >ms1
-492.9122 100
+
 
 >ms2
 492.9122 100
 
 >compound FTneg2945
 >ionization [M+?]-
->parentmass 516.87920475888
+>parentmass Inf
 >rt 1.53072881224998
 
 >ms1
-516.8792 100
+
 
 >ms2
 516.8792 100
 
 >compound FTneg2946
 >ionization [M+?]-
->parentmass 518.89461598342
+>parentmass Inf
 >rt 1.53748654871965
 
 >ms1
-518.8946 100
+
 
 >ms2
 518.8946 100
 
 >compound FTneg2947
 >ionization [M+?]-
->parentmass 520.879694666436
+>parentmass Inf
 >rt 1.53799148807813
 
 >ms1
-520.8797 100
+
 
 >ms2
 520.8797 100
 
 >compound FTneg2948
 >ionization [M+?]-
->parentmass 552.858371296043
+>parentmass Inf
 >rt 1.56170248414422
 
 >ms1
-552.8584 100
+
 
 >ms2
 552.8584 100
 
 >compound FTneg2949
 >ionization [M+?]-
->parentmass 554.90323666456
+>parentmass Inf
 >rt 1.53591683779877
 
 >ms1
-554.9032 100
+
 
 >ms2
 554.9032 100
 
 >compound FTneg2950
 >ionization [M+?]-
->parentmass 574.880489323109
+>parentmass Inf
 >rt 1.52090930760995
 
 >ms1
-574.8805 100
+
 
 >ms2
 574.8805 100
 
 >compound FTneg2951
 >ionization [M+?]-
->parentmass 576.896932747635
+>parentmass Inf
 >rt 1.52063426294718
 
 >ms1
-576.8969 100
+
 
 >ms2
 576.8969 100
 
 >compound FTneg2952
 >ionization [M+?]-
->parentmass 584.866923867579
+>parentmass Inf
 >rt 1.53154309295999
 
 >ms1
-584.8669 100
+
 
 >ms2
 584.8669 100
 
 >compound FTneg2953
 >ionization [M+?]-
->parentmass 586.882222463155
+>parentmass Inf
 >rt 1.53826665205975
 
 >ms1
-586.8822 100
+
 
 >ms2
 586.8822 100
 
 >compound FTneg2954
 >ionization [M+?]-
->parentmass 587.887263182595
+>parentmass Inf
 >rt 1.53746261827656
 
 >ms1
-587.8873 100
+
 
 >ms2
 587.8873 100
 
 >compound FTneg2955
 >ionization [M+?]-
->parentmass 588.864288868756
+>parentmass Inf
 >rt 1.53879223323799
 
 >ms1
-588.8643 100
+
 
 >ms2
 588.8643 100
 
 >compound FTneg2956
 >ionization [M+?]-
->parentmass 596.883357791366
+>parentmass Inf
 >rt 1.54580708107267
 
 >ms1
-596.8834 100
+
 
 >ms2
 596.8834 100
 
 >compound FTneg2957
 >ionization [M+?]-
->parentmass 615.882046554601
+>parentmass Inf
 >rt 1.52714869637288
 
 >ms1
-615.882 100
+
 
 >ms2
 615.882 100
 
 >compound FTneg2958
 >ionization [M+?]-
->parentmass 621.882201549407
+>parentmass Inf
 >rt 1.53603637313722
 
 >ms1
-621.8822 100
+
 
 >ms2
 621.8822 100
 
 >compound FTneg2959
 >ionization [M+?]-
->parentmass 623.892012421387
+>parentmass Inf
 >rt 1.53319333609769
 
 >ms1
-623.892 100
+
 
 >ms2
 623.892 100
 
 >compound FTneg2960
 >ionization [M+?]-
->parentmass 630.878039238824
+>parentmass Inf
 >rt 1.54306586412358
 
 >ms1
-630.878 100
+
 
 >ms2
 630.878 100
 
 >compound FTneg2961
 >ionization [M+?]-
->parentmass 642.868959653681
+>parentmass Inf
 >rt 1.526470354816
 
 >ms1
-642.869 100
+
 
 >ms2
 642.869 100
 
 >compound FTneg2962
 >ionization [M+?]-
->parentmass 643.876783532304
+>parentmass Inf
 >rt 1.52624991379356
 
 >ms1
-643.8768 100
+
 
 >ms2
 643.8768 100
 
 >compound FTneg2963
 >ionization [M+?]-
->parentmass 644.883941516958
+>parentmass Inf
 >rt 1.51649268723404
 
 >ms1
-644.8839 100
+
 
 >ms2
 644.8839 100
 
 >compound FTneg2964
 >ionization [M+?]-
->parentmass 649.875616277959
+>parentmass Inf
 >rt 1.52623121269724
 
 >ms1
-649.8756 100
+
 
 >ms2
 649.8756 100
 
 >compound FTneg2965
 >ionization [M+?]-
->parentmass 652.854894805997
+>parentmass Inf
 >rt 1.531680952381
 
 >ms1
-652.8549 100
+
 
 >ms2
 652.8549 100
 
 >compound FTneg2966
 >ionization [M+?]-
->parentmass 654.869520747405
+>parentmass Inf
 >rt 1.53904255509995
 
 >ms1
-654.8695 100
+
 
 >ms2
 654.8695 100
 
 >compound FTneg2967
 >ionization [M+?]-
->parentmass 655.875098553274
+>parentmass Inf
 >rt 1.540662037037
 
 >ms1
-655.8751 100
+
 
 >ms2
 655.8751 100
 
 >compound FTneg2968
 >ionization [M+?]-
->parentmass 656.847572221437
+>parentmass Inf
 >rt 1.54243838432544
 
 >ms1
-656.8476 100
+
 
 >ms2
 656.8476 100
 
 >compound FTneg2969
 >ionization [M+?]-
->parentmass 664.871019583471
+>parentmass Inf
 >rt 1.54440309429269
 
 >ms1
-664.871 100
+
 
 >ms2
 664.871 100
 
 >compound FTneg2970
 >ionization [M+?]-
->parentmass 665.37383632248
+>parentmass Inf
 >rt 1.54253878621555
 
 >ms1
-665.3738 100
+
 
 >ms2
 665.3738 100
 
 >compound FTneg2971
 >ionization [M+?]-
->parentmass 665.872707110103
+>parentmass Inf
 >rt 1.54183656126573
 
 >ms1
-665.8727 100
+
 
 >ms2
 665.8727 100
 
 >compound FTneg2972
 >ionization [M+?]-
->parentmass 683.869473748983
+>parentmass Inf
 >rt 1.52971261399961
 
 >ms1
-683.8695 100
+
 
 >ms2
 683.8695 100
 
 >compound FTneg2973
 >ionization [M+?]-
->parentmass 689.868725874286
+>parentmass Inf
 >rt 1.53807177503337
 
 >ms1
-689.8687 100
+
 
 >ms2
 689.8687 100
 
 >compound FTneg2974
 >ionization [M+?]-
->parentmass 691.879989305027
+>parentmass Inf
 >rt 1.53464475304649
 
 >ms1
-691.88 100
+
 
 >ms2
 691.88 100
 
 >compound FTneg2975
 >ionization [M+?]-
->parentmass 699.865891257722
+>parentmass Inf
 >rt 1.54286994424932
 
 >ms1
-699.8659 100
+
 
 >ms2
 699.8659 100
 
 >compound FTneg2976
 >ionization [M+?]-
->parentmass 710.856135008209
+>parentmass Inf
 >rt 1.52528786415263
 
 >ms1
-710.8561 100
+
 
 >ms2
 710.8561 100
 
 >compound FTneg2977
 >ionization [M+?]-
->parentmass 711.864730686799
+>parentmass Inf
 >rt 1.52290639106764
 
 >ms1
-711.8647 100
+
 
 >ms2
 711.8647 100
 
 >compound FTneg2978
 >ionization [M+?]-
->parentmass 712.870641467229
+>parentmass Inf
 >rt 1.52395555996534
 
 >ms1
-712.8706 100
+
 
 >ms2
 712.8706 100
 
 >compound FTneg2979
 >ionization [M+?]-
->parentmass 717.862368509724
+>parentmass Inf
 >rt 1.52841803114309
 
 >ms1
-717.8624 100
+
 
 >ms2
 717.8624 100
 
 >compound FTneg2980
 >ionization [M+?]-
->parentmass 722.857102951604
+>parentmass Inf
 >rt 1.54156570898092
 
 >ms1
-722.8571 100
+
 
 >ms2
 722.8571 100
 
 >compound FTneg2981
 >ionization [M+?]-
->parentmass 733.8597610844
+>parentmass Inf
 >rt 1.54215273073077
 
 >ms1
-733.8598 100
+
 
 >ms2
 733.8598 100
 
 >compound FTneg2982
 >ionization [M+?]-
->parentmass 751.855916112439
+>parentmass Inf
 >rt 1.52639237013781
 
 >ms1
-751.8559 100
+
 
 >ms2
 751.8559 100
 
 >compound FTneg2983
 >ionization [M+?]-
->parentmass 757.854758879469
+>parentmass Inf
 >rt 1.53667167035666
 
 >ms1
-757.8548 100
+
 
 >ms2
 757.8548 100
 
 >compound FTneg2984
 >ionization [M+?]-
->parentmass 759.867249533946
+>parentmass Inf
 >rt 1.53500525556227
 
 >ms1
-759.8672 100
+
 
 >ms2
 759.8672 100
 
 >compound FTneg2985
 >ionization [M+?]-
->parentmass 767.853327334301
+>parentmass Inf
 >rt 1.54229313332419
 
 >ms1
-767.8533 100
+
 
 >ms2
 767.8533 100
 
 >compound FTneg2986
 >ionization [M+?]-
->parentmass 774.838461645574
+>parentmass Inf
 >rt 1.5484411162227
 
 >ms1
-774.8385 100
+
 
 >ms2
 774.8385 100
 
 >compound FTneg2987
 >ionization [M+?]-
->parentmass 778.842264074383
+>parentmass Inf
 >rt 1.52765500385269
 
 >ms1
-778.8423 100
+
 
 >ms2
 778.8423 100
 
 >compound FTneg2988
 >ionization [M+?]-
->parentmass 780.860445204947
+>parentmass Inf
 >rt 1.52103882217344
 
 >ms1
-780.8604 100
+
 
 >ms2
 780.8604 100
 
 >compound FTneg2989
 >ionization [M+?]-
->parentmass 785.849119603829
+>parentmass Inf
 >rt 1.53196033547888
 
 >ms1
-785.8491 100
+
 
 >ms2
 785.8491 100
 
 >compound FTneg2990
 >ionization [M+?]-
->parentmass 790.844068811456
+>parentmass Inf
 >rt 1.53920557316885
 
 >ms1
-790.8441 100
+
 
 >ms2
 790.8441 100
 
 >compound FTneg2991
 >ionization [M+?]-
->parentmass 791.84882871845
+>parentmass Inf
 >rt 1.53651527095943
 
 >ms1
-791.8488 100
+
 
 >ms2
 791.8488 100
 
 >compound FTneg2992
 >ionization [M+?]-
->parentmass 801.846851912149
+>parentmass Inf
 >rt 1.54361505431145
 
 >ms1
-801.8469 100
+
 
 >ms2
 801.8469 100
 
 >compound FTneg2993
 >ionization [M+?]-
->parentmass 819.842931478912
+>parentmass Inf
 >rt 1.52558429197883
 
 >ms1
-819.8429 100
+
 
 >ms2
 819.8429 100
 
 >compound FTneg2994
 >ionization [M+?]-
->parentmass 827.854468036487
+>parentmass Inf
 >rt 1.53606495355295
 
 >ms1
-827.8545 100
+
 
 >ms2
 827.8545 100
 
 >compound FTneg2995
 >ionization [M+?]-
->parentmass 835.840631461916
+>parentmass Inf
 >rt 1.54340645237169
 
 >ms1
-835.8406 100
+
 
 >ms2
 835.8406 100
 
 >compound FTneg2996
 >ionization [M+?]-
->parentmass 854.834473835605
+>parentmass Inf
 >rt 1.51587647389426
 
 >ms1
-854.8345 100
+
 
 >ms2
 854.8345 100
 
 >compound FTneg2997
 >ionization [M+?]-
->parentmass 858.831376296802
+>parentmass Inf
 >rt 1.54133045926408
 
 >ms1
-858.8314 100
+
 
 >ms2
 858.8314 100
 
 >compound FTneg2998
 >ionization [M+?]-
->parentmass 868.832956751258
+>parentmass Inf
 >rt 1.54346462480883
 
 >ms1
-868.833 100
+
 
 >ms2
 868.833 100
 
 >compound FTneg2999
 >ionization [M+?]-
->parentmass 869.335053460057
+>parentmass Inf
 >rt 1.54252334535071
 
 >ms1
-869.3351 100
+
 
 >ms2
 869.3351 100
 
 >compound FTneg3000
 >ionization [M+?]-
->parentmass 869.834083554595
+>parentmass Inf
 >rt 1.54394919309079
 
 >ms1
-869.8341 100
+
 
 >ms2
 869.8341 100
 
 >compound FTneg3001
 >ionization [M+?]-
->parentmass 895.841265337657
+>parentmass Inf
 >rt 1.53565310948701
 
 >ms1
-895.8413 100
+
 
 >ms2
 895.8413 100
 
 >compound FTneg3002
 >ionization [M+?]-
->parentmass 902.827033208366
+>parentmass Inf
 >rt 1.54379181168054
 
 >ms1
-902.827 100
+
 
 >ms2
 902.827 100
 
 >compound FTneg3003
 >ionization [M+?]-
->parentmass 903.329084134795
+>parentmass Inf
 >rt 1.5420430699453
 
 >ms1
-903.3291 100
+
 
 >ms2
 903.3291 100
 
 >compound FTneg3004
 >ionization [M+?]-
->parentmass 903.828101475916
+>parentmass Inf
 >rt 1.54305750196639
 
 >ms1
-903.8281 100
+
 
 >ms2
 903.8281 100
 
 >compound FTneg3005
 >ionization [M+?]-
->parentmass 910.814110981774
+>parentmass Inf
 >rt 1.54961390727068
 
 >ms1
-910.8141 100
+
 
 >ms2
 910.8141 100
 
 >compound FTneg3006
 >ionization [M+?]-
->parentmass 914.817908365302
+>parentmass Inf
 >rt 1.52777357659178
 
 >ms1
-914.8179 100
+
 
 >ms2
 914.8179 100
 
 >compound FTneg3007
 >ionization [M+?]-
->parentmass 921.824598675567
+>parentmass Inf
 >rt 1.52747409382506
 
 >ms1
-921.8246 100
+
 
 >ms2
 921.8246 100
 
 >compound FTneg3008
 >ionization [M+?]-
->parentmass 926.818830666344
+>parentmass Inf
 >rt 1.53945543374408
 
 >ms1
-926.8188 100
+
 
 >ms2
 926.8188 100
 
 >compound FTneg3009
 >ionization [M+?]-
->parentmass 936.8204130081
+>parentmass Inf
 >rt 1.5435376716199
 
 >ms1
-936.8204 100
+
 
 >ms2
 936.8204 100
 
 >compound FTneg3010
 >ionization [M+?]-
->parentmass 937.322709506471
+>parentmass Inf
 >rt 1.5443486776718
 
 >ms1
-937.3227 100
+
 
 >ms2
 937.3227 100
 
 >compound FTneg3011
 >ionization [M+?]-
->parentmass 937.820912385427
+>parentmass Inf
 >rt 1.54424449991788
 
 >ms1
-937.8209 100
+
 
 >ms2
 937.8209 100
 
 >compound FTneg3012
 >ionization [M+?]-
->parentmass 951.495374345628
+>parentmass Inf
 >rt 1.53667797255914
 
 >ms1
-951.4954 100
+
 
 >ms2
 951.4954 100
 
 >compound FTneg3013
 >ionization [M+?]-
->parentmass 951.829302570658
+>parentmass Inf
 >rt 1.52025052148134
 
 >ms1
-951.8293 100
+
 
 >ms2
 951.8293 100
 
 >compound FTneg3014
 >ionization [M+?]-
->parentmass 955.81641360665
+>parentmass Inf
 >rt 1.53274407983157
 
 >ms1
-955.8164 100
+
 
 >ms2
 955.8164 100
 
 >compound FTneg3015
 >ionization [M+?]-
->parentmass 956.819281984766
+>parentmass Inf
 >rt 1.54085706861648
 
 >ms1
-956.8193 100
+
 
 >ms2
 956.8193 100
 
 >compound FTneg3016
 >ionization [M+?]-
->parentmass 963.828724329085
+>parentmass Inf
 >rt 1.53581617629072
 
 >ms1
-963.8287 100
+
 
 >ms2
 963.8287 100
 
 >compound FTneg3017
 >ionization [M+?]-
->parentmass 970.814149359003
+>parentmass Inf
 >rt 1.54303340548413
 
 >ms1
-970.8141 100
+
 
 >ms2
 970.8141 100
 
 >compound FTneg3018
 >ionization [M+?]-
->parentmass 971.315633074092
+>parentmass Inf
 >rt 1.54483493440811
 
 >ms1
-971.3156 100
+
 
 >ms2
 971.3156 100
 
 >compound FTneg3019
 >ionization [M+?]-
->parentmass 971.814483315118
+>parentmass Inf
 >rt 1.54356448779236
 
 >ms1
-971.8145 100
+
 
 >ms2
 971.8145 100
 
 >compound FTneg3020
 >ionization [M+?]-
->parentmass 974.157625148566
+>parentmass Inf
 >rt 1.53401699248866
 
 >ms1
-974.1576 100
+
 
 >ms2
 974.1576 100
 
 >compound FTneg3021
 >ionization [M+?]-
->parentmass 978.800413039037
+>parentmass Inf
 >rt 1.55058368866036
 
 >ms1
-978.8004 100
+
 
 >ms2
 978.8004 100
 
 >compound FTneg3022
 >ionization [M+?]-
->parentmass 979.811426380907
+>parentmass Inf
 >rt 1.54301054445482
 
 >ms1
-979.8114 100
+
 
 >ms2
 979.8114 100
 
 >compound FTneg3023
 >ionization [M+?]-
->parentmass 997.82352359738
+>parentmass Inf
 >rt 1.53399237001492
 
 >ms1
-997.8235 100
+
 
 >ms2
 997.8235 100
 
 >compound FTneg3024
 >ionization [M+?]-
->parentmass 157.011795503353
+>parentmass Inf
 >rt 2.31813919901475
 
 >ms1
-157.0118 100
 
 >ms2
 53.0383 40
@@ -54698,22 +54007,21 @@
 
 >compound FTneg3025
 >ionization [M+?]-
->parentmass 188.948633829398
+>parentmass Inf
 >rt 2.31565119047621
 
 >ms1
-188.9486 100
+
 
 >ms2
 188.9486 100
 
 >compound FTneg3026
 >ionization [M+?]-
->parentmass 173.11820154373
+>parentmass Inf
 >rt 9.74649220261421
 
 >ms1
-173.1182 100
 
 >ms2
 52.9158 40
@@ -54900,11 +54208,10 @@
 
 >compound FTneg3027
 >ionization [M+?]-
->parentmass 157.049940023005
+>parentmass Inf
 >rt 9.74168835939856
 
 >ms1
-157.0499 100
 
 >ms2
 57.035 40
@@ -54957,77 +54264,76 @@
 
 >compound FTneg3028
 >ionization [M+?]-
->parentmass 187.097258698877
+>parentmass Inf
 >rt 9.70713909579897
 
 >ms1
-187.0973 100
+
 
 >ms2
 187.0973 100
 
 >compound FTneg3029
 >ionization [M+?]-
->parentmass 229.144265785047
+>parentmass Inf
 >rt 9.74313233597537
 
 >ms1
-229.1443 100
+
 
 >ms2
 229.1443 100
 
 >compound FTneg3030
 >ionization [M+?]-
->parentmass 294.065129938179
+>parentmass Inf
 >rt 9.73692516793614
 
 >ms1
-294.0651 100
+
 
 >ms2
 294.0651 100
 
 >compound FTneg3031
 >ionization [M+?]-
->parentmass 403.26940497526
+>parentmass Inf
 >rt 9.75304409536757
 
 >ms1
-403.2694 100
+
 
 >ms2
 403.2694 100
 
 >compound FTneg3032
 >ionization [M+?]-
->parentmass 433.186242251718
+>parentmass Inf
 >rt 9.73323420549838
 
 >ms1
-433.1862 100
+
 
 >ms2
 433.1862 100
 
 >compound FTneg3033
 >ionization [M+?]-
->parentmass 513.342492892289
+>parentmass Inf
 >rt 9.74150859437939
 
 >ms1
-513.3425 100
+
 
 >ms2
 513.3425 100
 
 >compound FTneg3034
 >ionization [M+?]-
->parentmass 521.311227942354
+>parentmass Inf
 >rt 9.78293749999994
 
 >ms1
-521.3112 100
 
 >ms2
 50.0149 40
@@ -55092,22 +54398,20 @@
 
 >compound FTneg3035
 >ionization [M+?]-
->parentmass 545.278717384916
+>parentmass Inf
 >rt 9.69170384615385
 
 >ms1
-545.2787 100
 
 >ms2
 80.9851 40
 
 >compound FTneg3036
 >ionization [M+?]-
->parentmass 449.108578753799
+>parentmass Inf
 >rt 8.88527126974756
 
 >ms1
-449.1086 100
 
 >ms2
 53.0384 40
@@ -55247,22 +54551,21 @@
 
 >compound FTneg3037
 >ionization [M+?]-
->parentmass 157.086810584457
+>parentmass Inf
 >rt 8.92748703899984
 
 >ms1
-157.0868 100
+
 
 >ms2
 157.0868 100
 
 >compound FTneg3038
 >ionization [M+?]-
->parentmass 335.1708579348
+>parentmass Inf
 >rt 8.92942333930685
 
 >ms1
-335.1709 100
 
 >ms2
 55.0548 4
@@ -55272,44 +54575,43 @@
 
 >compound FTneg3039
 >ionization [M+?]-
->parentmass 261.112666188977
+>parentmass Inf
 >rt 8.93821781665146
 
 >ms1
-261.1127 100
+
 
 >ms2
 261.1127 100
 
 >compound FTneg3040
 >ionization [M+?]-
->parentmass 341.033312251379
+>parentmass Inf
 >rt 8.92808323277268
 
 >ms1
-341.0333 100
+
 
 >ms2
 341.0333 100
 
 >compound FTneg3041
 >ionization [M+?]-
->parentmass 356.153329579957
+>parentmass Inf
 >rt 8.92008462806631
 
 >ms1
-356.1533 100
+
 
 >ms2
 356.1533 100
 
 >compound FTneg3042
 >ionization [M+?]-
->parentmass 584.259953617482
+>parentmass Inf
 >rt 9.01079857053064
 
 >ms1
-584.26 100
 
 >ms2
 59.0493 40
@@ -55318,22 +54620,21 @@
 
 >compound FTneg3043
 >ionization [M+?]-
->parentmass 157.086825649463
+>parentmass Inf
 >rt 0.944218517139742
 
 >ms1
-157.0868 100
+
 
 >ms2
 157.0868 100
 
 >compound FTneg3044
 >ionization [M+?]-
->parentmass 188.071580045858
+>parentmass Inf
 >rt 9.77303451015498
 
 >ms1
-188.0716 100
 
 >ms2
 54.0088 72
@@ -55341,11 +54642,10 @@
 
 >compound FTneg3045
 >ionization [M+?]-
->parentmass 215.12876409318
+>parentmass Inf
 >rt 9.78021379636333
 
 >ms1
-215.1288 100
 
 >ms2
 50.0148 4
@@ -55393,11 +54693,10 @@
 
 >compound FTneg3046
 >ionization [M+?]-
->parentmass 233.081790737699
+>parentmass Inf
 >rt 9.78559983993289
 
 >ms1
-233.0818 100
 
 >ms2
 51.7508 4
@@ -55429,22 +54728,20 @@
 
 >compound FTneg3047
 >ionization [M+?]-
->parentmass 256.058978630351
+>parentmass Inf
 >rt 9.77383596490384
 
 >ms1
-256.059 100
 
 >ms2
 54.0351 20
 
 >compound FTneg3048
 >ionization [M+?]-
->parentmass 271.118460285436
+>parentmass Inf
 >rt 9.75996620204411
 
 >ms1
-271.1185 100
 
 >ms2
 50.0026 4
@@ -55564,11 +54861,10 @@
 
 >compound FTneg3049
 >ionization [M+?]-
->parentmass 318.029481179411
+>parentmass Inf
 >rt 9.77426480176881
 
 >ms1
-318.0295 100
 
 >ms2
 65.9035 20
@@ -55581,11 +54877,10 @@
 
 >compound FTneg3050
 >ionization [M+?]-
->parentmass 334.002009618639
+>parentmass Inf
 >rt 9.77468331077309
 
 >ms1
-334.002 100
 
 >ms2
 50.0033 40
@@ -55708,11 +55003,10 @@
 
 >compound FTneg3051
 >ionization [M+?]-
->parentmass 399.132324645129
+>parentmass Inf
 >rt 9.7717778476768
 
 >ms1
-399.1323 100
 
 >ms2
 53.0354 13
@@ -55735,11 +55029,10 @@
 
 >compound FTneg3052
 >ionization [M+?]-
->parentmass 439.268125519706
+>parentmass Inf
 >rt 9.77244481885411
 
 >ms1
-439.2681 100
 
 >ms2
 57.021 43
@@ -55765,11 +55058,10 @@
 
 >compound FTneg3053
 >ionization [M+?]-
->parentmass 157.086933207367
+>parentmass Inf
 >rt 9.76364347163805
 
 >ms1
-157.0869 100
 
 >ms2
 69.0383 40
@@ -55790,77 +55082,76 @@
 
 >compound FTneg3054
 >ionization [M+?]-
->parentmass 185.118135791947
+>parentmass Inf
 >rt 9.83060792931863
 
 >ms1
-185.1181 100
+
 
 >ms2
 185.1181 100
 
 >compound FTneg3055
 >ionization [M+?]-
->parentmass 265.191936429434
+>parentmass Inf
 >rt 9.79143953511088
 
 >ms1
-265.1919 100
+
 
 >ms2
 265.1919 100
 
 >compound FTneg3056
 >ionization [M+?]-
->parentmass 271.097587608772
+>parentmass Inf
 >rt 9.75797645240329
 
 >ms1
-271.0976 100
+
 
 >ms2
 271.0976 100
 
 >compound FTneg3057
 >ionization [M+?]-
->parentmass 273.044438452802
+>parentmass Inf
 >rt 9.79052560635856
 
 >ms1
-273.0444 100
+
 
 >ms2
 273.0444 100
 
 >compound FTneg3058
 >ionization [M+?]-
->parentmass 277.107910953484
+>parentmass Inf
 >rt 9.79070468612757
 
 >ms1
-277.1079 100
+
 
 >ms2
 277.1079 100
 
 >compound FTneg3059
 >ionization [M+?]-
->parentmass 284.059383616115
+>parentmass Inf
 >rt 9.77256694573594
 
 >ms1
-284.0594 100
+
 
 >ms2
 284.0594 100
 
 >compound FTneg3060
 >ionization [M+?]-
->parentmass 331.248595583332
+>parentmass Inf
 >rt 9.81696684111373
 
 >ms1
-331.2486 100
 
 >ms2
 53.0391 4
@@ -55908,121 +55199,119 @@
 
 >compound FTneg3061
 >ionization [M+?]-
->parentmass 333.006487051624
+>parentmass Inf
 >rt 9.77346400239608
 
 >ms1
-333.0065 100
+
 
 >ms2
 333.0065 100
 
 >compound FTneg3062
 >ionization [M+?]-
->parentmass 334.114163179814
+>parentmass Inf
 >rt 9.7617368866756
 
 >ms1
-334.1142 100
+
 
 >ms2
 334.1142 100
 
 >compound FTneg3063
 >ionization [M+?]-
->parentmass 339.105855256212
+>parentmass Inf
 >rt 9.74458684279213
 
 >ms1
-339.1059 100
+
 
 >ms2
 339.1059 100
 
 >compound FTneg3064
 >ionization [M+?]-
->parentmass 348.913236494089
+>parentmass Inf
 >rt 9.77162133315547
 
 >ms1
-348.9132 100
 
 >ms2
 60.0442 280
 
 >compound FTneg3065
 >ionization [M+?]-
->parentmass 355.072174246566
+>parentmass Inf
 >rt 9.76313091315328
 
 >ms1
-355.0722 100
+
 
 >ms2
 355.0722 100
 
 >compound FTneg3066
 >ionization [M+?]-
->parentmass 356.09526637501
+>parentmass Inf
 >rt 9.83736378601367
 
 >ms1
-356.0953 100
+
 
 >ms2
 356.0953 100
 
 >compound FTneg3067
 >ionization [M+?]-
->parentmass 371.043599546615
+>parentmass Inf
 >rt 9.75997114601695
 
 >ms1
-371.0436 100
+
 
 >ms2
 371.0436 100
 
 >compound FTneg3068
 >ionization [M+?]-
->parentmass 375.133760729385
+>parentmass Inf
 >rt 9.80871160134822
 
 >ms1
-375.1338 100
+
 
 >ms2
 375.1338 100
 
 >compound FTneg3069
 >ionization [M+?]-
->parentmass 401.217670644511
+>parentmass Inf
 >rt 9.77141514152465
 
 >ms1
-401.2177 100
+
 
 >ms2
 401.2177 100
 
 >compound FTneg3070
 >ionization [M+?]-
->parentmass 401.989286208558
+>parentmass Inf
 >rt 9.76850662323432
 
 >ms1
-401.9893 100
+
 
 >ms2
 401.9893 100
 
 >compound FTneg3071
 >ionization [M+?]-
->parentmass 464.301549306173
+>parentmass Inf
 >rt 9.70888152951447
 
 >ms1
-464.3015 100
 
 >ms2
 55.054 20
@@ -56034,11 +55323,10 @@
 
 >compound FTneg3072
 >ionization [M+?]-
->parentmass 477.075665392593
+>parentmass Inf
 >rt 9.77203032040179
 
 >ms1
-477.0757 100
 
 >ms2
 58.0622 40
@@ -56052,99 +55340,98 @@
 
 >compound FTneg3073
 >ionization [M+?]-
->parentmass 479.075942546355
+>parentmass Inf
 >rt 9.7727199398667
 
 >ms1
-479.0759 100
+
 
 >ms2
 479.0759 100
 
 >compound FTneg3074
 >ionization [M+?]-
->parentmass 491.93128621975
+>parentmass Inf
 >rt 9.79456071436115
 
 >ms1
-491.9313 100
+
 
 >ms2
 491.9313 100
 
 >compound FTneg3075
 >ionization [M+?]-
->parentmass 493.927440700083
+>parentmass Inf
 >rt 9.77344698063478
 
 >ms1
-493.9274 100
+
 
 >ms2
 493.9274 100
 
 >compound FTneg3076
 >ionization [M+?]-
->parentmass 527.268214566834
+>parentmass Inf
 >rt 9.87306401341161
 
 >ms1
-527.2682 100
+
 
 >ms2
 527.2682 100
 
 >compound FTneg3077
 >ionization [M+?]-
->parentmass 599.342639722051
+>parentmass Inf
 >rt 9.82579944005572
 
 >ms1
-599.3426 100
+
 
 >ms2
 599.3426 100
 
 >compound FTneg3078
 >ionization [M+?]-
->parentmass 945.632888420633
+>parentmass Inf
 >rt 9.77722771073493
 
 >ms1
-945.6329 100
+
 
 >ms2
 945.6329 100
 
 >compound FTneg3079
 >ionization [M+?]-
->parentmass 946.636234634732
+>parentmass Inf
 >rt 9.77733917332422
 
 >ms1
-946.6362 100
+
 
 >ms2
 946.6362 100
 
 >compound FTneg3080
 >ionization [M+?]-
->parentmass 158.060913172715
+>parentmass Inf
 >rt 8.5833651726947
 
 >ms1
-158.0609 100
+
 
 >ms2
 158.0609 100
 
 >compound FTneg3081
 >ionization [M+?]-
->parentmass 158.082181358564
+>parentmass Inf
 >rt 7.05610097792224
 
 >ms1
-158.0822 100
 
 >ms2
 73.0241 20
@@ -56162,11 +55449,10 @@
 
 >compound FTneg3082
 >ionization [M+?]-
->parentmass 158.118620284274
+>parentmass Inf
 >rt 7.39687710113259
 
 >ms1
-158.1186 100
 
 >ms2
 71.07 40
@@ -56184,55 +55470,54 @@
 
 >compound FTneg3083
 >ionization [M+?]-
->parentmass 226.105701538678
+>parentmass Inf
 >rt 7.40024849592597
 
 >ms1
-226.1057 100
+
 
 >ms2
 226.1057 100
 
 >compound FTneg3084
 >ionization [M+?]-
->parentmass 279.000056790263
+>parentmass Inf
 >rt 7.38430090057984
 
 >ms1
-279.0001 100
+
 
 >ms2
 279.0001 100
 
 >compound FTneg3085
 >ionization [M+?]-
->parentmass 287.123894505394
+>parentmass Inf
 >rt 7.39331585820471
 
 >ms1
-287.1239 100
+
 
 >ms2
 287.1239 100
 
 >compound FTneg3086
 >ionization [M+?]-
->parentmass 304.048852436783
+>parentmass Inf
 >rt 7.397000908981
 
 >ms1
-304.0489 100
+
 
 >ms2
 304.0489 100
 
 >compound FTneg3087
 >ionization [M+?]-
->parentmass 486.159419505112
+>parentmass Inf
 >rt 7.39463038372295
 
 >ms1
-486.1594 100
 
 >ms2
 53.039 40
@@ -56285,11 +55570,10 @@
 
 >compound FTneg3088
 >ionization [M+?]-
->parentmass 514.283756603355
+>parentmass Inf
 >rt 9.0167598790265
 
 >ms1
-514.2838 100
 
 >ms2
 67.0542 80
@@ -56352,11 +55636,10 @@
 
 >compound FTneg3089
 >ionization [M+?]-
->parentmass 159.10270143222
+>parentmass Inf
 >rt 9.0186980515896
 
 >ms1
-159.1027 100
 
 >ms2
 115.5786 21
@@ -56369,11 +55652,10 @@
 
 >compound FTneg3090
 >ionization [M+?]-
->parentmass 514.253273643547
+>parentmass Inf
 >rt 9.00858712679697
 
 >ms1
-514.2533 100
 
 >ms2
 51.0251 40
@@ -56552,11 +55834,10 @@
 
 >compound FTneg3091
 >ionization [M+?]-
->parentmass 582.271741444884
+>parentmass Inf
 >rt 9.00462308185046
 
 >ms1
-582.2717 100
 
 >ms2
 55.054 80
@@ -56615,11 +55896,10 @@
 
 >compound FTneg3092
 >ionization [M+?]-
->parentmass 583.273999651078
+>parentmass Inf
 >rt 9.01164454237976
 
 >ms1
-583.274 100
 
 >ms2
 57.0688 40
@@ -56631,11 +55911,10 @@
 
 >compound FTneg3093
 >ionization [M+?]-
->parentmass 660.21433917234
+>parentmass Inf
 >rt 9.06148784504163
 
 >ms1
-660.2143 100
 
 >ms2
 55.0524 40
@@ -56657,77 +55936,76 @@
 
 >compound FTneg3094
 >ionization [M+?]-
->parentmass 159.878464016419
+>parentmass Inf
 >rt 9.67907182740365
 
 >ms1
-159.8785 100
+
 
 >ms2
 159.8785 100
 
 >compound FTneg3095
 >ionization [M+?]-
->parentmass 219.84547534382
+>parentmass Inf
 >rt 9.65694354667092
 
 >ms1
-219.8455 100
+
 
 >ms2
 219.8455 100
 
 >compound FTneg3096
 >ionization [M+?]-
->parentmass 506.909158518193
+>parentmass Inf
 >rt 9.65299436625871
 
 >ms1
-506.9092 100
+
 
 >ms2
 506.9092 100
 
 >compound FTneg3097
 >ionization [M+?]-
->parentmass 159.878698545378
+>parentmass Inf
 >rt 8.73957163057276
 
 >ms1
-159.8787 100
+
 
 >ms2
 159.8787 100
 
 >compound FTneg3098
 >ionization [M+?]-
->parentmass 160.039964645128
+>parentmass Inf
 >rt 7.38419424286943
 
 >ms1
-160.04 100
+
 
 >ms2
 160.04 100
 
 >compound FTneg3099
 >ionization [M+?]-
->parentmass 162.056095252037
+>parentmass Inf
 >rt 7.38565785738476
 
 >ms1
-162.0561 100
+
 
 >ms2
 162.0561 100
 
 >compound FTneg3100
 >ionization [M+?]-
->parentmass 160.040287056225
+>parentmass Inf
 >rt 8.82635874448588
 
 >ms1
-160.0403 100
 
 >ms2
 73.0661 40
@@ -56737,11 +56015,10 @@
 
 >compound FTneg3101
 >ionization [M+?]-
->parentmass 160.076499747615
+>parentmass Inf
 >rt 8.7898726477226
 
 >ms1
-160.0765 100
 
 >ms2
 57.0711 80
@@ -56765,11 +56042,10 @@
 
 >compound FTneg3102
 >ionization [M+?]-
->parentmass 205.069835531634
+>parentmass Inf
 >rt 8.78506553678296
 
 >ms1
-205.0698 100
 
 >ms2
 51.0223 4
@@ -56802,55 +56078,54 @@
 
 >compound FTneg3103
 >ionization [M+?]-
->parentmass 295.130526943524
+>parentmass Inf
 >rt 8.78435768087968
 
 >ms1
-295.1305 100
+
 
 >ms2
 295.1305 100
 
 >compound FTneg3104
 >ionization [M+?]-
->parentmass 300.008205744951
+>parentmass Inf
 >rt 8.80751036765157
 
 >ms1
-300.0082 100
+
 
 >ms2
 300.0082 100
 
 >compound FTneg3105
 >ionization [M+?]-
->parentmass 379.086572478546
+>parentmass Inf
 >rt 8.81205307623679
 
 >ms1
-379.0866 100
+
 
 >ms2
 379.0866 100
 
 >compound FTneg3106
 >ionization [M+?]-
->parentmass 513.939679449017
+>parentmass Inf
 >rt 8.88718660945432
 
 >ms1
-513.9397 100
+
 
 >ms2
 513.9397 100
 
 >compound FTneg3107
 >ionization [M+?]-
->parentmass 160.105945847613
+>parentmass Inf
 >rt 9.01353303595643
 
 >ms1
-160.1059 100
 
 >ms2
 53.0346 40
@@ -56872,11 +56147,10 @@
 
 >compound FTneg3108
 >ionization [M+?]-
->parentmass 160.842111740121
+>parentmass Inf
 >rt 1.78259603115844
 
 >ms1
-160.8421 100
 
 >ms2
 56.0497 40
@@ -56925,11 +56199,10 @@
 
 >compound FTneg3109
 >ionization [M+?]-
->parentmass 164.836265544524
+>parentmass Inf
 >rt 1.79958429983601
 
 >ms1
-164.8363 100
 
 >ms2
 58.0653 40
@@ -56960,22 +56233,21 @@
 
 >compound FTneg3110
 >ionization [M+?]-
->parentmass 345.062656434473
+>parentmass Inf
 >rt 9.78602361111125
 
 >ms1
-345.0627 100
+
 
 >ms2
 345.0627 100
 
 >compound FTneg3111
 >ionization [M+?]-
->parentmass 160.842177504855
+>parentmass Inf
 >rt 9.68641156252303
 
 >ms1
-160.8422 100
 
 >ms2
 80.9478 325
@@ -57008,143 +56280,142 @@
 
 >compound FTneg3112
 >ionization [M+?]-
->parentmass 377.094781697016
+>parentmass Inf
 >rt 9.71374730513798
 
 >ms1
-377.0948 100
+
 
 >ms2
 377.0948 100
 
 >compound FTneg3113
 >ionization [M+?]-
->parentmass 255.159465797836
+>parentmass Inf
 >rt 9.77304064165387
 
 >ms1
-255.1595 100
+
 
 >ms2
 255.1595 100
 
 >compound FTneg3114
 >ionization [M+?]-
->parentmass 307.138511344548
+>parentmass Inf
 >rt 9.8440701474452
 
 >ms1
-307.1385 100
+
 
 >ms2
 307.1385 100
 
 >compound FTneg3115
 >ionization [M+?]-
->parentmass 332.045477720604
+>parentmass Inf
 >rt 9.50168758837083
 
 >ms1
-332.0455 100
+
 
 >ms2
 332.0455 100
 
 >compound FTneg3116
 >ionization [M+?]-
->parentmass 335.02889736657
+>parentmass Inf
 >rt 9.75200608077074
 
 >ms1
-335.0289 100
+
 
 >ms2
 335.0289 100
 
 >compound FTneg3117
 >ionization [M+?]-
->parentmass 369.228268177679
+>parentmass Inf
 >rt 9.79983889250241
 
 >ms1
-369.2283 100
+
 
 >ms2
 369.2283 100
 
 >compound FTneg3118
 >ionization [M+?]-
->parentmass 408.06351193152
+>parentmass Inf
 >rt 9.91189172217761
 
 >ms1
-408.0635 100
+
 
 >ms2
 408.0635 100
 
 >compound FTneg3119
 >ionization [M+?]-
->parentmass 408.063804062391
+>parentmass Inf
 >rt 9.72419511798461
 
 >ms1
-408.0638 100
+
 
 >ms2
 408.0638 100
 
 >compound FTneg3120
 >ionization [M+?]-
->parentmass 161.044596062925
+>parentmass Inf
 >rt 1.93059404761914
 
 >ms1
-161.0446 100
+
 
 >ms2
 161.0446 100
 
 >compound FTneg3121
 >ionization [M+?]-
->parentmass 418.064217292303
+>parentmass Inf
 >rt 1.91795286301535
 
 >ms1
-418.0642 100
+
 
 >ms2
 418.0642 100
 
 >compound FTneg3122
 >ionization [M+?]-
->parentmass 179.054808092253
+>parentmass Inf
 >rt 3.51913947368426
 
 >ms1
-179.0548 100
+
 
 >ms2
 179.0548 100
 
 >compound FTneg3123
 >ionization [M+?]-
->parentmass 161.078107622103
+>parentmass Inf
 >rt 6.10373958333338
 
 >ms1
-161.0781 100
+
 
 >ms2
 161.0781 100
 
 >compound FTneg3124
 >ionization [M+?]-
->parentmass 206.082251213745
+>parentmass Inf
 >rt 8.46609462709861
 
 >ms1
-206.0823 100
 
 >ms2
 53.0391 40
@@ -57158,11 +56429,10 @@
 
 >compound FTneg3125
 >ionization [M+?]-
->parentmass 274.069527623793
+>parentmass Inf
 >rt 8.46538597307083
 
 >ms1
-274.0695 100
 
 >ms2
 55.0532 159
@@ -57171,22 +56441,21 @@
 
 >compound FTneg3126
 >ionization [M+?]-
->parentmass 162.091875830045
+>parentmass Inf
 >rt 8.4692176432964
 
 >ms1
-162.0919 100
+
 
 >ms2
 162.0919 100
 
 >compound FTneg3127
 >ionization [M+?]-
->parentmass 179.034928089281
+>parentmass Inf
 >rt 8.4538401490076
 
 >ms1
-179.0349 100
 
 >ms2
 55.0185 4
@@ -57221,11 +56490,10 @@
 
 >compound FTneg3128
 >ionization [M+?]-
->parentmass 200.129082265437
+>parentmass Inf
 >rt 8.46864491493214
 
 >ms1
-200.1291 100
 
 >ms2
 51.0194 16
@@ -57272,11 +56540,10 @@
 
 >compound FTneg3129
 >ionization [M+?]-
->parentmass 206.064445016524
+>parentmass Inf
 >rt 8.43293170627691
 
 >ms1
-206.0644 100
 
 >ms2
 51.9398 80
@@ -57306,11 +56573,10 @@
 
 >compound FTneg3130
 >ionization [M+?]-
->parentmass 215.001967683314
+>parentmass Inf
 >rt 8.45876344506291
 
 >ms1
-215.002 100
 
 >ms2
 62.9339 40
@@ -57319,11 +56585,10 @@
 
 >compound FTneg3131
 >ionization [M+?]-
->parentmass 240.033504982591
+>parentmass Inf
 >rt 8.45898702819713
 
 >ms1
-240.0335 100
 
 >ms2
 50.0149 144
@@ -57396,143 +56661,142 @@
 
 >compound FTneg3132
 >ionization [M+?]-
->parentmass 269.077643929956
+>parentmass Inf
 >rt 8.42001793848943
 
 >ms1
-269.0776 100
+
 
 >ms2
 269.0776 100
 
 >compound FTneg3133
 >ionization [M+?]-
->parentmass 275.113265005534
+>parentmass Inf
 >rt 8.46698893265892
 
 >ms1
-275.1133 100
+
 
 >ms2
 275.1133 100
 
 >compound FTneg3134
 >ionization [M+?]-
->parentmass 291.058986304836
+>parentmass Inf
 >rt 8.45272237301369
 
 >ms1
-291.059 100
+
 
 >ms2
 291.059 100
 
 >compound FTneg3135
 >ionization [M+?]-
->parentmass 302.069839566714
+>parentmass Inf
 >rt 8.428407134823
 
 >ms1
-302.0698 100
+
 
 >ms2
 302.0698 100
 
 >compound FTneg3136
 >ionization [M+?]-
->parentmass 306.00645477759
+>parentmass Inf
 >rt 8.39213580948496
 
 >ms1
-306.0065 100
+
 
 >ms2
 306.0065 100
 
 >compound FTneg3137
 >ionization [M+?]-
->parentmass 338.160390718054
+>parentmass Inf
 >rt 8.48273054546022
 
 >ms1
-338.1604 100
+
 
 >ms2
 338.1604 100
 
 >compound FTneg3138
 >ionization [M+?]-
->parentmass 351.01230596619
+>parentmass Inf
 >rt 8.4656970565081
 
 >ms1
-351.0123 100
+
 
 >ms2
 351.0123 100
 
 >compound FTneg3139
 >ionization [M+?]-
->parentmass 352.012440354567
+>parentmass Inf
 >rt 8.46666373088424
 
 >ms1
-352.0124 100
+
 
 >ms2
 352.0124 100
 
 >compound FTneg3140
 >ionization [M+?]-
->parentmass 373.186282503252
+>parentmass Inf
 >rt 8.48255714285707
 
 >ms1
-373.1863 100
+
 
 >ms2
 373.1863 100
 
 >compound FTneg3141
 >ionization [M+?]-
->parentmass 414.174495157481
+>parentmass Inf
 >rt 8.43736832898265
 
 >ms1
-414.1745 100
+
 
 >ms2
 414.1745 100
 
 >compound FTneg3142
 >ionization [M+?]-
->parentmass 983.527351426338
+>parentmass Inf
 >rt 8.45733623678195
 
 >ms1
-983.5274 100
+
 
 >ms2
 983.5274 100
 
 >compound FTneg3143
 >ionization [M+?]-
->parentmass 163.039659774135
+>parentmass Inf
 >rt 3.38802137374668
 
 >ms1
-163.0397 100
+
 
 >ms2
 163.0397 100
 
 >compound FTneg3144
 >ionization [M+?]-
->parentmass 257.175613239836
+>parentmass Inf
 >rt 10.1809633089045
 
 >ms1
-257.1756 100
 
 >ms2
 51.0223 4
@@ -57568,11 +56832,10 @@
 
 >compound FTneg3145
 >ionization [M+?]-
->parentmass 272.168759679959
+>parentmass Inf
 >rt 10.1832191947713
 
 >ms1
-272.1688 100
 
 >ms2
 51.1712 40
@@ -57610,11 +56873,10 @@
 
 >compound FTneg3146
 >ionization [M+?]-
->parentmass 163.07630061084
+>parentmass Inf
 >rt 10.1733456746302
 
 >ms1
-163.0763 100
 
 >ms2
 73.0443 40
@@ -57646,22 +56908,21 @@
 
 >compound FTneg3147
 >ionization [M+?]-
->parentmass 319.211471254852
+>parentmass Inf
 >rt 10.1740810396236
 
 >ms1
-319.2115 100
+
 
 >ms2
 319.2115 100
 
 >compound FTneg3148
 >ionization [M+?]-
->parentmass 372.18494961386
+>parentmass Inf
 >rt 10.0948316943142
 
 >ms1
-372.1849 100
 
 >ms2
 54.9443 8
@@ -57678,11 +56939,10 @@
 
 >compound FTneg3149
 >ionization [M+?]-
->parentmass 623.343261951248
+>parentmass Inf
 >rt 10.1360670181835
 
 >ms1
-623.3433 100
 
 >ms2
 51.0208 40
@@ -57697,11 +56957,10 @@
 
 >compound FTneg3150
 >ionization [M+?]-
->parentmass 173.118165553881
+>parentmass Inf
 >rt 10.1599161745011
 
 >ms1
-173.1182 100
 
 >ms2
 56.0543 40
@@ -57732,110 +56991,109 @@
 
 >compound FTneg3151
 >ionization [M+?]-
->parentmass 183.004265152842
+>parentmass Inf
 >rt 10.1597690815074
 
 >ms1
-183.0043 100
+
 
 >ms2
 183.0043 100
 
 >compound FTneg3152
 >ionization [M+?]-
->parentmass 217.042278911759
+>parentmass Inf
 >rt 10.2081893165719
 
 >ms1
-217.0423 100
+
 
 >ms2
 217.0423 100
 
 >compound FTneg3153
 >ionization [M+?]-
->parentmass 231.063228069101
+>parentmass Inf
 >rt 10.171663427721
 
 >ms1
-231.0632 100
+
 
 >ms2
 231.0632 100
 
 >compound FTneg3154
 >ionization [M+?]-
->parentmass 233.120974840263
+>parentmass Inf
 >rt 10.1952697208763
 
 >ms1
-233.121 100
+
 
 >ms2
 233.121 100
 
 >compound FTneg3155
 >ionization [M+?]-
->parentmass 239.128132854076
+>parentmass Inf
 >rt 10.1011862148973
 
 >ms1
-239.1281 100
+
 
 >ms2
 239.1281 100
 
 >compound FTneg3156
 >ionization [M+?]-
->parentmass 257.139011666128
+>parentmass Inf
 >rt 10.1778940561368
 
 >ms1
-257.139 100
+
 
 >ms2
 257.139 100
 
 >compound FTneg3157
 >ionization [M+?]-
->parentmass 283.190980098738
+>parentmass Inf
 >rt 10.1297883435404
 
 >ms1
-283.191 100
+
 
 >ms2
 283.191 100
 
 >compound FTneg3158
 >ionization [M+?]-
->parentmass 291.184349645681
+>parentmass Inf
 >rt 10.1713572303581
 
 >ms1
-291.1843 100
+
 
 >ms2
 291.1843 100
 
 >compound FTneg3159
 >ionization [M+?]-
->parentmass 299.185911297243
+>parentmass Inf
 >rt 10.190499127208
 
 >ms1
-299.1859 100
+
 
 >ms2
 299.1859 100
 
 >compound FTneg3160
 >ionization [M+?]-
->parentmass 301.121056477391
+>parentmass Inf
 >rt 10.1747591261355
 
 >ms1
-301.1211 100
 
 >ms2
 55.0534 20
@@ -57866,11 +57124,10 @@
 
 >compound FTneg3161
 >ionization [M+?]-
->parentmass 301.213031442485
+>parentmass Inf
 >rt 10.1743971104357
 
 >ms1
-301.213 100
 
 >ms2
 53.0302 4
@@ -57890,176 +57147,175 @@
 
 >compound FTneg3162
 >ionization [M+?]-
->parentmass 309.006589643761
+>parentmass Inf
 >rt 10.1704683319449
 
 >ms1
-309.0066 100
+
 
 >ms2
 309.0066 100
 
 >compound FTneg3163
 >ionization [M+?]-
->parentmass 311.007008056281
+>parentmass Inf
 >rt 10.1713645294796
 
 >ms1
-311.007 100
+
 
 >ms2
 311.007 100
 
 >compound FTneg3164
 >ionization [M+?]-
->parentmass 318.174077244315
+>parentmass Inf
 >rt 10.1850387806886
 
 >ms1
-318.1741 100
+
 
 >ms2
 318.1741 100
 
 >compound FTneg3165
 >ionization [M+?]-
->parentmass 318.202602854793
+>parentmass Inf
 >rt 10.1779837820741
 
 >ms1
-318.2026 100
+
 
 >ms2
 318.2026 100
 
 >compound FTneg3166
 >ionization [M+?]-
->parentmass 332.243948121684
+>parentmass Inf
 >rt 10.1883661892549
 
 >ms1
-332.2439 100
+
 
 >ms2
 332.2439 100
 
 >compound FTneg3167
 >ionization [M+?]-
->parentmass 340.156098248899
+>parentmass Inf
 >rt 10.1802929677653
 
 >ms1
-340.1561 100
+
 
 >ms2
 340.1561 100
 
 >compound FTneg3168
 >ionization [M+?]-
->parentmass 351.054079760819
+>parentmass Inf
 >rt 10.1830825383571
 
 >ms1
-351.0541 100
+
 
 >ms2
 351.0541 100
 
 >compound FTneg3169
 >ionization [M+?]-
->parentmass 369.086889148134
+>parentmass Inf
 >rt 10.1767307934927
 
 >ms1
-369.0869 100
+
 
 >ms2
 369.0869 100
 
 >compound FTneg3170
 >ionization [M+?]-
->parentmass 371.084728953974
+>parentmass Inf
 >rt 10.177759935836
 
 >ms1
-371.0847 100
+
 
 >ms2
 371.0847 100
 
 >compound FTneg3171
 >ionization [M+?]-
->parentmass 379.212092079516
+>parentmass Inf
 >rt 10.1896180901014
 
 >ms1
-379.2121 100
+
 
 >ms2
 379.2121 100
 
 >compound FTneg3172
 >ionization [M+?]-
->parentmass 431.227918445696
+>parentmass Inf
 >rt 10.2539842092829
 
 >ms1
-431.2279 100
+
 
 >ms2
 431.2279 100
 
 >compound FTneg3173
 >ionization [M+?]-
->parentmass 447.141155852878
+>parentmass Inf
 >rt 10.1715637723174
 
 >ms1
-447.1412 100
+
 
 >ms2
 447.1412 100
 
 >compound FTneg3174
 >ionization [M+?]-
->parentmass 449.121128916911
+>parentmass Inf
 >rt 10.1519442267453
 
 >ms1
-449.1211 100
+
 
 >ms2
 449.1211 100
 
 >compound FTneg3175
 >ionization [M+?]-
->parentmass 467.249206750842
+>parentmass Inf
 >rt 10.1084498077983
 
 >ms1
-467.2492 100
+
 
 >ms2
 467.2492 100
 
 >compound FTneg3176
 >ionization [M+?]-
->parentmass 538.317110148674
+>parentmass Inf
 >rt 10.1451295624861
 
 >ms1
-538.3171 100
+
 
 >ms2
 538.3171 100
 
 >compound FTneg3177
 >ionization [M+?]-
->parentmass 163.112541126764
+>parentmass Inf
 >rt 11.6709222805252
 
 >ms1
-163.1125 100
 
 >ms2
 60.0794 40
@@ -58101,11 +57357,10 @@
 
 >compound FTneg3178
 >ionization [M+?]-
->parentmass 269.211651133338
+>parentmass Inf
 >rt 11.6469667913883
 
 >ms1
-269.2117 100
 
 >ms2
 51.0223 20
@@ -58152,22 +57407,21 @@
 
 >compound FTneg3179
 >ionization [M+?]-
->parentmass 824.544498176133
+>parentmass Inf
 >rt 11.5039491760233
 
 >ms1
-824.5445 100
+
 
 >ms2
 824.5445 100
 
 >compound FTneg3180
 >ionization [M+?]-
->parentmass 870.547563115189
+>parentmass Inf
 >rt 11.5326859950729
 
 >ms1
-870.5476 100
 
 >ms2
 55.0525 40
@@ -58211,132 +57465,131 @@
 
 >compound FTneg3181
 >ionization [M+?]-
->parentmass 164.071473838443
+>parentmass Inf
 >rt 8.26587918008681
 
 >ms1
-164.0715 100
+
 
 >ms2
 164.0715 100
 
 >compound FTneg3182
 >ionization [M+?]-
->parentmass 164.079520399948
+>parentmass Inf
 >rt 10.1735372894748
 
 >ms1
-164.0795 100
+
 
 >ms2
 164.0795 100
 
 >compound FTneg3183
 >ionization [M+?]-
->parentmass 293.034309179285
+>parentmass Inf
 >rt 10.1834606796531
 
 >ms1
-293.0343 100
+
 
 >ms2
 293.0343 100
 
 >compound FTneg3184
 >ionization [M+?]-
->parentmass 302.216042040388
+>parentmass Inf
 >rt 10.1716688097891
 
 >ms1
-302.216 100
+
 
 >ms2
 302.216 100
 
 >compound FTneg3185
 >ionization [M+?]-
->parentmass 164.83623587178
+>parentmass Inf
 >rt 8.01119583333329
 
 >ms1
-164.8362 100
+
 
 >ms2
 164.8362 100
 
 >compound FTneg3186
 >ionization [M+?]-
->parentmass 307.081954903911
+>parentmass Inf
 >rt 8.02266217560464
 
 >ms1
-307.082 100
+
 
 >ms2
 307.082 100
 
 >compound FTneg3187
 >ionization [M+?]-
->parentmass 379.105255281351
+>parentmass Inf
 >rt 7.98977708333338
 
 >ms1
-379.1053 100
+
 
 >ms2
 379.1053 100
 
 >compound FTneg3188
 >ionization [M+?]-
->parentmass 402.231202414805
+>parentmass Inf
 >rt 9.72183469587514
 
 >ms1
-402.2312 100
+
 
 >ms2
 402.2312 100
 
 >compound FTneg3189
 >ionization [M+?]-
->parentmass 164.836244405583
+>parentmass Inf
 >rt 9.77999619894897
 
 >ms1
-164.8362 100
+
 
 >ms2
 164.8362 100
 
 >compound FTneg3190
 >ionization [M+?]-
->parentmass 299.18574003645
+>parentmass Inf
 >rt 9.81377166625965
 
 >ms1
-299.1857 100
+
 
 >ms2
 299.1857 100
 
 >compound FTneg3191
 >ionization [M+?]-
->parentmass 495.331619001702
+>parentmass Inf
 >rt 9.78194871657985
 
 >ms1
-495.3316 100
+
 
 >ms2
 495.3316 100
 
 >compound FTneg3192
 >ionization [M+?]-
->parentmass 165.041269671532
+>parentmass Inf
 >rt 7.86195238095243
 
 >ms1
-165.0413 100
 
 >ms2
 55.0177 41
@@ -58373,11 +57626,10 @@
 
 >compound FTneg3193
 >ionization [M+?]-
->parentmass 173.117672355365
+>parentmass Inf
 >rt 7.87739203604486
 
 >ms1
-173.1177 100
 
 >ms2
 55.0624 40
@@ -58437,66 +57689,65 @@
 
 >compound FTneg3194
 >ionization [M+?]-
->parentmass 185.081746060703
+>parentmass Inf
 >rt 7.83005941155861
 
 >ms1
-185.0817 100
+
 
 >ms2
 185.0817 100
 
 >compound FTneg3195
 >ionization [M+?]-
->parentmass 205.839846907459
+>parentmass Inf
 >rt 7.86371111111111
 
 >ms1
-205.8398 100
+
 
 >ms2
 205.8398 100
 
 >compound FTneg3196
 >ionization [M+?]-
->parentmass 240.910238627709
+>parentmass Inf
 >rt 7.83460950279579
 
 >ms1
-240.9102 100
+
 
 >ms2
 240.9102 100
 
 >compound FTneg3197
 >ionization [M+?]-
->parentmass 257.819264957376
+>parentmass Inf
 >rt 7.88365214115934
 
 >ms1
-257.8193 100
+
 
 >ms2
 257.8193 100
 
 >compound FTneg3198
 >ionization [M+?]-
->parentmass 265.850906910357
+>parentmass Inf
 >rt 7.88130066666672
 
 >ms1
-265.8509 100
+
 
 >ms2
 265.8509 100
 
 >compound FTneg3199
 >ionization [M+?]-
->parentmass 187.006991345431
+>parentmass Inf
 >rt 7.92977945674102
 
 >ms1
-187.007 100
 
 >ms2
 50.0134 4
@@ -58524,22 +57775,21 @@
 
 >compound FTneg3200
 >ionization [M+?]-
->parentmass 165.806485760641
+>parentmass Inf
 >rt 7.99130350877179
 
 >ms1
-165.8065 100
+
 
 >ms2
 165.8065 100
 
 >compound FTneg3201
 >ionization [M+?]-
->parentmass 186.990166552099
+>parentmass Inf
 >rt 7.93499536305044
 
 >ms1
-186.9902 100
 
 >ms2
 50.0184 4
@@ -58565,11 +57815,10 @@
 
 >compound FTneg3202
 >ionization [M+?]-
->parentmass 190.050751822143
+>parentmass Inf
 >rt 7.91911173050807
 
 >ms1
-190.0508 100
 
 >ms2
 50.0113 40
@@ -58593,11 +57842,10 @@
 
 >compound FTneg3203
 >ionization [M+?]-
->parentmass 332.938483458347
+>parentmass Inf
 >rt 7.91082192982458
 
 >ms1
-332.9385 100
 
 >ms2
 55.0291 16
@@ -58619,11 +57867,10 @@
 
 >compound FTneg3204
 >ionization [M+?]-
->parentmass 336.07244172459
+>parentmass Inf
 >rt 7.949608974359
 
 >ms1
-336.0724 100
 
 >ms2
 55.9344 40
@@ -58632,33 +57879,31 @@
 
 >compound FTneg3205
 >ionization [M+?]-
->parentmass 420.078871088961
+>parentmass Inf
 >rt 7.92844090563761
 
 >ms1
-420.0789 100
 
 >ms2
 56.9649 40
 
 >compound FTneg3206
 >ionization [M+?]-
->parentmass 287.14971602573
+>parentmass Inf
 >rt 9.85513118479094
 
 >ms1
-287.1497 100
+
 
 >ms2
 287.1497 100
 
 >compound FTneg3207
 >ionization [M+?]-
->parentmass 165.978973242314
+>parentmass Inf
 >rt 9.9400853594052
 
 >ms1
-165.979 100
 
 >ms2
 57.0704 13
@@ -58697,88 +57942,87 @@
 
 >compound FTneg3208
 >ionization [M+?]-
->parentmass 193.025556612054
+>parentmass Inf
 >rt 9.94746785005611
 
 >ms1
-193.0256 100
+
 
 >ms2
 193.0256 100
 
 >compound FTneg3209
 >ionization [M+?]-
->parentmass 246.116796786908
+>parentmass Inf
 >rt 9.94000941539404
 
 >ms1
-246.1168 100
+
 
 >ms2
 246.1168 100
 
 >compound FTneg3210
 >ionization [M+?]-
->parentmass 265.874640720033
+>parentmass Inf
 >rt 9.93943359847819
 
 >ms1
-265.8746 100
+
 
 >ms2
 265.8746 100
 
 >compound FTneg3211
 >ionization [M+?]-
->parentmass 283.117131449148
+>parentmass Inf
 >rt 9.91803732007713
 
 >ms1
-283.1171 100
+
 
 >ms2
 283.1171 100
 
 >compound FTneg3212
 >ionization [M+?]-
->parentmass 291.1265305841
+>parentmass Inf
 >rt 9.94202406679117
 
 >ms1
-291.1265 100
+
 
 >ms2
 291.1265 100
 
 >compound FTneg3213
 >ionization [M+?]-
->parentmass 309.079890736353
+>parentmass Inf
 >rt 9.9517863586742
 
 >ms1
-309.0799 100
+
 
 >ms2
 309.0799 100
 
 >compound FTneg3214
 >ionization [M+?]-
->parentmass 353.033430158464
+>parentmass Inf
 >rt 9.92517047032085
 
 >ms1
-353.0334 100
+
 
 >ms2
 353.0334 100
 
 >compound FTneg3215
 >ionization [M+?]-
->parentmass 413.20008988526
+>parentmass Inf
 >rt 9.94352349780761
 
 >ms1
-413.2001 100
 
 >ms2
 69.0693 120
@@ -58786,11 +58030,10 @@
 
 >compound FTneg3216
 >ionization [M+?]-
->parentmass 512.269536943599
+>parentmass Inf
 >rt 9.93997314814811
 
 >ms1
-512.2695 100
 
 >ms2
 59.0304 20
@@ -58802,11 +58045,10 @@
 
 >compound FTneg3217
 >ionization [M+?]-
->parentmass 167.021220888991
+>parentmass Inf
 >rt 2.85204121133328
 
 >ms1
-167.0212 100
 
 >ms2
 73.0477 40
@@ -58825,11 +58067,10 @@
 
 >compound FTneg3218
 >ionization [M+?]-
->parentmass 166.013138878906
+>parentmass Inf
 >rt 2.85183122996736
 
 >ms1
-166.0131 100
 
 >ms2
 73.046 40
@@ -58851,11 +58092,10 @@
 
 >compound FTneg3219
 >ionization [M+?]-
->parentmass 167.005280366262
+>parentmass Inf
 >rt 2.86101249699697
 
 >ms1
-167.0053 100
 
 >ms2
 55.0546 159
@@ -58923,11 +58163,10 @@
 
 >compound FTneg3220
 >ionization [M+?]-
->parentmass 183.015875840097
+>parentmass Inf
 >rt 2.87117911083693
 
 >ms1
-183.0159 100
 
 >ms2
 55.0533 120
@@ -58938,11 +58177,10 @@
 
 >compound FTneg3221
 >ionization [M+?]-
->parentmass 257.016411658477
+>parentmass Inf
 >rt 2.8543803481255
 
 >ms1
-257.0164 100
 
 >ms2
 51.9434 40
@@ -58952,11 +58190,10 @@
 
 >compound FTneg3222
 >ionization [M+?]-
->parentmass 264.988591344959
+>parentmass Inf
 >rt 2.84798290087657
 
 >ms1
-264.9886 100
 
 >ms2
 53.9391 8
@@ -58974,11 +58211,10 @@
 
 >compound FTneg3223
 >ionization [M+?]-
->parentmass 266.94623691472
+>parentmass Inf
 >rt 2.85120520662438
 
 >ms1
-266.9462 100
 
 >ms2
 51.023 40
@@ -59011,11 +58247,10 @@
 
 >compound FTneg3224
 >ionization [M+?]-
->parentmass 308.038231990119
+>parentmass Inf
 >rt 2.86178656318427
 
 >ms1
-308.0382 100
 
 >ms2
 50.0178 40
@@ -59084,22 +58319,20 @@
 
 >compound FTneg3225
 >ionization [M+?]-
->parentmass 311.946930384556
+>parentmass Inf
 >rt 2.85846450622507
 
 >ms1
-311.9469 100
 
 >ms2
 57.055 40
 
 >compound FTneg3226
 >ionization [M+?]-
->parentmass 312.95118785876
+>parentmass Inf
 >rt 2.85761272613396
 
 >ms1
-312.9512 100
 
 >ms2
 55.0547 4
@@ -59113,22 +58346,21 @@
 
 >compound FTneg3227
 >ionization [M+?]-
->parentmass 335.025994796419
+>parentmass Inf
 >rt 2.85297229648274
 
 >ms1
-335.026 100
+
 
 >ms2
 335.026 100
 
 >compound FTneg3228
 >ionization [M+?]-
->parentmass 351.044203585671
+>parentmass Inf
 >rt 2.86163931149712
 
 >ms1
-351.0442 100
 
 >ms2
 58.073 40
@@ -59152,44 +58384,43 @@
 
 >compound FTneg3229
 >ionization [M+?]-
->parentmass 383.957689793909
+>parentmass Inf
 >rt 2.86732196969686
 
 >ms1
-383.9577 100
+
 
 >ms2
 383.9577 100
 
 >compound FTneg3230
 >ionization [M+?]-
->parentmass 433.016828195721
+>parentmass Inf
 >rt 2.85541432512362
 
 >ms1
-433.0168 100
+
 
 >ms2
 433.0168 100
 
 >compound FTneg3231
 >ionization [M+?]-
->parentmass 433.971035135191
+>parentmass Inf
 >rt 2.85965570743844
 
 >ms1
-433.971 100
+
 
 >ms2
 433.971 100
 
 >compound FTneg3232
 >ionization [M+?]-
->parentmass 434.974051245981
+>parentmass Inf
 >rt 2.85829188849063
 
 >ms1
-434.9741 100
 
 >ms2
 52.0059 40
@@ -59223,11 +58454,10 @@
 
 >compound FTneg3233
 >ionization [M+?]-
->parentmass 503.077725061333
+>parentmass Inf
 >rt 2.85320317916246
 
 >ms1
-503.0777 100
 
 >ms2
 53.0346 40
@@ -59302,11 +58532,10 @@
 
 >compound FTneg3234
 >ionization [M+?]-
->parentmass 504.081141343376
+>parentmass Inf
 >rt 2.84742743696014
 
 >ms1
-504.0811 100
 
 >ms2
 51.0237 8
@@ -59364,11 +58593,10 @@
 
 >compound FTneg3235
 >ionization [M+?]-
->parentmass 525.059827246083
+>parentmass Inf
 >rt 2.88052097231339
 
 >ms1
-525.0598 100
 
 >ms2
 62.98 40
@@ -59402,33 +58630,31 @@
 
 >compound FTneg3236
 >ionization [M+?]-
->parentmass 541.027030916014
+>parentmass Inf
 >rt 2.85409640816929
 
 >ms1
-541.027 100
+
 
 >ms2
 541.027 100
 
 >compound FTneg3237
 >ionization [M+?]-
->parentmass 556.997860320641
+>parentmass Inf
 >rt 2.85705874654726
 
 >ms1
-556.9979 100
 
 >ms2
 54.9353 40
 
 >compound FTneg3238
 >ionization [M+?]-
->parentmass 166.017928962311
+>parentmass Inf
 >rt 2.04297584498135
 
 >ms1
-166.0179 100
 
 >ms2
 86.0957 40
@@ -59446,11 +58672,10 @@
 
 >compound FTneg3239
 >ionization [M+?]-
->parentmass 201.00138876923
+>parentmass Inf
 >rt 1.97026242233057
 
 >ms1
-201.0014 100
 
 >ms2
 50.0091 8
@@ -59525,22 +58750,21 @@
 
 >compound FTneg3240
 >ionization [M+?]-
->parentmass 312.942574920497
+>parentmass Inf
 >rt 2.02540025331482
 
 >ms1
-312.9426 100
+
 
 >ms2
 312.9426 100
 
 >compound FTneg3241
 >ionization [M+?]-
->parentmass 166.017983759528
+>parentmass Inf
 >rt 1.84357303701407
 
 >ms1
-166.018 100
 
 >ms2
 57.0734 40
@@ -59560,33 +58784,32 @@
 
 >compound FTneg3242
 >ionization [M+?]-
->parentmass 420.015929886077
+>parentmass Inf
 >rt 1.879593939394
 
 >ms1
-420.0159 100
+
 
 >ms2
 420.0159 100
 
 >compound FTneg3243
 >ionization [M+?]-
->parentmass 506.034509164178
+>parentmass Inf
 >rt 1.90802031522877
 
 >ms1
-506.0345 100
+
 
 >ms2
 506.0345 100
 
 >compound FTneg3244
 >ionization [M+?]-
->parentmass 211.097600806591
+>parentmass Inf
 >rt 9.71277635089796
 
 >ms1
-211.0976 100
 
 >ms2
 55.0526 40
@@ -59597,11 +58820,10 @@
 
 >compound FTneg3245
 >ionization [M+?]-
->parentmass 339.977636411031
+>parentmass Inf
 >rt 9.71098018399857
 
 >ms1
-339.9776 100
 
 >ms2
 72.0818 40
@@ -59609,11 +58831,10 @@
 
 >compound FTneg3246
 >ionization [M+?]-
->parentmass 167.107574170026
+>parentmass Inf
 >rt 9.71256355889625
 
 >ms1
-167.1076 100
 
 >ms2
 55.0533 40
@@ -59674,33 +58895,32 @@
 
 >compound FTneg3247
 >ionization [M+?]-
->parentmass 179.10764211738
+>parentmass Inf
 >rt 9.71367478781714
 
 >ms1
-179.1076 100
+
 
 >ms2
 179.1076 100
 
 >compound FTneg3248
 >ionization [M+?]-
->parentmass 223.097428449506
+>parentmass Inf
 >rt 9.7134955302394
 
 >ms1
-223.0974 100
+
 
 >ms2
 223.0974 100
 
 >compound FTneg3249
 >ionization [M+?]-
->parentmass 235.097418890747
+>parentmass Inf
 >rt 9.69013595867807
 
 >ms1
-235.0974 100
 
 >ms2
 50.0127 4
@@ -59744,99 +58964,98 @@
 
 >compound FTneg3250
 >ionization [M+?]-
->parentmass 257.102731204568
+>parentmass Inf
 >rt 9.7116022952002
 
 >ms1
-257.1027 100
+
 
 >ms2
 257.1027 100
 
 >compound FTneg3251
 >ionization [M+?]-
->parentmass 271.191062903137
+>parentmass Inf
 >rt 9.8173661401087
 
 >ms1
-271.1911 100
+
 
 >ms2
 271.1911 100
 
 >compound FTneg3252
 >ionization [M+?]-
->parentmass 274.092988728938
+>parentmass Inf
 >rt 9.71703676705839
 
 >ms1
-274.093 100
+
 
 >ms2
 274.093 100
 
 >compound FTneg3253
 >ionization [M+?]-
->parentmass 279.085313650605
+>parentmass Inf
 >rt 9.71825407783541
 
 >ms1
-279.0853 100
+
 
 >ms2
 279.0853 100
 
 >compound FTneg3254
 >ionization [M+?]-
->parentmass 288.126923277687
+>parentmass Inf
 >rt 9.7239411677362
 
 >ms1
-288.1269 100
+
 
 >ms2
 288.1269 100
 
 >compound FTneg3255
 >ionization [M+?]-
->parentmass 307.085065256702
+>parentmass Inf
 >rt 9.71414633288528
 
 >ms1
-307.0851 100
+
 
 >ms2
 307.0851 100
 
 >compound FTneg3256
 >ionization [M+?]-
->parentmass 317.160178195204
+>parentmass Inf
 >rt 9.69951141854526
 
 >ms1
-317.1602 100
+
 
 >ms2
 317.1602 100
 
 >compound FTneg3257
 >ionization [M+?]-
->parentmass 325.090403218763
+>parentmass Inf
 >rt 9.69077373614008
 
 >ms1
-325.0904 100
+
 
 >ms2
 325.0904 100
 
 >compound FTneg3258
 >ionization [M+?]-
->parentmass 345.227994439719
+>parentmass Inf
 >rt 9.70459474660362
 
 >ms1
-345.228 100
 
 >ms2
 57.0704 120
@@ -59848,55 +59067,54 @@
 
 >compound FTneg3259
 >ionization [M+?]-
->parentmass 347.153312273265
+>parentmass Inf
 >rt 9.71898975216753
 
 >ms1
-347.1533 100
+
 
 >ms2
 347.1533 100
 
 >compound FTneg3260
 >ionization [M+?]-
->parentmass 357.027841370375
+>parentmass Inf
 >rt 9.70136538379299
 
 >ms1
-357.0278 100
+
 
 >ms2
 357.0278 100
 
 >compound FTneg3261
 >ionization [M+?]-
->parentmass 426.194972028359
+>parentmass Inf
 >rt 9.70717516269917
 
 >ms1
-426.195 100
+
 
 >ms2
 426.195 100
 
 >compound FTneg3262
 >ionization [M+?]-
->parentmass 434.221577593242
+>parentmass Inf
 >rt 9.72999479567911
 
 >ms1
-434.2216 100
+
 
 >ms2
 434.2216 100
 
 >compound FTneg3263
 >ionization [M+?]-
->parentmass 481.207067019016
+>parentmass Inf
 >rt 9.69317222222217
 
 >ms1
-481.2071 100
 
 >ms2
 52.017 13
@@ -59958,33 +59176,32 @@
 
 >compound FTneg3264
 >ionization [M+?]-
->parentmass 497.142879570659
+>parentmass Inf
 >rt 9.71111818070085
 
 >ms1
-497.1429 100
+
 
 >ms2
 497.1429 100
 
 >compound FTneg3265
 >ionization [M+?]-
->parentmass 513.139945843285
+>parentmass Inf
 >rt 9.72785165695583
 
 >ms1
-513.1399 100
+
 
 >ms2
 513.1399 100
 
 >compound FTneg3266
 >ionization [M+?]-
->parentmass 554.315448433456
+>parentmass Inf
 >rt 9.71595602444039
 
 >ms1
-554.3154 100
 
 >ms2
 57.0326 10
@@ -60000,11 +59217,10 @@
 
 >compound FTneg3267
 >ionization [M+?]-
->parentmass 424.921991270388
+>parentmass Inf
 >rt 1.50463146115077
 
 >ms1
-424.922 100
 
 >ms2
 50.4778 40
@@ -60099,11 +59315,10 @@
 
 >compound FTneg3268
 >ionization [M+?]-
->parentmass 334.924174723092
+>parentmass Inf
 >rt 1.50575162082534
 
 >ms1
-334.9242 100
 
 >ms2
 50.004 20
@@ -60240,330 +59455,328 @@
 
 >compound FTneg3269
 >ionization [M+?]-
->parentmass 372.935107963503
+>parentmass Inf
 >rt 1.51641222856919
 
 >ms1
-372.9351 100
+
 
 >ms2
 372.9351 100
 
 >compound FTneg3270
 >ionization [M+?]-
->parentmass 446.901917362299
+>parentmass Inf
 >rt 1.501580447995
 
 >ms1
-446.9019 100
+
 
 >ms2
 446.9019 100
 
 >compound FTneg3271
 >ionization [M+?]-
->parentmass 168.973099471226
+>parentmass Inf
 >rt 1.50653949321421
 
 >ms1
-168.9731 100
+
 
 >ms2
 168.9731 100
 
 >compound FTneg3272
 >ionization [M+?]-
->parentmass 178.957381879899
+>parentmass Inf
 >rt 1.51040776709323
 
 >ms1
-178.9574 100
+
 
 >ms2
 178.9574 100
 
 >compound FTneg3273
 >ionization [M+?]-
->parentmass 268.952375457687
+>parentmass Inf
 >rt 1.49601608021546
 
 >ms1
-268.9524 100
+
 
 >ms2
 268.9524 100
 
 >compound FTneg3274
 >ionization [M+?]-
->parentmass 290.934740486003
+>parentmass Inf
 >rt 1.51195751815388
 
 >ms1
-290.9347 100
 
 >ms2
 67.0533 40
 
 >compound FTneg3275
 >ionization [M+?]-
->parentmass 333.937359156424
+>parentmass Inf
 >rt 1.50175328954669
 
 >ms1
-333.9374 100
+
 
 >ms2
 333.9374 100
 
 >compound FTneg3276
 >ionization [M+?]-
->parentmass 378.888500317939
+>parentmass Inf
 >rt 1.5019896795875
 
 >ms1
-378.8885 100
+
 
 >ms2
 378.8885 100
 
 >compound FTneg3277
 >ionization [M+?]-
->parentmass 380.928758839044
+>parentmass Inf
 >rt 1.49942101009069
 
 >ms1
-380.9288 100
+
 
 >ms2
 380.9288 100
 
 >compound FTneg3278
 >ionization [M+?]-
->parentmass 401.924622593211
+>parentmass Inf
 >rt 1.49993553783316
 
 >ms1
-401.9246 100
+
 
 >ms2
 401.9246 100
 
 >compound FTneg3279
 >ionization [M+?]-
->parentmass 424.894043041469
+>parentmass Inf
 >rt 1.50802175084976
 
 >ms1
-424.894 100
+
 
 >ms2
 424.894 100
 
 >compound FTneg3280
 >ionization [M+?]-
->parentmass 446.87522627506
+>parentmass Inf
 >rt 1.53597881371802
 
 >ms1
-446.8752 100
+
 
 >ms2
 446.8752 100
 
 >compound FTneg3281
 >ionization [M+?]-
->parentmass 490.86598516461
+>parentmass Inf
 >rt 1.50244182784152
 
 >ms1
-490.866 100
+
 
 >ms2
 490.866 100
 
 >compound FTneg3282
 >ionization [M+?]-
->parentmass 508.909869151174
+>parentmass Inf
 >rt 1.51731957282008
 
 >ms1
-508.9099 100
+
 
 >ms2
 508.9099 100
 
 >compound FTneg3283
 >ionization [M+?]-
->parentmass 514.891321507874
+>parentmass Inf
 >rt 1.49616061660782
 
 >ms1
-514.8913 100
+
 
 >ms2
 514.8913 100
 
 >compound FTneg3284
 >ionization [M+?]-
->parentmass 530.865542961998
+>parentmass Inf
 >rt 1.49388031097751
 
 >ms1
-530.8655 100
+
 
 >ms2
 530.8655 100
 
 >compound FTneg3285
 >ionization [M+?]-
->parentmass 553.022442999601
+>parentmass Inf
 >rt 1.50358236746749
 
 >ms1
-553.0224 100
+
 
 >ms2
 553.0224 100
 
 >compound FTneg3286
 >ionization [M+?]-
->parentmass 621.010288616855
+>parentmass Inf
 >rt 1.50369702178414
 
 >ms1
-621.0103 100
+
 
 >ms2
 621.0103 100
 
 >compound FTneg3287
 >ionization [M+?]-
->parentmass 650.872704083428
+>parentmass Inf
 >rt 1.50325612672474
 
 >ms1
-650.8727 100
+
 
 >ms2
 650.8727 100
 
 >compound FTneg3288
 >ionization [M+?]-
->parentmass 679.880936884367
+>parentmass Inf
 >rt 1.49779714981233
 
 >ms1
-679.8809 100
+
 
 >ms2
 679.8809 100
 
 >compound FTneg3289
 >ionization [M+?]-
->parentmass 688.997646225727
+>parentmass Inf
 >rt 1.51127616467687
 
 >ms1
-688.9976 100
+
 
 >ms2
 688.9976 100
 
 >compound FTneg3290
 >ionization [M+?]-
->parentmass 713.873904924844
+>parentmass Inf
 >rt 1.50084440920188
 
 >ms1
-713.8739 100
+
 
 >ms2
 713.8739 100
 
 >compound FTneg3291
 >ionization [M+?]-
->parentmass 756.985340371385
+>parentmass Inf
 >rt 1.50802632963047
 
 >ms1
-756.9853 100
+
 
 >ms2
 756.9853 100
 
 >compound FTneg3292
 >ionization [M+?]-
->parentmass 824.97234208221
+>parentmass Inf
 >rt 1.50666604656726
 
 >ms1
-824.9723 100
+
 
 >ms2
 824.9723 100
 
 >compound FTneg3293
 >ionization [M+?]-
->parentmass 849.849240010422
+>parentmass Inf
 >rt 1.49926785527668
 
 >ms1
-849.8492 100
+
 
 >ms2
 849.8492 100
 
 >compound FTneg3294
 >ionization [M+?]-
->parentmass 883.841725601191
+>parentmass Inf
 >rt 1.50769041469427
 
 >ms1
-883.8417 100
+
 
 >ms2
 883.8417 100
 
 >compound FTneg3295
 >ionization [M+?]-
->parentmass 906.838339007714
+>parentmass Inf
 >rt 1.50564779641359
 
 >ms1
-906.8383 100
+
 
 >ms2
 906.8383 100
 
 >compound FTneg3296
 >ionization [M+?]-
->parentmass 985.823020149788
+>parentmass Inf
 >rt 1.50079687594982
 
 >ms1
-985.823 100
+
 
 >ms2
 985.823 100
 
 >compound FTneg3297
 >ionization [M+?]-
->parentmass 169.086514192645
+>parentmass Inf
 >rt 10.1455272066039
 
 >ms1
-169.0865 100
+
 
 >ms2
 169.0865 100
 
 >compound FTneg3298
 >ionization [M+?]-
->parentmass 305.094550642256
+>parentmass Inf
 >rt 10.8096135699135
 
 >ms1
-305.0946 100
 
 >ms2
 55.0533 159
@@ -60580,11 +59793,10 @@
 
 >compound FTneg3299
 >ionization [M+?]-
->parentmass 169.122766626363
+>parentmass Inf
 >rt 10.8289267464598
 
 >ms1
-169.1228 100
 
 >ms2
 55.048 20
@@ -60614,11 +59826,10 @@
 
 >compound FTneg3300
 >ionization [M+?]-
->parentmass 253.14431328026
+>parentmass Inf
 >rt 10.8239278990747
 
 >ms1
-253.1443 100
 
 >ms2
 54.9512 20
@@ -60631,11 +59842,10 @@
 
 >compound FTneg3301
 >ionization [M+?]-
->parentmass 272.038334441854
+>parentmass Inf
 >rt 10.8320493262794
 
 >ms1
-272.0383 100
 
 >ms2
 53.0376 159
@@ -60653,22 +59863,20 @@
 
 >compound FTneg3302
 >ionization [M+?]-
->parentmass 299.14945520159
+>parentmass Inf
 >rt 10.8222939683995
 
 >ms1
-299.1495 100
 
 >ms2
 56.0458 40
 
 >compound FTneg3303
 >ionization [M+?]-
->parentmass 438.293966621969
+>parentmass Inf
 >rt 10.8095134434876
 
 >ms1
-438.294 100
 
 >ms2
 53.0963 40
@@ -60703,11 +59911,10 @@
 
 >compound FTneg3304
 >ionization [M+?]-
->parentmass 449.326907237258
+>parentmass Inf
 >rt 10.7865407560404
 
 >ms1
-449.3269 100
 
 >ms2
 55.0534 120
@@ -60726,11 +59933,10 @@
 
 >compound FTneg3305
 >ionization [M+?]-
->parentmass 465.224259084407
+>parentmass Inf
 >rt 10.7785881509394
 
 >ms1
-465.2243 100
 
 >ms2
 51.0224 239
@@ -60978,11 +60184,10 @@
 
 >compound FTneg3306
 >ionization [M+?]-
->parentmass 631.348121641652
+>parentmass Inf
 >rt 10.8901688888888
 
 >ms1
-631.3481 100
 
 >ms2
 57.0696 40
@@ -60990,11 +60195,10 @@
 
 >compound FTneg3307
 >ionization [M+?]-
->parentmass 170.082272384702
+>parentmass Inf
 >rt 7.64069268033565
 
 >ms1
-170.0823 100
 
 >ms2
 123.1171 40
@@ -61009,22 +60213,21 @@
 
 >compound FTneg3308
 >ionization [M+?]-
->parentmass 261.089111502587
+>parentmass Inf
 >rt 7.55369199951124
 
 >ms1
-261.0891 100
+
 
 >ms2
 261.0891 100
 
 >compound FTneg3309
 >ionization [M+?]-
->parentmass 273.091372076102
+>parentmass Inf
 >rt 7.592651893631
 
 >ms1
-273.0914 100
 
 >ms2
 55.0549 201
@@ -61038,11 +60241,10 @@
 
 >compound FTneg3310
 >ionization [M+?]-
->parentmass 310.096504196837
+>parentmass Inf
 >rt 3.10722685001174
 
 >ms1
-310.0965 100
 
 >ms2
 96.9237 40
@@ -61054,11 +60256,10 @@
 
 >compound FTneg3311
 >ionization [M+?]-
->parentmass 361.088822343779
+>parentmass Inf
 >rt 3.12169103303036
 
 >ms1
-361.0888 100
 
 >ms2
 67.0517 40
@@ -61066,231 +60267,229 @@
 
 >compound FTneg3312
 >ionization [M+?]-
->parentmass 171.027637744577
+>parentmass Inf
 >rt 3.09115180428896
 
 >ms1
-171.0276 100
+
 
 >ms2
 171.0276 100
 
 >compound FTneg3313
 >ionization [M+?]-
->parentmass 188.056280429674
+>parentmass Inf
 >rt 3.10498958181408
 
 >ms1
-188.0563 100
+
 
 >ms2
 188.0563 100
 
 >compound FTneg3314
 >ionization [M+?]-
->parentmass 189.04029948925
+>parentmass Inf
 >rt 3.07300715128082
 
 >ms1
-189.0403 100
+
 
 >ms2
 189.0403 100
 
 >compound FTneg3315
 >ionization [M+?]-
->parentmass 232.997667249469
+>parentmass Inf
 >rt 3.11628838755166
 
 >ms1
-232.9977 100
+
 
 >ms2
 232.9977 100
 
 >compound FTneg3316
 >ionization [M+?]-
->parentmass 247.963876527799
+>parentmass Inf
 >rt 3.10916859234961
 
 >ms1
-247.9639 100
+
 
 >ms2
 247.9639 100
 
 >compound FTneg3317
 >ionization [M+?]-
->parentmass 259.998994790119
+>parentmass Inf
 >rt 3.11108517787004
 
 >ms1
-259.999 100
+
 
 >ms2
 259.999 100
 
 >compound FTneg3318
 >ionization [M+?]-
->parentmass 271.999032762464
+>parentmass Inf
 >rt 3.1044635085023
 
 >ms1
-271.999 100
+
 
 >ms2
 271.999 100
 
 >compound FTneg3319
 >ionization [M+?]-
->parentmass 284.705395886014
+>parentmass Inf
 >rt 3.15292888888887
 
 >ms1
-284.7054 100
+
 
 >ms2
 284.7054 100
 
 >compound FTneg3320
 >ionization [M+?]-
->parentmass 400.091603034814
+>parentmass Inf
 >rt 3.08488858743108
 
 >ms1
-400.0916 100
+
 
 >ms2
 400.0916 100
 
 >compound FTneg3321
 >ionization [M+?]-
->parentmass 171.065384574282
+>parentmass Inf
 >rt 9.93540089816736
 
 >ms1
-171.0654 100
+
 
 >ms2
 171.0654 100
 
 >compound FTneg3322
 >ionization [M+?]-
->parentmass 283.154707657954
+>parentmass Inf
 >rt 9.98683687287862
 
 >ms1
-283.1547 100
 
 >ms2
 53.0354 40
 
 >compound FTneg3323
 >ionization [M+?]-
->parentmass 297.111526189359
+>parentmass Inf
 >rt 9.9526081534761
 
 >ms1
-297.1115 100
+
 
 >ms2
 297.1115 100
 
 >compound FTneg3324
 >ionization [M+?]-
->parentmass 346.065617002282
+>parentmass Inf
 >rt 9.89580028316308
 
 >ms1
-346.0656 100
+
 
 >ms2
 346.0656 100
 
 >compound FTneg3325
 >ionization [M+?]-
->parentmass 455.924551538396
+>parentmass Inf
 >rt 9.93015714558237
 
 >ms1
-455.9246 100
+
 
 >ms2
 455.9246 100
 
 >compound FTneg3326
 >ionization [M+?]-
->parentmass 505.907020536926
+>parentmass Inf
 >rt 9.95375356394512
 
 >ms1
-505.907 100
+
 
 >ms2
 505.907 100
 
 >compound FTneg3327
 >ionization [M+?]-
->parentmass 507.330532012523
+>parentmass Inf
 >rt 9.970497368421
 
 >ms1
-507.3305 100
+
 
 >ms2
 507.3305 100
 
 >compound FTneg3328
 >ionization [M+?]-
->parentmass 508.298957585576
+>parentmass Inf
 >rt 9.9302729746303
 
 >ms1
-508.299 100
+
 
 >ms2
 508.299 100
 
 >compound FTneg3329
 >ionization [M+?]-
->parentmass 524.282041815645
+>parentmass Inf
 >rt 10.0193829286679
 
 >ms1
-524.282 100
+
 
 >ms2
 524.282 100
 
 >compound FTneg3330
 >ionization [M+?]-
->parentmass 592.360755273287
+>parentmass Inf
 >rt 9.90980812611204
 
 >ms1
-592.3608 100
+
 
 >ms2
 592.3608 100
 
 >compound FTneg3331
 >ionization [M+?]-
->parentmass 663.090716846831
+>parentmass Inf
 >rt 9.97260666666668
 
 >ms1
-663.0907 100
+
 
 >ms2
 663.0907 100
 
 >compound FTneg3332
 >ionization [M+?]-
->parentmass 433.113945029183
+>parentmass Inf
 >rt 9.15093473645983
 
 >ms1
-433.1139 100
 
 >ms2
 57.0333 40
@@ -61305,11 +60504,10 @@
 
 >compound FTneg3333
 >ionization [M+?]-
->parentmass 171.102394360909
+>parentmass Inf
 >rt 9.14679182388054
 
 >ms1
-171.1024 100
 
 >ms2
 55.0185 40
@@ -61393,11 +60591,10 @@
 
 >compound FTneg3334
 >ionization [M+?]-
->parentmass 303.14455537871
+>parentmass Inf
 >rt 9.13025574450709
 
 >ms1
-303.1446 100
 
 >ms2
 55.0533 80
@@ -61423,11 +60620,10 @@
 
 >compound FTneg3335
 >ionization [M+?]-
->parentmass 275.095904619758
+>parentmass Inf
 >rt 8.79602213247262
 
 >ms1
-275.0959 100
 
 >ms2
 52.0302 4
@@ -61450,11 +60646,10 @@
 
 >compound FTneg3336
 >ionization [M+?]-
->parentmass 417.119004771529
+>parentmass Inf
 >rt 8.79013530175509
 
 >ms1
-417.119 100
 
 >ms2
 55.0541 40
@@ -61477,44 +60672,43 @@
 
 >compound FTneg3337
 >ionization [M+?]-
->parentmass 171.102515651194
+>parentmass Inf
 >rt 8.81307125084192
 
 >ms1
-171.1025 100
+
 
 >ms2
 171.1025 100
 
 >compound FTneg3338
 >ionization [M+?]-
->parentmass 276.099135065887
+>parentmass Inf
 >rt 8.91641970910271
 
 >ms1
-276.0991 100
+
 
 >ms2
 276.0991 100
 
 >compound FTneg3339
 >ionization [M+?]-
->parentmass 293.601861351919
+>parentmass Inf
 >rt 8.86268333333333
 
 >ms1
-293.6019 100
+
 
 >ms2
 293.6019 100
 
 >compound FTneg3340
 >ionization [M+?]-
->parentmass 299.005250857773
+>parentmass Inf
 >rt 8.80179930589687
 
 >ms1
-299.0053 100
 
 >ms2
 53.0399 40
@@ -61531,77 +60725,76 @@
 
 >compound FTneg3341
 >ionization [M+?]-
->parentmass 301.002124247888
+>parentmass Inf
 >rt 8.80617262772665
 
 >ms1
-301.0021 100
+
 
 >ms2
 301.0021 100
 
 >compound FTneg3342
 >ionization [M+?]-
->parentmass 324.000424894176
+>parentmass Inf
 >rt 8.79542473976832
 
 >ms1
-324.0004 100
+
 
 >ms2
 324.0004 100
 
 >compound FTneg3343
 >ionization [M+?]-
->parentmass 485.106427435064
+>parentmass Inf
 >rt 8.79699930656293
 
 >ms1
-485.1064 100
+
 
 >ms2
 485.1064 100
 
 >compound FTneg3344
 >ionization [M+?]-
->parentmass 525.306734493928
+>parentmass Inf
 >rt 8.90914959944044
 
 >ms1
-525.3067 100
+
 
 >ms2
 525.3067 100
 
 >compound FTneg3345
 >ionization [M+?]-
->parentmass 528.263253802802
+>parentmass Inf
 >rt 8.71052872650709
 
 >ms1
-528.2633 100
+
 
 >ms2
 528.2633 100
 
 >compound FTneg3346
 >ionization [M+?]-
->parentmass 213.005286347396
+>parentmass Inf
 >rt 7.81763230130078
 
 >ms1
-213.0053 100
+
 
 >ms2
 213.0053 100
 
 >compound FTneg3347
 >ionization [M+?]-
->parentmass 201.113047956356
+>parentmass Inf
 >rt 7.62893562336427
 
 >ms1
-201.113 100
 
 >ms2
 51.0186 16
@@ -61654,11 +60847,10 @@
 
 >compound FTneg3348
 >ionization [M+?]-
->parentmass 172.068395692679
+>parentmass Inf
 >rt 7.56087674975946
 
 >ms1
-172.0684 100
 
 >ms2
 51.0223 40
@@ -62165,22 +61357,20 @@
 
 >compound FTneg3349
 >ionization [M+?]-
->parentmass 242.093378841528
+>parentmass Inf
 >rt 7.61937980994055
 
 >ms1
-242.0934 100
 
 >ms2
 53.6152 40
 
 >compound FTneg3350
 >ionization [M+?]-
->parentmass 291.13479521226
+>parentmass Inf
 >rt 7.63536131141661
 
 >ms1
-291.1348 100
 
 >ms2
 53.0398 20
@@ -62202,66 +61392,65 @@
 
 >compound FTneg3351
 >ionization [M+?]-
->parentmass 307.138904253808
+>parentmass Inf
 >rt 7.61022679788172
 
 >ms1
-307.1389 100
+
 
 >ms2
 307.1389 100
 
 >compound FTneg3352
 >ionization [M+?]-
->parentmass 370.11410737273
+>parentmass Inf
 >rt 7.6188579829545
 
 >ms1
-370.1141 100
+
 
 >ms2
 370.1141 100
 
 >compound FTneg3353
 >ionization [M+?]-
->parentmass 414.235080388566
+>parentmass Inf
 >rt 7.64199799245798
 
 >ms1
-414.2351 100
+
 
 >ms2
 414.2351 100
 
 >compound FTneg3354
 >ionization [M+?]-
->parentmass 431.177209652634
+>parentmass Inf
 >rt 7.61078695619813
 
 >ms1
-431.1772 100
+
 
 >ms2
 431.1772 100
 
 >compound FTneg3355
 >ionization [M+?]-
->parentmass 763.362511809874
+>parentmass Inf
 >rt 7.62533933795397
 
 >ms1
-763.3625 100
+
 
 >ms2
 763.3625 100
 
 >compound FTneg3356
 >ionization [M+?]-
->parentmass 172.097979821211
+>parentmass Inf
 >rt 8.03426649380933
 
 >ms1
-172.098 100
 
 >ms2
 50.9633 40
@@ -62344,11 +61533,10 @@
 
 >compound FTneg3357
 >ionization [M+?]-
->parentmass 429.082593058629
+>parentmass Inf
 >rt 8.02064540570101
 
 >ms1
-429.0826 100
 
 >ms2
 52.2815 40
@@ -62378,11 +61566,10 @@
 
 >compound FTneg3358
 >ionization [M+?]-
->parentmass 172.081880331919
+>parentmass Inf
 >rt 7.98571831619346
 
 >ms1
-172.0819 100
 
 >ms2
 53.0376 40
@@ -62470,11 +61657,10 @@
 
 >compound FTneg3359
 >ionization [M+?]-
->parentmass 173.08204425167
+>parentmass Inf
 >rt 8.04583887491426
 
 >ms1
-173.082 100
 
 >ms2
 55.0207 40
@@ -62511,22 +61697,21 @@
 
 >compound FTneg3360
 >ionization [M+?]-
->parentmass 174.085007701993
+>parentmass Inf
 >rt 8.09061370977587
 
 >ms1
-174.085 100
+
 
 >ms2
 174.085 100
 
 >compound FTneg3361
 >ionization [M+?]-
->parentmass 240.085287578096
+>parentmass Inf
 >rt 8.0348097811524
 
 >ms1
-240.0853 100
 
 >ms2
 51.0223 40
@@ -62548,44 +61733,42 @@
 
 >compound FTneg3362
 >ionization [M+?]-
->parentmass 268.085133287418
+>parentmass Inf
 >rt 8.01828886075687
 
 >ms1
-268.0851 100
+
 
 >ms2
 268.0851 100
 
 >compound FTneg3363
 >ionization [M+?]-
->parentmass 269.139501239632
+>parentmass Inf
 >rt 8.04051074734663
 
 >ms1
-269.1395 100
 
 >ms2
 54.0343 4
 
 >compound FTneg3364
 >ionization [M+?]-
->parentmass 302.055481560805
+>parentmass Inf
 >rt 7.97941885985969
 
 >ms1
-302.0555 100
+
 
 >ms2
 302.0555 100
 
 >compound FTneg3365
 >ionization [M+?]-
->parentmass 317.027323677262
+>parentmass Inf
 >rt 8.03609248190266
 
 >ms1
-317.0273 100
 
 >ms2
 53.0384 40
@@ -62602,110 +61785,109 @@
 
 >compound FTneg3366
 >ionization [M+?]-
->parentmass 318.028280630167
+>parentmass Inf
 >rt 8.03589425609634
 
 >ms1
-318.0283 100
+
 
 >ms2
 318.0283 100
 
 >compound FTneg3367
 >ionization [M+?]-
->parentmass 335.030274446496
+>parentmass Inf
 >rt 8.03246823089423
 
 >ms1
-335.0303 100
+
 
 >ms2
 335.0303 100
 
 >compound FTneg3368
 >ionization [M+?]-
->parentmass 349.149936876912
+>parentmass Inf
 >rt 8.02322638888883
 
 >ms1
-349.1499 100
+
 
 >ms2
 349.1499 100
 
 >compound FTneg3369
 >ionization [M+?]-
->parentmass 352.16058047554
+>parentmass Inf
 >rt 7.96613875177737
 
 >ms1
-352.1606 100
+
 
 >ms2
 352.1606 100
 
 >compound FTneg3370
 >ionization [M+?]-
->parentmass 363.074674156964
+>parentmass Inf
 >rt 8.05600192654497
 
 >ms1
-363.0747 100
+
 
 >ms2
 363.0747 100
 
 >compound FTneg3371
 >ionization [M+?]-
->parentmass 456.199955723269
+>parentmass Inf
 >rt 8.01805023309359
 
 >ms1
-456.2 100
+
 
 >ms2
 456.2 100
 
 >compound FTneg3372
 >ionization [M+?]-
->parentmass 457.22758421034
+>parentmass Inf
 >rt 7.97580955175143
 
 >ms1
-457.2276 100
+
 
 >ms2
 457.2276 100
 
 >compound FTneg3373
 >ionization [M+?]-
->parentmass 679.37548928761
+>parentmass Inf
 >rt 8.08173390895526
 
 >ms1
-679.3755 100
+
 
 >ms2
 679.3755 100
 
 >compound FTneg3374
 >ionization [M+?]-
->parentmass 680.37833310846
+>parentmass Inf
 >rt 8.02880146481822
 
 >ms1
-680.3783 100
+
 
 >ms2
 680.3783 100
 
 >compound FTneg3375
 >ionization [M+?]-
->parentmass 172.957620933068
+>parentmass Inf
 >rt 6.76904705989044
 
 >ms1
-172.9576 100
 
 >ms2
 55.0542 40
@@ -62760,11 +61942,10 @@
 
 >compound FTneg3376
 >ionization [M+?]-
->parentmass 197.80808192674
+>parentmass Inf
 >rt 6.78229693413711
 
 >ms1
-197.8081 100
 
 >ms2
 50.0141 72
@@ -62819,22 +62000,21 @@
 
 >compound FTneg3377
 >ionization [M+?]-
->parentmass 257.819274139448
+>parentmass Inf
 >rt 6.6704656797248
 
 >ms1
-257.8193 100
+
 
 >ms2
 257.8193 100
 
 >compound FTneg3378
 >ionization [M+?]-
->parentmass 172.991476651515
+>parentmass Inf
 >rt 6.82655620464131
 
 >ms1
-172.9915 100
 
 >ms2
 124.9992 40
@@ -62844,11 +62024,10 @@
 
 >compound FTneg3379
 >ionization [M+?]-
->parentmass 392.047709024134
+>parentmass Inf
 >rt 6.82462908716163
 
 >ms1
-392.0477 100
 
 >ms2
 55.0525 4
@@ -62867,22 +62046,21 @@
 
 >compound FTneg3380
 >ionization [M+?]-
->parentmass 172.975301512354
+>parentmass Inf
 >rt 6.82907267028207
 
 >ms1
-172.9753 100
+
 
 >ms2
 172.9753 100
 
 >compound FTneg3381
 >ionization [M+?]-
->parentmass 217.017663657271
+>parentmass Inf
 >rt 6.82324842995333
 
 >ms1
-217.0177 100
 
 >ms2
 50.0135 4
@@ -62942,44 +62120,41 @@
 
 >compound FTneg3382
 >ionization [M+?]-
->parentmass 259.129749276391
+>parentmass Inf
 >rt 6.84441381704125
 
 >ms1
-259.1297 100
 
 >ms2
 53.0383 4
 
 >compound FTneg3383
 >ionization [M+?]-
->parentmass 260.132815445333
+>parentmass Inf
 >rt 6.8185855873949
 
 >ms1
-260.1328 100
+
 
 >ms2
 260.1328 100
 
 >compound FTneg3384
 >ionization [M+?]-
->parentmass 318.921965992209
+>parentmass Inf
 >rt 6.820925916071
 
 >ms1
-318.922 100
 
 >ms2
 55.0556 20
 
 >compound FTneg3385
 >ionization [M+?]-
->parentmass 253.017730819942
+>parentmass Inf
 >rt 8.39153892039882
 
 >ms1
-253.0177 100
 
 >ms2
 55.0539 199
@@ -62996,11 +62171,10 @@
 
 >compound FTneg3386
 >ionization [M+?]-
->parentmass 619.354379105063
+>parentmass Inf
 >rt 8.41484746073471
 
 >ms1
-619.3544 100
 
 >ms2
 55.0533 40
@@ -63029,11 +62203,10 @@
 
 >compound FTneg3387
 >ionization [M+?]-
->parentmass 173.08174648219
+>parentmass Inf
 >rt 8.43269510262636
 
 >ms1
-173.0817 100
 
 >ms2
 55.0548 40
@@ -63049,22 +62222,21 @@
 
 >compound FTneg3388
 >ionization [M+?]-
->parentmass 252.009773180436
+>parentmass Inf
 >rt 8.39000225577723
 
 >ms1
-252.0098 100
+
 
 >ms2
 252.0098 100
 
 >compound FTneg3389
 >ionization [M+?]-
->parentmass 252.997751842887
+>parentmass Inf
 >rt 8.3966970472705
 
 >ms1
-252.9978 100
 
 >ms2
 53.9415 40
@@ -63072,110 +62244,108 @@
 
 >compound FTneg3390
 >ionization [M+?]-
->parentmass 253.715220403022
+>parentmass Inf
 >rt 8.46998690476193
 
 >ms1
-253.7152 100
+
 
 >ms2
 253.7152 100
 
 >compound FTneg3391
 >ionization [M+?]-
->parentmass 321.005120725582
+>parentmass Inf
 >rt 8.39297607332484
 
 >ms1
-321.0051 100
 
 >ms2
 52.0192 16
 
 >compound FTneg3392
 >ionization [M+?]-
->parentmass 337.994881639587
+>parentmass Inf
 >rt 8.38666721816051
 
 >ms1
-337.9949 100
+
 
 >ms2
 337.9949 100
 
 >compound FTneg3393
 >ionization [M+?]-
->parentmass 368.07714262313
+>parentmass Inf
 >rt 8.40103627450977
 
 >ms1
-368.0771 100
+
 
 >ms2
 368.0771 100
 
 >compound FTneg3394
 >ionization [M+?]-
->parentmass 382.975446721915
+>parentmass Inf
 >rt 8.38340015147968
 
 >ms1
-382.9754 100
+
 
 >ms2
 382.9754 100
 
 >compound FTneg3395
 >ionization [M+?]-
->parentmass 397.947334211876
+>parentmass Inf
 >rt 8.38274142193209
 
 >ms1
-397.9473 100
+
 
 >ms2
 397.9473 100
 
 >compound FTneg3396
 >ionization [M+?]-
->parentmass 398.947673109549
+>parentmass Inf
 >rt 8.38846962516227
 
 >ms1
-398.9477 100
+
 
 >ms2
 398.9477 100
 
 >compound FTneg3397
 >ionization [M+?]-
->parentmass 476.112909781738
+>parentmass Inf
 >rt 8.38274982236243
 
 >ms1
-476.1129 100
+
 
 >ms2
 476.1129 100
 
 >compound FTneg3398
 >ionization [M+?]-
->parentmass 543.301528864036
+>parentmass Inf
 >rt 8.42170860036837
 
 >ms1
-543.3015 100
+
 
 >ms2
 543.3015 100
 
 >compound FTneg3399
 >ionization [M+?]-
->parentmass 552.100306200825
+>parentmass Inf
 >rt 8.38583588686253
 
 >ms1
-552.1003 100
 
 >ms2
 98.9851 16
@@ -63183,77 +62353,75 @@
 
 >compound FTneg3400
 >ionization [M+?]-
->parentmass 621.350611043109
+>parentmass Inf
 >rt 8.39322619047607
 
 >ms1
-621.3506 100
+
 
 >ms2
 621.3506 100
 
 >compound FTneg3401
 >ionization [M+?]-
->parentmass 625.289094506056
+>parentmass Inf
 >rt 8.37093050281427
 
 >ms1
-625.2891 100
+
 
 >ms2
 625.2891 100
 
 >compound FTneg3402
 >ionization [M+?]-
->parentmass 939.50043691764
+>parentmass Inf
 >rt 8.40201583569119
 
 >ms1
-939.5004 100
+
 
 >ms2
 939.5004 100
 
 >compound FTneg3403
 >ionization [M+?]-
->parentmass 940.504225438341
+>parentmass Inf
 >rt 8.40070695026789
 
 >ms1
-940.5042 100
+
 
 >ms2
 940.5042 100
 
 >compound FTneg3404
 >ionization [M+?]-
->parentmass 173.118169194575
+>parentmass Inf
 >rt 8.93104436376565
 
 >ms1
-173.1182 100
+
 
 >ms2
 173.1182 100
 
 >compound FTneg3405
 >ionization [M+?]-
->parentmass 187.116135278504
+>parentmass Inf
 >rt 8.78767926765879
 
 >ms1
-187.1161 100
 
 >ms2
 54.008 159
 
 >compound FTneg3406
 >ionization [M+?]-
->parentmass 366.079891659365
+>parentmass Inf
 >rt 6.5897098429371
 
 >ms1
-366.0799 100
 
 >ms2
 54.998 13
@@ -63283,11 +62451,10 @@
 
 >compound FTneg3407
 >ionization [M+?]-
->parentmass 207.087214938576
+>parentmass Inf
 >rt 6.58880433912127
 
 >ms1
-207.0872 100
 
 >ms2
 50.0126 40
@@ -63334,11 +62501,10 @@
 
 >compound FTneg3408
 >ionization [M+?]-
->parentmass 249.062994184425
+>parentmass Inf
 >rt 6.5895542681121
 
 >ms1
-249.063 100
 
 >ms2
 65.0315 40
@@ -63358,66 +62524,64 @@
 
 >compound FTneg3409
 >ionization [M+?]-
->parentmass 309.108943702432
+>parentmass Inf
 >rt 6.58794508905234
 
 >ms1
-309.1089 100
 
 >ms2
 59.032 40
 
 >compound FTneg3410
 >ionization [M+?]-
->parentmass 174.042199740542
+>parentmass Inf
 >rt 6.57578246154515
 
 >ms1
-174.0422 100
+
 
 >ms2
 174.0422 100
 
 >compound FTneg3411
 >ionization [M+?]-
->parentmass 218.996818800294
+>parentmass Inf
 >rt 6.59940918486921
 
 >ms1
-218.9968 100
+
 
 >ms2
 218.9968 100
 
 >compound FTneg3412
 >ionization [M+?]-
->parentmass 246.007235100818
+>parentmass Inf
 >rt 6.60312524040675
 
 >ms1
-246.0072 100
+
 
 >ms2
 246.0072 100
 
 >compound FTneg3413
 >ionization [M+?]-
->parentmass 328.066732539211
+>parentmass Inf
 >rt 6.58716797830806
 
 >ms1
-328.0667 100
+
 
 >ms2
 328.0667 100
 
 >compound FTneg3414
 >ionization [M+?]-
->parentmass 424.037720979508
+>parentmass Inf
 >rt 6.57929150951123
 
 >ms1
-424.0377 100
 
 >ms2
 51.015 40
@@ -63505,22 +62669,21 @@
 
 >compound FTneg3415
 >ionization [M+?]-
->parentmass 429.104541166799
+>parentmass Inf
 >rt 6.57704715314799
 
 >ms1
-429.1045 100
+
 
 >ms2
 429.1045 100
 
 >compound FTneg3416
 >ionization [M+?]-
->parentmass 174.056020736451
+>parentmass Inf
 >rt 9.15830978633911
 
 >ms1
-174.056 100
 
 >ms2
 55.0533 80
@@ -63693,22 +62856,20 @@
 
 >compound FTneg3417
 >ionization [M+?]-
->parentmass 241.082907684669
+>parentmass Inf
 >rt 6.50820046788093
 
 >ms1
-241.0829 100
 
 >ms2
 53.0361 4
 
 >compound FTneg3418
 >ionization [M+?]-
->parentmass 218.103324594602
+>parentmass Inf
 >rt 6.51333451045269
 
 >ms1
-218.1033 100
 
 >ms2
 50.0027 4
@@ -63773,11 +62934,10 @@
 
 >compound FTneg3419
 >ionization [M+?]-
->parentmass 189.066963301783
+>parentmass Inf
 >rt 6.50351077144957
 
 >ms1
-189.067 100
 
 >ms2
 50.0148 100
@@ -63802,22 +62962,20 @@
 
 >compound FTneg3420
 >ionization [M+?]-
->parentmass 287.088578282177
+>parentmass Inf
 >rt 6.50594368516925
 
 >ms1
-287.0886 100
 
 >ms2
 56.0481 40
 
 >compound FTneg3421
 >ionization [M+?]-
->parentmass 304.078642451407
+>parentmass Inf
 >rt 6.49933822640206
 
 >ms1
-304.0786 100
 
 >ms2
 57.1282 20
@@ -63842,11 +63000,10 @@
 
 >compound FTneg3422
 >ionization [M+?]-
->parentmass 355.07587065397
+>parentmass Inf
 >rt 6.49793560607975
 
 >ms1
-355.0759 100
 
 >ms2
 53.0384 40
@@ -63875,11 +63032,10 @@
 
 >compound FTneg3423
 >ionization [M+?]-
->parentmass 460.193625891714
+>parentmass Inf
 >rt 6.50565347805116
 
 >ms1
-460.1936 100
 
 >ms2
 55.0306 13
@@ -63910,132 +63066,130 @@
 
 >compound FTneg3424
 >ionization [M+?]-
->parentmass 174.079618724946
+>parentmass Inf
 >rt 6.48817740341611
 
 >ms1
-174.0796 100
+
 
 >ms2
 174.0796 100
 
 >compound FTneg3425
 >ionization [M+?]-
->parentmass 175.087489151321
+>parentmass Inf
 >rt 6.49962738095236
 
 >ms1
-175.0875 100
+
 
 >ms2
 175.0875 100
 
 >compound FTneg3426
 >ionization [M+?]-
->parentmass 178.086886513239
+>parentmass Inf
 >rt 6.49340472720963
 
 >ms1
-178.0869 100
+
 
 >ms2
 178.0869 100
 
 >compound FTneg3427
 >ionization [M+?]-
->parentmass 205.063193192079
+>parentmass Inf
 >rt 6.51048452380957
 
 >ms1
-205.0632 100
+
 
 >ms2
 205.0632 100
 
 >compound FTneg3428
 >ionization [M+?]-
->parentmass 206.068490414006
+>parentmass Inf
 >rt 6.51909000000005
 
 >ms1
-206.0685 100
+
 
 >ms2
 206.0685 100
 
 >compound FTneg3429
 >ionization [M+?]-
->parentmass 223.073180722015
+>parentmass Inf
 >rt 6.50757030288276
 
 >ms1
-223.0732 100
+
 
 >ms2
 223.0732 100
 
 >compound FTneg3430
 >ionization [M+?]-
->parentmass 225.043412224065
+>parentmass Inf
 >rt 6.50502732043378
 
 >ms1
-225.0434 100
+
 
 >ms2
 225.0434 100
 
 >compound FTneg3431
 >ionization [M+?]-
->parentmass 235.072842108221
+>parentmass Inf
 >rt 6.50663905073309
 
 >ms1
-235.0728 100
+
 
 >ms2
 235.0728 100
 
 >compound FTneg3432
 >ionization [M+?]-
->parentmass 238.108246131704
+>parentmass Inf
 >rt 6.49087437634381
 
 >ms1
-238.1082 100
+
 
 >ms2
 238.1082 100
 
 >compound FTneg3433
 >ionization [M+?]-
->parentmass 248.078859024425
+>parentmass Inf
 >rt 6.49346065363549
 
 >ms1
-248.0789 100
 
 >ms2
 52.9469 40
 
 >compound FTneg3434
 >ionization [M+?]-
->parentmass 252.063002350747
+>parentmass Inf
 >rt 6.49477999999995
 
 >ms1
-252.063 100
+
 
 >ms2
 252.063 100
 
 >compound FTneg3435
 >ionization [M+?]-
->parentmass 275.088362666222
+>parentmass Inf
 >rt 6.51208041675796
 
 >ms1
-275.0884 100
 
 >ms2
 55.9336 20
@@ -64048,11 +63202,10 @@
 
 >compound FTneg3436
 >ionization [M+?]-
->parentmass 281.089970521365
+>parentmass Inf
 >rt 6.51091768072385
 
 >ms1
-281.09 100
 
 >ms2
 53.0405 8
@@ -64078,22 +63231,21 @@
 
 >compound FTneg3437
 >ionization [M+?]-
->parentmass 286.08937749741
+>parentmass Inf
 >rt 6.51379486687643
 
 >ms1
-286.0894 100
+
 
 >ms2
 286.0894 100
 
 >compound FTneg3438
 >ionization [M+?]-
->parentmass 294.084264715373
+>parentmass Inf
 >rt 6.52414854746157
 
 >ms1
-294.0843 100
 
 >ms2
 55.051 40
@@ -64104,11 +63256,10 @@
 
 >compound FTneg3439
 >ionization [M+?]-
->parentmass 296.099695310991
+>parentmass Inf
 >rt 6.50286155323789
 
 >ms1
-296.0997 100
 
 >ms2
 51.0216 40
@@ -64138,11 +63289,10 @@
 
 >compound FTneg3440
 >ionization [M+?]-
->parentmass 303.059804467053
+>parentmass Inf
 >rt 6.49078127408235
 
 >ms1
-303.0598 100
 
 >ms2
 57.0596 40
@@ -64159,22 +63309,21 @@
 
 >compound FTneg3441
 >ionization [M+?]-
->parentmass 319.079097109372
+>parentmass Inf
 >rt 6.51038390154591
 
 >ms1
-319.0791 100
+
 
 >ms2
 319.0791 100
 
 >compound FTneg3442
 >ionization [M+?]-
->parentmass 326.099492602707
+>parentmass Inf
 >rt 6.50322446710152
 
 >ms1
-326.0995 100
 
 >ms2
 80.6767 40
@@ -64186,55 +63335,54 @@
 
 >compound FTneg3443
 >ionization [M+?]-
->parentmass 327.098391828922
+>parentmass Inf
 >rt 6.51447807017542
 
 >ms1
-327.0984 100
+
 
 >ms2
 327.0984 100
 
 >compound FTneg3444
 >ionization [M+?]-
->parentmass 329.090581223406
+>parentmass Inf
 >rt 6.50854951846407
 
 >ms1
-329.0906 100
+
 
 >ms2
 329.0906 100
 
 >compound FTneg3445
 >ionization [M+?]-
->parentmass 329.098327064698
+>parentmass Inf
 >rt 6.48985978418826
 
 >ms1
-329.0983 100
+
 
 >ms2
 329.0983 100
 
 >compound FTneg3446
 >ionization [M+?]-
->parentmass 331.079873145621
+>parentmass Inf
 >rt 6.50276377110058
 
 >ms1
-331.0799 100
+
 
 >ms2
 331.0799 100
 
 >compound FTneg3447
 >ionization [M+?]-
->parentmass 331.11455955393
+>parentmass Inf
 >rt 6.50654453857486
 
 >ms1
-331.1146 100
 
 >ms2
 57.0712 27
@@ -64243,121 +63391,120 @@
 
 >compound FTneg3448
 >ionization [M+?]-
->parentmass 332.116361285433
+>parentmass Inf
 >rt 6.49364204781536
 
 >ms1
-332.1164 100
+
 
 >ms2
 332.1164 100
 
 >compound FTneg3449
 >ionization [M+?]-
->parentmass 341.006708821103
+>parentmass Inf
 >rt 6.50375857992728
 
 >ms1
-341.0067 100
+
 
 >ms2
 341.0067 100
 
 >compound FTneg3450
 >ionization [M+?]-
->parentmass 342.101670591225
+>parentmass Inf
 >rt 6.49453747107817
 
 >ms1
-342.1017 100
+
 
 >ms2
 342.1017 100
 
 >compound FTneg3451
 >ionization [M+?]-
->parentmass 349.065453294428
+>parentmass Inf
 >rt 6.50489583333325
 
 >ms1
-349.0655 100
+
 
 >ms2
 349.0655 100
 
 >compound FTneg3452
 >ionization [M+?]-
->parentmass 359.018681855879
+>parentmass Inf
 >rt 6.49829615384615
 
 >ms1
-359.0187 100
+
 
 >ms2
 359.0187 100
 
 >compound FTneg3453
 >ionization [M+?]-
->parentmass 360.147954483253
+>parentmass Inf
 >rt 6.50795758649764
 
 >ms1
-360.148 100
+
 
 >ms2
 360.148 100
 
 >compound FTneg3454
 >ionization [M+?]-
->parentmass 366.015645215051
+>parentmass Inf
 >rt 6.48638665011253
 
 >ms1
-366.0156 100
+
 
 >ms2
 366.0156 100
 
 >compound FTneg3455
 >ionization [M+?]-
->parentmass 371.144803953691
+>parentmass Inf
 >rt 6.48116608859847
 
 >ms1
-371.1448 100
+
 
 >ms2
 371.1448 100
 
 >compound FTneg3456
 >ionization [M+?]-
->parentmass 386.005909571047
+>parentmass Inf
 >rt 6.5079821094321
 
 >ms1
-386.0059 100
+
 
 >ms2
 386.0059 100
 
 >compound FTneg3457
 >ionization [M+?]-
->parentmass 387.012384630812
+>parentmass Inf
 >rt 6.50577206725047
 
 >ms1
-387.0124 100
+
 
 >ms2
 387.0124 100
 
 >compound FTneg3458
 >ionization [M+?]-
->parentmass 406.161774054512
+>parentmass Inf
 >rt 6.49990943223889
 
 >ms1
-406.1618 100
 
 >ms2
 59.0296 27
@@ -64365,66 +63512,65 @@
 
 >compound FTneg3459
 >ionization [M+?]-
->parentmass 408.176661346275
+>parentmass Inf
 >rt 6.50213744806651
 
 >ms1
-408.1767 100
+
 
 >ms2
 408.1767 100
 
 >compound FTneg3460
 >ionization [M+?]-
->parentmass 418.127618115989
+>parentmass Inf
 >rt 6.50635973122543
 
 >ms1
-418.1276 100
+
 
 >ms2
 418.1276 100
 
 >compound FTneg3461
 >ionization [M+?]-
->parentmass 467.133909921187
+>parentmass Inf
 >rt 6.49728103697838
 
 >ms1
-467.1339 100
+
 
 >ms2
 467.1339 100
 
 >compound FTneg3462
 >ionization [M+?]-
->parentmass 480.197999441007
+>parentmass Inf
 >rt 6.4972308762259
 
 >ms1
-480.198 100
+
 
 >ms2
 480.198 100
 
 >compound FTneg3463
 >ionization [M+?]-
->parentmass 529.178636054121
+>parentmass Inf
 >rt 6.50193645833338
 
 >ms1
-529.1786 100
+
 
 >ms2
 529.1786 100
 
 >compound FTneg3464
 >ionization [M+?]-
->parentmass 180.066703432633
+>parentmass Inf
 >rt 3.36722560789198
 
 >ms1
-180.0667 100
 
 >ms2
 53.8882 4
@@ -64454,33 +63600,32 @@
 
 >compound FTneg3465
 >ionization [M+?]-
->parentmass 174.860502209601
+>parentmass Inf
 >rt 3.47732500000006
 
 >ms1
-174.8605 100
+
 
 >ms2
 174.8605 100
 
 >compound FTneg3466
 >ionization [M+?]-
->parentmass 180.05019366504
+>parentmass Inf
 >rt 3.40270224383342
 
 >ms1
-180.0502 100
+
 
 >ms2
 180.0502 100
 
 >compound FTneg3467
 >ionization [M+?]-
->parentmass 180.066722826728
+>parentmass Inf
 >rt 3.41717609654418
 
 >ms1
-180.0667 100
 
 >ms2
 81.0704 40
@@ -64499,11 +63644,10 @@
 
 >compound FTneg3468
 >ionization [M+?]-
->parentmass 181.069877098751
+>parentmass Inf
 >rt 3.41732849320081
 
 >ms1
-181.0699 100
 
 >ms2
 55.054 40
@@ -64533,11 +63677,10 @@
 
 >compound FTneg3469
 >ionization [M+?]-
->parentmass 196.061472004189
+>parentmass Inf
 >rt 3.37469891612887
 
 >ms1
-196.0615 100
 
 >ms2
 50.0105 40
@@ -64545,11 +63688,10 @@
 
 >compound FTneg3470
 >ionization [M+?]-
->parentmass 196.0615309733
+>parentmass Inf
 >rt 3.42291921230983
 
 >ms1
-196.0615 100
 
 >ms2
 50.0142 80
@@ -64584,22 +63726,21 @@
 
 >compound FTneg3471
 >ionization [M+?]-
->parentmass 212.056217765686
+>parentmass Inf
 >rt 3.3911522455614
 
 >ms1
-212.0562 100
+
 
 >ms2
 212.0562 100
 
 >compound FTneg3472
 >ionization [M+?]-
->parentmass 226.071879058469
+>parentmass Inf
 >rt 3.39279388522795
 
 >ms1
-226.0719 100
 
 >ms2
 50.004 4
@@ -64641,11 +63782,10 @@
 
 >compound FTneg3473
 >ionization [M+?]-
->parentmass 248.053989235066
+>parentmass Inf
 >rt 3.40703462882896
 
 >ms1
-248.054 100
 
 >ms2
 53.9414 8
@@ -64667,11 +63807,10 @@
 
 >compound FTneg3474
 >ionization [M+?]-
->parentmass 276.054456147309
+>parentmass Inf
 >rt 3.4000287509969
 
 >ms1
-276.0545 100
 
 >ms2
 50.0156 80
@@ -65071,11 +64210,10 @@
 
 >compound FTneg3475
 >ionization [M+?]-
->parentmass 310.024483085869
+>parentmass Inf
 >rt 3.40142985768567
 
 >ms1
-310.0245 100
 
 >ms2
 53.0382 40
@@ -65100,33 +64238,32 @@
 
 >compound FTneg3476
 >ionization [M+?]-
->parentmass 320.062083977862
+>parentmass Inf
 >rt 3.41253860369716
 
 >ms1
-320.0621 100
+
 
 >ms2
 320.0621 100
 
 >compound FTneg3477
 >ionization [M+?]-
->parentmass 324.993432233243
+>parentmass Inf
 >rt 3.40095613592797
 
 >ms1
-324.9934 100
+
 
 >ms2
 324.9934 100
 
 >compound FTneg3478
 >ionization [M+?]-
->parentmass 325.996760622692
+>parentmass Inf
 >rt 3.40711267629155
 
 >ms1
-325.9968 100
 
 >ms2
 55.0617 40
@@ -65138,22 +64275,21 @@
 
 >compound FTneg3479
 >ionization [M+?]-
->parentmass 327.997567333224
+>parentmass Inf
 >rt 3.43746407762345
 
 >ms1
-327.9976 100
+
 
 >ms2
 327.9976 100
 
 >compound FTneg3480
 >ionization [M+?]-
->parentmass 360.129899240437
+>parentmass Inf
 >rt 3.40081422610995
 
 >ms1
-360.1299 100
 
 >ms2
 55.0503 14
@@ -65167,22 +64303,21 @@
 
 >compound FTneg3481
 >ionization [M+?]-
->parentmass 370.994419201553
+>parentmass Inf
 >rt 3.41837940961963
 
 >ms1
-370.9944 100
+
 
 >ms2
 370.9944 100
 
 >compound FTneg3482
 >ionization [M+?]-
->parentmass 383.122455343051
+>parentmass Inf
 >rt 3.41991023549616
 
 >ms1
-383.1225 100
 
 >ms2
 55.054 4
@@ -65195,11 +64330,10 @@
 
 >compound FTneg3483
 >ionization [M+?]-
->parentmass 383.182207492672
+>parentmass Inf
 >rt 3.4430697079439
 
 >ms1
-383.1822 100
 
 >ms2
 53.0376 4
@@ -65229,55 +64363,54 @@
 
 >compound FTneg3484
 >ionization [M+?]-
->parentmass 445.092532406734
+>parentmass Inf
 >rt 3.40415024468906
 
 >ms1
-445.0925 100
+
 
 >ms2
 445.0925 100
 
 >compound FTneg3485
 >ionization [M+?]-
->parentmass 460.064714807727
+>parentmass Inf
 >rt 3.40165509979899
 
 >ms1
-460.0647 100
+
 
 >ms2
 460.0647 100
 
 >compound FTneg3486
 >ionization [M+?]-
->parentmass 461.065421143321
+>parentmass Inf
 >rt 3.40322309322706
 
 >ms1
-461.0654 100
+
 
 >ms2
 461.0654 100
 
 >compound FTneg3487
 >ionization [M+?]-
->parentmass 506.062677879158
+>parentmass Inf
 >rt 3.40219091713997
 
 >ms1
-506.0627 100
+
 
 >ms2
 506.0627 100
 
 >compound FTneg3488
 >ionization [M+?]-
->parentmass 542.214261189517
+>parentmass Inf
 >rt 3.40236935002546
 
 >ms1
-542.2143 100
 
 >ms2
 55.0185 20
@@ -65306,11 +64439,10 @@
 
 >compound FTneg3489
 >ionization [M+?]-
->parentmass 564.256168859077
+>parentmass Inf
 >rt 3.43590662823545
 
 >ms1
-564.2562 100
 
 >ms2
 55.0465 40
@@ -65318,121 +64450,120 @@
 
 >compound FTneg3490
 >ionization [M+?]-
->parentmass 596.133841325071
+>parentmass Inf
 >rt 3.39853984087023
 
 >ms1
-596.1338 100
+
 
 >ms2
 596.1338 100
 
 >compound FTneg3491
 >ionization [M+?]-
->parentmass 174.956188971233
+>parentmass Inf
 >rt 18.9259730553612
 
 >ms1
-174.9562 100
+
 
 >ms2
 174.9562 100
 
 >compound FTneg3492
 >ionization [M+?]-
->parentmass 190.928500786502
+>parentmass Inf
 >rt 18.9387366335381
 
 >ms1
-190.9285 100
+
 
 >ms2
 190.9285 100
 
 >compound FTneg3493
 >ionization [M+?]-
->parentmass 320.886136134893
+>parentmass Inf
 >rt 18.9331750947483
 
 >ms1
-320.8861 100
+
 
 >ms2
 320.8861 100
 
 >compound FTneg3494
 >ionization [M+?]-
->parentmass 434.806339845586
+>parentmass Inf
 >rt 18.9134833333334
 
 >ms1
-434.8063 100
+
 
 >ms2
 434.8063 100
 
 >compound FTneg3495
 >ionization [M+?]-
->parentmass 476.875496000848
+>parentmass Inf
 >rt 18.9173233333333
 
 >ms1
-476.8755 100
+
 
 >ms2
 476.8755 100
 
 >compound FTneg3496
 >ionization [M+?]-
->parentmass 175.282893364393
+>parentmass Inf
 >rt 9.11506505376348
 
 >ms1
-175.2829 100
+
 
 >ms2
 175.2829 100
 
 >compound FTneg3497
 >ionization [M+?]-
->parentmass 176.040015834925
+>parentmass Inf
 >rt 6.77214196038403
 
 >ms1
-176.04 100
+
 
 >ms2
 176.04 100
 
 >compound FTneg3498
 >ionization [M+?]-
->parentmass 251.113317048353
+>parentmass Inf
 >rt 6.78825122357607
 
 >ms1
-251.1133 100
+
 
 >ms2
 251.1133 100
 
 >compound FTneg3499
 >ionization [M+?]-
->parentmass 274.092943485785
+>parentmass Inf
 >rt 6.77695348720622
 
 >ms1
-274.0929 100
+
 
 >ms2
 274.0929 100
 
 >compound FTneg3500
 >ionization [M+?]-
->parentmass 279.995210301674
+>parentmass Inf
 >rt 6.78587631578947
 
 >ms1
-279.9952 100
 
 >ms2
 50.0155 4
@@ -65477,33 +64608,32 @@
 
 >compound FTneg3501
 >ionization [M+?]-
->parentmass 313.056008811501
+>parentmass Inf
 >rt 6.76952777777773
 
 >ms1
-313.056 100
+
 
 >ms2
 313.056 100
 
 >compound FTneg3502
 >ionization [M+?]-
->parentmass 318.112938757085
+>parentmass Inf
 >rt 6.83287169614894
 
 >ms1
-318.1129 100
+
 
 >ms2
 318.1129 100
 
 >compound FTneg3503
 >ionization [M+?]-
->parentmass 273.097709397035
+>parentmass Inf
 >rt 8.43698903984582
 
 >ms1
-273.0977 100
 
 >ms2
 51.9396 8
@@ -65534,33 +64664,32 @@
 
 >compound FTneg3504
 >ionization [M+?]-
->parentmass 184.097874716679
+>parentmass Inf
 >rt 8.43205245695037
 
 >ms1
-184.0979 100
+
 
 >ms2
 184.0979 100
 
 >compound FTneg3505
 >ionization [M+?]-
->parentmass 899.505895997801
+>parentmass Inf
 >rt 8.43325796704913
 
 >ms1
-899.5059 100
+
 
 >ms2
 899.5059 100
 
 >compound FTneg3506
 >ionization [M+?]-
->parentmass 176.071682871954
+>parentmass Inf
 >rt 8.43235774628489
 
 >ms1
-176.0717 100
 
 >ms2
 58.3051 20
@@ -65574,99 +64703,98 @@
 
 >compound FTneg3507
 >ionization [M+?]-
->parentmass 181.05322260793
+>parentmass Inf
 >rt 8.44578472222225
 
 >ms1
-181.0532 100
+
 
 >ms2
 181.0532 100
 
 >compound FTneg3508
 >ionization [M+?]-
->parentmass 197.081641608178
+>parentmass Inf
 >rt 8.4330780463995
 
 >ms1
-197.0816 100
+
 
 >ms2
 197.0816 100
 
 >compound FTneg3509
 >ionization [M+?]-
->parentmass 203.128543284961
+>parentmass Inf
 >rt 8.39384594619482
 
 >ms1
-203.1285 100
+
 
 >ms2
 203.1285 100
 
 >compound FTneg3510
 >ionization [M+?]-
->parentmass 250.144648472449
+>parentmass Inf
 >rt 8.37468409444346
 
 >ms1
-250.1446 100
+
 
 >ms2
 250.1446 100
 
 >compound FTneg3511
 >ionization [M+?]-
->parentmass 273.078367836773
+>parentmass Inf
 >rt 8.43909801560882
 
 >ms1
-273.0784 100
+
 
 >ms2
 273.0784 100
 
 >compound FTneg3512
 >ionization [M+?]-
->parentmass 281.113965282093
+>parentmass Inf
 >rt 8.4480530948496
 
 >ms1
-281.114 100
+
 
 >ms2
 281.114 100
 
 >compound FTneg3513
 >ionization [M+?]-
->parentmass 429.195539067452
+>parentmass Inf
 >rt 8.43603079744308
 
 >ms1
-429.1955 100
+
 
 >ms2
 429.1955 100
 
 >compound FTneg3514
 >ionization [M+?]-
->parentmass 515.086189231701
+>parentmass Inf
 >rt 8.44614435704622
 
 >ms1
-515.0862 100
+
 
 >ms2
 515.0862 100
 
 >compound FTneg3515
 >ionization [M+?]-
->parentmass 337.038694014443
+>parentmass Inf
 >rt 9.07406023171485
 
 >ms1
-337.0387 100
 
 >ms2
 53.0384 20
@@ -65678,22 +64806,21 @@
 
 >compound FTneg3516
 >ionization [M+?]-
->parentmass 177.055553101398
+>parentmass Inf
 >rt 9.06689111277675
 
 >ms1
-177.0556 100
+
 
 >ms2
 177.0556 100
 
 >compound FTneg3517
 >ionization [M+?]-
->parentmass 199.097428031067
+>parentmass Inf
 >rt 8.9331772245184
 
 >ms1
-199.0974 100
 
 >ms2
 51.0229 283
@@ -65733,11 +64860,10 @@
 
 >compound FTneg3518
 >ionization [M+?]-
->parentmass 207.068958186449
+>parentmass Inf
 >rt 9.11549823185493
 
 >ms1
-207.069 100
 
 >ms2
 50.014 40
@@ -65768,22 +64894,20 @@
 
 >compound FTneg3519
 >ionization [M+?]-
->parentmass 273.170417085216
+>parentmass Inf
 >rt 9.10623222854253
 
 >ms1
-273.1704 100
 
 >ms2
 53.0384 40
 
 >compound FTneg3520
 >ionization [M+?]-
->parentmass 401.077836910886
+>parentmass Inf
 >rt 9.08886771072516
 
 >ms1
-401.0778 100
 
 >ms2
 55.0548 445
@@ -65824,77 +64948,76 @@
 
 >compound FTneg3521
 >ionization [M+?]-
->parentmass 304.068830002435
+>parentmass Inf
 >rt 6.60997314400808
 
 >ms1
-304.0688 100
+
 
 >ms2
 304.0688 100
 
 >compound FTneg3522
 >ionization [M+?]-
->parentmass 178.027145761124
+>parentmass Inf
 >rt 6.59892604300382
 
 >ms1
-178.0271 100
+
 
 >ms2
 178.0271 100
 
 >compound FTneg3523
 >ionization [M+?]-
->parentmass 270.360792723511
+>parentmass Inf
 >rt 6.60735520833331
 
 >ms1
-270.3608 100
+
 
 >ms2
 270.3608 100
 
 >compound FTneg3524
 >ionization [M+?]-
->parentmass 386.096038160165
+>parentmass Inf
 >rt 6.59187397733975
 
 >ms1
-386.096 100
+
 
 >ms2
 386.096 100
 
 >compound FTneg3525
 >ionization [M+?]-
->parentmass 389.10726960222
+>parentmass Inf
 >rt 6.58961309348475
 
 >ms1
-389.1073 100
+
 
 >ms2
 389.1073 100
 
 >compound FTneg3526
 >ionization [M+?]-
->parentmass 399.093474890963
+>parentmass Inf
 >rt 6.61232498993377
 
 >ms1
-399.0935 100
+
 
 >ms2
 399.0935 100
 
 >compound FTneg3527
 >ionization [M+?]-
->parentmass 212.002232776669
+>parentmass Inf
 >rt 7.50396701343766
 
 >ms1
-212.0022 100
 
 >ms2
 50.0141 8
@@ -65932,11 +65055,10 @@
 
 >compound FTneg3528
 >ionization [M+?]-
->parentmass 470.069524668953
+>parentmass Inf
 >rt 7.5045385112044
 
 >ms1
-470.0695 100
 
 >ms2
 53.0443 40
@@ -65969,11 +65091,10 @@
 
 >compound FTneg3529
 >ionization [M+?]-
->parentmass 178.050787177376
+>parentmass Inf
 >rt 7.49723630451346
 
 >ms1
-178.0508 100
 
 >ms2
 51.0216 40
@@ -65984,33 +65105,32 @@
 
 >compound FTneg3530
 >ionization [M+?]-
->parentmass 179.053567784703
+>parentmass Inf
 >rt 7.62406885964918
 
 >ms1
-179.0536 100
+
 
 >ms2
 179.0536 100
 
 >compound FTneg3531
 >ionization [M+?]-
->parentmass 197.782365373363
+>parentmass Inf
 >rt 7.60900862068966
 
 >ms1
-197.7824 100
+
 
 >ms2
 197.7824 100
 
 >compound FTneg3532
 >ionization [M+?]-
->parentmass 211.984073821577
+>parentmass Inf
 >rt 7.51030954174815
 
 >ms1
-211.9841 100
 
 >ms2
 51.9397 20
@@ -66036,11 +65156,10 @@
 
 >compound FTneg3533
 >ionization [M+?]-
->parentmass 243.991889963139
+>parentmass Inf
 >rt 7.48975337746855
 
 >ms1
-243.9919 100
 
 >ms2
 55.0185 40
@@ -66069,11 +65188,10 @@
 
 >compound FTneg3534
 >ionization [M+?]-
->parentmass 245.012497735779
+>parentmass Inf
 >rt 7.50203061110854
 
 >ms1
-245.0125 100
 
 >ms2
 50.0163 40
@@ -66095,11 +65213,10 @@
 
 >compound FTneg3535
 >ionization [M+?]-
->parentmass 279.98955916628
+>parentmass Inf
 >rt 7.51624533203802
 
 >ms1
-279.9896 100
 
 >ms2
 56.0496 40
@@ -66109,11 +65226,10 @@
 
 >compound FTneg3536
 >ionization [M+?]-
->parentmass 357.932628784853
+>parentmass Inf
 >rt 7.49663531259667
 
 >ms1
-357.9326 100
 
 >ms2
 55.0537 159
@@ -66132,11 +65248,10 @@
 
 >compound FTneg3537
 >ionization [M+?]-
->parentmass 442.038183971799
+>parentmass Inf
 >rt 7.50038161442376
 
 >ms1
-442.0382 100
 
 >ms2
 50.9866 40
@@ -66162,11 +65277,10 @@
 
 >compound FTneg3538
 >ionization [M+?]-
->parentmass 700.105650741535
+>parentmass Inf
 >rt 7.49898206540721
 
 >ms1
-700.1057 100
 
 >ms2
 55.0541 40
@@ -66189,11 +65303,10 @@
 
 >compound FTneg3539
 >ionization [M+?]-
->parentmass 728.137246703115
+>parentmass Inf
 >rt 7.50269251324766
 
 >ms1
-728.1372 100
 
 >ms2
 71.0933 40
@@ -66220,55 +65333,54 @@
 
 >compound FTneg3540
 >ionization [M+?]-
->parentmass 178.062506627413
+>parentmass Inf
 >rt 6.95294250873147
 
 >ms1
-178.0625 100
+
 
 >ms2
 178.0625 100
 
 >compound FTneg3541
 >ionization [M+?]-
->parentmass 367.067542604579
+>parentmass Inf
 >rt 6.97105294117641
 
 >ms1
-367.0675 100
+
 
 >ms2
 367.0675 100
 
 >compound FTneg3542
 >ionization [M+?]-
->parentmass 178.976314440564
+>parentmass Inf
 >rt 2.2837311594203
 
 >ms1
-178.9763 100
+
 
 >ms2
 178.9763 100
 
 >compound FTneg3543
 >ionization [M+?]-
->parentmass 178.977116726854
+>parentmass Inf
 >rt 9.36377374548625
 
 >ms1
-178.9771 100
+
 
 >ms2
 178.9771 100
 
 >compound FTneg3544
 >ionization [M+?]-
->parentmass 189.931481442947
+>parentmass Inf
 >rt 9.38822803024315
 
 >ms1
-189.9315 100
 
 >ms2
 50.014 16
@@ -66288,44 +65400,43 @@
 
 >compound FTneg3545
 >ionization [M+?]-
->parentmass 291.145012986069
+>parentmass Inf
 >rt 9.40156982425988
 
 >ms1
-291.145 100
+
 
 >ms2
 291.145 100
 
 >compound FTneg3546
 >ionization [M+?]-
->parentmass 301.128095925212
+>parentmass Inf
 >rt 9.38508845074836
 
 >ms1
-301.1281 100
+
 
 >ms2
 301.1281 100
 
 >compound FTneg3547
 >ionization [M+?]-
->parentmass 395.085309986246
+>parentmass Inf
 >rt 9.38911634974296
 
 >ms1
-395.0853 100
+
 
 >ms2
 395.0853 100
 
 >compound FTneg3548
 >ionization [M+?]-
->parentmass 179.071246500726
+>parentmass Inf
 >rt 8.96268090083107
 
 >ms1
-179.0712 100
 
 >ms2
 60.0793 40
@@ -66352,11 +65463,10 @@
 
 >compound FTneg3549
 >ionization [M+?]-
->parentmass 331.138171517231
+>parentmass Inf
 >rt 9.03869543811744
 
 >ms1
-331.1382 100
 
 >ms2
 53.0399 4
@@ -66405,22 +65515,21 @@
 
 >compound FTneg3550
 >ionization [M+?]-
->parentmass 185.118024650378
+>parentmass Inf
 >rt 8.96232465802328
 
 >ms1
-185.118 100
+
 
 >ms2
 185.118 100
 
 >compound FTneg3551
 >ionization [M+?]-
->parentmass 229.016930302083
+>parentmass Inf
 >rt 8.97127830903218
 
 >ms1
-229.0169 100
 
 >ms2
 51.9427 4
@@ -66457,22 +65566,21 @@
 
 >compound FTneg3552
 >ionization [M+?]-
->parentmass 308.097549774216
+>parentmass Inf
 >rt 9.02047113826576
 
 >ms1
-308.0975 100
+
 
 >ms2
 308.0975 100
 
 >compound FTneg3553
 >ionization [M+?]-
->parentmass 297.170390315184
+>parentmass Inf
 >rt 10.3956895122484
 
 >ms1
-297.1704 100
 
 >ms2
 51.0238 40
@@ -66498,11 +65606,10 @@
 
 >compound FTneg3554
 >ionization [M+?]-
->parentmass 301.121299593959
+>parentmass Inf
 >rt 10.4251368114591
 
 >ms1
-301.1213 100
 
 >ms2
 50.372 40
@@ -66521,11 +65628,10 @@
 
 >compound FTneg3555
 >ionization [M+?]-
->parentmass 179.107083698418
+>parentmass Inf
 >rt 10.4148116729184
 
 >ms1
-179.1071 100
 
 >ms2
 50.1593 40
@@ -66600,11 +65706,10 @@
 
 >compound FTneg3556
 >ionization [M+?]-
->parentmass 255.15979582233
+>parentmass Inf
 >rt 10.4107299582263
 
 >ms1
-255.1598 100
 
 >ms2
 50.0091 4
@@ -66648,22 +65753,21 @@
 
 >compound FTneg3557
 >ionization [M+?]-
->parentmass 353.048851767274
+>parentmass Inf
 >rt 10.3847231137499
 
 >ms1
-353.0489 100
+
 
 >ms2
 353.0489 100
 
 >compound FTneg3558
 >ionization [M+?]-
->parentmass 478.262834751033
+>parentmass Inf
 >rt 10.4729104166666
 
 >ms1
-478.2628 100
 
 >ms2
 50.012 4
@@ -66671,33 +65775,32 @@
 
 >compound FTneg3559
 >ionization [M+?]-
->parentmass 181.034709359248
+>parentmass Inf
 >rt 6.99629567825777
 
 >ms1
-181.0347 100
+
 
 >ms2
 181.0347 100
 
 >compound FTneg3560
 >ionization [M+?]-
->parentmass 297.059086229473
+>parentmass Inf
 >rt 6.97231754385968
 
 >ms1
-297.0591 100
+
 
 >ms2
 297.0591 100
 
 >compound FTneg3561
 >ionization [M+?]-
->parentmass 181.050704131622
+>parentmass Inf
 >rt 6.99645310446309
 
 >ms1
-181.0507 100
 
 >ms2
 60.0801 40
@@ -66727,11 +65830,10 @@
 
 >compound FTneg3562
 >ionization [M+?]-
->parentmass 190.038007372783
+>parentmass Inf
 >rt 6.96200941922999
 
 >ms1
-190.038 100
 
 >ms2
 51.9382 40
@@ -66764,11 +65866,10 @@
 
 >compound FTneg3563
 >ionization [M+?]-
->parentmass 190.054271396876
+>parentmass Inf
 >rt 6.98066531688715
 
 >ms1
-190.0543 100
 
 >ms2
 50.0005 20
@@ -66794,176 +65895,175 @@
 
 >compound FTneg3564
 >ionization [M+?]-
->parentmass 192.050849491409
+>parentmass Inf
 >rt 6.94195826027603
 
 >ms1
-192.0508 100
+
 
 >ms2
 192.0508 100
 
 >compound FTneg3565
 >ionization [M+?]-
->parentmass 249.037899058437
+>parentmass Inf
 >rt 6.981672368102
 
 >ms1
-249.0379 100
+
 
 >ms2
 249.0379 100
 
 >compound FTneg3566
 >ionization [M+?]-
->parentmass 258.041990541379
+>parentmass Inf
 >rt 7.05012544226107
 
 >ms1
-258.042 100
+
 
 >ms2
 258.042 100
 
 >compound FTneg3567
 >ionization [M+?]-
->parentmass 265.129060911419
+>parentmass Inf
 >rt 6.97191547619043
 
 >ms1
-265.1291 100
+
 
 >ms2
 265.1291 100
 
 >compound FTneg3568
 >ionization [M+?]-
->parentmass 278.106182736163
+>parentmass Inf
 >rt 7.04127954196316
 
 >ms1
-278.1062 100
+
 
 >ms2
 278.1062 100
 
 >compound FTneg3569
 >ionization [M+?]-
->parentmass 280.97558960151
+>parentmass Inf
 >rt 6.97990659071065
 
 >ms1
-280.9756 100
+
 
 >ms2
 280.9756 100
 
 >compound FTneg3570
 >ionization [M+?]-
->parentmass 295.139483388699
+>parentmass Inf
 >rt 7.00201451746396
 
 >ms1
-295.1395 100
+
 
 >ms2
 295.1395 100
 
 >compound FTneg3571
 >ionization [M+?]-
->parentmass 305.915603416386
+>parentmass Inf
 >rt 6.97487393390515
 
 >ms1
-305.9156 100
+
 
 >ms2
 305.9156 100
 
 >compound FTneg3572
 >ionization [M+?]-
->parentmass 311.008296077824
+>parentmass Inf
 >rt 6.98303940743774
 
 >ms1
-311.0083 100
+
 
 >ms2
 311.0083 100
 
 >compound FTneg3573
 >ionization [M+?]-
->parentmass 325.974652319493
+>parentmass Inf
 >rt 6.94986315304992
 
 >ms1
-325.9747 100
+
 
 >ms2
 325.9747 100
 
 >compound FTneg3574
 >ionization [M+?]-
->parentmass 326.98040307771
+>parentmass Inf
 >rt 7.02385854780584
 
 >ms1
-326.9804 100
+
 
 >ms2
 326.9804 100
 
 >compound FTneg3575
 >ionization [M+?]-
->parentmass 361.113458894914
+>parentmass Inf
 >rt 6.98272083506088
 
 >ms1
-361.1135 100
+
 
 >ms2
 361.1135 100
 
 >compound FTneg3576
 >ionization [M+?]-
->parentmass 361.133655020112
+>parentmass Inf
 >rt 6.97599064198397
 
 >ms1
-361.1337 100
+
 
 >ms2
 361.1337 100
 
 >compound FTneg3577
 >ionization [M+?]-
->parentmass 372.112441012141
+>parentmass Inf
 >rt 6.99000613414951
 
 >ms1
-372.1124 100
+
 
 >ms2
 372.1124 100
 
 >compound FTneg3578
 >ionization [M+?]-
->parentmass 405.145326335734
+>parentmass Inf
 >rt 6.98400958173395
 
 >ms1
-405.1453 100
+
 
 >ms2
 405.1453 100
 
 >compound FTneg3579
 >ionization [M+?]-
->parentmass 182.988624480458
+>parentmass Inf
 >rt 9.09408913789529
 
 >ms1
-182.9886 100
 
 >ms2
 55.0526 20
@@ -66982,11 +66082,10 @@
 
 >compound FTneg3580
 >ionization [M+?]-
->parentmass 201.112974496511
+>parentmass Inf
 >rt 9.11435407452168
 
 >ms1
-201.113 100
 
 >ms2
 52.0258 80
@@ -66997,11 +66096,10 @@
 
 >compound FTneg3581
 >ionization [M+?]-
->parentmass 215.092355812235
+>parentmass Inf
 >rt 9.05549795559818
 
 >ms1
-215.0924 100
 
 >ms2
 51.0216 13
@@ -67045,44 +66143,42 @@
 
 >compound FTneg3582
 >ionization [M+?]-
->parentmass 228.994157949508
+>parentmass Inf
 >rt 9.1373638304195
 
 >ms1
-228.9942 100
 
 >ms2
 521.6383 8
 
 >compound FTneg3583
 >ionization [M+?]-
->parentmass 183.102191437052
+>parentmass Inf
 >rt 10.2515094159213
 
 >ms1
-183.1022 100
+
 
 >ms2
 183.1022 100
 
 >compound FTneg3584
 >ionization [M+?]-
->parentmass 598.335529308116
+>parentmass Inf
 >rt 10.1911583739982
 
 >ms1
-598.3355 100
+
 
 >ms2
 598.3355 100
 
 >compound FTneg3585
 >ionization [M+?]-
->parentmass 363.017947895905
+>parentmass Inf
 >rt 8.90481023333635
 
 >ms1
-363.0179 100
 
 >ms2
 79.0616 40
@@ -67093,11 +66189,10 @@
 
 >compound FTneg3586
 >ionization [M+?]-
->parentmass 514.284213397266
+>parentmass Inf
 >rt 8.74819055766238
 
 >ms1
-514.2842 100
 
 >ms2
 58.8713 20
@@ -67107,33 +66202,31 @@
 
 >compound FTneg3587
 >ionization [M+?]-
->parentmass 183.102521583188
+>parentmass Inf
 >rt 8.90794228186887
 
 >ms1
-183.1025 100
+
 
 >ms2
 183.1025 100
 
 >compound FTneg3588
 >ionization [M+?]-
->parentmass 227.092397381994
+>parentmass Inf
 >rt 8.90091831439304
 
 >ms1
-227.0924 100
 
 >ms2
 52.0067 4
 
 >compound FTneg3589
 >ionization [M+?]-
->parentmass 245.102257047634
+>parentmass Inf
 >rt 8.90333321746686
 
 >ms1
-245.1023 100
 
 >ms2
 56.0559 40
@@ -67141,33 +66234,32 @@
 
 >compound FTneg3590
 >ionization [M+?]-
->parentmass 249.032152530851
+>parentmass Inf
 >rt 8.88607802360024
 
 >ms1
-249.0322 100
+
 
 >ms2
 249.0322 100
 
 >compound FTneg3591
 >ionization [M+?]-
->parentmass 278.088029416858
+>parentmass Inf
 >rt 8.90661245903391
 
 >ms1
-278.088 100
+
 
 >ms2
 278.088 100
 
 >compound FTneg3592
 >ionization [M+?]-
->parentmass 187.097519840779
+>parentmass Inf
 >rt 8.68552274210254
 
 >ms1
-187.0975 100
 
 >ms2
 53.0435 43
@@ -67180,11 +66272,10 @@
 
 >compound FTneg3593
 >ionization [M+?]-
->parentmass 530.279013815952
+>parentmass Inf
 >rt 8.68060035472873
 
 >ms1
-530.279 100
 
 >ms2
 55.0503 40
@@ -67211,55 +66302,53 @@
 
 >compound FTneg3594
 >ionization [M+?]-
->parentmass 183.102552435492
+>parentmass Inf
 >rt 8.67358836557993
 
 >ms1
-183.1026 100
 
 >ms2
 54.0085 40
 
 >compound FTneg3595
 >ionization [M+?]-
->parentmass 229.107964696436
+>parentmass Inf
 >rt 8.68349674449162
 
 >ms1
-229.108 100
+
 
 >ms2
 229.108 100
 
 >compound FTneg3596
 >ionization [M+?]-
->parentmass 243.123453128653
+>parentmass Inf
 >rt 8.6750281312592
 
 >ms1
-243.1235 100
+
 
 >ms2
 243.1235 100
 
 >compound FTneg3597
 >ionization [M+?]-
->parentmass 287.022595342627
+>parentmass Inf
 >rt 8.7297403447475
 
 >ms1
-287.0226 100
+
 
 >ms2
 287.0226 100
 
 >compound FTneg3598
 >ionization [M+?]-
->parentmass 347.113290418454
+>parentmass Inf
 >rt 8.6666198710559
 
 >ms1
-347.1133 100
 
 >ms2
 57.0703 20
@@ -67273,33 +66362,32 @@
 
 >compound FTneg3599
 >ionization [M+?]-
->parentmass 448.071028221323
+>parentmass Inf
 >rt 8.67687213541542
 
 >ms1
-448.071 100
+
 
 >ms2
 448.071 100
 
 >compound FTneg3600
 >ionization [M+?]-
->parentmass 533.280299887993
+>parentmass Inf
 >rt 8.59679030069852
 
 >ms1
-533.2803 100
+
 
 >ms2
 533.2803 100
 
 >compound FTneg3601
 >ionization [M+?]-
->parentmass 332.947258414382
+>parentmass Inf
 >rt 1.65691601046408
 
 >ms1
-332.9473 100
 
 >ms2
 55.0177 8
@@ -67324,33 +66412,32 @@
 
 >compound FTneg3602
 >ionization [M+?]-
->parentmass 239.924566893548
+>parentmass Inf
 >rt 1.65289688440078
 
 >ms1
-239.9246 100
+
 
 >ms2
 239.9246 100
 
 >compound FTneg3603
 >ionization [M+?]-
->parentmass 271.003826973963
+>parentmass Inf
 >rt 1.6625314469625
 
 >ms1
-271.0038 100
+
 
 >ms2
 271.0038 100
 
 >compound FTneg3604
 >ionization [M+?]-
->parentmass 288.965134370889
+>parentmass Inf
 >rt 1.66400543029905
 
 >ms1
-288.9651 100
 
 >ms2
 51.0222 20
@@ -67366,22 +66453,21 @@
 
 >compound FTneg3605
 >ionization [M+?]-
->parentmass 299.880293722167
+>parentmass Inf
 >rt 1.6463807440535
 
 >ms1
-299.8803 100
+
 
 >ms2
 299.8803 100
 
 >compound FTneg3606
 >ionization [M+?]-
->parentmass 330.950178177699
+>parentmass Inf
 >rt 1.65813423053939
 
 >ms1
-330.9502 100
 
 >ms2
 53.0398 42
@@ -67445,88 +66531,87 @@
 
 >compound FTneg3607
 >ionization [M+?]-
->parentmass 346.924234187431
+>parentmass Inf
 >rt 1.65284813812884
 
 >ms1
-346.9242 100
+
 
 >ms2
 346.9242 100
 
 >compound FTneg3608
 >ionization [M+?]-
->parentmass 355.842630196328
+>parentmass Inf
 >rt 1.64536057968061
 
 >ms1
-355.8426 100
+
 
 >ms2
 355.8426 100
 
 >compound FTneg3609
 >ionization [M+?]-
->parentmass 357.838898393963
+>parentmass Inf
 >rt 1.64396830190401
 
 >ms1
-357.8389 100
+
 
 >ms2
 357.8389 100
 
 >compound FTneg3610
 >ionization [M+?]-
->parentmass 388.909628056191
+>parentmass Inf
 >rt 1.6480277980034
 
 >ms1
-388.9096 100
+
 
 >ms2
 388.9096 100
 
 >compound FTneg3611
 >ionization [M+?]-
->parentmass 390.905998023394
+>parentmass Inf
 >rt 1.64834573559761
 
 >ms1
-390.906 100
+
 
 >ms2
 390.906 100
 
 >compound FTneg3612
 >ionization [M+?]-
->parentmass 419.987891508196
+>parentmass Inf
 >rt 1.65809357118216
 
 >ms1
-419.9879 100
+
 
 >ms2
 419.9879 100
 
 >compound FTneg3613
 >ionization [M+?]-
->parentmass 421.9854294813
+>parentmass Inf
 >rt 1.65552054603193
 
 >ms1
-421.9854 100
+
 
 >ms2
 421.9854 100
 
 >compound FTneg3614
 >ionization [M+?]-
->parentmass 511.013698659807
+>parentmass Inf
 >rt 1.66039821769955
 
 >ms1
-511.0137 100
 
 >ms2
 67.0525 13
@@ -67537,11 +66622,10 @@
 
 >compound FTneg3615
 >ionization [M+?]-
->parentmass 513.010866862469
+>parentmass Inf
 >rt 1.65887895904629
 
 >ms1
-513.0109 100
 
 >ms2
 54.883 40
@@ -67557,55 +66641,54 @@
 
 >compound FTneg3616
 >ionization [M+?]-
->parentmass 184.87762953469
+>parentmass Inf
 >rt 18.8837921314913
 
 >ms1
-184.8776 100
+
 
 >ms2
 184.8776 100
 
 >compound FTneg3617
 >ionization [M+?]-
->parentmass 185.08187888653
+>parentmass Inf
 >rt 8.22104633753266
 
 >ms1
-185.0819 100
+
 
 >ms2
 185.0819 100
 
 >compound FTneg3618
 >ionization [M+?]-
->parentmass 201.112929912808
+>parentmass Inf
 >rt 8.18127013097733
 
 >ms1
-201.1129 100
+
 
 >ms2
 201.1129 100
 
 >compound FTneg3619
 >ionization [M+?]-
->parentmass 509.250872349439
+>parentmass Inf
 >rt 8.159359375
 
 >ms1
-509.2509 100
+
 
 >ms2
 509.2509 100
 
 >compound FTneg3620
 >ionization [M+?]-
->parentmass 779.364405980436
+>parentmass Inf
 >rt 10.9319771122168
 
 >ms1
-779.3644 100
 
 >ms2
 55.0533 20
@@ -67664,11 +66747,10 @@
 
 >compound FTneg3621
 >ionization [M+?]-
->parentmass 185.118078482761
+>parentmass Inf
 >rt 10.9634215349346
 
 >ms1
-185.1181 100
 
 >ms2
 51.9381 40
@@ -67680,11 +66762,10 @@
 
 >compound FTneg3622
 >ionization [M+?]-
->parentmass 325.201418836352
+>parentmass Inf
 >rt 10.955309739775
 
 >ms1
-325.2014 100
 
 >ms2
 55.0547 12
@@ -67726,11 +66807,10 @@
 
 >compound FTneg3623
 >ionization [M+?]-
->parentmass 445.295224627782
+>parentmass Inf
 >rt 10.9719142084435
 
 >ms1
-445.2952 100
 
 >ms2
 55.0571 13
@@ -67742,11 +66822,10 @@
 
 >compound FTneg3624
 >ionization [M+?]-
->parentmass 449.326737548533
+>parentmass Inf
 >rt 10.9606776557887
 
 >ms1
-449.3267 100
 
 >ms2
 51.0201 40
@@ -67782,33 +66861,31 @@
 
 >compound FTneg3625
 >ionization [M+?]-
->parentmass 491.301006093712
+>parentmass Inf
 >rt 10.9655070191807
 
 >ms1
-491.301 100
 
 >ms2
 202.9602 40
 
 >compound FTneg3626
 >ionization [M+?]-
->parentmass 495.278642991683
+>parentmass Inf
 >rt 10.9532660252576
 
 >ms1
-495.2786 100
+
 
 >ms2
 495.2786 100
 
 >compound FTneg3627
 >ionization [M+?]-
->parentmass 439.269726467114
+>parentmass Inf
 >rt 9.55986665844759
 
 >ms1
-439.2697 100
 
 >ms2
 57.0349 40
@@ -67822,11 +66899,10 @@
 
 >compound FTneg3628
 >ionization [M+?]-
->parentmass 378.145701969545
+>parentmass Inf
 >rt 9.5546459600044
 
 >ms1
-378.1457 100
 
 >ms2
 55.0564 40
@@ -67877,11 +66953,10 @@
 
 >compound FTneg3629
 >ionization [M+?]-
->parentmass 228.160396228187
+>parentmass Inf
 >rt 9.56275603689646
 
 >ms1
-228.1604 100
 
 >ms2
 50.0142 4
@@ -67920,11 +66995,10 @@
 
 >compound FTneg3630
 >ionization [M+?]-
->parentmass 185.118110769069
+>parentmass Inf
 >rt 9.54712264390981
 
 >ms1
-185.1181 100
 
 >ms2
 50.0163 40
@@ -67952,11 +67026,10 @@
 
 >compound FTneg3631
 >ionization [M+?]-
->parentmass 269.175469903099
+>parentmass Inf
 >rt 9.58414471907114
 
 >ms1
-269.1755 100
 
 >ms2
 51.9405 40
@@ -68002,22 +67075,21 @@
 
 >compound FTneg3632
 >ionization [M+?]-
->parentmass 329.160323462173
+>parentmass Inf
 >rt 9.55885959978321
 
 >ms1
-329.1603 100
+
 
 >ms2
 329.1603 100
 
 >compound FTneg3633
 >ionization [M+?]-
->parentmass 332.140065795464
+>parentmass Inf
 >rt 9.54093830967579
 
 >ms1
-332.1401 100
 
 >ms2
 55.0162 81
@@ -68081,44 +67153,43 @@
 
 >compound FTneg3634
 >ionization [M+?]-
->parentmass 341.059289351401
+>parentmass Inf
 >rt 9.56661507648184
 
 >ms1
-341.0593 100
+
 
 >ms2
 341.0593 100
 
 >compound FTneg3635
 >ionization [M+?]-
->parentmass 364.997252973421
+>parentmass Inf
 >rt 9.49580128126893
 
 >ms1
-364.9973 100
+
 
 >ms2
 364.9973 100
 
 >compound FTneg3636
 >ionization [M+?]-
->parentmass 395.007401815216
+>parentmass Inf
 >rt 9.53916687379258
 
 >ms1
-395.0074 100
+
 
 >ms2
 395.0074 100
 
 >compound FTneg3637
 >ionization [M+?]-
->parentmass 269.139218763743
+>parentmass Inf
 >rt 10.250845349679
 
 >ms1
-269.1392 100
 
 >ms2
 50.0026 40
@@ -68179,11 +67250,10 @@
 
 >compound FTneg3638
 >ionization [M+?]-
->parentmass 335.059258557303
+>parentmass Inf
 >rt 10.2492438029587
 
 >ms1
-335.0593 100
 
 >ms2
 55.0541 4
@@ -68194,11 +67264,10 @@
 
 >compound FTneg3639
 >ionization [M+?]-
->parentmass 344.153454097762
+>parentmass Inf
 >rt 10.2364189182589
 
 >ms1
-344.1535 100
 
 >ms2
 55.0525 13
@@ -68229,11 +67298,10 @@
 
 >compound FTneg3640
 >ionization [M+?]-
->parentmass 186.05588699747
+>parentmass Inf
 >rt 10.2209331733091
 
 >ms1
-186.0559 100
 
 >ms2
 52.0176 40
@@ -68252,11 +67320,10 @@
 
 >compound FTneg3641
 >ionization [M+?]-
->parentmass 229.144333959497
+>parentmass Inf
 >rt 10.2475168653908
 
 >ms1
-229.1443 100
 
 >ms2
 51.0223 20
@@ -68270,22 +67337,20 @@
 
 >compound FTneg3642
 >ionization [M+?]-
->parentmass 229.144376272265
+>parentmass Inf
 >rt 10.116920867324
 
 >ms1
-229.1444 100
 
 >ms2
 51.0158 40
 
 >compound FTneg3643
 >ionization [M+?]-
->parentmass 238.108173593213
+>parentmass Inf
 >rt 10.2591349436813
 
 >ms1
-238.1082 100
 
 >ms2
 51.0238 40
@@ -68299,22 +67364,21 @@
 
 >compound FTneg3644
 >ionization [M+?]-
->parentmass 275.137696242972
+>parentmass Inf
 >rt 10.2874650209702
 
 >ms1
-275.1377 100
+
 
 >ms2
 275.1377 100
 
 >compound FTneg3645
 >ionization [M+?]-
->parentmass 305.142506780226
+>parentmass Inf
 >rt 10.218504130517
 
 >ms1
-305.1425 100
 
 >ms2
 55.0163 40
@@ -68340,11 +67404,10 @@
 
 >compound FTneg3646
 >ionization [M+?]-
->parentmass 365.033180333546
+>parentmass Inf
 >rt 10.257747226801
 
 >ms1
-365.0332 100
 
 >ms2
 64.0151 45
@@ -68367,22 +67430,21 @@
 
 >compound FTneg3647
 >ionization [M+?]-
->parentmass 403.046576401819
+>parentmass Inf
 >rt 10.2454076400482
 
 >ms1
-403.0466 100
+
 
 >ms2
 403.0466 100
 
 >compound FTneg3648
 >ionization [M+?]-
->parentmass 425.181267433015
+>parentmass Inf
 >rt 10.2258696554831
 
 >ms1
-425.1813 100
 
 >ms2
 50.644 40
@@ -68432,11 +67494,10 @@
 
 >compound FTneg3649
 >ionization [M+?]-
->parentmass 201.02276447988
+>parentmass Inf
 >rt 8.71672819808692
 
 >ms1
-201.0228 100
 
 >ms2
 54.0029 8
@@ -68444,11 +67505,10 @@
 
 >compound FTneg3650
 >ionization [M+?]-
->parentmass 186.113498269273
+>parentmass Inf
 >rt 8.73821282975816
 
 >ms1
-186.1135 100
 
 >ms2
 54.7955 20
@@ -68471,11 +67531,10 @@
 
 >compound FTneg3651
 >ionization [M+?]-
->parentmass 201.005559362737
+>parentmass Inf
 >rt 8.72707481419269
 
 >ms1
-201.0056 100
 
 >ms2
 51.0259 40
@@ -68493,11 +67552,10 @@
 
 >compound FTneg3652
 >ionization [M+?]-
->parentmass 269.010250426959
+>parentmass Inf
 >rt 8.72013527982603
 
 >ms1
-269.0103 100
 
 >ms2
 55.0533 40
@@ -68513,11 +67571,10 @@
 
 >compound FTneg3653
 >ionization [M+?]-
->parentmass 296.61653559507
+>parentmass Inf
 >rt 8.74537051282054
 
 >ms1
-296.6165 100
 
 >ms2
 50.0149 40
@@ -68603,11 +67660,10 @@
 
 >compound FTneg3654
 >ionization [M+?]-
->parentmass 346.953306120553
+>parentmass Inf
 >rt 8.70867339255509
 
 >ms1
-346.9533 100
 
 >ms2
 53.0376 40
@@ -68650,11 +67706,10 @@
 
 >compound FTneg3655
 >ionization [M+?]-
->parentmass 448.110308158003
+>parentmass Inf
 >rt 8.71306802074842
 
 >ms1
-448.1103 100
 
 >ms2
 51.0209 4
@@ -68677,11 +67732,10 @@
 
 >compound FTneg3656
 >ionization [M+?]-
->parentmass 956.484542103891
+>parentmass Inf
 >rt 8.70357017185547
 
 >ms1
-956.4845 100
 
 >ms2
 68.984 40
@@ -68711,22 +67765,21 @@
 
 >compound FTneg3657
 >ionization [M+?]-
->parentmass 957.486093770349
+>parentmass Inf
 >rt 8.70066212121209
 
 >ms1
-957.4861 100
+
 
 >ms2
 957.4861 100
 
 >compound FTneg3658
 >ionization [M+?]-
->parentmass 333.007214952527
+>parentmass Inf
 >rt 8.83063607362165
 
 >ms1
-333.0072 100
 
 >ms2
 56.0489 80
@@ -68760,11 +67813,10 @@
 
 >compound FTneg3659
 >ionization [M+?]-
->parentmass 186.113515585581
+>parentmass Inf
 >rt 8.9264531005952
 
 >ms1
-186.1135 100
 
 >ms2
 53.0376 20
@@ -68776,198 +67828,197 @@
 
 >compound FTneg3660
 >ionization [M+?]-
->parentmass 197.080935761352
+>parentmass Inf
 >rt 8.89800265886588
 
 >ms1
-197.0809 100
+
 
 >ms2
 197.0809 100
 
 >compound FTneg3661
 >ionization [M+?]-
->parentmass 237.124214131226
+>parentmass Inf
 >rt 8.81766575855907
 
 >ms1
-237.1242 100
+
 
 >ms2
 237.1242 100
 
 >compound FTneg3662
 >ionization [M+?]-
->parentmass 255.087373358925
+>parentmass Inf
 >rt 8.83847595607924
 
 >ms1
-255.0874 100
+
 
 >ms2
 255.0874 100
 
 >compound FTneg3663
 >ionization [M+?]-
->parentmass 263.128692162848
+>parentmass Inf
 >rt 8.90021562038815
 
 >ms1
-263.1287 100
+
 
 >ms2
 263.1287 100
 
 >compound FTneg3664
 >ionization [M+?]-
->parentmass 269.102698396987
+>parentmass Inf
 >rt 8.84027109449884
 
 >ms1
-269.1027 100
+
 
 >ms2
 269.1027 100
 
 >compound FTneg3665
 >ionization [M+?]-
->parentmass 275.112879747316
+>parentmass Inf
 >rt 8.83280926869256
 
 >ms1
-275.1129 100
+
 
 >ms2
 275.1129 100
 
 >compound FTneg3666
 >ionization [M+?]-
->parentmass 275.139986523632
+>parentmass Inf
 >rt 8.82773354804102
 
 >ms1
-275.14 100
+
 
 >ms2
 275.14 100
 
 >compound FTneg3667
 >ionization [M+?]-
->parentmass 308.005604509366
+>parentmass Inf
 >rt 8.81576604257543
 
 >ms1
-308.0056 100
+
 
 >ms2
 308.0056 100
 
 >compound FTneg3668
 >ionization [M+?]-
->parentmass 309.133500254309
+>parentmass Inf
 >rt 8.87122783037213
 
 >ms1
-309.1335 100
+
 
 >ms2
 309.1335 100
 
 >compound FTneg3669
 >ionization [M+?]-
->parentmass 332.983725088574
+>parentmass Inf
 >rt 8.83438190053323
 
 >ms1
-332.9837 100
+
 
 >ms2
 332.9837 100
 
 >compound FTneg3670
 >ionization [M+?]-
->parentmass 363.177796730935
+>parentmass Inf
 >rt 8.82621002434723
 
 >ms1
-363.1778 100
+
 
 >ms2
 363.1778 100
 
 >compound FTneg3671
 >ionization [M+?]-
->parentmass 367.012554676957
+>parentmass Inf
 >rt 8.80861601403808
 
 >ms1
-367.0126 100
+
 
 >ms2
 367.0126 100
 
 >compound FTneg3672
 >ionization [M+?]-
->parentmass 387.238511394493
+>parentmass Inf
 >rt 8.82932322629568
 
 >ms1
-387.2385 100
+
 
 >ms2
 387.2385 100
 
 >compound FTneg3673
 >ionization [M+?]-
->parentmass 400.994641316741
+>parentmass Inf
 >rt 8.82628639741746
 
 >ms1
-400.9946 100
+
 
 >ms2
 400.9946 100
 
 >compound FTneg3674
 >ionization [M+?]-
->parentmass 417.984707425402
+>parentmass Inf
 >rt 8.82456599368466
 
 >ms1
-417.9847 100
+
 
 >ms2
 417.9847 100
 
 >compound FTneg3675
 >ionization [M+?]-
->parentmass 455.925074781662
+>parentmass Inf
 >rt 8.84252912196218
 
 >ms1
-455.9251 100
+
 
 >ms2
 455.9251 100
 
 >compound FTneg3676
 >ionization [M+?]-
->parentmass 559.296171603945
+>parentmass Inf
 >rt 8.85072633292297
 
 >ms1
-559.2962 100
+
 
 >ms2
 559.2962 100
 
 >compound FTneg3677
 >ionization [M+?]-
->parentmass 186.113558372197
+>parentmass Inf
 >rt 7.84472679970348
 
 >ms1
-186.1136 100
 
 >ms2
 54.0082 48
@@ -68975,121 +68026,120 @@
 
 >compound FTneg3678
 >ionization [M+?]-
->parentmass 195.065695052428
+>parentmass Inf
 >rt 7.88299215304157
 
 >ms1
-195.0657 100
+
 
 >ms2
 195.0657 100
 
 >compound FTneg3679
 >ionization [M+?]-
->parentmass 227.128610690731
+>parentmass Inf
 >rt 7.74850276832784
 
 >ms1
-227.1286 100
+
 
 >ms2
 227.1286 100
 
 >compound FTneg3680
 >ionization [M+?]-
->parentmass 254.100783577734
+>parentmass Inf
 >rt 7.84655778280819
 
 >ms1
-254.1008 100
+
 
 >ms2
 254.1008 100
 
 >compound FTneg3681
 >ionization [M+?]-
->parentmass 300.098433161254
+>parentmass Inf
 >rt 7.81843351322234
 
 >ms1
-300.0984 100
+
 
 >ms2
 300.0984 100
 
 >compound FTneg3682
 >ionization [M+?]-
->parentmass 301.038374771161
+>parentmass Inf
 >rt 7.83976207349377
 
 >ms1
-301.0384 100
+
 
 >ms2
 301.0384 100
 
 >compound FTneg3683
 >ionization [M+?]-
->parentmass 316.071186170014
+>parentmass Inf
 >rt 7.83012405497146
 
 >ms1
-316.0712 100
+
 
 >ms2
 316.0712 100
 
 >compound FTneg3684
 >ionization [M+?]-
->parentmass 332.044274927279
+>parentmass Inf
 >rt 7.84169419978205
 
 >ms1
-332.0443 100
+
 
 >ms2
 332.0443 100
 
 >compound FTneg3685
 >ionization [M+?]-
->parentmass 429.049338625938
+>parentmass Inf
 >rt 7.8406981053785
 
 >ms1
-429.0493 100
+
 
 >ms2
 429.0493 100
 
 >compound FTneg3686
 >ionization [M+?]-
->parentmass 949.425933290187
+>parentmass Inf
 >rt 7.85452010084932
 
 >ms1
-949.4259 100
+
 
 >ms2
 949.4259 100
 
 >compound FTneg3687
 >ionization [M+?]-
->parentmass 495.261747922106
+>parentmass Inf
 >rt 9.55619242424245
 
 >ms1
-495.2617 100
+
 
 >ms2
 495.2617 100
 
 >compound FTneg3688
 >ionization [M+?]-
->parentmass 263.059429169712
+>parentmass Inf
 >rt 9.59189713423802
 
 >ms1
-263.0594 100
 
 >ms2
 55.0555 80
@@ -69107,22 +68157,21 @@
 
 >compound FTneg3689
 >ionization [M+?]-
->parentmass 243.123563077446
+>parentmass Inf
 >rt 9.60658872396006
 
 >ms1
-243.1236 100
+
 
 >ms2
 243.1236 100
 
 >compound FTneg3690
 >ionization [M+?]-
->parentmass 281.175583377572
+>parentmass Inf
 >rt 9.58505455444272
 
 >ms1
-281.1756 100
 
 >ms2
 51.0223 27
@@ -69136,11 +68185,10 @@
 
 >compound FTneg3691
 >ionization [M+?]-
->parentmass 361.201797263614
+>parentmass Inf
 >rt 9.58175217250135
 
 >ms1
-361.2018 100
 
 >ms2
 60.9899 4
@@ -69149,11 +68197,10 @@
 
 >compound FTneg3692
 >ionization [M+?]-
->parentmass 308.005437315634
+>parentmass Inf
 >rt 9.58007490747131
 
 >ms1
-308.0054 100
 
 >ms2
 53.0369 40
@@ -69189,22 +68236,21 @@
 
 >compound FTneg3693
 >ionization [M+?]-
->parentmass 329.122904093753
+>parentmass Inf
 >rt 9.57982765530766
 
 >ms1
-329.1229 100
+
 
 >ms2
 329.1229 100
 
 >compound FTneg3694
 >ionization [M+?]-
->parentmass 332.207630909123
+>parentmass Inf
 >rt 9.59080966459806
 
 >ms1
-332.2076 100
 
 >ms2
 53.0405 40
@@ -69235,88 +68281,85 @@
 
 >compound FTneg3695
 >ionization [M+?]-
->parentmass 407.206881733413
+>parentmass Inf
 >rt 9.5837363372335
 
 >ms1
-407.2069 100
 
 >ms2
 61.0092 13
 
 >compound FTneg3696
 >ionization [M+?]-
->parentmass 510.28851044546
+>parentmass Inf
 >rt 9.69674727202984
 
 >ms1
-510.2885 100
+
 
 >ms2
 510.2885 100
 
 >compound FTneg3697
 >ionization [M+?]-
->parentmass 685.342365358973
+>parentmass Inf
 >rt 9.59094168570968
 
 >ms1
-685.3424 100
+
 
 >ms2
 685.3424 100
 
 >compound FTneg3698
 >ionization [M+?]-
->parentmass 187.061473474258
+>parentmass Inf
 >rt 6.96833349766352
 
 >ms1
-187.0615 100
+
 
 >ms2
 187.0615 100
 
 >compound FTneg3699
 >ionization [M+?]-
->parentmass 257.819252130309
+>parentmass Inf
 >rt 6.9767169372698
 
 >ms1
-257.8193 100
+
 
 >ms2
 257.8193 100
 
 >compound FTneg3700
 >ionization [M+?]-
->parentmass 294.859007756811
+>parentmass Inf
 >rt 6.89817333333333
 
 >ms1
-294.859 100
+
 
 >ms2
 294.859 100
 
 >compound FTneg3701
 >ionization [M+?]-
->parentmass 293.114206639272
+>parentmass Inf
 >rt 7.13245767710913
 
 >ms1
-293.1142 100
 
 >ms2
 55.9221 20
 
 >compound FTneg3702
 >ionization [M+?]-
->parentmass 222.077069287907
+>parentmass Inf
 >rt 7.16065178482934
 
 >ms1
-222.0771 100
 
 >ms2
 53.0138 194
@@ -69370,11 +68413,10 @@
 
 >compound FTneg3703
 >ionization [M+?]-
->parentmass 188.092714557972
+>parentmass Inf
 >rt 7.14908850763822
 
 >ms1
-188.0927 100
 
 >ms2
 50.0148 40
@@ -69391,22 +68433,21 @@
 
 >compound FTneg3704
 >ionization [M+?]-
->parentmass 433.114699757831
+>parentmass Inf
 >rt 7.14520980475367
 
 >ms1
-433.1147 100
+
 
 >ms2
 433.1147 100
 
 >compound FTneg3705
 >ionization [M+?]-
->parentmass 451.171940834886
+>parentmass Inf
 >rt 7.05226968735594
 
 >ms1
-451.1719 100
 
 >ms2
 55.0585 20
@@ -69430,22 +68471,21 @@
 
 >compound FTneg3706
 >ionization [M+?]-
->parentmass 187.097155819446
+>parentmass Inf
 >rt 7.14129883877797
 
 >ms1
-187.0972 100
+
 
 >ms2
 187.0972 100
 
 >compound FTneg3707
 >ionization [M+?]-
->parentmass 246.991763818848
+>parentmass Inf
 >rt 7.08157347284389
 
 >ms1
-246.9918 100
 
 >ms2
 51.9405 8
@@ -69485,33 +68525,32 @@
 
 >compound FTneg3708
 >ionization [M+?]-
->parentmass 272.056238259702
+>parentmass Inf
 >rt 7.1858265434662
 
 >ms1
-272.0562 100
+
 
 >ms2
 272.0562 100
 
 >compound FTneg3709
 >ionization [M+?]-
->parentmass 275.103884536916
+>parentmass Inf
 >rt 7.19634263113028
 
 >ms1
-275.1039 100
+
 
 >ms2
 275.1039 100
 
 >compound FTneg3710
 >ionization [M+?]-
->parentmass 285.134123525069
+>parentmass Inf
 >rt 7.19895624158296
 
 >ms1
-285.1341 100
 
 >ms2
 55.0548 40
@@ -69525,55 +68564,54 @@
 
 >compound FTneg3711
 >ionization [M+?]-
->parentmass 290.06428605233
+>parentmass Inf
 >rt 7.1613008808163
 
 >ms1
-290.0643 100
+
 
 >ms2
 290.0643 100
 
 >compound FTneg3712
 >ionization [M+?]-
->parentmass 302.124155851789
+>parentmass Inf
 >rt 7.15440177171706
 
 >ms1
-302.1242 100
+
 
 >ms2
 302.1242 100
 
 >compound FTneg3713
 >ionization [M+?]-
->parentmass 312.072201142653
+>parentmass Inf
 >rt 7.13966248749304
 
 >ms1
-312.0722 100
+
 
 >ms2
 312.0722 100
 
 >compound FTneg3714
 >ionization [M+?]-
->parentmass 326.087457332232
+>parentmass Inf
 >rt 7.13421538246585
 
 >ms1
-326.0875 100
+
 
 >ms2
 326.0875 100
 
 >compound FTneg3715
 >ionization [M+?]-
->parentmass 334.150243031728
+>parentmass Inf
 >rt 7.12902037475939
 
 >ms1
-334.1502 100
 
 >ms2
 57.0688 16
@@ -69597,66 +68635,65 @@
 
 >compound FTneg3716
 >ionization [M+?]-
->parentmass 353.120562587945
+>parentmass Inf
 >rt 7.17702260217382
 
 >ms1
-353.1206 100
+
 
 >ms2
 353.1206 100
 
 >compound FTneg3717
 >ionization [M+?]-
->parentmass 355.067358839752
+>parentmass Inf
 >rt 7.11470347405232
 
 >ms1
-355.0674 100
+
 
 >ms2
 355.0674 100
 
 >compound FTneg3718
 >ionization [M+?]-
->parentmass 355.126209227817
+>parentmass Inf
 >rt 7.11678730794478
 
 >ms1
-355.1262 100
+
 
 >ms2
 355.1262 100
 
 >compound FTneg3719
 >ionization [M+?]-
->parentmass 368.006654014136
+>parentmass Inf
 >rt 7.15600094088386
 
 >ms1
-368.0067 100
+
 
 >ms2
 368.0067 100
 
 >compound FTneg3720
 >ionization [M+?]-
->parentmass 372.093950899121
+>parentmass Inf
 >rt 7.13389186761589
 
 >ms1
-372.094 100
+
 
 >ms2
 372.094 100
 
 >compound FTneg3721
 >ionization [M+?]-
->parentmass 373.077743952497
+>parentmass Inf
 >rt 7.13903234685931
 
 >ms1
-373.0777 100
 
 >ms2
 55.0534 80
@@ -69682,110 +68719,109 @@
 
 >compound FTneg3722
 >ionization [M+?]-
->parentmass 382.114110457586
+>parentmass Inf
 >rt 7.22530484825504
 
 >ms1
-382.1141 100
+
 
 >ms2
 382.1141 100
 
 >compound FTneg3723
 >ionization [M+?]-
->parentmass 187.097239178797
+>parentmass Inf
 >rt 10.1704623327193
 
 >ms1
-187.0972 100
+
 
 >ms2
 187.0972 100
 
 >compound FTneg3724
 >ionization [M+?]-
->parentmass 201.112867054568
+>parentmass Inf
 >rt 10.2250498316112
 
 >ms1
-201.1129 100
+
 
 >ms2
 201.1129 100
 
 >compound FTneg3725
 >ionization [M+?]-
->parentmass 411.985955997787
+>parentmass Inf
 >rt 10.2609507778151
 
 >ms1
-411.986 100
+
 
 >ms2
 411.986 100
 
 >compound FTneg3726
 >ionization [M+?]-
->parentmass 415.19657233891
+>parentmass Inf
 >rt 10.2128263876912
 
 >ms1
-415.1966 100
+
 
 >ms2
 415.1966 100
 
 >compound FTneg3727
 >ionization [M+?]-
->parentmass 445.032524550137
+>parentmass Inf
 >rt 10.2498929401115
 
 >ms1
-445.0325 100
+
 
 >ms2
 445.0325 100
 
 >compound FTneg3728
 >ionization [M+?]-
->parentmass 495.33216152133
+>parentmass Inf
 >rt 10.1401089548512
 
 >ms1
-495.3322 100
+
 
 >ms2
 495.3322 100
 
 >compound FTneg3729
 >ionization [M+?]-
->parentmass 702.017193562183
+>parentmass Inf
 >rt 10.3430472797424
 
 >ms1
-702.0172 100
+
 
 >ms2
 702.0172 100
 
 >compound FTneg3730
 >ionization [M+?]-
->parentmass 809.152535495013
+>parentmass Inf
 >rt 10.1999166666667
 
 >ms1
-809.1525 100
+
 
 >ms2
 809.1525 100
 
 >compound FTneg3731
 >ionization [M+?]-
->parentmass 437.290546932091
+>parentmass Inf
 >rt 10.8088771544788
 
 >ms1
-437.2905 100
 
 >ms2
 54.9995 40
@@ -69834,11 +68870,10 @@
 
 >compound FTneg3732
 >ionization [M+?]-
->parentmass 540.272945192565
+>parentmass Inf
 >rt 10.7471542115803
 
 >ms1
-540.2729 100
 
 >ms2
 53.0405 8
@@ -69852,11 +68887,10 @@
 
 >compound FTneg3733
 >ionization [M+?]-
->parentmass 556.325379469729
+>parentmass Inf
 >rt 10.7581307953354
 
 >ms1
-556.3254 100
 
 >ms2
 55.0541 159
@@ -69964,11 +68998,10 @@
 
 >compound FTneg3734
 >ionization [M+?]-
->parentmass 187.133755296229
+>parentmass Inf
 >rt 10.7348454334536
 
 >ms1
-187.1338 100
 
 >ms2
 53.0373 41
@@ -69985,22 +69018,20 @@
 
 >compound FTneg3735
 >ionization [M+?]-
->parentmass 227.12870480081
+>parentmass Inf
 >rt 10.751813496554
 
 >ms1
-227.1287 100
 
 >ms2
 67.0533 40
 
 >compound FTneg3736
 >ionization [M+?]-
->parentmass 241.144257695567
+>parentmass Inf
 >rt 10.7394275033683
 
 >ms1
-241.1443 100
 
 >ms2
 50.012 20
@@ -70042,11 +69073,10 @@
 
 >compound FTneg3737
 >ionization [M+?]-
->parentmass 287.149599085549
+>parentmass Inf
 >rt 10.7336876430557
 
 >ms1
-287.1496 100
 
 >ms2
 51.0245 4
@@ -70080,11 +69110,10 @@
 
 >compound FTneg3738
 >ionization [M+?]-
->parentmass 353.233036918318
+>parentmass Inf
 >rt 10.7593361668319
 
 >ms1
-353.233 100
 
 >ms2
 53.0384 242
@@ -70314,22 +69343,20 @@
 
 >compound FTneg3739
 >ionization [M+?]-
->parentmass 471.311192585336
+>parentmass Inf
 >rt 10.7220296591457
 
 >ms1
-471.3112 100
 
 >ms2
 66.0411 20
 
 >compound FTneg3740
 >ionization [M+?]-
->parentmass 485.290289845787
+>parentmass Inf
 >rt 10.8049779037424
 
 >ms1
-485.2903 100
 
 >ms2
 80.9739 20
@@ -70340,44 +69367,43 @@
 
 >compound FTneg3741
 >ionization [M+?]-
->parentmass 517.316911607172
+>parentmass Inf
 >rt 10.6633432629885
 
 >ms1
-517.3169 100
+
 
 >ms2
 517.3169 100
 
 >compound FTneg3742
 >ionization [M+?]-
->parentmass 573.315062690161
+>parentmass Inf
 >rt 10.7445259978243
 
 >ms1
-573.3151 100
+
 
 >ms2
 573.3151 100
 
 >compound FTneg3743
 >ionization [M+?]-
->parentmass 624.312506787214
+>parentmass Inf
 >rt 10.7439295883238
 
 >ms1
-624.3125 100
+
 
 >ms2
 624.3125 100
 
 >compound FTneg3744
 >ionization [M+?]-
->parentmass 187.133805885625
+>parentmass Inf
 >rt 10.3570657254776
 
 >ms1
-187.1338 100
 
 >ms2
 51.0223 80
@@ -70397,11 +69423,10 @@
 
 >compound FTneg3745
 >ionization [M+?]-
->parentmass 353.23306961892
+>parentmass Inf
 >rt 10.3824432628404
 
 >ms1
-353.2331 100
 
 >ms2
 53.039 13
@@ -70427,11 +69452,10 @@
 
 >compound FTneg3746
 >ionization [M+?]-
->parentmass 393.227900783847
+>parentmass Inf
 >rt 10.3687635213186
 
 >ms1
-393.2279 100
 
 >ms2
 51.0311 40
@@ -70461,11 +69485,10 @@
 
 >compound FTneg3747
 >ionization [M+?]-
->parentmass 533.311292447912
+>parentmass Inf
 >rt 10.4519926283206
 
 >ms1
-533.3113 100
 
 >ms2
 53.0381 81
@@ -70648,11 +69671,10 @@
 
 >compound FTneg3748
 >ionization [M+?]-
->parentmass 595.421255089173
+>parentmass Inf
 >rt 10.3638221004578
 
 >ms1
-595.4213 100
 
 >ms2
 56.8878 40
@@ -70664,11 +69686,10 @@
 
 >compound FTneg3749
 >ionization [M+?]-
->parentmass 187.133770959975
+>parentmass Inf
 >rt 10.5024037563256
 
 >ms1
-187.1338 100
 
 >ms2
 50.0026 20
@@ -70690,22 +69711,21 @@
 
 >compound FTneg3750
 >ionization [M+?]-
->parentmass 255.121293008289
+>parentmass Inf
 >rt 10.3683224560417
 
 >ms1
-255.1213 100
+
 
 >ms2
 255.1213 100
 
 >compound FTneg3751
 >ionization [M+?]-
->parentmass 271.174054121492
+>parentmass Inf
 >rt 10.3567109449938
 
 >ms1
-271.1741 100
 
 >ms2
 50.015 40
@@ -70743,33 +69763,32 @@
 
 >compound FTneg3752
 >ionization [M+?]-
->parentmass 283.120430050216
+>parentmass Inf
 >rt 10.3689738620405
 
 >ms1
-283.1204 100
+
 
 >ms2
 283.1204 100
 
 >compound FTneg3753
 >ionization [M+?]-
->parentmass 317.091048453555
+>parentmass Inf
 >rt 10.3614181030949
 
 >ms1
-317.091 100
+
 
 >ms2
 317.091 100
 
 >compound FTneg3754
 >ionization [M+?]-
->parentmass 473.178703908579
+>parentmass Inf
 >rt 10.4080743515772
 
 >ms1
-473.1787 100
 
 >ms2
 55.0163 40
@@ -70816,11 +69835,10 @@
 
 >compound FTneg3755
 >ionization [M+?]-
->parentmass 473.209361465579
+>parentmass Inf
 >rt 10.3143461538461
 
 >ms1
-473.2094 100
 
 >ms2
 53.0376 40
@@ -70845,22 +69863,21 @@
 
 >compound FTneg3756
 >ionization [M+?]-
->parentmass 487.193863637527
+>parentmass Inf
 >rt 10.3698397951518
 
 >ms1
-487.1939 100
+
 
 >ms2
 487.1939 100
 
 >compound FTneg3757
 >ionization [M+?]-
->parentmass 635.283456874456
+>parentmass Inf
 >rt 10.3698949310649
 
 >ms1
-635.2835 100
 
 >ms2
 59.0477 8
@@ -70887,55 +69904,54 @@
 
 >compound FTneg3758
 >ionization [M+?]-
->parentmass 944.694412366107
+>parentmass Inf
 >rt 10.3561308325306
 
 >ms1
-944.6944 100
+
 
 >ms2
 944.6944 100
 
 >compound FTneg3759
 >ionization [M+?]-
->parentmass 946.706096718045
+>parentmass Inf
 >rt 10.3586227568115
 
 >ms1
-946.7061 100
+
 
 >ms2
 946.7061 100
 
 >compound FTneg3760
 >ionization [M+?]-
->parentmass 188.931514336094
+>parentmass Inf
 >rt 8.55288928571429
 
 >ms1
-188.9315 100
+
 
 >ms2
 188.9315 100
 
 >compound FTneg3761
 >ionization [M+?]-
->parentmass 431.21071171259
+>parentmass Inf
 >rt 8.61340365656679
 
 >ms1
-431.2107 100
+
 
 >ms2
 431.2107 100
 
 >compound FTneg3762
 >ionization [M+?]-
->parentmass 336.85878116079
+>parentmass Inf
 >rt 18.3743473582113
 
 >ms1
-336.8588 100
 
 >ms2
 53.039 40
@@ -70961,11 +69977,10 @@
 
 >compound FTneg3763
 >ionization [M+?]-
->parentmass 308.863516563861
+>parentmass Inf
 >rt 18.3785415562071
 
 >ms1
-308.8635 100
 
 >ms2
 51.939 4
@@ -70973,11 +69988,10 @@
 
 >compound FTneg3764
 >ionization [M+?]-
->parentmass 320.885963603246
+>parentmass Inf
 >rt 18.3715393877959
 
 >ms1
-320.886 100
 
 >ms2
 51.9397 4
@@ -71004,11 +70018,10 @@
 
 >compound FTneg3765
 >ionization [M+?]-
->parentmass 792.531459207596
+>parentmass Inf
 >rt 18.3691997977428
 
 >ms1
-792.5315 100
 
 >ms2
 53.0049 8
@@ -71029,11 +70042,10 @@
 
 >compound FTneg3766
 >ionization [M+?]-
->parentmass 816.53141238404
+>parentmass Inf
 >rt 18.3689882939231
 
 >ms1
-816.5314 100
 
 >ms2
 57.0704 80
@@ -71101,22 +70113,21 @@
 
 >compound FTneg3767
 >ionization [M+?]-
->parentmass 844.560037957956
+>parentmass Inf
 >rt 18.3719585866702
 
 >ms1
-844.56 100
+
 
 >ms2
 844.56 100
 
 >compound FTneg3768
 >ionization [M+?]-
->parentmass 861.548779450744
+>parentmass Inf
 >rt 18.3747309012837
 
 >ms1
-861.5488 100
 
 >ms2
 55.0541 80
@@ -71232,11 +70243,10 @@
 
 >compound FTneg3769
 >ionization [M+?]-
->parentmass 870.547919067197
+>parentmass Inf
 >rt 18.3675060048337
 
 >ms1
-870.5479 100
 
 >ms2
 53.0406 40
@@ -71245,11 +70255,10 @@
 
 >compound FTneg3770
 >ionization [M+?]-
->parentmass 885.549370498767
+>parentmass Inf
 >rt 18.3767938648996
 
 >ms1
-885.5494 100
 
 >ms2
 50.2648 40
@@ -71512,22 +70521,21 @@
 
 >compound FTneg3771
 >ionization [M+?]-
->parentmass 894.547486381074
+>parentmass Inf
 >rt 18.3686745718651
 
 >ms1
-894.5475 100
+
 
 >ms2
 894.5475 100
 
 >compound FTneg3772
 >ionization [M+?]-
->parentmass 188.933046296768
+>parentmass Inf
 >rt 18.3730859585464
 
 >ms1
-188.933 100
 
 >ms2
 54.0434 40
@@ -71545,143 +70553,142 @@
 
 >compound FTneg3773
 >ionization [M+?]-
->parentmass 194.92368968841
+>parentmass Inf
 >rt 18.3811211615113
 
 >ms1
-194.9237 100
+
 
 >ms2
 194.9237 100
 
 >compound FTneg3774
 >ionization [M+?]-
->parentmass 304.912410992124
+>parentmass Inf
 >rt 18.4188203979296
 
 >ms1
-304.9124 100
+
 
 >ms2
 304.9124 100
 
 >compound FTneg3775
 >ionization [M+?]-
->parentmass 306.866668422677
+>parentmass Inf
 >rt 18.3770616256414
 
 >ms1
-306.8667 100
+
 
 >ms2
 306.8667 100
 
 >compound FTneg3776
 >ionization [M+?]-
->parentmass 310.859642442878
+>parentmass Inf
 >rt 18.3631575238547
 
 >ms1
-310.8596 100
+
 
 >ms2
 310.8596 100
 
 >compound FTneg3777
 >ionization [M+?]-
->parentmass 319.888872762964
+>parentmass Inf
 >rt 18.4252178645096
 
 >ms1
-319.8889 100
+
 
 >ms2
 319.8889 100
 
 >compound FTneg3778
 >ionization [M+?]-
->parentmass 324.880640164569
+>parentmass Inf
 >rt 18.3707334865449
 
 >ms1
-324.8806 100
+
 
 >ms2
 324.8806 100
 
 >compound FTneg3779
 >ionization [M+?]-
->parentmass 325.832937616281
+>parentmass Inf
 >rt 18.3610106207396
 
 >ms1
-325.8329 100
+
 
 >ms2
 325.8329 100
 
 >compound FTneg3780
 >ionization [M+?]-
->parentmass 327.831500370552
+>parentmass Inf
 >rt 18.3592872114441
 
 >ms1
-327.8315 100
+
 
 >ms2
 327.8315 100
 
 >compound FTneg3781
 >ionization [M+?]-
->parentmass 334.864415406281
+>parentmass Inf
 >rt 18.3987737972192
 
 >ms1
-334.8644 100
+
 
 >ms2
 334.8644 100
 
 >compound FTneg3782
 >ionization [M+?]-
->parentmass 340.855424551344
+>parentmass Inf
 >rt 18.374738207952
 
 >ms1
-340.8554 100
+
 
 >ms2
 340.8554 100
 
 >compound FTneg3783
 >ionization [M+?]-
->parentmass 342.853257638545
+>parentmass Inf
 >rt 18.4227166670852
 
 >ms1
-342.8533 100
+
 
 >ms2
 342.8533 100
 
 >compound FTneg3784
 >ionization [M+?]-
->parentmass 376.887194443383
+>parentmass Inf
 >rt 18.4354743277352
 
 >ms1
-376.8872 100
+
 
 >ms2
 376.8872 100
 
 >compound FTneg3785
 >ionization [M+?]-
->parentmass 404.846223571732
+>parentmass Inf
 >rt 18.3650463082815
 
 >ms1
-404.8462 100
 
 >ms2
 54.936 40
@@ -71704,143 +70711,142 @@
 
 >compound FTneg3786
 >ionization [M+?]-
->parentmass 406.846698791574
+>parentmass Inf
 >rt 18.3610657537985
 
 >ms1
-406.8467 100
+
 
 >ms2
 406.8467 100
 
 >compound FTneg3787
 >ionization [M+?]-
->parentmass 408.842445234188
+>parentmass Inf
 >rt 18.3619014899648
 
 >ms1
-408.8424 100
+
 
 >ms2
 408.8424 100
 
 >compound FTneg3788
 >ionization [M+?]-
->parentmass 456.788053009881
+>parentmass Inf
 >rt 18.3771629142974
 
 >ms1
-456.7881 100
+
 
 >ms2
 456.7881 100
 
 >compound FTneg3789
 >ionization [M+?]-
->parentmass 465.819456623443
+>parentmass Inf
 >rt 18.3848500540688
 
 >ms1
-465.8195 100
+
 
 >ms2
 465.8195 100
 
 >compound FTneg3790
 >ionization [M+?]-
->parentmass 466.814944806847
+>parentmass Inf
 >rt 18.3697570377703
 
 >ms1
-466.8149 100
+
 
 >ms2
 466.8149 100
 
 >compound FTneg3791
 >ionization [M+?]-
->parentmass 481.792003785267
+>parentmass Inf
 >rt 18.3730464160857
 
 >ms1
-481.792 100
+
 
 >ms2
 481.792 100
 
 >compound FTneg3792
 >ionization [M+?]-
->parentmass 482.789208076869
+>parentmass Inf
 >rt 18.3684333279331
 
 >ms1
-482.7892 100
+
 
 >ms2
 482.7892 100
 
 >compound FTneg3793
 >ionization [M+?]-
->parentmass 484.789545226009
+>parentmass Inf
 >rt 18.3654982365229
 
 >ms1
-484.7895 100
+
 
 >ms2
 484.7895 100
 
 >compound FTneg3794
 >ionization [M+?]-
->parentmass 486.784734063794
+>parentmass Inf
 >rt 18.3709701869758
 
 >ms1
-486.7847 100
+
 
 >ms2
 486.7847 100
 
 >compound FTneg3795
 >ionization [M+?]-
->parentmass 608.317901408979
+>parentmass Inf
 >rt 18.3819068296857
 
 >ms1
-608.3179 100
+
 
 >ms2
 608.3179 100
 
 >compound FTneg3796
 >ionization [M+?]-
->parentmass 790.538371512265
+>parentmass Inf
 >rt 18.3800790499694
 
 >ms1
-790.5384 100
+
 
 >ms2
 790.5384 100
 
 >compound FTneg3797
 >ionization [M+?]-
->parentmass 796.543979663369
+>parentmass Inf
 >rt 18.3708499819525
 
 >ms1
-796.544 100
+
 
 >ms2
 796.544 100
 
 >compound FTneg3798
 >ionization [M+?]-
->parentmass 803.609689834797
+>parentmass Inf
 >rt 18.2690354166667
 
 >ms1
-803.6097 100
 
 >ms2
 58.9935 20
@@ -71883,44 +70889,43 @@
 
 >compound FTneg3799
 >ionization [M+?]-
->parentmass 820.558577851916
+>parentmass Inf
 >rt 18.3714556589895
 
 >ms1
-820.5586 100
+
 
 >ms2
 820.5586 100
 
 >compound FTneg3800
 >ionization [M+?]-
->parentmass 822.563509494131
+>parentmass Inf
 >rt 18.3721571724188
 
 >ms1
-822.5635 100
+
 
 >ms2
 822.5635 100
 
 >compound FTneg3801
 >ionization [M+?]-
->parentmass 842.547905074102
+>parentmass Inf
 >rt 18.3737975401849
 
 >ms1
-842.5479 100
+
 
 >ms2
 842.5479 100
 
 >compound FTneg3802
 >ionization [M+?]-
->parentmass 857.517925117978
+>parentmass Inf
 >rt 18.374624405072
 
 >ms1
-857.5179 100
 
 >ms2
 54.0359 40
@@ -72069,176 +71074,174 @@
 
 >compound FTneg3803
 >ionization [M+?]-
->parentmass 858.521575482756
+>parentmass Inf
 >rt 18.3693602741023
 
 >ms1
-858.5216 100
+
 
 >ms2
 858.5216 100
 
 >compound FTneg3804
 >ionization [M+?]-
->parentmass 868.560544739796
+>parentmass Inf
 >rt 18.3655824737334
 
 >ms1
-868.5605 100
+
 
 >ms2
 868.5605 100
 
 >compound FTneg3805
 >ionization [M+?]-
->parentmass 898.576746083848
+>parentmass Inf
 >rt 18.3707440651288
 
 >ms1
-898.5767 100
+
 
 >ms2
 898.5767 100
 
 >compound FTneg3806
 >ionization [M+?]-
->parentmass 899.580664498501
+>parentmass Inf
 >rt 18.371489838901
 
 >ms1
-899.5807 100
+
 
 >ms2
 899.5807 100
 
 >compound FTneg3807
 >ionization [M+?]-
->parentmass 920.562471005127
+>parentmass Inf
 >rt 18.3637711525656
 
 >ms1
-920.5625 100
+
 
 >ms2
 920.5625 100
 
 >compound FTneg3808
 >ionization [M+?]-
->parentmass 922.577587927374
+>parentmass Inf
 >rt 18.3679769186998
 
 >ms1
-922.5776 100
+
 
 >ms2
 922.5776 100
 
 >compound FTneg3809
 >ionization [M+?]-
->parentmass 923.581165648706
+>parentmass Inf
 >rt 18.3669917557036
 
 >ms1
-923.5812 100
+
 
 >ms2
 923.5812 100
 
 >compound FTneg3810
 >ionization [M+?]-
->parentmass 938.462311761212
+>parentmass Inf
 >rt 18.3743692585384
 
 >ms1
-938.4623 100
+
 
 >ms2
 938.4623 100
 
 >compound FTneg3811
 >ionization [M+?]-
->parentmass 940.463801925931
+>parentmass Inf
 >rt 18.3715512820514
 
 >ms1
-940.4638 100
+
 
 >ms2
 940.4638 100
 
 >compound FTneg3812
 >ionization [M+?]-
->parentmass 946.491246048966
+>parentmass Inf
 >rt 18.3823781862191
 
 >ms1
-946.4912 100
+
 
 >ms2
 946.4912 100
 
 >compound FTneg3813
 >ionization [M+?]-
->parentmass 958.52916172314
+>parentmass Inf
 >rt 18.3901825613149
 
 >ms1
-958.5292 100
+
 
 >ms2
 958.5292 100
 
 >compound FTneg3814
 >ionization [M+?]-
->parentmass 990.489357869935
+>parentmass Inf
 >rt 18.373659459422
 
 >ms1
-990.4894 100
+
 
 >ms2
 990.4894 100
 
 >compound FTneg3815
 >ionization [M+?]-
->parentmass 998.507774824497
+>parentmass Inf
 >rt 18.3845349296736
 
 >ms1
-998.5078 100
+
 
 >ms2
 998.5078 100
 
 >compound FTneg3816
 >ionization [M+?]-
->parentmass 189.018817689652
+>parentmass Inf
 >rt 13.76025
 
 >ms1
-189.0188 100
+
 
 >ms2
 189.0188 100
 
 >compound FTneg3817
 >ionization [M+?]-
->parentmass 216.124089620412
+>parentmass Inf
 >rt 8.3031425026332
 
 >ms1
-216.1241 100
 
 >ms2
 51.0238 13
 
 >compound FTneg3818
 >ionization [M+?]-
->parentmass 477.176551675475
+>parentmass Inf
 >rt 8.29138822465066
 
 >ms1
-477.1766 100
 
 >ms2
 50.0235 10
@@ -72260,110 +71263,109 @@
 
 >compound FTneg3819
 >ionization [M+?]-
->parentmass 811.453831111125
+>parentmass Inf
 >rt 8.28871763346973
 
 >ms1
-811.4538 100
+
 
 >ms2
 811.4538 100
 
 >compound FTneg3820
 >ionization [M+?]-
->parentmass 189.07684303367
+>parentmass Inf
 >rt 8.28945898066389
 
 >ms1
-189.0768 100
+
 
 >ms2
 189.0768 100
 
 >compound FTneg3821
 >ionization [M+?]-
->parentmass 277.082920998113
+>parentmass Inf
 >rt 8.24524755546749
 
 >ms1
-277.0829 100
+
 
 >ms2
 277.0829 100
 
 >compound FTneg3822
 >ionization [M+?]-
->parentmass 294.138746691241
+>parentmass Inf
 >rt 8.29349111629199
 
 >ms1
-294.1387 100
+
 
 >ms2
 294.1387 100
 
 >compound FTneg3823
 >ionization [M+?]-
->parentmass 306.135213331354
+>parentmass Inf
 >rt 8.32550462962956
 
 >ms1
-306.1352 100
+
 
 >ms2
 306.1352 100
 
 >compound FTneg3824
 >ionization [M+?]-
->parentmass 348.202273110406
+>parentmass Inf
 >rt 8.29020729904735
 
 >ms1
-348.2023 100
+
 
 >ms2
 348.2023 100
 
 >compound FTneg3825
 >ionization [M+?]-
->parentmass 374.135173853576
+>parentmass Inf
 >rt 8.30321205618922
 
 >ms1
-374.1352 100
+
 
 >ms2
 374.1352 100
 
 >compound FTneg3826
 >ionization [M+?]-
->parentmass 377.006951558121
+>parentmass Inf
 >rt 8.3079386127427
 
 >ms1
-377.007 100
+
 
 >ms2
 377.007 100
 
 >compound FTneg3827
 >ionization [M+?]-
->parentmass 409.222472687307
+>parentmass Inf
 >rt 8.34335767591917
 
 >ms1
-409.2225 100
+
 
 >ms2
 409.2225 100
 
 >compound FTneg3828
 >ionization [M+?]-
->parentmass 297.09780655871
+>parentmass Inf
 >rt 8.52485926113345
 
 >ms1
-297.0978 100
 
 >ms2
 50.3199 40
@@ -72612,11 +71614,10 @@
 
 >compound FTneg3829
 >ionization [M+?]-
->parentmass 447.093102794348
+>parentmass Inf
 >rt 8.55075374537025
 
 >ms1
-447.0931 100
 
 >ms2
 51.0223 8
@@ -72656,11 +71657,10 @@
 
 >compound FTneg3830
 >ionization [M+?]-
->parentmass 500.268469517917
+>parentmass Inf
 >rt 8.51604230769231
 
 >ms1
-500.2685 100
 
 >ms2
 50.0018 80
@@ -73253,308 +72253,307 @@
 
 >compound FTneg3831
 >ionization [M+?]-
->parentmass 189.110870612022
+>parentmass Inf
 >rt 8.55913673000681
 
 >ms1
-189.1109 100
+
 
 >ms2
 189.1109 100
 
 >compound FTneg3832
 >ionization [M+?]-
->parentmass 232.994663421145
+>parentmass Inf
 >rt 8.52335447946965
 
 >ms1
-232.9947 100
+
 
 >ms2
 232.9947 100
 
 >compound FTneg3833
 >ionization [M+?]-
->parentmass 255.123155487992
+>parentmass Inf
 >rt 8.50350047703325
 
 >ms1
-255.1232 100
+
 
 >ms2
 255.1232 100
 
 >compound FTneg3834
 >ionization [M+?]-
->parentmass 301.128096127541
+>parentmass Inf
 >rt 8.54168036296063
 
 >ms1
-301.1281 100
+
 
 >ms2
 301.1281 100
 
 >compound FTneg3835
 >ionization [M+?]-
->parentmass 302.097644994986
+>parentmass Inf
 >rt 8.53520209259624
 
 >ms1
-302.0976 100
+
 
 >ms2
 302.0976 100
 
 >compound FTneg3836
 >ionization [M+?]-
->parentmass 303.138323508447
+>parentmass Inf
 >rt 8.50996190476186
 
 >ms1
-303.1383 100
+
 
 >ms2
 303.1383 100
 
 >compound FTneg3837
 >ionization [M+?]-
->parentmass 317.114291702121
+>parentmass Inf
 >rt 8.53333805615454
 
 >ms1
-317.1143 100
+
 
 >ms2
 317.1143 100
 
 >compound FTneg3838
 >ionization [M+?]-
->parentmass 327.180610280283
+>parentmass Inf
 >rt 8.54445072069846
 
 >ms1
-327.1806 100
+
 
 >ms2
 327.1806 100
 
 >compound FTneg3839
 >ionization [M+?]-
->parentmass 345.118412063235
+>parentmass Inf
 >rt 8.53815299680896
 
 >ms1
-345.1184 100
+
 
 >ms2
 345.1184 100
 
 >compound FTneg3840
 >ionization [M+?]-
->parentmass 360.09337494905
+>parentmass Inf
 >rt 8.52498200134133
 
 >ms1
-360.0934 100
+
 
 >ms2
 360.0934 100
 
 >compound FTneg3841
 >ionization [M+?]-
->parentmass 365.085181850079
+>parentmass Inf
 >rt 8.52408945079101
 
 >ms1
-365.0852 100
+
 
 >ms2
 365.0852 100
 
 >compound FTneg3842
 >ionization [M+?]-
->parentmass 377.196541034711
+>parentmass Inf
 >rt 8.55332682338551
 
 >ms1
-377.1965 100
+
 
 >ms2
 377.1965 100
 
 >compound FTneg3843
 >ionization [M+?]-
->parentmass 393.086993689053
+>parentmass Inf
 >rt 8.51695034866508
 
 >ms1
-393.087 100
+
 
 >ms2
 393.087 100
 
 >compound FTneg3844
 >ionization [M+?]-
->parentmass 397.022551746579
+>parentmass Inf
 >rt 8.53076854963677
 
 >ms1
-397.0226 100
+
 
 >ms2
 397.0226 100
 
 >compound FTneg3845
 >ionization [M+?]-
->parentmass 427.055589585825
+>parentmass Inf
 >rt 8.52555972469296
 
 >ms1
-427.0556 100
+
 
 >ms2
 427.0556 100
 
 >compound FTneg3846
 >ionization [M+?]-
->parentmass 442.023752989929
+>parentmass Inf
 >rt 8.52376053786848
 
 >ms1
-442.0238 100
+
 
 >ms2
 442.0238 100
 
 >compound FTneg3847
 >ionization [M+?]-
->parentmass 557.317397341524
+>parentmass Inf
 >rt 8.53448341855319
 
 >ms1
-557.3174 100
+
 
 >ms2
 557.3174 100
 
 >compound FTneg3848
 >ionization [M+?]-
->parentmass 593.187129983357
+>parentmass Inf
 >rt 8.53727121212127
 
 >ms1
-593.1871 100
+
 
 >ms2
 593.1871 100
 
 >compound FTneg3849
 >ionization [M+?]-
->parentmass 855.480120065395
+>parentmass Inf
 >rt 8.35924280964585
 
 >ms1
-855.4801 100
+
 
 >ms2
 855.4801 100
 
 >compound FTneg3850
 >ionization [M+?]-
->parentmass 189.11283014267
+>parentmass Inf
 >rt 8.34535444300345
 
 >ms1
-189.1128 100
+
 
 >ms2
 189.1128 100
 
 >compound FTneg3851
 >ionization [M+?]-
->parentmass 245.13922030413
+>parentmass Inf
 >rt 8.34354671129573
 
 >ms1
-245.1392 100
+
 
 >ms2
 245.1392 100
 
 >compound FTneg3852
 >ionization [M+?]-
->parentmass 261.133963706686
+>parentmass Inf
 >rt 8.35303158824846
 
 >ms1
-261.134 100
+
 
 >ms2
 261.134 100
 
 >compound FTneg3853
 >ionization [M+?]-
->parentmass 295.081621346349
+>parentmass Inf
 >rt 8.35208006836634
 
 >ms1
-295.0816 100
+
 
 >ms2
 295.0816 100
 
 >compound FTneg3854
 >ionization [M+?]-
->parentmass 311.112007372633
+>parentmass Inf
 >rt 8.31929274307133
 
 >ms1
-311.112 100
+
 
 >ms2
 311.112 100
 
 >compound FTneg3855
 >ionization [M+?]-
->parentmass 459.207003264483
+>parentmass Inf
 >rt 8.34192532599514
 
 >ms1
-459.207 100
+
 
 >ms2
 459.207 100
 
 >compound FTneg3856
 >ionization [M+?]-
->parentmass 189.931238347952
+>parentmass Inf
 >rt 3.65460613881455
 
 >ms1
-189.9312 100
+
 
 >ms2
 189.9312 100
 
 >compound FTneg3857
 >ionization [M+?]-
->parentmass 189.998664607195
+>parentmass Inf
 >rt 6.36431144282465
 
 >ms1
-189.9987 100
+
 
 >ms2
 189.9987 100
 
 >compound FTneg3858
 >ionization [M+?]-
->parentmass 190.92846771575
+>parentmass Inf
 >rt 9.28044609402671
 
 >ms1
-190.9285 100
 
 >ms2
 50.0025 40
@@ -73606,33 +72605,32 @@
 
 >compound FTneg3859
 >ionization [M+?]-
->parentmass 207.930845328318
+>parentmass Inf
 >rt 9.2144194901683
 
 >ms1
-207.9308 100
+
 
 >ms2
 207.9308 100
 
 >compound FTneg3860
 >ionization [M+?]-
->parentmass 190.969145246319
+>parentmass Inf
 >rt 17.9604944444444
 
 >ms1
-190.9691 100
+
 
 >ms2
 190.9691 100
 
 >compound FTneg3861
 >ionization [M+?]-
->parentmass 191.019581008451
+>parentmass Inf
 >rt 1.74781666666659
 
 >ms1
-191.0196 100
 
 >ms2
 54.0081 40
@@ -73640,66 +72638,65 @@
 
 >compound FTneg3862
 >ionization [M+?]-
->parentmass 193.024811189646
+>parentmass Inf
 >rt 2.60919741891551
 
 >ms1
-193.0248 100
+
 
 >ms2
 193.0248 100
 
 >compound FTneg3863
 >ionization [M+?]-
->parentmass 405.028761761574
+>parentmass Inf
 >rt 2.60650759013438
 
 >ms1
-405.0288 100
+
 
 >ms2
 405.0288 100
 
 >compound FTneg3864
 >ionization [M+?]-
->parentmass 193.050417278146
+>parentmass Inf
 >rt 7.79833779453375
 
 >ms1
-193.0504 100
+
 
 >ms2
 193.0504 100
 
 >compound FTneg3865
 >ionization [M+?]-
->parentmass 193.050555308672
+>parentmass Inf
 >rt 8.67521958997892
 
 >ms1
-193.0506 100
+
 
 >ms2
 193.0506 100
 
 >compound FTneg3866
 >ionization [M+?]-
->parentmass 195.810960797817
+>parentmass Inf
 >rt 9.68231118251095
 
 >ms1
-195.811 100
+
 
 >ms2
 195.811 100
 
 >compound FTneg3867
 >ionization [M+?]-
->parentmass 197.807964850623
+>parentmass Inf
 >rt 9.68524517054515
 
 >ms1
-197.808 100
 
 >ms2
 50.0169 80
@@ -73727,11 +72724,10 @@
 
 >compound FTneg3868
 >ionization [M+?]-
->parentmass 335.021652436027
+>parentmass Inf
 >rt 8.84680651654938
 
 >ms1
-335.0217 100
 
 >ms2
 51.9375 40
@@ -73765,66 +72761,65 @@
 
 >compound FTneg3869
 >ionization [M+?]-
->parentmass 198.113334126672
+>parentmass Inf
 >rt 8.86200708192507
 
 >ms1
-198.1133 100
+
 
 >ms2
 198.1133 100
 
 >compound FTneg3870
 >ionization [M+?]-
->parentmass 271.154822559641
+>parentmass Inf
 >rt 8.85285055250843
 
 >ms1
-271.1548 100
+
 
 >ms2
 271.1548 100
 
 >compound FTneg3871
 >ionization [M+?]-
->parentmass 287.149771556816
+>parentmass Inf
 >rt 8.83374928475065
 
 >ms1
-287.1498 100
+
 
 >ms2
 287.1498 100
 
 >compound FTneg3872
 >ionization [M+?]-
->parentmass 319.121915002015
+>parentmass Inf
 >rt 8.86402279225479
 
 >ms1
-319.1219 100
+
 
 >ms2
 319.1219 100
 
 >compound FTneg3873
 >ionization [M+?]-
->parentmass 360.156017854552
+>parentmass Inf
 >rt 8.86422922360635
 
 >ms1
-360.156 100
+
 
 >ms2
 360.156 100
 
 >compound FTneg3874
 >ionization [M+?]-
->parentmass 198.113442408639
+>parentmass Inf
 >rt 9.55875781573239
 
 >ms1
-198.1134 100
 
 >ms2
 50.0145 88
@@ -73889,11 +72884,10 @@
 
 >compound FTneg3875
 >ionization [M+?]-
->parentmass 200.129044501021
+>parentmass Inf
 >rt 9.43832554805666
 
 >ms1
-200.129 100
 
 >ms2
 50.0156 20
@@ -73964,11 +72958,10 @@
 
 >compound FTneg3876
 >ionization [M+?]-
->parentmass 349.002164012373
+>parentmass Inf
 >rt 9.42002106696057
 
 >ms1
-349.0022 100
 
 >ms2
 57.0691 450
@@ -73990,11 +72983,10 @@
 
 >compound FTneg3877
 >ionization [M+?]-
->parentmass 498.289063951392
+>parentmass Inf
 >rt 9.4327635511617
 
 >ms1
-498.2891 100
 
 >ms2
 54.8801 40
@@ -74033,22 +73025,21 @@
 
 >compound FTneg3878
 >ionization [M+?]-
->parentmass 198.113546232476
+>parentmass Inf
 >rt 9.44110525290366
 
 >ms1
-198.1135 100
+
 
 >ms2
 198.1135 100
 
 >compound FTneg3879
 >ionization [M+?]-
->parentmass 211.133775432779
+>parentmass Inf
 >rt 9.44603194993423
 
 >ms1
-211.1338 100
 
 >ms2
 55.0556 16
@@ -74062,11 +73053,10 @@
 
 >compound FTneg3880
 >ionization [M+?]-
->parentmass 229.053759882584
+>parentmass Inf
 >rt 9.453137909958
 
 >ms1
-229.0538 100
 
 >ms2
 51.0231 8
@@ -74099,33 +73089,31 @@
 
 >compound FTneg3881
 >ionization [M+?]-
->parentmass 268.116591761941
+>parentmass Inf
 >rt 9.43618066775303
 
 >ms1
-268.1166 100
 
 >ms2
 55.9343 40
 
 >compound FTneg3882
 >ionization [M+?]-
->parentmass 271.150226839901
+>parentmass Inf
 >rt 9.44827738813881
 
 >ms1
-271.1502 100
+
 
 >ms2
 271.1502 100
 
 >compound FTneg3883
 >ionization [M+?]-
->parentmass 277.111368055322
+>parentmass Inf
 >rt 9.47012158228108
 
 >ms1
-277.1114 100
 
 >ms2
 51.0084 40
@@ -74165,44 +73153,42 @@
 
 >compound FTneg3884
 >ionization [M+?]-
->parentmass 279.122390636876
+>parentmass Inf
 >rt 9.4752840222453
 
 >ms1
-279.1224 100
+
 
 >ms2
 279.1224 100
 
 >compound FTneg3885
 >ionization [M+?]-
->parentmass 345.10035895889
+>parentmass Inf
 >rt 9.45579791223721
 
 >ms1
-345.1004 100
 
 >ms2
 60.043 40
 
 >compound FTneg3886
 >ionization [M+?]-
->parentmass 346.062256812594
+>parentmass Inf
 >rt 9.42738470867281
 
 >ms1
-346.0623 100
+
 
 >ms2
 346.0623 100
 
 >compound FTneg3887
 >ionization [M+?]-
->parentmass 547.285274740653
+>parentmass Inf
 >rt 9.52560999999993
 
 >ms1
-547.2853 100
 
 >ms2
 97.0895 40
@@ -74210,11 +73196,10 @@
 
 >compound FTneg3888
 >ionization [M+?]-
->parentmass 566.276460018781
+>parentmass Inf
 >rt 9.43962609981125
 
 >ms1
-566.2765 100
 
 >ms2
 60.0802 120
@@ -74248,33 +73233,31 @@
 
 >compound FTneg3889
 >ionization [M+?]-
->parentmass 198.936229975397
+>parentmass Inf
 >rt 7.53686760005852
 
 >ms1
-198.9362 100
+
 
 >ms2
 198.9362 100
 
 >compound FTneg3890
 >ionization [M+?]-
->parentmass 204.066678645665
+>parentmass Inf
 >rt 8.58480737024735
 
 >ms1
-204.0667 100
 
 >ms2
 53.9401 40
 
 >compound FTneg3891
 >ionization [M+?]-
->parentmass 199.007131133054
+>parentmass Inf
 >rt 8.58544599137391
 
 >ms1
-199.0071 100
 
 >ms2
 51.9854 8
@@ -74282,11 +73265,10 @@
 
 >compound FTneg3892
 >ionization [M+?]-
->parentmass 272.053878647337
+>parentmass Inf
 >rt 8.5833082156333
 
 >ms1
-272.0539 100
 
 >ms2
 50.0148 8
@@ -74367,11 +73349,10 @@
 
 >compound FTneg3893
 >ionization [M+?]-
->parentmass 204.048925802013
+>parentmass Inf
 >rt 8.6339266666667
 
 >ms1
-204.0489 100
 
 >ms2
 50.0156 4
@@ -74402,176 +73383,175 @@
 
 >compound FTneg3894
 >ionization [M+?]-
->parentmass 300.054334412958
+>parentmass Inf
 >rt 8.58610252158842
 
 >ms1
-300.0543 100
+
 
 >ms2
 300.0543 100
 
 >compound FTneg3895
 >ionization [M+?]-
->parentmass 303.99096110406
+>parentmass Inf
 >rt 8.60175173355687
 
 >ms1
-303.991 100
+
 
 >ms2
 303.991 100
 
 >compound FTneg3896
 >ionization [M+?]-
->parentmass 308.153349031521
+>parentmass Inf
 >rt 8.55813024846347
 
 >ms1
-308.1533 100
+
 
 >ms2
 308.1533 100
 
 >compound FTneg3897
 >ionization [M+?]-
->parentmass 321.138615773904
+>parentmass Inf
 >rt 8.56585683636646
 
 >ms1
-321.1386 100
+
 
 >ms2
 321.1386 100
 
 >compound FTneg3898
 >ionization [M+?]-
->parentmass 328.931314381981
+>parentmass Inf
 >rt 8.58023181818173
 
 >ms1
-328.9313 100
+
 
 >ms2
 328.9313 100
 
 >compound FTneg3899
 >ionization [M+?]-
->parentmass 334.024406862737
+>parentmass Inf
 >rt 8.58537945623294
 
 >ms1
-334.0244 100
+
 
 >ms2
 334.0244 100
 
 >compound FTneg3900
 >ionization [M+?]-
->parentmass 348.993646378691
+>parentmass Inf
 >rt 8.58388837617524
 
 >ms1
-348.9936 100
+
 
 >ms2
 348.9936 100
 
 >compound FTneg3901
 >ionization [M+?]-
->parentmass 349.996729654052
+>parentmass Inf
 >rt 8.58127186358197
 
 >ms1
-349.9967 100
+
 
 >ms2
 349.9967 100
 
 >compound FTneg3902
 >ionization [M+?]-
->parentmass 459.186471152706
+>parentmass Inf
 >rt 8.60032328757905
 
 >ms1
-459.1865 100
+
 
 >ms2
 459.1865 100
 
 >compound FTneg3903
 >ionization [M+?]-
->parentmass 585.208498391333
+>parentmass Inf
 >rt 8.57518576305044
 
 >ms1
-585.2085 100
+
 
 >ms2
 585.2085 100
 
 >compound FTneg3904
 >ionization [M+?]-
->parentmass 586.211599559614
+>parentmass Inf
 >rt 8.57412104721227
 
 >ms1
-586.2116 100
+
 
 >ms2
 586.2116 100
 
 >compound FTneg3905
 >ionization [M+?]-
->parentmass 587.206229960581
+>parentmass Inf
 >rt 8.5772476010947
 
 >ms1
-587.2062 100
+
 
 >ms2
 587.2062 100
 
 >compound FTneg3906
 >ionization [M+?]-
->parentmass 707.406935817396
+>parentmass Inf
 >rt 8.56631928803516
 
 >ms1
-707.4069 100
+
 
 >ms2
 707.4069 100
 
 >compound FTneg3907
 >ionization [M+?]-
->parentmass 199.13351874691
+>parentmass Inf
 >rt 9.52257893539941
 
 >ms1
-199.1335 100
+
 
 >ms2
 199.1335 100
 
 >compound FTneg3908
 >ionization [M+?]-
->parentmass 428.818088884305
+>parentmass Inf
 >rt 9.576215039567
 
 >ms1
-428.8181 100
+
 
 >ms2
 428.8181 100
 
 >compound FTneg3909
 >ionization [M+?]-
->parentmass 239.059523287883
+>parentmass Inf
 >rt 10.4422197613583
 
 >ms1
-239.0595 100
 
 >ms2
 51.0237 20
@@ -74591,11 +73571,10 @@
 
 >compound FTneg3910
 >ionization [M+?]-
->parentmass 285.064945853528
+>parentmass Inf
 >rt 10.4423226221788
 
 >ms1
-285.0649 100
 
 >ms2
 55.0541 20
@@ -74606,22 +73585,21 @@
 
 >compound FTneg3911
 >ionization [M+?]-
->parentmass 199.133691803737
+>parentmass Inf
 >rt 10.3302226322943
 
 >ms1
-199.1337 100
+
 
 >ms2
 199.1337 100
 
 >compound FTneg3912
 >ionization [M+?]-
->parentmass 223.02819404981
+>parentmass Inf
 >rt 10.4426200579831
 
 >ms1
-223.0282 100
 
 >ms2
 51.0245 40
@@ -74631,22 +73609,21 @@
 
 >compound FTneg3913
 >ionization [M+?]-
->parentmass 263.038218923293
+>parentmass Inf
 >rt 10.4261618672143
 
 >ms1
-263.0382 100
+
 
 >ms2
 263.0382 100
 
 >compound FTneg3914
 >ionization [M+?]-
->parentmass 299.149355674094
+>parentmass Inf
 >rt 10.4304857623139
 
 >ms1
-299.1494 100
 
 >ms2
 54.0276 40
@@ -74667,11 +73644,10 @@
 
 >compound FTneg3915
 >ionization [M+?]-
->parentmass 341.16015891044
+>parentmass Inf
 >rt 10.449861722126
 
 >ms1
-341.1602 100
 
 >ms2
 56.0627 40
@@ -74680,11 +73656,10 @@
 
 >compound FTneg3916
 >ionization [M+?]-
->parentmass 413.181408786104
+>parentmass Inf
 >rt 10.4469491238548
 
 >ms1
-413.1814 100
 
 >ms2
 69.0713 40
@@ -74695,165 +73670,164 @@
 
 >compound FTneg3917
 >ionization [M+?]-
->parentmass 413.215875348299
+>parentmass Inf
 >rt 10.4459474070547
 
 >ms1
-413.2159 100
+
 
 >ms2
 413.2159 100
 
 >compound FTneg3918
 >ionization [M+?]-
->parentmass 505.206893335298
+>parentmass Inf
 >rt 10.4908697046044
 
 >ms1
-505.2069 100
+
 
 >ms2
 505.2069 100
 
 >compound FTneg3919
 >ionization [M+?]-
->parentmass 199.805096528458
+>parentmass Inf
 >rt 7.77591410256415
 
 >ms1
-199.8051 100
+
 
 >ms2
 199.8051 100
 
 >compound FTneg3920
 >ionization [M+?]-
->parentmass 200.965023500298
+>parentmass Inf
 >rt 6.31470981750451
 
 >ms1
-200.965 100
+
 
 >ms2
 200.965 100
 
 >compound FTneg3921
 >ionization [M+?]-
->parentmass 206.08138561483
+>parentmass Inf
 >rt 6.45174181561732
 
 >ms1
-206.0814 100
+
 
 >ms2
 206.0814 100
 
 >compound FTneg3922
 >ionization [M+?]-
->parentmass 235.943696005265
+>parentmass Inf
 >rt 6.38211427563165
 
 >ms1
-235.9437 100
+
 
 >ms2
 235.9437 100
 
 >compound FTneg3923
 >ionization [M+?]-
->parentmass 201.022533908816
+>parentmass Inf
 >rt 8.06752145192512
 
 >ms1
-201.0225 100
+
 
 >ms2
 201.0225 100
 
 >compound FTneg3924
 >ionization [M+?]-
->parentmass 451.070438246298
+>parentmass Inf
 >rt 8.06457816571648
 
 >ms1
-451.0704 100
+
 
 >ms2
 451.0704 100
 
 >compound FTneg3925
 >ionization [M+?]-
->parentmass 957.511288522529
+>parentmass Inf
 >rt 8.0772083210601
 
 >ms1
-957.5113 100
+
 
 >ms2
 957.5113 100
 
 >compound FTneg3926
 >ionization [M+?]-
->parentmass 202.07330806593
+>parentmass Inf
 >rt 7.08635876729037
 
 >ms1
-202.0733 100
+
 
 >ms2
 202.0733 100
 
 >compound FTneg3927
 >ionization [M+?]-
->parentmass 313.078713541358
+>parentmass Inf
 >rt 7.13679750579803
 
 >ms1
-313.0787 100
+
 
 >ms2
 313.0787 100
 
 >compound FTneg3928
 >ionization [M+?]-
->parentmass 431.208378016486
+>parentmass Inf
 >rt 7.2107464285715
 
 >ms1
-431.2084 100
+
 
 >ms2
 431.2084 100
 
 >compound FTneg3929
 >ionization [M+?]-
->parentmass 203.001897488014
+>parentmass Inf
 >rt 7.23471081537761
 
 >ms1
-203.0019 100
+
 
 >ms2
 203.0019 100
 
 >compound FTneg3930
 >ionization [M+?]-
->parentmass 222.079830859223
+>parentmass Inf
 >rt 7.30078798998124
 
 >ms1
-222.0798 100
+
 
 >ms2
 222.0798 100
 
 >compound FTneg3931
 >ionization [M+?]-
->parentmass 247.028111622341
+>parentmass Inf
 >rt 7.23647306138956
 
 >ms1
-247.0281 100
 
 >ms2
 50.0004 4
@@ -74877,33 +73851,32 @@
 
 >compound FTneg3932
 >ionization [M+?]-
->parentmass 353.144363819363
+>parentmass Inf
 >rt 7.24299633708213
 
 >ms1
-353.1444 100
+
 
 >ms2
 353.1444 100
 
 >compound FTneg3933
 >ionization [M+?]-
->parentmass 356.098158685672
+>parentmass Inf
 >rt 7.2368964752102
 
 >ms1
-356.0982 100
+
 
 >ms2
 356.0982 100
 
 >compound FTneg3934
 >ionization [M+?]-
->parentmass 203.082655104323
+>parentmass Inf
 >rt 7.04487641441303
 
 >ms1
-203.0827 100
 
 >ms2
 50.0119 13
@@ -74928,11 +73901,10 @@
 
 >compound FTneg3935
 >ionization [M+?]-
->parentmass 271.069860010569
+>parentmass Inf
 >rt 7.04821400583812
 
 >ms1
-271.0699 100
 
 >ms2
 50.0112 40
@@ -74979,11 +73951,10 @@
 
 >compound FTneg3936
 >ionization [M+?]-
->parentmass 611.262331650627
+>parentmass Inf
 >rt 7.04138711406874
 
 >ms1
-611.2623 100
 
 >ms2
 57.0695 40
@@ -75014,22 +73985,21 @@
 
 >compound FTneg3937
 >ionization [M+?]-
->parentmass 203.064822934306
+>parentmass Inf
 >rt 7.04527761050484
 
 >ms1
-203.0648 100
+
 
 >ms2
 203.0648 100
 
 >compound FTneg3938
 >ionization [M+?]-
->parentmass 219.077444195507
+>parentmass Inf
 >rt 7.06599351138445
 
 >ms1
-219.0774 100
 
 >ms2
 50.0025 4
@@ -75115,11 +74085,10 @@
 
 >compound FTneg3939
 >ionization [M+?]-
->parentmass 235.072497793579
+>parentmass Inf
 >rt 7.06154800383225
 
 >ms1
-235.0725 100
 
 >ms2
 51.0209 40
@@ -75157,22 +74126,21 @@
 
 >compound FTneg3940
 >ionization [M+?]-
->parentmass 241.803022089876
+>parentmass Inf
 >rt 7.112398809524
 
 >ms1
-241.803 100
+
 
 >ms2
 241.803 100
 
 >compound FTneg3941
 >ionization [M+?]-
->parentmass 249.088008325259
+>parentmass Inf
 >rt 7.04453151881982
 
 >ms1
-249.088 100
 
 >ms2
 50.0162 4
@@ -75216,11 +74184,10 @@
 
 >compound FTneg3942
 >ionization [M+?]-
->parentmass 250.091546061829
+>parentmass Inf
 >rt 6.95577018989352
 
 >ms1
-250.0915 100
 
 >ms2
 55.0563 40
@@ -75237,22 +74204,21 @@
 
 >compound FTneg3943
 >ionization [M+?]-
->parentmass 281.614848494353
+>parentmass Inf
 >rt 7.09060000000004
 
 >ms1
-281.6148 100
+
 
 >ms2
 281.6148 100
 
 >compound FTneg3944
 >ionization [M+?]-
->parentmass 299.070335143974
+>parentmass Inf
 >rt 7.04704260171261
 
 >ms1
-299.0703 100
 
 >ms2
 51.0158 40
@@ -75334,11 +74300,10 @@
 
 >compound FTneg3945
 >ionization [M+?]-
->parentmass 348.013056060344
+>parentmass Inf
 >rt 7.04936933203557
 
 >ms1
-348.0131 100
 
 >ms2
 53.0332 8
@@ -75356,11 +74321,10 @@
 
 >compound FTneg3946
 >ionization [M+?]-
->parentmass 349.012949791644
+>parentmass Inf
 >rt 7.04803949287531
 
 >ms1
-349.0129 100
 
 >ms2
 57.0317 40
@@ -75372,11 +74336,10 @@
 
 >compound FTneg3947
 >ionization [M+?]-
->parentmass 362.17205545524
+>parentmass Inf
 >rt 7.05115131954452
 
 >ms1
-362.1721 100
 
 >ms2
 55.0541 80
@@ -75396,11 +74359,10 @@
 
 >compound FTneg3948
 >ionization [M+?]-
->parentmass 383.145556936687
+>parentmass Inf
 >rt 7.04025156167491
 
 >ms1
-383.1456 100
 
 >ms2
 55.0556 40
@@ -75442,11 +74404,10 @@
 
 >compound FTneg3949
 >ionization [M+?]-
->parentmass 394.010289466112
+>parentmass Inf
 >rt 7.0391343187807
 
 >ms1
-394.0103 100
 
 >ms2
 51.0216 40
@@ -75579,22 +74540,21 @@
 
 >compound FTneg3950
 >ionization [M+?]-
->parentmass 407.146228842772
+>parentmass Inf
 >rt 7.04035154267095
 
 >ms1
-407.1462 100
+
 
 >ms2
 407.1462 100
 
 >compound FTneg3951
 >ionization [M+?]-
->parentmass 491.125232949558
+>parentmass Inf
 >rt 7.03213051424941
 
 >ms1
-491.1252 100
 
 >ms2
 59.0311 40
@@ -75637,11 +74597,10 @@
 
 >compound FTneg3952
 >ionization [M+?]-
->parentmass 507.098007935781
+>parentmass Inf
 >rt 7.04393858845271
 
 >ms1
-507.098 100
 
 >ms2
 58.0714 40
@@ -75655,11 +74614,10 @@
 
 >compound FTneg3953
 >ionization [M+?]-
->parentmass 552.09515273732
+>parentmass Inf
 >rt 7.0381308873753
 
 >ms1
-552.0952 100
 
 >ms2
 67.0533 80
@@ -75675,11 +74633,10 @@
 
 >compound FTneg3954
 >ionization [M+?]-
->parentmass 633.243652101096
+>parentmass Inf
 >rt 7.04465468767182
 
 >ms1
-633.2437 100
 
 >ms2
 55.0556 40
@@ -75712,11 +74669,10 @@
 
 >compound FTneg3955
 >ionization [M+?]-
->parentmass 649.209809634611
+>parentmass Inf
 >rt 7.04143211120042
 
 >ms1
-649.2098 100
 
 >ms2
 55.0541 80
@@ -75737,11 +74693,10 @@
 
 >compound FTneg3956
 >ionization [M+?]-
->parentmass 664.18401826792
+>parentmass Inf
 >rt 7.04765335822422
 
 >ms1
-664.184 100
 
 >ms2
 55.0541 40
@@ -75758,11 +74713,10 @@
 
 >compound FTneg3957
 >ionization [M+?]-
->parentmass 665.182450001337
+>parentmass Inf
 >rt 7.04167985376974
 
 >ms1
-665.1825 100
 
 >ms2
 53.0375 20
@@ -75773,22 +74727,21 @@
 
 >compound FTneg3958
 >ionization [M+?]-
->parentmass 666.185104991111
+>parentmass Inf
 >rt 7.04022665947934
 
 >ms1
-666.1851 100
+
 
 >ms2
 666.1851 100
 
 >compound FTneg3959
 >ionization [M+?]-
->parentmass 710.179579929721
+>parentmass Inf
 >rt 7.03800804717886
 
 >ms1
-710.1796 100
 
 >ms2
 55.0215 40
@@ -75837,11 +74790,10 @@
 
 >compound FTneg3960
 >ionization [M+?]-
->parentmass 868.264804565579
+>parentmass Inf
 >rt 7.04164024152951
 
 >ms1
-868.2648 100
 
 >ms2
 60.0438 40
@@ -75871,11 +74823,10 @@
 
 >compound FTneg3961
 >ionization [M+?]-
->parentmass 869.269248213004
+>parentmass Inf
 >rt 7.04016833110731
 
 >ms1
-869.2692 100
 
 >ms2
 56.0489 40
@@ -75909,22 +74860,21 @@
 
 >compound FTneg3962
 >ionization [M+?]-
->parentmass 203.083740850694
+>parentmass Inf
 >rt 8.63617685185172
 
 >ms1
-203.0837 100
+
 
 >ms2
 203.0837 100
 
 >compound FTneg3963
 >ionization [M+?]-
->parentmass 273.007289868142
+>parentmass Inf
 >rt 7.76535334012582
 
 >ms1
-273.0073 100
 
 >ms2
 51.9397 40
@@ -75983,22 +74933,21 @@
 
 >compound FTneg3964
 >ionization [M+?]-
->parentmass 270.007596900919
+>parentmass Inf
 >rt 7.76344915515772
 
 >ms1
-270.0076 100
+
 
 >ms2
 270.0076 100
 
 >compound FTneg3965
 >ionization [M+?]-
->parentmass 293.015667661921
+>parentmass Inf
 >rt 7.77340368868009
 
 >ms1
-293.0157 100
 
 >ms2
 55.0563 13
@@ -76009,121 +74958,120 @@
 
 >compound FTneg3966
 >ionization [M+?]-
->parentmass 204.004881153998
+>parentmass Inf
 >rt 7.77241451760228
 
 >ms1
-204.0049 100
+
 
 >ms2
 204.0049 100
 
 >compound FTneg3967
 >ionization [M+?]-
->parentmass 250.07157895216
+>parentmass Inf
 >rt 7.77471213497711
 
 >ms1
-250.0716 100
+
 
 >ms2
 250.0716 100
 
 >compound FTneg3968
 >ionization [M+?]-
->parentmass 263.022907742004
+>parentmass Inf
 >rt 7.75443581628891
 
 >ms1
-263.0229 100
+
 
 >ms2
 263.0229 100
 
 >compound FTneg3969
 >ionization [M+?]-
->parentmass 317.032755949771
+>parentmass Inf
 >rt 7.75753163533073
 
 >ms1
-317.0328 100
+
 
 >ms2
 317.0328 100
 
 >compound FTneg3970
 >ionization [M+?]-
->parentmass 371.134034360047
+>parentmass Inf
 >rt 7.75803577214359
 
 >ms1
-371.134 100
+
 
 >ms2
 371.134 100
 
 >compound FTneg3971
 >ionization [M+?]-
->parentmass 408.093031662655
+>parentmass Inf
 >rt 7.74429223987646
 
 >ms1
-408.093 100
+
 
 >ms2
 408.093 100
 
 >compound FTneg3972
 >ionization [M+?]-
->parentmass 419.088243046076
+>parentmass Inf
 >rt 7.73558093822409
 
 >ms1
-419.0882 100
+
 
 >ms2
 419.0882 100
 
 >compound FTneg3973
 >ionization [M+?]-
->parentmass 455.207031416829
+>parentmass Inf
 >rt 7.83615984848486
 
 >ms1
-455.207 100
+
 
 >ms2
 455.207 100
 
 >compound FTneg3974
 >ionization [M+?]-
->parentmass 515.270241208059
+>parentmass Inf
 >rt 7.76223763204959
 
 >ms1
-515.2702 100
+
 
 >ms2
 515.2702 100
 
 >compound FTneg3975
 >ionization [M+?]-
->parentmass 524.167102991129
+>parentmass Inf
 >rt 7.75456620697193
 
 >ms1
-524.1671 100
+
 
 >ms2
 524.1671 100
 
 >compound FTneg3976
 >ionization [M+?]-
->parentmass 204.066655090244
+>parentmass Inf
 >rt 8.77990143448217
 
 >ms1
-204.0667 100
 
 >ms2
 51.0274 40
@@ -76135,66 +75083,65 @@
 
 >compound FTneg3977
 >ionization [M+?]-
->parentmass 204.069803628194
+>parentmass Inf
 >rt 7.74966805555558
 
 >ms1
-204.0698 100
+
 
 >ms2
 204.0698 100
 
 >compound FTneg3978
 >ionization [M+?]-
->parentmass 266.104026851968
+>parentmass Inf
 >rt 7.73610326186629
 
 >ms1
-266.104 100
+
 
 >ms2
 266.104 100
 
 >compound FTneg3979
 >ionization [M+?]-
->parentmass 205.072891214434
+>parentmass Inf
 >rt 7.04529203962898
 
 >ms1
-205.0729 100
+
 
 >ms2
 205.0729 100
 
 >compound FTneg3980
 >ionization [M+?]-
->parentmass 215.05477738339
+>parentmass Inf
 >rt 7.05086107486726
 
 >ms1
-215.0548 100
+
 
 >ms2
 215.0548 100
 
 >compound FTneg3981
 >ionization [M+?]-
->parentmass 338.085876281124
+>parentmass Inf
 >rt 7.066512745098
 
 >ms1
-338.0859 100
+
 
 >ms2
 338.0859 100
 
 >compound FTneg3982
 >ionization [M+?]-
->parentmass 206.082179970274
+>parentmass Inf
 >rt 8.26647486147194
 
 >ms1
-206.0822 100
 
 >ms2
 54.0337 4
@@ -76209,11 +75156,10 @@
 
 >compound FTneg3983
 >ionization [M+?]-
->parentmass 274.069643973717
+>parentmass Inf
 >rt 8.25489612955322
 
 >ms1
-274.0696 100
 
 >ms2
 54.0411 13
@@ -76228,165 +75174,164 @@
 
 >compound FTneg3984
 >ionization [M+?]-
->parentmass 851.448866345641
+>parentmass Inf
 >rt 8.25628364299825
 
 >ms1
-851.4489 100
+
 
 >ms2
 851.4489 100
 
 >compound FTneg3985
 >ionization [M+?]-
->parentmass 280.992205958937
+>parentmass Inf
 >rt 8.25637362509732
 
 >ms1
-280.9922 100
+
 
 >ms2
 280.9922 100
 
 >compound FTneg3986
 >ionization [M+?]-
->parentmass 282.990932320845
+>parentmass Inf
 >rt 8.25225972222225
 
 >ms1
-282.9909 100
+
 
 >ms2
 282.9909 100
 
 >compound FTneg3987
 >ionization [M+?]-
->parentmass 307.136555466736
+>parentmass Inf
 >rt 8.27078578640883
 
 >ms1
-307.1366 100
+
 
 >ms2
 307.1366 100
 
 >compound FTneg3988
 >ionization [M+?]-
->parentmass 317.114416244404
+>parentmass Inf
 >rt 8.26267929888811
 
 >ms1
-317.1144 100
+
 
 >ms2
 317.1144 100
 
 >compound FTneg3989
 >ionization [M+?]-
->parentmass 319.121645798179
+>parentmass Inf
 >rt 8.275703323692
 
 >ms1
-319.1216 100
+
 
 >ms2
 319.1216 100
 
 >compound FTneg3990
 >ionization [M+?]-
->parentmass 336.039684935759
+>parentmass Inf
 >rt 8.36757346535586
 
 >ms1
-336.0397 100
+
 
 >ms2
 336.0397 100
 
 >compound FTneg3991
 >ionization [M+?]-
->parentmass 351.012746540891
+>parentmass Inf
 >rt 8.26786657856465
 
 >ms1
-351.0127 100
+
 
 >ms2
 351.0127 100
 
 >compound FTneg3992
 >ionization [M+?]-
->parentmass 352.01244007195
+>parentmass Inf
 >rt 8.26497016618596
 
 >ms1
-352.0124 100
+
 
 >ms2
 352.0124 100
 
 >compound FTneg3993
 >ionization [M+?]-
->parentmass 366.923372923715
+>parentmass Inf
 >rt 8.26768555413171
 
 >ms1
-366.9234 100
+
 
 >ms2
 366.9234 100
 
 >compound FTneg3994
 >ionization [M+?]-
->parentmass 368.920736461018
+>parentmass Inf
 >rt 8.31329772780913
 
 >ms1
-368.9207 100
+
 
 >ms2
 368.9207 100
 
 >compound FTneg3995
 >ionization [M+?]-
->parentmass 385.186394091234
+>parentmass Inf
 >rt 8.2547422222222
 
 >ms1
-385.1864 100
+
 
 >ms2
 385.1864 100
 
 >compound FTneg3996
 >ionization [M+?]-
->parentmass 387.201988362972
+>parentmass Inf
 >rt 8.26627593367181
 
 >ms1
-387.202 100
+
 
 >ms2
 387.202 100
 
 >compound FTneg3997
 >ionization [M+?]-
->parentmass 407.859840515097
+>parentmass Inf
 >rt 8.29030833333333
 
 >ms1
-407.8598 100
+
 
 >ms2
 407.8598 100
 
 >compound FTneg3998
 >ionization [M+?]-
->parentmass 213.149523795031
+>parentmass Inf
 >rt 10.9900870489221
 
 >ms1
-213.1495 100
 
 >ms2
 50.0149 8
@@ -76434,11 +75379,10 @@
 
 >compound FTneg3999
 >ionization [M+?]-
->parentmass 300.199999771009
+>parentmass Inf
 >rt 11.0062674599176
 
 >ms1
-300.2 100
 
 >ms2
 68.5718 40
@@ -76453,11 +75397,10 @@
 
 >compound FTneg4000
 >ionization [M+?]-
->parentmass 311.222359397915
+>parentmass Inf
 >rt 10.997950970365
 
 >ms1
-311.2224 100
 
 >ms2
 58.0777 40
@@ -76466,11 +75409,10 @@
 
 >compound FTneg4001
 >ionization [M+?]-
->parentmass 517.316473462081
+>parentmass Inf
 >rt 10.9760847557676
 
 >ms1
-517.3165 100
 
 >ms2
 55.0541 80
@@ -76486,11 +75428,10 @@
 
 >compound FTneg4002
 >ionization [M+?]-
->parentmass 547.327289895978
+>parentmass Inf
 >rt 10.9846900507608
 
 >ms1
-547.3273 100
 
 >ms2
 50.0003 40
@@ -76699,11 +75640,10 @@
 
 >compound FTneg4003
 >ionization [M+?]-
->parentmass 970.71080857827
+>parentmass Inf
 >rt 10.9882640823257
 
 >ms1
-970.7108 100
 
 >ms2
 55.0541 40
@@ -76767,11 +75707,10 @@
 
 >compound FTneg4004
 >ionization [M+?]-
->parentmass 206.998262862617
+>parentmass Inf
 >rt 11.0126539527613
 
 >ms1
-206.9983 100
 
 >ms2
 55.0526 40
@@ -76785,11 +75724,10 @@
 
 >compound FTneg4005
 >ionization [M+?]-
->parentmass 281.136683213827
+>parentmass Inf
 >rt 10.9840293284444
 
 >ms1
-281.1367 100
 
 >ms2
 62.9808 48
@@ -76811,11 +75749,10 @@
 
 >compound FTneg4006
 >ionization [M+?]-
->parentmass 346.205039809082
+>parentmass Inf
 >rt 10.9989554622557
 
 >ms1
-346.205 100
 
 >ms2
 81.0714 80
@@ -76826,11 +75763,10 @@
 
 >compound FTneg4007
 >ionization [M+?]-
->parentmass 364.225468330312
+>parentmass Inf
 >rt 10.9886486683126
 
 >ms1
-364.2255 100
 
 >ms2
 50.6433 40
@@ -76886,11 +75822,10 @@
 
 >compound FTneg4008
 >ionization [M+?]-
->parentmass 501.321744867198
+>parentmass Inf
 >rt 10.9656162931004
 
 >ms1
-501.3217 100
 
 >ms2
 55.0533 8
@@ -76904,11 +75839,10 @@
 
 >compound FTneg4009
 >ionization [M+?]-
->parentmass 580.324909740894
+>parentmass Inf
 >rt 10.7766042013166
 
 >ms1
-580.3249 100
 
 >ms2
 55.0518 8
@@ -76923,11 +75857,10 @@
 
 >compound FTneg4010
 >ionization [M+?]-
->parentmass 597.310141209931
+>parentmass Inf
 >rt 10.9735150040172
 
 >ms1
-597.3101 100
 
 >ms2
 51.0158 40
@@ -76945,88 +75878,87 @@
 
 >compound FTneg4011
 >ionization [M+?]-
->parentmass 207.931302754849
+>parentmass Inf
 >rt 0.48799695324478
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg4012
 >ionization [M+?]-
->parentmass 235.926299198235
+>parentmass Inf
 >rt 0.495973440106309
 
 >ms1
-235.9263 100
+
 
 >ms2
 235.9263 100
 
 >compound FTneg4013
 >ionization [M+?]-
->parentmass 207.931332029664
+>parentmass Inf
 >rt 1.01539241204145
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg4014
 >ionization [M+?]-
->parentmass 235.926277656148
+>parentmass Inf
 >rt 1.03708306727909
 
 >ms1
-235.9263 100
+
 
 >ms2
 235.9263 100
 
 >compound FTneg4015
 >ionization [M+?]-
->parentmass 207.93133522337
+>parentmass Inf
 >rt 0.598403957062195
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg4016
 >ionization [M+?]-
->parentmass 207.931344127537
+>parentmass Inf
 >rt 0.690277936274979
 
 >ms1
-207.9313 100
+
 
 >ms2
 207.9313 100
 
 >compound FTneg4017
 >ionization [M+?]-
->parentmass 235.926296719532
+>parentmass Inf
 >rt 0.654386061887488
 
 >ms1
-235.9263 100
+
 
 >ms2
 235.9263 100
 
 >compound FTneg4018
 >ionization [M+?]-
->parentmass 208.973449111739
+>parentmass Inf
 >rt 2.07950874593654
 
 >ms1
-208.9734 100
 
 >ms2
 52.9381 20
@@ -77045,11 +75977,10 @@
 
 >compound FTneg4019
 >ionization [M+?]-
->parentmass 209.082053453582
+>parentmass Inf
 >rt 9.94760705351373
 
 >ms1
-209.0821 100
 
 >ms2
 51.9404 40
@@ -77059,22 +75990,21 @@
 
 >compound FTneg4020
 >ionization [M+?]-
->parentmass 523.236417597655
+>parentmass Inf
 >rt 9.96762701015349
 
 >ms1
-523.2364 100
+
 
 >ms2
 523.2364 100
 
 >compound FTneg4021
 >ionization [M+?]-
->parentmass 371.207265504145
+>parentmass Inf
 >rt 10.4819821428571
 
 >ms1
-371.2073 100
 
 >ms2
 53.0182 20
@@ -77117,11 +76047,10 @@
 
 >compound FTneg4022
 >ionization [M+?]-
->parentmass 509.311399959819
+>parentmass Inf
 >rt 10.4869057959435
 
 >ms1
-509.3114 100
 
 >ms2
 59.3507 40
@@ -77129,11 +76058,10 @@
 
 >compound FTneg4023
 >ionization [M+?]-
->parentmass 211.133656453404
+>parentmass Inf
 >rt 10.501959478343
 
 >ms1
-211.1337 100
 
 >ms2
 55.0177 20
@@ -77142,11 +76070,10 @@
 
 >compound FTneg4024
 >ionization [M+?]-
->parentmass 245.117948709306
+>parentmass Inf
 >rt 10.4753308069009
 
 >ms1
-245.1179 100
 
 >ms2
 50.0026 8
@@ -77243,11 +76170,10 @@
 
 >compound FTneg4025
 >ionization [M+?]-
->parentmass 274.184250995989
+>parentmass Inf
 >rt 10.5170388931568
 
 >ms1
-274.1843 100
 
 >ms2
 53.0375 13
@@ -77281,11 +76207,10 @@
 
 >compound FTneg4026
 >ionization [M+?]-
->parentmass 407.059361921513
+>parentmass Inf
 >rt 10.5088752677883
 
 >ms1
-407.0594 100
 
 >ms2
 55.0532 80
@@ -77313,22 +76238,21 @@
 
 >compound FTneg4027
 >ionization [M+?]-
->parentmass 439.191333410552
+>parentmass Inf
 >rt 10.3822654761905
 
 >ms1
-439.1913 100
+
 
 >ms2
 439.1913 100
 
 >compound FTneg4028
 >ionization [M+?]-
->parentmass 213.055514016337
+>parentmass Inf
 >rt 9.33365873071284
 
 >ms1
-213.0555 100
 
 >ms2
 53.0376 40
@@ -77346,11 +76270,10 @@
 
 >compound FTneg4029
 >ionization [M+?]-
->parentmass 495.223261716091
+>parentmass Inf
 >rt 9.34175532227754
 
 >ms1
-495.2233 100
 
 >ms2
 55.0534 199
@@ -77394,22 +76317,21 @@
 
 >compound FTneg4030
 >ionization [M+?]-
->parentmass 213.883553877369
+>parentmass Inf
 >rt 8.62781269119513
 
 >ms1
-213.8836 100
+
 
 >ms2
 213.8836 100
 
 >compound FTneg4031
 >ionization [M+?]-
->parentmass 445.031917654535
+>parentmass Inf
 >rt 8.60453066079539
 
 >ms1
-445.0319 100
 
 >ms2
 50.3199 40
@@ -77634,11 +76556,10 @@
 
 >compound FTneg4032
 >ionization [M+?]-
->parentmass 213.889283523086
+>parentmass Inf
 >rt 2.19564901960794
 
 >ms1
-213.8893 100
 
 >ms2
 51.0223 8
@@ -77676,33 +76597,32 @@
 
 >compound FTneg4033
 >ionization [M+?]-
->parentmass 295.129784058993
+>parentmass Inf
 >rt 7.72616421032485
 
 >ms1
-295.1298 100
+
 
 >ms2
 295.1298 100
 
 >compound FTneg4034
 >ionization [M+?]-
->parentmass 215.092350510547
+>parentmass Inf
 >rt 7.72027599553385
 
 >ms1
-215.0924 100
+
 
 >ms2
 215.0924 100
 
 >compound FTneg4035
 >ionization [M+?]-
->parentmass 419.168713235209
+>parentmass Inf
 >rt 7.73835592567087
 
 >ms1
-419.1687 100
 
 >ms2
 51.0224 80
@@ -77881,11 +76801,10 @@
 
 >compound FTneg4036
 >ionization [M+?]-
->parentmass 493.205407297667
+>parentmass Inf
 >rt 7.72697154442959
 
 >ms1
-493.2054 100
 
 >ms2
 60.0335 20
@@ -77909,176 +76828,174 @@
 
 >compound FTneg4037
 >ionization [M+?]-
->parentmass 214.108364263123
+>parentmass Inf
 >rt 7.68127896168394
 
 >ms1
-214.1084 100
+
 
 >ms2
 214.1084 100
 
 >compound FTneg4038
 >ionization [M+?]-
->parentmass 257.102956525003
+>parentmass Inf
 >rt 7.77127121246119
 
 >ms1
-257.103 100
+
 
 >ms2
 257.103 100
 
 >compound FTneg4039
 >ionization [M+?]-
->parentmass 299.197160622174
+>parentmass Inf
 >rt 7.75784674847951
 
 >ms1
-299.1972 100
+
 
 >ms2
 299.1972 100
 
 >compound FTneg4040
 >ionization [M+?]-
->parentmass 323.170217310771
+>parentmass Inf
 >rt 7.68979475181068
 
 >ms1
-323.1702 100
+
 
 >ms2
 323.1702 100
 
 >compound FTneg4041
 >ionization [M+?]-
->parentmass 357.213960271789
+>parentmass Inf
 >rt 7.72030832189826
 
 >ms1
-357.214 100
+
 
 >ms2
 357.214 100
 
 >compound FTneg4042
 >ionization [M+?]-
->parentmass 367.196875408486
+>parentmass Inf
 >rt 7.73326882515657
 
 >ms1
-367.1969 100
+
 
 >ms2
 367.1969 100
 
 >compound FTneg4043
 >ionization [M+?]-
->parentmass 435.140503046628
+>parentmass Inf
 >rt 7.71337744665945
 
 >ms1
-435.1405 100
+
 
 >ms2
 435.1405 100
 
 >compound FTneg4044
 >ionization [M+?]-
->parentmass 459.244020103826
+>parentmass Inf
 >rt 7.72177294121895
 
 >ms1
-459.244 100
+
 
 >ms2
 459.244 100
 
 >compound FTneg4045
 >ionization [M+?]-
->parentmass 483.176236949366
+>parentmass Inf
 >rt 7.72758005788216
 
 >ms1
-483.1762 100
+
 
 >ms2
 483.1762 100
 
 >compound FTneg4046
 >ionization [M+?]-
->parentmass 651.343170693952
+>parentmass Inf
 >rt 7.7344247865017
 
 >ms1
-651.3432 100
+
 
 >ms2
 651.3432 100
 
 >compound FTneg4047
 >ionization [M+?]-
->parentmass 509.311629747889
+>parentmass Inf
 >rt 9.58524548429137
 
 >ms1
-509.3116 100
 
 >ms2
 52.0279 40
 
 >compound FTneg4048
 >ionization [M+?]-
->parentmass 214.11646239767
+>parentmass Inf
 >rt 9.51094017551308
 
 >ms1
-214.1165 100
+
 
 >ms2
 214.1165 100
 
 >compound FTneg4049
 >ionization [M+?]-
->parentmass 231.123207491577
+>parentmass Inf
 >rt 9.58319469683002
 
 >ms1
-231.1232 100
+
 
 >ms2
 231.1232 100
 
 >compound FTneg4050
 >ionization [M+?]-
->parentmass 247.15583248641
+>parentmass Inf
 >rt 9.64582820604856
 
 >ms1
-247.1558 100
+
 
 >ms2
 247.1558 100
 
 >compound FTneg4051
 >ionization [M+?]-
->parentmass 301.002123237423
+>parentmass Inf
 >rt 9.64810800527394
 
 >ms1
-301.0021 100
+
 
 >ms2
 301.0021 100
 
 >compound FTneg4052
 >ionization [M+?]-
->parentmass 487.236940810696
+>parentmass Inf
 >rt 9.59068484966374
 
 >ms1
-487.2369 100
 
 >ms2
 55.0201 80
@@ -78135,11 +77052,10 @@
 
 >compound FTneg4053
 >ionization [M+?]-
->parentmass 932.966045127013
+>parentmass Inf
 >rt 9.04035035081916
 
 >ms1
-932.966 100
 
 >ms2
 55.0162 80
@@ -78201,11 +77117,10 @@
 
 >compound FTneg4054
 >ionization [M+?]-
->parentmass 214.144732084539
+>parentmass Inf
 >rt 9.04761144368672
 
 >ms1
-214.1447 100
 
 >ms2
 51.0245 40
@@ -78217,11 +77132,10 @@
 
 >compound FTneg4055
 >ionization [M+?]-
->parentmass 932.464541550361
+>parentmass Inf
 >rt 9.04040386570783
 
 >ms1
-932.4645 100
 
 >ms2
 55.02 40
@@ -78312,77 +77226,76 @@
 
 >compound FTneg4056
 >ionization [M+?]-
->parentmass 214.879943468418
+>parentmass Inf
 >rt 8.84203171037806
 
 >ms1
-214.8799 100
+
 
 >ms2
 214.8799 100
 
 >compound FTneg4057
 >ionization [M+?]-
->parentmass 228.994107396766
+>parentmass Inf
 >rt 8.85934150100627
 
 >ms1
-228.9941 100
+
 
 >ms2
 228.9941 100
 
 >compound FTneg4058
 >ionization [M+?]-
->parentmass 281.063458213435
+>parentmass Inf
 >rt 8.76148118897871
 
 >ms1
-281.0635 100
+
 
 >ms2
 281.0635 100
 
 >compound FTneg4059
 >ionization [M+?]-
->parentmass 291.135708759442
+>parentmass Inf
 >rt 8.75919484612157
 
 >ms1
-291.1357 100
+
 
 >ms2
 291.1357 100
 
 >compound FTneg4060
 >ionization [M+?]-
->parentmass 349.001665177817
+>parentmass Inf
 >rt 8.66131706362
 
 >ms1
-349.0017 100
+
 
 >ms2
 349.0017 100
 
 >compound FTneg4061
 >ionization [M+?]-
->parentmass 377.094848887635
+>parentmass Inf
 >rt 8.80411041666669
 
 >ms1
-377.0948 100
+
 
 >ms2
 377.0948 100
 
 >compound FTneg4062
 >ionization [M+?]-
->parentmass 215.00197900441
+>parentmass Inf
 >rt 7.613785897436
 
 >ms1
-215.002 100
 
 >ms2
 50.0148 8
@@ -78420,22 +77333,21 @@
 
 >compound FTneg4063
 >ionization [M+?]-
->parentmass 482.149678966963
+>parentmass Inf
 >rt 7.64210244741957
 
 >ms1
-482.1497 100
+
 
 >ms2
 482.1497 100
 
 >compound FTneg4064
 >ionization [M+?]-
->parentmass 243.160101453723
+>parentmass Inf
 >rt 10.6846949904715
 
 >ms1
-243.1601 100
 
 >ms2
 53.0123 40
@@ -78450,22 +77362,20 @@
 
 >compound FTneg4065
 >ionization [M+?]-
->parentmass 290.197008806463
+>parentmass Inf
 >rt 10.6789495953092
 
 >ms1
-290.197 100
 
 >ms2
 55.9336 20
 
 >compound FTneg4066
 >ionization [M+?]-
->parentmass 485.018217717208
+>parentmass Inf
 >rt 10.6736235781492
 
 >ms1
-485.0182 100
 
 >ms2
 50.2389 40
@@ -78475,11 +77385,10 @@
 
 >compound FTneg4067
 >ionization [M+?]-
->parentmass 215.128595607316
+>parentmass Inf
 >rt 10.6744856859159
 
 >ms1
-215.1286 100
 
 >ms2
 50.8781 8
@@ -78505,22 +77414,21 @@
 
 >compound FTneg4068
 >ionization [M+?]-
->parentmass 280.167751552306
+>parentmass Inf
 >rt 10.6737478586848
 
 >ms1
-280.1678 100
+
 
 >ms2
 280.1678 100
 
 >compound FTneg4069
 >ionization [M+?]-
->parentmass 283.116072780031
+>parentmass Inf
 >rt 10.6739681484827
 
 >ms1
-283.1161 100
 
 >ms2
 53.0376 20
@@ -78539,44 +77447,43 @@
 
 >compound FTneg4070
 >ionization [M+?]-
->parentmass 283.190711734335
+>parentmass Inf
 >rt 10.6998954463652
 
 >ms1
-283.1907 100
+
 
 >ms2
 283.1907 100
 
 >compound FTneg4071
 >ionization [M+?]-
->parentmass 297.170178317109
+>parentmass Inf
 >rt 10.6639867075289
 
 >ms1
-297.1702 100
+
 
 >ms2
 297.1702 100
 
 >compound FTneg4072
 >ionization [M+?]-
->parentmass 307.187085876879
+>parentmass Inf
 >rt 10.6775731493673
 
 >ms1
-307.1871 100
+
 
 >ms2
 307.1871 100
 
 >compound FTneg4073
 >ionization [M+?]-
->parentmass 330.173979982418
+>parentmass Inf
 >rt 10.6265711076227
 
 >ms1
-330.174 100
 
 >ms2
 59.0306 159
@@ -78587,22 +77494,21 @@
 
 >compound FTneg4074
 >ionization [M+?]-
->parentmass 339.157812179307
+>parentmass Inf
 >rt 10.6505816832653
 
 >ms1
-339.1578 100
+
 
 >ms2
 339.1578 100
 
 >compound FTneg4075
 >ionization [M+?]-
->parentmass 349.186549668848
+>parentmass Inf
 >rt 10.6542470328568
 
 >ms1
-349.1865 100
 
 >ms2
 55.0533 40
@@ -78614,11 +77520,10 @@
 
 >compound FTneg4076
 >ionization [M+?]-
->parentmass 359.170590927739
+>parentmass Inf
 >rt 10.6654378418989
 
 >ms1
-359.1706 100
 
 >ms2
 55.0533 120
@@ -78632,22 +77537,21 @@
 
 >compound FTneg4077
 >ionization [M+?]-
->parentmass 361.059728211358
+>parentmass Inf
 >rt 10.5838629907153
 
 >ms1
-361.0597 100
+
 
 >ms2
 361.0597 100
 
 >compound FTneg4078
 >ionization [M+?]-
->parentmass 495.332018695015
+>parentmass Inf
 >rt 10.7076240187749
 
 >ms1
-495.332 100
 
 >ms2
 55.0532 489
@@ -78726,22 +77630,21 @@
 
 >compound FTneg4079
 >ionization [M+?]-
->parentmass 499.19596061747
+>parentmass Inf
 >rt 10.7047838494144
 
 >ms1
-499.196 100
+
 
 >ms2
 499.196 100
 
 >compound FTneg4080
 >ionization [M+?]-
->parentmass 501.173346411799
+>parentmass Inf
 >rt 10.6658206107676
 
 >ms1
-501.1733 100
 
 >ms2
 55.0186 20
@@ -78845,11 +77748,10 @@
 
 >compound FTneg4081
 >ionization [M+?]-
->parentmass 503.336146523098
+>parentmass Inf
 >rt 10.6549711784167
 
 >ms1
-503.3361 100
 
 >ms2
 67.0535 40
@@ -78866,11 +77768,10 @@
 
 >compound FTneg4082
 >ionization [M+?]-
->parentmass 538.318918823983
+>parentmass Inf
 >rt 10.7018339492594
 
 >ms1
-538.3189 100
 
 >ms2
 51.0217 40
@@ -78953,11 +77854,10 @@
 
 >compound FTneg4083
 >ionization [M+?]-
->parentmass 407.280075734284
+>parentmass Inf
 >rt 10.3870750338883
 
 >ms1
-407.2801 100
 
 >ms2
 62.9889 8
@@ -78966,11 +77866,10 @@
 
 >compound FTneg4084
 >ionization [M+?]-
->parentmass 215.16484788833
+>parentmass Inf
 >rt 10.3868811224833
 
 >ms1
-215.1648 100
 
 >ms2
 50.0084 8
@@ -79000,22 +77899,21 @@
 
 >compound FTneg4085
 >ionization [M+?]-
->parentmass 446.203025075576
+>parentmass Inf
 >rt 10.352760634331
 
 >ms1
-446.203 100
+
 
 >ms2
 446.203 100
 
 >compound FTneg4086
 >ionization [M+?]-
->parentmass 638.330838836636
+>parentmass Inf
 >rt 11.3994274591172
 
 >ms1
-638.3308 100
 
 >ms2
 55.0533 40
@@ -79127,11 +78025,10 @@
 
 >compound FTneg4087
 >ionization [M+?]-
->parentmass 643.288584600219
+>parentmass Inf
 >rt 11.384072671033
 
 >ms1
-643.2886 100
 
 >ms2
 80.9473 199
@@ -79150,11 +78047,10 @@
 
 >compound FTneg4088
 >ionization [M+?]-
->parentmass 215.165015898818
+>parentmass Inf
 >rt 11.3820886649289
 
 >ms1
-215.165 100
 
 >ms2
 50.0112 8
@@ -79188,22 +78084,21 @@
 
 >compound FTneg4089
 >ionization [M+?]-
->parentmass 215.45121698547
+>parentmass Inf
 >rt 11.452706060606
 
 >ms1
-215.4512 100
+
 
 >ms2
 215.4512 100
 
 >compound FTneg4090
 >ionization [M+?]-
->parentmass 424.236070654292
+>parentmass Inf
 >rt 11.4696499999999
 
 >ms1
-424.2361 100
 
 >ms2
 50.0163 4
@@ -79213,11 +78108,10 @@
 
 >compound FTneg4091
 >ionization [M+?]-
->parentmass 738.527706056684
+>parentmass Inf
 >rt 11.3875051581108
 
 >ms1
-738.5277 100
 
 >ms2
 73.0259 40
@@ -79229,11 +78123,10 @@
 
 >compound FTneg4092
 >ionization [M+?]-
->parentmass 216.066573594192
+>parentmass Inf
 >rt 9.88262857994403
 
 >ms1
-216.0666 100
 
 >ms2
 51.0223 4
@@ -79256,231 +78149,230 @@
 
 >compound FTneg4093
 >ionization [M+?]-
->parentmass 217.017601544834
+>parentmass Inf
 >rt 8.57493243313223
 
 >ms1
-217.0176 100
+
 
 >ms2
 217.0176 100
 
 >compound FTneg4094
 >ionization [M+?]-
->parentmass 231.123571096558
+>parentmass Inf
 >rt 8.56735113959055
 
 >ms1
-231.1236 100
+
 
 >ms2
 231.1236 100
 
 >compound FTneg4095
 >ionization [M+?]-
->parentmass 247.118449381851
+>parentmass Inf
 >rt 8.61852846350516
 
 >ms1
-247.1184 100
+
 
 >ms2
 247.1184 100
 
 >compound FTneg4096
 >ionization [M+?]-
->parentmass 217.042064095065
+>parentmass Inf
 >rt 10.5485991648759
 
 >ms1
-217.0421 100
+
 
 >ms2
 217.0421 100
 
 >compound FTneg4097
 >ionization [M+?]-
->parentmass 381.101338233619
+>parentmass Inf
 >rt 8.59776572294861
 
 >ms1
-381.1013 100
+
 
 >ms2
 381.1013 100
 
 >compound FTneg4098
 >ionization [M+?]-
->parentmass 218.121527060857
+>parentmass Inf
 >rt 8.60717249475563
 
 >ms1
-218.1215 100
+
 
 >ms2
 218.1215 100
 
 >compound FTneg4099
 >ionization [M+?]-
->parentmass 218.962732442485
+>parentmass Inf
 >rt 4.582488
 
 >ms1
-218.9627 100
+
 
 >ms2
 218.9627 100
 
 >compound FTneg4100
 >ionization [M+?]-
->parentmass 391.722091987148
+>parentmass Inf
 >rt 4.68515256410262
 
 >ms1
-391.7221 100
+
 
 >ms2
 391.7221 100
 
 >compound FTneg4101
 >ionization [M+?]-
->parentmass 446.645357050324
+>parentmass Inf
 >rt 2.31168125000006
 
 >ms1
-446.6454 100
+
 
 >ms2
 446.6454 100
 
 >compound FTneg4102
 >ionization [M+?]-
->parentmass 218.981871051642
+>parentmass Inf
 >rt 2.2066749968166
 
 >ms1
-218.9819 100
+
 
 >ms2
 218.9819 100
 
 >compound FTneg4103
 >ionization [M+?]-
->parentmass 220.130438883304
+>parentmass Inf
 >rt 2.76142936507943
 
 >ms1
-220.1304 100
+
 
 >ms2
 220.1304 100
 
 >compound FTneg4104
 >ionization [M+?]-
->parentmass 222.019259669427
+>parentmass Inf
 >rt 8.23544509803924
 
 >ms1
-222.0193 100
+
 
 >ms2
 222.0193 100
 
 >compound FTneg4105
 >ionization [M+?]-
->parentmass 249.059903804984
+>parentmass Inf
 >rt 8.32068783000867
 
 >ms1
-249.0599 100
+
 
 >ms2
 249.0599 100
 
 >compound FTneg4106
 >ionization [M+?]-
->parentmass 271.154887589782
+>parentmass Inf
 >rt 8.2441821745413
 
 >ms1
-271.1549 100
+
 
 >ms2
 271.1549 100
 
 >compound FTneg4107
 >ionization [M+?]-
->parentmass 303.103910990107
+>parentmass Inf
 >rt 8.22011262127889
 
 >ms1
-303.1039 100
+
 
 >ms2
 303.1039 100
 
 >compound FTneg4108
 >ionization [M+?]-
->parentmass 415.156379352576
+>parentmass Inf
 >rt 8.2512375
 
 >ms1
-415.1564 100
+
 
 >ms2
 415.1564 100
 
 >compound FTneg4109
 >ionization [M+?]-
->parentmass 434.196087883768
+>parentmass Inf
 >rt 8.27084418982802
 
 >ms1
-434.1961 100
+
 
 >ms2
 434.1961 100
 
 >compound FTneg4110
 >ionization [M+?]-
->parentmass 549.160768096377
+>parentmass Inf
 >rt 8.21450256961209
 
 >ms1
-549.1608 100
+
 
 >ms2
 549.1608 100
 
 >compound FTneg4111
 >ionization [M+?]-
->parentmass 619.287306616352
+>parentmass Inf
 >rt 8.24431904761907
 
 >ms1
-619.2873 100
+
 
 >ms2
 619.2873 100
 
 >compound FTneg4112
 >ionization [M+?]-
->parentmass 222.852364367272
+>parentmass Inf
 >rt 2.35200000000007
 
 >ms1
-222.8524 100
+
 
 >ms2
 222.8524 100
 
 >compound FTneg4113
 >ionization [M+?]-
->parentmass 224.129063717879
+>parentmass Inf
 >rt 10.0794054757431
 
 >ms1
-224.1291 100
 
 >ms2
 53.0011 40
@@ -79507,44 +78399,43 @@
 
 >compound FTneg4114
 >ionization [M+?]-
->parentmass 266.996711142816
+>parentmass Inf
 >rt 10.0757642921427
 
 >ms1
-266.9967 100
+
 
 >ms2
 266.9967 100
 
 >compound FTneg4115
 >ionization [M+?]-
->parentmass 357.17310889533
+>parentmass Inf
 >rt 10.0733043204384
 
 >ms1
-357.1731 100
+
 
 >ms2
 357.1731 100
 
 >compound FTneg4116
 >ionization [M+?]-
->parentmass 370.1325162848
+>parentmass Inf
 >rt 10.0985449799329
 
 >ms1
-370.1325 100
+
 
 >ms2
 370.1325 100
 
 >compound FTneg4117
 >ionization [M+?]-
->parentmass 405.264497599509
+>parentmass Inf
 >rt 10.0839624573078
 
 >ms1
-405.2645 100
 
 >ms2
 57.0334 21
@@ -79562,22 +78453,21 @@
 
 >compound FTneg4118
 >ionization [M+?]-
->parentmass 437.253346553892
+>parentmass Inf
 >rt 10.0345156901827
 
 >ms1
-437.2533 100
+
 
 >ms2
 437.2533 100
 
 >compound FTneg4119
 >ionization [M+?]-
->parentmass 225.061399079902
+>parentmass Inf
 >rt 1.65177433212152
 
 >ms1
-225.0614 100
 
 >ms2
 50.9808 4
@@ -79619,33 +78509,32 @@
 
 >compound FTneg4120
 >ionization [M+?]-
->parentmass 225.0616708185
+>parentmass Inf
 >rt 7.96633181818177
 
 >ms1
-225.0617 100
+
 
 >ms2
 225.0617 100
 
 >compound FTneg4121
 >ionization [M+?]-
->parentmass 231.086799482753
+>parentmass Inf
 >rt 7.96456560695614
 
 >ms1
-231.0868 100
+
 
 >ms2
 231.0868 100
 
 >compound FTneg4122
 >ionization [M+?]-
->parentmass 255.822249943692
+>parentmass Inf
 >rt 7.93073443580769
 
 >ms1
-255.8222 100
 
 >ms2
 53.0383 40
@@ -79660,55 +78549,54 @@
 
 >compound FTneg4123
 >ionization [M+?]-
->parentmass 225.112713155757
+>parentmass Inf
 >rt 10.0445501096637
 
 >ms1
-225.1127 100
+
 
 >ms2
 225.1127 100
 
 >compound FTneg4124
 >ionization [M+?]-
->parentmass 402.249313223798
+>parentmass Inf
 >rt 10.0753661236743
 
 >ms1
-402.2493 100
+
 
 >ms2
 402.2493 100
 
 >compound FTneg4125
 >ionization [M+?]-
->parentmass 342.10029601058
+>parentmass Inf
 >rt 10.0359951855208
 
 >ms1
-342.1003 100
+
 
 >ms2
 342.1003 100
 
 >compound FTneg4126
 >ionization [M+?]-
->parentmass 225.112716472246
+>parentmass Inf
 >rt 9.75319228212357
 
 >ms1
-225.1127 100
+
 
 >ms2
 225.1127 100
 
 >compound FTneg4127
 >ionization [M+?]-
->parentmass 350.910267314429
+>parentmass Inf
 >rt 9.76939153093518
 
 >ms1
-350.9103 100
 
 >ms2
 57.0696 40
@@ -79718,11 +78606,10 @@
 
 >compound FTneg4128
 >ionization [M+?]-
->parentmass 461.107344898133
+>parentmass Inf
 >rt 9.68768231384123
 
 >ms1
-461.1073 100
 
 >ms2
 55.9336 40
@@ -79731,11 +78618,10 @@
 
 >compound FTneg4129
 >ionization [M+?]-
->parentmass 451.269929779279
+>parentmass Inf
 >rt 10.5728587355907
 
 >ms1
-451.2699 100
 
 >ms2
 57.0665 41
@@ -79746,11 +78632,10 @@
 
 >compound FTneg4130
 >ionization [M+?]-
->parentmass 350.209589209497
+>parentmass Inf
 >rt 10.6118496661549
 
 >ms1
-350.2096 100
 
 >ms2
 53.0383 40
@@ -79807,22 +78692,20 @@
 
 >compound FTneg4131
 >ionization [M+?]-
->parentmass 226.144699418421
+>parentmass Inf
 >rt 10.6137072585373
 
 >ms1
-226.1447 100
 
 >ms2
 55.0109 4
 
 >compound FTneg4132
 >ionization [M+?]-
->parentmass 239.164886060405
+>parentmass Inf
 >rt 10.7400067875912
 
 >ms1
-239.1649 100
 
 >ms2
 50.0069 30
@@ -79937,11 +78820,10 @@
 
 >compound FTneg4133
 >ionization [M+?]-
->parentmass 332.190857852652
+>parentmass Inf
 >rt 10.537246102985
 
 >ms1
-332.1909 100
 
 >ms2
 55.0526 40
@@ -79951,11 +78833,10 @@
 
 >compound FTneg4134
 >ionization [M+?]-
->parentmass 360.238693911994
+>parentmass Inf
 >rt 10.6037627920137
 
 >ms1
-360.2387 100
 
 >ms2
 54.8726 40
@@ -79975,11 +78856,10 @@
 
 >compound FTneg4135
 >ionization [M+?]-
->parentmass 369.155189427198
+>parentmass Inf
 >rt 10.6054851779128
 
 >ms1
-369.1552 100
 
 >ms2
 51.0114 40
@@ -80016,22 +78896,21 @@
 
 >compound FTneg4136
 >ionization [M+?]-
->parentmass 509.257741491556
+>parentmass Inf
 >rt 10.7298995041872
 
 >ms1
-509.2577 100
+
 
 >ms2
 509.2577 100
 
 >compound FTneg4137
 >ionization [M+?]-
->parentmass 242.176129755247
+>parentmass Inf
 >rt 10.0369871491708
 
 >ms1
-242.1761 100
 
 >ms2
 55.0542 40
@@ -80055,11 +78934,10 @@
 
 >compound FTneg4138
 >ionization [M+?]-
->parentmass 226.144747685128
+>parentmass Inf
 >rt 10.0297030966543
 
 >ms1
-226.1447 100
 
 >ms2
 50.0162 8
@@ -80080,11 +78958,10 @@
 
 >compound FTneg4139
 >ionization [M+?]-
->parentmass 347.149958848681
+>parentmass Inf
 >rt 10.0214676447913
 
 >ms1
-347.15 100
 
 >ms2
 50.5605 4
@@ -80106,11 +78983,10 @@
 
 >compound FTneg4140
 >ionization [M+?]-
->parentmass 391.212385574795
+>parentmass Inf
 >rt 10.0155798528072
 
 >ms1
-391.2124 100
 
 >ms2
 51.0092 40
@@ -80208,11 +79084,10 @@
 
 >compound FTneg4141
 >ionization [M+?]-
->parentmass 408.20248394969
+>parentmass Inf
 >rt 10.0159284755849
 
 >ms1
-408.2025 100
 
 >ms2
 55.0525 40
@@ -80293,77 +79168,74 @@
 
 >compound FTneg4142
 >ionization [M+?]-
->parentmass 227.128747351548
+>parentmass Inf
 >rt 10.0136150347973
 
 >ms1
-227.1287 100
+
 
 >ms2
 227.1287 100
 
 >compound FTneg4143
 >ionization [M+?]-
->parentmass 229.049667663587
+>parentmass Inf
 >rt 10.0227264786016
 
 >ms1
-229.0497 100
+
 
 >ms2
 229.0497 100
 
 >compound FTneg4144
 >ionization [M+?]-
->parentmass 242.154899941952
+>parentmass Inf
 >rt 10.02674514364
 
 >ms1
-242.1549 100
 
 >ms2
 50.0214 4
 
 >compound FTneg4145
 >ionization [M+?]-
->parentmass 272.186279117136
+>parentmass Inf
 >rt 10.0280242171575
 
 >ms1
-272.1863 100
+
 
 >ms2
 272.1863 100
 
 >compound FTneg4146
 >ionization [M+?]-
->parentmass 305.142609703608
+>parentmass Inf
 >rt 10.0241501569256
 
 >ms1
-305.1426 100
 
 >ms2
 123.0775 40
 
 >compound FTneg4147
 >ionization [M+?]-
->parentmass 305.170819043729
+>parentmass Inf
 >rt 10.0379809607032
 
 >ms1
-305.1708 100
+
 
 >ms2
 305.1708 100
 
 >compound FTneg4148
 >ionization [M+?]-
->parentmass 343.175781965025
+>parentmass Inf
 >rt 10.0357072609508
 
 >ms1
-343.1758 100
 
 >ms2
 56.8825 20
@@ -80377,11 +79249,10 @@
 
 >compound FTneg4149
 >ionization [M+?]-
->parentmass 346.169044953694
+>parentmass Inf
 >rt 10.0321653988423
 
 >ms1
-346.169 100
 
 >ms2
 57.0326 41
@@ -80405,11 +79276,10 @@
 
 >compound FTneg4150
 >ionization [M+?]-
->parentmass 347.171394873958
+>parentmass Inf
 >rt 10.0124249265932
 
 >ms1
-347.1714 100
 
 >ms2
 55.9328 8
@@ -80426,11 +79296,10 @@
 
 >compound FTneg4151
 >ionization [M+?]-
->parentmass 359.149824433295
+>parentmass Inf
 >rt 10.0227361246531
 
 >ms1
-359.1498 100
 
 >ms2
 55.0177 120
@@ -80460,44 +79329,42 @@
 
 >compound FTneg4152
 >ionization [M+?]-
->parentmass 372.133170541917
+>parentmass Inf
 >rt 10.037815610152
 
 >ms1
-372.1332 100
+
 
 >ms2
 372.1332 100
 
 >compound FTneg4153
 >ionization [M+?]-
->parentmass 381.183492575001
+>parentmass Inf
 >rt 10.0159046808197
 
 >ms1
-381.1835 100
 
 >ms2
 55.0549 40
 
 >compound FTneg4154
 >ionization [M+?]-
->parentmass 383.181358521725
+>parentmass Inf
 >rt 10.0166407732847
 
 >ms1
-383.1814 100
+
 
 >ms2
 383.1814 100
 
 >compound FTneg4155
 >ionization [M+?]-
->parentmass 391.186328125635
+>parentmass Inf
 >rt 9.97832727272718
 
 >ms1
-391.1863 100
 
 >ms2
 55.0473 20
@@ -80537,11 +79404,10 @@
 
 >compound FTneg4156
 >ionization [M+?]-
->parentmass 459.199711718565
+>parentmass Inf
 >rt 10.0147052951889
 
 >ms1
-459.1997 100
 
 >ms2
 55.0528 120
@@ -80637,11 +79503,10 @@
 
 >compound FTneg4157
 >ionization [M+?]-
->parentmass 496.273863179095
+>parentmass Inf
 >rt 10.0367193061364
 
 >ms1
-496.2739 100
 
 >ms2
 53.013 40
@@ -80681,11 +79546,10 @@
 
 >compound FTneg4158
 >ionization [M+?]-
->parentmass 517.316835941021
+>parentmass Inf
 >rt 10.0081621212123
 
 >ms1
-517.3168 100
 
 >ms2
 53.0388 80
@@ -80889,55 +79753,54 @@
 
 >compound FTneg4159
 >ionization [M+?]-
->parentmass 675.338194855842
+>parentmass Inf
 >rt 9.89661599999984
 
 >ms1
-675.3382 100
+
 
 >ms2
 675.3382 100
 
 >compound FTneg4160
 >ionization [M+?]-
->parentmass 399.165485221327
+>parentmass Inf
 >rt 8.14439965357349
 
 >ms1
-399.1655 100
+
 
 >ms2
 399.1655 100
 
 >compound FTneg4161
 >ionization [M+?]-
->parentmass 227.090926926213
+>parentmass Inf
 >rt 8.18153901752681
 
 >ms1
-227.0909 100
+
 
 >ms2
 227.0909 100
 
 >compound FTneg4162
 >ionization [M+?]-
->parentmass 285.097959241545
+>parentmass Inf
 >rt 8.23660361910947
 
 >ms1
-285.098 100
+
 
 >ms2
 285.098 100
 
 >compound FTneg4163
 >ionization [M+?]-
->parentmass 437.290541282283
+>parentmass Inf
 >rt 11.4282954306538
 
 >ms1
-437.2905 100
 
 >ms2
 55.0003 40
@@ -80974,11 +79837,10 @@
 
 >compound FTneg4164
 >ionization [M+?]-
->parentmass 531.332306558345
+>parentmass Inf
 >rt 11.4557787308804
 
 >ms1
-531.3323 100
 
 >ms2
 55.0534 40
@@ -81024,11 +79886,10 @@
 
 >compound FTneg4165
 >ionization [M+?]-
->parentmass 662.330757590337
+>parentmass Inf
 >rt 11.416975826422
 
 >ms1
-662.3308 100
 
 >ms2
 55.0542 8
@@ -81061,11 +79922,10 @@
 
 >compound FTneg4166
 >ionization [M+?]-
->parentmass 686.330658280963
+>parentmass Inf
 >rt 11.4483156104278
 
 >ms1
-686.3307 100
 
 >ms2
 60.0818 40
@@ -81080,11 +79940,10 @@
 
 >compound FTneg4167
 >ionization [M+?]-
->parentmass 227.164938947548
+>parentmass Inf
 >rt 11.4318701098885
 
 >ms1
-227.1649 100
 
 >ms2
 51.9404 40
@@ -81096,11 +79955,10 @@
 
 >compound FTneg4168
 >ionization [M+?]-
->parentmass 227.20130661558
+>parentmass Inf
 >rt 13.4844822982017
 
 >ms1
-227.2013 100
 
 >ms2
 51.9382 13
@@ -81116,66 +79974,65 @@
 
 >compound FTneg4169
 >ionization [M+?]-
->parentmass 228.044602749878
+>parentmass Inf
 >rt 13.035580882353
 
 >ms1
-228.0446 100
+
 
 >ms2
 228.0446 100
 
 >compound FTneg4170
 >ionization [M+?]-
->parentmass 228.08080810292
+>parentmass Inf
 >rt 2.25677976190471
 
 >ms1
-228.0808 100
+
 
 >ms2
 228.0808 100
 
 >compound FTneg4171
 >ionization [M+?]-
->parentmass 228.095819512888
+>parentmass Inf
 >rt 8.90180996984115
 
 >ms1
-228.0958 100
+
 
 >ms2
 228.0958 100
 
 >compound FTneg4172
 >ionization [M+?]-
->parentmass 321.137436840506
+>parentmass Inf
 >rt 8.80210361135553
 
 >ms1
-321.1374 100
+
 
 >ms2
 321.1374 100
 
 >compound FTneg4173
 >ionization [M+?]-
->parentmass 229.00075957497
+>parentmass Inf
 >rt 6.844346875
 
 >ms1
-229.0008 100
+
 
 >ms2
 229.0008 100
 
 >compound FTneg4174
 >ionization [M+?]-
->parentmass 303.126934332592
+>parentmass Inf
 >rt 9.90689795128878
 
 >ms1
-303.1269 100
 
 >ms2
 50.0091 4
@@ -81223,11 +80080,10 @@
 
 >compound FTneg4175
 >ionization [M+?]-
->parentmass 599.250798203076
+>parentmass Inf
 >rt 9.91052158113108
 
 >ms1
-599.2508 100
 
 >ms2
 55.9274 8
@@ -81242,11 +80098,10 @@
 
 >compound FTneg4176
 >ionization [M+?]-
->parentmass 389.19646334353
+>parentmass Inf
 >rt 9.91197829315277
 
 >ms1
-389.1965 100
 
 >ms2
 54.8801 40
@@ -81276,33 +80131,32 @@
 
 >compound FTneg4177
 >ionization [M+?]-
->parentmass 311.15122057383
+>parentmass Inf
 >rt 9.9120029864988
 
 >ms1
-311.1512 100
+
 
 >ms2
 311.1512 100
 
 >compound FTneg4178
 >ionization [M+?]-
->parentmass 229.107844667364
+>parentmass Inf
 >rt 9.80806061728627
 
 >ms1
-229.1078 100
+
 
 >ms2
 229.1078 100
 
 >compound FTneg4179
 >ionization [M+?]-
->parentmass 319.123501805091
+>parentmass Inf
 >rt 9.97162710559319
 
 >ms1
-319.1235 100
 
 >ms2
 50.0011 40
@@ -81567,11 +80421,10 @@
 
 >compound FTneg4180
 >ionization [M+?]-
->parentmass 319.130932657996
+>parentmass Inf
 >rt 9.89895871956277
 
 >ms1
-319.1309 100
 
 >ms2
 56.8685 13
@@ -81579,209 +80432,208 @@
 
 >compound FTneg4181
 >ionization [M+?]-
->parentmass 357.263986546058
+>parentmass Inf
 >rt 9.924057401997
 
 >ms1
-357.264 100
+
 
 >ms2
 357.264 100
 
 >compound FTneg4182
 >ionization [M+?]-
->parentmass 429.176320728941
+>parentmass Inf
 >rt 9.91189731866288
 
 >ms1
-429.1763 100
+
 
 >ms2
 429.1763 100
 
 >compound FTneg4183
 >ionization [M+?]-
->parentmass 528.29310088742
+>parentmass Inf
 >rt 9.90102780995442
 
 >ms1
-528.2931 100
+
 
 >ms2
 528.2931 100
 
 >compound FTneg4184
 >ionization [M+?]-
->parentmass 229.815897592278
+>parentmass Inf
 >rt 17.2938266666668
 
 >ms1
-229.8159 100
+
 
 >ms2
 229.8159 100
 
 >compound FTneg4185
 >ionization [M+?]-
->parentmass 230.015374420703
+>parentmass Inf
 >rt 2.76842889801781
 
 >ms1
-230.0154 100
+
 
 >ms2
 230.0154 100
 
 >compound FTneg4186
 >ionization [M+?]-
->parentmass 231.02957240267
+>parentmass Inf
 >rt 7.48222186640798
 
 >ms1
-231.0296 100
+
 
 >ms2
 231.0296 100
 
 >compound FTneg4187
 >ionization [M+?]-
->parentmass 275.916007401915
+>parentmass Inf
 >rt 7.49216589784509
 
 >ms1
-275.916 100
+
 
 >ms2
 275.916 100
 
 >compound FTneg4188
 >ionization [M+?]-
->parentmass 503.233033633821
+>parentmass Inf
 >rt 7.50263721430581
 
 >ms1
-503.233 100
+
 
 >ms2
 503.233 100
 
 >compound FTneg4189
 >ionization [M+?]-
->parentmass 231.086617086579
+>parentmass Inf
 >rt 8.68758287727607
 
 >ms1
-231.0866 100
+
 
 >ms2
 231.0866 100
 
 >compound FTneg4190
 >ionization [M+?]-
->parentmass 428.988275307841
+>parentmass Inf
 >rt 8.67139321078424
 
 >ms1
-428.9883 100
+
 
 >ms2
 428.9883 100
 
 >compound FTneg4191
 >ionization [M+?]-
->parentmass 231.159575865678
+>parentmass Inf
 >rt 10.1810572629122
 
 >ms1
-231.1596 100
+
 
 >ms2
 231.1596 100
 
 >compound FTneg4192
 >ionization [M+?]-
->parentmass 301.164510191927
+>parentmass Inf
 >rt 10.2051959280168
 
 >ms1
-301.1645 100
+
 
 >ms2
 301.1645 100
 
 >compound FTneg4193
 >ionization [M+?]-
->parentmass 306.145698792424
+>parentmass Inf
 >rt 10.2199085906897
 
 >ms1
-306.1457 100
+
 
 >ms2
 306.1457 100
 
 >compound FTneg4194
 >ionization [M+?]-
->parentmass 232.903720690619
+>parentmass Inf
 >rt 1.19016767749764
 
 >ms1
-232.9037 100
+
 
 >ms2
 232.9037 100
 
 >compound FTneg4195
 >ionization [M+?]-
->parentmass 232.928909192407
+>parentmass Inf
 >rt 7.20729270052294
 
 >ms1
-232.9289 100
+
 
 >ms2
 232.9289 100
 
 >compound FTneg4196
 >ionization [M+?]-
->parentmass 274.035404489129
+>parentmass Inf
 >rt 7.25211442208818
 
 >ms1
-274.0354 100
+
 
 >ms2
 274.0354 100
 
 >compound FTneg4197
 >ionization [M+?]-
->parentmass 495.95697612531
+>parentmass Inf
 >rt 7.23843181818191
 
 >ms1
-495.957 100
+
 
 >ms2
 495.957 100
 
 >compound FTneg4198
 >ionization [M+?]-
->parentmass 437.156137622085
+>parentmass Inf
 >rt 6.76195711556774
 
 >ms1
-437.1561 100
+
 
 >ms2
 437.1561 100
 
 >compound FTneg4199
 >ionization [M+?]-
->parentmass 232.976090047208
+>parentmass Inf
 >rt 6.76312063627875
 
 >ms1
-232.9761 100
 
 >ms2
 51.9471 10
@@ -81805,110 +80657,109 @@
 
 >compound FTneg4200
 >ionization [M+?]-
->parentmass 249.097666236183
+>parentmass Inf
 >rt 6.81796595329523
 
 >ms1
-249.0977 100
+
 
 >ms2
 249.0977 100
 
 >compound FTneg4201
 >ionization [M+?]-
->parentmass 304.012357191961
+>parentmass Inf
 >rt 6.80043574948721
 
 >ms1
-304.0124 100
+
 
 >ms2
 304.0124 100
 
 >compound FTneg4202
 >ionization [M+?]-
->parentmass 306.118986460695
+>parentmass Inf
 >rt 6.68809900302337
 
 >ms1
-306.119 100
+
 
 >ms2
 306.119 100
 
 >compound FTneg4203
 >ionization [M+?]-
->parentmass 308.080464933894
+>parentmass Inf
 >rt 6.74956666666667
 
 >ms1
-308.0805 100
+
 
 >ms2
 308.0805 100
 
 >compound FTneg4204
 >ionization [M+?]-
->parentmass 385.171188334845
+>parentmass Inf
 >rt 6.80436165452232
 
 >ms1
-385.1712 100
+
 
 >ms2
 385.1712 100
 
 >compound FTneg4205
 >ionization [M+?]-
->parentmass 233.068362547486
+>parentmass Inf
 >rt 19.1220941039874
 
 >ms1
-233.0684 100
+
 
 >ms2
 233.0684 100
 
 >compound FTneg4206
 >ionization [M+?]-
->parentmass 275.091615364467
+>parentmass Inf
 >rt 19.1486409257724
 
 >ms1
-275.0916 100
+
 
 >ms2
 275.0916 100
 
 >compound FTneg4207
 >ionization [M+?]-
->parentmass 233.930108891951
+>parentmass Inf
 >rt 0.334367332614491
 
 >ms1
-233.9301 100
+
 
 >ms2
 233.9301 100
 
 >compound FTneg4208
 >ionization [M+?]-
->parentmass 397.041622539842
+>parentmass Inf
 >rt 2.85459135861468
 
 >ms1
-397.0416 100
+
 
 >ms2
 397.0416 100
 
 >compound FTneg4209
 >ionization [M+?]-
->parentmass 234.946634989533
+>parentmass Inf
 >rt 2.7074805555555
 
 >ms1
-234.9466 100
 
 >ms2
 52.9491 40
@@ -81959,77 +80810,76 @@
 
 >compound FTneg4210
 >ionization [M+?]-
->parentmass 235.926231684493
+>parentmass Inf
 >rt 0.41004918761773
 
 >ms1
-235.9262 100
+
 
 >ms2
 235.9262 100
 
 >compound FTneg4211
 >ionization [M+?]-
->parentmass 235.926252524367
+>parentmass Inf
 >rt 0.907063015176403
 
 >ms1
-235.9263 100
+
 
 >ms2
 235.9263 100
 
 >compound FTneg4212
 >ionization [M+?]-
->parentmass 235.926273090771
+>parentmass Inf
 >rt 0.828331730772218
 
 >ms1
-235.9263 100
+
 
 >ms2
 235.9263 100
 
 >compound FTneg4213
 >ionization [M+?]-
->parentmass 235.926280533363
+>parentmass Inf
 >rt 0.553032623565897
 
 >ms1
-235.9263 100
+
 
 >ms2
 235.9263 100
 
 >compound FTneg4214
 >ionization [M+?]-
->parentmass 236.928957498174
+>parentmass Inf
 >rt 7.07226990717563
 
 >ms1
-236.929 100
+
 
 >ms2
 236.929 100
 
 >compound FTneg4215
 >ionization [M+?]-
->parentmass 237.149248663586
+>parentmass Inf
 >rt 10.5775234217501
 
 >ms1
-237.1492 100
+
 
 >ms2
 237.1492 100
 
 >compound FTneg4216
 >ionization [M+?]-
->parentmass 515.301235386749
+>parentmass Inf
 >rt 10.655440154145
 
 >ms1
-515.3012 100
 
 >ms2
 55.054 4
@@ -82045,11 +80895,10 @@
 
 >compound FTneg4217
 >ionization [M+?]-
->parentmass 533.347993039116
+>parentmass Inf
 >rt 11.1165441075935
 
 >ms1
-533.348 100
 
 >ms2
 55.045 20
@@ -82067,11 +80916,10 @@
 
 >compound FTneg4218
 >ionization [M+?]-
->parentmass 360.275247391259
+>parentmass Inf
 >rt 11.0924925507173
 
 >ms1
-360.2752 100
 
 >ms2
 53.0376 80
@@ -82213,11 +81061,10 @@
 
 >compound FTneg4219
 >ionization [M+?]-
->parentmass 237.149355881633
+>parentmass Inf
 >rt 11.0953624492769
 
 >ms1
-237.1494 100
 
 >ms2
 50.0134 8
@@ -82250,11 +81097,10 @@
 
 >compound FTneg4220
 >ionization [M+?]-
->parentmass 257.175534129496
+>parentmass Inf
 >rt 11.0935291507347
 
 >ms1
-257.1755 100
 
 >ms2
 51.0194 13
@@ -82300,11 +81146,10 @@
 
 >compound FTneg4221
 >ionization [M+?]-
->parentmass 287.222225784682
+>parentmass Inf
 >rt 11.0497111845498
 
 >ms1
-287.2222 100
 
 >ms2
 51.939 4
@@ -82379,11 +81224,10 @@
 
 >compound FTneg4222
 >ionization [M+?]-
->parentmass 299.149857676874
+>parentmass Inf
 >rt 11.1300557784114
 
 >ms1
-299.1499 100
 
 >ms2
 55.0185 40
@@ -82401,22 +81245,21 @@
 
 >compound FTneg4223
 >ionization [M+?]-
->parentmass 465.313260296252
+>parentmass Inf
 >rt 10.990915625
 
 >ms1
-465.3133 100
+
 
 >ms2
 465.3133 100
 
 >compound FTneg4224
 >ionization [M+?]-
->parentmass 488.34565835571
+>parentmass Inf
 >rt 11.0736153846155
 
 >ms1
-488.3457 100
 
 >ms2
 86.0967 80
@@ -82433,11 +81276,10 @@
 
 >compound FTneg4225
 >ionization [M+?]-
->parentmass 636.315592593652
+>parentmass Inf
 >rt 11.1090585075021
 
 >ms1
-636.3156 100
 
 >ms2
 55.0526 80
@@ -82478,55 +81320,54 @@
 
 >compound FTneg4226
 >ionization [M+?]-
->parentmass 238.080128598931
+>parentmass Inf
 >rt 8.07023806953159
 
 >ms1
-238.0801 100
+
 
 >ms2
 238.0801 100
 
 >compound FTneg4227
 >ionization [M+?]-
->parentmass 289.119348871184
+>parentmass Inf
 >rt 8.10394138965448
 
 >ms1
-289.1193 100
+
 
 >ms2
 289.1193 100
 
 >compound FTneg4228
 >ionization [M+?]-
->parentmass 338.041624368849
+>parentmass Inf
 >rt 8.09488732307416
 
 >ms1
-338.0416 100
+
 
 >ms2
 338.0416 100
 
 >compound FTneg4229
 >ionization [M+?]-
->parentmass 238.093523498817
+>parentmass Inf
 >rt 3.77517189296399
 
 >ms1
-238.0935 100
+
 
 >ms2
 238.0935 100
 
 >compound FTneg4230
 >ionization [M+?]-
->parentmass 248.96033567918
+>parentmass Inf
 >rt 18.3391766128183
 
 >ms1
-248.9603 100
 
 >ms2
 55.0283 40
@@ -82555,11 +81396,10 @@
 
 >compound FTneg4231
 >ionization [M+?]-
->parentmass 374.832967236955
+>parentmass Inf
 >rt 18.339978005359
 
 >ms1
-374.833 100
 
 >ms2
 55.9343 4
@@ -82572,11 +81412,10 @@
 
 >compound FTneg4232
 >ionization [M+?]-
->parentmass 238.931350430246
+>parentmass Inf
 >rt 18.3370944863559
 
 >ms1
-238.9314 100
 
 >ms2
 51.0289 8
@@ -82588,11 +81427,10 @@
 
 >compound FTneg4233
 >ionization [M+?]-
->parentmass 306.918818874596
+>parentmass Inf
 >rt 18.3353008740116
 
 >ms1
-306.9188 100
 
 >ms2
 53.039 40
@@ -82614,11 +81452,10 @@
 
 >compound FTneg4234
 >ionization [M+?]-
->parentmass 316.947653472599
+>parentmass Inf
 >rt 18.3372239436214
 
 >ms1
-316.9477 100
 
 >ms2
 57.0673 40
@@ -82631,11 +81468,10 @@
 
 >compound FTneg4235
 >ionization [M+?]-
->parentmass 401.851489800014
+>parentmass Inf
 >rt 18.3375776144246
 
 >ms1
-401.8515 100
 
 >ms2
 50.3755 40
@@ -82731,22 +81567,21 @@
 
 >compound FTneg4236
 >ionization [M+?]-
->parentmass 530.865236679026
+>parentmass Inf
 >rt 18.3410464066983
 
 >ms1
-530.8652 100
+
 
 >ms2
 530.8652 100
 
 >compound FTneg4237
 >ionization [M+?]-
->parentmass 442.894104936497
+>parentmass Inf
 >rt 1.58501620188836
 
 >ms1
-442.8941 100
 
 >ms2
 50.9888 40
@@ -82777,11 +81612,10 @@
 
 >compound FTneg4238
 >ionization [M+?]-
->parentmass 306.919169797158
+>parentmass Inf
 >rt 1.59111594831363
 
 >ms1
-306.9192 100
 
 >ms2
 53.0376 40
@@ -82801,11 +81635,10 @@
 
 >compound FTneg4239
 >ionization [M+?]-
->parentmass 308.916453844164
+>parentmass Inf
 >rt 1.59064852754406
 
 >ms1
-308.9165 100
 
 >ms2
 56.9648 13
@@ -82813,22 +81646,20 @@
 
 >compound FTneg4240
 >ionization [M+?]-
->parentmass 374.906652181407
+>parentmass Inf
 >rt 1.58880850561558
 
 >ms1
-374.9067 100
 
 >ms2
 61.0275 8
 
 >compound FTneg4241
 >ionization [M+?]-
->parentmass 376.904078834294
+>parentmass Inf
 >rt 1.58769389463374
 
 >ms1
-376.9041 100
 
 >ms2
 50.0141 8
@@ -82862,22 +81693,21 @@
 
 >compound FTneg4242
 >ionization [M+?]-
->parentmass 390.881002518334
+>parentmass Inf
 >rt 1.58942623495075
 
 >ms1
-390.881 100
+
 
 >ms2
 390.881 100
 
 >compound FTneg4243
 >ionization [M+?]-
->parentmass 432.865334940878
+>parentmass Inf
 >rt 1.59377098961488
 
 >ms1
-432.8653 100
 
 >ms2
 52.2963 40
@@ -82904,44 +81734,43 @@
 
 >compound FTneg4244
 >ionization [M+?]-
->parentmass 434.862690174015
+>parentmass Inf
 >rt 1.59345284558738
 
 >ms1
-434.8627 100
+
 
 >ms2
 434.8627 100
 
 >compound FTneg4245
 >ionization [M+?]-
->parentmass 458.868649654006
+>parentmass Inf
 >rt 1.58776686403709
 
 >ms1
-458.8686 100
+
 
 >ms2
 458.8686 100
 
 >compound FTneg4246
 >ionization [M+?]-
->parentmass 460.866073152273
+>parentmass Inf
 >rt 1.58798968949429
 
 >ms1
-460.8661 100
+
 
 >ms2
 460.8661 100
 
 >compound FTneg4247
 >ionization [M+?]-
->parentmass 500.852727638553
+>parentmass Inf
 >rt 1.59069432308419
 
 >ms1
-500.8527 100
 
 >ms2
 54.8771 40
@@ -82972,22 +81801,21 @@
 
 >compound FTneg4248
 >ionization [M+?]-
->parentmass 502.850151746231
+>parentmass Inf
 >rt 1.59077759493334
 
 >ms1
-502.8502 100
+
 
 >ms2
 502.8502 100
 
 >compound FTneg4249
 >ionization [M+?]-
->parentmass 510.881567429669
+>parentmass Inf
 >rt 1.58261493313528
 
 >ms1
-510.8816 100
 
 >ms2
 139.0171 40
@@ -82995,88 +81823,87 @@
 
 >compound FTneg4250
 >ionization [M+?]-
->parentmass 512.879431600059
+>parentmass Inf
 >rt 1.58293477110569
 
 >ms1
-512.8794 100
+
 
 >ms2
 512.8794 100
 
 >compound FTneg4251
 >ionization [M+?]-
->parentmass 516.826998732063
+>parentmass Inf
 >rt 1.59395040472464
 
 >ms1
-516.827 100
+
 
 >ms2
 516.827 100
 
 >compound FTneg4252
 >ionization [M+?]-
->parentmass 518.824211712708
+>parentmass Inf
 >rt 1.59502710522915
 
 >ms1
-518.8242 100
+
 
 >ms2
 518.8242 100
 
 >compound FTneg4253
 >ionization [M+?]-
->parentmass 526.856525678858
+>parentmass Inf
 >rt 1.58563625947218
 
 >ms1
-526.8565 100
+
 
 >ms2
 526.8565 100
 
 >compound FTneg4254
 >ionization [M+?]-
->parentmass 558.81134034021
+>parentmass Inf
 >rt 1.59429457698454
 
 >ms1
-558.8113 100
+
 
 >ms2
 558.8113 100
 
 >compound FTneg4255
 >ionization [M+?]-
->parentmass 560.808710708093
+>parentmass Inf
 >rt 1.59376453129824
 
 >ms1
-560.8087 100
+
 
 >ms2
 560.8087 100
 
 >compound FTneg4256
 >ionization [M+?]-
->parentmass 562.806126120908
+>parentmass Inf
 >rt 1.59414372134247
 
 >ms1
-562.8061 100
+
 
 >ms2
 562.8061 100
 
 >compound FTneg4257
 >ionization [M+?]-
->parentmass 568.840203697207
+>parentmass Inf
 >rt 1.5889035532461
 
 >ms1
-568.8402 100
 
 >ms2
 57.0703 80
@@ -83097,88 +81924,87 @@
 
 >compound FTneg4258
 >ionization [M+?]-
->parentmass 570.837725382883
+>parentmass Inf
 >rt 1.58807343998514
 
 >ms1
-570.8377 100
+
 
 >ms2
 570.8377 100
 
 >compound FTneg4259
 >ionization [M+?]-
->parentmass 584.814375153613
+>parentmass Inf
 >rt 1.59122894454568
 
 >ms1
-584.8144 100
+
 
 >ms2
 584.8144 100
 
 >compound FTneg4260
 >ionization [M+?]-
->parentmass 586.811464108573
+>parentmass Inf
 >rt 1.5910806210498
 
 >ms1
-586.8115 100
+
 
 >ms2
 586.8115 100
 
 >compound FTneg4261
 >ionization [M+?]-
->parentmass 594.843826347746
+>parentmass Inf
 >rt 1.58123062396344
 
 >ms1
-594.8438 100
+
 
 >ms2
 594.8438 100
 
 >compound FTneg4262
 >ionization [M+?]-
->parentmass 626.798798288423
+>parentmass Inf
 >rt 1.59216263616109
 
 >ms1
-626.7988 100
+
 
 >ms2
 626.7988 100
 
 >compound FTneg4263
 >ionization [M+?]-
->parentmass 628.79607539731
+>parentmass Inf
 >rt 1.59110600499157
 
 >ms1
-628.7961 100
+
 
 >ms2
 628.7961 100
 
 >compound FTneg4264
 >ionization [M+?]-
->parentmass 630.7926359116
+>parentmass Inf
 >rt 1.5889594412336
 
 >ms1
-630.7926 100
+
 
 >ms2
 630.7926 100
 
 >compound FTneg4265
 >ionization [M+?]-
->parentmass 636.827515752169
+>parentmass Inf
 >rt 1.58469256656638
 
 >ms1
-636.8275 100
 
 >ms2
 67.0551 40
@@ -83234,121 +82060,120 @@
 
 >compound FTneg4266
 >ionization [M+?]-
->parentmass 638.825277766625
+>parentmass Inf
 >rt 1.58655935978729
 
 >ms1
-638.8253 100
+
 
 >ms2
 638.8253 100
 
 >compound FTneg4267
 >ionization [M+?]-
->parentmass 642.772941542582
+>parentmass Inf
 >rt 1.59544957738415
 
 >ms1
-642.7729 100
+
 
 >ms2
 642.7729 100
 
 >compound FTneg4268
 >ionization [M+?]-
->parentmass 644.769682086972
+>parentmass Inf
 >rt 1.59547964709168
 
 >ms1
-644.7697 100
+
 
 >ms2
 644.7697 100
 
 >compound FTneg4269
 >ionization [M+?]-
->parentmass 652.801995553807
+>parentmass Inf
 >rt 1.59039821611292
 
 >ms1
-652.802 100
+
 
 >ms2
 652.802 100
 
 >compound FTneg4270
 >ionization [M+?]-
->parentmass 684.756874493095
+>parentmass Inf
 >rt 1.5941253636534
 
 >ms1
-684.7569 100
+
 
 >ms2
 684.7569 100
 
 >compound FTneg4271
 >ionization [M+?]-
->parentmass 686.754274130032
+>parentmass Inf
 >rt 1.5930006336303
 
 >ms1
-686.7543 100
+
 
 >ms2
 686.7543 100
 
 >compound FTneg4272
 >ionization [M+?]-
->parentmass 688.751103916576
+>parentmass Inf
 >rt 1.59548433230287
 
 >ms1
-688.7511 100
+
 
 >ms2
 688.7511 100
 
 >compound FTneg4273
 >ionization [M+?]-
->parentmass 694.786180169518
+>parentmass Inf
 >rt 1.58937934767585
 
 >ms1
-694.7862 100
+
 
 >ms2
 694.7862 100
 
 >compound FTneg4274
 >ionization [M+?]-
->parentmass 696.783681949625
+>parentmass Inf
 >rt 1.59077452294484
 
 >ms1
-696.7837 100
+
 
 >ms2
 696.7837 100
 
 >compound FTneg4275
 >ionization [M+?]-
->parentmass 704.814990338562
+>parentmass Inf
 >rt 1.5817668979047
 
 >ms1
-704.815 100
+
 
 >ms2
 704.815 100
 
 >compound FTneg4276
 >ionization [M+?]-
->parentmass 257.175559234632
+>parentmass Inf
 >rt 9.85560566720012
 
 >ms1
-257.1756 100
 
 >ms2
 51.9405 40
@@ -83370,11 +82195,10 @@
 
 >compound FTneg4277
 >ionization [M+?]-
->parentmass 329.233110883193
+>parentmass Inf
 >rt 9.84718466114106
 
 >ms1
-329.2331 100
 
 >ms2
 52.2033 40
@@ -83388,165 +82212,164 @@
 
 >compound FTneg4278
 >ionization [M+?]-
->parentmass 363.217404437406
+>parentmass Inf
 >rt 9.83080641013307
 
 >ms1
-363.2174 100
+
 
 >ms2
 363.2174 100
 
 >compound FTneg4279
 >ionization [M+?]-
->parentmass 851.383142305907
+>parentmass Inf
 >rt 9.84018326528873
 
 >ms1
-851.3831 100
+
 
 >ms2
 851.3831 100
 
 >compound FTneg4280
 >ionization [M+?]-
->parentmass 239.091828938001
+>parentmass Inf
 >rt 9.75698846153846
 
 >ms1
-239.0918 100
+
 
 >ms2
 239.0918 100
 
 >compound FTneg4281
 >ionization [M+?]-
->parentmass 247.097332040136
+>parentmass Inf
 >rt 9.86180913549983
 
 >ms1
-247.0973 100
+
 
 >ms2
 247.0973 100
 
 >compound FTneg4282
 >ionization [M+?]-
->parentmass 257.121086773901
+>parentmass Inf
 >rt 9.82802139896461
 
 >ms1
-257.1211 100
+
 
 >ms2
 257.1211 100
 
 >compound FTneg4283
 >ionization [M+?]-
->parentmass 268.155984223864
+>parentmass Inf
 >rt 9.86891138509594
 
 >ms1
-268.156 100
+
 
 >ms2
 268.156 100
 
 >compound FTneg4284
 >ionization [M+?]-
->parentmass 276.108500814658
+>parentmass Inf
 >rt 9.82534012064761
 
 >ms1
-276.1085 100
+
 
 >ms2
 276.1085 100
 
 >compound FTneg4285
 >ionization [M+?]-
->parentmass 316.122287466913
+>parentmass Inf
 >rt 9.84441223096611
 
 >ms1
-316.1223 100
+
 
 >ms2
 316.1223 100
 
 >compound FTneg4286
 >ionization [M+?]-
->parentmass 316.158035729071
+>parentmass Inf
 >rt 9.83431920451619
 
 >ms1
-316.158 100
+
 
 >ms2
 316.158 100
 
 >compound FTneg4287
 >ionization [M+?]-
->parentmass 353.993260663058
+>parentmass Inf
 >rt 9.83996760562885
 
 >ms1
-353.9933 100
+
 
 >ms2
 353.9933 100
 
 >compound FTneg4288
 >ionization [M+?]-
->parentmass 400.103412351023
+>parentmass Inf
 >rt 9.82446942765058
 
 >ms1
-400.1034 100
+
 
 >ms2
 400.1034 100
 
 >compound FTneg4289
 >ionization [M+?]-
->parentmass 409.222748566797
+>parentmass Inf
 >rt 9.83636291710405
 
 >ms1
-409.2227 100
+
 
 >ms2
 409.2227 100
 
 >compound FTneg4290
 >ionization [M+?]-
->parentmass 415.197349305729
+>parentmass Inf
 >rt 9.83154219645687
 
 >ms1
-415.1973 100
+
 
 >ms2
 415.1973 100
 
 >compound FTneg4291
 >ionization [M+?]-
->parentmass 622.331316770693
+>parentmass Inf
 >rt 9.82753928571429
 
 >ms1
-622.3313 100
+
 
 >ms2
 622.3313 100
 
 >compound FTneg4292
 >ionization [M+?]-
->parentmass 571.288549925176
+>parentmass Inf
 >rt 11.5613001836949
 
 >ms1
-571.2885 100
 
 >ms2
 54.0449 8
@@ -83590,11 +82413,10 @@
 
 >compound FTneg4293
 >ionization [M+?]-
->parentmass 380.256846586789
+>parentmass Inf
 >rt 11.5565686841984
 
 >ms1
-380.2568 100
 
 >ms2
 55.0162 60
@@ -83628,11 +82450,10 @@
 
 >compound FTneg4294
 >ionization [M+?]-
->parentmass 903.621252730882
+>parentmass Inf
 >rt 11.5527306533461
 
 >ms1
-903.6213 100
 
 >ms2
 56.0474 40
@@ -83650,11 +82471,10 @@
 
 >compound FTneg4295
 >ionization [M+?]-
->parentmass 239.12858203993
+>parentmass Inf
 >rt 11.5659232289904
 
 >ms1
-239.1286 100
 
 >ms2
 50.0152 328
@@ -83725,11 +82545,10 @@
 
 >compound FTneg4296
 >ionization [M+?]-
->parentmass 239.164949930712
+>parentmass Inf
 >rt 11.5085215595426
 
 >ms1
-239.1649 100
 
 >ms2
 51.0216 40
@@ -83771,11 +82590,10 @@
 
 >compound FTneg4297
 >ionization [M+?]-
->parentmass 474.262231501396
+>parentmass Inf
 >rt 11.5215514441253
 
 >ms1
-474.2622 100
 
 >ms2
 67.0551 40
@@ -83784,11 +82602,10 @@
 
 >compound FTneg4298
 >ionization [M+?]-
->parentmass 498.262158340555
+>parentmass Inf
 >rt 11.5306531506477
 
 >ms1
-498.2622 100
 
 >ms2
 50.0163 4
@@ -83798,11 +82615,10 @@
 
 >compound FTneg4299
 >ionization [M+?]-
->parentmass 762.528680245636
+>parentmass Inf
 >rt 11.5079631646305
 
 >ms1
-762.5287 100
 
 >ms2
 50.5111 40
@@ -83901,11 +82717,10 @@
 
 >compound FTneg4300
 >ionization [M+?]-
->parentmass 265.147545394083
+>parentmass Inf
 >rt 11.5169535358486
 
 >ms1
-265.1475 100
 
 >ms2
 55.0162 20
@@ -83928,11 +82743,10 @@
 
 >compound FTneg4301
 >ionization [M+?]-
->parentmass 606.340969314485
+>parentmass Inf
 >rt 11.5266855036026
 
 >ms1
-606.341 100
 
 >ms2
 57.0295 40
@@ -83957,55 +82771,53 @@
 
 >compound FTneg4302
 >ionization [M+?]-
->parentmass 240.003135815547
+>parentmass Inf
 >rt 8.04585488660571
 
 >ms1
-240.0031 100
+
 
 >ms2
 240.0031 100
 
 >compound FTneg4303
 >ionization [M+?]-
->parentmass 285.170076255226
+>parentmass Inf
 >rt 8.22464814364501
 
 >ms1
-285.1701 100
+
 
 >ms2
 285.1701 100
 
 >compound FTneg4304
 >ionization [M+?]-
->parentmass 353.125947084533
+>parentmass Inf
 >rt 8.14134184438518
 
 >ms1
-353.1259 100
+
 
 >ms2
 353.1259 100
 
 >compound FTneg4305
 >ionization [M+?]-
->parentmass 240.16046345518
+>parentmass Inf
 >rt 10.7431419120052
 
 >ms1
-240.1605 100
 
 >ms2
 55.0056 13
 
 >compound FTneg4306
 >ionization [M+?]-
->parentmass 255.159770520961
+>parentmass Inf
 >rt 10.8478773346706
 
 >ms1
-255.1598 100
 
 >ms2
 51.9382 40
@@ -84031,11 +82843,10 @@
 
 >compound FTneg4307
 >ionization [M+?]-
->parentmass 492.277197253747
+>parentmass Inf
 >rt 10.7824039261832
 
 >ms1
-492.2772 100
 
 >ms2
 59.0594 4
@@ -84052,44 +82863,43 @@
 
 >compound FTneg4308
 >ionization [M+?]-
->parentmass 240.910479763807
+>parentmass Inf
 >rt 6.12479357998215
 
 >ms1
-240.9105 100
+
 
 >ms2
 240.9105 100
 
 >compound FTneg4309
 >ionization [M+?]-
->parentmass 240.910726551504
+>parentmass Inf
 >rt 3.94569133785966
 
 >ms1
-240.9107 100
+
 
 >ms2
 240.9107 100
 
 >compound FTneg4310
 >ionization [M+?]-
->parentmass 241.075083554295
+>parentmass Inf
 >rt 8.86865972222221
 
 >ms1
-241.0751 100
+
 
 >ms2
 241.0751 100
 
 >compound FTneg4311
 >ionization [M+?]-
->parentmass 499.292736958222
+>parentmass Inf
 >rt 9.99075342408625
 
 >ms1
-499.2927 100
 
 >ms2
 50.0127 40
@@ -84130,11 +82940,10 @@
 
 >compound FTneg4312
 >ionization [M+?]-
->parentmass 453.285214694592
+>parentmass Inf
 >rt 10.0415629721594
 
 >ms1
-453.2852 100
 
 >ms2
 55.0539 80
@@ -84153,11 +82962,10 @@
 
 >compound FTneg4313
 >ionization [M+?]-
->parentmass 498.28914278274
+>parentmass Inf
 >rt 9.89892274552171
 
 >ms1
-498.2891 100
 
 >ms2
 55.0549 20
@@ -84167,11 +82975,10 @@
 
 >compound FTneg4314
 >ionization [M+?]-
->parentmass 241.144312744385
+>parentmass Inf
 >rt 9.98337534611421
 
 >ms1
-241.1443 100
 
 >ms2
 51.0238 20
@@ -84189,44 +82996,43 @@
 
 >compound FTneg4315
 >ionization [M+?]-
->parentmass 271.154498559578
+>parentmass Inf
 >rt 9.92963358405261
 
 >ms1
-271.1545 100
+
 
 >ms2
 271.1545 100
 
 >compound FTneg4316
 >ionization [M+?]-
->parentmass 285.133629383709
+>parentmass Inf
 >rt 9.95770434641468
 
 >ms1
-285.1336 100
+
 
 >ms2
 285.1336 100
 
 >compound FTneg4317
 >ionization [M+?]-
->parentmass 319.157559781732
+>parentmass Inf
 >rt 9.95382122243886
 
 >ms1
-319.1576 100
+
 
 >ms2
 319.1576 100
 
 >compound FTneg4318
 >ionization [M+?]-
->parentmass 328.121364386534
+>parentmass Inf
 >rt 9.94803303414188
 
 >ms1
-328.1214 100
 
 >ms2
 54.9988 16
@@ -84252,11 +83058,10 @@
 
 >compound FTneg4319
 >ionization [M+?]-
->parentmass 329.124790111267
+>parentmass Inf
 >rt 9.97112386767361
 
 >ms1
-329.1248 100
 
 >ms2
 55.9306 20
@@ -84268,66 +83073,64 @@
 
 >compound FTneg4320
 >ionization [M+?]-
->parentmass 330.136684782386
+>parentmass Inf
 >rt 9.98685731241858
 
 >ms1
-330.1367 100
+
 
 >ms2
 330.1367 100
 
 >compound FTneg4321
 >ionization [M+?]-
->parentmass 341.160021016479
+>parentmass Inf
 >rt 9.96574232751643
 
 >ms1
-341.16 100
+
 
 >ms2
 341.16 100
 
 >compound FTneg4322
 >ionization [M+?]-
->parentmass 375.18433807506
+>parentmass Inf
 >rt 9.97773307621755
 
 >ms1
-375.1843 100
 
 >ms2
 67.0551 40
 
 >compound FTneg4323
 >ionization [M+?]-
->parentmass 429.212534453438
+>parentmass Inf
 >rt 9.96191938791804
 
 >ms1
-429.2125 100
+
 
 >ms2
 429.2125 100
 
 >compound FTneg4324
 >ionization [M+?]-
->parentmass 493.316418935705
+>parentmass Inf
 >rt 9.94598627485577
 
 >ms1
-493.3164 100
+
 
 >ms2
 493.3164 100
 
 >compound FTneg4325
 >ionization [M+?]-
->parentmass 498.259097273909
+>parentmass Inf
 >rt 9.94853413800926
 
 >ms1
-498.2591 100
 
 >ms2
 55.0548 40
@@ -84338,11 +83141,10 @@
 
 >compound FTneg4326
 >ionization [M+?]-
->parentmass 498.2893345477
+>parentmass Inf
 >rt 9.99017181864097
 
 >ms1
-498.2893 100
 
 >ms2
 60.0793 40
@@ -84352,11 +83154,10 @@
 
 >compound FTneg4327
 >ionization [M+?]-
->parentmass 566.276508852896
+>parentmass Inf
 >rt 9.93363982599966
 
 >ms1
-566.2765 100
 
 >ms2
 55.0525 20
@@ -84384,11 +83185,10 @@
 
 >compound FTneg4328
 >ionization [M+?]-
->parentmass 567.28053845824
+>parentmass Inf
 >rt 9.94460928399779
 
 >ms1
-567.2805 100
 
 >ms2
 51.0194 40
@@ -84498,11 +83298,10 @@
 
 >compound FTneg4329
 >ionization [M+?]-
->parentmass 241.180565211179
+>parentmass Inf
 >rt 11.0980661847183
 
 >ms1
-241.1806 100
 
 >ms2
 50.0098 13
@@ -84543,22 +83342,21 @@
 
 >compound FTneg4330
 >ionization [M+?]-
->parentmass 543.006616336423
+>parentmass Inf
 >rt 11.1671990740741
 
 >ms1
-543.0066 100
+
 
 >ms2
 543.0066 100
 
 >compound FTneg4331
 >ionization [M+?]-
->parentmass 764.544316317708
+>parentmass Inf
 >rt 11.9173997933956
 
 >ms1
-764.5443 100
 
 >ms2
 55.0541 80
@@ -84595,11 +83393,10 @@
 
 >compound FTneg4332
 >ionization [M+?]-
->parentmass 241.180641427024
+>parentmass Inf
 >rt 11.9164113281456
 
 >ms1
-241.1806 100
 
 >ms2
 50.0098 4
@@ -84640,11 +83437,10 @@
 
 >compound FTneg4333
 >ionization [M+?]-
->parentmass 327.181234717142
+>parentmass Inf
 >rt 11.9833517543861
 
 >ms1
-327.1812 100
 
 >ms2
 51.0019 40
@@ -84674,11 +83470,10 @@
 
 >compound FTneg4334
 >ionization [M+?]-
->parentmass 335.222449538692
+>parentmass Inf
 >rt 11.9421660307782
 
 >ms1
-335.2224 100
 
 >ms2
 55.0541 10
@@ -84722,11 +83517,10 @@
 
 >compound FTneg4335
 >ionization [M+?]-
->parentmass 242.054766706932
+>parentmass Inf
 >rt 1.82112262736773
 
 >ms1
-242.0548 100
 
 >ms2
 50.5663 4
@@ -84824,22 +83618,21 @@
 
 >compound FTneg4336
 >ionization [M+?]-
->parentmass 252.965285483344
+>parentmass Inf
 >rt 1.8864545938853
 
 >ms1
-252.9653 100
+
 
 >ms2
 252.9653 100
 
 >compound FTneg4337
 >ionization [M+?]-
->parentmass 242.139811629908
+>parentmass Inf
 >rt 9.16219809805894
 
 >ms1
-242.1398 100
 
 >ms2
 53.0131 796
@@ -84915,11 +83708,10 @@
 
 >compound FTneg4338
 >ionization [M+?]-
->parentmass 301.111376415008
+>parentmass Inf
 >rt 9.31758248198587
 
 >ms1
-301.1114 100
 
 >ms2
 55.0639 4
@@ -84931,22 +83723,21 @@
 
 >compound FTneg4339
 >ionization [M+?]-
->parentmass 702.01714441446
+>parentmass Inf
 >rt 9.28867171338727
 
 >ms1
-702.0171 100
+
 
 >ms2
 702.0171 100
 
 >compound FTneg4340
 >ionization [M+?]-
->parentmass 499.30550307774
+>parentmass Inf
 >rt 11.3359834905949
 
 >ms1
-499.3055 100
 
 >ms2
 51.0223 40
@@ -84988,11 +83779,10 @@
 
 >compound FTneg4341
 >ionization [M+?]-
->parentmass 604.325197795513
+>parentmass Inf
 >rt 11.2693019100211
 
 >ms1
-604.3252 100
 
 >ms2
 57.0696 40
@@ -85009,11 +83799,10 @@
 
 >compound FTneg4342
 >ionization [M+?]-
->parentmass 243.196199979689
+>parentmass Inf
 >rt 11.2497961321149
 
 >ms1
-243.1962 100
 
 >ms2
 53.0375 16
@@ -85042,11 +83831,10 @@
 
 >compound FTneg4343
 >ionization [M+?]-
->parentmass 314.241419770543
+>parentmass Inf
 >rt 11.2887775003061
 
 >ms1
-314.2414 100
 
 >ms2
 50.0033 80
@@ -85546,11 +84334,10 @@
 
 >compound FTneg4344
 >ionization [M+?]-
->parentmass 399.202129385442
+>parentmass Inf
 >rt 11.2877016688398
 
 >ms1
-399.2021 100
 
 >ms2
 74.0946 40
@@ -85559,11 +84346,10 @@
 
 >compound FTneg4345
 >ionization [M+?]-
->parentmass 409.0394203276
+>parentmass Inf
 >rt 11.2863565967766
 
 >ms1
-409.0394 100
 
 >ms2
 55.0525 8
@@ -85583,11 +84369,10 @@
 
 >compound FTneg4346
 >ionization [M+?]-
->parentmass 493.31620543381
+>parentmass Inf
 >rt 11.2555949380035
 
 >ms1
-493.3162 100
 
 >ms2
 51.026 8
@@ -85621,22 +84406,20 @@
 
 >compound FTneg4347
 >ionization [M+?]-
->parentmass 545.311176741145
+>parentmass Inf
 >rt 11.36225
 
 >ms1
-545.3112 100
 
 >ms2
 98.9841 80
 
 >compound FTneg4348
 >ionization [M+?]-
->parentmass 507.272613812389
+>parentmass Inf
 >rt 12.2166487200236
 
 >ms1
-507.2726 100
 
 >ms2
 51.023 40
@@ -85667,11 +84450,10 @@
 
 >compound FTneg4349
 >ionization [M+?]-
->parentmass 295.227606138339
+>parentmass Inf
 >rt 12.2114241661652
 
 >ms1
-295.2276 100
 
 >ms2
 51.0215 20
@@ -85682,22 +84464,20 @@
 
 >compound FTneg4350
 >ionization [M+?]-
->parentmass 526.293388825081
+>parentmass Inf
 >rt 12.1434991357758
 
 >ms1
-526.2934 100
 
 >ms2
 55.9344 80
 
 >compound FTneg4351
 >ionization [M+?]-
->parentmass 818.590704723102
+>parentmass Inf
 >rt 12.2193560208105
 
 >ms1
-818.5907 100
 
 >ms2
 61.0816 40
@@ -85722,11 +84502,10 @@
 
 >compound FTneg4352
 >ionization [M+?]-
->parentmass 243.196294157962
+>parentmass Inf
 >rt 12.2301258609758
 
 >ms1
-243.1963 100
 
 >ms2
 51.0237 12
@@ -85776,11 +84555,10 @@
 
 >compound FTneg4353
 >ionization [M+?]-
->parentmass 766.558052480097
+>parentmass Inf
 >rt 12.2145362328154
 
 >ms1
-766.5581 100
 
 >ms2
 57.0696 40
@@ -85798,55 +84576,54 @@
 
 >compound FTneg4354
 >ionization [M+?]-
->parentmass 777.346626510371
+>parentmass Inf
 >rt 10.0524595432015
 
 >ms1
-777.3466 100
+
 
 >ms2
 777.3466 100
 
 >compound FTneg4355
 >ionization [M+?]-
->parentmass 244.043727186252
+>parentmass Inf
 >rt 10.076151495226
 
 >ms1
-244.0437 100
+
 
 >ms2
 244.0437 100
 
 >compound FTneg4356
 >ionization [M+?]-
->parentmass 245.07691012182
+>parentmass Inf
 >rt 2.3735892730154
 
 >ms1
-245.0769 100
+
 
 >ms2
 245.0769 100
 
 >compound FTneg4357
 >ionization [M+?]-
->parentmass 245.102917470685
+>parentmass Inf
 >rt 7.91526869282348
 
 >ms1
-245.1029 100
+
 
 >ms2
 245.1029 100
 
 >compound FTneg4358
 >ionization [M+?]-
->parentmass 334.936346972164
+>parentmass Inf
 >rt 7.85268153989984
 
 >ms1
-334.9363 100
 
 >ms2
 55.0169 80
@@ -85935,33 +84712,32 @@
 
 >compound FTneg4359
 >ionization [M+?]-
->parentmass 591.322918334828
+>parentmass Inf
 >rt 7.96622337162083
 
 >ms1
-591.3229 100
+
 
 >ms2
 591.3229 100
 
 >compound FTneg4360
 >ionization [M+?]-
->parentmass 245.113927251207
+>parentmass Inf
 >rt 5.27435702925943
 
 >ms1
-245.1139 100
+
 
 >ms2
 245.1139 100
 
 >compound FTneg4361
 >ionization [M+?]-
->parentmass 245.138877832037
+>parentmass Inf
 >rt 8.76695822160569
 
 >ms1
-245.1389 100
 
 >ms2
 51.9361 40
@@ -85992,33 +84768,32 @@
 
 >compound FTneg4362
 >ionization [M+?]-
->parentmass 377.094804640358
+>parentmass Inf
 >rt 10.1029884815393
 
 >ms1
-377.0948 100
+
 
 >ms2
 377.0948 100
 
 >compound FTneg4363
 >ionization [M+?]-
->parentmass 394.084942367138
+>parentmass Inf
 >rt 10.0218597535726
 
 >ms1
-394.0849 100
+
 
 >ms2
 394.0849 100
 
 >compound FTneg4364
 >ionization [M+?]-
->parentmass 509.311457234034
+>parentmass Inf
 >rt 10.0357992060603
 
 >ms1
-509.3115 100
 
 >ms2
 57.0396 40
@@ -86039,22 +84814,21 @@
 
 >compound FTneg4365
 >ionization [M+?]-
->parentmass 245.139374965151
+>parentmass Inf
 >rt 9.96301941480347
 
 >ms1
-245.1394 100
+
 
 >ms2
 245.1394 100
 
 >compound FTneg4366
 >ionization [M+?]-
->parentmass 310.161164843573
+>parentmass Inf
 >rt 10.0169686413351
 
 >ms1
-310.1612 100
 
 >ms2
 55.0548 13
@@ -86076,77 +84850,76 @@
 
 >compound FTneg4367
 >ionization [M+?]-
->parentmass 343.117226557409
+>parentmass Inf
 >rt 10.0073910409715
 
 >ms1
-343.1172 100
+
 
 >ms2
 343.1172 100
 
 >compound FTneg4368
 >ionization [M+?]-
->parentmass 367.066035237065
+>parentmass Inf
 >rt 10.1216638774188
 
 >ms1
-367.066 100
+
 
 >ms2
 367.066 100
 
 >compound FTneg4369
 >ionization [M+?]-
->parentmass 371.171825391026
+>parentmass Inf
 >rt 10.0525141025641
 
 >ms1
-371.1718 100
+
 
 >ms2
 371.1718 100
 
 >compound FTneg4370
 >ionization [M+?]-
->parentmass 409.02111397679
+>parentmass Inf
 >rt 10.0001353704685
 
 >ms1
-409.0211 100
+
 
 >ms2
 409.0211 100
 
 >compound FTneg4371
 >ionization [M+?]-
->parentmass 445.082286387305
+>parentmass Inf
 >rt 10.0981767898831
 
 >ms1
-445.0823 100
+
 
 >ms2
 445.0823 100
 
 >compound FTneg4372
 >ionization [M+?]-
->parentmass 477.018778149097
+>parentmass Inf
 >rt 10.0309582036313
 
 >ms1
-477.0188 100
+
 
 >ms2
 477.0188 100
 
 >compound FTneg4373
 >ionization [M+?]-
->parentmass 245.139454947539
+>parentmass Inf
 >rt 10.498874145129
 
 >ms1
-245.1395 100
 
 >ms2
 51.0223 4
@@ -86181,33 +84954,31 @@
 
 >compound FTneg4374
 >ionization [M+?]-
->parentmass 309.156083428082
+>parentmass Inf
 >rt 10.4342689766373
 
 >ms1
-309.1561 100
 
 >ms2
 68.9349 40
 
 >compound FTneg4375
 >ionization [M+?]-
->parentmass 299.127295796681
+>parentmass Inf
 >rt 10.5291488242795
 
 >ms1
-299.1273 100
+
 
 >ms2
 299.1273 100
 
 >compound FTneg4376
 >ionization [M+?]-
->parentmass 309.156696874945
+>parentmass Inf
 >rt 10.5719520814458
 
 >ms1
-309.1567 100
 
 >ms2
 55.0542 40
@@ -86223,11 +84994,10 @@
 
 >compound FTneg4377
 >ionization [M+?]-
->parentmass 332.045119453428
+>parentmass Inf
 >rt 10.3858457045879
 
 >ms1
-332.0451 100
 
 >ms2
 55.0533 8
@@ -86244,22 +85014,20 @@
 
 >compound FTneg4378
 >ionization [M+?]-
->parentmass 487.302179261464
+>parentmass Inf
 >rt 10.4219390625
 
 >ms1
-487.3022 100
 
 >ms2
 50.0099 4
 
 >compound FTneg4379
 >ionization [M+?]-
->parentmass 535.346344430527
+>parentmass Inf
 >rt 10.4568539215686
 
 >ms1
-535.3463 100
 
 >ms2
 57.0688 40
@@ -86274,110 +85042,109 @@
 
 >compound FTneg4380
 >ionization [M+?]-
->parentmass 325.897466154203
+>parentmass Inf
 >rt 8.13210119047614
 
 >ms1
-325.8975 100
+
 
 >ms2
 325.8975 100
 
 >compound FTneg4381
 >ionization [M+?]-
->parentmass 247.118576033146
+>parentmass Inf
 >rt 7.99436034232222
 
 >ms1
-247.1186 100
+
 
 >ms2
 247.1186 100
 
 >compound FTneg4382
 >ionization [M+?]-
->parentmass 250.107956154739
+>parentmass Inf
 >rt 8.09944258349855
 
 >ms1
-250.108 100
+
 
 >ms2
 250.108 100
 
 >compound FTneg4383
 >ionization [M+?]-
->parentmass 355.980801245345
+>parentmass Inf
 >rt 8.20116067882614
 
 >ms1
-355.9808 100
+
 
 >ms2
 355.9808 100
 
 >compound FTneg4384
 >ionization [M+?]-
->parentmass 433.207542210587
+>parentmass Inf
 >rt 8.07688744754814
 
 >ms1
-433.2075 100
+
 
 >ms2
 433.2075 100
 
 >compound FTneg4385
 >ionization [M+?]-
->parentmass 249.013725492817
+>parentmass Inf
 >rt 14.1942616666667
 
 >ms1
-249.0137 100
+
 
 >ms2
 249.0137 100
 
 >compound FTneg4386
 >ionization [M+?]-
->parentmass 249.264138650572
+>parentmass Inf
 >rt 16.9479615384615
 
 >ms1
-249.2641 100
+
 
 >ms2
 249.2641 100
 
 >compound FTneg4387
 >ionization [M+?]-
->parentmass 251.059341840555
+>parentmass Inf
 >rt 7.29001499545667
 
 >ms1
-251.0593 100
+
 
 >ms2
 251.0593 100
 
 >compound FTneg4388
 >ionization [M+?]-
->parentmass 429.196282481993
+>parentmass Inf
 >rt 7.29774954259411
 
 >ms1
-429.1963 100
+
 
 >ms2
 429.1963 100
 
 >compound FTneg4389
 >ionization [M+?]-
->parentmass 385.222576169891
+>parentmass Inf
 >rt 11.0481989876889
 
 >ms1
-385.2226 100
 
 >ms2
 55.0511 40
@@ -86411,11 +85178,10 @@
 
 >compound FTneg4390
 >ionization [M+?]-
->parentmass 309.170439406595
+>parentmass Inf
 >rt 11.0442918350706
 
 >ms1
-309.1704 100
 
 >ms2
 51.085 20
@@ -86498,11 +85264,10 @@
 
 >compound FTneg4391
 >ionization [M+?]-
->parentmass 580.325297661581
+>parentmass Inf
 >rt 11.0147528864106
 
 >ms1
-580.3253 100
 
 >ms2
 55.054 40
@@ -86510,11 +85275,10 @@
 
 >compound FTneg4392
 >ionization [M+?]-
->parentmass 251.128714281873
+>parentmass Inf
 >rt 11.035513831802
 
 >ms1
-251.1287 100
 
 >ms2
 50.0026 40
@@ -86542,11 +85306,10 @@
 
 >compound FTneg4393
 >ionization [M+?]-
->parentmass 266.988524742873
+>parentmass Inf
 >rt 11.0344904753231
 
 >ms1
-266.9885 100
 
 >ms2
 51.0194 8
@@ -86588,11 +85351,10 @@
 
 >compound FTneg4394
 >ionization [M+?]-
->parentmass 285.123114625821
+>parentmass Inf
 >rt 11.0429628147396
 
 >ms1
-285.1231 100
 
 >ms2
 55.0533 40
@@ -86609,11 +85371,10 @@
 
 >compound FTneg4395
 >ionization [M+?]-
->parentmass 372.204149474873
+>parentmass Inf
 >rt 11.1272845238094
 
 >ms1
-372.2041 100
 
 >ms2
 51.0237 40
@@ -86723,11 +85484,10 @@
 
 >compound FTneg4396
 >ionization [M+?]-
->parentmass 453.210221405028
+>parentmass Inf
 >rt 11.0480305555555
 
 >ms1
-453.2102 100
 
 >ms2
 51.0041 20
@@ -86745,11 +85505,10 @@
 
 >compound FTneg4397
 >ionization [M+?]-
->parentmass 477.321543737434
+>parentmass Inf
 >rt 11.0415483950569
 
 >ms1
-477.3215 100
 
 >ms2
 61.0275 40
@@ -86766,11 +85525,10 @@
 
 >compound FTneg4398
 >ionization [M+?]-
->parentmass 593.273097690404
+>parentmass Inf
 >rt 11.0518171220198
 
 >ms1
-593.2731 100
 
 >ms2
 55.0525 21
@@ -86811,22 +85569,21 @@
 
 >compound FTneg4399
 >ionization [M+?]-
->parentmass 253.0504192869
+>parentmass Inf
 >rt 8.82946280255628
 
 >ms1
-253.0504 100
+
 
 >ms2
 253.0504 100
 
 >compound FTneg4400
 >ionization [M+?]-
->parentmass 497.347950679544
+>parentmass Inf
 >rt 9.85757836623325
 
 >ms1
-497.348 100
 
 >ms2
 55.0502 40
@@ -86840,22 +85597,21 @@
 
 >compound FTneg4401
 >ionization [M+?]-
->parentmass 253.144324807395
+>parentmass Inf
 >rt 9.8621109486173
 
 >ms1
-253.1443 100
+
 
 >ms2
 253.1443 100
 
 >compound FTneg4402
 >ionization [M+?]-
->parentmass 279.126639936916
+>parentmass Inf
 >rt 9.86101309919586
 
 >ms1
-279.1266 100
 
 >ms2
 51.023 8
@@ -86900,11 +85656,10 @@
 
 >compound FTneg4403
 >ionization [M+?]-
->parentmass 287.222333101042
+>parentmass Inf
 >rt 9.86045326484043
 
 >ms1
-287.2223 100
 
 >ms2
 51.9382 4
@@ -86962,11 +85717,10 @@
 
 >compound FTneg4404
 >ionization [M+?]-
->parentmass 287.222422818895
+>parentmass Inf
 >rt 9.96859381064958
 
 >ms1
-287.2224 100
 
 >ms2
 56.0489 159
@@ -86974,33 +85728,32 @@
 
 >compound FTneg4405
 >ionization [M+?]-
->parentmass 389.160186184136
+>parentmass Inf
 >rt 9.87705591124255
 
 >ms1
-389.1602 100
+
 
 >ms2
 389.1602 100
 
 >compound FTneg4406
 >ionization [M+?]-
->parentmass 431.134481036096
+>parentmass Inf
 >rt 9.88025501549199
 
 >ms1
-431.1345 100
+
 
 >ms2
 431.1345 100
 
 >compound FTneg4407
 >ionization [M+?]-
->parentmass 253.21710890818
+>parentmass Inf
 >rt 13.6724600379242
 
 >ms1
-253.2171 100
 
 >ms2
 50.0153 88
@@ -87115,11 +85868,10 @@
 
 >compound FTneg4408
 >ionization [M+?]-
->parentmass 299.222535100328
+>parentmass Inf
 >rt 13.6714359352228
 
 >ms1
-299.2225 100
 
 >ms2
 55.054 40
@@ -87129,11 +85881,10 @@
 
 >compound FTneg4409
 >ionization [M+?]-
->parentmass 399.147268917156
+>parentmass Inf
 >rt 13.675625371481
 
 >ms1
-399.1473 100
 
 >ms2
 55.0548 80
@@ -87151,11 +85902,10 @@
 
 >compound FTneg4410
 >ionization [M+?]-
->parentmass 490.280540112736
+>parentmass Inf
 >rt 13.6948877596452
 
 >ms1
-490.2805 100
 
 >ms2
 95.0848 80
@@ -87168,11 +85918,10 @@
 
 >compound FTneg4411
 >ionization [M+?]-
->parentmass 607.365244348229
+>parentmass Inf
 >rt 13.6704211641016
 
 >ms1
-607.3652 100
 
 >ms2
 55.0541 8
@@ -87282,11 +86031,10 @@
 
 >compound FTneg4412
 >ionization [M+?]-
->parentmass 609.366006855058
+>parentmass Inf
 >rt 13.668955113172
 
 >ms1
-609.366 100
 
 >ms2
 57.0719 40
@@ -87304,11 +86052,10 @@
 
 >compound FTneg4413
 >ionization [M+?]-
->parentmass 817.578489333652
+>parentmass Inf
 >rt 13.6005136921584
 
 >ms1
-817.5785 100
 
 >ms2
 55.017 10
@@ -87390,22 +86137,21 @@
 
 >compound FTneg4414
 >ionization [M+?]-
->parentmass 253.768676844512
+>parentmass Inf
 >rt 4.435173076923
 
 >ms1
-253.7687 100
+
 
 >ms2
 253.7687 100
 
 >compound FTneg4415
 >ionization [M+?]-
->parentmass 383.145983530384
+>parentmass Inf
 >rt 6.52974692854181
 
 >ms1
-383.146 100
 
 >ms2
 50.0119 20
@@ -87466,22 +86212,20 @@
 
 >compound FTneg4416
 >ionization [M+?]-
->parentmass 301.056439610866
+>parentmass Inf
 >rt 6.52050499785682
 
 >ms1
-301.0564 100
 
 >ms2
 56.0489 27
 
 >compound FTneg4417
 >ionization [M+?]-
->parentmass 431.076558149866
+>parentmass Inf
 >rt 6.53477233652418
 
 >ms1
-431.0766 100
 
 >ms2
 51.0055 27
@@ -87519,22 +86263,21 @@
 
 >compound FTneg4418
 >ionization [M+?]-
->parentmass 254.080371083137
+>parentmass Inf
 >rt 6.5080849191299
 
 >ms1
-254.0804 100
+
 
 >ms2
 254.0804 100
 
 >compound FTneg4419
 >ionization [M+?]-
->parentmass 284.089548974751
+>parentmass Inf
 >rt 6.48225102068471
 
 >ms1
-284.0895 100
 
 >ms2
 55.0541 80
@@ -87545,11 +86288,10 @@
 
 >compound FTneg4420
 >ionization [M+?]-
->parentmass 337.140209810275
+>parentmass Inf
 >rt 6.5272193524596
 
 >ms1
-337.1402 100
 
 >ms2
 57.068 40
@@ -87557,22 +86299,21 @@
 
 >compound FTneg4421
 >ionization [M+?]-
->parentmass 352.061957527415
+>parentmass Inf
 >rt 6.57651731161902
 
 >ms1
-352.062 100
+
 
 >ms2
 352.062 100
 
 >compound FTneg4422
 >ionization [M+?]-
->parentmass 373.117073703138
+>parentmass Inf
 >rt 6.53208183080196
 
 >ms1
-373.1171 100
 
 >ms2
 55.0466 40
@@ -87602,22 +86343,21 @@
 
 >compound FTneg4423
 >ionization [M+?]-
->parentmass 375.114594370715
+>parentmass Inf
 >rt 6.5277279953282
 
 >ms1
-375.1146 100
+
 
 >ms2
 375.1146 100
 
 >compound FTneg4424
 >ionization [M+?]-
->parentmass 379.060835339505
+>parentmass Inf
 >rt 6.52378261074323
 
 >ms1
-379.0608 100
 
 >ms2
 55.0548 4
@@ -87646,22 +86386,21 @@
 
 >compound FTneg4425
 >ionization [M+?]-
->parentmass 383.120353309733
+>parentmass Inf
 >rt 6.52646249109159
 
 >ms1
-383.1204 100
+
 
 >ms2
 383.1204 100
 
 >compound FTneg4426
 >ionization [M+?]-
->parentmass 400.136197316023
+>parentmass Inf
 >rt 6.52421219500816
 
 >ms1
-400.1362 100
 
 >ms2
 52.7281 40
@@ -87685,55 +86424,54 @@
 
 >compound FTneg4427
 >ionization [M+?]-
->parentmass 422.156168342728
+>parentmass Inf
 >rt 6.52498631086782
 
 >ms1
-422.1562 100
+
 
 >ms2
 422.1562 100
 
 >compound FTneg4428
 >ionization [M+?]-
->parentmass 427.135443637582
+>parentmass Inf
 >rt 6.52473102582991
 
 >ms1
-427.1354 100
+
 
 >ms2
 427.1354 100
 
 >compound FTneg4429
 >ionization [M+?]-
->parentmass 439.134782932323
+>parentmass Inf
 >rt 6.51903035850588
 
 >ms1
-439.1348 100
+
 
 >ms2
 439.1348 100
 
 >compound FTneg4430
 >ionization [M+?]-
->parentmass 451.133389227315
+>parentmass Inf
 >rt 6.5268445700349
 
 >ms1
-451.1334 100
+
 
 >ms2
 451.1334 100
 
 >compound FTneg4431
 >ionization [M+?]-
->parentmass 431.191793352225
+>parentmass Inf
 >rt 7.47108684210521
 
 >ms1
-431.1918 100
 
 >ms2
 50.0163 20
@@ -87774,11 +86512,10 @@
 
 >compound FTneg4432
 >ionization [M+?]-
->parentmass 421.136296872204
+>parentmass Inf
 >rt 7.4500372572867
 
 >ms1
-421.1363 100
 
 >ms2
 55.0533 80
@@ -87824,22 +86561,21 @@
 
 >compound FTneg4433
 >ionization [M+?]-
->parentmass 255.088901872521
+>parentmass Inf
 >rt 7.4555532637632
 
 >ms1
-255.0889 100
+
 
 >ms2
 255.0889 100
 
 >compound FTneg4434
 >ionization [M+?]-
->parentmass 285.170486063804
+>parentmass Inf
 >rt 7.44880375718966
 
 >ms1
-285.1705 100
 
 >ms2
 55.0517 40
@@ -87857,11 +86593,10 @@
 
 >compound FTneg4435
 >ionization [M+?]-
->parentmass 255.232773883761
+>parentmass Inf
 >rt 14.178371900531
 
 >ms1
-255.2328 100
 
 >ms2
 50.0148 4
@@ -87906,11 +86641,10 @@
 
 >compound FTneg4436
 >ionization [M+?]-
->parentmass 301.238109861691
+>parentmass Inf
 >rt 14.1783159542532
 
 >ms1
-301.2381 100
 
 >ms2
 54.0336 4
@@ -87920,11 +86654,10 @@
 
 >compound FTneg4437
 >ionization [M+?]-
->parentmass 750.564925753321
+>parentmass Inf
 >rt 14.1748903374191
 
 >ms1
-750.5649 100
 
 >ms2
 59.0538 40
@@ -87944,11 +86677,10 @@
 
 >compound FTneg4438
 >ionization [M+?]-
->parentmass 355.263902804783
+>parentmass Inf
 >rt 14.1855649070992
 
 >ms1
-355.2639 100
 
 >ms2
 54.8801 40
@@ -87958,11 +86690,10 @@
 
 >compound FTneg4439
 >ionization [M+?]-
->parentmass 255.822209598381
+>parentmass Inf
 >rt 7.44136795784012
 
 >ms1
-255.8222 100
 
 >ms2
 51.9441 40
@@ -87983,11 +86714,10 @@
 
 >compound FTneg4440
 >ionization [M+?]-
->parentmass 257.819227426695
+>parentmass Inf
 >rt 7.45983994422535
 
 >ms1
-257.8192 100
 
 >ms2
 51.0179 20
@@ -88014,33 +86744,32 @@
 
 >compound FTneg4441
 >ionization [M+?]-
->parentmass 255.822235701382
+>parentmass Inf
 >rt 6.12862063051299
 
 >ms1
-255.8222 100
+
 
 >ms2
 255.8222 100
 
 >compound FTneg4442
 >ionization [M+?]-
->parentmass 257.819248594855
+>parentmass Inf
 >rt 6.15671315709805
 
 >ms1
-257.8192 100
+
 
 >ms2
 257.8192 100
 
 >compound FTneg4443
 >ionization [M+?]-
->parentmass 285.047573351778
+>parentmass Inf
 >rt 2.95977804874221
 
 >ms1
-285.0476 100
 
 >ms2
 55.0549 40
@@ -88051,44 +86780,43 @@
 
 >compound FTneg4444
 >ionization [M+?]-
->parentmass 421.148881115214
+>parentmass Inf
 >rt 2.97070989886206
 
 >ms1
-421.1489 100
+
 
 >ms2
 421.1489 100
 
 >compound FTneg4445
 >ionization [M+?]-
->parentmass 419.148031442524
+>parentmass Inf
 >rt 2.96838766461652
 
 >ms1
-419.148 100
+
 
 >ms2
 419.148 100
 
 >compound FTneg4446
 >ionization [M+?]-
->parentmass 256.116492320584
+>parentmass Inf
 >rt 2.96854937820212
 
 >ms1
-256.1165 100
+
 
 >ms2
 256.1165 100
 
 >compound FTneg4447
 >ionization [M+?]-
->parentmass 262.165970021961
+>parentmass Inf
 >rt 2.96474470113674
 
 >ms1
-262.166 100
 
 >ms2
 51.0223 80
@@ -88180,55 +86908,53 @@
 
 >compound FTneg4448
 >ionization [M+?]-
->parentmass 318.086812574063
+>parentmass Inf
 >rt 2.96563018056536
 
 >ms1
-318.0868 100
+
 
 >ms2
 318.0868 100
 
 >compound FTneg4449
 >ionization [M+?]-
->parentmass 362.109762248877
+>parentmass Inf
 >rt 2.89156796132976
 
 >ms1
-362.1098 100
+
 
 >ms2
 362.1098 100
 
 >compound FTneg4450
 >ionization [M+?]-
->parentmass 418.142943201984
+>parentmass Inf
 >rt 2.96824351972733
 
 >ms1
-418.1429 100
+
 
 >ms2
 418.1429 100
 
 >compound FTneg4451
 >ionization [M+?]-
->parentmass 256.191469717751
+>parentmass Inf
 >rt 10.4725603525171
 
 >ms1
-256.1915 100
 
 >ms2
 53.9369 4
 
 >compound FTneg4452
 >ionization [M+?]-
->parentmass 323.149650497609
+>parentmass Inf
 >rt 10.4470816131262
 
 >ms1
-323.1497 100
 
 >ms2
 53.0392 20
@@ -88258,11 +86984,10 @@
 
 >compound FTneg4453
 >ionization [M+?]-
->parentmass 702.325440491704
+>parentmass Inf
 >rt 10.4621851090563
 
 >ms1
-702.3254 100
 
 >ms2
 57.0688 40
@@ -88278,33 +87003,32 @@
 
 >compound FTneg4454
 >ionization [M+?]-
->parentmass 256.435891609945
+>parentmass Inf
 >rt 18.3644472222223
 
 >ms1
-256.4359 100
+
 
 >ms2
 256.4359 100
 
 >compound FTneg4455
 >ionization [M+?]-
->parentmass 480.309630243901
+>parentmass Inf
 >rt 18.4598512800388
 
 >ms1
-480.3096 100
+
 
 >ms2
 480.3096 100
 
 >compound FTneg4456
 >ionization [M+?]-
->parentmass 293.115847884548
+>parentmass Inf
 >rt 9.42585551594686
 
 >ms1
-293.1158 100
 
 >ms2
 51.0229 4
@@ -88366,11 +87090,10 @@
 
 >compound FTneg4457
 >ionization [M+?]-
->parentmass 417.156569549691
+>parentmass Inf
 >rt 9.54782310650928
 
 >ms1
-417.1566 100
 
 >ms2
 51.0208 80
@@ -88520,143 +87243,142 @@
 
 >compound FTneg4458
 >ionization [M+?]-
->parentmass 511.325509908084
+>parentmass Inf
 >rt 9.55439722924618
 
 >ms1
-511.3255 100
+
 
 >ms2
 511.3255 100
 
 >compound FTneg4459
 >ionization [M+?]-
->parentmass 257.819228401343
+>parentmass Inf
 >rt 3.79768563390881
 
 >ms1
-257.8192 100
+
 
 >ms2
 257.8192 100
 
 >compound FTneg4460
 >ionization [M+?]-
->parentmass 259.054451841949
+>parentmass Inf
 >rt 9.94499862140927
 
 >ms1
-259.0545 100
+
 
 >ms2
 259.0545 100
 
 >compound FTneg4461
 >ionization [M+?]-
->parentmass 304.130176828501
+>parentmass Inf
 >rt 9.93026425318801
 
 >ms1
-304.1302 100
+
 
 >ms2
 304.1302 100
 
 >compound FTneg4462
 >ionization [M+?]-
->parentmass 259.816266613588
+>parentmass Inf
 >rt 9.69325059293106
 
 >ms1
-259.8163 100
+
 
 >ms2
 259.8163 100
 
 >compound FTneg4463
 >ionization [M+?]-
->parentmass 259.998850578868
+>parentmass Inf
 >rt 2.93683857074724
 
 >ms1
-259.9989 100
+
 
 >ms2
 259.9989 100
 
 >compound FTneg4464
 >ionization [M+?]-
->parentmass 455.07536648238
+>parentmass Inf
 >rt 2.93386335913393
 
 >ms1
-455.0754 100
+
 
 >ms2
 455.0754 100
 
 >compound FTneg4465
 >ionization [M+?]-
->parentmass 260.076296064484
+>parentmass Inf
 >rt 6.13962037446362
 
 >ms1
-260.0763 100
+
 
 >ms2
 260.0763 100
 
 >compound FTneg4466
 >ionization [M+?]-
->parentmass 276.327339337305
+>parentmass Inf
 >rt 6.10062444444447
 
 >ms1
-276.3273 100
+
 
 >ms2
 276.3273 100
 
 >compound FTneg4467
 >ionization [M+?]-
->parentmass 308.005344026552
+>parentmass Inf
 >rt 6.03965332585907
 
 >ms1
-308.0053 100
+
 
 >ms2
 308.0053 100
 
 >compound FTneg4468
 >ionization [M+?]-
->parentmass 344.135161218916
+>parentmass Inf
 >rt 6.05933427589433
 
 >ms1
-344.1352 100
+
 
 >ms2
 344.1352 100
 
 >compound FTneg4469
 >ionization [M+?]-
->parentmass 260.988581742202
+>parentmass Inf
 >rt 7.4804454442927
 
 >ms1
-260.9886 100
+
 
 >ms2
 260.9886 100
 
 >compound FTneg4470
 >ionization [M+?]-
->parentmass 404.192461619671
+>parentmass Inf
 >rt 7.40776023550064
 
 >ms1
-404.1925 100
 
 >ms2
 56.9425 40
@@ -88666,22 +87388,21 @@
 
 >compound FTneg4471
 >ionization [M+?]-
->parentmass 261.007549384219
+>parentmass Inf
 >rt 7.21706571661167
 
 >ms1
-261.0075 100
+
 
 >ms2
 261.0075 100
 
 >compound FTneg4472
 >ionization [M+?]-
->parentmass 319.139627790585
+>parentmass Inf
 >rt 7.33246728748997
 
 >ms1
-319.1396 100
 
 >ms2
 53.039 20
@@ -88700,187 +87421,186 @@
 
 >compound FTneg4473
 >ionization [M+?]-
->parentmass 340.103231902228
+>parentmass Inf
 >rt 7.31853814412545
 
 >ms1
-340.1032 100
+
 
 >ms2
 340.1032 100
 
 >compound FTneg4474
 >ionization [M+?]-
->parentmass 383.192361674288
+>parentmass Inf
 >rt 7.33840902570423
 
 >ms1
-383.1924 100
+
 
 >ms2
 383.1924 100
 
 >compound FTneg4475
 >ionization [M+?]-
->parentmass 277.118331100211
+>parentmass Inf
 >rt 7.33023726585637
 
 >ms1
-277.1183 100
+
 
 >ms2
 277.1183 100
 
 >compound FTneg4476
 >ionization [M+?]-
->parentmass 353.181324037583
+>parentmass Inf
 >rt 7.34466537086633
 
 >ms1
-353.1813 100
+
 
 >ms2
 353.1813 100
 
 >compound FTneg4477
 >ionization [M+?]-
->parentmass 369.082441249115
+>parentmass Inf
 >rt 7.33368525200005
 
 >ms1
-369.0824 100
+
 
 >ms2
 369.0824 100
 
 >compound FTneg4478
 >ionization [M+?]-
->parentmass 455.068424481475
+>parentmass Inf
 >rt 7.32761846037175
 
 >ms1
-455.0684 100
+
 
 >ms2
 455.0684 100
 
 >compound FTneg4479
 >ionization [M+?]-
->parentmass 950.473355890887
+>parentmass Inf
 >rt 7.3342529693132
 
 >ms1
-950.4734 100
+
 
 >ms2
 950.4734 100
 
 >compound FTneg4480
 >ionization [M+?]-
->parentmass 951.47606569893
+>parentmass Inf
 >rt 7.33575090192368
 
 >ms1
-951.4761 100
+
 
 >ms2
 951.4761 100
 
 >compound FTneg4481
 >ionization [M+?]-
->parentmass 261.072692703799
+>parentmass Inf
 >rt 4.60468458406638
 
 >ms1
-261.0727 100
+
 
 >ms2
 261.0727 100
 
 >compound FTneg4482
 >ionization [M+?]-
->parentmass 265.041092914173
+>parentmass Inf
 >rt 4.63228055555558
 
 >ms1
-265.0411 100
+
 
 >ms2
 265.0411 100
 
 >compound FTneg4483
 >ionization [M+?]-
->parentmass 317.097725264519
+>parentmass Inf
 >rt 4.6206033450859
 
 >ms1
-317.0977 100
+
 
 >ms2
 317.0977 100
 
 >compound FTneg4484
 >ionization [M+?]-
->parentmass 371.989863931708
+>parentmass Inf
 >rt 4.65060286888642
 
 >ms1
-371.9899 100
+
 
 >ms2
 371.9899 100
 
 >compound FTneg4485
 >ionization [M+?]-
->parentmass 262.933616142138
+>parentmass Inf
 >rt 1.34243670811724
 
 >ms1
-262.9336 100
+
 
 >ms2
 262.9336 100
 
 >compound FTneg4486
 >ionization [M+?]-
->parentmass 263.110711059426
+>parentmass Inf
 >rt 7.80978252963812
 
 >ms1
-263.1107 100
+
 
 >ms2
 263.1107 100
 
 >compound FTneg4487
 >ionization [M+?]-
->parentmass 763.753368032246
+>parentmass Inf
 >rt 7.78730128205138
 
 >ms1
-763.7534 100
+
 
 >ms2
 763.7534 100
 
 >compound FTneg4488
 >ionization [M+?]-
->parentmass 264.062078264085
+>parentmass Inf
 >rt 17.0953087719297
 
 >ms1
-264.0621 100
+
 
 >ms2
 264.0621 100
 
 >compound FTneg4489
 >ionization [M+?]-
->parentmass 578.869040432009
+>parentmass Inf
 >rt 1.58124985020539
 
 >ms1
-578.869 100
 
 >ms2
 80.9362 46
@@ -88909,11 +87629,10 @@
 
 >compound FTneg4490
 >ionization [M+?]-
->parentmass 646.856458866129
+>parentmass Inf
 >rt 1.57762357581941
 
 >ms1
-646.8565 100
 
 >ms2
 73.0293 40
@@ -88924,11 +87643,10 @@
 
 >compound FTneg4491
 >ionization [M+?]-
->parentmass 714.843768807152
+>parentmass Inf
 >rt 1.57688547231413
 
 >ms1
-714.8438 100
 
 >ms2
 51.0311 40
@@ -88950,66 +87668,65 @@
 
 >compound FTneg4492
 >ionization [M+?]-
->parentmass 264.93428386832
+>parentmass Inf
 >rt 1.56194552071879
 
 >ms1
-264.9343 100
+
 
 >ms2
 264.9343 100
 
 >compound FTneg4493
 >ionization [M+?]-
->parentmass 620.846004739515
+>parentmass Inf
 >rt 1.56072452853214
 
 >ms1
-620.846 100
+
 
 >ms2
 620.846 100
 
 >compound FTneg4494
 >ionization [M+?]-
->parentmass 662.831692373866
+>parentmass Inf
 >rt 1.57885765847604
 
 >ms1
-662.8317 100
+
 
 >ms2
 662.8317 100
 
 >compound FTneg4495
 >ionization [M+?]-
->parentmass 688.833779326043
+>parentmass Inf
 >rt 1.55888663686542
 
 >ms1
-688.8338 100
+
 
 >ms2
 688.8338 100
 
 >compound FTneg4496
 >ionization [M+?]-
->parentmass 756.821105695915
+>parentmass Inf
 >rt 1.55831389956496
 
 >ms1
-756.8211 100
+
 
 >ms2
 756.8211 100
 
 >compound FTneg4497
 >ionization [M+?]-
->parentmass 782.830887452471
+>parentmass Inf
 >rt 1.57454208446721
 
 >ms1
-782.8309 100
 
 >ms2
 147.0642 40
@@ -89021,44 +87738,43 @@
 
 >compound FTneg4498
 >ionization [M+?]-
->parentmass 798.807711869818
+>parentmass Inf
 >rt 1.57630962423107
 
 >ms1
-798.8077 100
+
 
 >ms2
 798.8077 100
 
 >compound FTneg4499
 >ionization [M+?]-
->parentmass 264.981499132712
+>parentmass Inf
 >rt 8.234491025641
 
 >ms1
-264.9815 100
+
 
 >ms2
 264.9815 100
 
 >compound FTneg4500
 >ionization [M+?]-
->parentmass 307.08193449567
+>parentmass Inf
 >rt 8.1430128323961
 
 >ms1
-307.0819 100
+
 
 >ms2
 307.0819 100
 
 >compound FTneg4501
 >ionization [M+?]-
->parentmass 265.107927740123
+>parentmass Inf
 >rt 9.09891527188809
 
 >ms1
-265.1079 100
 
 >ms2
 53.0369 40
@@ -89097,77 +87813,76 @@
 
 >compound FTneg4502
 >ionization [M+?]-
->parentmass 286.165530476603
+>parentmass Inf
 >rt 9.12693118223674
 
 >ms1
-286.1655 100
+
 
 >ms2
 286.1655 100
 
 >compound FTneg4503
 >ionization [M+?]-
->parentmass 293.10564977015
+>parentmass Inf
 >rt 9.09326528010015
 
 >ms1
-293.1056 100
+
 
 >ms2
 293.1056 100
 
 >compound FTneg4504
 >ionization [M+?]-
->parentmass 503.910844631965
+>parentmass Inf
 >rt 8.97338245107459
 
 >ms1
-503.9108 100
+
 
 >ms2
 503.9108 100
 
 >compound FTneg4505
 >ionization [M+?]-
->parentmass 810.415931772664
+>parentmass Inf
 >rt 9.08132866501921
 
 >ms1
-810.4159 100
+
 
 >ms2
 810.4159 100
 
 >compound FTneg4506
 >ionization [M+?]-
->parentmass 265.128940602114
+>parentmass Inf
 >rt 10.8898287134211
 
 >ms1
-265.1289 100
+
 
 >ms2
 265.1289 100
 
 >compound FTneg4507
 >ionization [M+?]-
->parentmass 297.153805398688
+>parentmass Inf
 >rt 10.9288487964731
 
 >ms1
-297.1538 100
+
 
 >ms2
 297.1538 100
 
 >compound FTneg4508
 >ionization [M+?]-
->parentmass 293.175578008366
+>parentmass Inf
 >rt 11.1456576735517
 
 >ms1
-293.1756 100
 
 >ms2
 54.8822 41
@@ -89207,11 +87922,10 @@
 
 >compound FTneg4509
 >ionization [M+?]-
->parentmass 265.143840446809
+>parentmass Inf
 >rt 11.1466495821888
 
 >ms1
-265.1438 100
 
 >ms2
 50.0155 202
@@ -89302,22 +88016,20 @@
 
 >compound FTneg4510
 >ionization [M+?]-
->parentmass 339.181002823022
+>parentmass Inf
 >rt 11.1449521846134
 
 >ms1
-339.181 100
 
 >ms2
 56.0253 40
 
 >compound FTneg4511
 >ionization [M+?]-
->parentmass 356.17132604275
+>parentmass Inf
 >rt 11.1458483237849
 
 >ms1
-356.1713 100
 
 >ms2
 50.0012 40
@@ -89852,11 +88564,10 @@
 
 >compound FTneg4512
 >ionization [M+?]-
->parentmass 361.162878804498
+>parentmass Inf
 >rt 11.1476971901737
 
 >ms1
-361.1629 100
 
 >ms2
 55.0526 40
@@ -89869,11 +88580,10 @@
 
 >compound FTneg4513
 >ionization [M+?]-
->parentmass 387.281067692277
+>parentmass Inf
 >rt 11.1308919708816
 
 >ms1
-387.2811 100
 
 >ms2
 51.0209 80
@@ -90193,11 +88903,10 @@
 
 >compound FTneg4514
 >ionization [M+?]-
->parentmass 407.168162696471
+>parentmass Inf
 >rt 11.1457536993749
 
 >ms1
-407.1682 100
 
 >ms2
 55.017 40
@@ -90212,11 +88921,10 @@
 
 >compound FTneg4515
 >ionization [M+?]-
->parentmass 612.317930210089
+>parentmass Inf
 >rt 11.1605126406609
 
 >ms1
-612.3179 100
 
 >ms2
 55.0539 40
@@ -90238,11 +88946,10 @@
 
 >compound FTneg4516
 >ionization [M+?]-
->parentmass 660.315089091566
+>parentmass Inf
 >rt 11.1358136602563
 
 >ms1
-660.3151 100
 
 >ms2
 52.0178 40
@@ -90313,11 +89020,10 @@
 
 >compound FTneg4517
 >ionization [M+?]-
->parentmass 265.145541376821
+>parentmass Inf
 >rt 9.90340013036069
 
 >ms1
-265.1455 100
 
 >ms2
 55.0503 40
@@ -90333,22 +89039,21 @@
 
 >compound FTneg4518
 >ionization [M+?]-
->parentmass 278.140509724301
+>parentmass Inf
 >rt 9.8476468506912
 
 >ms1
-278.1405 100
+
 
 >ms2
 278.1405 100
 
 >compound FTneg4519
 >ionization [M+?]-
->parentmass 385.140395406097
+>parentmass Inf
 >rt 7.01830091917891
 
 >ms1
-385.1404 100
 
 >ms2
 57.0711 40
@@ -90358,22 +89063,21 @@
 
 >compound FTneg4520
 >ionization [M+?]-
->parentmass 266.089806193792
+>parentmass Inf
 >rt 6.91326980893977
 
 >ms1
-266.0898 100
+
 
 >ms2
 266.0898 100
 
 >compound FTneg4521
 >ionization [M+?]-
->parentmass 476.166934293842
+>parentmass Inf
 >rt 7.00083360074644
 
 >ms1
-476.1669 100
 
 >ms2
 51.0222 4
@@ -90401,22 +89105,21 @@
 
 >compound FTneg4522
 >ionization [M+?]-
->parentmass 266.137846361962
+>parentmass Inf
 >rt 8.37228651986772
 
 >ms1
-266.1378 100
+
 
 >ms2
 266.1378 100
 
 >compound FTneg4523
 >ionization [M+?]-
->parentmass 267.073463261158
+>parentmass Inf
 >rt 5.86756850015371
 
 >ms1
-267.0735 100
 
 >ms2
 50.0164 13
@@ -90444,11 +89147,10 @@
 
 >compound FTneg4524
 >ionization [M+?]-
->parentmass 357.068857924867
+>parentmass Inf
 >rt 5.84724079027849
 
 >ms1
-357.0689 100
 
 >ms2
 55.0177 40
@@ -90465,11 +89167,10 @@
 
 >compound FTneg4525
 >ionization [M+?]-
->parentmass 267.052757644856
+>parentmass Inf
 >rt 5.84606979166656
 
 >ms1
-267.0528 100
 
 >ms2
 55.0525 40
@@ -90478,110 +89179,108 @@
 
 >compound FTneg4526
 >ionization [M+?]-
->parentmass 267.07339223922
+>parentmass Inf
 >rt 5.76162540192839
 
 >ms1
-267.0734 100
 
 >ms2
 53.0369 40
 
 >compound FTneg4527
 >ionization [M+?]-
->parentmass 277.086269518234
+>parentmass Inf
 >rt 5.84471693987379
 
 >ms1
-277.0863 100
+
 
 >ms2
 277.0863 100
 
 >compound FTneg4528
 >ionization [M+?]-
->parentmass 313.078970747005
+>parentmass Inf
 >rt 5.8303052631579
 
 >ms1
-313.079 100
+
 
 >ms2
 313.079 100
 
 >compound FTneg4529
 >ionization [M+?]-
->parentmass 330.069164502914
+>parentmass Inf
 >rt 5.8920125
 
 >ms1
-330.0692 100
+
 
 >ms2
 330.0692 100
 
 >compound FTneg4530
 >ionization [M+?]-
->parentmass 335.060944093672
+>parentmass Inf
 >rt 5.84862647058818
 
 >ms1
-335.0609 100
+
 
 >ms2
 335.0609 100
 
 >compound FTneg4531
 >ionization [M+?]-
->parentmass 396.971130131101
+>parentmass Inf
 >rt 5.9434722222222
 
 >ms1
-396.9711 100
+
 
 >ms2
 396.9711 100
 
 >compound FTneg4532
 >ionization [M+?]-
->parentmass 411.998062990169
+>parentmass Inf
 >rt 5.80457549019606
 
 >ms1
-411.9981 100
+
 
 >ms2
 411.9981 100
 
 >compound FTneg4533
 >ionization [M+?]-
->parentmass 413.003456633782
+>parentmass Inf
 >rt 5.80459999999995
 
 >ms1
-413.0035 100
+
 
 >ms2
 413.0035 100
 
 >compound FTneg4534
 >ionization [M+?]-
->parentmass 415.004473601756
+>parentmass Inf
 >rt 5.7971095238095
 
 >ms1
-415.0045 100
+
 
 >ms2
 415.0045 100
 
 >compound FTneg4535
 >ionization [M+?]-
->parentmass 267.073459461294
+>parentmass Inf
 >rt 5.38701136279935
 
 >ms1
-267.0735 100
 
 >ms2
 50.0019 20
@@ -90613,11 +89312,10 @@
 
 >compound FTneg4536
 >ionization [M+?]-
->parentmass 295.154822040003
+>parentmass Inf
 >rt 10.8592127249504
 
 >ms1
-295.1548 100
 
 >ms2
 54.1627 13
@@ -90631,11 +89329,10 @@
 
 >compound FTneg4537
 >ionization [M+?]-
->parentmass 267.159818152993
+>parentmass Inf
 >rt 10.9243881440934
 
 >ms1
-267.1598 100
 
 >ms2
 53.9391 41
@@ -90662,11 +89359,10 @@
 
 >compound FTneg4538
 >ionization [M+?]-
->parentmass 296.186288049813
+>parentmass Inf
 >rt 10.861228936137
 
 >ms1
-296.1863 100
 
 >ms2
 50.0155 40
@@ -90722,11 +89418,10 @@
 
 >compound FTneg4539
 >ionization [M+?]-
->parentmass 423.2749300649
+>parentmass Inf
 >rt 10.8636235472587
 
 >ms1
-423.2749 100
 
 >ms2
 55.0526 40
@@ -90744,11 +89439,10 @@
 
 >compound FTneg4540
 >ionization [M+?]-
->parentmass 452.277948346171
+>parentmass Inf
 >rt 12.1435231086532
 
 >ms1
-452.2779 100
 
 >ms2
 55.0525 40
@@ -90759,11 +89453,10 @@
 
 >compound FTneg4541
 >ionization [M+?]-
->parentmass 502.29359482165
+>parentmass Inf
 >rt 12.1494970045107
 
 >ms1
-502.2936 100
 
 >ms2
 57.0696 40
@@ -90772,11 +89465,10 @@
 
 >compound FTneg4542
 >ionization [M+?]-
->parentmass 975.641567834038
+>parentmass Inf
 >rt 12.1404977781831
 
 >ms1
-975.6416 100
 
 >ms2
 104.1067 40
@@ -90791,11 +89483,10 @@
 
 >compound FTneg4543
 >ionization [M+?]-
->parentmass 267.196300957025
+>parentmass Inf
 >rt 12.1506685761169
 
 >ms1
-267.1963 100
 
 >ms2
 55.0533 120
@@ -90813,11 +89504,10 @@
 
 >compound FTneg4544
 >ionization [M+?]-
->parentmass 452.24925600764
+>parentmass Inf
 >rt 12.1462098505181
 
 >ms1
-452.2493 100
 
 >ms2
 55.0534 40
@@ -90836,11 +89526,10 @@
 
 >compound FTneg4545
 >ionization [M+?]-
->parentmass 475.306207095582
+>parentmass Inf
 >rt 12.1294804372788
 
 >ms1
-475.3062 100
 
 >ms2
 50.0163 20
@@ -90870,11 +89559,10 @@
 
 >compound FTneg4546
 >ionization [M+?]-
->parentmass 531.272280663833
+>parentmass Inf
 >rt 12.1579202242705
 
 >ms1
-531.2723 100
 
 >ms2
 57.0403 40
@@ -90886,11 +89574,10 @@
 
 >compound FTneg4547
 >ionization [M+?]-
->parentmass 555.272281394622
+>parentmass Inf
 >rt 12.1660343428467
 
 >ms1
-555.2723 100
 
 >ms2
 54.0299 13
@@ -90910,11 +89597,10 @@
 
 >compound FTneg4548
 >ionization [M+?]-
->parentmass 906.566887882845
+>parentmass Inf
 >rt 12.1406606364629
 
 >ms1
-906.5669 100
 
 >ms2
 57.0734 40
@@ -90929,55 +89615,54 @@
 
 >compound FTneg4549
 >ionization [M+?]-
->parentmass 269.012434476749
+>parentmass Inf
 >rt 7.88983458605319
 
 >ms1
-269.0124 100
+
 
 >ms2
 269.0124 100
 
 >compound FTneg4550
 >ionization [M+?]-
->parentmass 292.99457028312
+>parentmass Inf
 >rt 7.78369527503209
 
 >ms1
-292.9946 100
+
 
 >ms2
 292.9946 100
 
 >compound FTneg4551
 >ionization [M+?]-
->parentmass 348.086864095691
+>parentmass Inf
 >rt 7.78652198765949
 
 >ms1
-348.0869 100
+
 
 >ms2
 348.0869 100
 
 >compound FTneg4552
 >ionization [M+?]-
->parentmass 381.175356409152
+>parentmass Inf
 >rt 7.91059104431148
 
 >ms1
-381.1754 100
+
 
 >ms2
 381.1754 100
 
 >compound FTneg4553
 >ionization [M+?]-
->parentmass 269.045324422486
+>parentmass Inf
 >rt 9.42675026002065
 
 >ms1
-269.0453 100
 
 >ms2
 55.048 40
@@ -90989,22 +89674,20 @@
 
 >compound FTneg4554
 >ionization [M+?]-
->parentmass 269.045392842682
+>parentmass Inf
 >rt 10.3456676570396
 
 >ms1
-269.0454 100
 
 >ms2
 55.0541 120
 
 >compound FTneg4555
 >ionization [M+?]-
->parentmass 285.12604787639
+>parentmass Inf
 >rt 10.3426081755812
 
 >ms1
-285.126 100
 
 >ms2
 51.0172 4
@@ -91042,11 +89725,10 @@
 
 >compound FTneg4556
 >ionization [M+?]-
->parentmass 331.131400458486
+>parentmass Inf
 >rt 10.3376440099748
 
 >ms1
-331.1314 100
 
 >ms2
 58.0155 40
@@ -91055,11 +89737,10 @@
 
 >compound FTneg4557
 >ionization [M+?]-
->parentmass 359.189461357792
+>parentmass Inf
 >rt 10.3396570431462
 
 >ms1
-359.1895 100
 
 >ms2
 55.0171 159
@@ -91208,11 +89889,10 @@
 
 >compound FTneg4558
 >ionization [M+?]-
->parentmass 270.170857955797
+>parentmass Inf
 >rt 10.3597928302832
 
 >ms1
-270.1709 100
 
 >ms2
 50.0026 4
@@ -91323,11 +90003,10 @@
 
 >compound FTneg4559
 >ionization [M+?]-
->parentmass 301.128091999159
+>parentmass Inf
 >rt 10.3272371810389
 
 >ms1
-301.1281 100
 
 >ms2
 55.0556 40
@@ -91337,33 +90016,32 @@
 
 >compound FTneg4560
 >ionization [M+?]-
->parentmass 311.104766935041
+>parentmass Inf
 >rt 10.3034176973421
 
 >ms1
-311.1048 100
+
 
 >ms2
 311.1048 100
 
 >compound FTneg4561
 >ionization [M+?]-
->parentmass 353.113246491435
+>parentmass Inf
 >rt 10.3438407715873
 
 >ms1
-353.1132 100
+
 
 >ms2
 353.1132 100
 
 >compound FTneg4562
 >ionization [M+?]-
->parentmass 987.516358929942
+>parentmass Inf
 >rt 10.3215303641134
 
 >ms1
-987.5164 100
 
 >ms2
 55.0533 40
@@ -91388,110 +90066,109 @@
 
 >compound FTneg4563
 >ionization [M+?]-
->parentmass 988.519937484075
+>parentmass Inf
 >rt 10.320975694136
 
 >ms1
-988.5199 100
+
 
 >ms2
 988.5199 100
 
 >compound FTneg4564
 >ionization [M+?]-
->parentmass 269.076606270822
+>parentmass Inf
 >rt 6.01978405797109
 
 >ms1
-269.0766 100
+
 
 >ms2
 269.0766 100
 
 >compound FTneg4565
 >ionization [M+?]-
->parentmass 338.071172574833
+>parentmass Inf
 >rt 5.98953514906276
 
 >ms1
-338.0712 100
+
 
 >ms2
 338.0712 100
 
 >compound FTneg4566
 >ionization [M+?]-
->parentmass 433.155357436931
+>parentmass Inf
 >rt 5.92359777777773
 
 >ms1
-433.1554 100
+
 
 >ms2
 433.1554 100
 
 >compound FTneg4567
 >ionization [M+?]-
->parentmass 454.134134437044
+>parentmass Inf
 >rt 5.927396153846
 
 >ms1
-454.1341 100
+
 
 >ms2
 454.1341 100
 
 >compound FTneg4568
 >ionization [M+?]-
->parentmass 307.140020094304
+>parentmass Inf
 >rt 9.97038552897374
 
 >ms1
-307.14 100
+
 
 >ms2
 307.14 100
 
 >compound FTneg4569
 >ionization [M+?]-
->parentmass 269.100884029237
+>parentmass Inf
 >rt 9.8807704073516
 
 >ms1
-269.1009 100
+
 
 >ms2
 269.1009 100
 
 >compound FTneg4570
 >ionization [M+?]-
->parentmass 417.212703603879
+>parentmass Inf
 >rt 9.86618230263258
 
 >ms1
-417.2127 100
+
 
 >ms2
 417.2127 100
 
 >compound FTneg4571
 >ionization [M+?]-
->parentmass 269.122914820622
+>parentmass Inf
 >rt 6.53833344075975
 
 >ms1
-269.1229 100
+
 
 >ms2
 269.1229 100
 
 >compound FTneg4572
 >ionization [M+?]-
->parentmass 597.303991266694
+>parentmass Inf
 >rt 11.7105662985391
 
 >ms1
-597.304 100
 
 >ms2
 55.926 8
@@ -91503,11 +90180,10 @@
 
 >compound FTneg4573
 >ionization [M+?]-
->parentmass 568.268095102085
+>parentmass Inf
 >rt 11.7132805914571
 
 >ms1
-568.2681 100
 
 >ms2
 57.0704 80
@@ -91515,22 +90191,20 @@
 
 >compound FTneg4574
 >ionization [M+?]-
->parentmass 269.131029946759
+>parentmass Inf
 >rt 11.7161092886568
 
 >ms1
-269.131 100
 
 >ms2
 82.0815 40
 
 >compound FTneg4575
 >ionization [M+?]-
->parentmass 730.465534286826
+>parentmass Inf
 >rt 11.7008736528632
 
 >ms1
-730.4655 100
 
 >ms2
 59.0626 40
@@ -91553,22 +90227,20 @@
 
 >compound FTneg4576
 >ionization [M+?]-
->parentmass 512.299127079532
+>parentmass Inf
 >rt 12.5473171585677
 
 >ms1
-512.2991 100
 
 >ms2
 79.9433 13
 
 >compound FTneg4577
 >ionization [M+?]-
->parentmass 586.314737284191
+>parentmass Inf
 >rt 12.542536318087
 
 >ms1
-586.3147 100
 
 >ms2
 55.0631 8
@@ -91610,11 +90282,10 @@
 
 >compound FTneg4578
 >ionization [M+?]-
->parentmass 269.211901382324
+>parentmass Inf
 >rt 12.564780880714
 
 >ms1
-269.2119 100
 
 >ms2
 53.038 159
@@ -91668,11 +90339,10 @@
 
 >compound FTneg4579
 >ionization [M+?]-
->parentmass 293.211746878506
+>parentmass Inf
 >rt 12.563253418813
 
 >ms1
-293.2117 100
 
 >ms2
 51.0179 4
@@ -91694,11 +90364,10 @@
 
 >compound FTneg4580
 >ionization [M+?]-
->parentmass 466.29345832316
+>parentmass Inf
 >rt 12.5490966191604
 
 >ms1
-466.2935 100
 
 >ms2
 55.0541 40
@@ -91707,11 +90376,10 @@
 
 >compound FTneg4581
 >ionization [M+?]-
->parentmass 603.304869981273
+>parentmass Inf
 >rt 12.6619318839633
 
 >ms1
-603.3049 100
 
 >ms2
 53.0376 40
@@ -91729,11 +90397,10 @@
 
 >compound FTneg4582
 >ionization [M+?]-
->parentmass 270.207185976416
+>parentmass Inf
 >rt 10.892737325499
 
 >ms1
-270.2072 100
 
 >ms2
 51.023 4
@@ -91741,11 +90408,10 @@
 
 >compound FTneg4583
 >ionization [M+?]-
->parentmass 376.225642848665
+>parentmass Inf
 >rt 10.900699165046
 
 >ms1
-376.2256 100
 
 >ms2
 51.9397 40
@@ -91778,11 +90444,10 @@
 
 >compound FTneg4584
 >ionization [M+?]-
->parentmass 283.110383477616
+>parentmass Inf
 >rt 10.8950099543387
 
 >ms1
-283.1104 100
 
 >ms2
 53.0384 40
@@ -91807,11 +90472,10 @@
 
 >compound FTneg4585
 >ionization [M+?]-
->parentmass 311.150552225544
+>parentmass Inf
 >rt 10.9554207895588
 
 >ms1
-311.1506 100
 
 >ms2
 93.0687 40
@@ -91820,11 +90484,10 @@
 
 >compound FTneg4586
 >ionization [M+?]-
->parentmass 341.196515829734
+>parentmass Inf
 >rt 10.8992622875584
 
 >ms1
-341.1965 100
 
 >ms2
 55.0457 40
@@ -91832,33 +90495,32 @@
 
 >compound FTneg4587
 >ionization [M+?]-
->parentmass 422.231213144663
+>parentmass Inf
 >rt 10.897992174904
 
 >ms1
-422.2312 100
+
 
 >ms2
 422.2312 100
 
 >compound FTneg4588
 >ionization [M+?]-
->parentmass 444.2129333012
+>parentmass Inf
 >rt 10.8951136417017
 
 >ms1
-444.2129 100
+
 
 >ms2
 444.2129 100
 
 >compound FTneg4589
 >ionization [M+?]-
->parentmass 491.336827619585
+>parentmass Inf
 >rt 10.8386505611717
 
 >ms1
-491.3368 100
 
 >ms2
 57.0334 13
@@ -91898,11 +90560,10 @@
 
 >compound FTneg4590
 >ionization [M+?]-
->parentmass 542.288147494929
+>parentmass Inf
 >rt 10.8996659038644
 
 >ms1
-542.2881 100
 
 >ms2
 55.934 500
@@ -91912,11 +90573,10 @@
 
 >compound FTneg4591
 >ionization [M+?]-
->parentmass 271.154774448099
+>parentmass Inf
 >rt 10.718207046569
 
 >ms1
-271.1548 100
 
 >ms2
 53.0371 159
@@ -91961,11 +90621,10 @@
 
 >compound FTneg4592
 >ionization [M+?]-
->parentmass 516.27304218978
+>parentmass Inf
 >rt 10.7032576670521
 
 >ms1
-516.273 100
 
 >ms2
 52.0301 40
@@ -92094,22 +90753,21 @@
 
 >compound FTneg4593
 >ionization [M+?]-
->parentmass 373.186367846683
+>parentmass Inf
 >rt 10.6791254299406
 
 >ms1
-373.1864 100
+
 
 >ms2
 373.1864 100
 
 >compound FTneg4594
 >ionization [M+?]-
->parentmass 401.163440397315
+>parentmass Inf
 >rt 10.7259452862057
 
 >ms1
-401.1634 100
 
 >ms2
 57.0711 40
@@ -92118,22 +90776,21 @@
 
 >compound FTneg4595
 >ionization [M+?]-
->parentmass 463.305835539149
+>parentmass Inf
 >rt 10.6174523809524
 
 >ms1
-463.3058 100
+
 
 >ms2
 463.3058 100
 
 >compound FTneg4596
 >ionization [M+?]-
->parentmass 271.227481018885
+>parentmass Inf
 >rt 13.0063182671623
 
 >ms1
-271.2275 100
 
 >ms2
 50.0069 8
@@ -92243,11 +90900,10 @@
 
 >compound FTneg4597
 >ionization [M+?]-
->parentmass 271.227588659603
+>parentmass Inf
 >rt 11.9674775788139
 
 >ms1
-271.2276 100
 
 >ms2
 53.0004 40
@@ -92286,11 +90942,10 @@
 
 >compound FTneg4598
 >ionization [M+?]-
->parentmass 272.002419052309
+>parentmass Inf
 >rt 8.09447960326775
 
 >ms1
-272.0024 100
 
 >ms2
 50.004 4
@@ -92406,55 +91061,54 @@
 
 >compound FTneg4599
 >ionization [M+?]-
->parentmass 272.088647160443
+>parentmass Inf
 >rt 2.55451090527634
 
 >ms1
-272.0886 100
+
 
 >ms2
 272.0886 100
 
 >compound FTneg4600
 >ionization [M+?]-
->parentmass 273.170096843995
+>parentmass Inf
 >rt 9.65225928285469
 
 >ms1
-273.1701 100
+
 
 >ms2
 273.1701 100
 
 >compound FTneg4601
 >ionization [M+?]-
->parentmass 273.978656272006
+>parentmass Inf
 >rt 3.05241081041418
 
 >ms1
-273.9787 100
+
 
 >ms2
 273.9787 100
 
 >compound FTneg4602
 >ionization [M+?]-
->parentmass 346.074400238742
+>parentmass Inf
 >rt 3.08967027691174
 
 >ms1
-346.0744 100
+
 
 >ms2
 346.0744 100
 
 >compound FTneg4603
 >ionization [M+?]-
->parentmass 275.005359407802
+>parentmass Inf
 >rt 9.2491537310634
 
 >ms1
-275.0054 100
 
 >ms2
 54.0418 20
@@ -92467,11 +91121,10 @@
 
 >compound FTneg4604
 >ionization [M+?]-
->parentmass 276.017499711601
+>parentmass Inf
 >rt 2.87461852455991
 
 >ms1
-276.0175 100
 
 >ms2
 51.0222 4
@@ -92502,55 +91155,54 @@
 
 >compound FTneg4605
 >ionization [M+?]-
->parentmass 275.01304141367
+>parentmass Inf
 >rt 2.91569935643541
 
 >ms1
-275.013 100
+
 
 >ms2
 275.013 100
 
 >compound FTneg4606
 >ionization [M+?]-
->parentmass 275.058275515894
+>parentmass Inf
 >rt 7.79759201030349
 
 >ms1
-275.0583 100
+
 
 >ms2
 275.0583 100
 
 >compound FTneg4607
 >ionization [M+?]-
->parentmass 291.134795114862
+>parentmass Inf
 >rt 7.84646356351928
 
 >ms1
-291.1348 100
+
 
 >ms2
 291.1348 100
 
 >compound FTneg4608
 >ionization [M+?]-
->parentmass 563.255384311648
+>parentmass Inf
 >rt 7.86988111437649
 
 >ms1
-563.2554 100
+
 
 >ms2
 563.2554 100
 
 >compound FTneg4609
 >ionization [M+?]-
->parentmass 275.095746056464
+>parentmass Inf
 >rt 8.9185768928757
 
 >ms1
-275.0957 100
 
 >ms2
 55.0494 8
@@ -92588,88 +91240,87 @@
 
 >compound FTneg4610
 >ionization [M+?]-
->parentmass 505.907158183666
+>parentmass Inf
 >rt 8.77551888557055
 
 >ms1
-505.9072 100
+
 
 >ms2
 505.9072 100
 
 >compound FTneg4611
 >ionization [M+?]-
->parentmass 719.370594842232
+>parentmass Inf
 >rt 8.00078037140467
 
 >ms1
-719.3706 100
+
 
 >ms2
 719.3706 100
 
 >compound FTneg4612
 >ionization [M+?]-
->parentmass 275.103180496784
+>parentmass Inf
 >rt 8.00126486149107
 
 >ms1
-275.1032 100
+
 
 >ms2
 275.1032 100
 
 >compound FTneg4613
 >ionization [M+?]-
->parentmass 275.140026966785
+>parentmass Inf
 >rt 8.00212946690844
 
 >ms1
-275.14 100
+
 
 >ms2
 275.14 100
 
 >compound FTneg4614
 >ionization [M+?]-
->parentmass 321.145751742449
+>parentmass Inf
 >rt 7.99231523606672
 
 >ms1
-321.1458 100
+
 
 >ms2
 321.1458 100
 
 >compound FTneg4615
 >ionization [M+?]-
->parentmass 347.134255240693
+>parentmass Inf
 >rt 7.96811637573294
 
 >ms1
-347.1343 100
+
 
 >ms2
 347.1343 100
 
 >compound FTneg4616
 >ionization [M+?]-
->parentmass 277.02067483231
+>parentmass Inf
 >rt 2.87067815451509
 
 >ms1
-277.0207 100
+
 
 >ms2
 277.0207 100
 
 >compound FTneg4617
 >ionization [M+?]-
->parentmass 283.16357232738
+>parentmass Inf
 >rt 2.85745152240265
 
 >ms1
-283.1636 100
 
 >ms2
 50.004 4
@@ -92710,44 +91361,43 @@
 
 >compound FTneg4618
 >ionization [M+?]-
->parentmass 345.134320005321
+>parentmass Inf
 >rt 2.85738269972423
 
 >ms1
-345.1343 100
+
 
 >ms2
 345.1343 100
 
 >compound FTneg4619
 >ionization [M+?]-
->parentmass 360.10461895297
+>parentmass Inf
 >rt 2.85626626203145
 
 >ms1
-360.1046 100
+
 
 >ms2
 360.1046 100
 
 >compound FTneg4620
 >ionization [M+?]-
->parentmass 277.038620524703
+>parentmass Inf
 >rt 6.81617071745996
 
 >ms1
-277.0386 100
+
 
 >ms2
 277.0386 100
 
 >compound FTneg4621
 >ionization [M+?]-
->parentmass 800.544219388689
+>parentmass Inf
 >rt 11.9855839960689
 
 >ms1
-800.5442 100
 
 >ms2
 80.6896 43
@@ -92775,11 +91425,10 @@
 
 >compound FTneg4622
 >ionization [M+?]-
->parentmass 277.180711359008
+>parentmass Inf
 >rt 12.0610905313229
 
 >ms1
-277.1807 100
 
 >ms2
 55.0533 13
@@ -92787,33 +91436,32 @@
 
 >compound FTneg4623
 >ionization [M+?]-
->parentmass 277.18779184735
+>parentmass Inf
 >rt 10.1196435946198
 
 >ms1
-277.1878 100
+
 
 >ms2
 277.1878 100
 
 >compound FTneg4624
 >ionization [M+?]-
->parentmass 281.175319948091
+>parentmass Inf
 >rt 10.0284562966787
 
 >ms1
-281.1753 100
+
 
 >ms2
 281.1753 100
 
 >compound FTneg4625
 >ionization [M+?]-
->parentmass 277.217063168192
+>parentmass Inf
 >rt 13.5181771737982
 
 >ms1
-277.2171 100
 
 >ms2
 51.0215 27
@@ -92845,11 +91493,10 @@
 
 >compound FTneg4626
 >ionization [M+?]-
->parentmass 301.216941864771
+>parentmass Inf
 >rt 13.4968921990899
 
 >ms1
-301.2169 100
 
 >ms2
 50.0842 13
@@ -92884,11 +91531,10 @@
 
 >compound FTneg4627
 >ionization [M+?]-
->parentmass 796.54914940438
+>parentmass Inf
 >rt 13.5136862524597
 
 >ms1
-796.5491 100
 
 >ms2
 57.0703 40
@@ -92923,11 +91569,10 @@
 
 >compound FTneg4628
 >ionization [M+?]-
->parentmass 423.147338578578
+>parentmass Inf
 >rt 13.5224492511968
 
 >ms1
-423.1473 100
 
 >ms2
 50.0141 10
@@ -92967,11 +91612,10 @@
 
 >compound FTneg4629
 >ionization [M+?]-
->parentmass 579.44102881564
+>parentmass Inf
 >rt 13.503177279184
 
 >ms1
-579.441 100
 
 >ms2
 55.0532 20
@@ -92983,33 +91627,32 @@
 
 >compound FTneg4630
 >ionization [M+?]-
->parentmass 279.080848107432
+>parentmass Inf
 >rt 7.40594583333342
 
 >ms1
-279.0808 100
+
 
 >ms2
 279.0808 100
 
 >compound FTneg4631
 >ionization [M+?]-
->parentmass 316.870013883306
+>parentmass Inf
 >rt 7.46117005524151
 
 >ms1
-316.87 100
+
 
 >ms2
 316.87 100
 
 >compound FTneg4632
 >ionization [M+?]-
->parentmass 279.196275233889
+>parentmass Inf
 >rt 11.6713254825882
 
 >ms1
-279.1963 100
 
 >ms2
 51.0245 20
@@ -93048,11 +91691,10 @@
 
 >compound FTneg4633
 >ionization [M+?]-
->parentmass 544.267655183421
+>parentmass Inf
 >rt 11.686171226818
 
 >ms1
-544.2677 100
 
 >ms2
 80.9786 41
@@ -93067,22 +91709,20 @@
 
 >compound FTneg4634
 >ionization [M+?]-
->parentmass 315.180680300089
+>parentmass Inf
 >rt 11.6827255779211
 
 >ms1
-315.1807 100
 
 >ms2
 58.0661 8
 
 >compound FTneg4635
 >ionization [M+?]-
->parentmass 520.267605647882
+>parentmass Inf
 >rt 11.6815862789594
 
 >ms1
-520.2676 100
 
 >ms2
 54.939 40
@@ -93096,11 +91736,10 @@
 
 >compound FTneg4636
 >ionization [M+?]-
->parentmass 522.262433579616
+>parentmass Inf
 >rt 11.6704414246716
 
 >ms1
-522.2624 100
 
 >ms2
 80.9473 40
@@ -93113,11 +91752,10 @@
 
 >compound FTneg4637
 >ionization [M+?]-
->parentmass 279.232642559404
+>parentmass Inf
 >rt 13.8880473874586
 
 >ms1
-279.2326 100
 
 >ms2
 53.0465 40
@@ -93128,11 +91766,10 @@
 
 >compound FTneg4638
 >ionization [M+?]-
->parentmass 325.238135187695
+>parentmass Inf
 >rt 13.8872890980924
 
 >ms1
-325.2381 100
 
 >ms2
 56.0566 80
@@ -93140,22 +91777,20 @@
 
 >compound FTneg4639
 >ionization [M+?]-
->parentmass 774.564895424749
+>parentmass Inf
 >rt 13.8799593345184
 
 >ms1
-774.5649 100
 
 >ms2
 53.0109 40
 
 >compound FTneg4640
 >ionization [M+?]-
->parentmass 279.211189567605
+>parentmass Inf
 >rt 13.8889206336861
 
 >ms1
-279.2112 100
 
 >ms2
 51.0259 13
@@ -93178,11 +91813,10 @@
 
 >compound FTneg4641
 >ionization [M+?]-
->parentmass 425.16271138693
+>parentmass Inf
 >rt 13.8941722538908
 
 >ms1
-425.1627 100
 
 >ms2
 57.0143 157
@@ -93231,11 +91865,10 @@
 
 >compound FTneg4642
 >ionization [M+?]-
->parentmass 659.397819452969
+>parentmass Inf
 >rt 13.8888117923575
 
 >ms1
-659.3978 100
 
 >ms2
 56.0589 40
@@ -93264,11 +91897,10 @@
 
 >compound FTneg4643
 >ionization [M+?]-
->parentmass 842.550929032241
+>parentmass Inf
 >rt 13.8782266223561
 
 >ms1
-842.5509 100
 
 >ms2
 52.0066 41
@@ -94107,11 +92739,10 @@
 
 >compound FTneg4644
 >ionization [M+?]-
->parentmass 802.559595013419
+>parentmass Inf
 >rt 11.2136225455146
 
 >ms1
-802.5596 100
 
 >ms2
 50.0145 20
@@ -94121,11 +92752,10 @@
 
 >compound FTneg4645
 >ionization [M+?]-
->parentmass 281.062467498917
+>parentmass Inf
 >rt 11.3705474197088
 
 >ms1
-281.0625 100
 
 >ms2
 55.0541 16
@@ -94133,143 +92763,141 @@
 
 >compound FTneg4646
 >ionization [M+?]-
->parentmass 330.065930547309
+>parentmass Inf
 >rt 11.297889083363
 
 >ms1
-330.0659 100
+
 
 >ms2
 330.0659 100
 
 >compound FTneg4647
 >ionization [M+?]-
->parentmass 793.534450167267
+>parentmass Inf
 >rt 11.2751137822233
 
 >ms1
-793.5345 100
+
 
 >ms2
 793.5345 100
 
 >compound FTneg4648
 >ionization [M+?]-
->parentmass 805.577062118496
+>parentmass Inf
 >rt 11.1918098465758
 
 >ms1
-805.5771 100
+
 
 >ms2
 805.5771 100
 
 >compound FTneg4649
 >ionization [M+?]-
->parentmass 806.669657663058
+>parentmass Inf
 >rt 11.2933722222222
 
 >ms1
-806.6697 100
+
 
 >ms2
 806.6697 100
 
 >compound FTneg4650
 >ionization [M+?]-
->parentmass 825.547903389948
+>parentmass Inf
 >rt 11.2349938741983
 
 >ms1
-825.5479 100
+
 
 >ms2
 825.5479 100
 
 >compound FTneg4651
 >ionization [M+?]-
->parentmass 830.590405209071
+>parentmass Inf
 >rt 11.2386637254902
 
 >ms1
-830.5904 100
+
 
 >ms2
 830.5904 100
 
 >compound FTneg4652
 >ionization [M+?]-
->parentmass 851.562584189157
+>parentmass Inf
 >rt 11.2823622624201
 
 >ms1
-851.5626 100
+
 
 >ms2
 851.5626 100
 
 >compound FTneg4653
 >ionization [M+?]-
->parentmass 870.548897565352
+>parentmass Inf
 >rt 11.2385174656889
 
 >ms1
-870.5489 100
+
 
 >ms2
 870.5489 100
 
 >compound FTneg4654
 >ionization [M+?]-
->parentmass 281.100492907781
+>parentmass Inf
 >rt 7.080981142596
 
 >ms1
-281.1005 100
+
 
 >ms2
 281.1005 100
 
 >compound FTneg4655
 >ionization [M+?]-
->parentmass 359.044030845526
+>parentmass Inf
 >rt 7.07996666666663
 
 >ms1
-359.044 100
+
 
 >ms2
 359.044 100
 
 >compound FTneg4656
 >ionization [M+?]-
->parentmass 281.138765203258
+>parentmass Inf
 >rt 8.94076904114529
 
 >ms1
-281.1388 100
+
 
 >ms2
 281.1388 100
 
 >compound FTneg4657
 >ionization [M+?]-
->parentmass 513.276349636093
+>parentmass Inf
 >rt 8.82563974358973
 
 >ms1
-513.2763 100
 
 >ms2
 66.0428 4
 
 >compound FTneg4658
 >ionization [M+?]-
->parentmass 281.248276434046
+>parentmass Inf
 >rt 14.3081853731923
 
 >ms1
-281.2483 100
 
 >ms2
 50.0141 20
@@ -94282,11 +92910,10 @@
 
 >compound FTneg4659
 >ionization [M+?]-
->parentmass 327.253810086285
+>parentmass Inf
 >rt 14.3082739822683
 
 >ms1
-327.2538 100
 
 >ms2
 54.9958 40
@@ -94310,11 +92937,10 @@
 
 >compound FTneg4660
 >ionization [M+?]-
->parentmass 802.593996838491
+>parentmass Inf
 >rt 14.3085101632026
 
 >ms1
-802.594 100
 
 >ms2
 56.0481 40
@@ -94356,11 +92982,10 @@
 
 >compound FTneg4661
 >ionization [M+?]-
->parentmass 331.263937160489
+>parentmass Inf
 >rt 14.2957111214128
 
 >ms1
-331.2639 100
 
 >ms2
 51.939 4
@@ -94425,11 +93050,10 @@
 
 >compound FTneg4662
 >ionization [M+?]-
->parentmass 377.268668984514
+>parentmass Inf
 >rt 14.2956496826592
 
 >ms1
-377.2687 100
 
 >ms2
 51.0216 8
@@ -94460,11 +93084,10 @@
 
 >compound FTneg4663
 >ionization [M+?]-
->parentmass 776.580192388534
+>parentmass Inf
 >rt 14.2835227302299
 
 >ms1
-776.5802 100
 
 >ms2
 60.0809 40
@@ -94496,11 +93119,10 @@
 
 >compound FTneg4664
 >ionization [M+?]-
->parentmass 852.610021072053
+>parentmass Inf
 >rt 14.2956436955039
 
 >ms1
-852.61 100
 
 >ms2
 52.9284 40
@@ -94585,11 +93207,10 @@
 
 >compound FTneg4665
 >ionization [M+?]-
->parentmass 282.064768572633
+>parentmass Inf
 >rt 11.279458035717
 
 >ms1
-282.0648 100
 
 >ms2
 51.0224 4
@@ -94614,11 +93235,10 @@
 
 >compound FTneg4666
 >ionization [M+?]-
->parentmass 311.169928389876
+>parentmass Inf
 >rt 11.2544343470621
 
 >ms1
-311.1699 100
 
 >ms2
 50.0134 4
@@ -94671,33 +93291,32 @@
 
 >compound FTneg4667
 >ionization [M+?]-
->parentmass 582.340360318871
+>parentmass Inf
 >rt 11.1812236060013
 
 >ms1
-582.3404 100
+
 
 >ms2
 582.3404 100
 
 >compound FTneg4668
 >ionization [M+?]-
->parentmass 881.605474848982
+>parentmass Inf
 >rt 11.2301614884488
 
 >ms1
-881.6055 100
+
 
 >ms2
 881.6055 100
 
 >compound FTneg4669
 >ionization [M+?]-
->parentmass 282.251669403914
+>parentmass Inf
 >rt 14.3079836525426
 
 >ms1
-282.2517 100
 
 >ms2
 55.0533 80
@@ -94729,77 +93348,76 @@
 
 >compound FTneg4670
 >ionization [M+?]-
->parentmass 282.989687420671
+>parentmass Inf
 >rt 7.16129509803929
 
 >ms1
-282.9897 100
+
 
 >ms2
 282.9897 100
 
 >compound FTneg4671
 >ionization [M+?]-
->parentmass 311.134313280862
+>parentmass Inf
 >rt 7.23997940865153
 
 >ms1
-311.1343 100
+
 
 >ms2
 311.1343 100
 
 >compound FTneg4672
 >ionization [M+?]-
->parentmass 387.16519336004
+>parentmass Inf
 >rt 7.26471456838436
 
 >ms1
-387.1652 100
+
 
 >ms2
 387.1652 100
 
 >compound FTneg4673
 >ionization [M+?]-
->parentmass 283.059854458931
+>parentmass Inf
 >rt 10.2841089314246
 
 >ms1
-283.0599 100
+
 
 >ms2
 283.0599 100
 
 >compound FTneg4674
 >ionization [M+?]-
->parentmass 415.196749197408
+>parentmass Inf
 >rt 10.3571368339141
 
 >ms1
-415.1967 100
+
 
 >ms2
 415.1967 100
 
 >compound FTneg4675
 >ionization [M+?]-
->parentmass 523.44038585339
+>parentmass Inf
 >rt 10.2678533333334
 
 >ms1
-523.4404 100
+
 
 >ms2
 523.4404 100
 
 >compound FTneg4676
 >ionization [M+?]-
->parentmass 583.256015027121
+>parentmass Inf
 >rt 16.090765769067
 
 >ms1
-583.256 100
 
 >ms2
 57.0696 80
@@ -94830,11 +93448,10 @@
 
 >compound FTneg4677
 >ionization [M+?]-
->parentmass 283.108661409725
+>parentmass Inf
 >rt 16.1110028099509
 
 >ms1
-283.1087 100
 
 >ms2
 55.0545 120
@@ -94845,11 +93462,10 @@
 
 >compound FTneg4678
 >ionization [M+?]-
->parentmass 581.24019449833
+>parentmass Inf
 >rt 16.1012525905065
 
 >ms1
-581.2402 100
 
 >ms2
 80.9483 80
@@ -94871,22 +93487,21 @@
 
 >compound FTneg4679
 >ionization [M+?]-
->parentmass 285.206593488684
+>parentmass Inf
 >rt 10.2732134946825
 
 >ms1
-285.2066 100
+
 
 >ms2
 285.2066 100
 
 >compound FTneg4680
 >ionization [M+?]-
->parentmass 305.142424983809
+>parentmass Inf
 >rt 10.400859857256
 
 >ms1
-305.1424 100
 
 >ms2
 55.0533 122
@@ -94911,11 +93526,10 @@
 
 >compound FTneg4681
 >ionization [M+?]-
->parentmass 497.346963954453
+>parentmass Inf
 >rt 10.4036328178453
 
 >ms1
-497.347 100
 
 >ms2
 81.0694 40
@@ -94925,55 +93539,54 @@
 
 >compound FTneg4682
 >ionization [M+?]-
->parentmass 287.044292027462
+>parentmass Inf
 >rt 8.62610210792839
 
 >ms1
-287.0443 100
+
 
 >ms2
 287.0443 100
 
 >compound FTneg4683
 >ionization [M+?]-
->parentmass 287.112888253448
+>parentmass Inf
 >rt 9.0228410806136
 
 >ms1
-287.1129 100
+
 
 >ms2
 287.1129 100
 
 >compound FTneg4684
 >ionization [M+?]-
->parentmass 289.040543203434
+>parentmass Inf
 >rt 8.4696298025319
 
 >ms1
-289.0405 100
+
 
 >ms2
 289.0405 100
 
 >compound FTneg4685
 >ionization [M+?]-
->parentmass 289.078870399173
+>parentmass Inf
 >rt 6.49286930911197
 
 >ms1
-289.0789 100
+
 
 >ms2
 289.0789 100
 
 >compound FTneg4686
 >ionization [M+?]-
->parentmass 329.23292588688
+>parentmass Inf
 >rt 10.459320963243
 
 >ms1
-329.2329 100
 
 >ms2
 51.7531 40
@@ -95012,11 +93625,10 @@
 
 >compound FTneg4687
 >ionization [M+?]-
->parentmass 814.523463627855
+>parentmass Inf
 >rt 11.9491087781215
 
 >ms1
-814.5235 100
 
 >ms2
 50.0134 13
@@ -95029,11 +93641,10 @@
 
 >compound FTneg4688
 >ionization [M+?]-
->parentmass 291.159909797338
+>parentmass Inf
 >rt 11.9513678272136
 
 >ms1
-291.1599 100
 
 >ms2
 55.0548 40
@@ -95049,11 +93660,10 @@
 
 >compound FTneg4689
 >ionization [M+?]-
->parentmass 337.165344823603
+>parentmass Inf
 >rt 11.9468165061921
 
 >ms1
-337.1653 100
 
 >ms2
 54.9466 4
@@ -95061,77 +93671,76 @@
 
 >compound FTneg4690
 >ionization [M+?]-
->parentmass 292.054180359635
+>parentmass Inf
 >rt 13.5890393939395
 
 >ms1
-292.0542 100
+
 
 >ms2
 292.0542 100
 
 >compound FTneg4691
 >ionization [M+?]-
->parentmass 292.137825145476
+>parentmass Inf
 >rt 7.65076350478597
 
 >ms1
-292.1378 100
+
 
 >ms2
 292.1378 100
 
 >compound FTneg4692
 >ionization [M+?]-
->parentmass 345.131837389079
+>parentmass Inf
 >rt 7.75889929071163
 
 >ms1
-345.1318 100
+
 
 >ms2
 345.1318 100
 
 >compound FTneg4693
 >ionization [M+?]-
->parentmass 292.15813896973
+>parentmass Inf
 >rt 9.64531291167051
 
 >ms1
-292.1581 100
+
 
 >ms2
 292.1581 100
 
 >compound FTneg4694
 >ionization [M+?]-
->parentmass 300.007989818843
+>parentmass Inf
 >rt 9.64468937936027
 
 >ms1
-300.008 100
+
 
 >ms2
 300.008 100
 
 >compound FTneg4695
 >ionization [M+?]-
->parentmass 292.953420643008
+>parentmass Inf
 >rt 7.60622738095236
 
 >ms1
-292.9534 100
+
 
 >ms2
 292.9534 100
 
 >compound FTneg4696
 >ionization [M+?]-
->parentmass 293.050279458604
+>parentmass Inf
 >rt 2.91458286198634
 
 >ms1
-293.0503 100
 
 >ms2
 50.0142 4
@@ -95177,22 +93786,21 @@
 
 >compound FTneg4697
 >ionization [M+?]-
->parentmass 293.10409328564
+>parentmass Inf
 >rt 8.28962983443181
 
 >ms1
-293.1041 100
+
 
 >ms2
 293.1041 100
 
 >compound FTneg4698
 >ionization [M+?]-
->parentmass 293.176210247267
+>parentmass Inf
 >rt 14.7987355962922
 
 >ms1
-293.1762 100
 
 >ms2
 51.0222 16
@@ -95220,11 +93828,10 @@
 
 >compound FTneg4699
 >ionization [M+?]-
->parentmass 293.176276370517
+>parentmass Inf
 >rt 15.3117414410241
 
 >ms1
-293.1763 100
 
 >ms2
 50.0133 8
@@ -95257,11 +93864,10 @@
 
 >compound FTneg4700
 >ionization [M+?]-
->parentmass 869.564933799025
+>parentmass Inf
 >rt 15.2304719259139
 
 >ms1
-869.5649 100
 
 >ms2
 51.0229 42
@@ -95638,11 +94244,10 @@
 
 >compound FTneg4701
 >ionization [M+?]-
->parentmass 599.319905003732
+>parentmass Inf
 >rt 12.2558266601856
 
 >ms1
-599.3199 100
 
 >ms2
 51.4701 40
@@ -95700,11 +94305,10 @@
 
 >compound FTneg4702
 >ionization [M+?]-
->parentmass 642.362044091586
+>parentmass Inf
 >rt 12.2544999334026
 
 >ms1
-642.362 100
 
 >ms2
 67.0558 40
@@ -95727,220 +94331,218 @@
 
 >compound FTneg4703
 >ionization [M+?]-
->parentmass 293.178524729922
+>parentmass Inf
 >rt 12.2588687297908
 
 >ms1
-293.1785 100
 
 >ms2
 56.9624 40
 
 >compound FTneg4704
 >ionization [M+?]-
->parentmass 294.124518117974
+>parentmass Inf
 >rt 7.01100076706555
 
 >ms1
-294.1245 100
+
 
 >ms2
 294.1245 100
 
 >compound FTneg4705
 >ionization [M+?]-
->parentmass 336.788462631019
+>parentmass Inf
 >rt 1.61452213906031
 
 >ms1
-336.7885 100
+
 
 >ms2
 336.7885 100
 
 >compound FTneg4706
 >ionization [M+?]-
->parentmass 512.661389693438
+>parentmass Inf
 >rt 1.6152588671746
 
 >ms1
-512.6614 100
+
 
 >ms2
 512.6614 100
 
 >compound FTneg4707
 >ionization [M+?]-
->parentmass 572.617137035667
+>parentmass Inf
 >rt 1.61561603861015
 
 >ms1
-572.6171 100
+
 
 >ms2
 572.6171 100
 
 >compound FTneg4708
 >ionization [M+?]-
->parentmass 596.622956561996
+>parentmass Inf
 >rt 1.61224601631349
 
 >ms1
-596.623 100
+
 
 >ms2
 596.623 100
 
 >compound FTneg4709
 >ionization [M+?]-
->parentmass 294.803998885661
+>parentmass Inf
 >rt 1.61265132494487
 
 >ms1
-294.804 100
+
 
 >ms2
 294.804 100
 
 >compound FTneg4710
 >ionization [M+?]-
->parentmass 334.791489047592
+>parentmass Inf
 >rt 1.61424857367029
 
 >ms1
-334.7915 100
+
 
 >ms2
 334.7915 100
 
 >compound FTneg4711
 >ionization [M+?]-
->parentmass 396.744471894069
+>parentmass Inf
 >rt 1.61449351851856
 
 >ms1
-396.7445 100
+
 
 >ms2
 396.7445 100
 
 >compound FTneg4712
 >ionization [M+?]-
->parentmass 450.708542705993
+>parentmass Inf
 >rt 1.61423888888894
 
 >ms1
-450.7085 100
+
 
 >ms2
 450.7085 100
 
 >compound FTneg4713
 >ionization [M+?]-
->parentmass 478.708360549906
+>parentmass Inf
 >rt 1.61137820512815
 
 >ms1
-478.7084 100
+
 
 >ms2
 478.7084 100
 
 >compound FTneg4714
 >ionization [M+?]-
->parentmass 510.66411591728
+>parentmass Inf
 >rt 1.61514701669381
 
 >ms1
-510.6641 100
+
 
 >ms2
 510.6641 100
 
 >compound FTneg4715
 >ionization [M+?]-
->parentmass 526.638626306624
+>parentmass Inf
 >rt 1.61577260596558
 
 >ms1
-526.6386 100
+
 
 >ms2
 526.6386 100
 
 >compound FTneg4716
 >ionization [M+?]-
->parentmass 584.597274817674
+>parentmass Inf
 >rt 1.61628952305018
 
 >ms1
-584.5973 100
+
 
 >ms2
 584.5973 100
 
 >compound FTneg4717
 >ionization [M+?]-
->parentmass 588.590642512601
+>parentmass Inf
 >rt 1.61661967102111
 
 >ms1
-588.5906 100
+
 
 >ms2
 588.5906 100
 
 >compound FTneg4718
 >ionization [M+?]-
->parentmass 628.578009708539
+>parentmass Inf
 >rt 1.61551128959986
 
 >ms1
-628.578 100
+
 
 >ms2
 628.578 100
 
 >compound FTneg4719
 >ionization [M+?]-
->parentmass 630.574891279377
+>parentmass Inf
 >rt 1.61578003442602
 
 >ms1
-630.5749 100
+
 
 >ms2
 630.5749 100
 
 >compound FTneg4720
 >ionization [M+?]-
->parentmass 804.451861560767
+>parentmass Inf
 >rt 1.61449367129742
 
 >ms1
-804.4519 100
+
 
 >ms2
 804.4519 100
 
 >compound FTneg4721
 >ionization [M+?]-
->parentmass 820.426418472965
+>parentmass Inf
 >rt 1.61934696969709
 
 >ms1
-820.4264 100
+
 
 >ms2
 820.4264 100
 
 >compound FTneg4722
 >ionization [M+?]-
->parentmass 295.227615532406
+>parentmass Inf
 >rt 12.7923331337653
 
 >ms1
-295.2276 100
 
 >ms2
 54.0051 40
@@ -95959,11 +94561,10 @@
 
 >compound FTneg4723
 >ionization [M+?]-
->parentmass 345.243337657574
+>parentmass Inf
 >rt 12.798771339927
 
 >ms1
-345.2433 100
 
 >ms2
 55.0526 40
@@ -95975,11 +94576,10 @@
 
 >compound FTneg4724
 >ionization [M+?]-
->parentmass 524.298269292221
+>parentmass Inf
 >rt 12.7775
 
 >ms1
-524.2983 100
 
 >ms2
 68.2883 40
@@ -95987,11 +94587,10 @@
 
 >compound FTneg4725
 >ionization [M+?]-
->parentmass 296.063597514353
+>parentmass Inf
 >rt 2.78977480978014
 
 >ms1
-296.0636 100
 
 >ms2
 51.6408 4
@@ -96012,77 +94611,76 @@
 
 >compound FTneg4726
 >ionization [M+?]-
->parentmass 483.129676879212
+>parentmass Inf
 >rt 2.78963997301692
 
 >ms1
-483.1297 100
+
 
 >ms2
 483.1297 100
 
 >compound FTneg4727
 >ionization [M+?]-
->parentmass 398.040721516549
+>parentmass Inf
 >rt 2.79579253334392
 
 >ms1
-398.0407 100
+
 
 >ms2
 398.0407 100
 
 >compound FTneg4728
 >ionization [M+?]-
->parentmass 482.125953186102
+>parentmass Inf
 >rt 2.7773155692006
 
 >ms1
-482.126 100
+
 
 >ms2
 482.126 100
 
 >compound FTneg4729
 >ionization [M+?]-
->parentmass 297.037199909516
+>parentmass Inf
 >rt 11.2843487801293
 
 >ms1
-297.0372 100
+
 
 >ms2
 297.0372 100
 
 >compound FTneg4730
 >ionization [M+?]-
->parentmass 747.716253738168
+>parentmass Inf
 >rt 11.4274051282051
 
 >ms1
-747.7163 100
+
 
 >ms2
 747.7163 100
 
 >compound FTneg4731
 >ionization [M+?]-
->parentmass 778.560336875719
+>parentmass Inf
 >rt 11.3478122187909
 
 >ms1
-778.5603 100
+
 
 >ms2
 778.5603 100
 
 >compound FTneg4732
 >ionization [M+?]-
->parentmass 819.550308078984
+>parentmass Inf
 >rt 11.6568951710796
 
 >ms1
-819.5503 100
 
 >ms2
 55.0541 40
@@ -96186,33 +94784,32 @@
 
 >compound FTneg4733
 >ionization [M+?]-
->parentmass 880.600578483196
+>parentmass Inf
 >rt 11.6776083279716
 
 >ms1
-880.6006 100
+
 
 >ms2
 880.6006 100
 
 >compound FTneg4734
 >ionization [M+?]-
->parentmass 297.037377905341
+>parentmass Inf
 >rt 11.692124330983
 
 >ms1
-297.0374 100
+
 
 >ms2
 297.0374 100
 
 >compound FTneg4735
 >ionization [M+?]-
->parentmass 792.531386371285
+>parentmass Inf
 >rt 11.6760409973057
 
 >ms1
-792.5314 100
 
 >ms2
 53.0027 10
@@ -96243,11 +94840,10 @@
 
 >compound FTneg4736
 >ionization [M+?]-
->parentmass 297.057458683538
+>parentmass Inf
 >rt 8.65058678623407
 
 >ms1
-297.0575 100
 
 >ms2
 51.0253 40
@@ -96358,22 +94954,21 @@
 
 >compound FTneg4737
 >ionization [M+?]-
->parentmass 529.285196519726
+>parentmass Inf
 >rt 8.50886906698367
 
 >ms1
-529.2852 100
+
 
 >ms2
 529.2852 100
 
 >compound FTneg4738
 >ionization [M+?]-
->parentmass 450.262243318493
+>parentmass Inf
 >rt 11.5976322028379
 
 >ms1
-450.2622 100
 
 >ms2
 56.0482 16
@@ -96392,11 +94987,10 @@
 
 >compound FTneg4739
 >ionization [M+?]-
->parentmass 614.33078887503
+>parentmass Inf
 >rt 11.5952552306419
 
 >ms1
-614.3308 100
 
 >ms2
 62.98 40
@@ -96417,11 +95011,10 @@
 
 >compound FTneg4740
 >ionization [M+?]-
->parentmass 621.304179837444
+>parentmass Inf
 >rt 11.5963008978193
 
 >ms1
-621.3042 100
 
 >ms2
 57.0326 4
@@ -96446,11 +95039,10 @@
 
 >compound FTneg4741
 >ionization [M+?]-
->parentmass 297.152715759174
+>parentmass Inf
 >rt 11.6173828140383
 
 >ms1
-297.1527 100
 
 >ms2
 51.0259 40
@@ -96477,11 +95069,10 @@
 
 >compound FTneg4742
 >ionization [M+?]-
->parentmass 501.299944165005
+>parentmass Inf
 >rt 11.5937978396
 
 >ms1
-501.2999 100
 
 >ms2
 69.0679 40
@@ -96490,11 +95081,10 @@
 
 >compound FTneg4743
 >ionization [M+?]-
->parentmass 297.243274284182
+>parentmass Inf
 >rt 12.3749840527394
 
 >ms1
-297.2433 100
 
 >ms2
 55.0495 8
@@ -96533,11 +95123,10 @@
 
 >compound FTneg4744
 >ionization [M+?]-
->parentmass 325.183999430076
+>parentmass Inf
 >rt 12.340254350033
 
 >ms1
-325.184 100
 
 >ms2
 53.0383 120
@@ -96620,11 +95209,10 @@
 
 >compound FTneg4745
 >ionization [M+?]-
->parentmass 536.297873106525
+>parentmass Inf
 >rt 12.3439327679327
 
 >ms1
-536.2979 100
 
 >ms2
 55.0487 40
@@ -96656,11 +95244,10 @@
 
 >compound FTneg4746
 >ionization [M+?]-
->parentmass 820.60511217995
+>parentmass Inf
 >rt 12.3694229254342
 
 >ms1
-820.6051 100
 
 >ms2
 77.053 20
@@ -96677,22 +95264,21 @@
 
 >compound FTneg4747
 >ionization [M+?]-
->parentmass 297.823800617922
+>parentmass Inf
 >rt 2.22479444444433
 
 >ms1
-297.8238 100
+
 
 >ms2
 297.8238 100
 
 >compound FTneg4748
 >ionization [M+?]-
->parentmass 335.222446392807
+>parentmass Inf
 >rt 10.6313540953993
 
 >ms1
-335.2224 100
 
 >ms2
 54.2402 10
@@ -96729,11 +95315,10 @@
 
 >compound FTneg4749
 >ionization [M+?]-
->parentmass 507.295885368591
+>parentmass Inf
 >rt 10.6215624845912
 
 >ms1
-507.2959 100
 
 >ms2
 55.0518 40
@@ -96768,11 +95353,10 @@
 
 >compound FTneg4750
 >ionization [M+?]-
->parentmass 583.255960939926
+>parentmass Inf
 >rt 10.6409394333541
 
 >ms1
-583.256 100
 
 >ms2
 55.0534 80
@@ -96927,11 +95511,10 @@
 
 >compound FTneg4751
 >ionization [M+?]-
->parentmass 298.184201601375
+>parentmass Inf
 >rt 10.6257468564502
 
 >ms1
-298.1842 100
 
 >ms2
 55.0545 120
@@ -96967,11 +95550,10 @@
 
 >compound FTneg4752
 >ionization [M+?]-
->parentmass 344.189986868249
+>parentmass Inf
 >rt 10.6738677157814
 
 >ms1
-344.19 100
 
 >ms2
 55.0533 40
@@ -96994,11 +95576,10 @@
 
 >compound FTneg4753
 >ionization [M+?]-
->parentmass 350.189963007773
+>parentmass Inf
 >rt 10.6496744968354
 
 >ms1
-350.19 100
 
 >ms2
 57.0681 40
@@ -97014,22 +95595,21 @@
 
 >compound FTneg4754
 >ionization [M+?]-
->parentmass 299.09818266102
+>parentmass Inf
 >rt 6.9079257210534
 
 >ms1
-299.0982 100
+
 
 >ms2
 299.0982 100
 
 >compound FTneg4755
 >ionization [M+?]-
->parentmass 333.118247254048
+>parentmass Inf
 >rt 6.89445533558
 
 >ms1
-333.1182 100
 
 >ms2
 55.0541 120
@@ -97046,33 +95626,32 @@
 
 >compound FTneg4756
 >ionization [M+?]-
->parentmass 343.070525169246
+>parentmass Inf
 >rt 6.99890109537064
 
 >ms1
-343.0705 100
+
 
 >ms2
 343.0705 100
 
 >compound FTneg4757
 >ionization [M+?]-
->parentmass 299.127688655429
+>parentmass Inf
 >rt 9.76571215906691
 
 >ms1
-299.1277 100
+
 
 >ms2
 299.1277 100
 
 >compound FTneg4758
 >ionization [M+?]-
->parentmass 556.327308989666
+>parentmass Inf
 >rt 9.76465952380964
 
 >ms1
-556.3273 100
 
 >ms2
 91.0509 40
@@ -97089,22 +95668,21 @@
 
 >compound FTneg4759
 >ionization [M+?]-
->parentmass 299.187141229161
+>parentmass Inf
 >rt 10.6173145868711
 
 >ms1
-299.1871 100
+
 
 >ms2
 299.1871 100
 
 >compound FTneg4760
 >ionization [M+?]-
->parentmass 356.153449481054
+>parentmass Inf
 >rt 10.616579128589
 
 >ms1
-356.1534 100
 
 >ms2
 55.0207 13
@@ -97114,11 +95692,10 @@
 
 >compound FTneg4761
 >ionization [M+?]-
->parentmass 590.345912963351
+>parentmass Inf
 >rt 13.7118028380763
 
 >ms1
-590.3459 100
 
 >ms2
 72.0802 20
@@ -97127,22 +95704,20 @@
 
 >compound FTneg4762
 >ionization [M+?]-
->parentmass 299.258600175772
+>parentmass Inf
 >rt 13.7070896810845
 
 >ms1
-299.2586 100
 
 >ms2
 56.0497 13
 
 >compound FTneg4763
 >ionization [M+?]-
->parentmass 489.277164072673
+>parentmass Inf
 >rt 13.7059023802132
 
 >ms1
-489.2772 100
 
 >ms2
 60.0808 16
@@ -97164,11 +95739,10 @@
 
 >compound FTneg4764
 >ionization [M+?]-
->parentmass 580.317006220853
+>parentmass Inf
 >rt 13.7111104283972
 
 >ms1
-580.317 100
 
 >ms2
 55.0541 40
@@ -97188,22 +95762,20 @@
 
 >compound FTneg4765
 >ionization [M+?]-
->parentmass 590.312248547658
+>parentmass Inf
 >rt 13.7124913266804
 
 >ms1
-590.3122 100
 
 >ms2
 55.0534 20
 
 >compound FTneg4766
 >ionization [M+?]-
->parentmass 591.314922366802
+>parentmass Inf
 >rt 13.7056428959584
 
 >ms1
-591.3149 100
 
 >ms2
 57.0689 40
@@ -97232,11 +95804,10 @@
 
 >compound FTneg4767
 >ionization [M+?]-
->parentmass 607.33637510568
+>parentmass Inf
 >rt 13.7131394953109
 
 >ms1
-607.3364 100
 
 >ms2
 57.0693 24
@@ -97270,11 +95841,10 @@
 
 >compound FTneg4768
 >ionization [M+?]-
->parentmass 658.333518422711
+>parentmass Inf
 >rt 13.7110139631431
 
 >ms1
-658.3335 100
 
 >ms2
 57.0325 40
@@ -97311,11 +95881,10 @@
 
 >compound FTneg4769
 >ionization [M+?]-
->parentmass 659.336430404519
+>parentmass Inf
 >rt 13.6971309409519
 
 >ms1
-659.3364 100
 
 >ms2
 55.0564 40
@@ -97377,11 +95946,10 @@
 
 >compound FTneg4770
 >ionization [M+?]-
->parentmass 736.275819177367
+>parentmass Inf
 >rt 13.7012486746398
 
 >ms1
-736.2758 100
 
 >ms2
 70.0655 40
@@ -97392,11 +95960,10 @@
 
 >compound FTneg4771
 >ionization [M+?]-
->parentmass 299.25893127439
+>parentmass Inf
 >rt 12.7475242757655
 
 >ms1
-299.2589 100
 
 >ms2
 55.7848 41
@@ -97428,11 +95995,10 @@
 
 >compound FTneg4772
 >ionization [M+?]-
->parentmass 509.288223064356
+>parentmass Inf
 >rt 12.7609857011425
 
 >ms1
-509.2882 100
 
 >ms2
 55.0548 4
@@ -97460,22 +96026,21 @@
 
 >compound FTneg4773
 >ionization [M+?]-
->parentmass 301.087863553165
+>parentmass Inf
 >rt 6.92414027777775
 
 >ms1
-301.0879 100
+
 
 >ms2
 301.0879 100
 
 >compound FTneg4774
 >ionization [M+?]-
->parentmass 351.013505194925
+>parentmass Inf
 >rt 7.03763098942443
 
 >ms1
-351.0135 100
 
 >ms2
 55.0533 40
@@ -97512,55 +96077,53 @@
 
 >compound FTneg4775
 >ionization [M+?]-
->parentmass 301.164755424243
+>parentmass Inf
 >rt 10.3948822734785
 
 >ms1
-301.1648 100
+
 
 >ms2
 301.1648 100
 
 >compound FTneg4776
 >ionization [M+?]-
->parentmass 301.216923283425
+>parentmass Inf
 >rt 12.4884090252518
 
 >ms1
-301.2169 100
 
 >ms2
 56.0504 40
 
 >compound FTneg4777
 >ionization [M+?]-
->parentmass 302.064473025037
+>parentmass Inf
 >rt 5.85833541666675
 
 >ms1
-302.0645 100
+
 
 >ms2
 302.0645 100
 
 >compound FTneg4778
 >ionization [M+?]-
->parentmass 303.144074812021
+>parentmass Inf
 >rt 8.39769722222225
 
 >ms1
-303.1441 100
+
 
 >ms2
 303.1441 100
 
 >compound FTneg4779
 >ionization [M+?]-
->parentmass 303.232793913446
+>parentmass Inf
 >rt 13.8416405603343
 
 >ms1
-303.2328 100
 
 >ms2
 53.0376 40
@@ -97682,11 +96245,10 @@
 
 >compound FTneg4780
 >ionization [M+?]-
->parentmass 349.238187048221
+>parentmass Inf
 >rt 13.8396119070227
 
 >ms1
-349.2382 100
 
 >ms2
 55.0586 40
@@ -97705,11 +96267,10 @@
 
 >compound FTneg4781
 >ionization [M+?]-
->parentmass 583.47278327772
+>parentmass Inf
 >rt 13.8607715841499
 
 >ms1
-583.4728 100
 
 >ms2
 86.0947 40
@@ -97724,11 +96285,10 @@
 
 >compound FTneg4782
 >ionization [M+?]-
->parentmass 798.564821507456
+>parentmass Inf
 >rt 13.840592137664
 
 >ms1
-798.5648 100
 
 >ms2
 60.0422 40
@@ -97738,11 +96298,10 @@
 
 >compound FTneg4783
 >ionization [M+?]-
->parentmass 303.210027722934
+>parentmass Inf
 >rt 13.8429035815605
 
 >ms1
-303.21 100
 
 >ms2
 55.9333 12
@@ -97753,88 +96312,87 @@
 
 >compound FTneg4784
 >ionization [M+?]-
->parentmass 821.793512507594
+>parentmass Inf
 >rt 13.9336677777777
 
 >ms1
-821.7935 100
+
 
 >ms2
 821.7935 100
 
 >compound FTneg4785
 >ionization [M+?]-
->parentmass 304.026583277211
+>parentmass Inf
 >rt 3.26256979166669
 
 >ms1
-304.0266 100
+
 
 >ms2
 304.0266 100
 
 >compound FTneg4786
 >ionization [M+?]-
->parentmass 641.130873698745
+>parentmass Inf
 >rt 3.40241442456977
 
 >ms1
-641.1309 100
+
 
 >ms2
 641.1309 100
 
 >compound FTneg4787
 >ionization [M+?]-
->parentmass 304.045540697221
+>parentmass Inf
 >rt 5.52336666666663
 
 >ms1
-304.0455 100
+
 
 >ms2
 304.0455 100
 
 >compound FTneg4788
 >ionization [M+?]-
->parentmass 304.158314272831
+>parentmass Inf
 >rt 9.8542811751952
 
 >ms1
-304.1583 100
+
 
 >ms2
 304.1583 100
 
 >compound FTneg4789
 >ionization [M+?]-
->parentmass 390.199812784899
+>parentmass Inf
 >rt 9.91043246561915
 
 >ms1
-390.1998 100
+
 
 >ms2
 390.1998 100
 
 >compound FTneg4790
 >ionization [M+?]-
->parentmass 305.094469210137
+>parentmass Inf
 >rt 10.353695098868
 
 >ms1
-305.0945 100
+
 
 >ms2
 305.0945 100
 
 >compound FTneg4791
 >ionization [M+?]-
->parentmass 327.180719707987
+>parentmass Inf
 >rt 10.2602386415281
 
 >ms1
-327.1807 100
 
 >ms2
 52.9833 40
@@ -97848,22 +96406,21 @@
 
 >compound FTneg4792
 >ionization [M+?]-
->parentmass 329.063547137014
+>parentmass Inf
 >rt 10.1619590579711
 
 >ms1
-329.0635 100
+
 
 >ms2
 329.0635 100
 
 >compound FTneg4793
 >ionization [M+?]-
->parentmass 305.122200739886
+>parentmass Inf
 >rt 9.98384402544936
 
 >ms1
-305.1222 100
 
 >ms2
 59.0492 20
@@ -97874,22 +96431,21 @@
 
 >compound FTneg4794
 >ionization [M+?]-
->parentmass 590.13796621333
+>parentmass Inf
 >rt 10.0007763157894
 
 >ms1
-590.138 100
+
 
 >ms2
 590.138 100
 
 >compound FTneg4795
 >ionization [M+?]-
->parentmass 305.139147393349
+>parentmass Inf
 >rt 11.1869596473517
 
 >ms1
-305.1391 100
 
 >ms2
 54.9489 10
@@ -97902,11 +96458,10 @@
 
 >compound FTneg4796
 >ionization [M+?]-
->parentmass 395.243612549546
+>parentmass Inf
 >rt 11.1905015935618
 
 >ms1
-395.2436 100
 
 >ms2
 55.0587 20
@@ -97924,11 +96479,10 @@
 
 >compound FTneg4797
 >ionization [M+?]-
->parentmass 351.144483643933
+>parentmass Inf
 >rt 11.1852045279958
 
 >ms1
-351.1445 100
 
 >ms2
 55.0556 40
@@ -97943,11 +96497,10 @@
 
 >compound FTneg4798
 >ionization [M+?]-
->parentmass 441.248984251568
+>parentmass Inf
 >rt 11.1889173825651
 
 >ms1
-441.249 100
 
 >ms2
 51.9133 40
@@ -97980,11 +96533,10 @@
 
 >compound FTneg4799
 >ionization [M+?]-
->parentmass 517.31676553287
+>parentmass Inf
 >rt 11.2824378859118
 
 >ms1
-517.3168 100
 
 >ms2
 55.926 24
@@ -98000,11 +96552,10 @@
 
 >compound FTneg4800
 >ionization [M+?]-
->parentmass 305.175523806624
+>parentmass Inf
 >rt 12.9338309710512
 
 >ms1
-305.1755 100
 
 >ms2
 55.0161 50
@@ -98021,11 +96572,10 @@
 
 >compound FTneg4801
 >ionization [M+?]-
->parentmass 347.258859710997
+>parentmass Inf
 >rt 12.9279919708383
 
 >ms1
-347.2589 100
 
 >ms2
 57.068 80
@@ -98034,11 +96584,10 @@
 
 >compound FTneg4802
 >ionization [M+?]-
->parentmass 305.248216623674
+>parentmass Inf
 >rt 14.0878332055936
 
 >ms1
-305.2482 100
 
 >ms2
 55.0526 13
@@ -98049,11 +96598,10 @@
 
 >compound FTneg4803
 >ionization [M+?]-
->parentmass 305.248242199377
+>parentmass Inf
 >rt 14.2361783143621
 
 >ms1
-305.2482 100
 
 >ms2
 51.9382 4
@@ -98091,11 +96639,10 @@
 
 >compound FTneg4804
 >ionization [M+?]-
->parentmass 617.364908675349
+>parentmass Inf
 >rt 14.2524622219262
 
 >ms1
-617.3649 100
 
 >ms2
 55.0533 40
@@ -98114,11 +96661,10 @@
 
 >compound FTneg4805
 >ionization [M+?]-
->parentmass 307.263875402714
+>parentmass Inf
 >rt 14.4626856732908
 
 >ms1
-307.2639 100
 
 >ms2
 50.0141 20
@@ -98141,33 +96687,32 @@
 
 >compound FTneg4806
 >ionization [M+?]-
->parentmass 307.856507490825
+>parentmass Inf
 >rt 5.50587894736853
 
 >ms1
-307.8565 100
+
 
 >ms2
 307.8565 100
 
 >compound FTneg4807
 >ionization [M+?]-
->parentmass 307.868167751335
+>parentmass Inf
 >rt 2.38067685185183
 
 >ms1
-307.8682 100
+
 
 >ms2
 307.8682 100
 
 >compound FTneg4808
 >ionization [M+?]-
->parentmass 512.268701316022
+>parentmass Inf
 >rt 8.98142915508987
 
 >ms1
-512.2687 100
 
 >ms2
 81.0723 40
@@ -98178,11 +96723,10 @@
 
 >compound FTneg4809
 >ionization [M+?]-
->parentmass 309.065979824091
+>parentmass Inf
 >rt 8.98656304853081
 
 >ms1
-309.066 100
 
 >ms2
 57.0326 40
@@ -98204,33 +96748,32 @@
 
 >compound FTneg4810
 >ionization [M+?]-
->parentmass 318.137599358141
+>parentmass Inf
 >rt 8.9827556047489
 
 >ms1
-318.1376 100
+
 
 >ms2
 318.1376 100
 
 >compound FTneg4811
 >ionization [M+?]-
->parentmass 343.097448990127
+>parentmass Inf
 >rt 8.93042575176177
 
 >ms1
-343.0974 100
+
 
 >ms2
 343.0974 100
 
 >compound FTneg4812
 >ionization [M+?]-
->parentmass 512.26868271653
+>parentmass Inf
 >rt 9.14737215898973
 
 >ms1
-512.2687 100
 
 >ms2
 82.9435 40
@@ -98253,11 +96796,10 @@
 
 >compound FTneg4813
 >ionization [M+?]-
->parentmass 513.272023909606
+>parentmass Inf
 >rt 8.98149260935195
 
 >ms1
-513.272 100
 
 >ms2
 80.6832 45
@@ -98286,11 +96828,10 @@
 
 >compound FTneg4814
 >ionization [M+?]-
->parentmass 583.257938433328
+>parentmass Inf
 >rt 9.00787928065324
 
 >ms1
-583.2579 100
 
 >ms2
 71.0718 80
@@ -98311,55 +96852,54 @@
 
 >compound FTneg4815
 >ionization [M+?]-
->parentmass 309.082535688106
+>parentmass Inf
 >rt 2.98457194186693
 
 >ms1
-309.0825 100
+
 
 >ms2
 309.0825 100
 
 >compound FTneg4816
 >ionization [M+?]-
->parentmass 377.040605058964
+>parentmass Inf
 >rt 3.05796390350327
 
 >ms1
-377.0406 100
+
 
 >ms2
 377.0406 100
 
 >compound FTneg4817
 >ionization [M+?]-
->parentmass 309.155203289552
+>parentmass Inf
 >rt 8.59185996308225
 
 >ms1
-309.1552 100
+
 
 >ms2
 309.1552 100
 
 >compound FTneg4818
 >ionization [M+?]-
->parentmass 311.135420659973
+>parentmass Inf
 >rt 8.61867953761773
 
 >ms1
-311.1354 100
+
 
 >ms2
 311.1354 100
 
 >compound FTneg4819
 >ionization [M+?]-
->parentmass 309.173607290096
+>parentmass Inf
 >rt 11.7633464741522
 
 >ms1
-309.1736 100
 
 >ms2
 59.0304 80
@@ -98373,11 +96913,10 @@
 
 >compound FTneg4820
 >ionization [M+?]-
->parentmass 640.346236232488
+>parentmass Inf
 >rt 11.7620289675464
 
 >ms1
-640.3462 100
 
 >ms2
 57.0334 40
@@ -98421,11 +96960,10 @@
 
 >compound FTneg4821
 >ionization [M+?]-
->parentmass 655.158787533486
+>parentmass Inf
 >rt 14.885969869938
 
 >ms1
-655.1588 100
 
 >ms2
 71.0874 40
@@ -98435,11 +96973,10 @@
 
 >compound FTneg4822
 >ionization [M+?]-
->parentmass 309.279513553361
+>parentmass Inf
 >rt 14.8675287619918
 
 >ms1
-309.2795 100
 
 >ms2
 59.028 13
@@ -98455,11 +96992,10 @@
 
 >compound FTneg4823
 >ionization [M+?]-
->parentmass 355.285023382525
+>parentmass Inf
 >rt 14.8670358445962
 
 >ms1
-355.285 100
 
 >ms2
 50.0011 40
@@ -98564,11 +97100,10 @@
 
 >compound FTneg4824
 >ionization [M+?]-
->parentmass 479.319596807511
+>parentmass Inf
 >rt 14.8947534637056
 
 >ms1
-479.3196 100
 
 >ms2
 54.9375 41
@@ -98595,11 +97130,10 @@
 
 >compound FTneg4825
 >ionization [M+?]-
->parentmass 658.157842264224
+>parentmass Inf
 >rt 14.8945167169057
 
 >ms1
-658.1578 100
 
 >ms2
 55.0541 80
@@ -98644,22 +97178,20 @@
 
 >compound FTneg4826
 >ionization [M+?]-
->parentmass 690.085953099538
+>parentmass Inf
 >rt 14.88613320514
 
 >ms1
-690.086 100
 
 >ms2
 103.0753 40
 
 >compound FTneg4827
 >ionization [M+?]-
->parentmass 311.168385699166
+>parentmass Inf
 >rt 11.9983303972338
 
 >ms1
-311.1684 100
 
 >ms2
 75.0233 40
@@ -98672,22 +97204,21 @@
 
 >compound FTneg4828
 >ionization [M+?]-
->parentmass 311.992883814562
+>parentmass Inf
 >rt 5.37268611111133
 
 >ms1
-311.9929 100
+
 
 >ms2
 311.9929 100
 
 >compound FTneg4829
 >ionization [M+?]-
->parentmass 407.040889596854
+>parentmass Inf
 >rt 11.2991836475107
 
 >ms1
-407.0409 100
 
 >ms2
 54.8997 40
@@ -98713,11 +97244,10 @@
 
 >compound FTneg4830
 >ionization [M+?]-
->parentmass 628.325215492498
+>parentmass Inf
 >rt 11.3112670835014
 
 >ms1
-628.3252 100
 
 >ms2
 73.0465 24
@@ -98738,22 +97268,20 @@
 
 >compound FTneg4831
 >ionization [M+?]-
->parentmass 313.238108297707
+>parentmass Inf
 >rt 11.2997975010627
 
 >ms1
-313.2381 100
 
 >ms2
 55.0541 80
 
 >compound FTneg4832
 >ionization [M+?]-
->parentmass 424.031003416387
+>parentmass Inf
 >rt 11.2921173792027
 
 >ms1
-424.031 100
 
 >ms2
 55.0548 40
@@ -98769,11 +97297,10 @@
 
 >compound FTneg4833
 >ionization [M+?]-
->parentmass 475.028077807173
+>parentmass Inf
 >rt 11.2615920605987
 
 >ms1
-475.0281 100
 
 >ms2
 55.017 13
@@ -98804,11 +97331,10 @@
 
 >compound FTneg4834
 >ionization [M+?]-
->parentmass 485.31393116552
+>parentmass Inf
 >rt 11.215842
 
 >ms1
-485.3139 100
 
 >ms2
 62.9622 40
@@ -98850,22 +97376,21 @@
 
 >compound FTneg4835
 >ionization [M+?]-
->parentmass 315.179836569445
+>parentmass Inf
 >rt 9.41113465712314
 
 >ms1
-315.1798 100
+
 
 >ms2
 315.1798 100
 
 >compound FTneg4836
 >ionization [M+?]-
->parentmass 367.049492810667
+>parentmass Inf
 >rt 9.39626332024408
 
 >ms1
-367.0495 100
 
 >ms2
 53.0235 44
@@ -98878,11 +97403,10 @@
 
 >compound FTneg4837
 >ionization [M+?]-
->parentmass 393.227876522933
+>parentmass Inf
 >rt 9.40838287039829
 
 >ms1
-393.2279 100
 
 >ms2
 55.0517 40
@@ -98896,44 +97420,43 @@
 
 >compound FTneg4838
 >ionization [M+?]-
->parentmass 315.988446204864
+>parentmass Inf
 >rt 8.19135485608878
 
 >ms1
-315.9884 100
+
 
 >ms2
 315.9884 100
 
 >compound FTneg4839
 >ionization [M+?]-
->parentmass 595.166106240919
+>parentmass Inf
 >rt 8.19972878787891
 
 >ms1
-595.1661 100
+
 
 >ms2
 595.1661 100
 
 >compound FTneg4840
 >ionization [M+?]-
->parentmass 809.428037725962
+>parentmass Inf
 >rt 8.18478408565726
 
 >ms1
-809.428 100
+
 
 >ms2
 809.428 100
 
 >compound FTneg4841
 >ionization [M+?]-
->parentmass 424.136037735098
+>parentmass Inf
 >rt 3.32028552779984
 
 >ms1
-424.136 100
 
 >ms2
 51.0055 40
@@ -98989,55 +97512,54 @@
 
 >compound FTneg4842
 >ionization [M+?]-
->parentmass 316.104747679895
+>parentmass Inf
 >rt 3.29312361111108
 
 >ms1
-316.1047 100
+
 
 >ms2
 316.1047 100
 
 >compound FTneg4843
 >ionization [M+?]-
->parentmass 518.47121300169
+>parentmass Inf
 >rt 3.27350000000008
 
 >ms1
-518.4712 100
+
 
 >ms2
 518.4712 100
 
 >compound FTneg4844
 >ionization [M+?]-
->parentmass 523.053680215807
+>parentmass Inf
 >rt 3.3144443130112
 
 >ms1
-523.0537 100
+
 
 >ms2
 523.0537 100
 
 >compound FTneg4845
 >ionization [M+?]-
->parentmass 524.059455067568
+>parentmass Inf
 >rt 3.30877622049232
 
 >ms1
-524.0595 100
+
 
 >ms2
 524.0595 100
 
 >compound FTneg4846
 >ionization [M+?]-
->parentmass 317.211937995963
+>parentmass Inf
 >rt 12.1742179098072
 
 >ms1
-317.2119 100
 
 >ms2
 55.0541 40
@@ -99054,11 +97576,10 @@
 
 >compound FTneg4847
 >ionization [M+?]-
->parentmass 840.574920143141
+>parentmass Inf
 >rt 12.1857258560454
 
 >ms1
-840.5749 100
 
 >ms2
 67.0534 40
@@ -99333,99 +97854,98 @@
 
 >compound FTneg4848
 >ionization [M+?]-
->parentmass 331.04295535952
+>parentmass Inf
 >rt 10.4608843788603
 
 >ms1
-331.043 100
+
 
 >ms2
 331.043 100
 
 >compound FTneg4849
 >ionization [M+?]-
->parentmass 526.351129012269
+>parentmass Inf
 >rt 10.5900497916716
 
 >ms1
-526.3511 100
+
 
 >ms2
 526.3511 100
 
 >compound FTneg4850
 >ionization [M+?]-
->parentmass 319.097889531789
+>parentmass Inf
 >rt 10.6091330172796
 
 >ms1
-319.0979 100
+
 
 >ms2
 319.0979 100
 
 >compound FTneg4851
 >ionization [M+?]-
->parentmass 331.043036609102
+>parentmass Inf
 >rt 10.5307989320654
 
 >ms1
-331.043 100
+
 
 >ms2
 331.043 100
 
 >compound FTneg4852
 >ionization [M+?]-
->parentmass 363.022863006513
+>parentmass Inf
 >rt 10.4725621212123
 
 >ms1
-363.0229 100
+
 
 >ms2
 363.0229 100
 
 >compound FTneg4853
 >ionization [M+?]-
->parentmass 466.329979254715
+>parentmass Inf
 >rt 10.5717105308783
 
 >ms1
-466.33 100
+
 
 >ms2
 466.33 100
 
 >compound FTneg4854
 >ionization [M+?]-
->parentmass 516.321097994014
+>parentmass Inf
 >rt 10.5564954273525
 
 >ms1
-516.3211 100
+
 
 >ms2
 516.3211 100
 
 >compound FTneg4855
 >ionization [M+?]-
->parentmass 526.319676322993
+>parentmass Inf
 >rt 10.5519093332797
 
 >ms1
-526.3197 100
+
 
 >ms2
 526.3197 100
 
 >compound FTneg4856
 >ionization [M+?]-
->parentmass 526.350883767889
+>parentmass Inf
 >rt 10.452984374205
 
 >ms1
-526.3509 100
 
 >ms2
 51.0106 13
@@ -99451,33 +97971,32 @@
 
 >compound FTneg4857
 >ionization [M+?]-
->parentmass 594.338611910344
+>parentmass Inf
 >rt 10.5826810989281
 
 >ms1
-594.3386 100
+
 
 >ms2
 594.3386 100
 
 >compound FTneg4858
 >ionization [M+?]-
->parentmass 622.408580553951
+>parentmass Inf
 >rt 10.5246027731153
 
 >ms1
-622.4086 100
+
 
 >ms2
 622.4086 100
 
 >compound FTneg4859
 >ionization [M+?]-
->parentmass 802.559736898376
+>parentmass Inf
 >rt 10.491224009995
 
 >ms1
-802.5597 100
 
 >ms2
 54.8869 40
@@ -99612,11 +98131,10 @@
 
 >compound FTneg4860
 >ionization [M+?]-
->parentmass 319.227543654759
+>parentmass Inf
 >rt 12.4910079683594
 
 >ms1
-319.2275 100
 
 >ms2
 50.0012 40
@@ -99935,11 +98453,10 @@
 
 >compound FTneg4861
 >ionization [M+?]-
->parentmass 343.227609417165
+>parentmass Inf
 >rt 12.4978094790933
 
 >ms1
-343.2276 100
 
 >ms2
 51.9427 4
@@ -99965,11 +98482,10 @@
 
 >compound FTneg4862
 >ionization [M+?]-
->parentmass 319.204619312379
+>parentmass Inf
 >rt 12.49239724433
 
 >ms1
-319.2046 100
 
 >ms2
 53.0384 40
@@ -100017,11 +98533,10 @@
 
 >compound FTneg4863
 >ionization [M+?]-
->parentmass 320.208212175941
+>parentmass Inf
 >rt 12.48780602615
 
 >ms1
-320.2082 100
 
 >ms2
 51.0092 40
@@ -100203,11 +98718,10 @@
 
 >compound FTneg4864
 >ionization [M+?]-
->parentmass 382.223165632217
+>parentmass Inf
 >rt 12.4870626688731
 
 >ms1
-382.2232 100
 
 >ms2
 50.7064 40
@@ -100221,11 +98735,10 @@
 
 >compound FTneg4865
 >ionization [M+?]-
->parentmass 387.214896793024
+>parentmass Inf
 >rt 12.4899673343517
 
 >ms1
-387.2149 100
 
 >ms2
 53.0436 40
@@ -100260,11 +98773,10 @@
 
 >compound FTneg4866
 >ionization [M+?]-
->parentmass 663.46218482225
+>parentmass Inf
 >rt 12.4920054580946
 
 >ms1
-663.4622 100
 
 >ms2
 51.0295 40
@@ -100313,22 +98825,21 @@
 
 >compound FTneg4867
 >ionization [M+?]-
->parentmass 664.465593729285
+>parentmass Inf
 >rt 12.4921067102
 
 >ms1
-664.4656 100
+
 
 >ms2
 664.4656 100
 
 >compound FTneg4868
 >ionization [M+?]-
->parentmass 786.527496433187
+>parentmass Inf
 >rt 12.5093077606666
 
 >ms1
-786.5275 100
 
 >ms2
 71.0727 40
@@ -100349,11 +98860,10 @@
 
 >compound FTneg4869
 >ionization [M+?]-
->parentmass 836.544432393684
+>parentmass Inf
 >rt 12.4979214572752
 
 >ms1
-836.5444 100
 
 >ms2
 51.0223 40
@@ -100800,11 +99310,10 @@
 
 >compound FTneg4870
 >ionization [M+?]-
->parentmass 842.591166619944
+>parentmass Inf
 >rt 12.4878377156354
 
 >ms1
-842.5912 100
 
 >ms2
 57.0325 40
@@ -100838,11 +99347,10 @@
 
 >compound FTneg4871
 >ionization [M+?]-
->parentmass 843.594342138459
+>parentmass Inf
 >rt 12.4877227426666
 
 >ms1
-843.5943 100
 
 >ms2
 51.0231 40
@@ -101289,11 +99797,10 @@
 
 >compound FTneg4872
 >ionization [M+?]-
->parentmass 844.597224452415
+>parentmass Inf
 >rt 12.4871383498526
 
 >ms1
-844.5972 100
 
 >ms2
 60.0485 40
@@ -101307,11 +99814,10 @@
 
 >compound FTneg4873
 >ionization [M+?]-
->parentmass 860.542923519669
+>parentmass Inf
 >rt 12.5049897968072
 
 >ms1
-860.5429 100
 
 >ms2
 86.0985 80
@@ -101323,11 +99829,10 @@
 
 >compound FTneg4874
 >ionization [M+?]-
->parentmass 861.54773229429
+>parentmass Inf
 >rt 12.5029756939793
 
 >ms1
-861.5477 100
 
 >ms2
 60.0801 80
@@ -101345,11 +99850,10 @@
 
 >compound FTneg4875
 >ionization [M+?]-
->parentmass 868.606190712432
+>parentmass Inf
 >rt 12.4811383044226
 
 >ms1
-868.6062 100
 
 >ms2
 60.0699 40
@@ -101373,209 +99877,208 @@
 
 >compound FTneg4876
 >ionization [M+?]-
->parentmass 320.095446888286
+>parentmass Inf
 >rt 2.92762009149697
 
 >ms1
-320.0954 100
+
 
 >ms2
 320.0954 100
 
 >compound FTneg4877
 >ionization [M+?]-
->parentmass 327.048033361267
+>parentmass Inf
 >rt 10.7821485655638
 
 >ms1
-327.048 100
+
 
 >ms2
 327.048 100
 
 >compound FTneg4878
 >ionization [M+?]-
->parentmass 331.042966984866
+>parentmass Inf
 >rt 10.8483983395937
 
 >ms1
-331.043 100
+
 
 >ms2
 331.043 100
 
 >compound FTneg4879
 >ionization [M+?]-
->parentmass 345.058560143505
+>parentmass Inf
 >rt 10.8579827262965
 
 >ms1
-345.0586 100
+
 
 >ms2
 345.0586 100
 
 >compound FTneg4880
 >ionization [M+?]-
->parentmass 348.033049813175
+>parentmass Inf
 >rt 10.7444989558376
 
 >ms1
-348.033 100
+
 
 >ms2
 348.033 100
 
 >compound FTneg4881
 >ionization [M+?]-
->parentmass 321.014216055741
+>parentmass Inf
 >rt 10.8499169247323
 
 >ms1
-321.0142 100
+
 
 >ms2
 321.0142 100
 
 >compound FTneg4882
 >ionization [M+?]-
->parentmass 323.011317135206
+>parentmass Inf
 >rt 10.7677348567252
 
 >ms1
-323.0113 100
+
 
 >ms2
 323.0113 100
 
 >compound FTneg4883
 >ionization [M+?]-
->parentmass 331.019338116385
+>parentmass Inf
 >rt 10.8215538654806
 
 >ms1
-331.0193 100
+
 
 >ms2
 331.0193 100
 
 >compound FTneg4884
 >ionization [M+?]-
->parentmass 335.029806243591
+>parentmass Inf
 >rt 10.8601949154972
 
 >ms1
-335.0298 100
+
 
 >ms2
 335.0298 100
 
 >compound FTneg4885
 >ionization [M+?]-
->parentmass 337.02682924835
+>parentmass Inf
 >rt 10.654936415883
 
 >ms1
-337.0268 100
+
 
 >ms2
 337.0268 100
 
 >compound FTneg4886
 >ionization [M+?]-
->parentmass 341.083524483456
+>parentmass Inf
 >rt 10.8566331295454
 
 >ms1
-341.0835 100
+
 
 >ms2
 341.0835 100
 
 >compound FTneg4887
 >ionization [M+?]-
->parentmass 362.048961879557
+>parentmass Inf
 >rt 10.8316108264401
 
 >ms1
-362.049 100
+
 
 >ms2
 362.049 100
 
 >compound FTneg4888
 >ionization [M+?]-
->parentmass 399.030137991546
+>parentmass Inf
 >rt 10.8437657343501
 
 >ms1
-399.0301 100
+
 
 >ms2
 399.0301 100
 
 >compound FTneg4889
 >ionization [M+?]-
->parentmass 411.055747614371
+>parentmass Inf
 >rt 10.7222820526145
 
 >ms1
-411.0557 100
+
 
 >ms2
 411.0557 100
 
 >compound FTneg4890
 >ionization [M+?]-
->parentmass 413.049091797819
+>parentmass Inf
 >rt 10.7519403990653
 
 >ms1
-413.0491 100
+
 
 >ms2
 413.0491 100
 
 >compound FTneg4891
 >ionization [M+?]-
->parentmass 428.045784209075
+>parentmass Inf
 >rt 10.7480695765075
 
 >ms1
-428.0458 100
+
 
 >ms2
 428.0458 100
 
 >compound FTneg4892
 >ionization [M+?]-
->parentmass 430.968138504438
+>parentmass Inf
 >rt 10.7888939310128
 
 >ms1
-430.9681 100
+
 
 >ms2
 430.9681 100
 
 >compound FTneg4893
 >ionization [M+?]-
->parentmass 493.316192831774
+>parentmass Inf
 >rt 10.7073923465152
 
 >ms1
-493.3162 100
+
 
 >ms2
 493.3162 100
 
 >compound FTneg4894
 >ionization [M+?]-
->parentmass 519.331943913097
+>parentmass Inf
 >rt 10.7749100545551
 
 >ms1
-519.3319 100
 
 >ms2
 59.0304 40
@@ -101583,22 +100086,21 @@
 
 >compound FTneg4895
 >ionization [M+?]-
->parentmass 321.145210839485
+>parentmass Inf
 >rt 8.83676408972785
 
 >ms1
-321.1452 100
+
 
 >ms2
 321.1452 100
 
 >compound FTneg4896
 >ionization [M+?]-
->parentmass 321.219608648935
+>parentmass Inf
 >rt 14.8252429223495
 
 >ms1
-321.2196 100
 
 >ms2
 53.6233 40
@@ -101664,11 +100166,10 @@
 
 >compound FTneg4897
 >ionization [M+?]-
->parentmass 836.578586987931
+>parentmass Inf
 >rt 14.8379422320445
 
 >ms1
-836.5786 100
 
 >ms2
 55.0533 40
@@ -101901,22 +100402,21 @@
 
 >compound FTneg4898
 >ionization [M+?]-
->parentmass 882.618160285041
+>parentmass Inf
 >rt 14.8309043294417
 
 >ms1
-882.6182 100
+
 
 >ms2
 882.6182 100
 
 >compound FTneg4899
 >ionization [M+?]-
->parentmass 321.219618073452
+>parentmass Inf
 >rt 13.1899551187669
 
 >ms1
-321.2196 100
 
 >ms2
 55.0124 13
@@ -101924,11 +100424,10 @@
 
 >compound FTneg4900
 >ionization [M+?]-
->parentmass 505.312600745481
+>parentmass Inf
 >rt 13.2425503590573
 
 >ms1
-505.3126 100
 
 >ms2
 59.0484 8
@@ -101942,11 +100441,10 @@
 
 >compound FTneg4901
 >ionization [M+?]-
->parentmass 526.314683939792
+>parentmass Inf
 >rt 13.1939439160103
 
 >ms1
-526.3147 100
 
 >ms2
 69.0704 40
@@ -101957,22 +100455,20 @@
 
 >compound FTneg4902
 >ionization [M+?]-
->parentmass 321.219655824023
+>parentmass Inf
 >rt 15.3547557920741
 
 >ms1
-321.2197 100
 
 >ms2
 55.054 40
 
 >compound FTneg4903
 >ionization [M+?]-
->parentmass 489.277244988669
+>parentmass Inf
 >rt 15.3484640228121
 
 >ms1
-489.2772 100
 
 >ms2
 55.0533 40
@@ -101982,11 +100478,10 @@
 
 >compound FTneg4904
 >ionization [M+?]-
->parentmass 798.306735849582
+>parentmass Inf
 >rt 15.3524894348055
 
 >ms1
-798.3067 100
 
 >ms2
 60.0422 40
@@ -101996,11 +100491,10 @@
 
 >compound FTneg4905
 >ionization [M+?]-
->parentmass 799.309856762348
+>parentmass Inf
 >rt 15.885251037845
 
 >ms1
-799.3099 100
 
 >ms2
 60.0438 40
@@ -102011,33 +100505,32 @@
 
 >compound FTneg4906
 >ionization [M+?]-
->parentmass 321.219691961546
+>parentmass Inf
 >rt 15.8753383291852
 
 >ms1
-321.2197 100
+
 
 >ms2
 321.2197 100
 
 >compound FTneg4907
 >ionization [M+?]-
->parentmass 473.282399857175
+>parentmass Inf
 >rt 15.8730617119342
 
 >ms1
-473.2824 100
+
 
 >ms2
 473.2824 100
 
 >compound FTneg4908
 >ionization [M+?]-
->parentmass 489.277340675449
+>parentmass Inf
 >rt 15.873825791142
 
 >ms1
-489.2773 100
 
 >ms2
 80.9477 319
@@ -102048,55 +100541,54 @@
 
 >compound FTneg4909
 >ionization [M+?]-
->parentmass 596.393051243695
+>parentmass Inf
 >rt 15.8793247950603
 
 >ms1
-596.3931 100
+
 
 >ms2
 596.3931 100
 
 >compound FTneg4910
 >ionization [M+?]-
->parentmass 820.544974570301
+>parentmass Inf
 >rt 15.8904809791808
 
 >ms1
-820.545 100
+
 
 >ms2
 820.545 100
 
 >compound FTneg4911
 >ionization [M+?]-
->parentmass 877.863870539328
+>parentmass Inf
 >rt 15.83480625
 
 >ms1
-877.8639 100
+
 
 >ms2
 877.8639 100
 
 >compound FTneg4912
 >ionization [M+?]-
->parentmass 321.219714354397
+>parentmass Inf
 >rt 16.7299687896898
 
 >ms1
-321.2197 100
+
 
 >ms2
 321.2197 100
 
 >compound FTneg4913
 >ionization [M+?]-
->parentmass 321.243067809885
+>parentmass Inf
 >rt 12.6248007480955
 
 >ms1
-321.2431 100
 
 >ms2
 56.0527 40
@@ -102117,11 +100609,10 @@
 
 >compound FTneg4914
 >ionization [M+?]-
->parentmass 562.31477351393
+>parentmass Inf
 >rt 12.6197360329301
 
 >ms1
-562.3148 100
 
 >ms2
 57.0396 40
@@ -102133,11 +100624,10 @@
 
 >compound FTneg4915
 >ionization [M+?]-
->parentmass 345.243197799145
+>parentmass Inf
 >rt 12.6239698053325
 
 >ms1
-345.2432 100
 
 >ms2
 57.0695 80
@@ -102146,11 +100636,10 @@
 
 >compound FTneg4916
 >ionization [M+?]-
->parentmass 457.235890333878
+>parentmass Inf
 >rt 12.6379442530247
 
 >ms1
-457.2359 100
 
 >ms2
 55.0525 40
@@ -102158,11 +100647,10 @@
 
 >compound FTneg4917
 >ionization [M+?]-
->parentmass 481.235831105967
+>parentmass Inf
 >rt 12.6222184874268
 
 >ms1
-481.2358 100
 
 >ms2
 77.0144 80
@@ -102179,11 +100667,10 @@
 
 >compound FTneg4918
 >ionization [M+?]-
->parentmass 552.286459077481
+>parentmass Inf
 >rt 12.6250165256424
 
 >ms1
-552.2865 100
 
 >ms2
 65.039 4
@@ -102191,11 +100678,10 @@
 
 >compound FTneg4919
 >ionization [M+?]-
->parentmass 562.281924763489
+>parentmass Inf
 >rt 12.6188652430652
 
 >ms1
-562.2819 100
 
 >ms2
 66.0462 40
@@ -102207,11 +100693,10 @@
 
 >compound FTneg4920
 >ionization [M+?]-
->parentmass 579.304870411498
+>parentmass Inf
 >rt 12.6938056190282
 
 >ms1
-579.3049 100
 
 >ms2
 55.0443 4
@@ -102227,11 +100712,10 @@
 
 >compound FTneg4921
 >ionization [M+?]-
->parentmass 630.302219411978
+>parentmass Inf
 >rt 12.6395890453058
 
 >ms1
-630.3022 100
 
 >ms2
 55.0533 80
@@ -102242,33 +100726,32 @@
 
 >compound FTneg4922
 >ionization [M+?]-
->parentmass 321.900096329744
+>parentmass Inf
 >rt 5.67597736726487
 
 >ms1
-321.9001 100
+
 
 >ms2
 321.9001 100
 
 >compound FTneg4923
 >ionization [M+?]-
->parentmass 324.835452357094
+>parentmass Inf
 >rt 18.3644044868893
 
 >ms1
-324.8355 100
+
 
 >ms2
 324.8355 100
 
 >compound FTneg4924
 >ionization [M+?]-
->parentmass 326.830137319121
+>parentmass Inf
 >rt 18.3607436731117
 
 >ms1
-326.8301 100
 
 >ms2
 52.2144 8
@@ -102281,66 +100764,64 @@
 
 >compound FTneg4925
 >ionization [M+?]-
->parentmass 472.760442398768
+>parentmass Inf
 >rt 18.3613062934345
 
 >ms1
-472.7604 100
+
 
 >ms2
 472.7604 100
 
 >compound FTneg4926
 >ionization [M+?]-
->parentmass 476.775797704216
+>parentmass Inf
 >rt 18.357326494735
 
 >ms1
-476.7758 100
+
 
 >ms2
 476.7758 100
 
 >compound FTneg4927
 >ionization [M+?]-
->parentmass 534.802229348867
+>parentmass Inf
 >rt 18.3612243911342
 
 >ms1
-534.8022 100
+
 
 >ms2
 534.8022 100
 
 >compound FTneg4928
 >ionization [M+?]-
->parentmass 325.165214006728
+>parentmass Inf
 >rt 10.5980558482952
 
 >ms1
-325.1652 100
+
 
 >ms2
 325.1652 100
 
 >compound FTneg4929
 >ionization [M+?]-
->parentmass 358.259231234745
+>parentmass Inf
 >rt 10.7125222008165
 
 >ms1
-358.2592 100
 
 >ms2
 71.0874 40
 
 >compound FTneg4930
 >ionization [M+?]-
->parentmass 325.184059714431
+>parentmass Inf
 >rt 12.5768032529894
 
 >ms1
-325.1841 100
 
 >ms2
 55.0534 120
@@ -102358,11 +100839,10 @@
 
 >compound FTneg4931
 >ionization [M+?]-
->parentmass 483.311463351313
+>parentmass Inf
 >rt 12.5533792930064
 
 >ms1
-483.3115 100
 
 >ms2
 59.0531 20
@@ -102371,11 +100851,10 @@
 
 >compound FTneg4932
 >ionization [M+?]-
->parentmass 529.313011981743
+>parentmass Inf
 >rt 12.448814153362
 
 >ms1
-529.313 100
 
 >ms2
 55.887 4
@@ -102424,11 +100903,10 @@
 
 >compound FTneg4933
 >ionization [M+?]-
->parentmass 584.356937421905
+>parentmass Inf
 >rt 13.5572708968924
 
 >ms1
-584.3569 100
 
 >ms2
 55.0222 40
@@ -102443,11 +100921,10 @@
 
 >compound FTneg4934
 >ionization [M+?]-
->parentmass 325.217289066602
+>parentmass Inf
 >rt 13.5652447614845
 
 >ms1
-325.2173 100
 
 >ms2
 57.0687 80
@@ -102462,33 +100939,32 @@
 
 >compound FTneg4935
 >ionization [M+?]-
->parentmass 326.145735408804
+>parentmass Inf
 >rt 10.3690987424008
 
 >ms1
-326.1457 100
+
 
 >ms2
 326.1457 100
 
 >compound FTneg4936
 >ionization [M+?]-
->parentmass 463.957293801581
+>parentmass Inf
 >rt 10.3776739734653
 
 >ms1
-463.9573 100
+
 
 >ms2
 463.9573 100
 
 >compound FTneg4937
 >ionization [M+?]-
->parentmass 478.293594339042
+>parentmass Inf
 >rt 12.3234575963888
 
 >ms1
-478.2936 100
 
 >ms2
 80.6997 10
@@ -102507,11 +100983,10 @@
 
 >compound FTneg4938
 >ionization [M+?]-
->parentmass 556.325294094554
+>parentmass Inf
 >rt 12.3193161847394
 
 >ms1
-556.3253 100
 
 >ms2
 51.0259 80
@@ -102547,11 +101022,10 @@
 
 >compound FTneg4939
 >ionization [M+?]-
->parentmass 326.187232701197
+>parentmass Inf
 >rt 12.3721204894601
 
 >ms1
-326.1872 100
 
 >ms2
 55.0548 80
@@ -102570,11 +101044,10 @@
 
 >compound FTneg4940
 >ionization [M+?]-
->parentmass 478.264379289978
+>parentmass Inf
 >rt 12.3393821631851
 
 >ms1
-478.2644 100
 
 >ms2
 55.0176 10
@@ -102592,11 +101065,10 @@
 
 >compound FTneg4941
 >ionization [M+?]-
->parentmass 546.281612789507
+>parentmass Inf
 >rt 12.3289630037113
 
 >ms1
-546.2816 100
 
 >ms2
 73.0459 20
@@ -102604,11 +101076,10 @@
 
 >compound FTneg4942
 >ionization [M+?]-
->parentmass 326.269297207297
+>parentmass Inf
 >rt 13.9293418163976
 
 >ms1
-326.2693 100
 
 >ms2
 55.0534 40
@@ -102616,11 +101087,10 @@
 
 >compound FTneg4943
 >ionization [M+?]-
->parentmass 686.260416692009
+>parentmass Inf
 >rt 13.9482096721383
 
 >ms1
-686.2604 100
 
 >ms2
 52.0052 40
@@ -102674,44 +101144,43 @@
 
 >compound FTneg4944
 >ionization [M+?]-
->parentmass 326.973974392464
+>parentmass Inf
 >rt 5.450940625
 
 >ms1
-326.974 100
+
 
 >ms2
 326.974 100
 
 >compound FTneg4945
 >ionization [M+?]-
->parentmass 327.048119293456
+>parentmass Inf
 >rt 9.64282220126834
 
 >ms1
-327.0481 100
+
 
 >ms2
 327.0481 100
 
 >compound FTneg4946
 >ionization [M+?]-
->parentmass 327.165492672962
+>parentmass Inf
 >rt 6.70669381346191
 
 >ms1
-327.1655 100
+
 
 >ms2
 327.1655 100
 
 >compound FTneg4947
 >ionization [M+?]-
->parentmass 327.232570227163
+>parentmass Inf
 >rt 13.7811593721211
 
 >ms1
-327.2326 100
 
 >ms2
 55.0548 20
@@ -102719,11 +101188,10 @@
 
 >compound FTneg4948
 >ionization [M+?]-
->parentmass 373.238134691125
+>parentmass Inf
 >rt 13.780375748838
 
 >ms1
-373.2381 100
 
 >ms2
 55.0162 40
@@ -102732,22 +101200,20 @@
 
 >compound FTneg4949
 >ionization [M+?]-
->parentmass 401.290666370698
+>parentmass Inf
 >rt 13.7822292000178
 
 >ms1
-401.2907 100
 
 >ms2
 59.0484 40
 
 >compound FTneg4950
 >ionization [M+?]-
->parentmass 822.564949403379
+>parentmass Inf
 >rt 13.7931972964318
 
 >ms1
-822.5649 100
 
 >ms2
 55.0533 40
@@ -102796,11 +101262,10 @@
 
 >compound FTneg4951
 >ionization [M+?]-
->parentmass 872.58050870788
+>parentmass Inf
 >rt 13.772027772418
 
 >ms1
-872.5805 100
 
 >ms2
 55.0549 4
@@ -102828,22 +101293,21 @@
 
 >compound FTneg4952
 >ionization [M+?]-
->parentmass 327.209435729498
+>parentmass Inf
 >rt 13.7813356170251
 
 >ms1
-327.2094 100
+
 
 >ms2
 327.2094 100
 
 >compound FTneg4953
 >ionization [M+?]-
->parentmass 391.261448705418
+>parentmass Inf
 >rt 13.7793912745517
 
 >ms1
-391.2614 100
 
 >ms2
 55.0177 40
@@ -102875,11 +101339,10 @@
 
 >compound FTneg4954
 >ionization [M+?]-
->parentmass 395.220049604065
+>parentmass Inf
 >rt 13.777137054301
 
 >ms1
-395.22 100
 
 >ms2
 54.8407 10
@@ -102897,22 +101360,20 @@
 
 >compound FTneg4955
 >ionization [M+?]-
->parentmass 473.163244369287
+>parentmass Inf
 >rt 13.776806562356
 
 >ms1
-473.1632 100
 
 >ms2
 67.0484 40
 
 >compound FTneg4956
 >ionization [M+?]-
->parentmass 666.059460624449
+>parentmass Inf
 >rt 13.7804331054798
 
 >ms1
-666.0595 100
 
 >ms2
 77.0171 40
@@ -102922,11 +101383,10 @@
 
 >compound FTneg4957
 >ionization [M+?]-
->parentmass 667.061908325364
+>parentmass Inf
 >rt 13.775943891757
 
 >ms1
-667.0619 100
 
 >ms2
 69.0323 80
@@ -102950,11 +101410,10 @@
 
 >compound FTneg4958
 >ionization [M+?]-
->parentmass 683.52516829704
+>parentmass Inf
 >rt 13.782822971292
 
 >ms1
-683.5252 100
 
 >ms2
 67.0541 40
@@ -102990,22 +101449,21 @@
 
 >compound FTneg4959
 >ionization [M+?]-
->parentmass 684.528698167647
+>parentmass Inf
 >rt 13.7814921540144
 
 >ms1
-684.5287 100
+
 
 >ms2
 684.5287 100
 
 >compound FTneg4960
 >ionization [M+?]-
->parentmass 846.56571232201
+>parentmass Inf
 >rt 13.7379399396103
 
 >ms1
-846.5657 100
 
 >ms2
 54.0351 40
@@ -103102,11 +101560,10 @@
 
 >compound FTneg4961
 >ionization [M+?]-
->parentmass 847.569930998765
+>parentmass Inf
 >rt 13.7486365492187
 
 >ms1
-847.5699 100
 
 >ms2
 55.0533 120
@@ -103401,33 +101858,32 @@
 
 >compound FTneg4962
 >ionization [M+?]-
->parentmass 329.028225631269
+>parentmass Inf
 >rt 9.29151491148694
 
 >ms1
-329.0282 100
+
 
 >ms2
 329.0282 100
 
 >compound FTneg4963
 >ionization [M+?]-
->parentmass 540.931968532136
+>parentmass Inf
 >rt 9.20185444444447
 
 >ms1
-540.932 100
+
 
 >ms2
 540.932 100
 
 >compound FTneg4964
 >ionization [M+?]-
->parentmass 568.361589984822
+>parentmass Inf
 >rt 11.4795949823034
 
 >ms1
-568.3616 100
 
 >ms2
 62.9832 41
@@ -103448,11 +101904,10 @@
 
 >compound FTneg4965
 >ionization [M+?]-
->parentmass 802.559841092763
+>parentmass Inf
 >rt 11.6599740252373
 
 >ms1
-802.5598 100
 
 >ms2
 56.0474 40
@@ -103535,22 +101990,21 @@
 
 >compound FTneg4966
 >ionization [M+?]-
->parentmass 826.559854969693
+>parentmass Inf
 >rt 11.5642973586926
 
 >ms1
-826.5599 100
+
 
 >ms2
 826.5599 100
 
 >compound FTneg4967
 >ionization [M+?]-
->parentmass 854.590970069166
+>parentmass Inf
 >rt 11.5717660871871
 
 >ms1
-854.591 100
 
 >ms2
 55.0155 40
@@ -103579,11 +102033,10 @@
 
 >compound FTneg4968
 >ionization [M+?]-
->parentmass 329.063571581148
+>parentmass Inf
 >rt 11.6172838095237
 
 >ms1
-329.0636 100
 
 >ms2
 51.004 40
@@ -103606,11 +102059,10 @@
 
 >compound FTneg4969
 >ionization [M+?]-
->parentmass 558.332976111588
+>parentmass Inf
 >rt 11.4886675491482
 
 >ms1
-558.333 100
 
 >ms2
 142.5612 40
@@ -103625,22 +102077,21 @@
 
 >compound FTneg4970
 >ionization [M+?]-
->parentmass 564.330144308829
+>parentmass Inf
 >rt 11.6460471070671
 
 >ms1
-564.3301 100
+
 
 >ms2
 564.3301 100
 
 >compound FTneg4971
 >ionization [M+?]-
->parentmass 585.35197409345
+>parentmass Inf
 >rt 11.481564711446
 
 >ms1
-585.352 100
 
 >ms2
 55.0548 32
@@ -103702,11 +102153,10 @@
 
 >compound FTneg4972
 >ionization [M+?]-
->parentmass 636.349184065243
+>parentmass Inf
 >rt 11.4895697604934
 
 >ms1
-636.3492 100
 
 >ms2
 51.0245 20
@@ -103734,11 +102184,10 @@
 
 >compound FTneg4973
 >ionization [M+?]-
->parentmass 830.590472750526
+>parentmass Inf
 >rt 11.6813498882482
 
 >ms1
-830.5905 100
 
 >ms2
 60.0817 40
@@ -103767,33 +102216,32 @@
 
 >compound FTneg4974
 >ionization [M+?]-
->parentmass 831.594358695308
+>parentmass Inf
 >rt 11.5439289535044
 
 >ms1
-831.5944 100
+
 
 >ms2
 831.5944 100
 
 >compound FTneg4975
 >ionization [M+?]-
->parentmass 853.578760991617
+>parentmass Inf
 >rt 11.5299538461538
 
 >ms1
-853.5788 100
+
 
 >ms2
 853.5788 100
 
 >compound FTneg4976
 >ionization [M+?]-
->parentmass 878.591085969776
+>parentmass Inf
 >rt 11.6779227693508
 
 >ms1
-878.5911 100
 
 >ms2
 52.435 8
@@ -103996,11 +102444,10 @@
 
 >compound FTneg4977
 >ionization [M+?]-
->parentmass 329.063573434849
+>parentmass Inf
 >rt 12.0768590894008
 
 >ms1
-329.0636 100
 
 >ms2
 58.8408 40
@@ -104009,11 +102456,10 @@
 
 >compound FTneg4978
 >ionization [M+?]-
->parentmass 747.625589601149
+>parentmass Inf
 >rt 11.9495197916668
 
 >ms1
-747.6256 100
 
 >ms2
 55.0177 40
@@ -104061,11 +102507,10 @@
 
 >compound FTneg4979
 >ionization [M+?]-
->parentmass 803.563343501345
+>parentmass Inf
 >rt 12.2753434355086
 
 >ms1
-803.5633 100
 
 >ms2
 57.0711 40
@@ -104100,11 +102545,10 @@
 
 >compound FTneg4980
 >ionization [M+?]-
->parentmass 329.063604569308
+>parentmass Inf
 >rt 12.3058166703402
 
 >ms1
-329.0636 100
 
 >ms2
 54.9996 41
@@ -104116,11 +102560,10 @@
 
 >compound FTneg4981
 >ionization [M+?]-
->parentmass 594.377329937708
+>parentmass Inf
 >rt 12.2608379005193
 
 >ms1
-594.3773 100
 
 >ms2
 57.0704 8
@@ -104139,11 +102582,10 @@
 
 >compound FTneg4982
 >ionization [M+?]-
->parentmass 828.574027820504
+>parentmass Inf
 >rt 12.2891105700646
 
 >ms1
-828.574 100
 
 >ms2
 55.017 40
@@ -104179,44 +102621,43 @@
 
 >compound FTneg4983
 >ionization [M+?]-
->parentmass 552.366755887255
+>parentmass Inf
 >rt 11.1017958572257
 
 >ms1
-552.3668 100
+
 
 >ms2
 552.3668 100
 
 >compound FTneg4984
 >ionization [M+?]-
->parentmass 819.550102647596
+>parentmass Inf
 >rt 11.1280909256963
 
 >ms1
-819.5501 100
+
 
 >ms2
 819.5501 100
 
 >compound FTneg4985
 >ionization [M+?]-
->parentmass 845.564631496866
+>parentmass Inf
 >rt 11.1761508929014
 
 >ms1
-845.5646 100
+
 
 >ms2
 845.5646 100
 
 >compound FTneg4986
 >ionization [M+?]-
->parentmass 871.551361561172
+>parentmass Inf
 >rt 11.1817474786684
 
 >ms1
-871.5514 100
 
 >ms2
 73.0652 40
@@ -104229,44 +102670,43 @@
 
 >compound FTneg4987
 >ionization [M+?]-
->parentmass 329.063614736792
+>parentmass Inf
 >rt 11.1235195521318
 
 >ms1
-329.0636 100
+
 
 >ms2
 329.0636 100
 
 >compound FTneg4988
 >ionization [M+?]-
->parentmass 428.988249841831
+>parentmass Inf
 >rt 11.1497011587714
 
 >ms1
-428.9882 100
+
 
 >ms2
 428.9882 100
 
 >compound FTneg4989
 >ionization [M+?]-
->parentmass 712.045913748115
+>parentmass Inf
 >rt 11.2244206299842
 
 >ms1
-712.0459 100
+
 
 >ms2
 712.0459 100
 
 >compound FTneg4990
 >ionization [M+?]-
->parentmass 792.531572863972
+>parentmass Inf
 >rt 11.1979769464193
 
 >ms1
-792.5316 100
 
 >ms2
 57.0696 40
@@ -104302,22 +102742,21 @@
 
 >compound FTneg4991
 >ionization [M+?]-
->parentmass 801.475324476803
+>parentmass Inf
 >rt 11.1035880952381
 
 >ms1
-801.4753 100
+
 
 >ms2
 801.4753 100
 
 >compound FTneg4992
 >ionization [M+?]-
->parentmass 816.531316737215
+>parentmass Inf
 >rt 11.1596104894089
 
 >ms1
-816.5313 100
 
 >ms2
 55.0518 40
@@ -104458,77 +102897,76 @@
 
 >compound FTneg4993
 >ionization [M+?]-
->parentmass 818.542457564602
+>parentmass Inf
 >rt 11.1798009063733
 
 >ms1
-818.5425 100
+
 
 >ms2
 818.5425 100
 
 >compound FTneg4994
 >ionization [M+?]-
->parentmass 822.564252658843
+>parentmass Inf
 >rt 11.1406277646078
 
 >ms1
-822.5643 100
+
 
 >ms2
 822.5643 100
 
 >compound FTneg4995
 >ionization [M+?]-
->parentmass 844.558608230199
+>parentmass Inf
 >rt 11.2104794334801
 
 >ms1
-844.5586 100
+
 
 >ms2
 844.5586 100
 
 >compound FTneg4996
 >ionization [M+?]-
->parentmass 846.578260527385
+>parentmass Inf
 >rt 11.1824183437884
 
 >ms1
-846.5783 100
+
 
 >ms2
 846.5783 100
 
 >compound FTneg4997
 >ionization [M+?]-
->parentmass 894.547435306666
+>parentmass Inf
 >rt 11.2532436586188
 
 >ms1
-894.5474 100
+
 
 >ms2
 894.5474 100
 
 >compound FTneg4998
 >ionization [M+?]-
->parentmass 896.561110706463
+>parentmass Inf
 >rt 11.1637434462089
 
 >ms1
-896.5611 100
+
 
 >ms2
 896.5611 100
 
 >compound FTneg4999
 >ionization [M+?]-
->parentmass 802.559750861846
+>parentmass Inf
 >rt 12.3736126892171
 
 >ms1
-802.5598 100
 
 >ms2
 55.0557 40
@@ -104589,11 +103027,10 @@
 
 >compound FTneg5000
 >ionization [M+?]-
->parentmass 804.572103275585
+>parentmass Inf
 >rt 12.4151691915335
 
 >ms1
-804.5721 100
 
 >ms2
 51.0237 40
@@ -104756,22 +103193,20 @@
 
 >compound FTneg5001
 >ionization [M+?]-
->parentmass 826.559928000344
+>parentmass Inf
 >rt 12.3829113840184
 
 >ms1
-826.5599 100
 
 >ms2
 87.0518 20
 
 >compound FTneg5002
 >ionization [M+?]-
->parentmass 830.590418592512
+>parentmass Inf
 >rt 12.4105711574344
 
 >ms1
-830.5904 100
 
 >ms2
 50.9625 8
@@ -104800,11 +103235,10 @@
 
 >compound FTneg5003
 >ionization [M+?]-
->parentmass 854.591060059496
+>parentmass Inf
 >rt 12.3729802535009
 
 >ms1
-854.5911 100
 
 >ms2
 57.0719 40
@@ -104844,22 +103278,20 @@
 
 >compound FTneg5004
 >ionization [M+?]-
->parentmass 329.063642494554
+>parentmass Inf
 >rt 12.5518100549887
 
 >ms1
-329.0636 100
 
 >ms2
 60.0435 159
 
 >compound FTneg5005
 >ionization [M+?]-
->parentmass 331.063087947504
+>parentmass Inf
 >rt 12.5012701195274
 
 >ms1
-331.0631 100
 
 >ms2
 55.0533 13
@@ -104872,22 +103304,21 @@
 
 >compound FTneg5006
 >ionization [M+?]-
->parentmass 566.34550459488
+>parentmass Inf
 >rt 12.3654168654268
 
 >ms1
-566.3455 100
+
 
 >ms2
 566.3455 100
 
 >compound FTneg5007
 >ionization [M+?]-
->parentmass 747.56543940742
+>parentmass Inf
 >rt 12.3799120898473
 
 >ms1
-747.5654 100
 
 >ms2
 67.0575 40
@@ -104905,22 +103336,21 @@
 
 >compound FTneg5008
 >ionization [M+?]-
->parentmass 792.531920305601
+>parentmass Inf
 >rt 12.4727236512734
 
 >ms1
-792.5319 100
+
 
 >ms2
 792.5319 100
 
 >compound FTneg5009
 >ionization [M+?]-
->parentmass 829.578399784858
+>parentmass Inf
 >rt 12.4216092982432
 
 >ms1
-829.5784 100
 
 >ms2
 56.0481 40
@@ -104960,11 +103390,10 @@
 
 >compound FTneg5010
 >ionization [M+?]-
->parentmass 851.562830075045
+>parentmass Inf
 >rt 12.437080647567
 
 >ms1
-851.5628 100
 
 >ms2
 67.0543 40
@@ -105004,11 +103433,10 @@
 
 >compound FTneg5011
 >ionization [M+?]-
->parentmass 878.590873821359
+>parentmass Inf
 >rt 12.374069301817
 
 >ms1
-878.5909 100
 
 >ms2
 50.4829 40
@@ -105334,11 +103762,10 @@
 
 >compound FTneg5012
 >ionization [M+?]-
->parentmass 329.233057970625
+>parentmass Inf
 >rt 10.2200077245155
 
 >ms1
-329.2331 100
 
 >ms2
 53.051 40
@@ -105351,33 +103778,31 @@
 
 >compound FTneg5013
 >ionization [M+?]-
->parentmass 549.342446971169
+>parentmass Inf
 >rt 10.3470467948718
 
 >ms1
-549.3424 100
+
 
 >ms2
 549.3424 100
 
 >compound FTneg5014
 >ionization [M+?]-
->parentmass 541.333668636263
+>parentmass Inf
 >rt 13.8253955449065
 
 >ms1
-541.3337 100
 
 >ms2
 55.9328 80
 
 >compound FTneg5015
 >ionization [M+?]-
->parentmass 329.248258237382
+>parentmass Inf
 >rt 13.9524348340229
 
 >ms1
-329.2483 100
 
 >ms2
 57.0203 41
@@ -105388,11 +103813,10 @@
 
 >compound FTneg5016
 >ionization [M+?]-
->parentmass 329.24837439532
+>parentmass Inf
 >rt 14.1173964079758
 
 >ms1
-329.2484 100
 
 >ms2
 55.054 40
@@ -105402,11 +103826,10 @@
 
 >compound FTneg5017
 >ionization [M+?]-
->parentmass 824.580270951955
+>parentmass Inf
 >rt 14.1128065022675
 
 >ms1
-824.5803 100
 
 >ms2
 55.017 80
@@ -105491,11 +103914,10 @@
 
 >compound FTneg5018
 >ionization [M+?]-
->parentmass 857.51820019223
+>parentmass Inf
 >rt 12.5008419965138
 
 >ms1
-857.5182 100
 
 >ms2
 51.034 8
@@ -105515,11 +103937,10 @@
 
 >compound FTneg5019
 >ionization [M+?]-
->parentmass 802.559677630099
+>parentmass Inf
 >rt 12.588475590225
 
 >ms1
-802.5597 100
 
 >ms2
 57.0695 40
@@ -105552,11 +103973,10 @@
 
 >compound FTneg5020
 >ionization [M+?]-
->parentmass 850.559511073012
+>parentmass Inf
 >rt 12.4739343444166
 
 >ms1
-850.5595 100
 
 >ms2
 56.0481 40
@@ -105614,11 +104034,10 @@
 
 >compound FTneg5021
 >ionization [M+?]-
->parentmass 568.361650815033
+>parentmass Inf
 >rt 12.559385794054
 
 >ms1
-568.3617 100
 
 >ms2
 55.0549 40
@@ -105656,11 +104075,10 @@
 
 >compound FTneg5022
 >ionization [M+?]-
->parentmass 878.590775575798
+>parentmass Inf
 >rt 12.5826737064366
 
 >ms1
-878.5908 100
 
 >ms2
 57.0703 40
@@ -105692,11 +104110,10 @@
 
 >compound FTneg5023
 >ionization [M+?]-
->parentmass 330.066002520718
+>parentmass Inf
 >rt 12.5662042727253
 
 >ms1
-330.066 100
 
 >ms2
 57.0163 20
@@ -105707,11 +104124,10 @@
 
 >compound FTneg5024
 >ionization [M+?]-
->parentmass 363.024560962817
+>parentmass Inf
 >rt 12.6105998470891
 
 >ms1
-363.0246 100
 
 >ms2
 55.9335 20
@@ -105720,11 +104136,10 @@
 
 >compound FTneg5025
 >ionization [M+?]-
->parentmass 747.565493269841
+>parentmass Inf
 >rt 12.5856643550948
 
 >ms1
-747.5655 100
 
 >ms2
 51.0216 40
@@ -105990,22 +104405,21 @@
 
 >compound FTneg5026
 >ionization [M+?]-
->parentmass 800.544041897105
+>parentmass Inf
 >rt 12.5834991397055
 
 >ms1
-800.544 100
+
 
 >ms2
 800.544 100
 
 >compound FTneg5027
 >ionization [M+?]-
->parentmass 806.581246243912
+>parentmass Inf
 >rt 12.6048767156052
 
 >ms1
-806.5812 100
 
 >ms2
 55.0184 20
@@ -106244,22 +104658,20 @@
 
 >compound FTneg5028
 >ionization [M+?]-
->parentmass 816.573890215783
+>parentmass Inf
 >rt 12.551241984789
 
 >ms1
-816.5739 100
 
 >ms2
 98.9851 40
 
 >compound FTneg5029
 >ionization [M+?]-
->parentmass 819.549902281704
+>parentmass Inf
 >rt 12.4813697460855
 
 >ms1
-819.5499 100
 
 >ms2
 62.0592 20
@@ -106284,22 +104696,21 @@
 
 >compound FTneg5030
 >ionization [M+?]-
->parentmass 828.574215300893
+>parentmass Inf
 >rt 12.5790792082657
 
 >ms1
-828.5742 100
+
 
 >ms2
 828.5742 100
 
 >compound FTneg5031
 >ionization [M+?]-
->parentmass 854.590851582484
+>parentmass Inf
 >rt 12.5851545529461
 
 >ms1
-854.5909 100
 
 >ms2
 73.0451 10
@@ -106334,11 +104745,10 @@
 
 >compound FTneg5032
 >ionization [M+?]-
->parentmass 855.594611333289
+>parentmass Inf
 >rt 12.5792305635389
 
 >ms1
-855.5946 100
 
 >ms2
 51.8634 40
@@ -106978,11 +105388,10 @@
 
 >compound FTneg5033
 >ionization [M+?]-
->parentmass 856.603118444996
+>parentmass Inf
 >rt 12.5440383272319
 
 >ms1
-856.6031 100
 
 >ms2
 89.0569 27
@@ -107001,11 +105410,10 @@
 
 >compound FTneg5034
 >ionization [M+?]-
->parentmass 876.575277549121
+>parentmass Inf
 >rt 12.511862449245
 
 >ms1
-876.5753 100
 
 >ms2
 57.0696 80
@@ -107055,11 +105463,10 @@
 
 >compound FTneg5035
 >ionization [M+?]-
->parentmass 877.578298810918
+>parentmass Inf
 >rt 12.6413392794806
 
 >ms1
-877.5783 100
 
 >ms2
 62.0602 80
@@ -107070,11 +105477,10 @@
 
 >compound FTneg5036
 >ionization [M+?]-
->parentmass 884.536990744519
+>parentmass Inf
 >rt 12.6439833333334
 
 >ms1
-884.537 100
 
 >ms2
 85.1042 40
@@ -107085,11 +105491,10 @@
 
 >compound FTneg5037
 >ionization [M+?]-
->parentmass 885.544420445959
+>parentmass Inf
 >rt 12.5441166832661
 
 >ms1
-885.5444 100
 
 >ms2
 67.0558 20
@@ -107113,11 +105518,10 @@
 
 >compound FTneg5038
 >ionization [M+?]-
->parentmass 898.562513603331
+>parentmass Inf
 >rt 12.6521458936488
 
 >ms1
-898.5625 100
 
 >ms2
 57.0549 20
@@ -107194,11 +105598,10 @@
 
 >compound FTneg5039
 >ionization [M+?]-
->parentmass 899.565140874187
+>parentmass Inf
 >rt 12.4938584831997
 
 >ms1
-899.5651 100
 
 >ms2
 57.0689 80
@@ -107252,66 +105655,65 @@
 
 >compound FTneg5040
 >ionization [M+?]-
->parentmass 330.089652381542
+>parentmass Inf
 >rt 16.6151133333333
 
 >ms1
-330.0897 100
+
 
 >ms2
 330.0897 100
 
 >compound FTneg5041
 >ionization [M+?]-
->parentmass 332.099373234987
+>parentmass Inf
 >rt 3.49184684492967
 
 >ms1
-332.0994 100
+
 
 >ms2
 332.0994 100
 
 >compound FTneg5042
 >ionization [M+?]-
->parentmass 333.141380637034
+>parentmass Inf
 >rt 9.59614094790095
 
 >ms1
-333.1414 100
+
 
 >ms2
 333.1414 100
 
 >compound FTneg5043
 >ionization [M+?]-
->parentmass 335.113325784348
+>parentmass Inf
 >rt 7.55934747996842
 
 >ms1
-335.1133 100
+
 
 >ms2
 335.1133 100
 
 >compound FTneg5044
 >ionization [M+?]-
->parentmass 335.889660594502
+>parentmass Inf
 >rt 1.23578946279749
 
 >ms1
-335.8897 100
+
 
 >ms2
 335.8897 100
 
 >compound FTneg5045
 >ionization [M+?]-
->parentmass 433.235837873848
+>parentmass Inf
 >rt 12.7240816110846
 
 >ms1
-433.2358 100
 
 >ms2
 52.9514 8
@@ -107331,11 +105733,10 @@
 
 >compound FTneg5046
 >ionization [M+?]-
->parentmass 610.314842904999
+>parentmass Inf
 >rt 12.7024043953668
 
 >ms1
-610.3148 100
 
 >ms2
 74.0683 20
@@ -107351,11 +105752,10 @@
 
 >compound FTneg5047
 >ionization [M+?]-
->parentmass 339.199698876141
+>parentmass Inf
 >rt 12.6988123333959
 
 >ms1
-339.1997 100
 
 >ms2
 55.1904 40
@@ -107390,44 +105790,42 @@
 
 >compound FTneg5048
 >ionization [M+?]-
->parentmass 550.314269905721
+>parentmass Inf
 >rt 12.69488198517
 
 >ms1
-550.3143 100
 
 >ms2
 87.0441 13
 
 >compound FTneg5049
 >ionization [M+?]-
->parentmass 341.040727377819
+>parentmass Inf
 >rt 7.86521036191808
 
 >ms1
-341.0407 100
+
 
 >ms2
 341.0407 100
 
 >compound FTneg5050
 >ionization [M+?]-
->parentmass 346.141061335096
+>parentmass Inf
 >rt 7.92897643063596
 
 >ms1
-346.1411 100
+
 
 >ms2
 346.1411 100
 
 >compound FTneg5051
 >ionization [M+?]-
->parentmass 471.096421182443
+>parentmass Inf
 >rt 7.90089090924891
 
 >ms1
-471.0964 100
 
 >ms2
 52.7801 10
@@ -107490,44 +105888,43 @@
 
 >compound FTneg5052
 >ionization [M+?]-
->parentmass 346.205582356182
+>parentmass Inf
 >rt 7.99971444444447
 
 >ms1
-346.2056 100
+
 
 >ms2
 346.2056 100
 
 >compound FTneg5053
 >ionization [M+?]-
->parentmass 483.096291493823
+>parentmass Inf
 >rt 8.02183126969992
 
 >ms1
-483.0963 100
+
 
 >ms2
 483.0963 100
 
 >compound FTneg5054
 >ionization [M+?]-
->parentmass 347.221149796396
+>parentmass Inf
 >rt 13.737660411395
 
 >ms1
-347.2211 100
+
 
 >ms2
 347.2211 100
 
 >compound FTneg5055
 >ionization [M+?]-
->parentmass 609.509332458475
+>parentmass Inf
 >rt 13.6848441228916
 
 >ms1
-609.5093 100
 
 >ms2
 55.0533 16
@@ -107558,55 +105955,54 @@
 
 >compound FTneg5056
 >ionization [M+?]-
->parentmass 348.977759782439
+>parentmass Inf
 >rt 9.42348134717469
 
 >ms1
-348.9778 100
+
 
 >ms2
 348.9778 100
 
 >compound FTneg5057
 >ionization [M+?]-
->parentmass 394.231074855615
+>parentmass Inf
 >rt 9.41079887069953
 
 >ms1
-394.2311 100
+
 
 >ms2
 394.2311 100
 
 >compound FTneg5058
 >ionization [M+?]-
->parentmass 353.077033078535
+>parentmass Inf
 >rt 2.84441909367564
 
 >ms1
-353.077 100
+
 
 >ms2
 353.077 100
 
 >compound FTneg5059
 >ionization [M+?]-
->parentmass 353.23263950062
+>parentmass Inf
 >rt 9.87920180271305
 
 >ms1
-353.2326 100
+
 
 >ms2
 353.2326 100
 
 >compound FTneg5060
 >ionization [M+?]-
->parentmass 357.279498030573
+>parentmass Inf
 >rt 14.5005878550593
 
 >ms1
-357.2795 100
 
 >ms2
 55.0536 199
@@ -107626,110 +106022,107 @@
 
 >compound FTneg5061
 >ionization [M+?]-
->parentmass 358.222587067708
+>parentmass Inf
 >rt 10.1037106520219
 
 >ms1
-358.2226 100
+
 
 >ms2
 358.2226 100
 
 >compound FTneg5062
 >ionization [M+?]-
->parentmass 383.204896503284
+>parentmass Inf
 >rt 10.2201272977146
 
 >ms1
-383.2049 100
+
 
 >ms2
 383.2049 100
 
 >compound FTneg5063
 >ionization [M+?]-
->parentmass 625.350355664748
+>parentmass Inf
 >rt 10.1392512820512
 
 >ms1
-625.3504 100
+
 
 >ms2
 625.3504 100
 
 >compound FTneg5064
 >ionization [M+?]-
->parentmass 359.07292429914
+>parentmass Inf
 >rt 3.17451980994497
 
 >ms1
-359.0729 100
 
 >ms2
 55.0532 40
 
 >compound FTneg5065
 >ionization [M+?]-
->parentmass 374.120358917651
+>parentmass Inf
 >rt 3.18317030433906
 
 >ms1
-374.1204 100
+
 
 >ms2
 374.1204 100
 
 >compound FTneg5066
 >ionization [M+?]-
->parentmass 400.020962140172
+>parentmass Inf
 >rt 3.1410268442215
 
 >ms1
-400.021 100
+
 
 >ms2
 400.021 100
 
 >compound FTneg5067
 >ionization [M+?]-
->parentmass 554.166095779911
+>parentmass Inf
 >rt 3.15272862456281
 
 >ms1
-554.1661 100
+
 
 >ms2
 554.1661 100
 
 >compound FTneg5068
 >ionization [M+?]-
->parentmass 451.269985897169
+>parentmass Inf
 >rt 10.0837704213757
 
 >ms1
-451.27 100
 
 >ms2
 55.0154 40
 
 >compound FTneg5069
 >ionization [M+?]-
->parentmass 359.170390224715
+>parentmass Inf
 >rt 10.0546782922537
 
 >ms1
-359.1704 100
+
 
 >ms2
 359.1704 100
 
 >compound FTneg5070
 >ionization [M+?]-
->parentmass 406.267814996612
+>parentmass Inf
 >rt 10.0839131771903
 
 >ms1
-406.2678 100
 
 >ms2
 57.0697 20
@@ -107741,11 +106134,10 @@
 
 >compound FTneg5071
 >ionization [M+?]-
->parentmass 441.240968170994
+>parentmass Inf
 >rt 10.0837701963104
 
 >ms1
-441.241 100
 
 >ms2
 55.0192 40
@@ -107777,11 +106169,10 @@
 
 >compound FTneg5072
 >ionization [M+?]-
->parentmass 468.259792453028
+>parentmass Inf
 >rt 10.0848177510029
 
 >ms1
-468.2598 100
 
 >ms2
 53.9391 8
@@ -107797,11 +106188,10 @@
 
 >compound FTneg5073
 >ionization [M+?]-
->parentmass 501.252203761437
+>parentmass Inf
 >rt 10.086354700298
 
 >ms1
-501.2522 100
 
 >ms2
 53.7347 40
@@ -107869,11 +106259,10 @@
 
 >compound FTneg5074
 >ionization [M+?]-
->parentmass 519.331546689316
+>parentmass Inf
 >rt 10.0703667460756
 
 >ms1
-519.3315 100
 
 >ms2
 51.018 42
@@ -108000,22 +106389,21 @@
 
 >compound FTneg5075
 >ionization [M+?]-
->parentmass 529.297503067324
+>parentmass Inf
 >rt 10.1870583333333
 
 >ms1
-529.2975 100
+
 
 >ms2
 529.2975 100
 
 >compound FTneg5076
 >ionization [M+?]-
->parentmass 551.268458750352
+>parentmass Inf
 >rt 10.0525525807017
 
 >ms1
-551.2685 100
 
 >ms2
 58.0622 4
@@ -108025,11 +106413,10 @@
 
 >compound FTneg5077
 >ionization [M+?]-
->parentmass 775.679234365412
+>parentmass Inf
 >rt 10.1101020107774
 
 >ms1
-775.6792 100
 
 >ms2
 55.0555 80
@@ -108085,11 +106472,10 @@
 
 >compound FTneg5078
 >ionization [M+?]-
->parentmass 605.405403374201
+>parentmass Inf
 >rt 14.7601135790595
 
 >ms1
-605.4054 100
 
 >ms2
 55.0556 40
@@ -108176,11 +106562,10 @@
 
 >compound FTneg5079
 >ionization [M+?]-
->parentmass 359.295163545439
+>parentmass Inf
 >rt 14.7689257180665
 
 >ms1
-359.2952 100
 
 >ms2
 53.0384 80
@@ -108336,11 +106721,10 @@
 
 >compound FTneg5080
 >ionization [M+?]-
->parentmass 361.106790688909
+>parentmass Inf
 >rt 2.87668275952891
 
 >ms1
-361.1068 100
 
 >ms2
 55.0547 239
@@ -108369,22 +106753,21 @@
 
 >compound FTneg5081
 >ionization [M+?]-
->parentmass 406.10427112434
+>parentmass Inf
 >rt 2.89176835341664
 
 >ms1
-406.1043 100
+
 
 >ms2
 406.1043 100
 
 >compound FTneg5082
 >ionization [M+?]-
->parentmass 362.050773334559
+>parentmass Inf
 >rt 2.70702111111107
 
 >ms1
-362.0508 100
 
 >ms2
 55.0533 120
@@ -108392,11 +106775,10 @@
 
 >compound FTneg5083
 >ionization [M+?]-
->parentmass 362.236379539197
+>parentmass Inf
 >rt 12.2830586562248
 
 >ms1
-362.2364 100
 
 >ms2
 50.4945 4
@@ -108436,55 +106818,54 @@
 
 >compound FTneg5084
 >ionization [M+?]-
->parentmass 363.02498506422
+>parentmass Inf
 >rt 7.9365502565278
 
 >ms1
-363.025 100
+
 
 >ms2
 363.025 100
 
 >compound FTneg5085
 >ionization [M+?]-
->parentmass 363.078291344109
+>parentmass Inf
 >rt 10.3024088999568
 
 >ms1
-363.0783 100
+
 
 >ms2
 363.0783 100
 
 >compound FTneg5086
 >ionization [M+?]-
->parentmass 369.013240055562
+>parentmass Inf
 >rt 8.358734083897
 
 >ms1
-369.0132 100
+
 
 >ms2
 369.0132 100
 
 >compound FTneg5087
 >ionization [M+?]-
->parentmass 369.22778348253
+>parentmass Inf
 >rt 9.99801023721187
 
 >ms1
-369.2278 100
+
 
 >ms2
 369.2278 100
 
 >compound FTneg5088
 >ionization [M+?]-
->parentmass 531.298801447632
+>parentmass Inf
 >rt 10.0043924574806
 
 >ms1
-531.2988 100
 
 >ms2
 57.0703 40
@@ -108494,66 +106875,65 @@
 
 >compound FTneg5089
 >ionization [M+?]-
->parentmass 373.023055278347
+>parentmass Inf
 >rt 3.0456914042868
 
 >ms1
-373.0231 100
+
 
 >ms2
 373.0231 100
 
 >compound FTneg5090
 >ionization [M+?]-
->parentmass 373.173900777509
+>parentmass Inf
 >rt 1.89863421712479
 
 >ms1
-373.1739 100
+
 
 >ms2
 373.1739 100
 
 >compound FTneg5091
 >ionization [M+?]-
->parentmass 418.017441755013
+>parentmass Inf
 >rt 1.87623787878782
 
 >ms1
-418.0174 100
+
 
 >ms2
 418.0174 100
 
 >compound FTneg5092
 >ionization [M+?]-
->parentmass 469.941948765817
+>parentmass Inf
 >rt 1.87260555555558
 
 >ms1
-469.9419 100
+
 
 >ms2
 469.9419 100
 
 >compound FTneg5093
 >ionization [M+?]-
->parentmass 375.164688863786
+>parentmass Inf
 >rt 8.93839104730812
 
 >ms1
-375.1647 100
+
 
 >ms2
 375.1647 100
 
 >compound FTneg5094
 >ionization [M+?]-
->parentmass 375.274735289295
+>parentmass Inf
 >rt 13.6227773659533
 
 >ms1
-375.2747 100
 
 >ms2
 53.0384 40
@@ -108582,22 +106962,21 @@
 
 >compound FTneg5095
 >ionization [M+?]-
->parentmass 376.220117031658
+>parentmass Inf
 >rt 9.15502692307685
 
 >ms1
-376.2201 100
+
 
 >ms2
 376.2201 100
 
 >compound FTneg5096
 >ionization [M+?]-
->parentmass 377.268810924018
+>parentmass Inf
 >rt 10.9963975152536
 
 >ms1
-377.2688 100
 
 >ms2
 57.0696 279
@@ -108613,11 +106992,10 @@
 
 >compound FTneg5097
 >ionization [M+?]-
->parentmass 378.241230540882
+>parentmass Inf
 >rt 11.36319659729
 
 >ms1
-378.2412 100
 
 >ms2
 55.054 40
@@ -108627,11 +107005,10 @@
 
 >compound FTneg5098
 >ionization [M+?]-
->parentmass 595.288569257366
+>parentmass Inf
 >rt 11.3422846452514
 
 >ms1
-595.2886 100
 
 >ms2
 55.0533 40
@@ -108661,11 +107038,10 @@
 
 >compound FTneg5099
 >ionization [M+?]-
->parentmass 619.288422073565
+>parentmass Inf
 >rt 11.3495630361749
 
 >ms1
-619.2884 100
 
 >ms2
 71.0864 40
@@ -108673,11 +107049,10 @@
 
 >compound FTneg5100
 >ionization [M+?]-
->parentmass 378.239782863283
+>parentmass Inf
 >rt 11.3131362360781
 
 >ms1
-378.2398 100
 
 >ms2
 53.0384 80
@@ -108793,22 +107168,20 @@
 
 >compound FTneg5101
 >ionization [M+?]-
->parentmass 619.253609412041
+>parentmass Inf
 >rt 11.3513559264164
 
 >ms1
-619.2536 100
 
 >ms2
 53.0131 40
 
 >compound FTneg5102
 >ionization [M+?]-
->parentmass 687.275824812075
+>parentmass Inf
 >rt 11.3448962437779
 
 >ms1
-687.2758 100
 
 >ms2
 85.063 40
@@ -108823,11 +107196,10 @@
 
 >compound FTneg5103
 >ionization [M+?]-
->parentmass 901.604146113348
+>parentmass Inf
 >rt 11.373084375
 
 >ms1
-901.6041 100
 
 >ms2
 55.0563 20
@@ -108848,22 +107220,20 @@
 
 >compound FTneg5104
 >ionization [M+?]-
->parentmass 902.606733039355
+>parentmass Inf
 >rt 11.3770966666667
 
 >ms1
-902.6067 100
 
 >ms2
 51.0237 40
 
 >compound FTneg5105
 >ionization [M+?]-
->parentmass 998.536753563674
+>parentmass Inf
 >rt 11.3533715686275
 
 >ms1
-998.5368 100
 
 >ms2
 69.0424 40
@@ -108874,154 +107244,153 @@
 
 >compound FTneg5106
 >ionization [M+?]-
->parentmass 999.54178061724
+>parentmass Inf
 >rt 11.3560266196197
 
 >ms1
-999.5418 100
+
 
 >ms2
 999.5418 100
 
 >compound FTneg5107
 >ionization [M+?]-
->parentmass 380.174420829884
+>parentmass Inf
 >rt 8.26011950581704
 
 >ms1
-380.1744 100
+
 
 >ms2
 380.1744 100
 
 >compound FTneg5108
 >ionization [M+?]-
->parentmass 608.159700287271
+>parentmass Inf
 >rt 1.78868945065903
 
 >ms1
-608.1597 100
+
 
 >ms2
 608.1597 100
 
 >compound FTneg5109
 >ionization [M+?]-
->parentmass 382.041199383994
+>parentmass Inf
 >rt 1.7902680555555
 
 >ms1
-382.0412 100
+
 
 >ms2
 382.0412 100
 
 >compound FTneg5110
 >ionization [M+?]-
->parentmass 510.072101922214
+>parentmass Inf
 >rt 1.79474024068422
 
 >ms1
-510.0721 100
+
 
 >ms2
 510.0721 100
 
 >compound FTneg5111
 >ionization [M+?]-
->parentmass 611.217048531361
+>parentmass Inf
 >rt 1.79121899880799
 
 >ms1
-611.217 100
+
 
 >ms2
 611.217 100
 
 >compound FTneg5112
 >ionization [M+?]-
->parentmass 669.176570876881
+>parentmass Inf
 >rt 1.79176969696955
 
 >ms1
-669.1766 100
+
 
 >ms2
 669.1766 100
 
 >compound FTneg5113
 >ionization [M+?]-
->parentmass 383.102703603784
+>parentmass Inf
 >rt 3.66399487406567
 
 >ms1
-383.1027 100
+
 
 >ms2
 383.1027 100
 
 >compound FTneg5114
 >ionization [M+?]-
->parentmass 383.17048581734
+>parentmass Inf
 >rt 8.41037940230225
 
 >ms1
-383.1705 100
+
 
 >ms2
 383.1705 100
 
 >compound FTneg5115
 >ionization [M+?]-
->parentmass 485.259370060405
+>parentmass Inf
 >rt 8.32365084515995
 
 >ms1
-485.2594 100
+
 
 >ms2
 485.2594 100
 
 >compound FTneg5116
 >ionization [M+?]-
->parentmass 383.206586175307
+>parentmass Inf
 >rt 7.97691399999992
 
 >ms1
-383.2066 100
+
 
 >ms2
 383.2066 100
 
 >compound FTneg5117
 >ionization [M+?]-
->parentmass 958.5159098268
+>parentmass Inf
 >rt 8.07642108572027
 
 >ms1
-958.5159 100
+
 
 >ms2
 958.5159 100
 
 >compound FTneg5118
 >ionization [M+?]-
->parentmass 384.185185461867
+>parentmass Inf
 >rt 3.45326714653288
 
 >ms1
-384.1852 100
+
 
 >ms2
 384.1852 100
 
 >compound FTneg5119
 >ionization [M+?]-
->parentmass 386.236599039171
+>parentmass Inf
 >rt 12.0024317259431
 
 >ms1
-386.2366 100
 
 >ms2
 55.017 8
@@ -109100,11 +107469,10 @@
 
 >compound FTneg5120
 >ionization [M+?]-
->parentmass 834.532456986989
+>parentmass Inf
 >rt 11.9801777430812
 
 >ms1
-834.5325 100
 
 >ms2
 55.0533 120
@@ -109139,11 +107507,10 @@
 
 >compound FTneg5121
 >ionization [M+?]-
->parentmass 387.202158132908
+>parentmass Inf
 >rt 10.8589838124175
 
 >ms1
-387.2022 100
 
 >ms2
 56.8848 41
@@ -109176,22 +107543,21 @@
 
 >compound FTneg5122
 >ionization [M+?]-
->parentmass 529.351132575568
+>parentmass Inf
 >rt 10.836453125
 
 >ms1
-529.3511 100
+
 
 >ms2
 529.3511 100
 
 >compound FTneg5123
 >ionization [M+?]-
->parentmass 388.252291256375
+>parentmass Inf
 >rt 12.4477352663011
 
 >ms1
-388.2523 100
 
 >ms2
 57.0697 80
@@ -109218,11 +107584,10 @@
 
 >compound FTneg5124
 >ionization [M+?]-
->parentmass 438.297366209825
+>parentmass Inf
 >rt 12.4404101920942
 
 >ms1
-438.2974 100
 
 >ms2
 57.0149 42
@@ -109242,11 +107607,10 @@
 
 >compound FTneg5125
 >ionization [M+?]-
->parentmass 485.326712670653
+>parentmass Inf
 >rt 12.4425756410257
 
 >ms1
-485.3267 100
 
 >ms2
 51.0244 4
@@ -109275,11 +107639,10 @@
 
 >compound FTneg5126
 >ionization [M+?]-
->parentmass 528.309146655243
+>parentmass Inf
 >rt 12.4346261146714
 
 >ms1
-528.3091 100
 
 >ms2
 53.0376 27
@@ -109378,99 +107741,98 @@
 
 >compound FTneg5127
 >ionization [M+?]-
->parentmass 389.228708239532
+>parentmass Inf
 >rt 6.91600336086908
 
 >ms1
-389.2287 100
+
 
 >ms2
 389.2287 100
 
 >compound FTneg5128
 >ionization [M+?]-
->parentmass 390.107294428828
+>parentmass Inf
 >rt 2.98137232044381
 
 >ms1
-390.1073 100
+
 
 >ms2
 390.1073 100
 
 >compound FTneg5129
 >ionization [M+?]-
->parentmass 391.073902217006
+>parentmass Inf
 >rt 9.8690819097145
 
 >ms1
-391.0739 100
+
 
 >ms2
 391.0739 100
 
 >compound FTneg5130
 >ionization [M+?]-
->parentmass 513.939627123866
+>parentmass Inf
 >rt 9.74953273514189
 
 >ms1
-513.9396 100
+
 
 >ms2
 513.9396 100
 
 >compound FTneg5131
 >ionization [M+?]-
->parentmass 704.012460463572
+>parentmass Inf
 >rt 9.8079082183588
 
 >ms1
-704.0125 100
+
 
 >ms2
 704.0125 100
 
 >compound FTneg5132
 >ionization [M+?]-
->parentmass 391.139407446936
+>parentmass Inf
 >rt 7.86345416666658
 
 >ms1
-391.1394 100
+
 
 >ms2
 391.1394 100
 
 >compound FTneg5133
 >ionization [M+?]-
->parentmass 401.202874244319
+>parentmass Inf
 >rt 7.89853206027571
 
 >ms1
-401.2029 100
+
 
 >ms2
 401.2029 100
 
 >compound FTneg5134
 >ionization [M+?]-
->parentmass 592.32532186418
+>parentmass Inf
 >rt 7.93840857380895
 
 >ms1
-592.3253 100
+
 
 >ms2
 592.3253 100
 
 >compound FTneg5135
 >ionization [M+?]-
->parentmass 391.285087852203
+>parentmass Inf
 >rt 11.4327592981267
 
 >ms1
-391.2851 100
 
 >ms2
 55.0533 4
@@ -109490,110 +107852,108 @@
 
 >compound FTneg5136
 >ionization [M+?]-
->parentmass 391.285119854788
+>parentmass Inf
 >rt 10.8094205498278
 
 >ms1
-391.2851 100
 
 >ms2
 61.0489 40
 
 >compound FTneg5137
 >ionization [M+?]-
->parentmass 392.100911374298
+>parentmass Inf
 >rt 2.95545363110201
 
 >ms1
-392.1009 100
+
 
 >ms2
 392.1009 100
 
 >compound FTneg5138
 >ionization [M+?]-
->parentmass 445.196128400856
+>parentmass Inf
 >rt 2.86203039058966
 
 >ms1
-445.1961 100
+
 
 >ms2
 445.1961 100
 
 >compound FTneg5139
 >ionization [M+?]-
->parentmass 514.543173028245
+>parentmass Inf
 >rt 2.87435757575755
 
 >ms1
-514.5432 100
+
 
 >ms2
 514.5432 100
 
 >compound FTneg5140
 >ionization [M+?]-
->parentmass 392.651056944502
+>parentmass Inf
 >rt 4.38201578947368
 
 >ms1
-392.6511 100
+
 
 >ms2
 392.6511 100
 
 >compound FTneg5141
 >ionization [M+?]-
->parentmass 393.199484268608
+>parentmass Inf
 >rt 12.0316416666667
 
 >ms1
-393.1995 100
+
 
 >ms2
 393.1995 100
 
 >compound FTneg5142
 >ionization [M+?]-
->parentmass 393.263999241649
+>parentmass Inf
 >rt 9.78205827943433
 
 >ms1
-393.264 100
+
 
 >ms2
 393.264 100
 
 >compound FTneg5143
 >ionization [M+?]-
->parentmass 395.088374648666
+>parentmass Inf
 >rt 8.33080116467329
 
 >ms1
-395.0884 100
+
 
 >ms2
 395.0884 100
 
 >compound FTneg5144
 >ionization [M+?]-
->parentmass 529.24876178595
+>parentmass Inf
 >rt 8.31451169268362
 
 >ms1
-529.2488 100
+
 
 >ms2
 529.2488 100
 
 >compound FTneg5145
 >ionization [M+?]-
->parentmass 395.243573950323
+>parentmass Inf
 >rt 9.83724681403898
 
 >ms1
-395.2436 100
 
 >ms2
 51.02 20
@@ -109616,44 +107976,43 @@
 
 >compound FTneg5146
 >ionization [M+?]-
->parentmass 446.035005095927
+>parentmass Inf
 >rt 9.73239686381807
 
 >ms1
-446.035 100
+
 
 >ms2
 446.035 100
 
 >compound FTneg5147
 >ionization [M+?]-
->parentmass 515.93663560856
+>parentmass Inf
 >rt 9.89079966144141
 
 >ms1
-515.9366 100
+
 
 >ms2
 515.9366 100
 
 >compound FTneg5148
 >ionization [M+?]-
->parentmass 703.019030795677
+>parentmass Inf
 >rt 9.80421963206748
 
 >ms1
-703.019 100
+
 
 >ms2
 703.019 100
 
 >compound FTneg5149
 >ionization [M+?]-
->parentmass 399.274889148148
+>parentmass Inf
 >rt 13.3377819855666
 
 >ms1
-399.2749 100
 
 >ms2
 55.0541 40
@@ -109666,11 +108025,10 @@
 
 >compound FTneg5150
 >ionization [M+?]-
->parentmass 918.606100310585
+>parentmass Inf
 >rt 13.3391452877206
 
 >ms1
-918.6061 100
 
 >ms2
 71.0847 40
@@ -109679,44 +108037,43 @@
 
 >compound FTneg5151
 >ionization [M+?]-
->parentmass 400.032225802302
+>parentmass Inf
 >rt 10.7186111197109
 
 >ms1
-400.0322 100
+
 
 >ms2
 400.0322 100
 
 >compound FTneg5152
 >ionization [M+?]-
->parentmass 401.158343561617
+>parentmass Inf
 >rt 15.0069777777777
 
 >ms1
-401.1583 100
+
 
 >ms2
 401.1583 100
 
 >compound FTneg5153
 >ionization [M+?]-
->parentmass 403.269321611617
+>parentmass Inf
 >rt 10.0650300543611
 
 >ms1
-403.2693 100
+
 
 >ms2
 403.2693 100
 
 >compound FTneg5154
 >ionization [M+?]-
->parentmass 405.264294950353
+>parentmass Inf
 >rt 10.6131442557006
 
 >ms1
-405.2643 100
 
 >ms2
 51.0208 40
@@ -109772,22 +108129,21 @@
 
 >compound FTneg5155
 >ionization [M+?]-
->parentmass 407.164836105704
+>parentmass Inf
 >rt 6.49703810312714
 
 >ms1
-407.1648 100
+
 
 >ms2
 407.1648 100
 
 >compound FTneg5156
 >ionization [M+?]-
->parentmass 407.279082086479
+>parentmass Inf
 >rt 10.1865033554761
 
 >ms1
-407.2791 100
 
 >ms2
 51.9383 4
@@ -109846,11 +108202,10 @@
 
 >compound FTneg5157
 >ionization [M+?]-
->parentmass 453.285530979694
+>parentmass Inf
 >rt 10.3084787861583
 
 >ms1
-453.2855 100
 
 >ms2
 55.0177 4
@@ -109869,11 +108224,10 @@
 
 >compound FTneg5158
 >ionization [M+?]-
->parentmass 815.567482082089
+>parentmass Inf
 >rt 10.339477172041
 
 >ms1
-815.5675 100
 
 >ms2
 68.8499 56
@@ -109922,11 +108276,10 @@
 
 >compound FTneg5159
 >ionization [M+?]-
->parentmass 408.28362167876
+>parentmass Inf
 >rt 10.3876101003091
 
 >ms1
-408.2836 100
 
 >ms2
 55.0548 80
@@ -109938,11 +108291,10 @@
 
 >compound FTneg5160
 >ionization [M+?]-
->parentmass 443.256695004728
+>parentmass Inf
 >rt 10.2819608653354
 
 >ms1
-443.2567 100
 
 >ms2
 50.9851 40
@@ -109995,22 +108347,20 @@
 
 >compound FTneg5161
 >ionization [M+?]-
->parentmass 443.256796519346
+>parentmass Inf
 >rt 10.391476640618
 
 >ms1
-443.2568 100
 
 >ms2
 60.0374 40
 
 >compound FTneg5162
 >ionization [M+?]-
->parentmass 445.254702791104
+>parentmass Inf
 >rt 10.3528264793686
 
 >ms1
-445.2547 100
 
 >ms2
 53.0377 8
@@ -110067,11 +108417,10 @@
 
 >compound FTneg5163
 >ionization [M+?]-
->parentmass 453.256384962265
+>parentmass Inf
 >rt 10.3000679812326
 
 >ms1
-453.2564 100
 
 >ms2
 57.0326 40
@@ -110079,11 +108428,10 @@
 
 >compound FTneg5164
 >ionization [M+?]-
->parentmass 470.275836745264
+>parentmass Inf
 >rt 10.3267094214542
 
 >ms1
-470.2758 100
 
 >ms2
 55.0526 40
@@ -110097,11 +108445,10 @@
 
 >compound FTneg5165
 >ionization [M+?]-
->parentmass 475.267539828964
+>parentmass Inf
 >rt 10.3936170826222
 
 >ms1
-475.2675 100
 
 >ms2
 52.0037 40
@@ -110126,11 +108473,10 @@
 
 >compound FTneg5166
 >ionization [M+?]-
->parentmass 476.271109958781
+>parentmass Inf
 >rt 10.3419984424903
 
 >ms1
-476.2711 100
 
 >ms2
 75.0295 41
@@ -110139,11 +108485,10 @@
 
 >compound FTneg5167
 >ionization [M+?]-
->parentmass 503.267894920633
+>parentmass Inf
 >rt 10.3849173710324
 
 >ms1
-503.2679 100
 
 >ms2
 57.0695 40
@@ -110166,11 +108511,10 @@
 
 >compound FTneg5168
 >ionization [M+?]-
->parentmass 553.210425325437
+>parentmass Inf
 >rt 10.3270090848917
 
 >ms1
-553.2104 100
 
 >ms2
 53.0384 13
@@ -110194,11 +108538,10 @@
 
 >compound FTneg5169
 >ionization [M+?]-
->parentmass 409.286341117987
+>parentmass Inf
 >rt 10.3875746496501
 
 >ms1
-409.2863 100
 
 >ms2
 69.0687 40
@@ -110206,22 +108549,21 @@
 
 >compound FTneg5170
 >ionization [M+?]-
->parentmass 410.141344035081
+>parentmass Inf
 >rt 9.23757708333338
 
 >ms1
-410.1413 100
+
 
 >ms2
 410.1413 100
 
 >compound FTneg5171
 >ionization [M+?]-
->parentmass 415.215838504813
+>parentmass Inf
 >rt 9.55278363026406
 
 >ms1
-415.2158 100
 
 >ms2
 57.0696 40
@@ -110238,66 +108580,65 @@
 
 >compound FTneg5172
 >ionization [M+?]-
->parentmass 422.161517168379
+>parentmass Inf
 >rt 9.6094931748438
 
 >ms1
-422.1615 100
+
 
 >ms2
 422.1615 100
 
 >compound FTneg5173
 >ionization [M+?]-
->parentmass 424.278604777402
+>parentmass Inf
 >rt 10.3041762904412
 
 >ms1
-424.2786 100
+
 
 >ms2
 424.2786 100
 
 >compound FTneg5174
 >ionization [M+?]-
->parentmass 550.150612115637
+>parentmass Inf
 >rt 5.96255226894423
 
 >ms1
-550.1506 100
+
 
 >ms2
 550.1506 100
 
 >compound FTneg5175
 >ionization [M+?]-
->parentmass 428.074234351435
+>parentmass Inf
 >rt 5.94233387828633
 
 >ms1
-428.0742 100
+
 
 >ms2
 428.0742 100
 
 >compound FTneg5176
 >ionization [M+?]-
->parentmass 428.817541888681
+>parentmass Inf
 >rt 7.46717565881018
 
 >ms1
-428.8175 100
+
 
 >ms2
 428.8175 100
 
 >compound FTneg5177
 >ionization [M+?]-
->parentmass 485.156559711032
+>parentmass Inf
 >rt 7.48400706564456
 
 >ms1
-485.1566 100
 
 >ms2
 50.9807 40
@@ -110317,11 +108658,10 @@
 
 >compound FTneg5178
 >ionization [M+?]-
->parentmass 462.298653639039
+>parentmass Inf
 >rt 12.5909345520988
 
 >ms1
-462.2987 100
 
 >ms2
 55.0426 40
@@ -110343,11 +108683,10 @@
 
 >compound FTneg5179
 >ionization [M+?]-
->parentmass 428.988192028045
+>parentmass Inf
 >rt 12.4980429321272
 
 >ms1
-428.9882 100
 
 >ms2
 52.2483 20
@@ -110401,22 +108740,20 @@
 
 >compound FTneg5180
 >ionization [M+?]-
->parentmass 483.272470535257
+>parentmass Inf
 >rt 12.5873102076525
 
 >ms1
-483.2725 100
 
 >ms2
 66.0385 4
 
 >compound FTneg5181
 >ionization [M+?]-
->parentmass 504.309074308554
+>parentmass Inf
 >rt 12.5816511054672
 
 >ms1
-504.3091 100
 
 >ms2
 57.0696 8
@@ -110435,55 +108772,53 @@
 
 >compound FTneg5182
 >ionization [M+?]-
->parentmass 428.988319353663
+>parentmass Inf
 >rt 10.3566222222222
 
 >ms1
-428.9883 100
+
 
 >ms2
 428.9883 100
 
 >compound FTneg5183
 >ionization [M+?]-
->parentmass 430.223172647127
+>parentmass Inf
 >rt 2.84800866096179
 
 >ms1
-430.2232 100
+
 
 >ms2
 430.2232 100
 
 >compound FTneg5184
 >ionization [M+?]-
->parentmass 431.259452755491
+>parentmass Inf
 >rt 13.9154812333189
 
 >ms1
-431.2595 100
 
 >ms2
 50.004 40
 
 >compound FTneg5185
 >ionization [M+?]-
->parentmass 850.559579197249
+>parentmass Inf
 >rt 14.7520203743356
 
 >ms1
-850.5596 100
+
 
 >ms2
 850.5596 100
 
 >compound FTneg5186
 >ionization [M+?]-
->parentmass 431.259477415713
+>parentmass Inf
 >rt 14.7644087382468
 
 >ms1
-431.2595 100
 
 >ms2
 54.9994 80
@@ -110538,11 +108873,10 @@
 
 >compound FTneg5187
 >ionization [M+?]-
->parentmass 819.549372010516
+>parentmass Inf
 >rt 14.6677928758488
 
 >ms1
-819.5494 100
 
 >ms2
 50.0127 8
@@ -110552,11 +108886,10 @@
 
 >compound FTneg5188
 >ionization [M+?]-
->parentmass 776.544496064584
+>parentmass Inf
 >rt 14.6814021472423
 
 >ms1
-776.5445 100
 
 >ms2
 55.054 40
@@ -110567,11 +108900,10 @@
 
 >compound FTneg5189
 >ionization [M+?]-
->parentmass 779.562082095039
+>parentmass Inf
 >rt 14.6669667429038
 
 >ms1
-779.5621 100
 
 >ms2
 57.0318 4
@@ -110593,11 +108925,10 @@
 
 >compound FTneg5190
 >ionization [M+?]-
->parentmass 793.534557881529
+>parentmass Inf
 >rt 14.7128129161124
 
 >ms1
-793.5346 100
 
 >ms2
 57.0703 4
@@ -110630,11 +108961,10 @@
 
 >compound FTneg5191
 >ionization [M+?]-
->parentmass 805.577568347598
+>parentmass Inf
 >rt 14.7870206450921
 
 >ms1
-805.5776 100
 
 >ms2
 54.0456 40
@@ -110655,11 +108985,10 @@
 
 >compound FTneg5192
 >ionization [M+?]-
->parentmass 831.593900774692
+>parentmass Inf
 >rt 14.7040458664368
 
 >ms1
-831.5939 100
 
 >ms2
 60.0817 80
@@ -110681,11 +109010,10 @@
 
 >compound FTneg5193
 >ionization [M+?]-
->parentmass 854.589987846229
+>parentmass Inf
 >rt 14.7611145784029
 
 >ms1
-854.59 100
 
 >ms2
 50.6578 40
@@ -111106,22 +109434,21 @@
 
 >compound FTneg5194
 >ionization [M+?]-
->parentmass 864.57542483987
+>parentmass Inf
 >rt 14.7183953759019
 
 >ms1
-864.5754 100
+
 
 >ms2
 864.5754 100
 
 >compound FTneg5195
 >ionization [M+?]-
->parentmass 871.550552676168
+>parentmass Inf
 >rt 14.6952729671335
 
 >ms1
-871.5506 100
 
 >ms2
 55.0534 80
@@ -111307,22 +109634,21 @@
 
 >compound FTneg5196
 >ionization [M+?]-
->parentmass 898.576091798846
+>parentmass Inf
 >rt 14.7205466666667
 
 >ms1
-898.5761 100
+
 
 >ms2
 898.5761 100
 
 >compound FTneg5197
 >ionization [M+?]-
->parentmass 566.345763733097
+>parentmass Inf
 >rt 14.2709591067616
 
 >ms1
-566.3458 100
 
 >ms2
 55.0533 80
@@ -111455,11 +109781,10 @@
 
 >compound FTneg5198
 >ionization [M+?]-
->parentmass 540.330309985343
+>parentmass Inf
 >rt 14.4580880004379
 
 >ms1
-540.3303 100
 
 >ms2
 55.0532 4
@@ -111492,11 +109817,10 @@
 
 >compound FTneg5199
 >ionization [M+?]-
->parentmass 431.259553180112
+>parentmass Inf
 >rt 14.2570357573047
 
 >ms1
-431.2596 100
 
 >ms2
 57.0148 80
@@ -111526,11 +109850,10 @@
 
 >compound FTneg5200
 >ionization [M+?]-
->parentmass 556.317239861259
+>parentmass Inf
 >rt 14.3078703846505
 
 >ms1
-556.3172 100
 
 >ms2
 55.0275 40
@@ -111555,11 +109878,10 @@
 
 >compound FTneg5201
 >ionization [M+?]-
->parentmass 558.316693587291
+>parentmass Inf
 >rt 14.3234852672989
 
 >ms1
-558.3167 100
 
 >ms2
 53.0384 40
@@ -111606,11 +109928,10 @@
 
 >compound FTneg5202
 >ionization [M+?]-
->parentmass 566.312508652033
+>parentmass Inf
 >rt 14.3169668786955
 
 >ms1
-566.3125 100
 
 >ms2
 55.0533 80
@@ -111653,11 +109974,10 @@
 
 >compound FTneg5203
 >ionization [M+?]-
->parentmass 567.316760882905
+>parentmass Inf
 >rt 14.2990550219677
 
 >ms1
-567.3168 100
 
 >ms2
 55.0283 13
@@ -111678,11 +109998,10 @@
 
 >compound FTneg5204
 >ionization [M+?]-
->parentmass 583.336015473001
+>parentmass Inf
 >rt 14.2900694132806
 
 >ms1
-583.336 100
 
 >ms2
 62.9817 41
@@ -111694,11 +110013,10 @@
 
 >compound FTneg5205
 >ionization [M+?]-
->parentmass 616.361551528502
+>parentmass Inf
 >rt 14.2500581098135
 
 >ms1
-616.3616 100
 
 >ms2
 55.0192 40
@@ -111729,11 +110047,10 @@
 
 >compound FTneg5206
 >ionization [M+?]-
->parentmass 634.333402151847
+>parentmass Inf
 >rt 14.320991677525
 
 >ms1
-634.3334 100
 
 >ms2
 50.0596 40
@@ -111803,11 +110120,10 @@
 
 >compound FTneg5207
 >ionization [M+?]-
->parentmass 635.336304168158
+>parentmass Inf
 >rt 14.3528427193937
 
 >ms1
-635.3363 100
 
 >ms2
 62.7002 40
@@ -111816,11 +110132,10 @@
 
 >compound FTneg5208
 >ionization [M+?]-
->parentmass 552.330327338492
+>parentmass Inf
 >rt 13.4843876008869
 
 >ms1
-552.3303 100
 
 >ms2
 62.5297 40
@@ -111841,11 +110156,10 @@
 
 >compound FTneg5209
 >ionization [M+?]-
->parentmass 431.259562082751
+>parentmass Inf
 >rt 13.391190540419
 
 >ms1
-431.2596 100
 
 >ms2
 50.9997 13
@@ -111877,11 +110191,10 @@
 
 >compound FTneg5210
 >ionization [M+?]-
->parentmass 604.317778359005
+>parentmass Inf
 >rt 13.5491539871523
 
 >ms1
-604.3178 100
 
 >ms2
 55.0548 80
@@ -111910,11 +110223,10 @@
 
 >compound FTneg5211
 >ionization [M+?]-
->parentmass 802.559456651597
+>parentmass Inf
 >rt 14.452656360199
 
 >ms1
-802.5595 100
 
 >ms2
 60.0793 120
@@ -111942,11 +110254,10 @@
 
 >compound FTneg5212
 >ionization [M+?]-
->parentmass 830.590506691504
+>parentmass Inf
 >rt 14.5211570950006
 
 >ms1
-830.5905 100
 
 >ms2
 55.0199 8
@@ -111984,11 +110295,10 @@
 
 >compound FTneg5213
 >ionization [M+?]-
->parentmass 745.549868672034
+>parentmass Inf
 >rt 14.5433624724638
 
 >ms1
-745.5499 100
 
 >ms2
 59.043 10
@@ -112017,11 +110327,10 @@
 
 >compound FTneg5214
 >ionization [M+?]-
->parentmass 826.559424683635
+>parentmass Inf
 >rt 14.5934128772199
 
 >ms1
-826.5594 100
 
 >ms2
 57.0788 40
@@ -112052,11 +110361,10 @@
 
 >compound FTneg5215
 >ionization [M+?]-
->parentmass 850.559800536564
+>parentmass Inf
 >rt 14.4454811352894
 
 >ms1
-850.5598 100
 
 >ms2
 56.049 80
@@ -112129,11 +110437,10 @@
 
 >compound FTneg5216
 >ionization [M+?]-
->parentmass 855.593681787731
+>parentmass Inf
 >rt 14.4787033783572
 
 >ms1
-855.5937 100
 
 >ms2
 64.9494 40
@@ -112156,11 +110463,10 @@
 
 >compound FTneg5217
 >ionization [M+?]-
->parentmass 878.590276114415
+>parentmass Inf
 >rt 14.7196639677256
 
 >ms1
-878.5903 100
 
 >ms2
 50.0163 20
@@ -112535,11 +110841,10 @@
 
 >compound FTneg5218
 >ionization [M+?]-
->parentmass 432.262231664105
+>parentmass Inf
 >rt 14.5408641401479
 
 >ms1
-432.2622 100
 
 >ms2
 53.0406 40
@@ -112561,11 +110866,10 @@
 
 >compound FTneg5219
 >ionization [M+?]-
->parentmass 565.333336818897
+>parentmass Inf
 >rt 14.5356590446536
 
 >ms1
-565.3333 100
 
 >ms2
 55.0548 8
@@ -112594,11 +110898,10 @@
 
 >compound FTneg5220
 >ionization [M+?]-
->parentmass 588.330369419501
+>parentmass Inf
 >rt 14.5927936412311
 
 >ms1
-588.3304 100
 
 >ms2
 109.1144 40
@@ -112606,11 +110909,10 @@
 
 >compound FTneg5221
 >ionization [M+?]-
->parentmass 777.547584690176
+>parentmass Inf
 >rt 14.6278750507806
 
 >ms1
-777.5476 100
 
 >ms2
 85.1007 40
@@ -112621,11 +110923,10 @@
 
 >compound FTneg5222
 >ionization [M+?]-
->parentmass 778.558062132783
+>parentmass Inf
 >rt 14.6179261689584
 
 >ms1
-778.5581 100
 
 >ms2
 55.054 40
@@ -112633,11 +110934,10 @@
 
 >compound FTneg5223
 >ionization [M+?]-
->parentmass 800.544287811321
+>parentmass Inf
 >rt 14.5584359060247
 
 >ms1
-800.5443 100
 
 >ms2
 55.0487 40
@@ -112755,11 +111055,10 @@
 
 >compound FTneg5224
 >ionization [M+?]-
->parentmass 825.547531052629
+>parentmass Inf
 >rt 14.5544947877712
 
 >ms1
-825.5475 100
 
 >ms2
 57.0341 8
@@ -112783,11 +111082,10 @@
 
 >compound FTneg5225
 >ionization [M+?]-
->parentmass 829.578011299037
+>parentmass Inf
 >rt 14.5048907971708
 
 >ms1
-829.578 100
 
 >ms2
 55.0556 120
@@ -112848,11 +111146,10 @@
 
 >compound FTneg5226
 >ionization [M+?]-
->parentmass 847.580830606115
+>parentmass Inf
 >rt 14.6048670245582
 
 >ms1
-847.5808 100
 
 >ms2
 55.0169 40
@@ -113102,11 +111399,10 @@
 
 >compound FTneg5227
 >ionization [M+?]-
->parentmass 848.544359718595
+>parentmass Inf
 >rt 14.4819770190144
 
 >ms1
-848.5444 100
 
 >ms2
 60.0841 40
@@ -113115,11 +111411,10 @@
 
 >compound FTneg5228
 >ionization [M+?]-
->parentmass 849.54787577509
+>parentmass Inf
 >rt 14.5048216107249
 
 >ms1
-849.5479 100
 
 >ms2
 55.0526 120
@@ -113251,11 +111546,10 @@
 
 >compound FTneg5229
 >ionization [M+?]-
->parentmass 851.563320274813
+>parentmass Inf
 >rt 14.4415513212911
 
 >ms1
-851.5633 100
 
 >ms2
 73.0434 8
@@ -113275,11 +111569,10 @@
 
 >compound FTneg5230
 >ionization [M+?]-
->parentmass 858.616382479644
+>parentmass Inf
 >rt 14.6484771417826
 
 >ms1
-858.6164 100
 
 >ms2
 57.0688 20
@@ -113318,11 +111611,10 @@
 
 >compound FTneg5231
 >ionization [M+?]-
->parentmass 870.547659877475
+>parentmass Inf
 >rt 14.6599817997797
 
 >ms1
-870.5477 100
 
 >ms2
 60.081 40
@@ -113336,11 +111628,10 @@
 
 >compound FTneg5232
 >ionization [M+?]-
->parentmass 874.560181463119
+>parentmass Inf
 >rt 14.5535762235756
 
 >ms1
-874.5602 100
 
 >ms2
 89.0579 40
@@ -113352,11 +111643,10 @@
 
 >compound FTneg5233
 >ionization [M+?]-
->parentmass 875.563596086377
+>parentmass Inf
 >rt 14.5640674486057
 
 >ms1
-875.5636 100
 
 >ms2
 55.0541 40
@@ -113414,11 +111704,10 @@
 
 >compound FTneg5234
 >ionization [M+?]-
->parentmass 876.574445733139
+>parentmass Inf
 >rt 14.5343006311652
 
 >ms1
-876.5744 100
 
 >ms2
 59.0421 40
@@ -113462,11 +111751,10 @@
 
 >compound FTneg5235
 >ionization [M+?]-
->parentmass 877.578920148781
+>parentmass Inf
 >rt 14.5427818463299
 
 >ms1
-877.5789 100
 
 >ms2
 50.3901 40
@@ -113809,11 +112097,10 @@
 
 >compound FTneg5236
 >ionization [M+?]-
->parentmass 433.260834108705
+>parentmass Inf
 >rt 14.6479072991918
 
 >ms1
-433.2608 100
 
 >ms2
 56.964 120
@@ -113827,11 +112114,10 @@
 
 >compound FTneg5237
 >ionization [M+?]-
->parentmass 554.381751528781
+>parentmass Inf
 >rt 14.5173295538908
 
 >ms1
-554.3818 100
 
 >ms2
 54.6557 40
@@ -113850,33 +112136,32 @@
 
 >compound FTneg5238
 >ionization [M+?]-
->parentmass 433.979562345526
+>parentmass Inf
 >rt 9.40788982688703
 
 >ms1
-433.9796 100
+
 
 >ms2
 433.9796 100
 
 >compound FTneg5239
 >ionization [M+?]-
->parentmass 434.189744723329
+>parentmass Inf
 >rt 10.0665602564103
 
 >ms1
-434.1897 100
+
 
 >ms2
 434.1897 100
 
 >compound FTneg5240
 >ionization [M+?]-
->parentmass 436.283062353794
+>parentmass Inf
 >rt 12.4193224176703
 
 >ms1
-436.2831 100
 
 >ms2
 51.9419 20
@@ -113895,33 +112180,30 @@
 
 >compound FTneg5241
 >ionization [M+?]-
->parentmass 472.881972576961
+>parentmass Inf
 >rt 12.4188678666019
 
 >ms1
-472.882 100
 
 >ms2
 53.9383 4
 
 >compound FTneg5242
 >ionization [M+?]-
->parentmass 474.879056144928
+>parentmass Inf
 >rt 12.4164833948797
 
 >ms1
-474.8791 100
 
 >ms2
 70.0654 40
 
 >compound FTneg5243
 >ionization [M+?]-
->parentmass 476.876060739404
+>parentmass Inf
 >rt 12.4161454852409
 
 >ms1
-476.8761 100
 
 >ms2
 53.9354 40
@@ -113929,11 +112211,10 @@
 
 >compound FTneg5244
 >ionization [M+?]-
->parentmass 820.186618504708
+>parentmass Inf
 >rt 15.8640761794146
 
 >ms1
-820.1866 100
 
 >ms2
 50.0141 40
@@ -114233,11 +112514,10 @@
 
 >compound FTneg5245
 >ionization [M+?]-
->parentmass 675.517785027935
+>parentmass Inf
 >rt 15.8464861469046
 
 >ms1
-675.5178 100
 
 >ms2
 55.0553 120
@@ -114439,11 +112719,10 @@
 
 >compound FTneg5246
 >ionization [M+?]-
->parentmass 803.196319648271
+>parentmass Inf
 >rt 15.8554281903473
 
 >ms1
-803.1963 100
 
 >ms2
 56.0559 40
@@ -114477,11 +112756,10 @@
 
 >compound FTneg5247
 >ionization [M+?]-
->parentmass 441.202813237881
+>parentmass Inf
 >rt 15.8637586900398
 
 >ms1
-441.2028 100
 
 >ms2
 59.0304 60
@@ -114490,88 +112768,87 @@
 
 >compound FTneg5248
 >ionization [M+?]-
->parentmass 807.194361982828
+>parentmass Inf
 >rt 15.863435163073
 
 >ms1
-807.1944 100
+
 
 >ms2
 807.1944 100
 
 >compound FTneg5249
 >ionization [M+?]-
->parentmass 823.18564103011
+>parentmass Inf
 >rt 15.8665475983003
 
 >ms1
-823.1856 100
+
 
 >ms2
 823.1856 100
 
 >compound FTneg5250
 >ionization [M+?]-
->parentmass 445.191448742647
+>parentmass Inf
 >rt 7.61301145563071
 
 >ms1
-445.1914 100
+
 
 >ms2
 445.1914 100
 
 >compound FTneg5251
 >ionization [M+?]-
->parentmass 450.166252643513
+>parentmass Inf
 >rt 8.62022332295594
 
 >ms1
-450.1663 100
+
 
 >ms2
 450.1663 100
 
 >compound FTneg5252
 >ionization [M+?]-
->parentmass 451.036407302872
+>parentmass Inf
 >rt 3.39938260756851
 
 >ms1
-451.0364 100
+
 
 >ms2
 451.0364 100
 
 >compound FTneg5253
 >ionization [M+?]-
->parentmass 580.161178578315
+>parentmass Inf
 >rt 3.40309605149942
 
 >ms1
-580.1612 100
+
 
 >ms2
 580.1612 100
 
 >compound FTneg5254
 >ionization [M+?]-
->parentmass 776.200017937843
+>parentmass Inf
 >rt 3.39000641957714
 
 >ms1
-776.2 100
+
 
 >ms2
 776.2 100
 
 >compound FTneg5255
 >ionization [M+?]-
->parentmass 455.316326646568
+>parentmass Inf
 >rt 12.2953637179701
 
 >ms1
-455.3163 100
 
 >ms2
 50.0148 4
@@ -114588,11 +112865,10 @@
 
 >compound FTneg5256
 >ionization [M+?]-
->parentmass 501.321647988722
+>parentmass Inf
 >rt 12.302424446369
 
 >ms1
-501.3216 100
 
 >ms2
 57.0719 40
@@ -114601,11 +112877,10 @@
 
 >compound FTneg5257
 >ionization [M+?]-
->parentmass 596.384300342521
+>parentmass Inf
 >rt 12.3144970675141
 
 >ms1
-596.3843 100
 
 >ms2
 55.9348 28
@@ -114614,44 +112889,43 @@
 
 >compound FTneg5258
 >ionization [M+?]-
->parentmass 460.236764597772
+>parentmass Inf
 >rt 10.124851341925
 
 >ms1
-460.2368 100
+
 
 >ms2
 460.2368 100
 
 >compound FTneg5259
 >ionization [M+?]-
->parentmass 648.024008004384
+>parentmass Inf
 >rt 10.2342784722222
 
 >ms1
-648.024 100
+
 
 >ms2
 648.024 100
 
 >compound FTneg5260
 >ionization [M+?]-
->parentmass 463.957577773548
+>parentmass Inf
 >rt 9.01609348468908
 
 >ms1
-463.9576 100
+
 
 >ms2
 463.9576 100
 
 >compound FTneg5261
 >ionization [M+?]-
->parentmass 464.218842473943
+>parentmass Inf
 >rt 10.7044548776362
 
 >ms1
-464.2188 100
 
 >ms2
 80.9473 2040
@@ -114676,11 +112950,10 @@
 
 >compound FTneg5262
 >ionization [M+?]-
->parentmass 465.304128001444
+>parentmass Inf
 >rt 14.6269303102605
 
 >ms1
-465.3041 100
 
 >ms2
 55.0216 40
@@ -114776,11 +113049,10 @@
 
 >compound FTneg5263
 >ionization [M+?]-
->parentmass 788.524307473874
+>parentmass Inf
 >rt 14.6102532415763
 
 >ms1
-788.5243 100
 
 >ms2
 51.0348 4
@@ -114819,33 +113091,32 @@
 
 >compound FTneg5264
 >ionization [M+?]-
->parentmass 465.908401130487
+>parentmass Inf
 >rt 2.38685625
 
 >ms1
-465.9084 100
+
 
 >ms2
 465.9084 100
 
 >compound FTneg5265
 >ionization [M+?]-
->parentmass 466.636455274681
+>parentmass Inf
 >rt 2.43566568627447
 
 >ms1
-466.6365 100
+
 
 >ms2
 466.6365 100
 
 >compound FTneg5266
 >ionization [M+?]-
->parentmass 466.329812714409
+>parentmass Inf
 >rt 13.40106177956
 
 >ms1
-466.3298 100
 
 >ms2
 55.054 40
@@ -114857,44 +113128,43 @@
 
 >compound FTneg5267
 >ionization [M+?]-
->parentmass 590.345641724261
+>parentmass Inf
 >rt 18.4507149462589
 
 >ms1
-590.3456 100
+
 
 >ms2
 590.3456 100
 
 >compound FTneg5268
 >ionization [M+?]-
->parentmass 467.819818435963
+>parentmass Inf
 >rt 18.5080781912355
 
 >ms1
-467.8198 100
+
 
 >ms2
 467.8198 100
 
 >compound FTneg5269
 >ionization [M+?]-
->parentmass 589.333989202248
+>parentmass Inf
 >rt 18.4801570860662
 
 >ms1
-589.334 100
+
 
 >ms2
 589.334 100
 
 >compound FTneg5270
 >ionization [M+?]-
->parentmass 468.332739446044
+>parentmass Inf
 >rt 12.8921189505296
 
 >ms1
-468.3327 100
 
 >ms2
 55.0601 40
@@ -114906,11 +113176,10 @@
 
 >compound FTneg5271
 >ionization [M+?]-
->parentmass 470.348472953288
+>parentmass Inf
 >rt 13.4161138238978
 
 >ms1
-470.3485 100
 
 >ms2
 51.0238 20
@@ -114946,22 +113215,21 @@
 
 >compound FTneg5272
 >ionization [M+?]-
->parentmass 470.549699113748
+>parentmass Inf
 >rt 4.22912179487185
 
 >ms1
-470.5497 100
+
 
 >ms2
 470.5497 100
 
 >compound FTneg5273
 >ionization [M+?]-
->parentmass 885.549248425625
+>parentmass Inf
 >rt 14.9785528664042
 
 >ms1
-885.5492 100
 
 >ms2
 55.0533 4
@@ -115051,11 +113319,10 @@
 
 >compound FTneg5274
 >ionization [M+?]-
->parentmass 473.282146527978
+>parentmass Inf
 >rt 14.9966754651345
 
 >ms1
-473.2821 100
 
 >ms2
 51.9846 4
@@ -115065,11 +113332,10 @@
 
 >compound FTneg5275
 >ionization [M+?]-
->parentmass 843.549850016424
+>parentmass Inf
 >rt 15.0313083872272
 
 >ms1
-843.5499 100
 
 >ms2
 55.0525 80
@@ -115449,11 +113715,10 @@
 
 >compound FTneg5276
 >ionization [M+?]-
->parentmass 852.574459123248
+>parentmass Inf
 >rt 14.9797744101733
 
 >ms1
-852.5745 100
 
 >ms2
 55.0549 40
@@ -115492,11 +113757,10 @@
 
 >compound FTneg5277
 >ionization [M+?]-
->parentmass 473.282304085924
+>parentmass Inf
 >rt 13.3800435961497
 
 >ms1
-473.2823 100
 
 >ms2
 55.0541 13
@@ -115518,22 +113782,21 @@
 
 >compound FTneg5278
 >ionization [M+?]-
->parentmass 589.333941610864
+>parentmass Inf
 >rt 13.5010301460503
 
 >ms1
-589.3339 100
+
 
 >ms2
 589.3339 100
 
 >compound FTneg5279
 >ionization [M+?]-
->parentmass 633.320853205294
+>parentmass Inf
 >rt 13.3414136598919
 
 >ms1
-633.3209 100
 
 >ms2
 57.0341 40
@@ -115585,11 +113848,10 @@
 
 >compound FTneg5280
 >ionization [M+?]-
->parentmass 710.260915470784
+>parentmass Inf
 >rt 13.3519983855156
 
 >ms1
-710.2609 100
 
 >ms2
 56.0481 40
@@ -115629,11 +113891,10 @@
 
 >compound FTneg5281
 >ionization [M+?]-
->parentmass 519.332412958184
+>parentmass Inf
 >rt 10.5918069158674
 
 >ms1
-519.3324 100
 
 >ms2
 50.0148 40
@@ -115660,11 +113921,10 @@
 
 >compound FTneg5282
 >ionization [M+?]-
->parentmass 473.32643619111
+>parentmass Inf
 >rt 10.6496040991233
 
 >ms1
-473.3264 100
 
 >ms2
 51.023 20
@@ -115693,11 +113953,10 @@
 
 >compound FTneg5283
 >ionization [M+?]-
->parentmass 500.277890132009
+>parentmass Inf
 >rt 11.858524323548
 
 >ms1
-500.2779 100
 
 >ms2
 51.5118 40
@@ -115712,11 +113971,10 @@
 
 >compound FTneg5284
 >ionization [M+?]-
->parentmass 524.277904056156
+>parentmass Inf
 >rt 11.8828216447702
 
 >ms1
-524.2779 100
 
 >ms2
 55.0549 27
@@ -115735,11 +113993,10 @@
 
 >compound FTneg5285
 >ionization [M+?]-
->parentmass 476.277958367491
+>parentmass Inf
 >rt 11.8672541232554
 
 >ms1
-476.278 100
 
 >ms2
 59.0295 40
@@ -115763,11 +114020,10 @@
 
 >compound FTneg5286
 >ionization [M+?]-
->parentmass 476.248645696791
+>parentmass Inf
 >rt 11.8658463737969
 
 >ms1
-476.2486 100
 
 >ms2
 77.0145 41
@@ -115780,11 +114036,10 @@
 
 >compound FTneg5287
 >ionization [M+?]-
->parentmass 500.247377517918
+>parentmass Inf
 >rt 11.8610785290639
 
 >ms1
-500.2474 100
 
 >ms2
 55.053 53
@@ -115816,11 +114071,10 @@
 
 >compound FTneg5288
 >ionization [M+?]-
->parentmass 524.246858230455
+>parentmass Inf
 >rt 11.8837671142692
 
 >ms1
-524.2469 100
 
 >ms2
 55.054 40
@@ -115828,11 +114082,10 @@
 
 >compound FTneg5289
 >ionization [M+?]-
->parentmass 954.56569521622
+>parentmass Inf
 >rt 11.8676898336729
 
 >ms1
-954.5657 100
 
 >ms2
 53.0383 4
@@ -115858,11 +114111,10 @@
 
 >compound FTneg5290
 >ionization [M+?]-
->parentmass 978.566205938078
+>parentmass Inf
 >rt 11.8630839167768
 
 >ms1
-978.5662 100
 
 >ms2
 79.0508 40
@@ -115973,11 +114225,10 @@
 
 >compound FTneg5291
 >ionization [M+?]-
->parentmass 979.569294912189
+>parentmass Inf
 >rt 11.8632901998765
 
 >ms1
-979.5693 100
 
 >ms2
 57.0658 40
@@ -115993,11 +114244,10 @@
 
 >compound FTneg5292
 >ionization [M+?]-
->parentmass 762.507487850703
+>parentmass Inf
 >rt 14.5509733376047
 
 >ms1
-762.5075 100
 
 >ms2
 52.3552 20
@@ -116078,11 +114328,10 @@
 
 >compound FTneg5293
 >ionization [M+?]-
->parentmass 477.264932067598
+>parentmass Inf
 >rt 14.4831011905639
 
 >ms1
-477.2649 100
 
 >ms2
 57.0295 40
@@ -116111,44 +114360,43 @@
 
 >compound FTneg5294
 >ionization [M+?]-
->parentmass 479.260593845063
+>parentmass Inf
 >rt 15.7747276793631
 
 >ms1
-479.2606 100
+
 
 >ms2
 479.2606 100
 
 >compound FTneg5295
 >ionization [M+?]-
->parentmass 793.528683171742
+>parentmass Inf
 >rt 15.7482493409584
 
 >ms1
-793.5287 100
+
 
 >ms2
 793.5287 100
 
 >compound FTneg5296
 >ionization [M+?]-
->parentmass 872.579998368722
+>parentmass Inf
 >rt 15.774994163114
 
 >ms1
-872.58 100
+
 
 >ms2
 872.58 100
 
 >compound FTneg5297
 >ionization [M+?]-
->parentmass 479.354883205098
+>parentmass Inf
 >rt 14.819923134248
 
 >ms1
-479.3549 100
 
 >ms2
 62.9637 40
@@ -116170,11 +114418,10 @@
 
 >compound FTneg5298
 >ionization [M+?]-
->parentmass 762.534491427871
+>parentmass Inf
 >rt 14.7483448533211
 
 >ms1
-762.5345 100
 
 >ms2
 55.0608 40
@@ -116212,11 +114459,10 @@
 
 >compound FTneg5299
 >ionization [M+?]-
->parentmass 480.309252000376
+>parentmass Inf
 >rt 12.9675477619725
 
 >ms1
-480.3093 100
 
 >ms2
 77.0163 40
@@ -116229,11 +114475,10 @@
 
 >compound FTneg5300
 >ionization [M+?]-
->parentmass 480.279757491419
+>parentmass Inf
 >rt 12.9619572598348
 
 >ms1
-480.2798 100
 
 >ms2
 64.6824 41
@@ -116251,11 +114496,10 @@
 
 >compound FTneg5301
 >ionization [M+?]-
->parentmass 481.312569696734
+>parentmass Inf
 >rt 14.0009881524797
 
 >ms1
-481.3126 100
 
 >ms2
 53.0384 80
@@ -116302,11 +114546,10 @@
 
 >compound FTneg5302
 >ionization [M+?]-
->parentmass 609.321054341767
+>parentmass Inf
 >rt 13.9813653368713
 
 >ms1
-609.3211 100
 
 >ms2
 73.0617 40
@@ -116332,11 +114575,10 @@
 
 >compound FTneg5303
 >ionization [M+?]-
->parentmass 483.311051537015
+>parentmass Inf
 >rt 11.6009763888889
 
 >ms1
-483.3111 100
 
 >ms2
 84.043 159
@@ -116344,11 +114586,10 @@
 
 >compound FTneg5304
 >ionization [M+?]-
->parentmass 664.345998209511
+>parentmass Inf
 >rt 11.6474725888928
 
 >ms1
-664.346 100
 
 >ms2
 55.0534 40
@@ -116362,11 +114603,10 @@
 
 >compound FTneg5305
 >ionization [M+?]-
->parentmass 487.342517582735
+>parentmass Inf
 >rt 11.1159401005336
 
 >ms1
-487.3425 100
 
 >ms2
 55.0538 199
@@ -116417,11 +114657,10 @@
 
 >compound FTneg5306
 >ionization [M+?]-
->parentmass 489.277113906548
+>parentmass Inf
 >rt 15.0280392019614
 
 >ms1
-489.2771 100
 
 >ms2
 75.1187 23
@@ -116443,11 +114682,10 @@
 
 >compound FTneg5307
 >ionization [M+?]-
->parentmass 719.494612417289
+>parentmass Inf
 >rt 14.8383820492444
 
 >ms1
-719.4946 100
 
 >ms2
 60.0445 40
@@ -116457,11 +114695,10 @@
 
 >compound FTneg5308
 >ionization [M+?]-
->parentmass 489.277128073433
+>parentmass Inf
 >rt 14.7907848507986
 
 >ms1
-489.2771 100
 
 >ms2
 55.9367 20
@@ -116484,33 +114721,32 @@
 
 >compound FTneg5309
 >ionization [M+?]-
->parentmass 722.506724528737
+>parentmass Inf
 >rt 14.8487542458042
 
 >ms1
-722.5067 100
+
 
 >ms2
 722.5067 100
 
 >compound FTneg5310
 >ionization [M+?]-
->parentmass 787.482429760849
+>parentmass Inf
 >rt 14.8260920705866
 
 >ms1
-787.4824 100
+
 
 >ms2
 787.4824 100
 
 >compound FTneg5311
 >ionization [M+?]-
->parentmass 493.335234650538
+>parentmass Inf
 >rt 15.1457268322324
 
 >ms1
-493.3352 100
 
 >ms2
 80.6831 40
@@ -116528,22 +114764,21 @@
 
 >compound FTneg5312
 >ionization [M+?]-
->parentmass 660.348880040101
+>parentmass Inf
 >rt 15.1279516936467
 
 >ms1
-660.3489 100
+
 
 >ms2
 660.3489 100
 
 >compound FTneg5313
 >ionization [M+?]-
->parentmass 494.360463966681
+>parentmass Inf
 >rt 14.5941598668665
 
 >ms1
-494.3605 100
 
 >ms2
 50.012 40
@@ -116563,66 +114798,65 @@
 
 >compound FTneg5314
 >ionization [M+?]-
->parentmass 495.014644429156
+>parentmass Inf
 >rt 9.84780021961482
 
 >ms1
-495.0146 100
+
 
 >ms2
 495.0146 100
 
 >compound FTneg5315
 >ionization [M+?]-
->parentmass 518.643497502209
+>parentmass Inf
 >rt 9.82895777777787
 
 >ms1
-518.6435 100
+
 
 >ms2
 518.6435 100
 
 >compound FTneg5316
 >ionization [M+?]-
->parentmass 495.332171143403
+>parentmass Inf
 >rt 10.3983990740807
 
 >ms1
-495.3322 100
+
 
 >ms2
 495.3322 100
 
 >compound FTneg5317
 >ionization [M+?]-
->parentmass 503.910949342326
+>parentmass Inf
 >rt 10.5141625558793
 
 >ms1
-503.9109 100
+
 
 >ms2
 503.9109 100
 
 >compound FTneg5318
 >ionization [M+?]-
->parentmass 504.048948973071
+>parentmass Inf
 >rt 3.41351698374454
 
 >ms1
-504.0489 100
+
 
 >ms2
 504.0489 100
 
 >compound FTneg5319
 >ionization [M+?]-
->parentmass 564.330038242049
+>parentmass Inf
 >rt 13.2433128042301
 
 >ms1
-564.33 100
 
 >ms2
 131.0507 40
@@ -116634,11 +114868,10 @@
 
 >compound FTneg5320
 >ionization [M+?]-
->parentmass 504.30927105662
+>parentmass Inf
 >rt 13.2452927160438
 
 >ms1
-504.3093 100
 
 >ms2
 68.0254 40
@@ -116648,11 +114881,10 @@
 
 >compound FTneg5321
 >ionization [M+?]-
->parentmass 554.301577721248
+>parentmass Inf
 >rt 13.2630655931981
 
 >ms1
-554.3016 100
 
 >ms2
 50.0025 40
@@ -116666,22 +114898,20 @@
 
 >compound FTneg5322
 >ionization [M+?]-
->parentmass 556.299753549165
+>parentmass Inf
 >rt 13.2595023962785
 
 >ms1
-556.2998 100
 
 >ms2
 55.9351 4
 
 >compound FTneg5323
 >ionization [M+?]-
->parentmass 562.439289599946
+>parentmass Inf
 >rt 13.2586331299649
 
 >ms1
-562.4393 100
 
 >ms2
 55.0533 27
@@ -116743,11 +114973,10 @@
 
 >compound FTneg5324
 >ionization [M+?]-
->parentmass 564.265481402705
+>parentmass Inf
 >rt 13.244565903884
 
 >ms1
-564.2655 100
 
 >ms2
 55.0177 8
@@ -116770,11 +114999,10 @@
 
 >compound FTneg5325
 >ionization [M+?]-
->parentmass 564.296122541391
+>parentmass Inf
 >rt 13.2912577472148
 
 >ms1
-564.2961 100
 
 >ms2
 55.0564 13
@@ -116799,11 +115027,10 @@
 
 >compound FTneg5326
 >ionization [M+?]-
->parentmass 565.300948832976
+>parentmass Inf
 >rt 13.2479294304264
 
 >ms1
-565.3009 100
 
 >ms2
 55.0624 20
@@ -116830,11 +115057,10 @@
 
 >compound FTneg5327
 >ionization [M+?]-
->parentmass 581.320464758343
+>parentmass Inf
 >rt 13.2626633153286
 
 >ms1
-581.3205 100
 
 >ms2
 57.0681 40
@@ -116868,11 +115094,10 @@
 
 >compound FTneg5328
 >ionization [M+?]-
->parentmass 632.317839898409
+>parentmass Inf
 >rt 13.3579400673888
 
 >ms1
-632.3178 100
 
 >ms2
 55.0169 13
@@ -116946,11 +115171,10 @@
 
 >compound FTneg5329
 >ionization [M+?]-
->parentmass 632.317869249664
+>parentmass Inf
 >rt 13.1734579722709
 
 >ms1
-632.3179 100
 
 >ms2
 71.0495 20
@@ -116962,22 +115186,21 @@
 
 >compound FTneg5330
 >ionization [M+?]-
->parentmass 504.808690404489
+>parentmass Inf
 >rt 2.25111025641038
 
 >ms1
-504.8087 100
+
 
 >ms2
 504.8087 100
 
 >compound FTneg5331
 >ionization [M+?]-
->parentmass 506.318938763653
+>parentmass Inf
 >rt 13.1951067496653
 
 >ms1
-506.3189 100
 
 >ms2
 73.0644 40
@@ -116997,11 +115220,10 @@
 
 >compound FTneg5332
 >ionization [M+?]-
->parentmass 506.324824195236
+>parentmass Inf
 >rt 14.2850606913438
 
 >ms1
-506.3248 100
 
 >ms2
 70.0595 4
@@ -117018,22 +115240,21 @@
 
 >compound FTneg5333
 >ionization [M+?]-
->parentmass 507.296077985733
+>parentmass Inf
 >rt 9.96679479702884
 
 >ms1
-507.2961 100
+
 
 >ms2
 507.2961 100
 
 >compound FTneg5334
 >ionization [M+?]-
->parentmass 507.328060946488
+>parentmass Inf
 >rt 14.2853046283482
 
 >ms1
-507.3281 100
 
 >ms2
 80.9474 494
@@ -117049,11 +115270,10 @@
 
 >compound FTneg5335
 >ionization [M+?]-
->parentmass 568.361513052747
+>parentmass Inf
 >rt 11.9585399906135
 
 >ms1
-568.3615 100
 
 >ms2
 57.0326 20
@@ -117080,11 +115300,10 @@
 
 >compound FTneg5336
 >ionization [M+?]-
->parentmass 508.340620039156
+>parentmass Inf
 >rt 11.9661527653453
 
 >ms1
-508.3406 100
 
 >ms2
 55.0155 40
@@ -117185,11 +115404,10 @@
 
 >compound FTneg5337
 >ionization [M+?]-
->parentmass 558.332839865228
+>parentmass Inf
 >rt 11.9644355587226
 
 >ms1
-558.3328 100
 
 >ms2
 90.9749 120
@@ -117198,11 +115416,10 @@
 
 >compound FTneg5338
 >ionization [M+?]-
->parentmass 559.336028823594
+>parentmass Inf
 >rt 11.9687862112075
 
 >ms1
-559.336 100
 
 >ms2
 54.9375 8
@@ -117216,11 +115433,10 @@
 
 >compound FTneg5339
 >ionization [M+?]-
->parentmass 560.33121104472
+>parentmass Inf
 >rt 11.954193470688
 
 >ms1
-560.3312 100
 
 >ms2
 55.0541 20
@@ -117238,11 +115454,10 @@
 
 >compound FTneg5340
 >ionization [M+?]-
->parentmass 566.464263220955
+>parentmass Inf
 >rt 11.9171690212645
 
 >ms1
-566.4643 100
 
 >ms2
 55.0169 80
@@ -117567,11 +115782,10 @@
 
 >compound FTneg5341
 >ionization [M+?]-
->parentmass 568.303816571923
+>parentmass Inf
 >rt 11.9734106755454
 
 >ms1
-568.3038 100
 
 >ms2
 55.0525 40
@@ -117584,22 +115798,20 @@
 
 >compound FTneg5342
 >ionization [M+?]-
->parentmass 568.328112429964
+>parentmass Inf
 >rt 11.9311923933391
 
 >ms1
-568.3281 100
 
 >ms2
 59.0383 40
 
 >compound FTneg5343
 >ionization [M+?]-
->parentmass 568.36140468938
+>parentmass Inf
 >rt 11.813757064084
 
 >ms1
-568.3614 100
 
 >ms2
 50.0147 40
@@ -117885,11 +116097,10 @@
 
 >compound FTneg5344
 >ionization [M+?]-
->parentmass 569.332156231965
+>parentmass Inf
 >rt 11.9361947961109
 
 >ms1
-569.3322 100
 
 >ms2
 55.0548 80
@@ -117919,11 +116130,10 @@
 
 >compound FTneg5345
 >ionization [M+?]-
->parentmass 585.351890269974
+>parentmass Inf
 >rt 11.970081623327
 
 >ms1
-585.3519 100
 
 >ms2
 56.8847 13
@@ -117939,11 +116149,10 @@
 
 >compound FTneg5346
 >ionization [M+?]-
->parentmass 636.348929788887
+>parentmass Inf
 >rt 11.7880543753513
 
 >ms1
-636.3489 100
 
 >ms2
 57.0473 41
@@ -118001,11 +116210,10 @@
 
 >compound FTneg5347
 >ionization [M+?]-
->parentmass 636.349237517184
+>parentmass Inf
 >rt 12.0015207200449
 
 >ms1
-636.3492 100
 
 >ms2
 55.0541 40
@@ -118116,11 +116324,10 @@
 
 >compound FTneg5348
 >ionization [M+?]-
->parentmass 509.343888487391
+>parentmass Inf
 >rt 11.9478705833559
 
 >ms1
-509.3439 100
 
 >ms2
 53.0376 40
@@ -118318,11 +116525,10 @@
 
 >compound FTneg5349
 >ionization [M+?]-
->parentmass 637.352598234688
+>parentmass Inf
 >rt 11.9185242578225
 
 >ms1
-637.3526 100
 
 >ms2
 55.0184 10
@@ -118391,11 +116597,10 @@
 
 >compound FTneg5350
 >ionization [M+?]-
->parentmass 510.252876666441
+>parentmass Inf
 >rt 8.84176893939396
 
 >ms1
-510.2529 100
 
 >ms2
 51.0253 20
@@ -118444,44 +116649,43 @@
 
 >compound FTneg5351
 >ionization [M+?]-
->parentmass 511.171887879864
+>parentmass Inf
 >rt 8.74914847029141
 
 >ms1
-511.1719 100
+
 
 >ms2
 511.1719 100
 
 >compound FTneg5352
 >ionization [M+?]-
->parentmass 513.25443927439
+>parentmass Inf
 >rt 8.22897778923283
 
 >ms1
-513.2544 100
+
 
 >ms2
 513.2544 100
 
 >compound FTneg5353
 >ionization [M+?]-
->parentmass 545.280720817611
+>parentmass Inf
 >rt 8.22714285714293
 
 >ms1
-545.2807 100
+
 
 >ms2
 545.2807 100
 
 >compound FTneg5354
 >ionization [M+?]-
->parentmass 514.283903098545
+>parentmass Inf
 >rt 9.2994898436483
 
 >ms1
-514.2839 100
 
 >ms2
 55.0124 40
@@ -118530,11 +116734,10 @@
 
 >compound FTneg5355
 >ionization [M+?]-
->parentmass 514.25263198163
+>parentmass Inf
 >rt 9.30395956473962
 
 >ms1
-514.2526 100
 
 >ms2
 50.0949 40
@@ -118574,11 +116777,10 @@
 
 >compound FTneg5356
 >ionization [M+?]-
->parentmass 582.271653073883
+>parentmass Inf
 >rt 9.3043247442513
 
 >ms1
-582.2717 100
 
 >ms2
 57.8742 10
@@ -118600,33 +116802,30 @@
 
 >compound FTneg5357
 >ionization [M+?]-
->parentmass 583.275530914077
+>parentmass Inf
 >rt 9.29707773632828
 
 >ms1
-583.2755 100
 
 >ms2
 55.9359 8
 
 >compound FTneg5358
 >ionization [M+?]-
->parentmass 614.209268739274
+>parentmass Inf
 >rt 9.15353382737422
 
 >ms1
-614.2093 100
 
 >ms2
 55.054 40
 
 >compound FTneg5359
 >ionization [M+?]-
->parentmass 515.256091260992
+>parentmass Inf
 >rt 9.13196500000005
 
 >ms1
-515.2561 100
 
 >ms2
 53.0398 4
@@ -118644,11 +116843,10 @@
 
 >compound FTneg5360
 >ionization [M+?]-
->parentmass 518.288567201228
+>parentmass Inf
 >rt 9.15786649808679
 
 >ms1
-518.2886 100
 
 >ms2
 59.0476 20
@@ -118662,22 +116860,21 @@
 
 >compound FTneg5361
 >ionization [M+?]-
->parentmass 523.850107739937
+>parentmass Inf
 >rt 1.39789928764752
 
 >ms1
-523.8501 100
+
 
 >ms2
 523.8501 100
 
 >compound FTneg5362
 >ionization [M+?]-
->parentmass 802.559281089095
+>parentmass Inf
 >rt 15.2364865722986
 
 >ms1
-802.5593 100
 
 >ms2
 51.7193 40
@@ -118805,11 +117002,10 @@
 
 >compound FTneg5363
 >ionization [M+?]-
->parentmass 830.590517364417
+>parentmass Inf
 >rt 15.152020393018
 
 >ms1
-830.5905 100
 
 >ms2
 61.0219 40
@@ -118823,11 +117019,10 @@
 
 >compound FTneg5364
 >ionization [M+?]-
->parentmass 554.346013354306
+>parentmass Inf
 >rt 15.0628869350157
 
 >ms1
-554.346 100
 
 >ms2
 60.0434 159
@@ -118836,11 +117031,10 @@
 
 >compound FTneg5365
 >ionization [M+?]-
->parentmass 592.361599799731
+>parentmass Inf
 >rt 15.0832847246056
 
 >ms1
-592.3616 100
 
 >ms2
 55.9358 40
@@ -118848,11 +117042,10 @@
 
 >compound FTneg5366
 >ionization [M+?]-
->parentmass 826.559711031248
+>parentmass Inf
 >rt 15.1022047171772
 
 >ms1
-826.5597 100
 
 >ms2
 79.0534 80
@@ -118874,11 +117067,10 @@
 
 >compound FTneg5367
 >ionization [M+?]-
->parentmass 524.335358903477
+>parentmass Inf
 >rt 15.0737332152233
 
 >ms1
-524.3354 100
 
 >ms2
 55.0517 40
@@ -118891,11 +117083,10 @@
 
 >compound FTneg5368
 >ionization [M+?]-
->parentmass 540.330381264793
+>parentmass Inf
 >rt 15.2853258433622
 
 >ms1
-540.3304 100
 
 >ms2
 57.0634 20
@@ -118905,22 +117096,21 @@
 
 >compound FTneg5369
 >ionization [M+?]-
->parentmass 566.345958840498
+>parentmass Inf
 >rt 15.2500519694902
 
 >ms1
-566.346 100
+
 
 >ms2
 566.346 100
 
 >compound FTneg5370
 >ionization [M+?]-
->parentmass 596.39274166705
+>parentmass Inf
 >rt 14.9553269616286
 
 >ms1
-596.3927 100
 
 >ms2
 80.8299 47
@@ -118962,11 +117152,10 @@
 
 >compound FTneg5371
 >ionization [M+?]-
->parentmass 609.351260782015
+>parentmass Inf
 >rt 15.1132868660162
 
 >ms1
-609.3513 100
 
 >ms2
 59.0492 13
@@ -118983,11 +117172,10 @@
 
 >compound FTneg5372
 >ionization [M+?]-
->parentmass 800.544292933053
+>parentmass Inf
 >rt 15.0299509698172
 
 >ms1
-800.5443 100
 
 >ms2
 55.0525 40
@@ -119065,11 +117253,10 @@
 
 >compound FTneg5373
 >ionization [M+?]-
->parentmass 801.547653533987
+>parentmass Inf
 >rt 15.0038465356402
 
 >ms1
-801.5477 100
 
 >ms2
 51.2091 40
@@ -119369,11 +117556,10 @@
 
 >compound FTneg5374
 >ionization [M+?]-
->parentmass 817.53481560525
+>parentmass Inf
 >rt 15.1731630743125
 
 >ms1
-817.5348 100
 
 >ms2
 55.0101 40
@@ -119385,11 +117571,10 @@
 
 >compound FTneg5375
 >ionization [M+?]-
->parentmass 827.563269801032
+>parentmass Inf
 >rt 15.0386743366105
 
 >ms1
-827.5633 100
 
 >ms2
 62.0602 40
@@ -119404,33 +117589,32 @@
 
 >compound FTneg5376
 >ionization [M+?]-
->parentmass 853.578778406954
+>parentmass Inf
 >rt 15.0694150595625
 
 >ms1
-853.5788 100
+
 
 >ms2
 853.5788 100
 
 >compound FTneg5377
 >ionization [M+?]-
->parentmass 524.742457521329
+>parentmass Inf
 >rt 17.7786208333334
 
 >ms1
-524.7425 100
+
 
 >ms2
 524.7425 100
 
 >compound FTneg5378
 >ionization [M+?]-
->parentmass 764.522769558141
+>parentmass Inf
 >rt 15.0965345104229
 
 >ms1
-764.5228 100
 
 >ms2
 60.0817 80
@@ -119451,11 +117635,10 @@
 
 >compound FTneg5379
 >ionization [M+?]-
->parentmass 747.491226414807
+>parentmass Inf
 >rt 15.0779621786558
 
 >ms1
-747.4912 100
 
 >ms2
 56.0497 40
@@ -119502,11 +117685,10 @@
 
 >compound FTneg5380
 >ionization [M+?]-
->parentmass 525.338709466621
+>parentmass Inf
 >rt 15.0821873336262
 
 >ms1
-525.3387 100
 
 >ms2
 57.0698 40
@@ -119521,11 +117703,10 @@
 
 >compound FTneg5381
 >ionization [M+?]-
->parentmass 772.527953200289
+>parentmass Inf
 >rt 15.0868423968131
 
 >ms1
-772.528 100
 
 >ms2
 55.0283 40
@@ -119557,22 +117738,21 @@
 
 >compound FTneg5382
 >ionization [M+?]-
->parentmass 527.31158268609
+>parentmass Inf
 >rt 12.4608681818182
 
 >ms1
-527.3116 100
+
 
 >ms2
 527.3116 100
 
 >compound FTneg5383
 >ionization [M+?]-
->parentmass 538.314695924458
+>parentmass Inf
 >rt 12.8346091260229
 
 >ms1
-538.3147 100
 
 >ms2
 57.0687 80
@@ -119582,11 +117762,10 @@
 
 >compound FTneg5384
 >ionization [M+?]-
->parentmass 528.286081605079
+>parentmass Inf
 >rt 12.8369824342092
 
 >ms1
-528.2861 100
 
 >ms2
 55.0549 40
@@ -119599,11 +117778,10 @@
 
 >compound FTneg5385
 >ionization [M+?]-
->parentmass 529.28972421804
+>parentmass Inf
 >rt 12.7838093259186
 
 >ms1
-529.2897 100
 
 >ms2
 59.05 8
@@ -119622,11 +117800,10 @@
 
 >compound FTneg5386
 >ionization [M+?]-
->parentmass 530.285158471567
+>parentmass Inf
 >rt 12.8283894450998
 
 >ms1
-530.2852 100
 
 >ms2
 55.0518 20
@@ -119688,11 +117865,10 @@
 
 >compound FTneg5387
 >ionization [M+?]-
->parentmass 538.283330051337
+>parentmass Inf
 >rt 12.8402220556979
 
 >ms1
-538.2833 100
 
 >ms2
 55.0541 120
@@ -119724,11 +117900,10 @@
 
 >compound FTneg5388
 >ionization [M+?]-
->parentmass 555.304980642516
+>parentmass Inf
 >rt 12.9251237621879
 
 >ms1
-555.305 100
 
 >ms2
 136.0756 42
@@ -119742,11 +117917,10 @@
 
 >compound FTneg5389
 >ionization [M+?]-
->parentmass 606.302242497614
+>parentmass Inf
 >rt 12.8340821087789
 
 >ms1
-606.3022 100
 
 >ms2
 55.0541 40
@@ -119773,11 +117947,10 @@
 
 >compound FTneg5390
 >ionization [M+?]-
->parentmass 607.305303438617
+>parentmass Inf
 >rt 12.8379201394435
 
 >ms1
-607.3053 100
 
 >ms2
 113.0898 40
@@ -119796,11 +117969,10 @@
 
 >compound FTneg5391
 >ionization [M+?]-
->parentmass 684.244638315905
+>parentmass Inf
 >rt 12.8428137656754
 
 >ms1
-684.2446 100
 
 >ms2
 57.0703 4
@@ -119834,11 +118006,10 @@
 
 >compound FTneg5392
 >ionization [M+?]-
->parentmass 528.309304987637
+>parentmass Inf
 >rt 13.0725580590847
 
 >ms1
-528.3093 100
 
 >ms2
 89.1061 40
@@ -119850,11 +118021,10 @@
 
 >compound FTneg5393
 >ionization [M+?]-
->parentmass 529.312424885038
+>parentmass Inf
 >rt 13.0736558841781
 
 >ms1
-529.3124 100
 
 >ms2
 55.0542 80
@@ -119941,11 +118111,10 @@
 
 >compound FTneg5394
 >ionization [M+?]-
->parentmass 530.324524833339
+>parentmass Inf
 >rt 13.7130818307784
 
 >ms1
-530.3245 100
 
 >ms2
 53.0376 40
@@ -119996,44 +118165,43 @@
 
 >compound FTneg5395
 >ionization [M+?]-
->parentmass 532.077242489147
+>parentmass Inf
 >rt 5.89115729166663
 
 >ms1
-532.0772 100
+
 
 >ms2
 532.0772 100
 
 >compound FTneg5396
 >ionization [M+?]-
->parentmass 531.072074460872
+>parentmass Inf
 >rt 5.90205416666656
 
 >ms1
-531.0721 100
+
 
 >ms2
 531.0721 100
 
 >compound FTneg5397
 >ionization [M+?]-
->parentmass 651.150402387004
+>parentmass Inf
 >rt 5.91791071428571
 
 >ms1
-651.1504 100
+
 
 >ms2
 651.1504 100
 
 >compound FTneg5398
 >ionization [M+?]-
->parentmass 531.296761453749
+>parentmass Inf
 >rt 10.8530898838108
 
 >ms1
-531.2968 100
 
 >ms2
 67.055 40
@@ -120045,11 +118213,10 @@
 
 >compound FTneg5399
 >ionization [M+?]-
->parentmass 531.328221134878
+>parentmass Inf
 >rt 13.7072202380954
 
 >ms1
-531.3282 100
 
 >ms2
 55.0601 40
@@ -120077,11 +118244,10 @@
 
 >compound FTneg5400
 >ionization [M+?]-
->parentmass 850.559915794107
+>parentmass Inf
 >rt 12.9358502506293
 
 >ms1
-850.5599 100
 
 >ms2
 53.0384 40
@@ -120209,11 +118375,10 @@
 
 >compound FTneg5401
 >ionization [M+?]-
->parentmass 540.323964258536
+>parentmass Inf
 >rt 12.8220739724435
 
 >ms1
-540.324 100
 
 >ms2
 55.0601 4
@@ -120255,11 +118420,10 @@
 
 >compound FTneg5402
 >ionization [M+?]-
->parentmass 802.559996845934
+>parentmass Inf
 >rt 12.867175194572
 
 >ms1
-802.56 100
 
 >ms2
 56.8832 40
@@ -120271,11 +118435,10 @@
 
 >compound FTneg5403
 >ionization [M+?]-
->parentmass 826.560058458015
+>parentmass Inf
 >rt 12.7788670425717
 
 >ms1
-826.5601 100
 
 >ms2
 50.1159 40
@@ -120285,11 +118448,10 @@
 
 >compound FTneg5404
 >ionization [M+?]-
->parentmass 878.590699695439
+>parentmass Inf
 >rt 12.8729827297485
 
 >ms1
-878.5907 100
 
 >ms2
 56.0489 40
@@ -120358,11 +118520,10 @@
 
 >compound FTneg5405
 >ionization [M+?]-
->parentmass 568.361734455355
+>parentmass Inf
 >rt 12.8975948973794
 
 >ms1
-568.3617 100
 
 >ms2
 57.0303 20
@@ -120394,33 +118555,32 @@
 
 >compound FTneg5406
 >ionization [M+?]-
->parentmass 747.565772126892
+>parentmass Inf
 >rt 12.8869886287278
 
 >ms1
-747.5658 100
+
 
 >ms2
 747.5658 100
 
 >compound FTneg5407
 >ionization [M+?]-
->parentmass 800.544467567203
+>parentmass Inf
 >rt 12.8754105106115
 
 >ms1
-800.5445 100
+
 
 >ms2
 800.5445 100
 
 >compound FTneg5408
 >ionization [M+?]-
->parentmass 831.594572716649
+>parentmass Inf
 >rt 12.8857592574042
 
 >ms1
-831.5946 100
 
 >ms2
 60.0802 80
@@ -120458,11 +118618,10 @@
 
 >compound FTneg5409
 >ionization [M+?]-
->parentmass 854.590849234081
+>parentmass Inf
 >rt 12.8899297201908
 
 >ms1
-854.5908 100
 
 >ms2
 60.0445 40
@@ -120478,11 +118637,10 @@
 
 >compound FTneg5410
 >ionization [M+?]-
->parentmass 855.59461875023
+>parentmass Inf
 >rt 12.8858676771998
 
 >ms1
-855.5946 100
 
 >ms2
 60.0817 159
@@ -120546,11 +118704,10 @@
 
 >compound FTneg5411
 >ionization [M+?]-
->parentmass 856.603163494893
+>parentmass Inf
 >rt 12.8892332935954
 
 >ms1
-856.6032 100
 
 >ms2
 57.0696 40
@@ -120574,11 +118731,10 @@
 
 >compound FTneg5412
 >ionization [M+?]-
->parentmass 870.548027125205
+>parentmass Inf
 >rt 12.6660874077037
 
 >ms1
-870.548 100
 
 >ms2
 55.0541 40
@@ -120691,11 +118847,10 @@
 
 >compound FTneg5413
 >ionization [M+?]-
->parentmass 871.551819286744
+>parentmass Inf
 >rt 12.670404909009
 
 >ms1
-871.5518 100
 
 >ms2
 68.0574 40
@@ -120717,11 +118872,10 @@
 
 >compound FTneg5414
 >ionization [M+?]-
->parentmass 876.575558682593
+>parentmass Inf
 >rt 12.904250456115
 
 >ms1
-876.5756 100
 
 >ms2
 55.054 40
@@ -120860,11 +119014,10 @@
 
 >compound FTneg5415
 >ionization [M+?]-
->parentmass 883.533880164741
+>parentmass Inf
 >rt 12.6912381099527
 
 >ms1
-883.5339 100
 
 >ms2
 50.2338 13
@@ -121074,55 +119227,54 @@
 
 >compound FTneg5416
 >ionization [M+?]-
->parentmass 554.346095533934
+>parentmass Inf
 >rt 16.028899467404
 
 >ms1
-554.3461 100
+
 
 >ms2
 554.3461 100
 
 >compound FTneg5417
 >ionization [M+?]-
->parentmass 802.55962447681
+>parentmass Inf
 >rt 16.0625020064504
 
 >ms1
-802.5596 100
+
 
 >ms2
 802.5596 100
 
 >compound FTneg5418
 >ionization [M+?]-
->parentmass 826.559991319302
+>parentmass Inf
 >rt 16.0229148779732
 
 >ms1
-826.56 100
+
 
 >ms2
 826.56 100
 
 >compound FTneg5419
 >ionization [M+?]-
->parentmass 719.496033758116
+>parentmass Inf
 >rt 16.0128340985241
 
 >ms1
-719.496 100
+
 
 >ms2
 719.496 100
 
 >compound FTneg5420
 >ionization [M+?]-
->parentmass 798.307122102279
+>parentmass Inf
 >rt 15.9368106100188
 
 >ms1
-798.3071 100
 
 >ms2
 55.0533 199
@@ -121280,33 +119432,32 @@
 
 >compound FTneg5421
 >ionization [M+?]-
->parentmass 843.550865251472
+>parentmass Inf
 >rt 16.0247705825507
 
 >ms1
-843.5509 100
+
 
 >ms2
 843.5509 100
 
 >compound FTneg5422
 >ionization [M+?]-
->parentmass 542.316732499714
+>parentmass Inf
 >rt 9.68853962669788
 
 >ms1
-542.3167 100
+
 
 >ms2
 542.3167 100
 
 >compound FTneg5423
 >ionization [M+?]-
->parentmass 647.343019501284
+>parentmass Inf
 >rt 9.80317863759299
 
 >ms1
-647.343 100
 
 >ms2
 55.0593 40
@@ -121317,11 +119468,10 @@
 
 >compound FTneg5424
 >ionization [M+?]-
->parentmass 542.336266041705
+>parentmass Inf
 >rt 14.4607188035494
 
 >ms1
-542.3363 100
 
 >ms2
 55.054 550
@@ -121634,22 +119784,21 @@
 
 >compound FTneg5425
 >ionization [M+?]-
->parentmass 549.152994962463
+>parentmass Inf
 >rt 5.95812575757573
 
 >ms1
-549.153 100
+
 
 >ms2
 549.153 100
 
 >compound FTneg5426
 >ionization [M+?]-
->parentmass 552.309203079288
+>parentmass Inf
 >rt 13.0210020567789
 
 >ms1
-552.3092 100
 
 >ms2
 68.0598 40
@@ -121664,11 +119813,10 @@
 
 >compound FTneg5427
 >ionization [M+?]-
->parentmass 553.312824328496
+>parentmass Inf
 >rt 13.0118624525436
 
 >ms1
-553.3128 100
 
 >ms2
 51.0238 20
@@ -121714,11 +119862,10 @@
 
 >compound FTneg5428
 >ionization [M+?]-
->parentmass 554.315183214827
+>parentmass Inf
 >rt 10.0600852579572
 
 >ms1
-554.3152 100
 
 >ms2
 60.0801 40
@@ -121730,11 +119877,10 @@
 
 >compound FTneg5429
 >ionization [M+?]-
->parentmass 826.559711682574
+>parentmass Inf
 >rt 15.481941621393
 
 >ms1
-826.5597 100
 
 >ms2
 96.0214 20
@@ -121754,11 +119900,10 @@
 
 >compound FTneg5430
 >ionization [M+?]-
->parentmass 554.345988076995
+>parentmass Inf
 >rt 15.4926591748735
 
 >ms1
-554.346 100
 
 >ms2
 50.0625 4
@@ -121829,11 +119974,10 @@
 
 >compound FTneg5431
 >ionization [M+?]-
->parentmass 722.512612736826
+>parentmass Inf
 >rt 15.5052908456076
 
 >ms1
-722.5126 100
 
 >ms2
 89.058 80
@@ -121841,11 +119985,10 @@
 
 >compound FTneg5432
 >ionization [M+?]-
->parentmass 802.559061298551
+>parentmass Inf
 >rt 15.5235137797315
 
 >ms1
-802.5591 100
 
 >ms2
 50.2171 40
@@ -122260,55 +120403,54 @@
 
 >compound FTneg5433
 >ionization [M+?]-
->parentmass 804.572469138835
+>parentmass Inf
 >rt 15.5962324112585
 
 >ms1
-804.5725 100
+
 
 >ms2
 804.5725 100
 
 >compound FTneg5434
 >ionization [M+?]-
->parentmass 846.567330274841
+>parentmass Inf
 >rt 15.5086824909947
 
 >ms1
-846.5673 100
+
 
 >ms2
 846.5673 100
 
 >compound FTneg5435
 >ionization [M+?]-
->parentmass 854.590238811296
+>parentmass Inf
 >rt 15.5836637480538
 
 >ms1
-854.5902 100
+
 
 >ms2
 854.5902 100
 
 >compound FTneg5436
 >ionization [M+?]-
->parentmass 885.549421124603
+>parentmass Inf
 >rt 15.5343243952832
 
 >ms1
-885.5494 100
+
 
 >ms2
 885.5494 100
 
 >compound FTneg5437
 >ionization [M+?]-
->parentmass 802.559408040998
+>parentmass Inf
 >rt 15.7245887577184
 
 >ms1
-802.5594 100
 
 >ms2
 57.0334 40
@@ -122382,22 +120524,21 @@
 
 >compound FTneg5438
 >ionization [M+?]-
->parentmass 554.346154368547
+>parentmass Inf
 >rt 15.7199121549739
 
 >ms1
-554.3462 100
+
 
 >ms2
 554.3462 100
 
 >compound FTneg5439
 >ionization [M+?]-
->parentmass 826.559853291691
+>parentmass Inf
 >rt 15.7308809142595
 
 >ms1
-826.5599 100
 
 >ms2
 60.0794 40
@@ -122417,33 +120558,32 @@
 
 >compound FTneg5440
 >ionization [M+?]-
->parentmass 554.346072864315
+>parentmass Inf
 >rt 15.6035457353187
 
 >ms1
-554.3461 100
+
 
 >ms2
 554.3461 100
 
 >compound FTneg5441
 >ionization [M+?]-
->parentmass 566.34588492564
+>parentmass Inf
 >rt 15.7565277657184
 
 >ms1
-566.3459 100
+
 
 >ms2
 566.3459 100
 
 >compound FTneg5442
 >ionization [M+?]-
->parentmass 748.528016688862
+>parentmass Inf
 >rt 15.5906368624985
 
 >ms1
-748.528 100
 
 >ms2
 55.0564 120
@@ -122508,110 +120648,109 @@
 
 >compound FTneg5443
 >ionization [M+?]-
->parentmass 764.549411040122
+>parentmass Inf
 >rt 15.614902642146
 
 >ms1
-764.5494 100
+
 
 >ms2
 764.5494 100
 
 >compound FTneg5444
 >ionization [M+?]-
->parentmass 830.590723275032
+>parentmass Inf
 >rt 15.7368752084941
 
 >ms1
-830.5907 100
+
 
 >ms2
 830.5907 100
 
 >compound FTneg5445
 >ionization [M+?]-
->parentmass 843.549925560722
+>parentmass Inf
 >rt 15.6479021742794
 
 >ms1
-843.5499 100
+
 
 >ms2
 843.5499 100
 
 >compound FTneg5446
 >ionization [M+?]-
->parentmass 554.721814108476
+>parentmass Inf
 >rt 18.5687045226097
 
 >ms1
-554.7218 100
+
 
 >ms2
 554.7218 100
 
 >compound FTneg5447
 >ionization [M+?]-
->parentmass 554.793932897602
+>parentmass Inf
 >rt 0.851558224706108
 
 >ms1
-554.7939 100
+
 
 >ms2
 554.7939 100
 
 >compound FTneg5448
 >ionization [M+?]-
->parentmass 554.793980026485
+>parentmass Inf
 >rt 5.43414623684886
 
 >ms1
-554.794 100
+
 
 >ms2
 554.794 100
 
 >compound FTneg5449
 >ionization [M+?]-
->parentmass 554.855937562771
+>parentmass Inf
 >rt 1.52324989175233
 
 >ms1
-554.8559 100
+
 
 >ms2
 554.8559 100
 
 >compound FTneg5450
 >ionization [M+?]-
->parentmass 555.328126373932
+>parentmass Inf
 >rt 13.5066815787636
 
 >ms1
-555.3281 100
+
 
 >ms2
 555.3281 100
 
 >compound FTneg5451
 >ionization [M+?]-
->parentmass 559.330337070311
+>parentmass Inf
 >rt 10.469578316658
 
 >ms1
-559.3303 100
+
 
 >ms2
 559.3303 100
 
 >compound FTneg5452
 >ionization [M+?]-
->parentmass 564.330367195683
+>parentmass Inf
 >rt 14.3740977289106
 
 >ms1
-564.3304 100
 
 >ms2
 55.0533 120
@@ -122654,11 +120793,10 @@
 
 >compound FTneg5453
 >ionization [M+?]-
->parentmass 854.589819127857
+>parentmass Inf
 >rt 14.3182133986789
 
 >ms1
-854.5898 100
 
 >ms2
 57.0689 40
@@ -122718,11 +120856,10 @@
 
 >compound FTneg5454
 >ionization [M+?]-
->parentmass 867.550167330908
+>parentmass Inf
 >rt 14.6378077870486
 
 >ms1
-867.5502 100
 
 >ms2
 60.0797 120
@@ -122753,11 +120890,10 @@
 
 >compound FTneg5455
 >ionization [M+?]-
->parentmass 567.29888570824
+>parentmass Inf
 >rt 9.89102083206249
 
 >ms1
-567.2989 100
 
 >ms2
 57.0689 40
@@ -122774,11 +120910,10 @@
 
 >compound FTneg5456
 >ionization [M+?]-
->parentmass 568.26572691207
+>parentmass Inf
 >rt 11.8665829251335
 
 >ms1
-568.2657 100
 
 >ms2
 55.0548 42
@@ -122810,11 +120945,10 @@
 
 >compound FTneg5457
 >ionization [M+?]-
->parentmass 830.590440764223
+>parentmass Inf
 >rt 13.5625914818669
 
 >ms1
-830.5904 100
 
 >ms2
 56.0473 40
@@ -122845,11 +120979,10 @@
 
 >compound FTneg5458
 >ionization [M+?]-
->parentmass 802.559986194182
+>parentmass Inf
 >rt 13.526510530224
 
 >ms1
-802.56 100
 
 >ms2
 57.0703 80
@@ -122890,11 +121023,10 @@
 
 >compound FTneg5459
 >ionization [M+?]-
->parentmass 850.559908535777
+>parentmass Inf
 >rt 13.5406152396481
 
 >ms1
-850.5599 100
 
 >ms2
 56.0489 40
@@ -122907,11 +121039,10 @@
 
 >compound FTneg5460
 >ionization [M+?]-
->parentmass 568.361594922566
+>parentmass Inf
 >rt 13.4935956140351
 
 >ms1
-568.3616 100
 
 >ms2
 99.1048 40
@@ -122920,11 +121051,10 @@
 
 >compound FTneg5461
 >ionization [M+?]-
->parentmass 878.590304541983
+>parentmass Inf
 >rt 13.4835646164128
 
 >ms1
-878.5903 100
 
 >ms2
 60.0802 80
@@ -122946,11 +121076,10 @@
 
 >compound FTneg5462
 >ionization [M+?]-
->parentmass 582.377327375489
+>parentmass Inf
 >rt 13.5969323389703
 
 >ms1
-582.3773 100
 
 >ms2
 57.0689 80
@@ -122975,33 +121104,32 @@
 
 >compound FTneg5463
 >ionization [M+?]-
->parentmass 593.122835263114
+>parentmass Inf
 >rt 13.6347443025391
 
 >ms1
-593.1228 100
+
 
 >ms2
 593.1228 100
 
 >compound FTneg5464
 >ionization [M+?]-
->parentmass 612.330017875252
+>parentmass Inf
 >rt 13.6394278638543
 
 >ms1
-612.33 100
+
 
 >ms2
 612.33 100
 
 >compound FTneg5465
 >ionization [M+?]-
->parentmass 747.565425991272
+>parentmass Inf
 >rt 13.5001487532748
 
 >ms1
-747.5654 100
 
 >ms2
 57.0704 40
@@ -123032,11 +121160,10 @@
 
 >compound FTneg5466
 >ionization [M+?]-
->parentmass 778.559393922886
+>parentmass Inf
 >rt 13.5977582705841
 
 >ms1
-778.5594 100
 
 >ms2
 57.0681 40
@@ -123064,22 +121191,21 @@
 
 >compound FTneg5467
 >ionization [M+?]-
->parentmass 800.544849846808
+>parentmass Inf
 >rt 13.6072236021114
 
 >ms1
-800.5448 100
+
 
 >ms2
 800.5448 100
 
 >compound FTneg5468
 >ionization [M+?]-
->parentmass 801.548265225619
+>parentmass Inf
 >rt 13.5742378439365
 
 >ms1
-801.5483 100
 
 >ms2
 53.0652 20
@@ -123282,11 +121408,10 @@
 
 >compound FTneg5469
 >ionization [M+?]-
->parentmass 803.563362288189
+>parentmass Inf
 >rt 13.4640796982304
 
 >ms1
-803.5634 100
 
 >ms2
 58.066 40
@@ -123299,33 +121424,31 @@
 
 >compound FTneg5470
 >ionization [M+?]-
->parentmass 819.550089773257
+>parentmass Inf
 >rt 13.5744008313191
 
 >ms1
-819.5501 100
+
 
 >ms2
 819.5501 100
 
 >compound FTneg5471
 >ionization [M+?]-
->parentmass 826.560151877575
+>parentmass Inf
 >rt 13.423593780429
 
 >ms1
-826.5602 100
 
 >ms2
 53.0131 4
 
 >compound FTneg5472
 >ionization [M+?]-
->parentmass 827.562944773689
+>parentmass Inf
 >rt 13.4742743669065
 
 >ms1
-827.5629 100
 
 >ms2
 56.0504 40
@@ -123354,11 +121477,10 @@
 
 >compound FTneg5473
 >ionization [M+?]-
->parentmass 828.574345393282
+>parentmass Inf
 >rt 13.4395770191417
 
 >ms1
-828.5743 100
 
 >ms2
 73.0634 42
@@ -123389,11 +121511,10 @@
 
 >compound FTneg5474
 >ionization [M+?]-
->parentmass 829.578220328511
+>parentmass Inf
 >rt 13.405308733635
 
 >ms1
-829.5782 100
 
 >ms2
 55.8779 80
@@ -123441,11 +121562,10 @@
 
 >compound FTneg5475
 >ionization [M+?]-
->parentmass 833.518289453162
+>parentmass Inf
 >rt 13.5834028578603
 
 >ms1
-833.5183 100
 
 >ms2
 88.0736 40
@@ -123461,11 +121581,10 @@
 
 >compound FTneg5476
 >ionization [M+?]-
->parentmass 834.521373283667
+>parentmass Inf
 >rt 13.5648035882568
 
 >ms1
-834.5214 100
 
 >ms2
 72.8263 40
@@ -123491,11 +121610,10 @@
 
 >compound FTneg5477
 >ionization [M+?]-
->parentmass 840.575036921222
+>parentmass Inf
 >rt 13.5544121090932
 
 >ms1
-840.575 100
 
 >ms2
 55.017 60
@@ -123509,22 +121627,21 @@
 
 >compound FTneg5478
 >ionization [M+?]-
->parentmass 847.579673673172
+>parentmass Inf
 >rt 13.5597127409945
 
 >ms1
-847.5797 100
+
 
 >ms2
 847.5797 100
 
 >compound FTneg5479
 >ionization [M+?]-
->parentmass 854.5901921785
+>parentmass Inf
 >rt 13.6292543823883
 
 >ms1
-854.5902 100
 
 >ms2
 50.0157 40
@@ -124080,11 +122197,10 @@
 
 >compound FTneg5480
 >ionization [M+?]-
->parentmass 854.590330941695
+>parentmass Inf
 >rt 13.4074107138774
 
 >ms1
-854.5903 100
 
 >ms2
 56.0559 10
@@ -124117,11 +122233,10 @@
 
 >compound FTneg5481
 >ionization [M+?]-
->parentmass 855.593991787066
+>parentmass Inf
 >rt 13.5532095618734
 
 >ms1
-855.594 100
 
 >ms2
 60.0438 40
@@ -124148,11 +122263,10 @@
 
 >compound FTneg5482
 >ionization [M+?]-
->parentmass 856.601272016324
+>parentmass Inf
 >rt 13.532503808088
 
 >ms1
-856.6013 100
 
 >ms2
 51.7722 40
@@ -124459,11 +122573,10 @@
 
 >compound FTneg5483
 >ionization [M+?]-
->parentmass 857.606986751165
+>parentmass Inf
 >rt 13.5347552709179
 
 >ms1
-857.607 100
 
 >ms2
 60.0675 41
@@ -124494,11 +122607,10 @@
 
 >compound FTneg5484
 >ionization [M+?]-
->parentmass 870.548688203151
+>parentmass Inf
 >rt 13.5788048001082
 
 >ms1
-870.5487 100
 
 >ms2
 85.0997 40
@@ -124507,11 +122619,10 @@
 
 >compound FTneg5485
 >ionization [M+?]-
->parentmass 876.575350066733
+>parentmass Inf
 >rt 13.4502274401337
 
 >ms1
-876.5754 100
 
 >ms2
 55.0534 40
@@ -124541,11 +122652,10 @@
 
 >compound FTneg5486
 >ionization [M+?]-
->parentmass 877.579166629631
+>parentmass Inf
 >rt 13.5594772017167
 
 >ms1
-877.5792 100
 
 >ms2
 50.6142 40
@@ -124870,11 +122980,10 @@
 
 >compound FTneg5487
 >ionization [M+?]-
->parentmass 918.547454396454
+>parentmass Inf
 >rt 13.5692063726728
 
 >ms1
-918.5475 100
 
 >ms2
 57.0688 40
@@ -124900,11 +123009,10 @@
 
 >compound FTneg5488
 >ionization [M+?]-
->parentmass 569.404068755358
+>parentmass Inf
 >rt 15.2336542394917
 
 >ms1
-569.4041 100
 
 >ms2
 71.0873 40
@@ -124918,11 +123026,10 @@
 
 >compound FTneg5489
 >ionization [M+?]-
->parentmass 588.330183879667
+>parentmass Inf
 >rt 13.0720004803857
 
 >ms1
-588.3302 100
 
 >ms2
 60.0548 40
@@ -124930,11 +123037,10 @@
 
 >compound FTneg5490
 >ionization [M+?]-
->parentmass 578.301554903875
+>parentmass Inf
 >rt 13.0761910881093
 
 >ms1
-578.3016 100
 
 >ms2
 58.0793 40
@@ -124942,11 +123048,10 @@
 
 >compound FTneg5491
 >ionization [M+?]-
->parentmass 588.295841765241
+>parentmass Inf
 >rt 13.0770212228306
 
 >ms1
-588.2958 100
 
 >ms2
 61.0267 20
@@ -124962,11 +123067,10 @@
 
 >compound FTneg5492
 >ionization [M+?]-
->parentmass 589.3000425914
+>parentmass Inf
 >rt 13.0705954388942
 
 >ms1
-589.3 100
 
 >ms2
 50.5968 13
@@ -124987,11 +123091,10 @@
 
 >compound FTneg5493
 >ionization [M+?]-
->parentmass 605.320288583515
+>parentmass Inf
 >rt 13.0713751991798
 
 >ms1
-605.3203 100
 
 >ms2
 55.0537 120
@@ -125171,22 +123274,21 @@
 
 >compound FTneg5494
 >ionization [M+?]-
->parentmass 612.330360013481
+>parentmass Inf
 >rt 13.4010716877821
 
 >ms1
-612.3304 100
+
 
 >ms2
 612.3304 100
 
 >compound FTneg5495
 >ionization [M+?]-
->parentmass 656.317684895602
+>parentmass Inf
 >rt 13.0606898444446
 
 >ms1
-656.3177 100
 
 >ms2
 55.054 40
@@ -125201,11 +123303,10 @@
 
 >compound FTneg5496
 >ionization [M+?]-
->parentmass 579.374180228206
+>parentmass Inf
 >rt 12.5938157391805
 
 >ms1
-579.3742 100
 
 >ms2
 55.0525 13
@@ -125218,11 +123319,10 @@
 
 >compound FTneg5497
 >ionization [M+?]-
->parentmass 579.388104666018
+>parentmass Inf
 >rt 14.6634660016951
 
 >ms1
-579.3881 100
 
 >ms2
 55.0533 40
@@ -125245,11 +123345,10 @@
 
 >compound FTneg5498
 >ionization [M+?]-
->parentmass 580.255924931329
+>parentmass Inf
 >rt 9.04618039215688
 
 >ms1
-580.2559 100
 
 >ms2
 55.054 60
@@ -125421,22 +123520,21 @@
 
 >compound FTneg5499
 >ionization [M+?]-
->parentmass 582.026682970936
+>parentmass Inf
 >rt 3.276403125
 
 >ms1
-582.0267 100
+
 
 >ms2
 582.0267 100
 
 >compound FTneg5500
 >ionization [M+?]-
->parentmass 582.319651679724
+>parentmass Inf
 >rt 13.4938264334762
 
 >ms1
-582.3197 100
 
 >ms2
 55.0526 80
@@ -125453,11 +123551,10 @@
 
 >compound FTneg5501
 >ionization [M+?]-
->parentmass 599.500231033666
+>parentmass Inf
 >rt 16.1709883940692
 
 >ms1
-599.5002 100
 
 >ms2
 59.0476 20
@@ -125468,11 +123565,10 @@
 
 >compound FTneg5502
 >ionization [M+?]-
->parentmass 582.509773394316
+>parentmass Inf
 >rt 16.1674854194277
 
 >ms1
-582.5098 100
 
 >ms2
 51.0259 40
@@ -125557,66 +123653,65 @@
 
 >compound FTneg5503
 >ionization [M+?]-
->parentmass 736.485489057746
+>parentmass Inf
 >rt 16.1372471511882
 
 >ms1
-736.4855 100
+
 
 >ms2
 736.4855 100
 
 >compound FTneg5504
 >ionization [M+?]-
->parentmass 590.430884271944
+>parentmass Inf
 >rt 2.22645614035089
 
 >ms1
-590.4309 100
+
 
 >ms2
 590.4309 100
 
 >compound FTneg5505
 >ionization [M+?]-
->parentmass 800.544326528059
+>parentmass Inf
 >rt 15.2831241252022
 
 >ms1
-800.5443 100
+
 
 >ms2
 800.5443 100
 
 >compound FTneg5506
 >ionization [M+?]-
->parentmass 592.361557878381
+>parentmass Inf
 >rt 15.2950221077514
 
 >ms1
-592.3616 100
+
 
 >ms2
 592.3616 100
 
 >compound FTneg5507
 >ionization [M+?]-
->parentmass 831.594408221877
+>parentmass Inf
 >rt 15.3072052652056
 
 >ms1
-831.5944 100
+
 
 >ms2
 831.5944 100
 
 >compound FTneg5508
 >ionization [M+?]-
->parentmass 844.554161539443
+>parentmass Inf
 >rt 15.3092325165578
 
 >ms1
-844.5542 100
 
 >ms2
 57.0318 40
@@ -125638,11 +123733,10 @@
 
 >compound FTneg5509
 >ionization [M+?]-
->parentmass 894.547961336405
+>parentmass Inf
 >rt 15.2806656565656
 
 >ms1
-894.548 100
 
 >ms2
 57.0688 40
@@ -125712,11 +123806,10 @@
 
 >compound FTneg5510
 >ionization [M+?]-
->parentmass 599.257301566066
+>parentmass Inf
 >rt 8.92973312585471
 
 >ms1
-599.2573 100
 
 >ms2
 55.0532 80
@@ -125910,22 +124003,21 @@
 
 >compound FTneg5511
 >ionization [M+?]-
->parentmass 601.34317514667
+>parentmass Inf
 >rt 8.61398443781115
 
 >ms1
-601.3432 100
+
 
 >ms2
 601.3432 100
 
 >compound FTneg5512
 >ionization [M+?]-
->parentmass 612.330176400526
+>parentmass Inf
 >rt 13.023618985325
 
 >ms1
-612.3302 100
 
 >ms2
 57.0604 27
@@ -125947,11 +124039,10 @@
 
 >compound FTneg5513
 >ionization [M+?]-
->parentmass 602.301546361023
+>parentmass Inf
 >rt 13.0034122439626
 
 >ms1
-602.3015 100
 
 >ms2
 50.0149 8
@@ -125959,11 +124050,10 @@
 
 >compound FTneg5514
 >ionization [M+?]-
->parentmass 604.3003416339
+>parentmass Inf
 >rt 12.9953010898486
 
 >ms1
-604.3003 100
 
 >ms2
 55.0093 40
@@ -125993,11 +124083,10 @@
 
 >compound FTneg5515
 >ionization [M+?]-
->parentmass 612.29533390319
+>parentmass Inf
 >rt 13.0252817309503
 
 >ms1
-612.2953 100
 
 >ms2
 55.029 13
@@ -126018,11 +124107,10 @@
 
 >compound FTneg5516
 >ionization [M+?]-
->parentmass 613.298758709802
+>parentmass Inf
 >rt 13.0211265763619
 
 >ms1
-613.2988 100
 
 >ms2
 57.0711 40
@@ -126032,11 +124120,10 @@
 
 >compound FTneg5517
 >ionization [M+?]-
->parentmass 629.320483105298
+>parentmass Inf
 >rt 13.0084868190418
 
 >ms1
-629.3205 100
 
 >ms2
 80.951 40
@@ -126061,11 +124148,10 @@
 
 >compound FTneg5518
 >ionization [M+?]-
->parentmass 680.317768505931
+>parentmass Inf
 >rt 12.9915180358949
 
 >ms1
-680.3178 100
 
 >ms2
 69.0442 40
@@ -126079,22 +124165,21 @@
 
 >compound FTneg5519
 >ionization [M+?]-
->parentmass 607.632455872402
+>parentmass Inf
 >rt 5.40764487179485
 
 >ms1
-607.6325 100
+
 
 >ms2
 607.6325 100
 
 >compound FTneg5520
 >ionization [M+?]-
->parentmass 850.560098929858
+>parentmass Inf
 >rt 14.1312103126361
 
 >ms1
-850.5601 100
 
 >ms2
 71.0849 40
@@ -126119,11 +124204,10 @@
 
 >compound FTneg5521
 >ionization [M+?]-
->parentmass 608.317739155239
+>parentmass Inf
 >rt 14.2392279313183
 
 >ms1
-608.3177 100
 
 >ms2
 62.9695 40
@@ -126144,11 +124228,10 @@
 
 >compound FTneg5522
 >ionization [M+?]-
->parentmass 803.563199180729
+>parentmass Inf
 >rt 14.1186065711149
 
 >ms1
-803.5632 100
 
 >ms2
 57.0334 40
@@ -126179,11 +124262,10 @@
 
 >compound FTneg5523
 >ionization [M+?]-
->parentmass 826.560612964763
+>parentmass Inf
 >rt 14.1268953966826
 
 >ms1
-826.5606 100
 
 >ms2
 58.0685 40
@@ -126202,11 +124284,10 @@
 
 >compound FTneg5524
 >ionization [M+?]-
->parentmass 610.113291271932
+>parentmass Inf
 >rt 13.6142744525028
 
 >ms1
-610.1133 100
 
 >ms2
 55.9335 40
@@ -126214,22 +124295,21 @@
 
 >compound FTneg5525
 >ionization [M+?]-
->parentmass 616.511341344995
+>parentmass Inf
 >rt 3.1872333333334
 
 >ms1
-616.5113 100
+
 
 >ms2
 616.5113 100
 
 >compound FTneg5526
 >ionization [M+?]-
->parentmass 617.273261860458
+>parentmass Inf
 >rt 11.0715847553973
 
 >ms1
-617.2733 100
 
 >ms2
 80.9473 40
@@ -126239,22 +124319,21 @@
 
 >compound FTneg5527
 >ionization [M+?]-
->parentmass 618.489932124367
+>parentmass Inf
 >rt 2.1221558333333
 
 >ms1
-618.4899 100
+
 
 >ms2
 618.4899 100
 
 >compound FTneg5528
 >ionization [M+?]-
->parentmass 627.499071527371
+>parentmass Inf
 >rt 15.8173908702421
 
 >ms1
-627.4991 100
 
 >ms2
 50.1463 40
@@ -126277,11 +124356,10 @@
 
 >compound FTneg5529
 >ionization [M+?]-
->parentmass 631.472769176561
+>parentmass Inf
 >rt 13.8118994320511
 
 >ms1
-631.4728 100
 
 >ms2
 55.0533 8
@@ -126390,11 +124468,10 @@
 
 >compound FTneg5530
 >ionization [M+?]-
->parentmass 848.579764454613
+>parentmass Inf
 >rt 13.8271644118556
 
 >ms1
-848.5798 100
 
 >ms2
 56.0497 120
@@ -126476,11 +124553,10 @@
 
 >compound FTneg5531
 >ionization [M+?]-
->parentmass 659.52493352347
+>parentmass Inf
 >rt 13.8134477230046
 
 >ms1
-659.5249 100
 
 >ms2
 87.0794 40
@@ -126489,11 +124565,10 @@
 
 >compound FTneg5532
 >ionization [M+?]-
->parentmass 738.507482775071
+>parentmass Inf
 >rt 15.0102535840396
 
 >ms1
-738.5075 100
 
 >ms2
 55.0548 40
@@ -126566,11 +124641,10 @@
 
 >compound FTneg5533
 >ionization [M+?]-
->parentmass 746.512818060461
+>parentmass Inf
 >rt 15.0005691178112
 
 >ms1
-746.5128 100
 
 >ms2
 51.0238 40
@@ -126703,11 +124777,10 @@
 
 >compound FTneg5534
 >ionization [M+?]-
->parentmass 642.377168348184
+>parentmass Inf
 >rt 15.0428009020856
 
 >ms1
-642.3772 100
 
 >ms2
 57.0711 20
@@ -126736,11 +124809,10 @@
 
 >compound FTneg5535
 >ionization [M+?]-
->parentmass 644.243071038945
+>parentmass Inf
 >rt 9.17920963484508
 
 >ms1
-644.2431 100
 
 >ms2
 57.0696 41
@@ -126758,11 +124830,10 @@
 
 >compound FTneg5536
 >ionization [M+?]-
->parentmass 657.322272330165
+>parentmass Inf
 >rt 13.0165010749422
 
 >ms1
-657.3223 100
 
 >ms2
 55.0533 80
@@ -126823,11 +124894,10 @@
 
 >compound FTneg5537
 >ionization [M+?]-
->parentmass 734.26027097417
+>parentmass Inf
 >rt 13.0152426531745
 
 >ms1
-734.2603 100
 
 >ms2
 57.0327 20
@@ -126845,11 +124915,10 @@
 
 >compound FTneg5538
 >ionization [M+?]-
->parentmass 663.430877211408
+>parentmass Inf
 >rt 14.0538903237694
 
 >ms1
-663.4309 100
 
 >ms2
 95.086 40
@@ -126859,11 +124928,10 @@
 
 >compound FTneg5539
 >ionization [M+?]-
->parentmass 666.059234024
+>parentmass Inf
 >rt 15.3590521501304
 
 >ms1
-666.0592 100
 
 >ms2
 55.017 8
@@ -126879,22 +124947,21 @@
 
 >compound FTneg5540
 >ionization [M+?]-
->parentmass 666.059275197386
+>parentmass Inf
 >rt 16.0191073994932
 
 >ms1
-666.0593 100
+
 
 >ms2
 666.0593 100
 
 >compound FTneg5541
 >ionization [M+?]-
->parentmass 673.504538727323
+>parentmass Inf
 >rt 15.8191803741084
 
 >ms1
-673.5045 100
 
 >ms2
 61.0282 40
@@ -126916,11 +124983,10 @@
 
 >compound FTneg5542
 >ionization [M+?]-
->parentmass 705.327857614356
+>parentmass Inf
 >rt 11.470224861454
 
 >ms1
-705.3279 100
 
 >ms2
 59.0492 80
@@ -126942,33 +125008,32 @@
 
 >compound FTneg5543
 >ionization [M+?]-
->parentmass 742.848446895208
+>parentmass Inf
 >rt 1.5485269188177
 
 >ms1
-742.8484 100
+
 
 >ms2
 742.8484 100
 
 >compound FTneg5544
 >ionization [M+?]-
->parentmass 712.21673895183
+>parentmass Inf
 >rt 12.9841960317461
 
 >ms1
-712.2167 100
+
 
 >ms2
 712.2167 100
 
 >compound FTneg5545
 >ionization [M+?]-
->parentmass 714.507794478632
+>parentmass Inf
 >rt 16.0742604375448
 
 >ms1
-714.5078 100
 
 >ms2
 57.0326 80
@@ -126986,22 +125051,21 @@
 
 >compound FTneg5546
 >ionization [M+?]-
->parentmass 740.522995554054
+>parentmass Inf
 >rt 16.0760305477703
 
 >ms1
-740.523 100
+
 
 >ms2
 740.523 100
 
 >compound FTneg5547
 >ionization [M+?]-
->parentmass 748.52779380581
+>parentmass Inf
 >rt 16.0641326086957
 
 >ms1
-748.5278 100
 
 >ms2
 60.0818 40
@@ -127026,22 +125090,21 @@
 
 >compound FTneg5548
 >ionization [M+?]-
->parentmass 720.499453153824
+>parentmass Inf
 >rt 15.6509310811171
 
 >ms1
-720.4995 100
+
 
 >ms2
 720.4995 100
 
 >compound FTneg5549
 >ionization [M+?]-
->parentmass 729.177555913034
+>parentmass Inf
 >rt 15.4155308217334
 
 >ms1
-729.1776 100
 
 >ms2
 87.0451 40
@@ -127058,11 +125121,10 @@
 
 >compound FTneg5550
 >ionization [M+?]-
->parentmass 746.167814986558
+>parentmass Inf
 >rt 15.3999579860353
 
 >ms1
-746.1678 100
 
 >ms2
 87.047 13
@@ -127079,11 +125141,10 @@
 
 >compound FTneg5551
 >ionization [M+?]-
->parentmass 732.176854910327
+>parentmass Inf
 >rt 15.4178907289845
 
 >ms1
-732.1769 100
 
 >ms2
 80.9471 452
@@ -127108,11 +125169,10 @@
 
 >compound FTneg5552
 >ionization [M+?]-
->parentmass 924.561008186913
+>parentmass Inf
 >rt 15.3669117546539
 
 >ms1
-924.561 100
 
 >ms2
 57.058 40
@@ -127157,11 +125217,10 @@
 
 >compound FTneg5553
 >ionization [M+?]-
->parentmass 736.518772998268
+>parentmass Inf
 >rt 14.6982009600522
 
 >ms1
-736.5188 100
 
 >ms2
 55.0541 159
@@ -127542,22 +125601,21 @@
 
 >compound FTneg5554
 >ionization [M+?]-
->parentmass 742.5390709973
+>parentmass Inf
 >rt 18.3997383399413
 
 >ms1
-742.5391 100
+
 
 >ms2
 742.5391 100
 
 >compound FTneg5555
 >ionization [M+?]-
->parentmass 758.259838714901
+>parentmass Inf
 >rt 12.9673743520386
 
 >ms1
-758.2598 100
 
 >ms2
 57.0695 40
@@ -127586,22 +125644,21 @@
 
 >compound FTneg5556
 >ionization [M+?]-
->parentmass 760.310360164824
+>parentmass Inf
 >rt 15.8821334876398
 
 >ms1
-760.3104 100
+
 
 >ms2
 760.3104 100
 
 >compound FTneg5557
 >ionization [M+?]-
->parentmass 766.538473139286
+>parentmass Inf
 >rt 13.6030686136018
 
 >ms1
-766.5385 100
 
 >ms2
 55.0548 13
@@ -127621,22 +125678,21 @@
 
 >compound FTneg5558
 >ionization [M+?]-
->parentmass 766.538781205555
+>parentmass Inf
 >rt 18.4003017300279
 
 >ms1
-766.5388 100
+
 
 >ms2
 766.5388 100
 
 >compound FTneg5559
 >ionization [M+?]-
->parentmass 767.542138132902
+>parentmass Inf
 >rt 13.5880038553117
 
 >ms1
-767.5421 100
 
 >ms2
 57.0696 40
@@ -127648,11 +125704,10 @@
 
 >compound FTneg5560
 >ionization [M+?]-
->parentmass 775.525678622886
+>parentmass Inf
 >rt 15.4118831764587
 
 >ms1
-775.5257 100
 
 >ms2
 57.0696 40
@@ -127667,11 +125722,10 @@
 
 >compound FTneg5561
 >ionization [M+?]-
->parentmass 886.552768926362
+>parentmass Inf
 >rt 15.458231444239
 
 >ms1
-886.5528 100
 
 >ms2
 50.1022 40
@@ -127980,66 +126034,65 @@
 
 >compound FTneg5562
 >ionization [M+?]-
->parentmass 821.684443424196
+>parentmass Inf
 >rt 10.1100147777961
 
 >ms1
-821.6844 100
+
 
 >ms2
 821.6844 100
 
 >compound FTneg5563
 >ionization [M+?]-
->parentmass 776.681963666483
+>parentmass Inf
 >rt 10.1102817304852
 
 >ms1
-776.682 100
+
 
 >ms2
 776.682 100
 
 >compound FTneg5564
 >ionization [M+?]-
->parentmass 790.253959949326
+>parentmass Inf
 >rt 4.28068444444453
 
 >ms1
-790.254 100
+
 
 >ms2
 790.254 100
 
 >compound FTneg5565
 >ionization [M+?]-
->parentmass 792.530162065643
+>parentmass Inf
 >rt 15.3511161945382
 
 >ms1
-792.5302 100
+
 
 >ms2
 792.5302 100
 
 >compound FTneg5566
 >ionization [M+?]-
->parentmass 799.309727583636
+>parentmass Inf
 >rt 15.2857561687891
 
 >ms1
-799.3097 100
+
 
 >ms2
 799.3097 100
 
 >compound FTneg5567
 >ionization [M+?]-
->parentmass 802.518335532823
+>parentmass Inf
 >rt 18.4139575836838
 
 >ms1
-802.5183 100
 
 >ms2
 58.0404 80
@@ -128075,55 +126128,54 @@
 
 >compound FTneg5568
 >ionization [M+?]-
->parentmass 934.530095275283
+>parentmass Inf
 >rt 18.392614509011
 
 >ms1
-934.5301 100
+
 
 >ms2
 934.5301 100
 
 >compound FTneg5569
 >ionization [M+?]-
->parentmass 999.515374027263
+>parentmass Inf
 >rt 18.3930598383716
 
 >ms1
-999.5154 100
+
 
 >ms2
 999.5154 100
 
 >compound FTneg5570
 >ionization [M+?]-
->parentmass 802.604981230891
+>parentmass Inf
 >rt 18.1631793650794
 
 >ms1
-802.605 100
+
 
 >ms2
 802.605 100
 
 >compound FTneg5571
 >ionization [M+?]-
->parentmass 812.132710200194
+>parentmass Inf
 >rt 3.05010357142857
 
 >ms1
-812.1327 100
+
 
 >ms2
 812.1327 100
 
 >compound FTneg5572
 >ionization [M+?]-
->parentmass 816.533430995649
+>parentmass Inf
 >rt 12.0776275072237
 
 >ms1
-816.5334 100
 
 >ms2
 57.0696 40
@@ -128189,11 +126241,10 @@
 
 >compound FTneg5573
 >ionization [M+?]-
->parentmass 816.573817801924
+>parentmass Inf
 >rt 14.6259990467509
 
 >ms1
-816.5738 100
 
 >ms2
 55.0223 20
@@ -128270,11 +126321,10 @@
 
 >compound FTneg5574
 >ionization [M+?]-
->parentmass 857.673688114635
+>parentmass Inf
 >rt 14.6288377436862
 
 >ms1
-857.6737 100
 
 >ms2
 50.2635 40
@@ -128454,22 +126504,21 @@
 
 >compound FTneg5575
 >ionization [M+?]-
->parentmass 829.577661197665
+>parentmass Inf
 >rt 16.0796429856756
 
 >ms1
-829.5777 100
+
 
 >ms2
 829.5777 100
 
 >compound FTneg5576
 >ionization [M+?]-
->parentmass 838.593550071075
+>parentmass Inf
 >rt 13.5968454596106
 
 >ms1
-838.5936 100
 
 >ms2
 56.0482 40
@@ -128519,11 +126568,10 @@
 
 >compound FTneg5577
 >ionization [M+?]-
->parentmass 845.564973202362
+>parentmass Inf
 >rt 13.5671033363578
 
 >ms1
-845.565 100
 
 >ms2
 56.0482 40
@@ -128533,11 +126581,10 @@
 
 >compound FTneg5578
 >ionization [M+?]-
->parentmass 844.553864931559
+>parentmass Inf
 >rt 13.4973260432202
 
 >ms1
-844.5539 100
 
 >ms2
 60.0818 40
@@ -128563,44 +126610,43 @@
 
 >compound FTneg5579
 >ionization [M+?]-
->parentmass 846.725334238637
+>parentmass Inf
 >rt 6.94418333333333
 
 >ms1
-846.7253 100
+
 
 >ms2
 846.7253 100
 
 >compound FTneg5580
 >ionization [M+?]-
->parentmass 853.745005883006
+>parentmass Inf
 >rt 7.55352857142857
 
 >ms1
-853.745 100
+
 
 >ms2
 853.745 100
 
 >compound FTneg5581
 >ionization [M+?]-
->parentmass 857.618438987312
+>parentmass Inf
 >rt 17.4050930555558
 
 >ms1
-857.6184 100
+
 
 >ms2
 857.6184 100
 
 >compound FTneg5582
 >ionization [M+?]-
->parentmass 859.614890752174
+>parentmass Inf
 >rt 16.3284631220254
 
 >ms1
-859.6149 100
 
 >ms2
 53.0399 40
@@ -128903,11 +126949,10 @@
 
 >compound FTneg5583
 >ionization [M+?]-
->parentmass 867.55035757534
+>parentmass Inf
 >rt 13.5938049189854
 
 >ms1
-867.5504 100
 
 >ms2
 55.0533 120
@@ -129018,22 +127063,21 @@
 
 >compound FTneg5584
 >ionization [M+?]-
->parentmass 876.604087749842
+>parentmass Inf
 >rt 16.3290924775573
 
 >ms1
-876.6041 100
+
 
 >ms2
 876.6041 100
 
 >compound FTneg5585
 >ionization [M+?]-
->parentmass 877.214966380081
+>parentmass Inf
 >rt 16.2381353113202
 
 >ms1
-877.215 100
 
 >ms2
 60.0801 120
@@ -129057,11 +127101,10 @@
 
 >compound FTneg5586
 >ionization [M+?]-
->parentmass 879.214126838591
+>parentmass Inf
 >rt 16.2380094100094
 
 >ms1
-879.2141 100
 
 >ms2
 59.0546 20
@@ -129076,33 +127119,32 @@
 
 >compound FTneg5587
 >ionization [M+?]-
->parentmass 879.620807267303
+>parentmass Inf
 >rt 16.5277111111112
 
 >ms1
-879.6208 100
+
 
 >ms2
 879.6208 100
 
 >compound FTneg5588
 >ionization [M+?]-
->parentmass 900.561452063668
+>parentmass Inf
 >rt 15.5296025077062
 
 >ms1
-900.5615 100
+
 
 >ms2
 900.5615 100
 
 >compound FTneg5589
 >ionization [M+?]-
->parentmass 918.547105400935
+>parentmass Inf
 >rt 12.7754693945221
 
 >ms1
-918.5471 100
 
 >ms2
 50.0148 40
@@ -129181,11 +127223,10 @@
 
 >compound FTneg5590
 >ionization [M+?]-
->parentmass 948.491017083219
+>parentmass Inf
 >rt 12.7324383135278
 
 >ms1
-948.491 100
 
 >ms2
 57.0696 40
@@ -129196,11 +127237,10 @@
 
 >compound FTneg5591
 >ionization [M+?]-
->parentmass 948.491205780269
+>parentmass Inf
 >rt 13.5653717910865
 
 >ms1
-948.4912 100
 
 >ms2
 51.023 40
@@ -129228,11 +127268,10 @@
 
 >compound FTneg5592
 >ionization [M+?]-
->parentmass 996.490796088932
+>parentmass Inf
 >rt 13.5944261352223
 
 >ms1
-996.4908 100
 
 >ms2
 51.0231 40
@@ -129317,44 +127356,44 @@
 
 >compound FTneg5593
 >ionization [M+?]-
->parentmass 948.491414699471
+>parentmass Inf
 >rt 11.1588124585494
 
 >ms1
-948.4914 100
+
 
 >ms2
 948.4914 100
 
 >compound FTneg5594
 >ionization [M+?]-
->parentmass 952.247557916597
+>parentmass Inf
 >rt 18.0721555555557
 
 >ms1
-952.2476 100
+
 
 >ms2
 952.2476 100
 
 >compound FTneg5595
 >ionization [M+?]-
->parentmass 964.324561053412
+>parentmass Inf
 >rt 1.66749063460491
 
 >ms1
-964.3246 100
+
 
 >ms2
 964.3246 100
 
 >compound FTneg5596
 >ionization [M+?]-
->parentmass 972.722422748316
+>parentmass Inf
 >rt 11.2357605620033
 
 >ms1
-972.7224 100
+
 
 >ms2
 972.7224 100
