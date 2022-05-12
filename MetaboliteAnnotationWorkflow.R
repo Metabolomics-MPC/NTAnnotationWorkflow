@@ -181,13 +181,11 @@ ms1_neg_se <- import_ms1_data(settings$MS1_data_neg,
                                saveRds = settings$save_rds,
                                saveTsv = settings$save_tsv)
 
-# read positive and negative mode MS1 spectra (isotope pattern) ----------------
-# they are current stored in the same file as the MS2 spectra
-# do not run
-# ms1_pos_spectra <- import_ms2_spectra(settings$MS2_data_pos)
-# ms1_neg_spectra <- import_ms2_spectra(settings$MS2_data_neg)
-ms1_pos_spectra <- NA
-ms1_neg_spectra <- NA
+# reconstruct positive and negative mode MS1 spectra (isotope pattern) ---------
+ms1_pos_spectra <- import_ms1_spectra(ms1_pos_se,
+                                      settings$MS1_data_pos_full)
+ms1_neg_spectra <- import_ms1_spectra(ms1_neg_se,
+                                      settings$MS1_data_neg_full)
 
 # ==============================================================================
 # 2. Read MS2 data

@@ -116,7 +116,7 @@ import_ms1_spectra <- function(se,
       iso_spd$intensity <- list(intensity)
       iso_sps <- Spectra(iso_spd)
       
-      plotSpectra(iso_sps)
+      #plotSpectra(iso_sps)
       
       # add to spectra object
       ms1_spectra <- c(ms1_spectra, iso_sps)
