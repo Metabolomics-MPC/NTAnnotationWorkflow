@@ -4,50 +4,49 @@
     install.packages("BiocManager")
   
   if (!require("MetaboAnnotation")) devtools::install_github("rformassspectrometry/MetaboAnnotation")
-  library(MetaboAnnotation)
+  suppressMessages(library(MetaboAnnotation))
   
   if (!require("MsBackendMassbank")) BiocManager::install("MsBackendMassbank")
-  library(MsBackendMassbank)
+  suppressMessages(library(MsBackendMassbank))
   
   if (!require("MsBackendMgf")) BiocManager::install("MsBackendMgf")
-  library(MsBackendMgf)
+  suppressMessages(library(MsBackendMgf))
   
   if (!require("MsBackendMsp")) devtools::install_github("rformassspectrometry/MsBackendMsp")
-  library(MsBackendMsp)
+  suppressMessages(library(MsBackendMsp))
   
   if (!require("Spectra")) devtools::install_github("rformassspectrometry/Spectra")
-  library(Spectra)
+  suppressMessages(library(Spectra))
   
   if (!require("QFeatures")) BiocManager::install("QFeatures")
-  library(QFeatures)
+  suppressMessages(library(QFeatures))
   
   if (!require("purrr")) install.packages("purrr")
-  library(purrr)
+  suppressMessages(library(purrr))
   
   if (!require("dplyr")) install.packages("dplyr")
-  library(dplyr)
+  suppressMessages(library(dplyr))
   
   if (!require("ggplot2")) install.packages("ggplot2")
-  library(ggplot2)
+  suppressMessages(library(ggplot2))
   
   if (!require("M3C")) BiocManager::install("M3C")
-  library(M3C)
+  suppressMessages(library(M3C))
   
   if (!require("yaml")) install.packages("yaml")
-  library(yaml)
+  suppressMessages(library(yaml))
   
   if(!require("stringr")) install.packages("stringr")
-  library(stringr)
+  suppressMessages(library(stringr))
   
   if(!require("tidyr")) install.packages("tidyr")
-  library(tidyr)
+  suppressMessages(library(tidyr))
   
   if(!require("rex")) install.packages("rex")
-  library(rex)
+  suppressMessages(library(rex))
   
   if(!require("crayon")) install.packages("crayon")
-  library(crayon)
-
+  suppressMessages(library(crayon))
 }
 
 # Load all helperfunctions
