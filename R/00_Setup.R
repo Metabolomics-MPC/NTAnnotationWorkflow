@@ -44,6 +44,10 @@
   
   if(!require("rex")) install.packages("rex")
   library(rex)
+  
+  if(!require("crayon")) install.packages("crayon")
+  library(crayon)
+
 }
 
 # Load all helperfunctions

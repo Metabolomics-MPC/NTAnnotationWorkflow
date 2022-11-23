@@ -12,6 +12,7 @@
 # get project directory to work on
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
+options(warn=-1)
 
 # # check if args is supplied, else run demote data
 # if(is.na(args[1])) {
@@ -60,7 +61,7 @@ if(!length(args)) {
 # ==============================================================================
 # 0. Setup 
 # ==============================================================================
-# source required functions
+# source required functions ----------------------------------------------------
 source("R/00_Setup.R")
 
 # Read in settings of yaml file ------------------------------------------------
@@ -161,41 +162,74 @@ write_yaml(settings, paste0(settings$output_dir, "/input_settings.yaml"))
 # ==============================================================================
 # 1. Read MS1 data
 # ==============================================================================
+cat(blue("==================================================================\n"))
+cat(blue("Read MS1 data...\n"))
+cat(blue("==================================================================\n"))
 # source required functions ----------------------------------------------------
 source("R/01_MS1Import.R")
 
 # read positive and negative mode MS1 data -------------------------------------
-ms1_pos_se <- import_ms1_data(settings$MS1_data_pos,
-                               samplegroup = TRUE,
-                               studydesign_file = settings$studydesign_pos,
-                               prefix = "pos",                        
-                               outputdir = settings$output_dir,
-                               saveRds = settings$save_rds,
-                               saveTsv = settings$save_tsv)
+if(length(settings$MS1_data_pos)) {
+  ms1_pos_se <- import_ms1_data(settings$MS1_data_pos,
+                                samplegroup = settings$samplegroup,
+                                studydesign_file = settings$studydesign_pos,
+                                prefix = "pos",                        
+                                outputdir = settings$output_dir,
+                                saveRds = settings$save_rds,
+                                saveTsv = settings$save_tsv)
+} else {
+  ms1_pos_se <- NA
+}
 
-ms1_neg_se <- import_ms1_data(settings$MS1_data_neg,
-                               samplegroup = TRUE,
-                               studydesign_file = settings$studydesign_neg,
-                               prefix = "neg",
-                               outputdir = settings$output_dir,
-                               saveRds = settings$save_rds,
-                               saveTsv = settings$save_tsv)
+if(length(settings$MS1_data_neg)) {
+  ms1_neg_se <- import_ms1_data(settings$MS1_data_neg,
+                                samplegroup = settings$samplegroup,
+                                studydesign_file = settings$studydesign_neg,
+                                prefix = "neg",
+                                outputdir = settings$output_dir,
+                                saveRds = settings$save_rds,
+                                saveTsv = settings$save_tsv)
+} else {
+  ms1_neg_se <- NA
+}
+
 
 # reconstruct positive and negative mode MS1 spectra (isotope pattern) ---------
-ms1_pos_spectra <- import_ms1_spectra(ms1_pos_se,
-                                      settings$MS1_data_pos_full)
-ms1_neg_spectra <- import_ms1_spectra(ms1_neg_se,
-                                      settings$MS1_data_neg_full)
+if(!is.na(ms1_pos_se)) {
+  ms1_pos_spectra <- import_ms1_spectra(ms1_pos_se,
+                                        settings$MS1_data_pos_full)
+} else {
+  ms1_pos_spectra <- NA
+}
+
+if(!is.na(ms1_neg_se)) {
+  ms1_neg_spectra <- import_ms1_spectra(ms1_neg_se,
+                                        settings$MS1_data_neg_full)
+} else {
+  ms1_neg_spectra <- NA
+}
 
 # ==============================================================================
 # 2. Read MS2 data
 # ==============================================================================
+cat(blue("==================================================================\n"))
+cat(blue("Read MS2 data...\n"))
+cat(blue("==================================================================\n"))
 # source required functions ----------------------------------------------------
 source("R/02_MS2Import.R")
 
 # read positive and negative mode MS2 spectra ----------------------------------
-ms2_pos_spectra <- import_ms2_spectra(settings$MS2_data_pos)
-ms2_neg_spectra <- import_ms2_spectra(settings$MS2_data_neg)
+if(length(settings$MS2_data_pos)) {
+  ms2_pos_spectra <- import_ms2_spectra(settings$MS2_data_pos)
+} else {
+  ms2_pos_spectra <- NA
+}
+
+if(length(settings$MS2_data_neg)) {
+  ms2_neg_spectra <- import_ms2_spectra(settings$MS2_data_neg)
+} else {
+  ms2_neg_spectra <- NA
+}
 
 # add MS1 ID to spectra --------------------------------------------------------
 if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
@@ -209,6 +243,9 @@ if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
 # ==============================================================================
 # 3. Annotate MS1 data
 # ==============================================================================
+cat(blue("==================================================================\n"))
+cat(blue("Annotate MS1 data...\n"))
+cat(blue("==================================================================\n"))
 # source required functions ----------------------------------------------------
 source("R/03_MS1Annotation.R")
 
@@ -287,6 +324,9 @@ if(!is.na(ms1_neg_se)) {
 # ==============================================================================
 # 4. Annotate MS2 data
 # ==============================================================================
+cat(blue("==================================================================\n"))
+cat(blue("Annotate MS2 data...\n"))
+cat(blue("==================================================================\n"))
 # source required functions ----------------------------------------------------
 source("R/04_MS2Annotation.R")
 
@@ -374,6 +414,9 @@ if(!is.na(ms2_neg_spectra)) {
 # ==============================================================================
 # 5. Perform positive negative matching
 # ==============================================================================
+cat(blue("==================================================================\n"))
+cat(blue("Perform Ionmode matching...\n"))
+cat(blue("==================================================================\n"))
 # source required functions ----------------------------------------------------
 source("R/05_MS1IonModeMatching.R")
 
@@ -396,6 +439,9 @@ if(!is.null(ms1_pos_se) && !is.null(ms1_neg_se) && settings$ion_mode_match) {
 # ==============================================================================
 # 6. Export Sirius files
 # ==============================================================================
+cat(blue("==================================================================\n"))
+cat(blue("Sirius data export...\n"))
+cat(blue("==================================================================\n"))
 # source required functions ----------------------------------------------------
 source("R/06_SiriusExport.R")
 
@@ -440,6 +486,9 @@ if(!is.null(ms2_neg_spectra) && !is.null(ms1_neg_spectra)) {
 # ==============================================================================
 # 7. Export FBMN files
 # ==============================================================================
+cat(blue("==================================================================\n"))
+cat(blue("FBMN data export...\n"))
+cat(blue("==================================================================\n"))
 # source required functions ----------------------------------------------------
 source("R/07_GnpsFbmn.R")
 
