@@ -7,7 +7,8 @@ import_ms1_data <- function(ms1_file,
                             samplegroup = FALSE,
                             studydesign_file = NA,
                             prefix = "",                       
-                            outputdir = "",                       
+                            outputdir = "",
+                            format = "old",
                             saveRds = TRUE,
                             saveTsv = FALSE){
   
@@ -24,7 +25,12 @@ import_ms1_data <- function(ms1_file,
     data <- cbind(id, data)
     
     #Define columns for assay
-    int_begin <- grep("^intensity", colnames(data))[1]
+    if(format == "old") {
+      int_begin <- grep("^intensity", colnames(data))[1]
+    } else if(format == "new") {
+      int_begin <- grep("^quant", colnames(data))[1]
+    }
+    
     
     #Start QFeature object of class SummarizedExperiment
     se <- readQFeatures(data,
@@ -71,7 +77,7 @@ import_ms1_data <- function(ms1_file,
 #' @param project_dir Path to project directory
 #' 
 #' @returns A Spectra object containing the MS2 data 
-import_ms1_spectra <- function(se,
+reconstruct_ms1_spectra <- function(se,
                                fulldata){
   
   # reconstruct from MS1 data
@@ -127,6 +133,55 @@ import_ms1_spectra <- function(se,
     close(pb)
     message("... complete")
     return(ms1_spectra)
+    
+  } else {
+    
+    message("...data not found!")
+    return(NA)
+    
+  }
+}
+
+#' Function for reading in MS2 Data 
+#'
+#' @param ms1_file file path to spectrum file containing ms1 spectra
+#' 
+#' @returns A boolean indicating the presence of MS1 spectra
+check_ms1_spectra <- function(ms1_file) {
+  
+  FALSE
+  
+}
+
+#' Function for reading in MS2 Data 
+#'
+#' @param ms1_file file path to spectrum file containing ms1 spectra
+#' 
+#' @returns A Spectra object containing the MS1 data 
+import_ms1_spectra <- function(ms1_file){
+  
+  #Load Fused MGF file
+  message("Load MS1 data...")
+  
+  if(file.exists(ms1_file)) {
+    
+    if(grepl(".mgf$", ms1_file)) {
+      
+      ms1_spectra <- Spectra(ms1_file,
+                             source = MsBackendMgf(),
+                             backend = MsBackendDataFrame())
+      
+    } else if(grepl(".msp$", ms1_file)) {
+      
+      ms1_spectra <- Spectra(ms1_file,
+                             source = MsBackendMsp(),
+                             backend = MsBackendDataFrame())
+      
+    }
+    
+    message("... complete")
+    ms1_spectra$number <- 1:length(ms1_spectra)
+    return(ms1_spectra[which(ms1_spectra$msLevel == 1L)])
     
   } else {
     

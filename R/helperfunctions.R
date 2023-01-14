@@ -4,9 +4,14 @@
 # Validation of settings
 validateSettings <- function(x) {
   
-  # check core setttings
+  # check core setttings -------------------------------------------------------
   if(!is.numeric(x$cores)) {
     x$cores <- 1
+  }
+  
+  # check format settings ------------------------------------------------------
+  if(!x$format %in% c("old", "new")) {
+    stop("format needs to be either 'old' or 'new'")
   }
   
   # check input files ----------------------------------------------------------
@@ -221,11 +226,19 @@ removePrecursor <- function(window = 1) {
 #' @param sps Spectra object
 #' 
 #' @return Spectra object with new Metadata FeatureID
-addFeatureID <- function(sps, se){
+addFeatureID <- function(sps,
+                         se,
+                         format = "old"){
   
   # get id and ms id from summarizedExperiment
-  d_idx <- data.frame(id = rowData(se)[[1]]$id,
-                      ms2_id = rowData(se)[[1]]$ms2_id)
+  if(format == "old") {
+    d_idx <- data.frame(id = rowData(se)[[1]]$id,
+                        ms2_id = rowData(se)[[1]]$ms2_id)
+  } else if(format == "new") {
+    d_idx <- data.frame(id = rowData(se)[[1]]$id,
+                        ms2_id = rowData(se)[[1]]$mgf_ms2_id)
+  }
+
   
   d_idx <- filter(d_idx, ms2_id != "")
   d_idx <- separate_rows(d_idx, ms2_id, sep = "\\|")

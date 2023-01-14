@@ -8,26 +8,21 @@
 #
 # This data analysis workflow perform annotation of untargeted LC-MS data on the
 # MS1 and MS2 level using different libraries and matching functions
+#
+# This is the development version to be in sync with the devel version of SLAW
+#
 # ==============================================================================
 # get project directory to work on
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
 options(warn=-1)
 
-# # check if args is supplied, else run demote data
-# if(is.na(args[1])) {
-#   message("Running demo data!")
-#   settings_yaml <- "test_input/settings.yaml"
-# } else {
-#   settings_yaml <- args[1]
-# }
-
 # check if correct command line args are supplied
 if(!length(args)) {
   
   message("Running demo data!")
-  input <- "test_input"
-  output <- "test_output"
+  input <- "new_test_input"
+  output <- "new_test_output"
   settings_yaml <- paste0(input, "/settings.yaml")
   
 } else {
@@ -70,40 +65,90 @@ settings <- read_yaml(settings_yaml)
 # overwrite data in settings yaml with manually determined values
 settings$output_dir <- output
 
-# check for positive mode data -------------------------------------------------
-# standard input files
-settings$MS1_data_pos <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
-                                    pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
-                                    full.names = TRUE)
+# check for defined format and read accordingly
+if(settings$format == "old") {
+  
+  cat(blue("==================================================================\n"))
+  cat(blue("Old SLAW output \n"))
+  cat(blue("==================================================================\n"))
+  
+  # check for positive mode data -----------------------------------------------
+  # standard input files
+  settings$MS1_data_pos <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
+                                      pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
+                                      full.names = TRUE)
+  
+  settings$MS2_data_pos <- list.files(paste0(input, "/output_slaw_pos/fused_mgf"),
+                                      pattern = "fused_mgf_[a-z0-9]*.mgf$",
+                                      full.names = TRUE)
+  
+  # check for study design
+  settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv")
+  
+  # check for full data matrix for isotope pattern reconstruction
+  settings$MS1_data_pos_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
+                                           pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
+                                           full.names = TRUE)
+  
+  # check for negative mode data -----------------------------------------------
+  # standard input files
+  settings$MS1_data_neg <- list.files(paste0(input, "/output_slaw_neg/datamatrices"),
+                                      pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
+                                      full.names = TRUE)
+  
+  settings$MS2_data_neg <- list.files(paste0(input, "/output_slaw_neg/fused_mgf"),
+                                      pattern = "fused_mgf_[a-z0-9]*.mgf$",
+                                      full.names = TRUE)
+  # check for study design
+  settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
+  
+  # check for full data matrix for isotope pattern reconstruction
+  settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
+                                           pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
+                                           full.names = TRUE)
+  
+} else if(settings$format == "new") {
+  
+  cat(blue("==================================================================\n"))
+  cat(blue("New SLAW output (devel) \n"))
+  cat(blue("==================================================================\n"))
+  
+  # check for positive mode data -----------------------------------------------
+  # standard input files
+  settings$MS1_data_pos <- list.files(paste0(input, "/output_slaw_pos/"),
+                                      pattern = "data_reduced_[a-z0-9]*.csv$",
+                                      full.names = TRUE)
+  
+  settings$MS2_data_pos <- list.files(paste0(input, "/output_slaw_pos/"),
+                                      pattern = "spectra_[a-z0-9]*.mgf$",
+                                      full.names = TRUE)
+  
+  # check for study design
+  settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv")
+  
+  # check for full data matrix for isotope pattern reconstruction
+  settings$MS1_data_pos_full <- list.files(paste0(input, "/output_slaw_pos/"),
+                                           pattern = "data_full_[a-z0-9]*.csv$",
+                                           full.names = TRUE)
+  
+  # check for negative mode data -----------------------------------------------
+  # standard input files
+  settings$MS1_data_neg <- list.files(paste0(input, "/output_slaw_neg/"),
+                                      pattern = "data_reduced_[a-z0-9]*.csv$",
+                                      full.names = TRUE)
+  
+  settings$MS2_data_neg <- list.files(paste0(input, "/output_slaw_neg/"),
+                                      pattern = "spectra_[a-z0-9]*.mgf$",
+                                      full.names = TRUE)
+  # check for study design
+  settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
+  
+  # check for full data matrix for isotope pattern reconstruction
+  settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_pos/"),
+                                           pattern = "data_full_[a-z0-9]*.csv$",
+                                           full.names = TRUE)
+}
 
-settings$MS2_data_pos <- list.files(paste0(input, "/output_slaw_pos/fused_mgf"),
-                                    pattern = "fused_mgf_[a-z0-9]*.mgf$",
-                                    full.names = TRUE)
-
-# check for study design
-settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv")
-
-# check for full data matrix for isotope pattern reconstruction
-settings$MS1_data_pos_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
-                                         pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
-                                         full.names = TRUE)
-
-# check for negative mode data -------------------------------------------------
-# standard input files
-settings$MS1_data_neg <- list.files(paste0(input, "/output_slaw_neg/datamatrices"),
-                                    pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
-                                    full.names = TRUE)
-
-settings$MS2_data_neg <- list.files(paste0(input, "/output_slaw_neg/fused_mgf"),
-                                    pattern = "fused_mgf_[a-z0-9]*.mgf$",
-                                    full.names = TRUE)
-# check for study design
-settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
-
-# check for full data matrix for isotope pattern reconstruction
-settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
-                                         pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
-                                         full.names = TRUE)
 
 # validate settings ------------------------------------------------------------
 #settings <- validateSettings(settings)
@@ -175,6 +220,7 @@ if(length(settings$MS1_data_pos)) {
                                 studydesign_file = settings$studydesign_pos,
                                 prefix = "pos",                        
                                 outputdir = settings$output_dir,
+                                format = settings$format,
                                 saveRds = settings$save_rds,
                                 saveTsv = settings$save_tsv)
 } else {
@@ -187,26 +233,60 @@ if(length(settings$MS1_data_neg)) {
                                 studydesign_file = settings$studydesign_neg,
                                 prefix = "neg",
                                 outputdir = settings$output_dir,
+                                format = settings$format,
                                 saveRds = settings$save_rds,
                                 saveTsv = settings$save_tsv)
 } else {
   ms1_neg_se <- NA
 }
 
-
-# reconstruct positive and negative mode MS1 spectra (isotope pattern) ---------
-if(!is.na(ms1_pos_se)) {
-  ms1_pos_spectra <- import_ms1_spectra(ms1_pos_se,
-                                        settings$MS1_data_pos_full)
-} else {
-  ms1_pos_spectra <- NA
-}
-
-if(!is.na(ms1_neg_se)) {
-  ms1_neg_spectra <- import_ms1_spectra(ms1_neg_se,
-                                        settings$MS1_data_neg_full)
-} else {
-  ms1_neg_spectra <- NA
+# MS1 spectra dependent on the old or new format -------------------------------
+if(settings$format == "old") {
+  
+  # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
+  if(!is.na(ms1_pos_se)) {
+    ms1_pos_spectra <- reconstruct_ms1_spectra(ms1_pos_se,
+                                   settings$MS1_data_pos_full)
+  } else {
+    ms1_pos_spectra <- NA
+  }
+  
+  if(!is.na(ms1_neg_se)) {
+    ms1_neg_spectra <- reconstruct_ms1_spectra(ms1_neg_se,
+                                   settings$MS1_data_neg_full)
+  } else {
+    ms1_neg_spectra <- NA
+  }
+  
+} else if(settings$format == "new") {
+  
+  # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
+  
+  # TODO
+  # write function to probe spectra file for MS1 spectra, if not existing 
+  # default back to reconstruction
+  
+  if(check_ms1_spectra(settings$MS2_data_pos)) {
+    ms1_pos_spectra <- import_ms1_spectra(settings$MS2_data_pos)
+  } else {
+    if(!is.na(ms1_pos_se)) {
+      ms1_pos_spectra <- reconstruct_ms1_spectra(ms1_pos_se,
+                                                 settings$MS1_data_pos_full)
+    } else {
+      ms1_pos_spectra <- NA
+    }
+  }
+  
+  if(check_ms1_spectra(settings$MS2_data_neg)) {
+    ms1_pos_spectra <- import_ms1_spectra(settings$MS2_data_neg)
+  } else {
+    if(!is.na(ms1_neg_se)) {
+      ms1_neg_spectra <- reconstruct_ms1_spectra(ms1_neg_se,
+                                                 settings$MS1_data_neg_full)
+    } else {
+      ms1_neg_spectra <- NA
+    }
+  }
 }
 
 # ==============================================================================
@@ -233,11 +313,15 @@ if(length(settings$MS2_data_neg)) {
 
 # add MS1 ID to spectra --------------------------------------------------------
 if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
-    ms2_pos_spectra <- addFeatureID(ms2_pos_spectra, ms1_pos_se)
+    ms2_pos_spectra <- addFeatureID(ms2_pos_spectra,
+                                    ms1_pos_se,
+                                    format = settings$format)
 }
 
 if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
-    ms2_neg_spectra <- addFeatureID(ms2_pos_spectra, ms1_neg_se)
+    ms2_neg_spectra <- addFeatureID(ms2_pos_spectra,
+                                    ms1_neg_se,
+                                    format = settings$format)
 }
 
 # ==============================================================================
@@ -347,7 +431,7 @@ if(!is.na(ms2_pos_spectra)) {
                            ionmode = "pos",
                            saveRds = settings$save_rds,
                            saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           BPPARAM = SerialParam())
     
   }
   
@@ -365,7 +449,7 @@ if(!is.na(ms2_pos_spectra)) {
                            ionmode = "pos",
                            saveRds = settings$save_rds,
                            saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           BPPARAM = SerialParam())
       
   }
 }
@@ -387,7 +471,7 @@ if(!is.na(ms2_neg_spectra)) {
                            ionmode = "neg",
                            saveRds = settings$save_rds,
                            saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           BPPARAM = SerialParam())
     
   }
   
@@ -405,7 +489,7 @@ if(!is.na(ms2_neg_spectra)) {
                            ionmode = "neg",
                            saveRds = settings$save_rds,
                            saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           BPPARAM = SerialParam())
     
   }
 }

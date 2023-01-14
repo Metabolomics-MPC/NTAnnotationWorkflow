@@ -4,49 +4,49 @@
     install.packages("BiocManager")
   
   if (!require("MetaboAnnotation")) devtools::install_github("rformassspectrometry/MetaboAnnotation")
-  suppressMessages(library(MetaboAnnotation))
+  suppressPackageStartupMessages(library(MetaboAnnotation, quietly = TRUE))
   
   if (!require("MsBackendMassbank")) BiocManager::install("MsBackendMassbank")
-  suppressMessages(library(MsBackendMassbank))
+  suppressPackageStartupMessages(library(MsBackendMassbank, quietly = TRUE))
   
   if (!require("MsBackendMgf")) BiocManager::install("MsBackendMgf")
-  suppressMessages(library(MsBackendMgf))
+  suppressPackageStartupMessages(library(MsBackendMgf, quietly = TRUE))
   
   if (!require("MsBackendMsp")) devtools::install_github("rformassspectrometry/MsBackendMsp")
-  suppressMessages(library(MsBackendMsp))
+  suppressPackageStartupMessages(library(MsBackendMsp, quietly = TRUE))
   
   if (!require("Spectra")) devtools::install_github("rformassspectrometry/Spectra")
-  suppressMessages(library(Spectra))
+  suppressPackageStartupMessages(library(Spectra, quietly = TRUE))
   
   if (!require("QFeatures")) BiocManager::install("QFeatures")
-  suppressMessages(library(QFeatures))
+  suppressPackageStartupMessages(library(QFeatures, quietly = TRUE))
   
   if (!require("purrr")) install.packages("purrr")
-  suppressMessages(library(purrr))
+  suppressPackageStartupMessages(library(purrr, quietly = TRUE))
   
   if (!require("dplyr")) install.packages("dplyr")
-  suppressMessages(library(dplyr))
+  suppressPackageStartupMessages(library(dplyr, quietly = TRUE))
   
   if (!require("ggplot2")) install.packages("ggplot2")
-  suppressMessages(library(ggplot2))
+  suppressPackageStartupMessages(library(ggplot2, quietly = TRUE))
   
   if (!require("M3C")) BiocManager::install("M3C")
-  suppressMessages(library(M3C))
+  suppressPackageStartupMessages(library(M3C, quietly = TRUE))
   
   if (!require("yaml")) install.packages("yaml")
-  suppressMessages(library(yaml))
+  suppressPackageStartupMessages(library(yaml, quietly = TRUE))
   
   if(!require("stringr")) install.packages("stringr")
-  suppressMessages(library(stringr))
+  suppressPackageStartupMessages(library(stringr, quietly = TRUE))
   
   if(!require("tidyr")) install.packages("tidyr")
-  suppressMessages(library(tidyr))
+  suppressPackageStartupMessages(library(tidyr, quietly = TRUE))
   
   if(!require("rex")) install.packages("rex")
-  suppressMessages(library(rex))
+  suppressPackageStartupMessages(library(rex, quietly = TRUE))
   
   if(!require("crayon")) install.packages("crayon")
-  suppressMessages(library(crayon))
+  suppressPackageStartupMessages(library(crayon, quietly = TRUE))
 }
 
 # Load all helperfunctions
