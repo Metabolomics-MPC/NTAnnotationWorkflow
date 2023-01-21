@@ -23,13 +23,14 @@ if(!length(args)) {
   message("Running demo data!")
   input <- "new_test_input"
   output <- "new_test_output"
+  libraries <- "new_test_library"
   settings_yaml <- paste0(input, "/settings.yaml")
   
 } else {
   
   # check if arguments have correct length
-  if(!length(args) == 2) {
-    stop("Exactly two arguments are required: Input and Output folder!")
+  if(!length(args) == 3) {
+    stop("Exactly three arguments are required: Input, output and library folder!")
   }
   
   # check if input folder exists
@@ -47,8 +48,14 @@ if(!length(args)) {
     dir.create(args[2])
   }
   
+  # check for library folder
+  if(!dir.exists(args[3])) {
+    stop(paste0("Library folder ", args[3], " does not exist!"))
+  }
+  
   input <- args[1]
   output <- args[2]
+  libraries <- args[3]
   settings_yaml <- paste0(input, "/settings.yaml")
   
 }
@@ -64,6 +71,37 @@ settings <- read_yaml(settings_yaml)
 
 # overwrite data in settings yaml with manually determined values
 settings$output_dir <- output
+settings$MS1_lib_ext <- paste0(libraries, "/MS1_external")
+settings$MS1_lib_inhouse <- paste0(libraries, "/MS1_inhouse")
+settings$MS2_lib_pos <- paste0(libraries, "/MS2_inhouse_pos")
+settings$MS2_lib_neg <- paste0(libraries, "/MS2_inhouse_neg")
+settings$MS2_lib_pos_ext <- paste0(libraries, "/MS2_external_pos")
+settings$MS2_lib_neg_ext <- paste0(libraries, "/MS2_external_neg")
+
+# check if folders for annotations exists
+if(!dir.exists(settings$MS1_lib_ext)) {
+  dir.create(settings$MS1_lib_ext)
+}
+
+if(!dir.exists(settings$MS1_lib_inhouse)) {
+  dir.create(settings$MS1_lib_inhouse)
+}
+
+if(!dir.exists(settings$MS2_lib_pos)) {
+  dir.create(settings$MS2_lib_pos)
+}
+
+if(!dir.exists(settings$MS2_lib_neg)) {
+  dir.create(settings$MS2_lib_neg)
+}
+
+if(!dir.exists(settings$MS2_lib_pos_ext)) {
+  dir.create(settings$MS2_lib_pos_ext)
+}
+
+if(!dir.exists(settings$MS2_lib_neg_ext)) {
+  dir.create(settings$MS2_lib_neg_ext)
+}
 
 # check for defined format and read accordingly
 if(settings$format == "old") {
