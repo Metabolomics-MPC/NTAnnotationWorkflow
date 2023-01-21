@@ -299,11 +299,6 @@ if(settings$format == "old") {
 } else if(settings$format == "new") {
   
   # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
-  
-  # TODO
-  # write function to probe spectra file for MS1 spectra, if not existing 
-  # default back to reconstruction
-  
   if(check_ms1_spectra(settings$MS2_data_pos)) {
     ms1_pos_spectra <- import_ms1_spectra(settings$MS2_data_pos)
   } else {
