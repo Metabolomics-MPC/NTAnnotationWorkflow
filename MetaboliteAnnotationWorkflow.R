@@ -620,7 +620,8 @@ if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
   createFbmnInput(ms1_pos_se,
                   ms2_pos_spectra,
                   ionmode = "pos",
-                  outputdir = settings$output_dir)
+                  outputdir = settings$output_dir,
+                  format = settings$format)
   
 }
 
@@ -630,7 +631,8 @@ if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
   createFbmnInput(ms1_neg_se,
                   ms2_neg_spectra,
                   ionmode = "neg",
-                  outputdir = settings$output_dir)
+                  outputdir = settings$output_dir,
+                  format = settings$format)
   
 }
 

@@ -1,7 +1,8 @@
 createFbmnInput <- function(ms1_data,
                             ms2_spectra,
                             outputdir = NA,
-                            ionmode = "") {
+                            ionmode = "",
+                            format = "old") {
   
   # sanity checks
   # does the MS2 have correct columns
@@ -19,16 +20,30 @@ createFbmnInput <- function(ms1_data,
   row_anno <- as.data.frame(rowData(ms1_data)[[1]])
   ms_data <- as.data.frame(assay(ms1_data))
   
-  # create new dataframe with feature table in XCMS3 format
-  feature_table <- data.frame(Row.names = gsub(ionmode, "", row_anno$id),
-                              mzmed = row_anno$mz,
-                              mzmin = row_anno$min_mz,
-                              mzmax = row_anno$max_mz,
-                              rtmed = row_anno$rt,
-                              rtmin = row_anno$min_rt,
-                              rtmax = row_anno$max_rt,
-                              npeaks = ncol(ms_data),
-                              sample = ncol(ms_data))
+  if(format == "old") {
+    # create new dataframe with feature table in XCMS3 format
+    feature_table <- data.frame(Row.names = gsub(ionmode, "", row_anno$id),
+                                mzmed = row_anno$mz,
+                                mzmin = row_anno$min_mz,
+                                mzmax = row_anno$max_mz,
+                                rtmed = row_anno$rt,
+                                rtmin = row_anno$min_rt,
+                                rtmax = row_anno$max_rt,
+                                npeaks = ncol(ms_data),
+                                sample = ncol(ms_data))
+  } else if(format == "new") {
+    # create new dataframe with feature table in XCMS3 format
+    feature_table <- data.frame(Row.names = gsub(ionmode, "", row_anno$id),
+                                mzmed = row_anno$mz,
+                                mzmin = row_anno$mz_min,
+                                mzmax = row_anno$mz_max,
+                                rtmed = row_anno$rt,
+                                rtmin = row_anno$rt_min,
+                                rtmax = row_anno$rt_max,
+                                npeaks = ncol(ms_data),
+                                sample = ncol(ms_data))
+  }
+
   
   # rename features according to XCMS and add intensities
   feature_table <- cbind.data.frame(feature_table, ms_data)
