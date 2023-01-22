@@ -113,13 +113,19 @@ reconstruct_ms1_spectra <- function(se,
       
       # get peaks for one adduct
       mz <- selected_peaks$mz
-      intensity <- rowSums(selected_peaks[colnames(peaks)[grepl("^intensity.*", colnames(peaks))]])
+      intensity <- rowSums(selected_peaks[colnames(peaks)[grepl("(^intensity|^quant).*", colnames(peaks))]])
+      
+      # create data frame and sort
+      iso_df <- data.frame(mz = mz,
+                           intensity = intensity)
+      
+      iso_df <- iso_df[order(mz),]
       
       # create Spectra object
       iso_spd <- DataFrame(msLevel = 1L,
                            FEATUREID = selected_id)
-      iso_spd$mz <- list(mz)
-      iso_spd$intensity <- list(intensity)
+      iso_spd$mz <- list(iso_df$mz)
+      iso_spd$intensity <- list(iso_df$intensity)
       iso_sps <- Spectra(iso_spd)
       
       #plotSpectra(iso_sps)
