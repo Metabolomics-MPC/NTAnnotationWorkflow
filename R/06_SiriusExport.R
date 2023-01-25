@@ -45,7 +45,7 @@ exportSirius <- function(ms1_data,
         .cat(paste0(">compound ", ftid, "\n"))
         .cat(paste0(">ionization ", adduct, "\n"))
         .cat(paste0(">parentmass ", min(ms1_spectrum$mz), "\n"))
-        .cat(paste0(">rt ", rt_list[which(ftids == ftid)], "\n"))
+        .cat(paste0(">rt ", rt_list[which(ftids == ftid)] * 60, "\n"))
         .cat("\n>ms1\n")
         .cat(paste(unlist(ms1_spectrum$mz),
                    unlist(ms1_spectrum$intensity),
@@ -55,7 +55,7 @@ exportSirius <- function(ms1_data,
         .cat(paste0(">compound ", ftid, "\n"))
         .cat(paste0(">ionization ", adduct, "\n"))
         .cat(paste0(">parentmass ", precursor_list[which(ftids == ftid)], "\n"))
-        .cat(paste0(">rt ", rt_list[which(ftids == ftid)], "\n"))
+        .cat(paste0(">rt ", rt_list[which(ftids == ftid)] * 60, "\n"))
         .cat("\n>ms1\n")
         .cat(precursor_list[which(ftids == ftid)], " 100")
         .cat("\n")
@@ -88,7 +88,7 @@ exportSirius <- function(ms1_data,
       .cat(paste0(">compound ", ftid, "\n"))
       .cat(paste0(">ionization ", adduct, "\n"))
       .cat(paste0(">parentmass ", precursor_list[which(ftids == ftid)], "\n"))
-      .cat(paste0(">rt ", rt_list[which(ftids == ftid)], "\n"))
+      .cat(paste0(">rt ", rt_list[which(ftids == ftid)] * 60, "\n"))
       .cat("\n>ms1\n")
       .cat(precursor_list[which(ftids == ftid)], " 100")
       .cat("\n")
