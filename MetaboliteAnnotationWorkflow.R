@@ -284,14 +284,16 @@ if(settings$format == "old") {
   # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
   if(!is.na(ms1_pos_se)) {
     ms1_pos_spectra <- reconstruct_ms1_spectra(ms1_pos_se,
-                                   settings$MS1_data_pos_full)
+                                               settings$MS1_data_pos_full,
+                                               BPPARAM = BPParam)
   } else {
     ms1_pos_spectra <- NA
   }
   
   if(!is.na(ms1_neg_se)) {
     ms1_neg_spectra <- reconstruct_ms1_spectra(ms1_neg_se,
-                                   settings$MS1_data_neg_full)
+                                               settings$MS1_data_neg_full,
+                                               BPPARAM = BPParam)
   } else {
     ms1_neg_spectra <- NA
   }
