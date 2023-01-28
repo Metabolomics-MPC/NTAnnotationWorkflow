@@ -3,7 +3,7 @@
 #
 # General parameter settings such as number of cores
 # ==============================================================================
-cores: 4
+cores: 8
 format: "new" #select if old or new SLAW format is used
 
 # ==============================================================================
