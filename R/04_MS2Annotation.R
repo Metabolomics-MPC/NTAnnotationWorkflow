@@ -93,27 +93,40 @@ perform_ms2_annotation <- function(spectra,
     
     # save results in a tsv file
     if(saveTsv && is.na(toleranceRt)) {
-      
-      write.table(matchedData(spectra_match),
-                  paste0(outputdir,
-                         "/Annotation_MS2_external/",
-                         ionmode,
-                         "_",
-                         str_replace(basename(ms2_library), ".msp$|.mb$", ""),
-                         "_ms2annotation.tsv"),
-                  sep = "\t", row.names = FALSE)
-      
+      if(nrow(matchedData(spectra_match)) > 0) {
+        
+        # remove potential list columns for export in text file
+        matched_orig <- matchedData(spectra_match)
+        matched_dropped <- matched_orig[,which(!sapply(matched_orig, class) == "list")]
+        
+        # write table
+        write.table(matched_dropped,
+                    paste0(outputdir,
+                           "/Annotation_MS2_external/",
+                           ionmode,
+                           "_",
+                           str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                           "_ms2annotation.tsv"),
+                    sep = "\t", row.names = FALSE)
+      }
     } else if(saveTsv && !is.na(toleranceRt)) {
-      
-      write.table(matchedData(spectra_match),
-                  paste0(outputdir,
-                         "/Annotation_MS2_inhouse/",
-                         ionmode,
-                         "_",
-                         str_replace(basename(ms2_library), ".msp$|.mb$", ""),
-                         "_ms2annotation.tsv"),
-                  sep = "\t", row.names = FALSE)
-      
+      if(nrow(matchedData(spectra_match)) > 0) {
+        
+        
+        # remove potential list columns for export in text file
+        matched_orig <- matchedData(spectra_match)
+        matched_dropped <- matched_orig[,which(!sapply(matched_orig, class) == "list")]
+        
+        # write table
+        write.table(matched_dropped,
+                    paste0(outputdir,
+                           "/Annotation_MS2_inhouse/",
+                           ionmode,
+                           "_",
+                           str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                           "_ms2annotation.tsv"),
+                    sep = "\t", row.names = FALSE)
+      }
     }
   }
 }
