@@ -35,7 +35,7 @@ import_ms1_data <- function(ms1_file,
     #Start QFeature object of class SummarizedExperiment
     se <- readQFeatures(data,
                         ecol = int_begin:ncol(data),
-                        name ="slaw")
+                        name = "slaw")
     
     #get group information
     if(samplegroup & !is.null(studydesign_file)){
@@ -50,7 +50,6 @@ import_ms1_data <- function(ms1_file,
     }
     
     if(saveRds) {
-      
       saveRDS(se,
               paste0(outputdir,
                      "/QFeatures_MS1/",
@@ -59,6 +58,18 @@ import_ms1_data <- function(ms1_file,
                      str_replace(basename(ms1_file), ".tsv$|.csv$", ""),
                      "_qfeatures.rds"))
       
+    }
+    
+    if(saveTsv) {
+      # write table
+      write.table(rowData(se)[[1]],
+                  paste0(outputdir,
+                         "/QFeatures_MS1/",
+                         prefix,
+                         "_",
+                         str_replace(basename(ms1_file), ".tsv$|.csv$", ""),
+                         "_features.tsv"),
+                  sep = "\t", row.names = FALSE)
     }
 
     message("... complete")
@@ -220,13 +231,22 @@ import_ms1_spectra <- function(ms1_file){
   #Load Fused MGF file
   message("Load MS1 data...")
   
+  # custom mapping for mgf import
+  custom_mapping_mgf <- c(rtime = "RTINSECONDS",
+                          acquisitionNum = "SCANS",
+                          precursorMz = "PEPMASS",
+                          precursorIntensity = "PEPMASSINT",
+                          precursorCharge = "CHARGE",
+                          msLevel = "MSLEVEL")
+  
   if(file.exists(ms1_file)) {
     
     if(grepl(".mgf$", ms1_file)) {
       
       ms1_spectra <- Spectra(ms1_file,
                              source = MsBackendMgf(),
-                             backend = MsBackendDataFrame())
+                             backend = MsBackendDataFrame(),
+                             mapping = custom_mapping_mgf)
       
     } else if(grepl(".msp$", ms1_file)) {
       
