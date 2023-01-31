@@ -198,6 +198,10 @@ if(!dir.exists(paste0(settings$output_dir, "/QFeatures_MS1"))) {
   dir.create(paste0(settings$output_dir, "/QFeatures_MS1"))
 }
 
+if(!dir.exists(paste0(settings$output_dir, "/Spectra"))) {
+  dir.create(paste0(settings$output_dir, "/Spectra"))
+}
+
 if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS1_external"))) {
   dir.create(paste0(settings$output_dir, "/Annotation_MS1_external"))
 }
@@ -241,6 +245,15 @@ if(is.na(settings$cores) | settings$cores == 1) {
 
 # Store yaml file in output directory
 write_yaml(settings, paste0(settings$output_dir, "/input_settings.yaml"))
+
+# settings for export of spectra -----------------------------------------------
+# custom mapping for mgf import
+custom_mapping_mgf <- c(rtime = "RTINSECONDS",
+                        acquisitionNum = "SCANS",
+                        precursorMz = "PEPMASS",
+                        precursorIntensity = "PEPMASSINT",
+                        precursorCharge = "CHARGE",
+                        msLevel = "MSLEVEL")
 
 # ==============================================================================
 # 1. Read MS1 data
@@ -297,7 +310,6 @@ if(settings$format == "old") {
   } else {
     ms1_neg_spectra <- NA
   }
-  
 } else if(settings$format == "new") {
   
   # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
@@ -322,6 +334,23 @@ if(settings$format == "old") {
       ms1_neg_spectra <- NA
     }
   }
+}
+
+# export MS1 spectra -----------------------------------------------------------
+if(!is.na(ms1_pos_spectra)) {
+  export(ms1_pos_spectra,
+         MsBackendMgf(),
+         file = paste0(settings$output_dir,
+                       "/Spectra/pos_MS1.mgf"),
+         mapping = custom_mapping_mgf)
+}
+
+if(!is.na(ms1_neg_spectra)) {
+  export(ms1_neg_spectra,
+         MsBackendMgf(),
+         file = paste0(settings$output_dir,
+                       "/Spectra/neg_MS1.mgf"),
+         mapping = custom_mapping_mgf)
 }
 
 # ==============================================================================
@@ -357,6 +386,23 @@ if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
     ms2_neg_spectra <- addFeatureID(ms2_pos_spectra,
                                     ms1_neg_se,
                                     format = settings$format)
+}
+
+# export MS2 spectra -----------------------------------------------------------
+if(!is.na(ms2_pos_spectra)) {
+  export(ms2_pos_spectra,
+         MsBackendMgf(),
+         file = paste0(settings$output_dir,
+                       "/Spectra/pos_MS2.mgf"),
+         mapping = custom_mapping_mgf)
+}
+
+if(!is.na(ms2_neg_spectra)) {
+  export(ms2_neg_spectra,
+         MsBackendMgf(),
+         file = paste0(settings$output_dir,
+                       "/Spectra/neg_MS2.mgf"),
+         mapping = custom_mapping_mgf)
 }
 
 # ==============================================================================
@@ -455,6 +501,8 @@ if(!is.na(ms2_pos_spectra)) {
   # perform annotation with in-house libraries
   if(!is.na(settings$MS2_lib_pos) && length(list.files(settings$MS2_lib_pos))) {
     
+    print("Performing matching against in-house libraries")
+    
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos,
                            tolerance = settings$tolerance_MS2,
@@ -472,6 +520,8 @@ if(!is.na(ms2_pos_spectra)) {
   
   # perform annotation with external libraries
   if(!is.na(settings$MS2_lib_pos_ext) && length(list.files(settings$MS2_lib_pos_ext))) {
+    
+    print("Performing matching against external libraries")
     
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos_ext,
@@ -495,6 +545,8 @@ if(!is.na(ms2_neg_spectra)) {
   # perform annotation with in-house libraries
   if(!is.na(settings$MS2_lib_neg) && length(list.files(settings$MS2_lib_neg))) {
     
+    print("Performing matching against in-house libraries")
+    
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg,
                            tolerance = settings$tolerance_MS2,
@@ -512,6 +564,8 @@ if(!is.na(ms2_neg_spectra)) {
   
   # perform annotation with external libraries
   if(!is.na(settings$MS2_lib_neg_ext) && length(list.files(settings$MS2_lib_neg_ext))) {
+    
+    print("Performing matching against external libraries")
     
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg_ext,
@@ -540,7 +594,7 @@ cat(blue("==================================================================\n")
 source("R/05_MS1IonModeMatching.R")
 
 # perform MS1 annotation for positive mode data --------------------------------
-if(!is.null(ms1_pos_se) && !is.null(ms1_neg_se) && settings$ion_mode_match) {
+if(!is.na(ms1_pos_se) && !is.na(ms1_neg_se) && settings$ion_mode_match) {
   
   perform_ionMode_matching(ms1_pos_se,
                            ms1_neg_se,
@@ -565,7 +619,7 @@ cat(blue("==================================================================\n")
 source("R/06_SiriusExport.R")
 
 # export for Sirius positive mode data -----------------------------------------
-if(!is.null(ms2_pos_spectra) && !is.null(ms1_pos_spectra)) {
+if(!is.na(ms2_pos_spectra) && !is.na(ms1_pos_spectra)) {
   
   exportSirius(ms1_pos_se,
                ms1_pos_spectra,
@@ -573,7 +627,7 @@ if(!is.null(ms2_pos_spectra) && !is.null(ms1_pos_spectra)) {
                ionmode = "pos",
                outputdir = settings$output_dir) 
   
-} else if(!is.null(ms2_pos_spectra)) {
+} else if(!is.na(ms2_pos_spectra)) {
   
   exportSirius(ms1_pos_se,
                ms1_spectra = NA,
@@ -584,7 +638,7 @@ if(!is.null(ms2_pos_spectra) && !is.null(ms1_pos_spectra)) {
 }
 
 # export for Sirius positive mode data -----------------------------------------
-if(!is.null(ms2_neg_spectra) && !is.null(ms1_neg_spectra)) {
+if(!is.na(ms2_neg_spectra) && !is.na(ms1_neg_spectra)) {
   
   exportSirius(ms1_neg_se,
                ms1_neg_spectra,
@@ -592,7 +646,7 @@ if(!is.null(ms2_neg_spectra) && !is.null(ms1_neg_spectra)) {
                ionmode = "neg",
                outputdir = settings$output_dir) 
   
-} else if(!is.null(ms2_neg_spectra)) {
+} else if(!is.na(ms2_neg_spectra)) {
   
   exportSirius(ms1_neg_se,
                ms1_spectra = NA,
@@ -612,7 +666,7 @@ cat(blue("==================================================================\n")
 source("R/07_GnpsFbmn.R")
 
 # export for FBMN positive mode data -------------------------------------------
-if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
+if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
   
   createFbmnInput(ms1_pos_se,
                   ms2_pos_spectra,
@@ -623,7 +677,7 @@ if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
 }
 
 # export for FBMN negative mode data -------------------------------------------
-if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
+if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
   
   createFbmnInput(ms1_neg_se,
                   ms2_neg_spectra,
