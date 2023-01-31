@@ -38,6 +38,7 @@ perform_ms2_annotation <- function(spectra,
   # modify query spectra
   spectra <- addProcessing(spectra, norm_int)
   spectra <- filterIntensity(spectra, intensity = c(relIntTresh, Inf))
+  spectra <- applyProcessing(spectra)
 
   # perform matching for each library in libpath
   ms2_libraries <- list.files(libpath, full.names = TRUE)
@@ -62,6 +63,7 @@ perform_ms2_annotation <- function(spectra,
     
     # modify library spectra
     ms2_lib_data <- addProcessing(ms2_lib_data, norm_int)
+    ms2_lib_data <- applyProcessing(ms2_lib_data)
     
     # perform annotation
     spectra_match <- matchSpectra(spectra,
