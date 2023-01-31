@@ -238,7 +238,6 @@ addFeatureID <- function(sps,
     d_idx <- data.frame(id = rowData(se)[[1]]$id,
                         ms2_id = rowData(se)[[1]]$mgf_ms2_id)
   }
-
   
   d_idx <- filter(d_idx, ms2_id != "")
   d_idx <- separate_rows(d_idx, ms2_id, sep = "\\|")
