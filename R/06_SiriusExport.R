@@ -50,6 +50,7 @@ exportSirius <- function(ms1_data,
         .cat(paste(unlist(ms1_spectrum$mz),
                    unlist(ms1_spectrum$intensity),
                    collapse = "\n"))
+        .cat("\n")
       } else {
         # if isotope pattern is not present 
         .cat(paste0(">compound ", ftid, "\n"))
