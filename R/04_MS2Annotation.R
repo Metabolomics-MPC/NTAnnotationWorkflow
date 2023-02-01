@@ -45,90 +45,96 @@ perform_ms2_annotation <- function(spectra,
   
   for(ms2_library in ms2_libraries) {
     
-    print(ms2_library)
-    
-    # read library data and modify spectra
-    if(grepl(".mb$", ms2_library)) {
-       ms2_lib_data <- Spectra(ms2_library,
-                              source = MsBackendMassbank(),
-                              backend = MsBackendDataFrame())
-    } else if(grepl(".msp$", ms2_library)) {
-       ms2_lib_data <- Spectra(ms2_library,
-                              source = MsBackendMsp(),
-                              backend = MsBackendDataFrame())
-    } else if(grepl(".rds$", ms2_library)){
+    try({
+      
+      print(ms2_library)
+      
+      # read library data and modify spectra
+      if(grepl(".mb$", ms2_library)) {
+        ms2_lib_data <- Spectra(ms2_library,
+                                source = MsBackendMassbank(),
+                                backend = MsBackendDataFrame())
+      } else if(grepl(".msp$", ms2_library)) {
+        ms2_lib_data <- Spectra(ms2_library,
+                                source = MsBackendMsp(),
+                                backend = MsBackendDataFrame())
+      } else if(grepl(".rds$", ms2_library)){
         ms2_lib_data <- readRDS(ms2_library)
         if(!class(ms2_lib_data) == "Spectra") next
-    }
-    
-    # modify library spectra
-    ms2_lib_data <- addProcessing(ms2_lib_data, norm_int)
-    ms2_lib_data <- applyProcessing(ms2_lib_data)
-    
-    # perform annotation
-    spectra_match <- matchSpectra(spectra,
-                                  ms2_lib_data,
-                                  param = param,
-                                  BPPARAM = BPPARAM)
-    
-    # print number of matches
-    print(spectra_match)
-    
-    # save results in a rds file
-    if(saveRds && is.na(toleranceRt)) {
-      saveRDS(spectra_match,
-              paste0(outputdir,
-                     "/Annotation_MS2_external/",
-                     ionmode,
-                     "_",
-                     str_replace(basename(ms2_library), ".msp$|.mb$", ""),
-                     "_ms2annotation.rds"))
-    } else if(saveRds && !is.na(toleranceRt)) {
-      saveRDS(spectra_match,
-              paste0(outputdir,
-                     "/Annotation_MS2_inhouse/",
-                     ionmode,
-                     "_",
-                     str_replace(basename(ms2_library), ".msp$|.mb$", ""),
-                     "_ms2annotation.rds"))
-    } 
-    
-    # save results in a tsv file
-    if(saveTsv && is.na(toleranceRt)) {
-      if(nrow(matchedData(spectra_match)) > 0) {
-        
-        # remove potential list columns for export in text file
-        matched_orig <- matchedData(spectra_match)
-        matched_dropped <- matched_orig[,which(!sapply(matched_orig, class) == "list")]
-        
-        # write table
-        write.table(matched_dropped,
-                    paste0(outputdir,
-                           "/Annotation_MS2_external/",
-                           ionmode,
-                           "_",
-                           str_replace(basename(ms2_library), ".msp$|.mb$", ""),
-                           "_ms2annotation.tsv"),
-                    sep = "\t", row.names = FALSE)
       }
-    } else if(saveTsv && !is.na(toleranceRt)) {
-      if(nrow(matchedData(spectra_match)) > 0) {
-        
-        
-        # remove potential list columns for export in text file
-        matched_orig <- matchedData(spectra_match)
-        matched_dropped <- matched_orig[,which(!sapply(matched_orig, class) == "list")]
-        
-        # write table
-        write.table(matched_dropped,
-                    paste0(outputdir,
-                           "/Annotation_MS2_inhouse/",
-                           ionmode,
-                           "_",
-                           str_replace(basename(ms2_library), ".msp$|.mb$", ""),
-                           "_ms2annotation.tsv"),
-                    sep = "\t", row.names = FALSE)
+      
+      # modify library spectra
+      ms2_lib_data <- addProcessing(ms2_lib_data, norm_int)
+      ms2_lib_data <- applyProcessing(ms2_lib_data)
+      
+      # perform annotation
+      spectra_match <- matchSpectra(spectra,
+                                    ms2_lib_data,
+                                    param = param,
+                                    BPPARAM = BPPARAM)
+      
+      # print number of matches
+      print(spectra_match)
+      
+      # save results in a rds file
+      if(saveRds && is.na(toleranceRt)) {
+        saveRDS(spectra_match,
+                paste0(outputdir,
+                       "/Annotation_MS2_external/",
+                       ionmode,
+                       "_",
+                       str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                       "_ms2annotation.rds"))
+      } else if(saveRds && !is.na(toleranceRt)) {
+        saveRDS(spectra_match,
+                paste0(outputdir,
+                       "/Annotation_MS2_inhouse/",
+                       ionmode,
+                       "_",
+                       str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                       "_ms2annotation.rds"))
+      } 
+      
+      # save results in a tsv file
+      if(saveTsv && is.na(toleranceRt)) {
+        if(nrow(matchedData(spectra_match)) > 0) {
+          
+          # remove potential list columns for export in text file
+          matched_orig <- matchedData(spectra_match)
+          matched_dropped <- matched_orig[,which(!sapply(matched_orig, class) == "list")]
+          
+          # write table
+          write.table(matched_dropped,
+                      paste0(outputdir,
+                             "/Annotation_MS2_external/",
+                             ionmode,
+                             "_",
+                             str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                             "_ms2annotation.tsv"),
+                      sep = "\t", row.names = FALSE)
+        }
+      } else if(saveTsv && !is.na(toleranceRt)) {
+        if(nrow(matchedData(spectra_match)) > 0) {
+          
+          
+          # remove potential list columns for export in text file
+          matched_orig <- matchedData(spectra_match)
+          matched_dropped <- matched_orig[,which(!sapply(matched_orig, class) == "list")]
+          
+          # write table
+          write.table(matched_dropped,
+                      paste0(outputdir,
+                             "/Annotation_MS2_inhouse/",
+                             ionmode,
+                             "_",
+                             str_replace(basename(ms2_library), ".msp$|.mb$", ""),
+                             "_ms2annotation.tsv"),
+                      sep = "\t", row.names = FALSE)
+        }
       }
+      
     }
+    ) # end of try
+    
   }
 }
