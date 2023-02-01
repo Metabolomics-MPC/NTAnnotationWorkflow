@@ -216,9 +216,8 @@ reconstruct_ms1_spectra <- function(se,
 #' 
 #' @returns A boolean indicating the presence of MS1 spectra
 check_ms1_spectra <- function(ms1_file) {
-  
   FALSE
-  
+  #any(grepl("MSLEVEL=1", readLines(ms1_file)))
 }
 
 #' Function for reading in MS2 Data 
