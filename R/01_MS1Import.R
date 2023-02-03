@@ -61,8 +61,8 @@ import_ms1_data <- function(ms1_file,
     }
     
     if(saveTsv) {
-      # write table
-      write.table(rowData(se)[[1]],
+      write.table(cbind.data.frame(as.data.frame(rowData(se)[[1]]),
+                                   as.data.frame(assay(se))),
                   paste0(outputdir,
                          "/QFeatures_MS1/",
                          prefix,
@@ -153,52 +153,7 @@ reconstruct_ms1_spectra <- function(se,
                             BPPARAM = BPPARAM)
     
     ms1_spectra <- do.call(c, ms1_spectra)
-    
-    print(ms1_spectra)
-    # 
-    # for(i in 1:nrow(se_rowdata)) {
-    #   
-    #   # selected mz and RT of feature for MS1 reconstruction
-    #   selected_mz <- se_rowdata$mz[i]
-    #   selected_rt <- se_rowdata$rt[i]
-    #   selected_id <- se_rowdata$id[i]
-    #   
-    #   # get clique, group and adduct of main peak
-    #   selected_clique <- peaks$clique[which(peaks$mz == selected_mz & peaks$rt == selected_rt)]
-    #   selected_group <- peaks$group[which(peaks$mz == selected_mz & peaks$rt == selected_rt)]
-    #   selected_adduct <- unique(str_replace_all(peaks$annotation[which(peaks$mz == selected_mz & peaks$rt == selected_rt)], " \\+\\d+", ""))
-    #   
-    #   # select corresponding peaks
-    #   selected_peaks <- peaks[which(peaks$clique == selected_clique &
-    #                                   peaks$group == selected_group &
-    #                                   grepl(rex(selected_adduct), peaks$annotation)),]
-    #   
-    #   # get peaks for one adduct
-    #   mz <- selected_peaks$mz
-    #   intensity <- rowSums(selected_peaks[colnames(peaks)[grepl("(^intensity|^quant).*", colnames(peaks))]])
-    #   
-    #   # create data frame and sort
-    #   iso_df <- data.frame(mz = mz,
-    #                        intensity = intensity)
-    #   
-    #   iso_df <- iso_df[order(mz),]
-    #   
-    #   # create Spectra object
-    #   iso_spd <- DataFrame(msLevel = 1L,
-    #                        FEATUREID = selected_id)
-    #   iso_spd$mz <- list(iso_df$mz)
-    #   iso_spd$intensity <- list(iso_df$intensity)
-    #   iso_sps <- Spectra(iso_spd)
-    #   
-    #   #plotSpectra(iso_sps)
-    #   
-    #   # add to spectra object
-    #   ms1_spectra <- c(ms1_spectra, iso_sps)
-    #   
-    #   setTxtProgressBar(pb,i)
-    # }
-    # 
-    # close(pb)
+
     message("... complete")
     return(ms1_spectra)
     
