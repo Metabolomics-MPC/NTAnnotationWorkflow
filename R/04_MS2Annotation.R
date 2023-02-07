@@ -66,10 +66,10 @@ perform_ms2_annotation <- function(spectra,
       # modify library spectra
       ms2_lib_data <- addProcessing(ms2_lib_data, norm_int)
       ms2_lib_data <- applyProcessing(ms2_lib_data)
-      
+
       # perform annotation
-      spectra_match <- matchSpectra(spectra,
-                                    ms2_lib_data,
+      spectra_match <- matchSpectra(setBackend(spectra, MsBackendMemory()),
+                                    setBackend(ms2_lib_data, MsBackendMemory()),
                                     param = param,
                                     BPPARAM = BPPARAM)
       
