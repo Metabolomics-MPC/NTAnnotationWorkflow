@@ -254,6 +254,9 @@ addFeatureID <- function(sps,
     setTxtProgressBar(pb,i)
   }
   close(pb)
+  
+  sps <- sps[which(!is.na(sps$FEATUREID))]
+  
   return(sps)
 }
 
