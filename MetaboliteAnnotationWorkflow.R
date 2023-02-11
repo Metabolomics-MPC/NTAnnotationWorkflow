@@ -315,6 +315,9 @@ if(settings$format == "old") {
   # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
   if(check_ms1_spectra(settings$MS2_data_pos)) {
     ms1_pos_spectra <- import_ms1_spectra(settings$MS2_data_pos)
+    ms1_pos_spectra <- addFeatureIDMS1(ms1_pos_spectra,
+                                       ms1_pos_se,
+                                       format = settings$format)
   } else {
     if(!is.na(ms1_pos_se)) {
       ms1_pos_spectra <- reconstruct_ms1_spectra(ms1_pos_se,
@@ -325,7 +328,10 @@ if(settings$format == "old") {
   }
   
   if(check_ms1_spectra(settings$MS2_data_neg)) {
-    ms1_pos_spectra <- import_ms1_spectra(settings$MS2_data_neg)
+    ms1_neg_spectra <- import_ms1_spectra(settings$MS2_data_neg)
+    ms1_neg_spectra <- addFeatureIDMS1(ms1_neg_spectra,
+                                       ms1_neg_se,
+                                       format = settings$format)
   } else {
     if(!is.na(ms1_neg_se)) {
       ms1_neg_spectra <- reconstruct_ms1_spectra(ms1_neg_se,
@@ -377,13 +383,13 @@ if(length(settings$MS2_data_neg)) {
 
 # add MS1 ID to spectra --------------------------------------------------------
 if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
-    ms2_pos_spectra <- addFeatureID(ms2_pos_spectra,
+    ms2_pos_spectra <- addFeatureIDMS2(ms2_pos_spectra,
                                     ms1_pos_se,
                                     format = settings$format)
 }
 
 if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
-    ms2_neg_spectra <- addFeatureID(ms2_pos_spectra,
+    ms2_neg_spectra <- addFeatureIDMS2(ms2_pos_spectra,
                                     ms1_neg_se,
                                     format = settings$format)
 }

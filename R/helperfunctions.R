@@ -226,9 +226,37 @@ removePrecursor <- function(window = 1) {
 #' @param sps Spectra object
 #' 
 #' @return Spectra object with new Metadata FeatureID
-addFeatureID <- function(sps,
-                         se,
-                         format = "old"){
+addFeatureIDMS1 <- function(sps,
+                            se,
+                            format = "old"){
+  
+  d_idx <- data.frame(id = rowData(se)[[1]]$id,
+                      ms1_id = rowData(se)[[1]]$slaw_id)
+  
+  sps$FEATUREID <- NA_character_
+
+  pb = txtProgressBar(min = 0, max = nrow(d_idx), initial = 0) 
+  
+  for(i in 1:nrow(d_idx)) {
+    sps$FEATUREID[which(sps$SLAW_ID == d_idx$ms1_id[i])] <- d_idx$id[i]
+    setTxtProgressBar(pb,i)
+  }
+  close(pb)
+  
+  sps <- sps[which(!is.na(sps$FEATUREID))]
+  
+  return(sps)
+}
+
+#' Function for adding Feature Ids from summarized Experiment to a Spectra object
+#'
+#' @param se SummarizedExperiment
+#' @param sps Spectra object
+#' 
+#' @return Spectra object with new Metadata FeatureID
+addFeatureIDMS2 <- function(sps,
+                            se,
+                            format = "old"){
   
   # get id and ms id from summarizedExperiment
   if(format == "old") {
@@ -259,5 +287,3 @@ addFeatureID <- function(sps,
   
   return(sps)
 }
-
-
