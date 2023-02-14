@@ -141,7 +141,7 @@ if(settings$format == "old") {
   settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
   
   # check for full data matrix for isotope pattern reconstruction
-  settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
+  settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_neg/datamatrices"),
                                            pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
                                            full.names = TRUE)
   
@@ -182,7 +182,7 @@ if(settings$format == "old") {
   settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
   
   # check for full data matrix for isotope pattern reconstruction
-  settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_pos/"),
+  settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_neg/"),
                                            pattern = "data_full_[a-z0-9]*.csv$",
                                            full.names = TRUE)
 }
@@ -313,7 +313,7 @@ if(settings$format == "old") {
 } else if(settings$format == "new") {
   
   # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
-  if(check_ms1_spectra(settings$MS2_data_pos)) {
+  if(length(settings$MS2_data_pos) && check_ms1_spectra(settings$MS2_data_pos)) {
     ms1_pos_spectra <- import_ms1_spectra(settings$MS2_data_pos)
     ms1_pos_spectra <- addFeatureIDMS1(ms1_pos_spectra,
                                        ms1_pos_se,
@@ -327,7 +327,7 @@ if(settings$format == "old") {
     }
   }
   
-  if(check_ms1_spectra(settings$MS2_data_neg)) {
+  if(length(settings$MS2_data_neg) && check_ms1_spectra(settings$MS2_data_neg)) {
     ms1_neg_spectra <- import_ms1_spectra(settings$MS2_data_neg)
     ms1_neg_spectra <- addFeatureIDMS1(ms1_neg_spectra,
                                        ms1_neg_se,
