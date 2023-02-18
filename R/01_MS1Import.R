@@ -14,6 +14,8 @@ import_ms1_data <- function(ms1_file,
   
   message("Load MS1 data...")
   
+  print(ms1_file)
+  
   if(file.exists(ms1_file)) {
     
     #get name of data used from settings file and read in the data

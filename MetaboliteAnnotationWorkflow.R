@@ -384,14 +384,14 @@ if(length(settings$MS2_data_neg)) {
 # add MS1 ID to spectra --------------------------------------------------------
 if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
     ms2_pos_spectra <- addFeatureIDMS2(ms2_pos_spectra,
-                                    ms1_pos_se,
-                                    format = settings$format)
+                                       ms1_pos_se,
+                                       format = settings$format)
 }
 
 if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
-    ms2_neg_spectra <- addFeatureIDMS2(ms2_pos_spectra,
-                                    ms1_neg_se,
-                                    format = settings$format)
+    ms2_neg_spectra <- addFeatureIDMS2(ms2_neg_spectra,
+                                       ms1_neg_se,
+                                       format = settings$format)
 }
 
 # export MS2 spectra -----------------------------------------------------------
