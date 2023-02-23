@@ -269,7 +269,7 @@ addFeatureIDMS2 <- function(sps,
   
   d_idx <- filter(d_idx, ms2_id != "")
   d_idx <- separate_rows(d_idx, ms2_id, sep = "\\|")
-  d_idx <- mutate(d_idx, ms2_id = as.integer(str_replace(ms2_id, "_\\(e\\d+\\)", "")))
+  d_idx <- mutate(d_idx, ms2_id = as.integer(str_replace(ms2_id, "_\\(e\\d+(\\.\\d+)*\\)", "")))
   
   d_idx <- as.data.frame(d_idx)
   
