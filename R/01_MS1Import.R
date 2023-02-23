@@ -23,7 +23,14 @@ import_ms1_data <- function(ms1_file,
     
     # generate ID for MS1 feature
     strlength <- nchar(nrow(data))
-    id <- paste0("FT", prefix, str_pad(1:nrow(data), strlength, side = "left", pad = "0"))
+    id <- paste0("FT",
+                 toupper(prefix),
+                 str_pad(1:nrow(data),
+                         strlength,
+                         side = "left",
+                         pad = "0"))
+    
+    # combine data
     data <- cbind(id, data)
     
     #Define columns for assay
