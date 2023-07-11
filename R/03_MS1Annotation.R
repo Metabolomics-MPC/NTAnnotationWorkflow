@@ -10,6 +10,7 @@ perform_ms1_annotation <- function(se,
                                    tolerance = 0.000,
                                    ppm = 5,
                                    toleranceRt = NA,
+                                   rindex = FALSE,
                                    outputdir = NA,
                                    ionmode = "",
                                    saveRds = TRUE,
@@ -18,14 +19,31 @@ perform_ms1_annotation <- function(se,
   message("MS1 Annotation in ", ionmode)
   # build param object based on RT selection
   if(is.na(toleranceRt)) {
+    
     param <- Mass2MzParam(adducts = adducts,
                           tolerance = tolerance,
                           ppm = ppm)
+    
   } else {
-    param <- Mass2MzRtParam(adducts = adducts,
-                            tolerance = tolerance,
-                            ppm = ppm,
-                            toleranceRt = toleranceRt)
+    
+    # change to rindex if indexing is used
+    if(rindex) {
+      
+      param <- Mass2MzRtParam(adducts = adducts,
+                              tolerance = tolerance,
+                              ppm = ppm,
+                              toleranceRt = toleranceRt,
+                              rtColname = c("rindex", "rindex"))
+      
+    } else {
+      
+      param <- Mass2MzRtParam(adducts = adducts,
+                              tolerance = tolerance,
+                              ppm = ppm,
+                              toleranceRt = toleranceRt,
+                              rtColname = c("rt", "rt"))
+      
+    }
   }
   
   # perform matching for each compound library in libpath

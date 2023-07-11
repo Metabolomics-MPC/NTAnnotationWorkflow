@@ -10,6 +10,7 @@ perform_ms2_annotation <- function(spectra,
                                    tolerance = 0.000,
                                    ppm = 5,
                                    toleranceRt = NA,
+                                   rindex = FALSE,
                                    dpTresh = 0.6,
                                    relIntTresh = 1,
                                    outputdir,
@@ -22,17 +23,35 @@ perform_ms2_annotation <- function(spectra,
   
   # build param object based on RT selection
   if(is.na(toleranceRt)) {
+    
     param <- MatchForwardReverseParam(tolerance = tolerance,
                                       ppm = ppm,
                                       toleranceRt = Inf,
                                       requirePrecursor = TRUE,
                                       THRESHFUN = function(x) which(x >= dpTresh))
+    
   } else {
-    param <- MatchForwardReverseParam(tolerance = tolerance,
-                                      ppm = ppm,
-                                      toleranceRt = toleranceRt,
-                                      requirePrecursor = TRUE,
-                                      THRESHFUN = function(x) which(x >= dpTresh))
+    
+    # change to rindex if indexing is used
+    if(rindex) {
+      
+      param <- MatchForwardReverseParam(tolerance = tolerance,
+                                        ppm = ppm,
+                                        toleranceRt = toleranceRt,
+                                        requirePrecursor = TRUE,
+                                        THRESHFUN = function(x) which(x >= dpTresh),
+                                        rtColname = c("rindex", "rindex"))
+      
+    } else {
+      
+      param <- MatchForwardReverseParam(tolerance = tolerance,
+                                        ppm = ppm,
+                                        toleranceRt = toleranceRt,
+                                        requirePrecursor = TRUE,
+                                        THRESHFUN = function(x) which(x >= dpTresh),
+                                        rtColname = c("rt", "rt"))
+      
+    }
   }
   
   # modify query spectra
