@@ -33,6 +33,9 @@ import_ms1_data <- function(ms1_file,
     # combine data
     data <- cbind(id, data)
     
+    # multiply to seconds
+    data$rtime <- data$rtime * 60
+    
     #Define columns for assay
     if(format == "old") {
       int_begin <- grep("^intensity", colnames(data))[1]

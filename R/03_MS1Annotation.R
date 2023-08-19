@@ -17,34 +17,6 @@ perform_ms1_annotation <- function(se,
                                    saveTsv = FALSE) {
     
   message("MS1 Annotation in ", ionmode)
-  # build param object based on RT selection
-  if(is.na(toleranceRt)) {
-    
-    param <- Mass2MzParam(adducts = adducts,
-                          tolerance = tolerance,
-                          ppm = ppm)
-    
-  } else {
-    
-    # change to rindex if indexing is used
-    if(rindex) {
-      
-      param <- Mass2MzRtParam(adducts = adducts,
-                              tolerance = tolerance,
-                              ppm = ppm,
-                              toleranceRt = toleranceRt,
-                              rtColname = c("rindex", "rindex"))
-      
-    } else {
-      
-      param <- Mass2MzRtParam(adducts = adducts,
-                              tolerance = tolerance,
-                              ppm = ppm,
-                              toleranceRt = toleranceRt,
-                              rtColname = c("rt", "rt"))
-      
-    }
-  }
   
   # perform matching for each compound library in libpath
   ms1_libraries <- list.files(libpath,
@@ -58,20 +30,143 @@ perform_ms1_annotation <- function(se,
     # read library data and perform some sanity checks
     ms1_lib_data <- read.delim(ms1_library)
     
-    # check if all required columns are in place
-    if(class(param) == "Mass2MzParam" && !all(c("id", "name", "formula", "exactmass") %in% colnames(ms1_lib_data))) {
-      message(paste0("Missing one or all required columns id, name, formula, exactmass in library ", basename(ms1_library)))
-      next
-    } else if(class(param) == "Mass2MzRtParam" && !all(c("id", "name", "formula", "exactmass", "rt") %in% colnames(ms1_lib_data))) {
-      message(paste0("Missing one or all required columns id, name, formula, exact_mass, rt in library ", basename(ms1_library)))
-      next
+    # multiply to seconds
+    ms1_lib_data$rtime <- ms1_lib_data$rtime * 60
+    
+    # build param object and perform matching based on input settings
+    if(is.na(toleranceRt)) {
+      
+      # ========================================================================
+      # annotation only on m/z
+      # ========================================================================
+      # sanity check on required columns
+      if(!all(c("id", "name", "formula", "exactmass") %in% colnames(ms1_lib_data))) {
+        
+        message(paste0("Missing one or all required columns id, name, formula, exactmass in library ", basename(ms1_library)))
+        next
+        
+      }
+      
+      # check if m/z is defined or not
+      if("mz" %in% colnames(ms1_lib_data)) {
+        
+        param <- MzParam(tolerance = tolerance,
+                         ppm = ppm)
+        
+        se_match <- matchValues(rowData(se)[[1]],
+                                ms1_lib_data,
+                                param = param,
+                                mzColname = c("mz", "mz"))
+
+      } else {
+        
+        # build param object
+        param <- Mass2MzParam(adducts = adducts,
+                              tolerance = tolerance,
+                              ppm = ppm)
+        
+        # perform matching
+        se_match <- matchValues(rowData(se)[[1]],
+                                ms1_lib_data,
+                                param = param,
+                                mzColname = "mz",
+                                massColname = "exactmass")
+        
+      }
+      
+    } else {
+      
+      # change to rindex if indexing is used
+      if(rindex) {
+        
+        #=======================================================================
+        # annotation on m/z and rindex
+        # ======================================================================
+        # sanity check on required columns
+        if(!all(c("id", "name", "formula", "exactmass", "rindex") %in% colnames(ms1_lib_data))) {
+          
+          message(paste0("Missing one or all required columns id, name, formula, exactmass, rindex in library ", basename(ms1_library)))
+          next
+          
+        }
+        
+        # check if m/z is defined or not
+        if("mz" %in% colnames(ms1_lib_data)) {
+          
+          param <- MzRtParam(tolerance = tolerance,
+                             ppm = ppm,
+                             toleranceRt = toleranceRt)
+          
+          se_match <- matchValues(rowData(se)[[1]],
+                                  ms1_lib_data,
+                                  param = param,
+                                  mzColname = c("mz", "mz"),
+                                  rtColname = c("rindex", "rindex"))
+          
+        } else {
+          
+          # build param object
+          param <- Mass2MzRtParam(adducts = adducts,
+                                  tolerance = tolerance,
+                                  ppm = ppm,
+                                  toleranceRt = toleranceRt)
+          
+          # perform matching
+          se_match <- matchValues(rowData(se)[[1]],
+                                  ms1_lib_data,
+                                  param = param,
+                                  mzColname = "mz",
+                                  massColname = "exactmass",
+                                  rtColname = c("rindex", "rindex"))
+          
+        }
+        
+      } else {
+        
+        #=======================================================================
+        # annotation on m/z and rtime
+        # ======================================================================
+        # sanity check on required columns
+        if(!all(c("id", "name", "formula", "exactmass", "rt") %in% colnames(ms1_lib_data))) {
+          
+          message(paste0("Missing one or all required columns id, name, formula, exactmass, rt in library ", basename(ms1_library)))
+          next
+          
+        }
+        
+        # check if m/z is defined or not
+        if("mz" %in% colnames(ms1_lib_data)) {
+          
+          param <- MzRtParam(tolerance = tolerance,
+                             ppm = ppm,
+                             toleranceRt = toleranceRt)
+          
+          se_match <- matchValues(rowData(se)[[1]],
+                                  ms1_lib_data,
+                                  param = param,
+                                  mzColname = c("mz", "mz"),
+                                  rtColname = c("rt", "t"))
+          
+        } else {
+          
+          # build param object
+          param <- Mass2MzRtParam(adducts = adducts,
+                                  tolerance = tolerance,
+                                  ppm = ppm,
+                                  toleranceRt = toleranceRt)
+          
+          # perform matching
+          se_match <- matchValues(rowData(se)[[1]],
+                                  ms1_lib_data,
+                                  param = param,
+                                  mzColname = "mz",
+                                  massColname = "exactmass",
+                                  rtColname = c("rt", "rt"))
+          
+        }
+      }
     }
-    
-    # perform annotation
-    se_match <- matchMz(rowData(se)[[1]],
-                        ms1_lib_data,
-                        param = param)
-    
+
     # print number of matches
     print(se_match)
     
