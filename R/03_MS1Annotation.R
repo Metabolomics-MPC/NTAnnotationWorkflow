@@ -24,14 +24,19 @@ perform_ms1_annotation <- function(se,
   
   for(ms1_library in ms1_libraries) {
     
-    print(ms1_library)
-    print(se)
+    cat(red(paste0(ms1_library, "\n")))
+    #print(se)
       
     # read library data and perform some sanity checks
     ms1_lib_data <- read.delim(ms1_library)
     
     # multiply to seconds
-    ms1_lib_data$rtime <- ms1_lib_data$rtime * 60
+    if("rt" %in% colnames(ms1_lib_data)) {
+      ms1_lib_data$rt <- ms1_lib_data$rt * 60
+    } else {
+      ms1_lib_data$rt <- NA_real_
+    }
+    
     
     # build param object and perform matching based on input settings
     if(is.na(toleranceRt)) {
@@ -50,15 +55,21 @@ perform_ms1_annotation <- function(se,
       # check if m/z is defined or not
       if("mz" %in% colnames(ms1_lib_data)) {
         
+        cat(red("Matching based on precalculated m/z\n"))
+        
+        # build param object
         param <- MzParam(tolerance = tolerance,
                          ppm = ppm)
         
+        # perform matching
         se_match <- matchValues(rowData(se)[[1]],
                                 ms1_lib_data,
                                 param = param,
                                 mzColname = c("mz", "mz"))
 
       } else {
+        
+        cat(red("Matching based on m/z from exact mass and adducts\n"))
         
         # build param object
         param <- Mass2MzParam(adducts = adducts,
@@ -93,10 +104,14 @@ perform_ms1_annotation <- function(se,
         # check if m/z is defined or not
         if("mz" %in% colnames(ms1_lib_data)) {
           
+          cat(red("Matching based on precalculated m/z and RI\n"))
+          
+          # build param object
           param <- MzRtParam(tolerance = tolerance,
                              ppm = ppm,
                              toleranceRt = toleranceRt)
           
+          # perform matching
           se_match <- matchValues(rowData(se)[[1]],
                                   ms1_lib_data,
                                   param = param,
@@ -104,6 +119,8 @@ perform_ms1_annotation <- function(se,
                                   rtColname = c("rindex", "rindex"))
           
         } else {
+          
+          cat(red("Matching based on m/z from exact mass and adducts and RI\n"))
           
           # build param object
           param <- Mass2MzRtParam(adducts = adducts,
@@ -137,17 +154,23 @@ perform_ms1_annotation <- function(se,
         # check if m/z is defined or not
         if("mz" %in% colnames(ms1_lib_data)) {
           
+          cat(red("Matching based on precalculated m/z and RT\n"))
+          
+          # build param object
           param <- MzRtParam(tolerance = tolerance,
                              ppm = ppm,
                              toleranceRt = toleranceRt)
           
+          # perform matching
           se_match <- matchValues(rowData(se)[[1]],
                                   ms1_lib_data,
                                   param = param,
                                   mzColname = c("mz", "mz"),
-                                  rtColname = c("rt", "t"))
+                                  rtColname = c("rt", "rt"))
           
         } else {
+          
+          cat(red("Matching based on m/z from exact mass and adducts and RT\n"))
           
           # build param object
           param <- Mass2MzRtParam(adducts = adducts,

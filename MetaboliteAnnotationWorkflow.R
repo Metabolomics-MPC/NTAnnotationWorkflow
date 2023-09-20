@@ -21,9 +21,9 @@ options(warn=-1)
 if(!length(args)) {
   
   message("Running demo data!")
-  input <- "new_test_input"
-  output <- "new_test_output"
-  libraries <- "new_test_library"
+  input <- "Demo/new/test_input"
+  output <- "Demo/new/test_output"
+  libraries <- "Demo/new/test_library"
   settings_yaml <- paste0(input, "/settings.yaml")
   
 } else {
@@ -71,22 +71,34 @@ settings <- read_yaml(settings_yaml)
 
 # overwrite data in settings yaml with manually determined values
 settings$output_dir <- output
-settings$MS1_lib_ext <- paste0(libraries, "/MS1_external")
-settings$MS1_lib_inhouse <- paste0(libraries, "/MS1_inhouse")
+settings$MS1_lib_pos <- paste0(libraries, "/MS1_inhouse_pos")
+settings$MS1_lib_neg <- paste0(libraries, "/MS1_inhouse_neg")
+settings$MS1_lib_pos_ext <- paste0(libraries, "/MS1_external_pos")
+settings$MS1_lib_neg_ext <- paste0(libraries, "/MS1_external_pos")
 settings$MS2_lib_pos <- paste0(libraries, "/MS2_inhouse_pos")
 settings$MS2_lib_neg <- paste0(libraries, "/MS2_inhouse_neg")
 settings$MS2_lib_pos_ext <- paste0(libraries, "/MS2_external_pos")
 settings$MS2_lib_neg_ext <- paste0(libraries, "/MS2_external_neg")
 
 # check if folders for annotations exists
-if(!dir.exists(settings$MS1_lib_ext)) {
-  dir.create(settings$MS1_lib_ext)
+# MS1 libraries
+if(!dir.exists(settings$MS1_lib_pos)) {
+  dir.create(settings$MS1_lib_pos)
 }
 
-if(!dir.exists(settings$MS1_lib_inhouse)) {
-  dir.create(settings$MS1_lib_inhouse)
+if(!dir.exists(settings$MS1_lib_neg)) {
+  dir.create(settings$MS1_lib_neg)
 }
 
+if(!dir.exists(settings$MS1_lib_pos_ext)) {
+  dir.create(settings$MS1_lib_pos_ext)
+}
+
+if(!dir.exists(settings$MS1_lib_neg_ext)) {
+  dir.create(settings$MS1_lib_neg_ext)
+}
+
+# MS2 libraries
 if(!dir.exists(settings$MS2_lib_pos)) {
   dir.create(settings$MS2_lib_pos)
 }
@@ -187,12 +199,18 @@ if(settings$format == "old") {
                                            full.names = TRUE)
 }
 
+# check retention indexing settings --------------------------------------------
+if(settings$rindex) {
+  settings$rindex <- FALSE
+}
 
 # validate settings ------------------------------------------------------------
 #settings <- validateSettings(settings)
 
 # setup output directory with all subfolder ------------------------------------
-if(!dir.exists(settings$output_dir)) dir.create(settings$output_dir)
+if(!dir.exists(settings$output_dir)) {
+  dir.create(settings$output_dir)
+}
 
 if(!dir.exists(paste0(settings$output_dir, "/QFeatures_MS1"))) {
   dir.create(paste0(settings$output_dir, "/QFeatures_MS1"))
@@ -269,6 +287,8 @@ if(length(settings$MS1_data_pos)) {
   ms1_pos_se <- import_ms1_data(settings$MS1_data_pos,
                                 samplegroup = settings$samplegroup,
                                 studydesign_file = settings$studydesign_pos,
+                                rindex = settings$rindex,
+                                rindex_df = data.frame(),
                                 prefix = "pos",                        
                                 outputdir = settings$output_dir,
                                 format = settings$format,
@@ -282,6 +302,8 @@ if(length(settings$MS1_data_neg)) {
   ms1_neg_se <- import_ms1_data(settings$MS1_data_neg,
                                 samplegroup = settings$samplegroup,
                                 studydesign_file = settings$studydesign_neg,
+                                rindex = settings$rindex,
+                                rindex_df = data.frame(),
                                 prefix = "neg",
                                 outputdir = settings$output_dir,
                                 format = settings$format,
@@ -424,15 +446,15 @@ source("R/03_MS1Annotation.R")
 if(!is.na(ms1_pos_se)) {
   
   # perform annotation with in-house libraries
-  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
+  if(!is.na(settings$MS1_lib_pos) && length(list.files(settings$MS1_lib_pos))) {
      
     perform_ms1_annotation(ms1_pos_se,
-                           settings$MS1_lib_inhouse,
+                           settings$MS1_lib_pos,
                            adducts = settings$adducts_pos,
                            tolerance = settings$tolerance_MS1,
                            ppm = settings$ppm_MS1,
                            toleranceRt = settings$toleranceRt_MS1,
-                           rindex = FALSE,
+                           rindex = settings$rindex,
                            outputdir = settings$output_dir,
                            ionmode = "pos",
                            saveRds = settings$save_rds,
@@ -441,15 +463,15 @@ if(!is.na(ms1_pos_se)) {
   }
 
   # perform annotation with external libraries
-  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
+  if(!is.na(settings$MS1_lib_pos_ext) && length(list.files(settings$MS1_lib_pos_ext))) {
     
     perform_ms1_annotation(ms1_pos_se,
-                           settings$MS1_lib_ext,
+                           settings$MS1_lib_pos_ext,
                            adducts = settings$adducts_pos,
                            tolerance = settings$tolerance_MS1,
                            ppm = settings$ppm_MS1,
                            toleranceRt = NA,
-                           rindex = FALSE,
+                           rindex = settings$rindex,
                            outputdir = settings$output_dir,
                            ionmode = "pos",
                            saveRds = settings$save_rds,
@@ -462,15 +484,15 @@ if(!is.na(ms1_pos_se)) {
 if(!is.na(ms1_neg_se)) {
   
   # perform annotation with in-house libraries
-  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
+  if(!is.na(settings$MS1_lib_neg) && length(list.files(settings$MS1_lib_neg))) {
     
     perform_ms1_annotation(ms1_neg_se,
-                           settings$MS1_lib_inhouse,
+                           settings$MS1_lib_neg,
                            adducts = settings$adducts_neg,
                            tolerance = settings$tolerance_MS1,
                            ppm = settings$ppm_MS1,
                            toleranceRt = settings$toleranceRt_MS1,
-                           rindex = FALSE,
+                           rindex = settings$rindex,
                            outputdir = settings$output_dir,
                            ionmode = "neg",
                            saveRds = settings$save_rds,
@@ -479,15 +501,15 @@ if(!is.na(ms1_neg_se)) {
   }
   
   # perform annotation with external libraries
-  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
+  if(!is.na(settings$MS1_lib_neg_ext) && length(list.files(settings$MS1_lib_neg_ext))) {
     
     perform_ms1_annotation(ms1_neg_se,
-                           settings$MS1_lib_ext,
+                           settings$MS1_lib_neg_ext,
                            adducts = settings$adducts_neg,
                            tolerance = settings$tolerance_MS1,
                            ppm = settings$ppm_MS1,
                            toleranceRt = NA,
-                           rindex = FALSE,
+                           rindex = settings$rindex,
                            outputdir = settings$output_dir,
                            ionmode = "neg",
                            saveRds = settings$save_rds,

@@ -6,6 +6,8 @@
 import_ms1_data <- function(ms1_file,
                             samplegroup = FALSE,
                             studydesign_file = NA,
+                            rindex = FALSE,
+                            rindex_df = data.frame(),
                             prefix = "",                       
                             outputdir = "",
                             format = "old",
@@ -34,7 +36,7 @@ import_ms1_data <- function(ms1_file,
     data <- cbind(id, data)
     
     # multiply to seconds
-    data$rtime <- data$rtime * 60
+    data$rt <- data$rt * 60
     
     #Define columns for assay
     if(format == "old") {
