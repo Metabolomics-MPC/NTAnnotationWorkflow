@@ -120,7 +120,7 @@ perform_ms1_annotation <- function(se,
           
         } else {
           
-          cat(red("Matching based on m/z from exact mass and adducts and RI\n"))
+          cat(red("Matching based on m/z from exact mass, adducts and RI\n"))
           
           # build param object
           param <- Mass2MzRtParam(adducts = adducts,
@@ -170,7 +170,7 @@ perform_ms1_annotation <- function(se,
           
         } else {
           
-          cat(red("Matching based on m/z from exact mass and adducts and RT\n"))
+          cat(red("Matching based on m/z from exact mass, adducts and RT\n"))
           
           # build param object
           param <- Mass2MzRtParam(adducts = adducts,
@@ -210,6 +210,22 @@ perform_ms1_annotation <- function(se,
                      "_",
                      str_replace(basename(ms1_library), ".tsv$", ""),
                      "_ms1annotation.rds"))
+    } else if(saveRds && class(param) == "MzParam") {
+      saveRDS(se_match,
+              paste0(outputdir,
+                     "/Annotation_MS1_external/",
+                     ionmode,
+                     "_",
+                     str_replace(basename(ms1_library), ".tsv$", ""),
+                     "_ms1annotation.rds"))
+    } else if(saveRds && class(param) == "MzRtParam") {
+      saveRDS(se_match,
+              paste0(outputdir,
+                     "/Annotation_MS1_inhouse/",
+                     ionmode,
+                     "_",
+                     str_replace(basename(ms1_library), ".tsv$", ""),
+                     "_ms1annotation.rds"))
     }
     
     # save results in a tsv file
@@ -223,6 +239,24 @@ perform_ms1_annotation <- function(se,
                          "_ms1annotation.tsv"),
                   sep = "\t", row.names = FALSE)
     } else if(saveTsv && class(param) == "Mass2MzRtParam") {
+      write.table(matchedData(se_match),
+                  paste0(outputdir,
+                         "/Annotation_MS1_inhouse/",
+                         ionmode,
+                         "_",
+                         str_replace(basename(ms1_library), ".tsv$", ""),
+                         "_ms1annotation.tsv"),
+                  sep = "\t", row.names = FALSE)
+    } else if(saveTsv && class(param) == "MzParam") {
+      write.table(matchedData(se_match),
+                  paste0(outputdir,
+                         "/Annotation_MS1_external/",
+                         ionmode,
+                         "_",
+                         str_replace(basename(ms1_library), ".tsv$", ""),
+                         "_ms1annotation.tsv"),
+                  sep = "\t", row.names = FALSE)
+    } else if(saveTsv && class(param) == "MzRtParam") {
       write.table(matchedData(se_match),
                   paste0(outputdir,
                          "/Annotation_MS1_inhouse/",

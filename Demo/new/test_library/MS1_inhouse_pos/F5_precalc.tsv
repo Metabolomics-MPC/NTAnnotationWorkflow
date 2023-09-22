@@ -1,0 +1,6 @@
+id	name	formula	exactmass	adduct	mz	rt
+Sciex_0000101 	creatine 	C4H9N3O2 	131.0695	[M+H]+	132.076753	1.78
+Sciex_0004501 	L-tryptophan 	C11H12N2O2 	204.0899	[M+H]+	205.097154	7.04
+Sciex_0004501 	L-tryptophan 	C11H12N2O2 	204.0899	[M+Na]+	227.079098	7.04
+Sciex_0004501 	L-tryptophan 	C11H12N2O2 	204.0899	[M+H]+	243.053036	7.04
+Sciex_0004501 	L-tryptophan 	C11H12N2O2 	204.0899	[M+H-NH3]+	188.070605	7.04
