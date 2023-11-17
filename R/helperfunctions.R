@@ -191,20 +191,43 @@ validateSettings <- function(x) {
 # ==============================================================================
 # MS1 related functions
 # ==============================================================================
+# function to perform retention indexing
+performRindexing <- function(x,
+                             rindex_df,
+                             correction = FALSE,
+                             correction_df = data.frame()) {
+  
+  # perform retention indexing
+  rindex <- indexRtime(x, rindex_df)
+  
+  # if secondary correction shall be performed
+  if(correction) {
+    rindex <- correctRindex(rindex, correction_df)
+  }
+  
+  rindex
+  
+}
 
 # ==============================================================================
 # MS2 related functions
 # ==============================================================================
 #' Remove fragments below x% of base peak intensity
-low_int <- function(x, int_tresh = 1) {
+low_int <- function(x,
+                    int_tresh = 1) {
+  
     x > max(x, na.rm = TRUE) * (int_tresh / 100 )
+  
 }
 
 #' Normalize intensities
-norm_int <- function(x, ...) {
+norm_int <- function(x,
+                     ...) {
+  
     maxint <- max(x[, "intensity"], na.rm = TRUE)
     x[, "intensity"] <- 100 * x[, "intensity"] / maxint
     x
+    
 }
 
 #' Remove precursor ion
@@ -245,7 +268,8 @@ addFeatureIDMS1 <- function(sps,
   
   sps <- sps[which(!is.na(sps$FEATUREID))]
   
-  return(sps)
+  sps
+  
 }
 
 #' Function for adding Feature Ids from summarized Experiment to a Spectra object
@@ -260,11 +284,15 @@ addFeatureIDMS2 <- function(sps,
   
   # get id and ms id from summarizedExperiment
   if(format == "old") {
+    
     d_idx <- data.frame(id = rowData(se)[[1]]$id,
                         ms2_id = rowData(se)[[1]]$ms2_id)
+    
   } else if(format == "new") {
+    
     d_idx <- data.frame(id = rowData(se)[[1]]$id,
                         ms2_id = rowData(se)[[1]]$mgf_ms2_id)
+    
   }
   
   d_idx <- filter(d_idx, ms2_id != "")
@@ -285,5 +313,6 @@ addFeatureIDMS2 <- function(sps,
   
   sps <- sps[which(!is.na(sps$FEATUREID))]
   
-  return(sps)
+  sps
+  
 }
