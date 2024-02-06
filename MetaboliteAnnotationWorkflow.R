@@ -201,8 +201,19 @@ if(settings$format == "old") {
 
 # check retention indexing settings --------------------------------------------
 if(settings$rindex) {
-  settings$rindex <- FALSE
+  if(!length(settings$rindex_time) == length(settings$rindex_index)) {
+    message("Length of RI time and index are not matching, indexing will be skipped")
+    settings$rindex <- FALSE
+    settings$rindex_df <- data.frame(rt = NA_real_,
+                                     ri = NA_real_)
+  } else {
+    settings$rindex <- TRUE
+    settings$rindex_df <- data.frame(rt = settings$rindex_time,
+                                     ri = settings$rindex_index)
+  }
 }
+
+print(settings$rindex_df)
 
 # validate settings ------------------------------------------------------------
 #settings <- validateSettings(settings)

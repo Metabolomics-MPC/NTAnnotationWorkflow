@@ -35,6 +35,20 @@ import_ms1_data <- function(ms1_file,
     # combine data
     data <- cbind(id, data)
     
+    # perform retention time indexing
+    if(rindex) {
+      
+      rindex_value <- performRindexing(data,
+                                       rindex_df,
+                                       correction = FALSE,
+                                       correction_df = data.frame())
+      
+    } else {
+      rindex_value <- NA_real_
+    }
+    
+    data <- add_column(data, rindex = rindex_value, .after = "rt")
+    
     # multiply to seconds
     data$rt <- data$rt * 60
     
@@ -44,6 +58,7 @@ import_ms1_data <- function(ms1_file,
     } else if(format == "new") {
       int_begin <- grep("^quant", colnames(data))[1]
     }
+    
     
     
     #Start QFeature object of class SummarizedExperiment

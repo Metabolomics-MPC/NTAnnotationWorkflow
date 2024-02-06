@@ -47,6 +47,9 @@
   
   if(!require("crayon")) install.packages("crayon")
   suppressPackageStartupMessages(library(crayon, quietly = TRUE))
+  
+  if(!require("tibble")) install.packages("tibble")
+  suppressPackageStartupMessages(library(crayon, quietly = TRUE))
 }
 
 # Load all helperfunctions

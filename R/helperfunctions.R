@@ -197,15 +197,20 @@ performRindexing <- function(x,
                              correction = FALSE,
                              correction_df = data.frame()) {
   
-  # perform retention indexing
-  rindex <- indexRtime(x, rindex_df)
+  # find fitting peaks in dataset
   
+  
+  # perform retention indexing
+  rindex <- indexRtime(x$rt, rindex_df)
+
   # if secondary correction shall be performed
   if(correction) {
     rindex <- correctRindex(rindex, correction_df)
   }
-  
+
   rindex
+  
+  100
   
 }
 
