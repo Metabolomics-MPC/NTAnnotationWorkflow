@@ -6,12 +6,17 @@
 import_ms1_data <- function(ms1_file,
                             samplegroup = FALSE,
                             studydesign_file = NA,
+                            rindex = FALSE,
+                            rindex_df = data.frame(),
                             prefix = "",                       
-                            outputdir = "",                       
+                            outputdir = "",
+                            format = "old",
                             saveRds = TRUE,
                             saveTsv = FALSE){
   
   message("Load MS1 data...")
+  
+  print(ms1_file)
   
   if(file.exists(ms1_file)) {
     
@@ -20,16 +25,46 @@ import_ms1_data <- function(ms1_file,
     
     # generate ID for MS1 feature
     strlength <- nchar(nrow(data))
-    id <- paste0("FT", prefix, str_pad(1:nrow(data), strlength, side = "left", pad = "0"))
+    id <- paste0("FT",
+                 toupper(prefix),
+                 str_pad(1:nrow(data),
+                         strlength,
+                         side = "left",
+                         pad = "0"))
+    
+    # combine data
     data <- cbind(id, data)
     
+    # perform retention time indexing
+    if(rindex) {
+      
+      rindex_value <- performRindexing(data,
+                                       rindex_df,
+                                       correction = FALSE,
+                                       correction_df = data.frame())
+      
+    } else {
+      rindex_value <- NA_real_
+    }
+    
+    data <- add_column(data, rindex = rindex_value, .after = "rt")
+    
+    # multiply to seconds
+    data$rt <- data$rt * 60
+    
     #Define columns for assay
-    int_begin <- grep("^intensity", colnames(data))[1]
+    if(format == "old") {
+      int_begin <- grep("^intensity", colnames(data))[1]
+    } else if(format == "new") {
+      int_begin <- grep("^quant", colnames(data))[1]
+    }
+    
+    
     
     #Start QFeature object of class SummarizedExperiment
     se <- readQFeatures(data,
                         ecol = int_begin:ncol(data),
-                        name ="slaw")
+                        name = "slaw")
     
     #get group information
     if(samplegroup & !is.null(studydesign_file)){
@@ -44,7 +79,6 @@ import_ms1_data <- function(ms1_file,
     }
     
     if(saveRds) {
-      
       saveRDS(se,
               paste0(outputdir,
                      "/QFeatures_MS1/",
@@ -53,6 +87,18 @@ import_ms1_data <- function(ms1_file,
                      str_replace(basename(ms1_file), ".tsv$|.csv$", ""),
                      "_qfeatures.rds"))
       
+    }
+    
+    if(saveTsv) {
+      write.table(cbind.data.frame(as.data.frame(rowData(se)[[1]]),
+                                   as.data.frame(assay(se))),
+                  paste0(outputdir,
+                         "/QFeatures_MS1/",
+                         prefix,
+                         "_",
+                         str_replace(basename(ms1_file), ".tsv$|.csv$", ""),
+                         "_features.tsv"),
+                  sep = "\t", row.names = FALSE)
     }
 
     message("... complete")
@@ -71,8 +117,9 @@ import_ms1_data <- function(ms1_file,
 #' @param project_dir Path to project directory
 #' 
 #' @returns A Spectra object containing the MS2 data 
-import_ms1_spectra <- function(se,
-                               fulldata){
+reconstruct_ms1_spectra <- function(se,
+                                    fulldata,
+                                    BPPARAM = SerialParam()){
   
   # reconstruct from MS1 data
   message("Constructing MS1 spectra from peaks...")
@@ -86,9 +133,12 @@ import_ms1_spectra <- function(se,
     
     # read data with all peaks and perform reconstruction
     peaks <- read.delim(fulldata)
-    pb = txtProgressBar(min = 0, max = nrow(se_rowdata), initial = 0) 
+    # pb = txtProgressBar(min = 0, max = nrow(se_rowdata), initial = 0) 
     
-    for(i in 1:nrow(se_rowdata)) {
+    # local function to create isotope pattern
+    .createIso <- function(i,
+                           se_rowdata,
+                           peaks) {
       
       # selected mz and RT of feature for MS1 reconstruction
       selected_mz <- se_rowdata$mz[i]
@@ -107,26 +157,90 @@ import_ms1_spectra <- function(se,
       
       # get peaks for one adduct
       mz <- selected_peaks$mz
-      intensity <- rowSums(selected_peaks[colnames(peaks)[grepl("^intensity.*", colnames(peaks))]])
+      intensity <- rowSums(selected_peaks[colnames(peaks)[grepl("(^intensity|^quant).*", colnames(peaks))]])
+      
+      # create data frame and sort
+      iso_df <- data.frame(mz = mz,
+                           intensity = intensity)
+      
+      iso_df <- iso_df[order(mz),]
       
       # create Spectra object
       iso_spd <- DataFrame(msLevel = 1L,
                            FEATUREID = selected_id)
-      iso_spd$mz <- list(mz)
-      iso_spd$intensity <- list(intensity)
-      iso_sps <- Spectra(iso_spd)
+      iso_spd$mz <- list(iso_df$mz)
+      iso_spd$intensity <- list(iso_df$intensity)
+      Spectra(iso_spd)
       
-      #plotSpectra(iso_sps)
-      
-      # add to spectra object
-      ms1_spectra <- c(ms1_spectra, iso_sps)
-      
-      setTxtProgressBar(pb,i)
     }
     
-    close(pb)
+    # isolate unique combinations of annotation, group and clique
+    ms1_spectra <- bplapply(1:nrow(se_rowdata), 
+                            .createIso,
+                            se_rowdata,
+                            peaks,
+                            BPPARAM = BPPARAM)
+    
+    ms1_spectra <- do.call(c, ms1_spectra)
+
     message("... complete")
     return(ms1_spectra)
+    
+  } else {
+    
+    message("...data not found!")
+    return(NA)
+    
+  }
+}
+
+#' Function for reading in MS2 Data 
+#'
+#' @param ms1_file file path to spectrum file containing ms1 spectra
+#' 
+#' @returns A boolean indicating the presence of MS1 spectra
+check_ms1_spectra <- function(ms1_file) {
+  any(grepl("MSLEVEL=1", readLines(ms1_file)))
+}
+
+#' Function for reading in MS2 Data 
+#'
+#' @param ms1_file file path to spectrum file containing ms1 spectra
+#' 
+#' @returns A Spectra object containing the MS1 data 
+import_ms1_spectra <- function(ms1_file){
+  
+  #Load Fused MGF file
+  message("Load MS1 data...")
+  
+  # custom mapping for mgf import
+  custom_mapping_mgf <- c(rtime = "RTINSECONDS",
+                          acquisitionNum = "SCANS",
+                          precursorMz = "PEPMASS",
+                          precursorIntensity = "PEPMASSINT",
+                          precursorCharge = "CHARGE",
+                          msLevel = "MSLEVEL")
+  
+  if(file.exists(ms1_file)) {
+    
+    if(grepl(".mgf$", ms1_file)) {
+      
+      ms1_spectra <- Spectra(ms1_file,
+                             source = MsBackendMgf(),
+                             backend = MsBackendDataFrame(),
+                             mapping = custom_mapping_mgf)
+      
+    } else if(grepl(".msp$", ms1_file)) {
+      
+      ms1_spectra <- Spectra(ms1_file,
+                             source = MsBackendMsp(),
+                             backend = MsBackendDataFrame())
+      
+    }
+    
+    message("... complete")
+    ms1_spectra$number <- 1:length(ms1_spectra)
+    return(ms1_spectra[which(ms1_spectra$msLevel == 1L)])
     
   } else {
     

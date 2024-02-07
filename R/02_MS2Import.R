@@ -8,13 +8,22 @@ import_ms2_spectra <- function(ms2_file){
   #Load Fused MGF file
   message("Load MS2 data...")
   
+  # custom mapping for mgf import
+  custom_mapping_mgf <- c(rtime = "RTINSECONDS",
+                          acquisitionNum = "SCANS",
+                          precursorMz = "PEPMASS",
+                          precursorIntensity = "PEPMASSINT",
+                          precursorCharge = "CHARGE",
+                          msLevel = "MSLEVEL")
+  
   if(file.exists(ms2_file)) {
     
     if(grepl(".mgf$", ms2_file)) {
       
       ms2_spectra <- Spectra(ms2_file,
                              source = MsBackendMgf(),
-                             backend = MsBackendDataFrame())
+                             backend = MsBackendDataFrame(),
+                             mapping = custom_mapping_mgf)
       
     } else if(grepl(".msp$", ms2_file)) {
       

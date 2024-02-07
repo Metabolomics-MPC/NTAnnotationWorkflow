@@ -4,9 +4,14 @@
 # Validation of settings
 validateSettings <- function(x) {
   
-  # check core setttings
+  # check core setttings -------------------------------------------------------
   if(!is.numeric(x$cores)) {
     x$cores <- 1
+  }
+  
+  # check format settings ------------------------------------------------------
+  if(!x$format %in% c("old", "new")) {
+    stop("format needs to be either 'old' or 'new'")
   }
   
   # check input files ----------------------------------------------------------
@@ -186,20 +191,48 @@ validateSettings <- function(x) {
 # ==============================================================================
 # MS1 related functions
 # ==============================================================================
+# function to perform retention indexing
+performRindexing <- function(x,
+                             rindex_df,
+                             correction = FALSE,
+                             correction_df = data.frame()) {
+  
+  # find fitting peaks in dataset
+  
+  
+  # perform retention indexing
+  rindex <- indexRtime(x$rt, rindex_df)
+
+  # if secondary correction shall be performed
+  if(correction) {
+    rindex <- correctRindex(rindex, correction_df)
+  }
+
+  rindex
+  
+  100
+  
+}
 
 # ==============================================================================
 # MS2 related functions
 # ==============================================================================
 #' Remove fragments below x% of base peak intensity
-low_int <- function(x, int_tresh = 1) {
+low_int <- function(x,
+                    int_tresh = 1) {
+  
     x > max(x, na.rm = TRUE) * (int_tresh / 100 )
+  
 }
 
 #' Normalize intensities
-norm_int <- function(x, ...) {
+norm_int <- function(x,
+                     ...) {
+  
     maxint <- max(x[, "intensity"], na.rm = TRUE)
     x[, "intensity"] <- 100 * x[, "intensity"] / maxint
     x
+    
 }
 
 #' Remove precursor ion
@@ -221,15 +254,55 @@ removePrecursor <- function(window = 1) {
 #' @param sps Spectra object
 #' 
 #' @return Spectra object with new Metadata FeatureID
-addFeatureID <- function(sps, se){
+addFeatureIDMS1 <- function(sps,
+                            se,
+                            format = "old"){
+  
+  d_idx <- data.frame(id = rowData(se)[[1]]$id,
+                      ms1_id = rowData(se)[[1]]$slaw_id)
+  
+  sps$FEATUREID <- NA_character_
+
+  pb = txtProgressBar(min = 0, max = nrow(d_idx), initial = 0) 
+  
+  for(i in 1:nrow(d_idx)) {
+    sps$FEATUREID[which(sps$SLAW_ID == d_idx$ms1_id[i])] <- d_idx$id[i]
+    setTxtProgressBar(pb,i)
+  }
+  close(pb)
+  
+  sps <- sps[which(!is.na(sps$FEATUREID))]
+  
+  sps
+  
+}
+
+#' Function for adding Feature Ids from summarized Experiment to a Spectra object
+#'
+#' @param se SummarizedExperiment
+#' @param sps Spectra object
+#' 
+#' @return Spectra object with new Metadata FeatureID
+addFeatureIDMS2 <- function(sps,
+                            se,
+                            format = "old"){
   
   # get id and ms id from summarizedExperiment
-  d_idx <- data.frame(id = rowData(se)[[1]]$id,
-                      ms2_id = rowData(se)[[1]]$ms2_id)
+  if(format == "old") {
+    
+    d_idx <- data.frame(id = rowData(se)[[1]]$id,
+                        ms2_id = rowData(se)[[1]]$ms2_id)
+    
+  } else if(format == "new") {
+    
+    d_idx <- data.frame(id = rowData(se)[[1]]$id,
+                        ms2_id = rowData(se)[[1]]$mgf_ms2_id)
+    
+  }
   
   d_idx <- filter(d_idx, ms2_id != "")
   d_idx <- separate_rows(d_idx, ms2_id, sep = "\\|")
-  d_idx <- mutate(d_idx, ms2_id = as.integer(str_replace(ms2_id, "_\\(e\\d+\\)", "")))
+  d_idx <- mutate(d_idx, ms2_id = as.integer(str_replace(ms2_id, "_\\(e\\d+(\\.\\d+)*\\)", "")))
   
   d_idx <- as.data.frame(d_idx)
   
@@ -242,7 +315,9 @@ addFeatureID <- function(sps, se){
     setTxtProgressBar(pb,i)
   }
   close(pb)
-  return(sps)
+  
+  sps <- sps[which(!is.na(sps$FEATUREID))]
+  
+  sps
+  
 }
-
-

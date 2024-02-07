@@ -8,33 +8,29 @@
 #
 # This data analysis workflow perform annotation of untargeted LC-MS data on the
 # MS1 and MS2 level using different libraries and matching functions
+#
+# This is the development version to be in sync with the devel version of SLAW
+#
 # ==============================================================================
 # get project directory to work on
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
 options(warn=-1)
 
-# # check if args is supplied, else run demote data
-# if(is.na(args[1])) {
-#   message("Running demo data!")
-#   settings_yaml <- "test_input/settings.yaml"
-# } else {
-#   settings_yaml <- args[1]
-# }
-
 # check if correct command line args are supplied
 if(!length(args)) {
   
   message("Running demo data!")
-  input <- "test_input"
-  output <- "test_output"
+  input <- "Demo/new/test_input"
+  output <- "Demo/new/test_output"
+  libraries <- "Demo/new/test_library"
   settings_yaml <- paste0(input, "/settings.yaml")
   
 } else {
   
   # check if arguments have correct length
-  if(!length(args) == 2) {
-    stop("Exactly two arguments are required: Input and Output folder!")
+  if(!length(args) == 3) {
+    stop("Exactly three arguments are required: Input, output and library folder!")
   }
   
   # check if input folder exists
@@ -52,8 +48,14 @@ if(!length(args)) {
     dir.create(args[2])
   }
   
+  # check for library folder
+  if(!dir.exists(args[3])) {
+    stop(paste0("Library folder ", args[3], " does not exist!"))
+  }
+  
   input <- args[1]
   output <- args[2]
+  libraries <- args[3]
   settings_yaml <- paste0(input, "/settings.yaml")
   
 }
@@ -69,50 +71,164 @@ settings <- read_yaml(settings_yaml)
 
 # overwrite data in settings yaml with manually determined values
 settings$output_dir <- output
+settings$MS1_lib_pos <- paste0(libraries, "/MS1_inhouse_pos")
+settings$MS1_lib_neg <- paste0(libraries, "/MS1_inhouse_neg")
+settings$MS1_lib_pos_ext <- paste0(libraries, "/MS1_external_pos")
+settings$MS1_lib_neg_ext <- paste0(libraries, "/MS1_external_pos")
+settings$MS2_lib_pos <- paste0(libraries, "/MS2_inhouse_pos")
+settings$MS2_lib_neg <- paste0(libraries, "/MS2_inhouse_neg")
+settings$MS2_lib_pos_ext <- paste0(libraries, "/MS2_external_pos")
+settings$MS2_lib_neg_ext <- paste0(libraries, "/MS2_external_neg")
 
-# check for positive mode data -------------------------------------------------
-# standard input files
-settings$MS1_data_pos <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
-                                    pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
-                                    full.names = TRUE)
+# check if folders for annotations exists
+# MS1 libraries
+if(!dir.exists(settings$MS1_lib_pos)) {
+  dir.create(settings$MS1_lib_pos)
+}
 
-settings$MS2_data_pos <- list.files(paste0(input, "/output_slaw_pos/fused_mgf"),
-                                    pattern = "fused_mgf_[a-z0-9]*.mgf$",
-                                    full.names = TRUE)
+if(!dir.exists(settings$MS1_lib_neg)) {
+  dir.create(settings$MS1_lib_neg)
+}
 
-# check for study design
-settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv")
+if(!dir.exists(settings$MS1_lib_pos_ext)) {
+  dir.create(settings$MS1_lib_pos_ext)
+}
 
-# check for full data matrix for isotope pattern reconstruction
-settings$MS1_data_pos_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
-                                         pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
-                                         full.names = TRUE)
+if(!dir.exists(settings$MS1_lib_neg_ext)) {
+  dir.create(settings$MS1_lib_neg_ext)
+}
 
-# check for negative mode data -------------------------------------------------
-# standard input files
-settings$MS1_data_neg <- list.files(paste0(input, "/output_slaw_neg/datamatrices"),
-                                    pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
-                                    full.names = TRUE)
+# MS2 libraries
+if(!dir.exists(settings$MS2_lib_pos)) {
+  dir.create(settings$MS2_lib_pos)
+}
 
-settings$MS2_data_neg <- list.files(paste0(input, "/output_slaw_neg/fused_mgf"),
-                                    pattern = "fused_mgf_[a-z0-9]*.mgf$",
-                                    full.names = TRUE)
-# check for study design
-settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
+if(!dir.exists(settings$MS2_lib_neg)) {
+  dir.create(settings$MS2_lib_neg)
+}
 
-# check for full data matrix for isotope pattern reconstruction
-settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
-                                         pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
-                                         full.names = TRUE)
+if(!dir.exists(settings$MS2_lib_pos_ext)) {
+  dir.create(settings$MS2_lib_pos_ext)
+}
+
+if(!dir.exists(settings$MS2_lib_neg_ext)) {
+  dir.create(settings$MS2_lib_neg_ext)
+}
+
+# check for defined format and read accordingly
+if(settings$format == "old") {
+  
+  cat(blue("==================================================================\n"))
+  cat(blue("Old SLAW output \n"))
+  cat(blue("==================================================================\n"))
+  
+  # check for positive mode data -----------------------------------------------
+  # standard input files
+  settings$MS1_data_pos <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
+                                      pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
+                                      full.names = TRUE)
+  
+  settings$MS2_data_pos <- list.files(paste0(input, "/output_slaw_pos/fused_mgf"),
+                                      pattern = "fused_mgf_[a-z0-9]*.mgf$",
+                                      full.names = TRUE)
+  
+  # check for study design
+  settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv")
+  
+  # check for full data matrix for isotope pattern reconstruction
+  settings$MS1_data_pos_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
+                                           pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
+                                           full.names = TRUE)
+  
+  # check for negative mode data -----------------------------------------------
+  # standard input files
+  settings$MS1_data_neg <- list.files(paste0(input, "/output_slaw_neg/datamatrices"),
+                                      pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
+                                      full.names = TRUE)
+  
+  settings$MS2_data_neg <- list.files(paste0(input, "/output_slaw_neg/fused_mgf"),
+                                      pattern = "fused_mgf_[a-z0-9]*.mgf$",
+                                      full.names = TRUE)
+  # check for study design
+  settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
+  
+  # check for full data matrix for isotope pattern reconstruction
+  settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_neg/datamatrices"),
+                                           pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
+                                           full.names = TRUE)
+  
+} else if(settings$format == "new") {
+  
+  cat(blue("==================================================================\n"))
+  cat(blue("New SLAW output (devel) \n"))
+  cat(blue("==================================================================\n"))
+  
+  # check for positive mode data -----------------------------------------------
+  # standard input files
+  settings$MS1_data_pos <- list.files(paste0(input, "/output_slaw_pos/"),
+                                      pattern = "data_reduced_[a-z0-9]*.csv$",
+                                      full.names = TRUE)
+  
+  settings$MS2_data_pos <- list.files(paste0(input, "/output_slaw_pos/"),
+                                      pattern = "spectra_[a-z0-9]*.mgf$",
+                                      full.names = TRUE)
+  
+  # check for study design
+  settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv")
+  
+  # check for full data matrix for isotope pattern reconstruction
+  settings$MS1_data_pos_full <- list.files(paste0(input, "/output_slaw_pos/"),
+                                           pattern = "data_full_[a-z0-9]*.csv$",
+                                           full.names = TRUE)
+  
+  # check for negative mode data -----------------------------------------------
+  # standard input files
+  settings$MS1_data_neg <- list.files(paste0(input, "/output_slaw_neg/"),
+                                      pattern = "data_reduced_[a-z0-9]*.csv$",
+                                      full.names = TRUE)
+  
+  settings$MS2_data_neg <- list.files(paste0(input, "/output_slaw_neg/"),
+                                      pattern = "spectra_[a-z0-9]*.mgf$",
+                                      full.names = TRUE)
+  # check for study design
+  settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
+  
+  # check for full data matrix for isotope pattern reconstruction
+  settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_neg/"),
+                                           pattern = "data_full_[a-z0-9]*.csv$",
+                                           full.names = TRUE)
+}
+
+# check retention indexing settings --------------------------------------------
+if(settings$rindex) {
+  if(!length(settings$rindex_time) == length(settings$rindex_index)) {
+    message("Length of RI time and index are not matching, indexing will be skipped")
+    settings$rindex <- FALSE
+    settings$rindex_df <- data.frame(rt = NA_real_,
+                                     ri = NA_real_)
+  } else {
+    settings$rindex <- TRUE
+    settings$rindex_df <- data.frame(rt = settings$rindex_time,
+                                     ri = settings$rindex_index)
+  }
+}
+
+print(settings$rindex_df)
 
 # validate settings ------------------------------------------------------------
 #settings <- validateSettings(settings)
 
 # setup output directory with all subfolder ------------------------------------
-if(!dir.exists(settings$output_dir)) dir.create(settings$output_dir)
+if(!dir.exists(settings$output_dir)) {
+  dir.create(settings$output_dir)
+}
 
 if(!dir.exists(paste0(settings$output_dir, "/QFeatures_MS1"))) {
   dir.create(paste0(settings$output_dir, "/QFeatures_MS1"))
+}
+
+if(!dir.exists(paste0(settings$output_dir, "/Spectra"))) {
+  dir.create(paste0(settings$output_dir, "/Spectra"))
 }
 
 if(!dir.exists(paste0(settings$output_dir, "/Annotation_MS1_external"))) {
@@ -159,6 +275,15 @@ if(is.na(settings$cores) | settings$cores == 1) {
 # Store yaml file in output directory
 write_yaml(settings, paste0(settings$output_dir, "/input_settings.yaml"))
 
+# settings for export of spectra -----------------------------------------------
+# custom mapping for mgf import
+custom_mapping_mgf <- c(rtime = "RTINSECONDS",
+                        acquisitionNum = "SCANS",
+                        precursorMz = "PEPMASS",
+                        precursorIntensity = "PEPMASSINT",
+                        precursorCharge = "CHARGE",
+                        msLevel = "MSLEVEL")
+
 # ==============================================================================
 # 1. Read MS1 data
 # ==============================================================================
@@ -173,8 +298,11 @@ if(length(settings$MS1_data_pos)) {
   ms1_pos_se <- import_ms1_data(settings$MS1_data_pos,
                                 samplegroup = settings$samplegroup,
                                 studydesign_file = settings$studydesign_pos,
+                                rindex = settings$rindex,
+                                rindex_df = data.frame(),
                                 prefix = "pos",                        
                                 outputdir = settings$output_dir,
+                                format = settings$format,
                                 saveRds = settings$save_rds,
                                 saveTsv = settings$save_tsv)
 } else {
@@ -185,28 +313,83 @@ if(length(settings$MS1_data_neg)) {
   ms1_neg_se <- import_ms1_data(settings$MS1_data_neg,
                                 samplegroup = settings$samplegroup,
                                 studydesign_file = settings$studydesign_neg,
+                                rindex = settings$rindex,
+                                rindex_df = data.frame(),
                                 prefix = "neg",
                                 outputdir = settings$output_dir,
+                                format = settings$format,
                                 saveRds = settings$save_rds,
                                 saveTsv = settings$save_tsv)
 } else {
   ms1_neg_se <- NA
 }
 
-
-# reconstruct positive and negative mode MS1 spectra (isotope pattern) ---------
-if(!is.na(ms1_pos_se)) {
-  ms1_pos_spectra <- import_ms1_spectra(ms1_pos_se,
-                                        settings$MS1_data_pos_full)
-} else {
-  ms1_pos_spectra <- NA
+# MS1 spectra dependent on the old or new format -------------------------------
+if(settings$format == "old") {
+  
+  # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
+  if(!is.na(ms1_pos_se)) {
+    ms1_pos_spectra <- reconstruct_ms1_spectra(ms1_pos_se,
+                                               settings$MS1_data_pos_full,
+                                               BPPARAM = BPParam)
+  } else {
+    ms1_pos_spectra <- NA
+  }
+  
+  if(!is.na(ms1_neg_se)) {
+    ms1_neg_spectra <- reconstruct_ms1_spectra(ms1_neg_se,
+                                               settings$MS1_data_neg_full,
+                                               BPPARAM = BPParam)
+  } else {
+    ms1_neg_spectra <- NA
+  }
+} else if(settings$format == "new") {
+  
+  # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
+  if(length(settings$MS2_data_pos) && check_ms1_spectra(settings$MS2_data_pos)) {
+    ms1_pos_spectra <- import_ms1_spectra(settings$MS2_data_pos)
+    ms1_pos_spectra <- addFeatureIDMS1(ms1_pos_spectra,
+                                       ms1_pos_se,
+                                       format = settings$format)
+  } else {
+    if(!is.na(ms1_pos_se)) {
+      ms1_pos_spectra <- reconstruct_ms1_spectra(ms1_pos_se,
+                                                 settings$MS1_data_pos_full)
+    } else {
+      ms1_pos_spectra <- NA
+    }
+  }
+  
+  if(length(settings$MS2_data_neg) && check_ms1_spectra(settings$MS2_data_neg)) {
+    ms1_neg_spectra <- import_ms1_spectra(settings$MS2_data_neg)
+    ms1_neg_spectra <- addFeatureIDMS1(ms1_neg_spectra,
+                                       ms1_neg_se,
+                                       format = settings$format)
+  } else {
+    if(!is.na(ms1_neg_se)) {
+      ms1_neg_spectra <- reconstruct_ms1_spectra(ms1_neg_se,
+                                                 settings$MS1_data_neg_full)
+    } else {
+      ms1_neg_spectra <- NA
+    }
+  }
 }
 
-if(!is.na(ms1_neg_se)) {
-  ms1_neg_spectra <- import_ms1_spectra(ms1_neg_se,
-                                        settings$MS1_data_neg_full)
-} else {
-  ms1_neg_spectra <- NA
+# export MS1 spectra -----------------------------------------------------------
+if(!is.na(ms1_pos_spectra)) {
+  export(ms1_pos_spectra,
+         MsBackendMgf(),
+         file = paste0(settings$output_dir,
+                       "/Spectra/pos_MS1.mgf"),
+         mapping = custom_mapping_mgf)
+}
+
+if(!is.na(ms1_neg_spectra)) {
+  export(ms1_neg_spectra,
+         MsBackendMgf(),
+         file = paste0(settings$output_dir,
+                       "/Spectra/neg_MS1.mgf"),
+         mapping = custom_mapping_mgf)
 }
 
 # ==============================================================================
@@ -233,11 +416,32 @@ if(length(settings$MS2_data_neg)) {
 
 # add MS1 ID to spectra --------------------------------------------------------
 if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
-    ms2_pos_spectra <- addFeatureID(ms2_pos_spectra, ms1_pos_se)
+    ms2_pos_spectra <- addFeatureIDMS2(ms2_pos_spectra,
+                                       ms1_pos_se,
+                                       format = settings$format)
 }
 
 if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
-    ms2_neg_spectra <- addFeatureID(ms2_pos_spectra, ms1_neg_se)
+    ms2_neg_spectra <- addFeatureIDMS2(ms2_neg_spectra,
+                                       ms1_neg_se,
+                                       format = settings$format)
+}
+
+# export MS2 spectra -----------------------------------------------------------
+if(!is.na(ms2_pos_spectra)) {
+  export(ms2_pos_spectra,
+         MsBackendMgf(),
+         file = paste0(settings$output_dir,
+                       "/Spectra/pos_MS2.mgf"),
+         mapping = custom_mapping_mgf)
+}
+
+if(!is.na(ms2_neg_spectra)) {
+  export(ms2_neg_spectra,
+         MsBackendMgf(),
+         file = paste0(settings$output_dir,
+                       "/Spectra/neg_MS2.mgf"),
+         mapping = custom_mapping_mgf)
 }
 
 # ==============================================================================
@@ -253,14 +457,15 @@ source("R/03_MS1Annotation.R")
 if(!is.na(ms1_pos_se)) {
   
   # perform annotation with in-house libraries
-  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
+  if(!is.na(settings$MS1_lib_pos) && length(list.files(settings$MS1_lib_pos))) {
      
     perform_ms1_annotation(ms1_pos_se,
-                           settings$MS1_lib_inhouse,
+                           settings$MS1_lib_pos,
                            adducts = settings$adducts_pos,
                            tolerance = settings$tolerance_MS1,
                            ppm = settings$ppm_MS1,
                            toleranceRt = settings$toleranceRt_MS1,
+                           rindex = settings$rindex,
                            outputdir = settings$output_dir,
                            ionmode = "pos",
                            saveRds = settings$save_rds,
@@ -269,14 +474,15 @@ if(!is.na(ms1_pos_se)) {
   }
 
   # perform annotation with external libraries
-  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
+  if(!is.na(settings$MS1_lib_pos_ext) && length(list.files(settings$MS1_lib_pos_ext))) {
     
     perform_ms1_annotation(ms1_pos_se,
-                           settings$MS1_lib_ext,
+                           settings$MS1_lib_pos_ext,
                            adducts = settings$adducts_pos,
                            tolerance = settings$tolerance_MS1,
                            ppm = settings$ppm_MS1,
                            toleranceRt = NA,
+                           rindex = settings$rindex,
                            outputdir = settings$output_dir,
                            ionmode = "pos",
                            saveRds = settings$save_rds,
@@ -289,14 +495,15 @@ if(!is.na(ms1_pos_se)) {
 if(!is.na(ms1_neg_se)) {
   
   # perform annotation with in-house libraries
-  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_inhouse))) {
+  if(!is.na(settings$MS1_lib_neg) && length(list.files(settings$MS1_lib_neg))) {
     
     perform_ms1_annotation(ms1_neg_se,
-                           settings$MS1_lib_inhouse,
+                           settings$MS1_lib_neg,
                            adducts = settings$adducts_neg,
                            tolerance = settings$tolerance_MS1,
                            ppm = settings$ppm_MS1,
                            toleranceRt = settings$toleranceRt_MS1,
+                           rindex = settings$rindex,
                            outputdir = settings$output_dir,
                            ionmode = "neg",
                            saveRds = settings$save_rds,
@@ -305,14 +512,15 @@ if(!is.na(ms1_neg_se)) {
   }
   
   # perform annotation with external libraries
-  if(!is.na(settings$MS1_lib_inhouse) && length(list.files(settings$MS1_lib_ext))) {
+  if(!is.na(settings$MS1_lib_neg_ext) && length(list.files(settings$MS1_lib_neg_ext))) {
     
     perform_ms1_annotation(ms1_neg_se,
-                           settings$MS1_lib_ext,
+                           settings$MS1_lib_neg_ext,
                            adducts = settings$adducts_neg,
                            tolerance = settings$tolerance_MS1,
                            ppm = settings$ppm_MS1,
                            toleranceRt = NA,
+                           rindex = settings$rindex,
                            outputdir = settings$output_dir,
                            ionmode = "neg",
                            saveRds = settings$save_rds,
@@ -336,6 +544,8 @@ if(!is.na(ms2_pos_spectra)) {
   # perform annotation with in-house libraries
   if(!is.na(settings$MS2_lib_pos) && length(list.files(settings$MS2_lib_pos))) {
     
+    print("Performing matching against in-house libraries")
+    
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos,
                            tolerance = settings$tolerance_MS2,
@@ -347,12 +557,14 @@ if(!is.na(ms2_pos_spectra)) {
                            ionmode = "pos",
                            saveRds = settings$save_rds,
                            saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           BPPARAM = SerialParam())
     
   }
   
   # perform annotation with external libraries
   if(!is.na(settings$MS2_lib_pos_ext) && length(list.files(settings$MS2_lib_pos_ext))) {
+    
+    print("Performing matching against external libraries")
     
     perform_ms2_annotation(ms2_pos_spectra,
                            settings$MS2_lib_pos_ext,
@@ -365,7 +577,7 @@ if(!is.na(ms2_pos_spectra)) {
                            ionmode = "pos",
                            saveRds = settings$save_rds,
                            saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           BPPARAM = SerialParam())
       
   }
 }
@@ -375,6 +587,8 @@ if(!is.na(ms2_neg_spectra)) {
   
   # perform annotation with in-house libraries
   if(!is.na(settings$MS2_lib_neg) && length(list.files(settings$MS2_lib_neg))) {
+    
+    print("Performing matching against in-house libraries")
     
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg,
@@ -387,12 +601,14 @@ if(!is.na(ms2_neg_spectra)) {
                            ionmode = "neg",
                            saveRds = settings$save_rds,
                            saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           BPPARAM = SerialParam())
     
   }
   
   # perform annotation with external libraries
   if(!is.na(settings$MS2_lib_neg_ext) && length(list.files(settings$MS2_lib_neg_ext))) {
+    
+    print("Performing matching against external libraries")
     
     perform_ms2_annotation(ms2_neg_spectra,
                            settings$MS2_lib_neg_ext,
@@ -405,7 +621,7 @@ if(!is.na(ms2_neg_spectra)) {
                            ionmode = "neg",
                            saveRds = settings$save_rds,
                            saveTsv = settings$save_tsv,
-                           BPPARAM = BPParam)
+                           BPPARAM = SerialParam())
     
   }
 }
@@ -421,7 +637,7 @@ cat(blue("==================================================================\n")
 source("R/05_MS1IonModeMatching.R")
 
 # perform MS1 annotation for positive mode data --------------------------------
-if(!is.null(ms1_pos_se) && !is.null(ms1_neg_se) && settings$ion_mode_match) {
+if(!is.na(ms1_pos_se) && !is.na(ms1_neg_se) && settings$ion_mode_match) {
   
   perform_ionMode_matching(ms1_pos_se,
                            ms1_neg_se,
@@ -446,7 +662,7 @@ cat(blue("==================================================================\n")
 source("R/06_SiriusExport.R")
 
 # export for Sirius positive mode data -----------------------------------------
-if(!is.null(ms2_pos_spectra) && !is.null(ms1_pos_spectra)) {
+if(!is.na(ms2_pos_spectra) && !is.na(ms1_pos_spectra)) {
   
   exportSirius(ms1_pos_se,
                ms1_pos_spectra,
@@ -454,7 +670,7 @@ if(!is.null(ms2_pos_spectra) && !is.null(ms1_pos_spectra)) {
                ionmode = "pos",
                outputdir = settings$output_dir) 
   
-} else if(!is.null(ms2_pos_spectra)) {
+} else if(!is.na(ms2_pos_spectra)) {
   
   exportSirius(ms1_pos_se,
                ms1_spectra = NA,
@@ -465,7 +681,7 @@ if(!is.null(ms2_pos_spectra) && !is.null(ms1_pos_spectra)) {
 }
 
 # export for Sirius positive mode data -----------------------------------------
-if(!is.null(ms2_neg_spectra) && !is.null(ms1_neg_spectra)) {
+if(!is.na(ms2_neg_spectra) && !is.na(ms1_neg_spectra)) {
   
   exportSirius(ms1_neg_se,
                ms1_neg_spectra,
@@ -473,7 +689,7 @@ if(!is.null(ms2_neg_spectra) && !is.null(ms1_neg_spectra)) {
                ionmode = "neg",
                outputdir = settings$output_dir) 
   
-} else if(!is.null(ms2_neg_spectra)) {
+} else if(!is.na(ms2_neg_spectra)) {
   
   exportSirius(ms1_neg_se,
                ms1_spectra = NA,
@@ -493,22 +709,24 @@ cat(blue("==================================================================\n")
 source("R/07_GnpsFbmn.R")
 
 # export for FBMN positive mode data -------------------------------------------
-if(!is.null(ms1_pos_se) && !is.null(ms2_pos_spectra)) {
+if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
   
   createFbmnInput(ms1_pos_se,
                   ms2_pos_spectra,
                   ionmode = "pos",
-                  outputdir = settings$output_dir)
+                  outputdir = settings$output_dir,
+                  format = settings$format)
   
 }
 
 # export for FBMN negative mode data -------------------------------------------
-if(!is.null(ms1_neg_se) && !is.null(ms2_neg_spectra)) {
+if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
   
   createFbmnInput(ms1_neg_se,
                   ms2_neg_spectra,
                   ionmode = "neg",
-                  outputdir = settings$output_dir)
+                  outputdir = settings$output_dir,
+                  format = settings$format)
   
 }
 
