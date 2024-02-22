@@ -80,6 +80,11 @@ settings$MS2_lib_neg <- paste0(libraries, "/MS2_inhouse_neg")
 settings$MS2_lib_pos_ext <- paste0(libraries, "/MS2_external_pos")
 settings$MS2_lib_neg_ext <- paste0(libraries, "/MS2_external_neg")
 
+# check settings for method prefix
+if(is.na(settings$method_prefix)) {
+  settings$method_prefix <- ""
+}
+
 # check if folders for annotations exists
 # MS1 libraries
 if(!dir.exists(settings$MS1_lib_pos)) {
@@ -300,7 +305,8 @@ if(length(settings$MS1_data_pos)) {
                                 studydesign_file = settings$studydesign_pos,
                                 rindex = settings$rindex,
                                 rindex_df = data.frame(),
-                                prefix = "pos",                        
+                                prefix = "pos",
+                                method_prefix = settings$method_prefix,
                                 outputdir = settings$output_dir,
                                 format = settings$format,
                                 saveRds = settings$save_rds,
@@ -316,6 +322,7 @@ if(length(settings$MS1_data_neg)) {
                                 rindex = settings$rindex,
                                 rindex_df = data.frame(),
                                 prefix = "neg",
+                                method_prefix = settings$method_prefix,
                                 outputdir = settings$output_dir,
                                 format = settings$format,
                                 saveRds = settings$save_rds,
