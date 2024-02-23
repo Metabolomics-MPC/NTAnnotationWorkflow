@@ -81,7 +81,7 @@ settings$MS2_lib_pos_ext <- paste0(libraries, "/MS2_external_pos")
 settings$MS2_lib_neg_ext <- paste0(libraries, "/MS2_external_neg")
 
 # check settings for method prefix
-if(is.na(settings$method_prefix)) {
+if(is.null(settings$method_prefix)) {
   settings$method_prefix <- ""
 }
 
