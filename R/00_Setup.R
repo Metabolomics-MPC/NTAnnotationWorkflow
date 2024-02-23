@@ -3,6 +3,9 @@
   if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
   
+  if (!require("MetaboCoreUtils")) devtools::install_github("rformassspectrometry/MetaboCoreUtils")
+  suppressPackageStartupMessages(library(MetaboCoreUtils, quietly = TRUE))
+  
   if (!require("MetaboAnnotation")) devtools::install_github("rformassspectrometry/MetaboAnnotation")
   suppressPackageStartupMessages(library(MetaboAnnotation, quietly = TRUE))
   
