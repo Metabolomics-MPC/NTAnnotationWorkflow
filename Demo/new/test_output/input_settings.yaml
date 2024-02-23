@@ -43,6 +43,7 @@ rindex_index:
 - 1800
 - 1900
 - 2000
+rindex_mz: []
 samplegroup: yes
 tolerance_MS1: 0
 ppm_MS1: 15
@@ -68,6 +69,7 @@ MS2_lib_pos: Demo/new/test_library/MS2_inhouse_pos
 MS2_lib_neg: Demo/new/test_library/MS2_inhouse_neg
 MS2_lib_pos_ext: Demo/new/test_library/MS2_external_pos
 MS2_lib_neg_ext: Demo/new/test_library/MS2_external_neg
+method_prefix: ''
 MS1_data_pos: Demo/new/test_input/output_slaw_pos/data_reduced_d88201d5aa202773e4893278bfdc0c40.csv
 MS2_data_pos: Demo/new/test_input/output_slaw_pos/spectra_d88201d5aa202773e4893278bfdc0c40.mgf
 studydesign_pos: Demo/new/test_input/output_slaw_pos/studydesign.csv
