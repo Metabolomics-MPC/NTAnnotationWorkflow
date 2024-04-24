@@ -131,36 +131,45 @@ if(settings$format == "old") {
   # standard input files
   settings$MS1_data_pos <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
                                       pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
-                                      full.names = TRUE)
+                                      full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
   
   settings$MS2_data_pos <- list.files(paste0(input, "/output_slaw_pos/fused_mgf"),
                                       pattern = "fused_mgf_[a-z0-9]*.mgf$",
-                                      full.names = TRUE)
+                                      full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
   
   # check for study design
-  settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv")
+  settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv") %>% 
+    normalizePath(winslash = "\\")
   
   # check for full data matrix for isotope pattern reconstruction
   settings$MS1_data_pos_full <- list.files(paste0(input, "/output_slaw_pos/datamatrices"),
                                            pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
-                                           full.names = TRUE)
+                                           full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
   
   # check for negative mode data -----------------------------------------------
   # standard input files
   settings$MS1_data_neg <- list.files(paste0(input, "/output_slaw_neg/datamatrices"),
                                       pattern = "annotated_peaktable_[a-z0-9]*_reduced.csv$",
-                                      full.names = TRUE)
+                                      full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
   
   settings$MS2_data_neg <- list.files(paste0(input, "/output_slaw_neg/fused_mgf"),
                                       pattern = "fused_mgf_[a-z0-9]*.mgf$",
-                                      full.names = TRUE)
+                                      full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
+  
   # check for study design
-  settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
+  settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv") %>% 
+    normalizePath(winslash = "\\")
   
   # check for full data matrix for isotope pattern reconstruction
   settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_neg/datamatrices"),
                                            pattern = "annotated_peaktable_[a-z0-9]*_full.csv$",
-                                           full.names = TRUE)
+                                           full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
   
 } else if(settings$format == "new") {
   
@@ -172,36 +181,45 @@ if(settings$format == "old") {
   # standard input files
   settings$MS1_data_pos <- list.files(paste0(input, "/output_slaw_pos/"),
                                       pattern = "data_reduced_[a-z0-9]*.csv$",
-                                      full.names = TRUE)
+                                      full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
   
   settings$MS2_data_pos <- list.files(paste0(input, "/output_slaw_pos/"),
                                       pattern = "spectra_[a-z0-9]*.mgf$",
-                                      full.names = TRUE)
+                                      full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
   
   # check for study design
-  settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv")
+  settings$studydesign_pos <- paste0(input, "/output_slaw_pos/studydesign.csv") %>% 
+    normalizePath(winslash = "\\")
   
   # check for full data matrix for isotope pattern reconstruction
   settings$MS1_data_pos_full <- list.files(paste0(input, "/output_slaw_pos/"),
                                            pattern = "data_full_[a-z0-9]*.csv$",
-                                           full.names = TRUE)
+                                           full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
   
   # check for negative mode data -----------------------------------------------
   # standard input files
   settings$MS1_data_neg <- list.files(paste0(input, "/output_slaw_neg/"),
                                       pattern = "data_reduced_[a-z0-9]*.csv$",
-                                      full.names = TRUE)
+                                      full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
   
   settings$MS2_data_neg <- list.files(paste0(input, "/output_slaw_neg/"),
                                       pattern = "spectra_[a-z0-9]*.mgf$",
-                                      full.names = TRUE)
+                                      full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
+  
   # check for study design
-  settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv")
+  settings$studydesign_neg <- paste0(input, "/output_slaw_neg/studydesign.csv") %>% 
+    normalizePath(winslash = "\\")
   
   # check for full data matrix for isotope pattern reconstruction
   settings$MS1_data_neg_full <- list.files(paste0(input, "/output_slaw_neg/"),
                                            pattern = "data_full_[a-z0-9]*.csv$",
-                                           full.names = TRUE)
+                                           full.names = TRUE) %>% 
+    normalizePath(winslash = "\\")
 }
 
 # check retention indexing settings --------------------------------------------
