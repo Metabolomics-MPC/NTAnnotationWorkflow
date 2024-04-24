@@ -76,7 +76,22 @@ import_ms1_data <- function(ms1_file,
       
     } else {
       
-      studydesgin <- rep("sample", ncol(data)-int_begin)
+      sample_names <- colnames(data)[int_begin:ncol(data)]
+
+      studydesign <- data.frame(samples = sample_names,
+                                batch = as.integer(str_extract(str_extract(sample_names,
+                                                                           "Btc\\d+"),
+                                                               "\\d+")),
+                                injection = as.integer(str_extract(str_extract(sample_names,
+                                                                               "_\\d+_"),
+                                                                "\\d+")),
+                                type = str_extract(sample_names, "CMTRX|MTRX|blank"))
+      
+      studydesign$type[which(is.na(studydesign$type))] <- "sample"
+      
+      row.names(studydesign) <- sample_names
+      
+      se@colData <- DataFrame(studydesign)
       
     }
     
