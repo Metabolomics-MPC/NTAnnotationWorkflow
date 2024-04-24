@@ -21,7 +21,7 @@ rindex_mz: []
 #
 # Data of study design and sample grouping
 # ==============================================================================
-samplegroup:	TRUE
+samplegroup:	FALSE
 
 # ==============================================================================
 # MS1 settings

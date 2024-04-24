@@ -44,7 +44,7 @@ rindex_index:
 - 1900
 - 2000
 rindex_mz: []
-samplegroup: yes
+samplegroup: no
 tolerance_MS1: 0
 ppm_MS1: 15
 adducts_pos:
