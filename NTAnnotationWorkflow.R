@@ -25,39 +25,79 @@ if(!length(args)) {
   output <- "Demo/new/test_output"
   libraries <- "Demo/new/test_library"
   settings_yaml <- paste0(input, "/settings.yaml")
+  reanno <- FALSE
   
 } else {
   
-  # check if arguments have correct length
-  if(!length(args) == 3) {
-    stop("Exactly three arguments are required: Input, output and library folder!")
+  if(length(args) == 3) {
+    
+    # check if input folder exists
+    if(!dir.exists(args[1])) {
+      stop(paste0("Input folder ", args[1], " does not exist!"))
+    }
+    
+    # check if settings file is present in input
+    if(!file.exists(paste0(args[1], "/settings.yaml"))) {
+      stop("Missing settings.yaml in input folder!")
+    }
+    
+    # check for output folder and create if not present
+    if(!dir.exists(args[2])) {
+      dir.create(args[2])
+    }
+    
+    # check for library folder
+    if(!dir.exists(args[3])) {
+      stop(paste0("Library folder ", args[3], " does not exist!"))
+    }
+    
+    input <- args[1]
+    output <- args[2]
+    libraries <- args[3]
+    settings_yaml <- paste0(input, "/settings.yaml")
+    reanno <- FALSE
+    
+  } else if(length(args) == 4) {
+    
+    print(args)
+    
+    # check if input folder exists
+    if(!dir.exists(args[1])) {
+      stop(paste0("Input folder ", args[1], " does not exist!"))
+    }
+    
+    # check if settings file is present in input
+    if(!file.exists(paste0(args[1], "/settings.yaml"))) {
+      stop("Missing settings.yaml in input folder!")
+    }
+    
+    # check for output folder and create if not present
+    if(!dir.exists(args[2])) {
+      dir.create(args[2])
+    }
+    
+    # check for library folder
+    if(!dir.exists(args[3])) {
+      stop(paste0("Library folder ", args[3], " does not exist!"))
+    }
+    
+    # check if fourth argument is a boolean
+    if(is.na(as.logical(args[4]))) {
+      stop("Last argument needs to be TRUE or FALSE")
+    }
+    
+    input <- args[1]
+    output <- args[2]
+    libraries <- args[3]
+    settings_yaml <- paste0(input, "/settings.yaml")
+    reanno <- as.logical(args[4])
+    
+  } else {
+    
+    stop("Either three or four command line arguments are required!")
+    
   }
-  
-  # check if input folder exists
-  if(!dir.exists(args[1])) {
-    stop(paste0("Input folder ", args[1], " does not exist!"))
-  }
-  
-  # check if settings file is present in input
-  if(!file.exists(paste0(args[1], "/settings.yaml"))) {
-    stop("Missing settings.yaml in input folder!")
-  }
-  
-  # check for output folder and create if not present
-  if(!dir.exists(args[2])) {
-    dir.create(args[2])
-  }
-  
-  # check for library folder
-  if(!dir.exists(args[3])) {
-    stop(paste0("Library folder ", args[3], " does not exist!"))
-  }
-  
-  input <- args[1]
-  output <- args[2]
-  libraries <- args[3]
-  settings_yaml <- paste0(input, "/settings.yaml")
-  
+
 }
 
 # ==============================================================================
@@ -236,8 +276,6 @@ if(settings$rindex) {
   }
 }
 
-print(settings$rindex_df)
-
 # validate settings ------------------------------------------------------------
 #settings <- validateSettings(settings)
 
@@ -307,166 +345,255 @@ custom_mapping_mgf <- c(rtime = "RTINSECONDS",
                         precursorCharge = "CHARGE",
                         msLevel = "MSLEVEL")
 
-# ==============================================================================
-# 1. Read MS1 data
-# ==============================================================================
-cat(blue("==================================================================\n"))
-cat(blue("Read MS1 data...\n"))
-cat(blue("==================================================================\n"))
-# source required functions ----------------------------------------------------
-source("R/01_MS1Import.R")
 
-# read positive and negative mode MS1 data -------------------------------------
-if(length(settings$MS1_data_pos)) {
-  ms1_pos_se <- import_ms1_data(settings$MS1_data_pos,
-                                samplegroup = settings$samplegroup,
-                                studydesign_file = settings$studydesign_pos,
-                                rindex = settings$rindex,
-                                rindex_df = data.frame(),
-                                prefix = "pos",
-                                method_prefix = settings$method_prefix,
-                                outputdir = settings$output_dir,
-                                format = settings$format,
-                                saveRds = settings$save_rds,
-                                saveTsv = settings$save_tsv)
-} else {
-  ms1_pos_se <- NA
-}
-
-if(length(settings$MS1_data_neg)) {
-  ms1_neg_se <- import_ms1_data(settings$MS1_data_neg,
-                                samplegroup = settings$samplegroup,
-                                studydesign_file = settings$studydesign_neg,
-                                rindex = settings$rindex,
-                                rindex_df = data.frame(),
-                                prefix = "neg",
-                                method_prefix = settings$method_prefix,
-                                outputdir = settings$output_dir,
-                                format = settings$format,
-                                saveRds = settings$save_rds,
-                                saveTsv = settings$save_tsv)
-} else {
-  ms1_neg_se <- NA
-}
-
-# MS1 spectra dependent on the old or new format -------------------------------
-if(settings$format == "old") {
+# check if it is reannotation --------------------------------------------------
+if(!reanno) {
   
-  # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
-  if(!is.na(ms1_pos_se)) {
-    ms1_pos_spectra <- reconstruct_ms1_spectra(ms1_pos_se,
-                                               settings$MS1_data_pos_full,
-                                               BPPARAM = BPParam)
+  cat(red("==================================================================\n"))
+  cat(red("Performing full workflow\n"))
+  cat(red("==================================================================\n"))
+  
+  # ==============================================================================
+  # 1. Read MS1 data
+  # ==============================================================================
+  cat(blue("==================================================================\n"))
+  cat(blue("Read MS1 data...\n"))
+  cat(blue("==================================================================\n"))
+  # source required functions ----------------------------------------------------
+  source("R/01_MS1Import.R")
+  
+  # read positive and negative mode MS1 data -------------------------------------
+  if(length(settings$MS1_data_pos)) {
+    ms1_pos_se <- import_ms1_data(settings$MS1_data_pos,
+                                  samplegroup = settings$samplegroup,
+                                  studydesign_file = settings$studydesign_pos,
+                                  rindex = settings$rindex,
+                                  rindex_df = data.frame(),
+                                  prefix = "pos",
+                                  method_prefix = settings$method_prefix,
+                                  outputdir = settings$output_dir,
+                                  format = settings$format,
+                                  saveRds = settings$save_rds,
+                                  saveTsv = settings$save_tsv)
   } else {
-    ms1_pos_spectra <- NA
+    ms1_pos_se <- NA
   }
   
-  if(!is.na(ms1_neg_se)) {
-    ms1_neg_spectra <- reconstruct_ms1_spectra(ms1_neg_se,
-                                               settings$MS1_data_neg_full,
-                                               BPPARAM = BPParam)
+  if(length(settings$MS1_data_neg)) {
+    ms1_neg_se <- import_ms1_data(settings$MS1_data_neg,
+                                  samplegroup = settings$samplegroup,
+                                  studydesign_file = settings$studydesign_neg,
+                                  rindex = settings$rindex,
+                                  rindex_df = data.frame(),
+                                  prefix = "neg",
+                                  method_prefix = settings$method_prefix,
+                                  outputdir = settings$output_dir,
+                                  format = settings$format,
+                                  saveRds = settings$save_rds,
+                                  saveTsv = settings$save_tsv)
   } else {
-    ms1_neg_spectra <- NA
+    ms1_neg_se <- NA
   }
-} else if(settings$format == "new") {
   
-  # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
-  if(length(settings$MS2_data_pos) && check_ms1_spectra(settings$MS2_data_pos)) {
-    ms1_pos_spectra <- import_ms1_spectra(settings$MS2_data_pos)
-    ms1_pos_spectra <- addFeatureIDMS1(ms1_pos_spectra,
-                                       ms1_pos_se,
-                                       format = settings$format)
-  } else {
+  # MS1 spectra dependent on the old or new format -------------------------------
+  if(settings$format == "old") {
+    
+    # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
     if(!is.na(ms1_pos_se)) {
       ms1_pos_spectra <- reconstruct_ms1_spectra(ms1_pos_se,
-                                                 settings$MS1_data_pos_full)
+                                                 settings$MS1_data_pos_full,
+                                                 BPPARAM = BPParam)
     } else {
       ms1_pos_spectra <- NA
     }
-  }
-  
-  if(length(settings$MS2_data_neg) && check_ms1_spectra(settings$MS2_data_neg)) {
-    ms1_neg_spectra <- import_ms1_spectra(settings$MS2_data_neg)
-    ms1_neg_spectra <- addFeatureIDMS1(ms1_neg_spectra,
-                                       ms1_neg_se,
-                                       format = settings$format)
-  } else {
+    
     if(!is.na(ms1_neg_se)) {
       ms1_neg_spectra <- reconstruct_ms1_spectra(ms1_neg_se,
-                                                 settings$MS1_data_neg_full)
+                                                 settings$MS1_data_neg_full,
+                                                 BPPARAM = BPParam)
     } else {
       ms1_neg_spectra <- NA
     }
+  } else if(settings$format == "new") {
+    
+    # reconstruct positive and negative mode MS1 spectra (isotope pattern) -------
+    if(length(settings$MS2_data_pos) && check_ms1_spectra(settings$MS2_data_pos)) {
+      ms1_pos_spectra <- import_ms1_spectra(settings$MS2_data_pos)
+      ms1_pos_spectra <- addFeatureIDMS1(ms1_pos_spectra,
+                                         ms1_pos_se,
+                                         format = settings$format)
+    } else {
+      if(!is.na(ms1_pos_se)) {
+        ms1_pos_spectra <- reconstruct_ms1_spectra(ms1_pos_se,
+                                                   settings$MS1_data_pos_full)
+      } else {
+        ms1_pos_spectra <- NA
+      }
+    }
+    
+    if(length(settings$MS2_data_neg) && check_ms1_spectra(settings$MS2_data_neg)) {
+      ms1_neg_spectra <- import_ms1_spectra(settings$MS2_data_neg)
+      ms1_neg_spectra <- addFeatureIDMS1(ms1_neg_spectra,
+                                         ms1_neg_se,
+                                         format = settings$format)
+    } else {
+      if(!is.na(ms1_neg_se)) {
+        ms1_neg_spectra <- reconstruct_ms1_spectra(ms1_neg_se,
+                                                   settings$MS1_data_neg_full)
+      } else {
+        ms1_neg_spectra <- NA
+      }
+    }
   }
-}
-
-# export MS1 spectra -----------------------------------------------------------
-if(!is.na(ms1_pos_spectra)) {
-  export(ms1_pos_spectra,
-         MsBackendMgf(),
-         file = paste0(settings$output_dir,
-                       "/Spectra/pos_MS1.mgf"),
-         mapping = custom_mapping_mgf)
-}
-
-if(!is.na(ms1_neg_spectra)) {
-  export(ms1_neg_spectra,
-         MsBackendMgf(),
-         file = paste0(settings$output_dir,
-                       "/Spectra/neg_MS1.mgf"),
-         mapping = custom_mapping_mgf)
-}
-
-# ==============================================================================
-# 2. Read MS2 data
-# ==============================================================================
-cat(blue("==================================================================\n"))
-cat(blue("Read MS2 data...\n"))
-cat(blue("==================================================================\n"))
-# source required functions ----------------------------------------------------
-source("R/02_MS2Import.R")
-
-# read positive and negative mode MS2 spectra ----------------------------------
-if(length(settings$MS2_data_pos)) {
-  ms2_pos_spectra <- import_ms2_spectra(settings$MS2_data_pos)
-} else {
-  ms2_pos_spectra <- NA
-}
-
-if(length(settings$MS2_data_neg)) {
-  ms2_neg_spectra <- import_ms2_spectra(settings$MS2_data_neg)
-} else {
-  ms2_neg_spectra <- NA
-}
-
-# add MS1 ID to spectra --------------------------------------------------------
-if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
+  
+  # export MS1 spectra -----------------------------------------------------------
+  if(!is.na(ms1_pos_spectra)) {
+    export(ms1_pos_spectra,
+           MsBackendMgf(),
+           file = paste0(settings$output_dir,
+                         "/Spectra/pos_MS1.mgf"),
+           mapping = custom_mapping_mgf)
+  }
+  
+  if(!is.na(ms1_neg_spectra)) {
+    export(ms1_neg_spectra,
+           MsBackendMgf(),
+           file = paste0(settings$output_dir,
+                         "/Spectra/neg_MS1.mgf"),
+           mapping = custom_mapping_mgf)
+  }
+  
+  # ==============================================================================
+  # 2. Read MS2 data
+  # ==============================================================================
+  cat(blue("==================================================================\n"))
+  cat(blue("Read MS2 data...\n"))
+  cat(blue("==================================================================\n"))
+  # source required functions ----------------------------------------------------
+  source("R/02_MS2Import.R")
+  
+  # read positive and negative mode MS2 spectra ----------------------------------
+  if(length(settings$MS2_data_pos)) {
+    ms2_pos_spectra <- import_ms2_spectra(settings$MS2_data_pos)
+  } else {
+    ms2_pos_spectra <- NA
+  }
+  
+  if(length(settings$MS2_data_neg)) {
+    ms2_neg_spectra <- import_ms2_spectra(settings$MS2_data_neg)
+  } else {
+    ms2_neg_spectra <- NA
+  }
+  
+  # add MS1 ID to spectra --------------------------------------------------------
+  if(!is.na(ms1_pos_se) && !is.na(ms2_pos_spectra)) {
     ms2_pos_spectra <- addFeatureIDMS2(ms2_pos_spectra,
                                        ms1_pos_se,
                                        format = settings$format)
-}
-
-if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
+  }
+  
+  if(!is.na(ms1_neg_se) && !is.na(ms2_neg_spectra)) {
     ms2_neg_spectra <- addFeatureIDMS2(ms2_neg_spectra,
                                        ms1_neg_se,
                                        format = settings$format)
-}
+  }
+  
+  # export MS2 spectra -----------------------------------------------------------
+  if(!is.na(ms2_pos_spectra)) {
+    export(ms2_pos_spectra,
+           MsBackendMgf(),
+           file = paste0(settings$output_dir,
+                         "/Spectra/pos_MS2.mgf"),
+           mapping = custom_mapping_mgf)
+  }
+  
+  if(!is.na(ms2_neg_spectra)) {
+    export(ms2_neg_spectra,
+           MsBackendMgf(),
+           file = paste0(settings$output_dir,
+                         "/Spectra/neg_MS2.mgf"),
+           mapping = custom_mapping_mgf)
+  }
+  
+  
+} else {
+  
+  cat(red("==================================================================\n"))
+  cat(red("Performing reannotation\n"))
+  cat(red("==================================================================\n"))
+  # ============================================================================
+  # 1./2. read data back in
+  # ============================================================================
+  # reannotation will be only supported for new format
+  if(settings$format == "old") {
+    stop("Rennotation is only supported for the new SLAW output")
+  }
+  
+  # read MS1 data --------------------------------------------------------------
+  ms1_pos_se <- readRDS(list.files(paste0(settings$output_dir,
+                                          "/QFeatures_MS1/"),
+                                   pattern = "[A-Za-z0-9]*pos_data_reduced_[a-z0-9]*_qfeatures.rds$",
+                                   full.names = TRUE))
 
-# export MS2 spectra -----------------------------------------------------------
-if(!is.na(ms2_pos_spectra)) {
-  export(ms2_pos_spectra,
-         MsBackendMgf(),
-         file = paste0(settings$output_dir,
-                       "/Spectra/pos_MS2.mgf"),
-         mapping = custom_mapping_mgf)
-}
+  ms1_neg_se <- readRDS(list.files(paste0(settings$output_dir,
+                                          "/QFeatures_MS1/"),
+                                   pattern = "[A-Za-z0-9]*neg_data_reduced_[a-z0-9]*_qfeatures.rds$",
+                                   full.names = TRUE))
+  
+  # custom mapping for mgf import, MS1 and MS2 data ----------------------------
+  custom_mapping_mgf_ms1 <- c(msLevel = "MSLEVEL",
+                              rtime = "RTINSECONDS",
+                              centroided = "centroided",
+                              precursorMz = "PEPMASS",
+                              precursorCharge = "CHARGE",
+                              title = "TITLE",
+                              precursorIntensity = "PRECURSOR_INTENSITY",
+                              energy = "ENERGY",
+                              slaw_id = "SLAW_ID",
+                              peakscount = "PEAKSCOUNT",
+                              number = "number",
+                              FEATUREID = "FEATUREID",
+                              acquisitionNum = "SCANS")
 
-if(!is.na(ms2_neg_spectra)) {
-  export(ms2_neg_spectra,
-         MsBackendMgf(),
-         file = paste0(settings$output_dir,
-                       "/Spectra/neg_MS2.mgf"),
-         mapping = custom_mapping_mgf)
+  custom_mapping_mgf_ms2 <- c(msLevel = "MSLEVEL",
+                              rtime = "RTINSECONDS",
+                              scans = "SCANS",
+                              centroided = "centroided",
+                              precursorMz = "PEPMASS",
+                              precursorCharge = "CHARGE",
+                              title = "TITLE",
+                              precursorIntensity = "PRECURSOR_INTENSITY",
+                              energy = "ENERGY",
+                              ms2_id = "MS2_ID",
+                              slaw_id = "SLAW_ID",
+                              slaw_id = "SLAW_ID",
+                              peakscount = "PEAKSCOUNT",
+                              number = "number",
+                              FEATUREID = "FEATUREID",
+                              acquisitionNum = "SCANS")
+  
+  # read isotope patterns ------------------------------------------------------
+  ms1_pos_spectra <- Spectra(paste0(settings$output_dir, "/Spectra/pos_MS1.mgf"),
+                             source = MsBackendMgf(),
+                             backend = MsBackendDataFrame(),
+                             mapping = custom_mapping_mgf_ms1)
+  
+  ms1_neg_spectra <- Spectra(paste0(settings$output_dir, "/Spectra/neg_MS1.mgf"),
+                             source = MsBackendMgf(),
+                             backend = MsBackendDataFrame(),
+                             mapping = custom_mapping_mgf_ms1)
+  
+  # read MS2 spectra -----------------------------------------------------------
+  ms2_pos_spectra <- Spectra(paste0(settings$output_dir, "/Spectra/pos_MS2.mgf"),
+                             source = MsBackendMgf(),
+                             backend = MsBackendDataFrame(),
+                             mapping = custom_mapping_mgf_ms2)
+  
+  ms2_neg_spectra <- Spectra(paste0(settings$output_dir, "/Spectra/neg_MS2.mgf"),
+                             source = MsBackendMgf(),
+                             backend = MsBackendDataFrame(),
+                             mapping = custom_mapping_mgf_ms2)
+  
 }
 
 # ==============================================================================
@@ -650,7 +777,6 @@ if(!is.na(ms2_neg_spectra)) {
     
   }
 }
-
 
 # ==============================================================================
 # 5. Perform positive negative matching
