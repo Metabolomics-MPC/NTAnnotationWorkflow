@@ -30,6 +30,9 @@ md5sum("Demo/new/test_output/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2an
   md5sum("Demo/new/test_output_reanno/Annotation_MS2_inhouse/pos_MassbankRecord_Pos_ms2annotation.tsv")
 
 # external databases, negative mode
-md5sum("Demo/new/test_output/Annotation_MS2_external/") ==
-  md5sum("Demo/new/test_output_reanno/Annotation_MS2_inhouse/neg_MassbankRecord_Neg_ms2annotation.tsv")
+md5sum("Demo/new/test_output/Annotation_MS2_external/neg_MSDIal_MSMS-Public-Neg-VS15_ms2annotation.tsv") ==
+md5sum("Demo/new/test_output_reanno/Annotation_MS2_external/neg_MSDIal_MSMS-Public-Neg-VS15_ms2annotation.tsv")
 
+# external databases, positive mode
+md5sum("Demo/new/test_output/Annotation_MS2_external/pos_MSDIal_MSMS-Public-Pos-VS15_ms2annotation.tsv") ==
+  md5sum("Demo/new/test_output_reanno/Annotation_MS2_external/pos_MSDIal_MSMS-Public-Pos-VS15_ms2annotation.tsv")
