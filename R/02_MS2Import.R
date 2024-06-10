@@ -3,7 +3,13 @@
 #' @param project_dir Path to project directory
 #' 
 #' @returns A Spectra object containing the MS2 data 
-import_ms2_spectra <- function(ms2_file){
+import_ms2_spectra <- function(ms2_file,
+                               mgf_mapping = c(rtime = "RTINSECONDS",
+                                               acquisitionNum = "SCANS",
+                                               precursorMz = "PEPMASS",
+                                               precursorIntensity = "PEPMASSINT",
+                                               precursorCharge = "CHARGE",
+                                               msLevel = "MSLEVEL")){
   
   #Load Fused MGF file
   message("Load MS2 data...")
@@ -23,7 +29,7 @@ import_ms2_spectra <- function(ms2_file){
       ms2_spectra <- Spectra(ms2_file,
                              source = MsBackendMgf(),
                              backend = MsBackendDataFrame(),
-                             mapping = custom_mapping_mgf)
+                             mapping = mgf_mapping)
       
     } else if(grepl(".msp$", ms2_file)) {
       

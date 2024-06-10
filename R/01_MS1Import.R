@@ -219,7 +219,9 @@ reconstruct_ms1_spectra <- function(se,
 #' 
 #' @returns A boolean indicating the presence of MS1 spectra
 check_ms1_spectra <- function(ms1_file) {
+  
   any(grepl("MSLEVEL=1", readLines(ms1_file)))
+  
 }
 
 #' Function for reading in MS2 Data 
@@ -227,19 +229,17 @@ check_ms1_spectra <- function(ms1_file) {
 #' @param ms1_file file path to spectrum file containing ms1 spectra
 #' 
 #' @returns A Spectra object containing the MS1 data 
-import_ms1_spectra <- function(ms1_file){
+import_ms1_spectra <- function(ms1_file,
+                               mgf_mapping = c(rtime = "RTINSECONDS",
+                                               acquisitionNum = "SCANS",
+                                               precursorMz = "PEPMASS",
+                                               precursorIntensity = "PEPMASSINT",
+                                               precursorCharge = "CHARGE",
+                                               msLevel = "MSLEVEL")){
   
-  #Load Fused MGF file
-  message("Load MS1 data...")
+  message("Load MS1 spectra...")
   
-  # custom mapping for mgf import
-  custom_mapping_mgf <- c(rtime = "RTINSECONDS",
-                          acquisitionNum = "SCANS",
-                          precursorMz = "PEPMASS",
-                          precursorIntensity = "PEPMASSINT",
-                          precursorCharge = "CHARGE",
-                          msLevel = "MSLEVEL")
-  
+  # check if file exists, read data and isolate only MS1 data
   if(file.exists(ms1_file)) {
     
     if(grepl(".mgf$", ms1_file)) {
@@ -247,7 +247,7 @@ import_ms1_spectra <- function(ms1_file){
       ms1_spectra <- Spectra(ms1_file,
                              source = MsBackendMgf(),
                              backend = MsBackendDataFrame(),
-                             mapping = custom_mapping_mgf)
+                             mapping = mgf_mapping)
       
     } else if(grepl(".msp$", ms1_file)) {
       
