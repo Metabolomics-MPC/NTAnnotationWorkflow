@@ -267,7 +267,7 @@ addFeatureIDMS1 <- function(sps,
   pb = txtProgressBar(min = 0, max = nrow(d_idx), initial = 0) 
   
   for(i in 1:nrow(d_idx)) {
-    sps$FEATUREID[which(sps$SLAW_ID == d_idx$ms1_id[i])] <- d_idx$id[i]
+    sps$FEATUREID[which(sps$slaw_id == d_idx$ms1_id[i])] <- d_idx$id[i]
     setTxtProgressBar(pb,i)
   }
   close(pb)
