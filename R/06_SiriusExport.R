@@ -72,10 +72,10 @@ exportSirius <- function(ms1_data,
         .cat("\n")
         .cat("\n")
       } else {
-        .cat("\n\n>ms2\n")
-        .cat(precursor_list[which(ftids == ftid)], " 100")
-        .cat("\n")
-        .cat("\n")
+        # .cat("\n\n>ms2\n")
+        # .cat(precursor_list[which(ftids == ftid)], " 100")
+        # .cat("\n")
+        # .cat("\n")
       }
     }
   } else {
