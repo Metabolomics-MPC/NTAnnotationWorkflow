@@ -288,6 +288,8 @@ addFeatureIDMS2 <- function(sps,
                             se,
                             format = "old"){
   
+  print(rowData(se)[[1]]$id)
+  
   # get id and ms id from summarizedExperiment
   if(format == "old") {
     
@@ -296,9 +298,17 @@ addFeatureIDMS2 <- function(sps,
     
   } else if(format == "new") {
     
-    d_idx <- data.frame(id = rowData(se)[[1]]$id,
-                        ms2_id = rowData(se)[[1]]$mgf_ms2_id)
-    
+    if("mgf_ms2_id" %in% colnames(rowData(se)[[1]])) {
+      
+      d_idx <- data.frame(id = rowData(se)[[1]]$id,
+                          ms2_id = rowData(se)[[1]]$mgf_ms2_id)
+      
+    } else if("ms2_mgf_id" %in% colnames(rowData(se)[[1]])) {
+      
+      d_idx <- data.frame(id = rowData(se)[[1]]$id,
+                          ms2_id = rowData(se)[[1]]$ms2_mgf_id)
+      
+    }
   }
   
   d_idx <- filter(d_idx, ms2_id != "")
@@ -315,10 +325,9 @@ addFeatureIDMS2 <- function(sps,
     sps$FEATUREID[which(sps$number == d_idx$ms2_id[i])] <- d_idx$id[i]
     setTxtProgressBar(pb,i)
   }
+  
   close(pb)
   
-  sps <- sps[which(!is.na(sps$FEATUREID))]
-  
-  sps
+  sps[which(!is.na(sps$FEATUREID))]
   
 }

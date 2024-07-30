@@ -58,10 +58,8 @@ import_ms1_data <- function(ms1_file,
     if(format == "old") {
       int_begin <- grep("^intensity", colnames(data))[1]
     } else if(format == "new") {
-      int_begin <- grep("^quant", colnames(data))[1]
+      int_begin <- grep("^quant|^quant_STAB", colnames(data))[1]
     }
-    
-    
     
     #Start QFeature object of class SummarizedExperiment
     se <- readQFeatures(data,
