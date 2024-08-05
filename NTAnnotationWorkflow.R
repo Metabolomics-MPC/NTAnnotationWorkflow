@@ -41,7 +41,9 @@ if(!length(args)) {
     
     # check if settings file is present in input
     if(!file.exists(paste0(args[1], "/settings.yaml"))) {
-      stop("Missing settings.yaml in input folder!")
+      stop("Missing settings.yaml or annotation_settings.yaml in input folder!")
+    } else if(!file.exists(paste0(args[1], "/annotation_settings.yaml"))) {
+      stop("Missing settings.yaml or annotation_settings.yaml in input folder!")
     }
     
     # check for output folder and create if not present
@@ -54,10 +56,17 @@ if(!length(args)) {
       stop(paste0("Library folder ", args[3], " does not exist!"))
     }
     
+    # collect all inputs for script
     input <- args[1]
     output <- args[2]
     libraries <- args[3]
-    settings_yaml <- paste0(input, "/settings.yaml")
+    
+    if(file.exists(paste0(input, "/settings.yaml"))) {
+      settings_yaml <- paste0(input, "/settings.yaml")
+    } else if(file.exists(paste0(input, "/annotation_settings.yaml"))) {
+      settings_yaml <- paste0(input, "/annotation_settings.yaml")
+    }
+    
     reanno <- FALSE
     
   } else if(length(args) == 4) {
@@ -71,7 +80,9 @@ if(!length(args)) {
     
     # check if settings file is present in input
     if(!file.exists(paste0(args[1], "/settings.yaml"))) {
-      stop("Missing settings.yaml in input folder!")
+      stop("Missing settings.yaml or annotation_settings.yaml in input folder!")
+    } else if(!file.exists(paste0(args[1], "/annotation_settings.yaml"))) {
+      stop("Missing settings.yaml or annotation_settings.yaml in input folder!")
     }
     
     # check for output folder and create if not present
@@ -89,10 +100,17 @@ if(!length(args)) {
       stop("Last argument needs to be TRUE or FALSE")
     }
     
+    # collect all inputs for script
     input <- args[1]
     output <- args[2]
     libraries <- args[3]
-    settings_yaml <- paste0(input, "/settings.yaml")
+
+    if(file.exists(paste0(input, "/settings.yaml"))) {
+      settings_yaml <- paste0(input, "/settings.yaml")
+    } else if(file.exists(paste0(input, "/annotation_settings.yaml"))) {
+      settings_yaml <- paste0(input, "/annotation_settings.yaml")
+    }
+    
     reanno <- as.logical(args[4])
     
   } else {
