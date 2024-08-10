@@ -40,11 +40,10 @@ if(!length(args)) {
     }
     
     # check if settings file is present in input
-    if(!file.exists(paste0(args[1], "/settings.yaml"))) {
+    if(!any(file.exists(c(paste0(args[1], "/settings.yaml"), paste0(args[1], "/annotation_settings.yaml"))))) {
+      print("here")
       stop("Missing settings.yaml or annotation_settings.yaml in input folder!")
-    } else if(!file.exists(paste0(args[1], "/annotation_settings.yaml"))) {
-      stop("Missing settings.yaml or annotation_settings.yaml in input folder!")
-    }
+    } 
     
     # check for output folder and create if not present
     if(!dir.exists(args[2])) {
